@@ -1,0 +1,1 @@
+Esta característica se admite en de Dynamics CRM Online 2016 Update 1. ¿Le interesa obtener esta característica? [Buscar el administrador o la persona de soporte de Dynamics 365](../basics/find-administrator-support.md)
