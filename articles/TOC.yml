@@ -1,0 +1,448 @@
+- name: Dynamics 365 Project Operations
+  href: index.md
+- name: Tareas iniciales
+  items:
+    - name: Determinar el tipo de implementación
+      href: environment/determine-deployment-type.md
+- name: Project Operations para escenarios basados en recursos/no mantenidos en existencias
+  items:
+    - name: Tareas iniciales
+      items:
+        - name: Registrarse para la suscripción de versión preliminar (basada en recursos/no mantenida en existencias)
+          href: environment/resource-sign-up-preview-subscription.md
+        - name: Configurar requisitos previos
+          items:
+            - name: Iniciar un proyecto de LCS nuevo
+              href: environment/create-lcs-project.md
+            - name: Agregar una suscripción de Azure al proyecto de LCS
+              href: environment/resource-add-azure-subscription-lcs-project.md
+        - name: Aplicar datos de demostración
+          items:
+            - name: Aplicar datos de demostración de Project Operations a un entorno hospedado en Finance Cloud
+              href: environment/resource-apply-finance-demo-data.md
+            - name: Aplicar datos de configuración en Common Data Service para Project Operations
+              href: environment/resource-apply-pro-setup-config-data.md
+        - name: Implementar entornos
+          items:
+            - name: Aprovisionar un entorno nuevo
+              href: environment/resource-provision-new-environment.md
+            - name: Modelo de seguridad
+              href: environment/security-model.md
+    - name: Proceso de venta
+      items:
+        - name: Información general sobre ventas
+          href: sales/sales-overview.md
+        - name: Configuración
+          items:
+            - name: Productos
+              href: sales/sales-products.md
+            - name: Unidades y unidades de venta
+              href: sales/sales-units-unit-groups.md
+            - name: Divisa
+              href: sales/sales-currency.md
+        - name: Administrar clientes potenciales
+          href: sales/manage-leads.md
+        - name: Administrar oportunidades
+          items:
+            - name: Encabezado de oportunidad
+              href: sales/opportunity-header.md
+            - name: Líneas basadas en proyectos
+              href: sales/project-based-lines.md
+            - name: Crear ofertas de proyecto a partir de oportunidades
+              href: sales/link-quotes-opportunities.md
+            - name: Cerrar una oportunidad
+              href: sales/close-opportunity.md
+        - name: Administrar ofertas
+          items:
+            - name: Conceptos clave
+              href: sales/quotes-key-concepts.md
+            - name: Administrar varios clientes en una oferta
+              href: sales/manage-multiple-customers-quote.md
+            - name: Líneas de ofertas basadas en productos
+              item:
+                - name: Líneas de ofertas basadas en productos de gestión de costes
+                  href: sales/costing-product-based-quote-lines.md
+                - name: Administrar unidades complejas para líneas de ofertas basadas en productos
+                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: Líneas de ofertas basadas en proyectos
+              items:
+                - name: Administrar listas de precios del proyecto
+                  href: sales/managing-project-price-lists.md
+                - name: Crear estimaciones sobre una línea de oferta
+                  href: sales/create-estimate-quote-line.md
+                - name: 'Administrar los valores ofertados, los presupuestos de clientes y los límites que no se deben superar'
+                  href: sales/manage-quoted-values-budget-limits-quote-line.md
+            - name: Copiar ofertas basadas en proyectos
+              href: sales/lose-quote.md
+            - name: Cerrar una oferta
+              href: sales/win-quote.md
+    - name: Precios y costes
+      items:
+        - name: Listas de precios de productos
+          href: pricing-costing/product-price-list.md
+        - name: Listas de precios de proyectos
+          items:
+            - name: Configuración de lista de precios para ventas
+              items:
+                - name: Configurar lista de precios de venta
+                  href: pricing-costing/sales-price-list-setup.md
+        - name: Dimensiones de precios
+          items:
+            - name: Información general de dimensiones de precios
+              href: pricing-costing/pricing-dimensions-overview.md
+            - name: Usar un campo existente como dimensión de precios
+              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Campos personalizados como dimensiones de precios
+              items:
+                - name: Crear campos y entidades personalizados como dimensiones de precios
+                  href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: Agregar campos personalizados a la configuración de precios y entidades transaccionales
+                  href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: Configurar campos personalizados como dimensiones de precios
+                  href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: Desactivación de una dimensión de precios
+              href: pricing-costing/turning-off-pricing-dimension.md
+    - name: Administración de proyectos
+      items:
+        - name: Información general de la administración de proyectos
+          href: project-management/project-management-overview.md
+        - name: Fases del proyecto
+          href: project-management/project-stages.md
+        - name: Navegar por la IU
+          href: project-management/navigate-ui.md
+        - name: Conocer el estado del proyecto
+          href: project-management/understand-project-status.md
+        - name: Definir calendarios de proyectos
+          href: project-management/define-project-calendars.md
+        - name: Actualizar un proyecto
+          href: project-management/update-project.md
+        - name: Copiar un proyecto
+          href: project-management/copy-project.md
+        - name: Planificación de la estructura de descomposición del trabajo
+          items:
+            - name: Crear asignaciones
+              href: project-management/create-assignments.md
+        - name: Estimar proyectos
+          items:
+            - name: Información general de estimar proyectos
+              href: project-management/estimating-projects-overview.md
+            - name: Estimaciones de recursos
+              href: project-management/resource-estimates.md
+            - name: Crear estimaciones de gastos
+              href: project-management/create-expense-estimates.md
+        - name: Seguimiento de proyectos
+          items:
+            - name: Información general del seguimiento de proyectos
+              href: project-management/project-tracking-overview.md
+            - name: Actualizar estimado al finalizar
+              href: project-management/update-completed-estimate.md
+        - name: Miembros del equipo del proyecto
+          items:
+            - name: Información general de los miembros del equipo del proyecto
+              href: project-management/project-team-members-overview.md
+            - name: Mantener miembros del equipo
+              href: project-management/maintain-team-members.md
+        - name: Colaboración
+          items:
+            - name: Colaboración con grupos de Office
+              href: project-management/collaboration-groups.md
+    - name: Administración de recursos
+      items:
+        - name: Conceptos clave
+          href: resource-management/resource-management-key-concepts.md
+        - name: Reservas frente a asignaciones
+          href: resource-management/booking-vs-assignment.md
+        - name: Información general sobre los modos de administración de recursos
+          href: resource-management/resource-management-mode-overview.md
+        - name: Información general del asistente de programación
+          href: resource-management/schedule-assistant-overview.md
+        - name: Reserva de recursos centralizada
+          items:
+            - name: Definir requisitos de recursos
+              href: resource-management/define-resource-requirements.md
+            - name: Actualizar requisitos de recursos
+              href: resource-management/update-resource-requirements.md
+        - name: Reserva de recursos descentralizada (híbrida)
+          items:
+            - name: Agregar miembros del equipo desde la cuadrícula Miembro del equipo
+              href: resource-management/add-team-members-grid.md
+        - name: Métodos de asignación de reservas
+          href: resource-management/booking-allocation-methods.md
+        - name: Habilidades y modelos de competencia
+          href: resource-management/skills-proficiency-models.md
+        - name: Conciliación de recursos
+          items:
+            - name: Información general de conciliación de recursos
+              href: resource-management/resource-reconciliation-overview.md
+    - name: Tiempo
+      items:
+        - name: Notas del desarrollador
+          items:
+            - name: Personalizar la cuadrícula de entrada de tiempo semanal
+              href: time/customize-weekly-time-entry-grid.md
+    - name: Gasto
+      items:
+        - name: Información general de gastos
+          href: expense/expense-overview.md
+        - name: Experiencia en administración de gastos para proyectos
+          items:
+            - name: Configuración e instalación
+              items:
+                - name: Configurar directivas
+                  href: expense/set-up-policies.md
+                - name: Configurar flujos de trabajo
+                  href: expense/set-up-workflows.md
+                - name: Administrar delegación
+                  href: expense/manage-delegation.md
+                - name: Configurar los parámetros de administración de gastos
+                  href: expense/configure-expense-management-parameters.md
+                - name: Configurar la integración de tarjetas de crédito
+                  href: expense/set-up-credit-card-integration.md
+                - name: Configurar categorías de gasto
+                  href: expense/set-up-expense-categories.md
+            - name: Crear informes de gastos
+              items:
+                - name: Distribuciones en un informe de gastos
+                  href: expense/distributions-expense-report.md
+            - name: Aprobar informes de gastos
+              items:
+                - name: Informes de gastos y múltiples aprobadores
+                  href: expense/expense-reports-multiple-approvers.md
+            - name: Registrar informes de gastos
+              href: expense/posting-expense-reports.md
+            - name: Solicitud de viaje
+              href: expense/travel-requisition.md
+            - name: Anticipo de efectivo
+              href: expense/cash-advance.md
+            - name: Dietas
+              href: expense/per-diems.md
+            - name: Administración financiera
+              items:
+                - name: Recuperación de IVA
+                  href: expense/vat-recovery.md
+            - name: Experiencia de gasto nuevo
+              items:
+                - name: Informes de gastos reinventados
+                  href: expense/expense-reports-reimagined.md
+                - name: Conciliar recibos y gastos mediante OCR
+                  href: expense/match-receipt-expense-ocr.md
+            - name: Gestión de gastos móviles
+              href: expense/expense-using-mobile.md
+    - name: Aprobaciones
+      items:
+        - name: Información general de aprobaciones
+          href: approvals/approvals-overview.md
+    - name: Datos reales
+      items:
+        - name: Información general de datos reales
+          href: actuals/actuals-overview.md
+        - name: Diarios de corrección
+          items:
+            - name: Crear y confirmar diarios de corrección
+              href: actuals/create-confirm-correction-journals.md
+    - name: Facturación proforma
+      items:
+        - name: Crear una factura proforma manual
+          href: proforma-invoicing/create-manual-proforma-invoice.md
+        - name: Facturas corregidas
+          href: proforma-invoicing/corrective-invoices.md
+        - name: Configurar la creación de facturas automatizadas
+          href: proforma-invoicing/configure-automated-invoice-creation.md
+    - name: Contabilidad de proyecto
+      items:
+        - name: Configurar categorías de proyectos
+          href: project-accounting/configure-project-categories.md
+        - name: Configurar la contabilidad para proyectos facturables
+          href: project-accounting/configure-accounting-billable-projects.md
+- name: 'Implementación lite: del acuerdo a la facturación proforma'
+  items:
+    - name: Tareas iniciales
+      items:
+        - name: Registrarse para una suscripción de versión preliminar (lite)
+          href: environment/lite-preview-subscription-sign-up.md
+        - name: 'Implementar implementación de Project Operations Lite: del acuerdo a la facturación proforma'
+          href: environment/lite-deployment.md
+        - name: Aplicar datos de configuración y configuración de demostración
+          href: environment/lite-apply-demo-setup-config-data.md
+        - name: Modelo de seguridad
+          href: environment/security-model.md
+    - name: Proceso de venta
+      items:
+        - name: Configuración
+          items:
+            - name: Productos
+              href: sales/sales-products.md
+            - name: Unidades y unidades de venta
+              href: sales/sales-units-unit-groups.md
+            - name: Divisa
+              href: sales/sales-currency.md
+        - name: Administrar clientes potenciales
+          href: pro/sales/managing-leads-sales.md
+        - name: Administrar oportunidades
+          items:
+            - name: Encabezado de oportunidad
+              href: pro/sales/opportunity-header-sales.md
+            - name: Líneas basadas en proyectos
+              href: pro/sales/project-based-lines-sales.md
+            - name: Crear ofertas de proyecto a partir de oportunidades
+              href: sales/link-quotes-opportunities.md
+            - name: Líneas de oportunidad basadas en productos
+              href: pro/sales/product-based-lines-sales.md
+            - name: Cerrar una oportunidad
+              href: sales/close-opportunity.md
+        - name: Administrar ofertas
+          items:
+            - name: Conceptos clave de oferta de proyecto
+              href: pro/sales/quotes-key-concepts-sales.md
+            - name: Información de resumen sobre una oferta de proyecto (Ventas)
+              href: pro/sales/quote-values-budget-limits-contract-sales.md
+            - name: Administración de varios clientes en ofertas de proyectos
+              href: pro/sales/manage-multiple-customers-quote-sales.md
+            - name: Líneas de ofertas basadas en productos
+              items:
+                - name: Líneas de ofertas basadas en productos de gestión de costes
+                  href: pro/sales/costing-product-based-quote-lines-sales.md
+                - name: 'Administración de unidades complejas, como por usuario, por mes para líneas de ofertas basadas en productos'
+                  href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
+            - name: Líneas de ofertas basadas en proyectos
+              items:
+                - name: Administrar listas de precios de proyectos en ofertas de proyectos
+                  href: pro/sales/manage-project-price-lists-sales.md
+                - name: Administración de varios clientes en líneas de ofertas basadas en proyectos
+                  href: pro/sales/manage-multiple-customers-quote-line-sales.md
+                - name: Asignar proyectos y tareas a una línea de oferta basada en proyecto
+                  href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: Calcular una línea de oferta basada en proyecto
+                  href: pro/sales/create-estimate-quote-line-sales.md
+                - name: Líneas de ofertas basadas en proyectos (ventas)
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
+        - name: Copiar ofertas basadas en proyectos
+          href: sales/lose-quote.md
+        - name: Cerrar una oferta
+          href: pro/sales/win-quote-sales.md
+    - name: Precios y costes
+      items:
+        - name: Listas de precios de proyectos
+          items:
+            - name: Configuración de lista de precios para ventas
+              items:
+                - name: Configurar lista de precios de venta
+                  href: pricing-costing/sales-price-list-setup.md
+        - name: Dimensiones de precios
+          items:
+            - name: Usar un campo existente como dimensión de precios
+              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Campos personalizados como dimensión de precios
+              items:
+                - name: Crear campos y entidades personalizados como dimensiones de precios
+                  href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: Agregar campos personalizados a la configuración de precios y entidades transaccionales
+                  href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: Configurar campos personalizados como dimensiones de precios
+                  href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: Desactivación de una dimensión de precios
+              href: pricing-costing/turning-off-pricing-dimension.md
+    - name: Administración de proyectos
+      items:
+        - name: Información general de la administración de proyectos
+          href: project-management/project-management-overview.md
+        - name: Fases del proyecto
+          href: project-management/project-stages.md
+        - name: Navegación por la interfaz de usuario
+          href: project-management/navigate-ui.md
+        - name: Conocer el estado del proyecto
+          href: project-management/understand-project-status.md
+        - name: Definir calendarios de proyectos
+          href: project-management/define-project-calendars.md
+        - name: Actualizar un proyecto
+          href: project-management/update-project.md
+        - name: Copiar un proyecto
+          href: project-management/copy-project.md
+        - name: Planificación de la estructura de descomposición del trabajo
+          items:
+            - name: Crear asignaciones
+              href: project-management/create-assignments.md
+        - name: Estimar proyectos
+          items:
+            - name: Información general de estimar proyectos
+              href: project-management/estimating-projects-overview.md
+            - name: Estimaciones de recursos
+              href: project-management/resource-estimates.md
+            - name: Crear estimaciones de gastos
+              href: project-management/create-expense-estimates.md
+        - name: Seguimiento de proyectos
+          items:
+            - name: Información general del seguimiento de proyectos
+              href: project-management/project-tracking-overview.md
+            - name: Actualizar estimado al finalizar
+              href: project-management/update-completed-estimate.md
+        - name: Miembros del equipo del proyecto
+          items:
+            - name: Información general de los miembros del equipo del proyecto
+              href: project-management/project-team-members-overview.md
+            - name: Mantener miembros del equipo
+              href: project-management/maintain-team-members.md
+        - name: Colaboración
+          items:
+            - name: Colaboración con grupos de Office
+              href: project-management/collaboration-groups.md
+    - name: Administración de recursos
+      items:
+        - name: Conceptos clave
+          href: resource-management/resource-management-key-concepts.md
+        - name: Reservas frente a asignaciones
+          href: resource-management/booking-vs-assignment.md
+        - name: Información general sobre los modos de administración de recursos
+          href: resource-management/resource-management-mode-overview.md
+        - name: Información general del asistente de programación
+          href: resource-management/schedule-assistant-overview.md
+        - name: Reserva de recursos centralizada
+          items:
+            - name: Definir requisitos de recursos
+              href: resource-management/define-resource-requirements.md
+            - name: Actualizar requisitos de recursos
+              href: resource-management/update-resource-requirements.md
+        - name: Reserva de recursos descentralizada (híbrida)
+          items:
+            - name: Agregar miembros del equipo desde la cuadrícula Miembro del equipo
+              href: resource-management/add-team-members-grid.md
+        - name: Métodos de asignación de reservas
+          href: resource-management/booking-allocation-methods.md
+        - name: Habilidades y modelos de competencia
+          href: resource-management/skills-proficiency-models.md
+        - name: Conciliación de recursos
+          items:
+            - name: Información general de conciliación de recursos
+              href: resource-management/resource-reconciliation-overview.md
+    - name: Tiempo
+      items:
+        - name: Notas del desarrollador
+          items:
+            - name: Personalizar la cuadrícula de entrada de tiempo semanal
+              href: time/customize-weekly-time-entry-grid.md
+    - name: Gasto
+      items:
+        - name: Información general de gastos
+          href: expense/expense-overview.md
+        - name: Entrada de gastos (ligeros)
+          href: expense/basic-expense.md
+    - name: Aprobaciones
+      items:
+        - name: Información general de aprobaciones
+          href: approvals/approvals-overview.md
+    - name: Datos reales
+      items:
+        - name: Información general de datos reales
+          href: actuals/actuals-overview.md
+        - name: Diarios de corrección
+          items:
+            - name: Crear y confirmar diarios de corrección
+              href: actuals/create-confirm-correction-journals.md
+        - name: Facturación proforma
+          items:
+            - name: Crear una factura proforma manual
+              href: proforma-invoicing/create-manual-proforma-invoice.md
+            - name: Facturas corregidas
+              href: proforma-invoicing/corrective-invoices.md
+            - name: Configurar la creación de facturas automatizadas
+              href: proforma-invoicing/configure-automated-invoice-creation.md
