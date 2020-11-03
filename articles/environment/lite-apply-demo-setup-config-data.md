@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 42e02f393e89d20b2a462645f519a3792bee8f2f
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949087"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085013"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Aplique la configuración de demostración y los datos de configuración para la implementación simplificada de Project Operations: facturación de oferta a proforma
 
@@ -25,7 +25,7 @@ _**Implementación simplificada: facturación de oferta a proforma_
 
 ![Migración de la configuración](./media/1ConfigurationMigration.png)
 
-4. En la página 2 del asistente CMT, seleccione **Office 365** como **Tipo de implementación**.
+4. En la página 2 del asistente CMT, seleccione **Microsoft 365** como **Tipo de implementación**.
 5. Seleccione las casillas **Mostrar una lista de organizaciones disponibles** y **Mostrar avanzadas**.
 6. Seleccione la región de su inquilino, introduzca sus credenciales y luego seleccione **Iniciar sesión**.
 

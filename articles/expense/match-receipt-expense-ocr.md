@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 02c1bafbe907a657689b610ae792f88085320903
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 62d6316c9602089518a94267d8ef2b7fb8d59cd0
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897022"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085113"
 ---
 # <a name="match-a-receipt-to-an-expense-using-ocr"></a>Emparejar un recibo y un gasto mediante OCR
 
@@ -40,18 +39,18 @@ La entrada de gastos se ha mejorado mediante la introducción del procesamiento 
 Para adjuntar automáticamente recibos que incluyen transacciones con tarjeta de crédito cuando se crea un informe de gastos, complete los siguientes pasos.
 
   1. Abra el área de trabajo **Administración de gastos**.
-  2. En la pestaña **Recibos**, verifique que existan recibos sin adjuntar. También puede cargar recibos en la pestaña **Recibos**.
-  3. En la pestaña **Gastos**, verifique que existan gastos sin adjuntar. Normalmente, el administrador de gastos importa estos gastos del proveedor de la tarjeta de crédito.
+  2. En la pestaña **Recibos** , verifique que existan recibos sin adjuntar. También puede cargar recibos en la pestaña **Recibos**.
+  3. En la pestaña **Gastos** , verifique que existan gastos sin adjuntar. Normalmente, el administrador de gastos importa estos gastos del proveedor de la tarjeta de crédito.
   4. Seleccione **Nuevo informe de gastos**. Tenga en cuenta que ahora también puede incluir gastos y recibos cuando cree un informe de gastos. Si agrega tanto gastos como recibos, se activa la coincidencia automática de los recibos con los gastos.
 
 ## <a name="create-or-match-receipts-to-an-expense-report"></a>Cerrar o hacer coincidir recibos a un informe de gastos
 Para crear un gasto o hacer coincidir un gasto de un recibo, complete los siguientes pasos.
 
-  1. En un informe de gastos, en la pestaña **Recibos**, adjunte un recibo seleccionando **Agregar recibos**.
+  1. En un informe de gastos, en la pestaña **Recibos** , adjunte un recibo seleccionando **Agregar recibos**.
   2. Debajo de la imagen cargada del recibo, observe las opciones **Crear** y **Coincidir**.
 
       - Seleccione **Crear** para crear una transacción de gastos introducida manualmente y completar los valores que se extraen del recibo.
-      - Si selecciona **Coincidir**, el sistema intenta hacer coincidir un gasto existente con el recibo.
+      - Si selecciona **Coincidir** , el sistema intenta hacer coincidir un gasto existente con el recibo.
 
 ## <a name="installation"></a>Instalación
 
@@ -65,7 +64,7 @@ Para utilizar estas funciones avanzadas de gastos, instale el complemento Servic
 6. Siga la guía de instalación y acepte los términos y condiciones.
 7. Seleccionar **Instalar**.
 
-En el área de trabajo **Administración de características**, active las siguientes características:
+En el área de trabajo **Administración de características** , active las siguientes características:
 
 - Informes de gastos reinventados
 - Coincidencia automática y creación de gastos a partir de un recibo

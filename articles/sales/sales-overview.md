@@ -1,6 +1,6 @@
 ---
 title: Información general de los procesos de venta
-description: En este tema se proporciona información sobre los procesos de ventas básicos.
+description: En este tema se proporciona información sobre procesos de ventas básicos.
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -9,7 +9,6 @@ ms.custom:
 ms.date: 09/23/2019
 ms.topic: article
 ms.prod: ''
-ms.technology: ''
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +16,12 @@ search.audienceType:
 - customizer
 - enduser
 search.app: ''
-ms.openlocfilehash: e66d96a940f3b22d5d1f3372d2b6767a4482d925
-ms.sourcegitcommit: 7750485f8685a2ca5e1b3c165ead24a3b583c447
+ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3892316"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085347"
 ---
 # <a name="sales-processes-overview"></a>Información general de los procesos de venta
 
@@ -57,12 +56,12 @@ Por ejemplo, su compañía podría tener las seis fases que se indican a continu
  
 Su organización puede usar distintas entidades para representar la misma operación a medida que evoluciona. Al principio del proceso de ventas, una operación se representa con la entidad Oportunidad. A medida que pasa el tiempo y afloran más detalles, puede utilizar estimaciones generales para crear una o varias ofertas. Si las partes interesadas del cliente e internas revisan una de dichas ofertas, la operación pasa a representarse con la entidad Oferta. Cuando el cliente acepta la oferta, la operación pasa a representarse con un contrato de proyecto o una SOW. Para facilitar este comportamiento, los BPF se estructuran de manera a que cada fase del proceso esté vinculada a una tabla de base de datos distinta.
 
-La fase **Calificar** del proceso de ventas se puede respaldar con la entidad Oportunidad. Las fases **Estimar** y **Revisión interna** se pueden respaldar con la entidad Oferta. Las fases **Contrato**, **Entrega** y **Cerrar** Se pueden respaldar con la entidad Contrato de proyecto.
+La fase **Calificar** del proceso de ventas se puede respaldar con la entidad Oportunidad. Las fases **Estimar** y **Revisión interna** se pueden respaldar con la entidad Oferta. Las fases **Contrato** , **Entrega** y **Cerrar** Se pueden respaldar con la entidad Contrato de proyecto.
 
 A medida que las operaciones pasen por las distintas fases, se le pedirá que cree el registro de entidad correspondiente como ayuda y guía durante el proceso. Las fases pueden ser condicionales. Por ejemplo, si necesita una revisión interna de una oferta solo si la oferta usa una lista de precios personalizada, puede configurar la condición en la fase adecuada del proceso de negocio. La fase **Revisión interna** solo se muestra para las ofertas que utilizan una lista de precios personalizada. Para el resto de operaciones y ofertas, la fase **Estimación** va seguida de la fase **Contrato**.
 
 > [!NOTE]
-> Project Operations tiene páginas específicas para registros de entidad de Oportunidad, Oferta, Pedido y Factura. Debe crear estos registros utilizando las páginas de información del proyecto para estas entidades. De lo contrario, no podrá abrir los registros desde la página **Información del proyecto**. Si desea abrir un registro desde la página **Información del proyecto**, debe eliminar el registro y volver a crearlo utilizando la página **Información del proyecto** donde la lógica de negocios para cada uno de estos tipos de entidad garantiza que el campo **Tipo** del registro se establece correctamente, y todos los conceptos obligatorios se inicializan correctamente.
+> Project Operations tiene páginas específicas para registros de entidad de Oportunidad, Oferta, Pedido y Factura. Debe crear estos registros utilizando las páginas de información del proyecto para estas entidades. De lo contrario, no podrá abrir los registros desde la página **Información del proyecto**. Si desea abrir un registro desde la página **Información del proyecto** , debe eliminar el registro y volver a crearlo utilizando la página **Información del proyecto** donde la lógica de negocios para cada uno de estos tipos de entidad garantiza que el campo **Tipo** del registro se establece correctamente, y todos los conceptos obligatorios se inicializan correctamente.
 
 
 ## <a name="track-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>Realizar un seguimiento de revisiones de ofertas y planes de proyecto en el ciclo de ventas

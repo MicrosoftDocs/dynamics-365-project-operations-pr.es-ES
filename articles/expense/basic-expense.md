@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 746d5d9ff56222e7d6b9b6e264db75d5814365c7
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965898"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085032"
 ---
 # <a name="expense-entry-lite"></a>Entrada de gastos (simplificados)
 
@@ -28,7 +28,7 @@ Para obtener más información sobre las capacidades de gastos en Dynamics 365 P
 Puede capturar sus gastos para enviarlos al aprobador.
 
 1. Vaya a **Gastos** y seleccione **Nuevo**.
-2. En la página **Nuevo gasto**, especifique la información de gasto requerida y, a continuación, seleccione **Guardar**.
+2. En la página **Nuevo gasto** , especifique la información de gasto requerida y, a continuación, seleccione **Guardar**.
 
 ## <a name="submit-a-basic-expense"></a>Enviar un gasto básico
 

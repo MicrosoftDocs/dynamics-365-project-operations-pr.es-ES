@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 2c20e4a7fa9748e03bf1729fc2f7bdbfc2f292d1
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908628"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085016"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Recuperación del IVA en la gestión de gastos
 
@@ -21,7 +21,7 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no en e
 
 Para recibir reembolsos en transacciones elegibles de impuesto al valor añadido (IVA), una empresa u organización debe identificar, recopilar, verificar y enviar información precisa. Este proceso incluye múltiples tareas y, dependiendo del tamaño de su empresa, puede incluir varios empleados o roles.
 
-Para recuperar el IVA en el módulo **Administración de gastos**, se deben completar los siguientes requisitos previos:
+Para recuperar el IVA en el módulo **Administración de gastos** , se deben completar los siguientes requisitos previos:
 
 - Se deben crear códigos de impuestos para países/regiones que se asignan a categorías de gastos.
 - Se debe crear un grupo de impuestos sobre las ventas para cada código de impuestos.

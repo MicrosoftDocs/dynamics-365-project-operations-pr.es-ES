@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9376e0b268a3ab682716da604ceecfa1e878da68
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 24538ed1d610a0cae4c2badc0fd33c2f738a8338
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897652"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085092"
 ---
 # <a name="define-skills-and-proficiencies"></a>Definir habilidades y competencias
 
@@ -39,7 +38,7 @@ Las habilidades para los recursos se clasifican según los modelos de competenci
 
 1. Para crear un modelo de competencia, vaya a **Recursos** \> **Modelos de competencia** y, a continuación, seleccione **Nuevo**.
 2. En el nuevo modelo de calificación, especifique el valor mínimo y máximo de calificación y la entidad que se está calificando.
-3. En la subcuadrícula **Valores de calificación**, puede definir los diferentes valores de calificación, desde el mínimo hasta el máximo.
+3. En la subcuadrícula **Valores de calificación** , puede definir los diferentes valores de calificación, desde el mínimo hasta el máximo.
 
 
-Estos valores de calificación se muestran en los filtros **Requisitos de recursos**, **Tablero de programación** y **Asistente de programación**.
+Estos valores de calificación se muestran en los filtros **Requisitos de recursos** , **Tablero de programación** y **Asistente de programación**.

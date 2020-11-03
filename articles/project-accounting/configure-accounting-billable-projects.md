@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 32031742b1a9580b9ebdbaf6952a998733be5e8f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896166"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085062"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Configurar la contabilidad para proyectos facturables
 
@@ -21,8 +21,8 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no mant
 
 Dynamics 365 Project Operations admite diversas opciones de contabilidad para proyectos facturables que incluyen transacciones de tiempo y material y precio fijo.
 
-- **Transacciones de tiempo y material**: estas transacciones se facturan a medida que avanza el trabajo en función del consumo de horas, gastos, elementos o tarifas del proyecto. Estos costes de transacción se pueden confrontar con los ingresos de cada transacción y el proyecto se factura a medida que avanza el trabajo. Los ingresos del proyecto también se pueden acumular en el momento en que se produce la transacción. Durante la facturación, se reconocen los ingresos y, si corresponde, se revierten los ingresos acumulados.
-- **Transacciones de precio fijo**: estas transacciones se facturan de acuerdo con un programa de facturación que se basa en un contrato de proyecto. Los ingresos por transacciones de precio fijo pueden reconocerse en la facturación o calcularse y contabilizarse periódicamente, de acuerdo con los métodos **Contrato completado** o **Porcentaje completado**.
+- **Transacciones de tiempo y material** : estas transacciones se facturan a medida que avanza el trabajo en función del consumo de horas, gastos, elementos o tarifas del proyecto. Estos costes de transacción se pueden confrontar con los ingresos de cada transacción y el proyecto se factura a medida que avanza el trabajo. Los ingresos del proyecto también se pueden acumular en el momento en que se produce la transacción. Durante la facturación, se reconocen los ingresos y, si corresponde, se revierten los ingresos acumulados.
+- **Transacciones de precio fijo** : estas transacciones se facturan de acuerdo con un programa de facturación que se basa en un contrato de proyecto. Los ingresos por transacciones de precio fijo pueden reconocerse en la facturación o calcularse y contabilizarse periódicamente, de acuerdo con los métodos **Contrato completado** o **Porcentaje completado**.
 
 Un proyecto se considera facturable cuando está asociado con una o más líneas de contrato. Una línea de contrato de proyecto define por sí misma qué método de facturación y tipos de transacciones están permitidos.
 
@@ -42,50 +42,50 @@ Complete los siguientes pasos para crear un nuevo perfil de costes e ingresos de
 
 1. Vaya a **Gestión de proyectos y contabilidad** > **Preparar** > **Contabilidad** > **Perfiles de costes e ingresos del proyecto**. 
 2. Seleccione **Nuevo** para crear un nuevo perfil de costes e ingresos del proyecto.
-3. En el campo **Nombre**, introduzca el nombre y una breve descripción del perfil.
-4. En el campo **Método de facturación**, seleccione **Tiempo y material** o **Precio fijo**.
+3. En el campo **Nombre** , introduzca el nombre y una breve descripción del perfil.
+4. En el campo **Método de facturación** , seleccione **Tiempo y material** o **Precio fijo**.
 5. Expanda la ficha desplegable **Libro mayor**. Los campos de esta pestaña definen los principios contables que se utilizan cuando las transacciones del proyecto se registran en el diario de integración de Operaciones del proyecto y luego se facturan mediante la propuesta de factura del proyecto.
-6. Seleccione la información adecuada en los siguientes campos de la ficha desplegable **Libro mayor**:
+6. Seleccione la información adecuada en los siguientes campos de la ficha desplegable **Libro mayor** :
 
-    - **Costes de registro, hora**:
+    - **Costes de registro, hora** :
 
-       - *Sin libro mayor*: el coste de las transacciones de tiempo no se contabilizará en el Libro mayor cuando se registre el diario de integración de Operaciones del proyecto. Sin embargo, el contable puede registrar costes utilizando la función Registrar costes en un momento posterior.
-       - **Saldo**: el coste de las transacciones de tiempo se cargará al tipo de cuenta del Libro mayor, *WIP: valor de costo* y se abonará a la *Cuenta de asignación de nómina* en la configuración de registro del Libro mayor. El contable utilizará la función Registrar costes para mover este coste de una cuenta de saldo a una cuenta de pérdidas y ganancias de forma periódica.
-       - **Pérdidas y ganancias**: al registrar el diario de integración de Operaciones del proyecto, el coste de la transacción de tiempo se cargará al tipo de cuenta del Libro mayor *Coste*, y se abonará a la *Cuenta de asignación de nómina* definida en la pestaña **Coste** de la página **Configuración de registro contable** (**Gestión de proyectos y contabilidad** \> **Configuración** \> **Registro** \> **Configuración de registro contable**). Esta es la configuración más común para transacciones de tiempo y material.
-        - *Nunca al Libro mayor*: el coste de las transacciones de tiempo nunca se contabilizará en el Libro mayor.
+       - *Sin libro mayor* : el coste de las transacciones de tiempo no se contabilizará en el Libro mayor cuando se registre el diario de integración de Operaciones del proyecto. Sin embargo, el contable puede registrar costes utilizando la función Registrar costes en un momento posterior.
+       - **Saldo** : el coste de las transacciones de tiempo se cargará al tipo de cuenta del Libro mayor, *WIP: valor de costo* y se abonará a la *Cuenta de asignación de nómina* en la configuración de registro del Libro mayor. El contable utilizará la función Registrar costes para mover este coste de una cuenta de saldo a una cuenta de pérdidas y ganancias de forma periódica.
+       - **Pérdidas y ganancias** : al registrar el diario de integración de Operaciones del proyecto, el coste de la transacción de tiempo se cargará al tipo de cuenta del Libro mayor *Coste* , y se abonará a la *Cuenta de asignación de nómina* definida en la pestaña **Coste** de la página **Configuración de registro contable** ( **Gestión de proyectos y contabilidad** \> **Configuración** \> **Registro** \> **Configuración de registro contable** ). Esta es la configuración más común para transacciones de tiempo y material.
+        - *Nunca al Libro mayor* : el coste de las transacciones de tiempo nunca se contabilizará en el Libro mayor.
 
-    - **Registro de costes, gasto**:
+    - **Registro de costes, gasto** :
 
-         - **Saldo**: al registrar el diario de integración de Operaciones del proyecto, el coste de la transacción de gastos se cargará en el tipo de cuenta del Libro mayor *WIP: valor de coste* como se define en la pestaña **Coste** de la página **Configuración de registro contable** y se abona en la cuenta de compensación en la línea del diario. Las cuentas de compensación predeterminadas para gastos se definen en **Gestión de proyectos y contabilidad** > **Configuración** \> **Registro** \> **Cuenta de compensación predeterminada para gastos**. El contable utilizará la función **Registrar costes** para mover este coste desde la cuenta de saldo a la cuenta de pérdidas y ganancias de forma periódica.
-        - **Pérdidas y ganancias**: al registrar el diario de integración de Operaciones del proyecto, el coste de la transacción de gastos se cargará en el tipo de cuenta del Libro mayor *WIP: valor de coste* como se define en la pestaña **Coste** de la página **Configuración de registro contable** y se abona en la cuenta de compensación en la línea del diario. Las cuentas de compensación predeterminadas para gastos se definen en **Gestión de proyectos y contabilidad** \> **Configuración** \> **Registro** \> **Cuenta de compensación predeterminada para gastos**.
+         - **Saldo** : al registrar el diario de integración de Operaciones del proyecto, el coste de la transacción de gastos se cargará en el tipo de cuenta del Libro mayor *WIP: valor de coste* como se define en la pestaña **Coste** de la página **Configuración de registro contable** y se abona en la cuenta de compensación en la línea del diario. Las cuentas de compensación predeterminadas para gastos se definen en **Gestión de proyectos y contabilidad** > **Configuración** \> **Registro** \> **Cuenta de compensación predeterminada para gastos**. El contable utilizará la función **Registrar costes** para mover este coste desde la cuenta de saldo a la cuenta de pérdidas y ganancias de forma periódica.
+        - **Pérdidas y ganancias** : al registrar el diario de integración de Operaciones del proyecto, el coste de la transacción de gastos se cargará en el tipo de cuenta del Libro mayor *WIP: valor de coste* como se define en la pestaña **Coste** de la página **Configuración de registro contable** y se abona en la cuenta de compensación en la línea del diario. Las cuentas de compensación predeterminadas para gastos se definen en **Gestión de proyectos y contabilidad** \> **Configuración** \> **Registro** \> **Cuenta de compensación predeterminada para gastos**.
        
-    - **Facturación en cuenta**:
+    - **Facturación en cuenta** :
 
-        - **Saldo**: al publicar la propuesta de factura del proyecto, se abonará una transacción en cuenta (hito de facturación) en el tipo de cuenta de Libro mayor *WIP facturado, en cuenta* como se define en la pestaña **Ingresos** de la página **Configuración de registro contable** y se carga en la cuenta de saldo del cliente.
-         - **Pérdidas y ganancias**: al publicar la propuesta de factura del proyecto, se abonará una transacción en cuenta (hito de facturación) en el tipo de cuenta de Libro mayor *Ingreso facturado, en cuenta* como se define en la pestaña **Ingresos** de la página **Configuración de registro contable** y se carga en la cuenta de saldo del cliente. Las cuentas de saldo de clientes se definen en **Clientes** \> **Configuración** \> **Perfiles de registro de clientes**.
+        - **Saldo** : al publicar la propuesta de factura del proyecto, se abonará una transacción en cuenta (hito de facturación) en el tipo de cuenta de Libro mayor *WIP facturado, en cuenta* como se define en la pestaña **Ingresos** de la página **Configuración de registro contable** y se carga en la cuenta de saldo del cliente.
+         - **Pérdidas y ganancias** : al publicar la propuesta de factura del proyecto, se abonará una transacción en cuenta (hito de facturación) en el tipo de cuenta de Libro mayor *Ingreso facturado, en cuenta* como se define en la pestaña **Ingresos** de la página **Configuración de registro contable** y se carga en la cuenta de saldo del cliente. Las cuentas de saldo de clientes se definen en **Clientes** \> **Configuración** \> **Perfiles de registro de clientes**.
 
-   Cuando define los perfiles de contabilización para los métodos de facturación de tiempo y material, tiene la opción de acumular ingresos por tipo de transacción (hora, gasto y tarifa). Si la opción **Acumular ingresos** está configurada en **Sí**, las transacciones de ventas no facturadas del diario de Integración de Operaciones del Proyecto se registrarán en el libro mayor. El valor de las ventas se carga a **WIP: cuenta de valor de ventas** y se abona a la cuenta **Ingresos acumulados: valor de ventas** que se configuró en la página **Configuración de registro contable**, en la pestaña **Ingresos**. 
+   Cuando define los perfiles de contabilización para los métodos de facturación de tiempo y material, tiene la opción de acumular ingresos por tipo de transacción (hora, gasto y tarifa). Si la opción **Acumular ingresos** está configurada en **Sí** , las transacciones de ventas no facturadas del diario de Integración de Operaciones del Proyecto se registrarán en el libro mayor. El valor de las ventas se carga a **WIP: cuenta de valor de ventas** y se abona a la cuenta **Ingresos acumulados: valor de ventas** que se configuró en la página **Configuración de registro contable** , en la pestaña **Ingresos**. 
   
   > [!NOTE]
   > La opción **Acumular ingresos** está disponible solo cuando el tipo de transacción respectivo **Coste** se contabiliza en la cuenta de pérdidas y ganancias.
     
 7. Expanda la ficha desplegable **Estimación**. Los campos de esta pestaña definen la configuración de cálculo para estimaciones de ingresos de precio fijo. Los campos de esta pestaña solo se aplican a los perfiles de costes e ingresos del proyecto con un método de facturación de **Precio fijo**.
-8. Seleccione la información adecuada en los siguientes campos de la ficha desplegable **Estimación**:
+8. Seleccione la información adecuada en los siguientes campos de la ficha desplegable **Estimación** :
 
-    - **Principio utilizado para los cálculos de finalización de proyectos**:
+    - **Principio utilizado para los cálculos de finalización de proyectos** :
 
-        - **Contrato completado**: La confrontación de costes y el reconocimiento de ingresos no ocurren hasta el final del proyecto. Los costes se reflejan como WIP en el saldo hasta que se complete el proyecto.
-        - **Porcentaje completado**: los ingresos acumulados se calculan y se registran en el libro mayor cada período en función del porcentaje de finalización del proyecto. Hay varios métodos disponibles para calcular el porcentaje de finalización. Estos métodos pueden ser automáticos, según la configuración, o manuales.
-        - **Sin WIP**: esta configuración se utiliza para proyectos de precio fijo con un período de tiempo corto y donde la factura y los costes ocurren en el mismo período. En este caso, el valor de campo **Facturación en cuenta** de la ficha desplegable **Libro mayor** se establece automáticamente en **Pérdidas y ganancias** para asegurar que los ingresos se reconozcan en la facturación. El proceso de estimación de ingresos no se utilizará para este perfil de costes e ingresos del proyecto.
+        - **Contrato completado** : La confrontación de costes y el reconocimiento de ingresos no ocurren hasta el final del proyecto. Los costes se reflejan como WIP en el saldo hasta que se complete el proyecto.
+        - **Porcentaje completado** : los ingresos acumulados se calculan y se registran en el libro mayor cada período en función del porcentaje de finalización del proyecto. Hay varios métodos disponibles para calcular el porcentaje de finalización. Estos métodos pueden ser automáticos, según la configuración, o manuales.
+        - **Sin WIP** : esta configuración se utiliza para proyectos de precio fijo con un período de tiempo corto y donde la factura y los costes ocurren en el mismo período. En este caso, el valor de campo **Facturación en cuenta** de la ficha desplegable **Libro mayor** se establece automáticamente en **Pérdidas y ganancias** para asegurar que los ingresos se reconozcan en la facturación. El proceso de estimación de ingresos no se utilizará para este perfil de costes e ingresos del proyecto.
 
-    - **Principio de coincidencia**: este campo determina cómo se contabilizará el valor de ventas calculado (ingresos acumulados) en el libro mayor.
+    - **Principio de coincidencia** : este campo determina cómo se contabilizará el valor de ventas calculado (ingresos acumulados) en el libro mayor.
 
-        - Utilizando el principio **Valor de ventas**, el sistema calculará el valor de las ventas haciendo coincidir los costes y los ingresos y luego los contabilizará como una sola cantidad.
-        - Utilizando el principio **Producción y beneficio**, el sistema dividirá el valor de las ventas en costes incurridos y ganancias calculadas. Estos se registran por separado.
+        - Utilizando el principio **Valor de ventas** , el sistema calculará el valor de las ventas haciendo coincidir los costes y los ingresos y luego los contabilizará como una sola cantidad.
+        - Utilizando el principio **Producción y beneficio** , el sistema dividirá el valor de las ventas en costes incurridos y ganancias calculadas. Estos se registran por separado.
 
-    - **Plantillas de costes**: permite que las transacciones del proyecto se agrupen según el tipo de transacción y la categoría del proyecto y define las reglas de cálculo del porcentaje de finalización para estos grupos.
-    - **Códigos de período**: define la frecuencia con la que se calculan las estimaciones de ingresos para un perfil de ingresos y costes de proyecto determinado.
-    - **Categorías para estimación**: se utiliza para la contabilización del valor de las ventas (ingresos acumulados) en las transacciones del proyecto. Primero, configure la categoría de proyecto dedicada para un tipo de transacción **Tarifa** y luego establecer el indicador **Estimar** para esta categoría de proyecto. A continuación, según el principio de coincidencia seleccionado, elija esta categoría de proyecto en el valor **Ventas** o el campo **Beneficio** del perfil de costes e ingresos del proyecto.
+    - **Plantillas de costes** : permite que las transacciones del proyecto se agrupen según el tipo de transacción y la categoría del proyecto y define las reglas de cálculo del porcentaje de finalización para estos grupos.
+    - **Códigos de período** : define la frecuencia con la que se calculan las estimaciones de ingresos para un perfil de ingresos y costes de proyecto determinado.
+    - **Categorías para estimación** : se utiliza para la contabilización del valor de las ventas (ingresos acumulados) en las transacciones del proyecto. Primero, configure la categoría de proyecto dedicada para un tipo de transacción **Tarifa** y luego establecer el indicador **Estimar** para esta categoría de proyecto. A continuación, según el principio de coincidencia seleccionado, elija esta categoría de proyecto en el valor **Ventas** o el campo **Beneficio** del perfil de costes e ingresos del proyecto.
 
 ### <a name="sample-configurations-for-project-cost-and-revenue-profiles"></a>Configuraciones de muestra para perfiles de costes e ingresos del proyecto
 

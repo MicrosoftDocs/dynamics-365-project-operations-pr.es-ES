@@ -9,17 +9,17 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 8b1d9284c063e34e34ec6525072a1f8f860116b6
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908632"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085002"
 ---
 # <a name="manage-multiple-customers-on-project-quotes"></a>Administrar varios clientes en ofertas de proyectos
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Las ofertas del proyecto respaldan el escenario en el que la propuesta involucra a varios clientes que financiarán la oferta. La pestaña **Resumen** de la oferta tiene el campo **Cliente potencial**, que identifica al cliente principal de la oferta. Otros clientes de la oferta se pueden configurar en la pestaña **Clientes** de la oferta del proyecto.
+Las ofertas del proyecto respaldan el escenario en el que la propuesta involucra a varios clientes que financiarán la oferta. La pestaña **Resumen** de la oferta tiene el campo **Cliente potencial** , que identifica al cliente principal de la oferta. Otros clientes de la oferta se pueden configurar en la pestaña **Clientes** de la oferta del proyecto.
 
 Todos los clientes de oferta de la pestaña **Clientes** de la oferta del proyecto sirven de forma predeterminada como clientes de línea de oferta en cualquier **nueva** línea de oferta basada en el proyecto creada para la oferta. Las líneas de oferta existentes basadas en proyectos no heredarán los nuevos registros de clientes de oferta creados después de ellas.
 
@@ -29,7 +29,7 @@ Los clientes de oferta y los clientes de línea de oferta se pueden agregar, act
 
 El cliente que figura en la pestaña **Resumen** de la oferta del proyecto, ya que el cliente potencial es el cliente principal de la oferta. Si intenta eliminar el cliente principal de la lista de clientes de la oferta, recibirá un error que indica que el registro de un cliente principal de una oferta no se puede eliminar.
 
-El cliente principal no debe actualizarse de la lista de clientes de la oferta. Sin embargo, puede influir en el cliente principal cambiando al cliente potencial en la pestaña **Resumen** de la oferta. Cuando este campo se actualiza en el **Resumen de oferta**, el cliente potencial recién seleccionado se agrega como un nuevo cliente de oferta con el indicador **Primario** establecido. El antiguo cliente potencial seguirá siendo cliente de la oferta.
+El cliente principal no debe actualizarse de la lista de clientes de la oferta. Sin embargo, puede influir en el cliente principal cambiando al cliente potencial en la pestaña **Resumen** de la oferta. Cuando este campo se actualiza en el **Resumen de oferta** , el cliente potencial recién seleccionado se agrega como un nuevo cliente de oferta con el indicador **Primario** establecido. El antiguo cliente potencial seguirá siendo cliente de la oferta.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Crear, actualizar o eliminar un registro de cliente de oferta
 

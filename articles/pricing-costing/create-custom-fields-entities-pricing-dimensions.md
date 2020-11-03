@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 2000f7e710267560fe2bd52b0e33024617d108ea
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 9dd43be79f8e906298578911b3bff03e66c2f1e5
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898282"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085186"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Crear campos y entidades personalizados como dimensiones de precios
 
@@ -37,7 +36,7 @@ Complete los pasos siguientes siempre que desee crear una entidad o un conjunto 
 
 ## <a name="create-a-custom-solution-for-pricing-dimensions"></a>Crear una solución personalizada para las dimensiones de precios
 1. Vaya a **Configuración** > **Soluciones** y después seleccione **Nuevo** para crear una nueva solución. 
-2. Asigne un nombre a la solución, **dimensiones de precios de \<your organization name>**, especifique la información restante necesaria y después seleccione **Guardar**.
+2. Asigne un nombre a la solución, **dimensiones de precios de \<your organization name>** , especifique la información restante necesaria y después seleccione **Guardar**.
   
 ## <a name="create-custom-fields-and-option-sets-in-the-pricing-dimension-solution"></a>Crear campos personalizados y conjuntos de opciones en la solución de la dimensión de precios
 
@@ -63,8 +62,8 @@ Puede crear dos dimensiones basadas en conjuntos de opciones. Utilice **Ubicaci�
 
 Puede crear datos para las dimensiones basadas en entidades manualmente, o bien mediante llamadas de servicio o importaciones de Microsoft Excel. Use los pasos de este procedimiento para crear dos títulos estándar, **Ingeniero de sistemas** e **Ingeniero de sistemas sénior** desde la dimensión basada en entidades **Título estándar**. Si el tamaño de los datos que desea crear es pequeño, como en el siguiente ejemplo, puede usar un formulario estándar.
 
-1. Seleccione **Búsqueda avanzada**, seleccione la entidad **Título estándar** y luego seleccione **Resultados**. Se mostrarán todas las filas de la entidad **Título estándar**.
-2. Seleccione **Nuevo** y, en el campo **Nombre**, escriba "Ingeniero de sistemas" y seleccione **Guardar**.
+1. Seleccione **Búsqueda avanzada** , seleccione la entidad **Título estándar** y luego seleccione **Resultados**. Se mostrarán todas las filas de la entidad **Título estándar**.
+2. Seleccione **Nuevo** y, en el campo **Nombre** , escriba "Ingeniero de sistemas" y seleccione **Guardar**.
 3. Cerrar el formulario. 
 4. Repita los pasos del 1 al 3 para crear el otro título estándar “Ingeniero de sistemas sénior”.
 
@@ -73,7 +72,7 @@ Deberá agregar las siguientes entidades a su solución de cálculo de precios. 
 
 1. Seleccione **Configuración** > **Soluciones** y haga doble clic en **dimensiones de precios de \<your organization name>**. 
 2. En el Explorador de soluciones, en el panel de navegación izquierdo, seleccione **Agregar existente** > **Entidades**.
-3. En el cuadro de diálogo **Componentes de la solución**, seleccione las siguientes entidades:
+3. En el cuadro de diálogo **Componentes de la solución** , seleccione las siguientes entidades:
 
   - Real
   - Recurso que se puede reservar

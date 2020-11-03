@@ -1,29 +1,19 @@
 ---
 title: Cumplimiento del requisito de recursos genéricos
-description: En este tema se proporciona información sobre la reserva de recursos con nombre para un requisito de recurso genérico.
+description: En este tema se proporciona información cómo reservar recursos con nombre para un requisito de recurso genérico.
 author: ruhercul
 manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
 ms.author: ruhercul
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 76dd47fa2451b5cb61298ff332d77bae646a288a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 6bb7c185656ff87bb3ca24209594c07d25862d70
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897607"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085093"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Cumplimiento del requisito de recursos genéricos
 
@@ -31,9 +21,9 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no mant
 
 Puede para reservar un recurso con nombre para reemplazar el recurso genérico que tiene un requisito de recursos.
 
-1. En la página **Proyectos**, seleccione la pestaña **Equipo**.
+1. En la página **Proyectos** , seleccione la pestaña **Equipo**.
 2. Seleccione el recurso genérico que tiene algún requisito de recursos de la lista y después seleccione **Reservar**. O bien, abra el requisito del recurso y después haga clic en **Reservar**.
-3. En la página **Asistente de programación**, seleccione el recurso con nombre que desee reservar para su equipo de proyecto y después seleccione **Reservar**.
+3. En la página **Asistente de programación** , seleccione el recurso con nombre que desee reservar para su equipo de proyecto y después seleccione **Reservar**.
 
 Cuando se completa la reserva y se cumple con un recurso con nombre, el recurso genérico se reemplaza por el recurso con nombre.
 

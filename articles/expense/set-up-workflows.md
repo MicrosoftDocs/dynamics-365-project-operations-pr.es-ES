@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dfc5945f32bb8d4073fc31499979ba279fef66a4
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: db1bda71e18369550cd2d38fee1d0ac40e07555d
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896572"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085175"
 ---
 # <a name="set-up-workflows-for-expense-management"></a>Configurar flujos de trabajo para la administración de gastos
 
@@ -31,9 +30,9 @@ Puede configurar un proceso de flujo de trabajo para revisar y aprobar documento
 
 Un flujo de trabajo representa un proceso de negocio y define cómo fluye un documento a través del sistema. El flujo de trabajo también indica quién debe completar una tarea o aprobar un documento. El uso del sistema de flujo de trabajo en su organización tiene varios beneficios:
 
-- **Procesos coherentes**: Puede definir el proceso de aprobación para documentos específicos, como solicitudes de compra e informes de gastos. El uso del sistema de flujo de trabajo contribuye a garantizar que los documentos se procesan y aprueban de forma coherente y eficaz.
-- **Visibilidad de los procesos**: puede realizar un seguimiento del estado, el historial y las métricas de rendimiento de una instancia de flujo de trabajo específica. Esto ayuda a determinar si se deben realizar cambios en el flujo de trabajo para mejorar su eficacia.
-- **Lista de trabajo centralizada**: los usuarios pueden consultar una lista de trabajo centralizada para ver las tareas y las aprobaciones de flujo de trabajo que se les han asignado. 
+- **Procesos coherentes** : Puede definir el proceso de aprobación para documentos específicos, como solicitudes de compra e informes de gastos. El uso del sistema de flujo de trabajo contribuye a garantizar que los documentos se procesan y aprueban de forma coherente y eficaz.
+- **Visibilidad de los procesos** : puede realizar un seguimiento del estado, el historial y las métricas de rendimiento de una instancia de flujo de trabajo específica. Esto ayuda a determinar si se deben realizar cambios en el flujo de trabajo para mejorar su eficacia.
+- **Lista de trabajo centralizada** : los usuarios pueden consultar una lista de trabajo centralizada para ver las tareas y las aprobaciones de flujo de trabajo que se les han asignado. 
 
 ## <a name="workflow-types"></a>Tipos de flujo de trabajo
 

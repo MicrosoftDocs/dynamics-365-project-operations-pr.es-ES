@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: ab39d7e5dc2d8c01ed49ca0f1a4d1691aaf15637
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961952"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4084996"
 ---
 # <a name="define-resource-calendars"></a>Definir calendarios de recursos
 
@@ -26,9 +26,9 @@ Cada recurso reservable que trabaja en un proyecto debe tener un calendario de h
 
 ## <a name="define-a-resources-working-hours"></a>Definir las horas laborables de un recurso
 
-1. En el menú **Recursos**, seleccione **Recursos**.
+1. En el menú **Recursos** , seleccione **Recursos**.
 2. En la vista de cuadrícula, seleccione el **Recurso reservable**.
-3. En la página **Detalles del recurso**, seleccione la pestaña **Horas Laborables**. De forma predeterminada, el calendario de recursos reservables tiene como valor predeterminado las horas de trabajo de la plantilla de horas de trabajo predeterminada que se define para la organización.
+3. En la página **Detalles del recurso** , seleccione la pestaña **Horas Laborables**. De forma predeterminada, el calendario de recursos reservables tiene como valor predeterminado las horas de trabajo de la plantilla de horas de trabajo predeterminada que se define para la organización.
 4. Para actualizar el horario laboral, haga clic con el botón derecho en la fecha de inicio de la regla de calendario propuesta a definir. Utilice el menú de reglas de calendario para definir una regla de calendario para un día específico, el resto de la serie o el calendario completo.
 5. Una vez seleccionada la opción, puede definir:
 
@@ -39,7 +39,7 @@ Cada recurso reservable que trabaja en un proyecto debe tener un calendario de h
 
 ## <a name="applying-a-calendar-template-to-a-resource"></a>Aplicción de un calendario a un recurso
 
-1. En el menú **Recursos**, seleccione **Recursos**.
+1. En el menú **Recursos** , seleccione **Recursos**.
 2. En la vista de cuadrícula, seleccione hasta 25 **Recursos reservables** para actualizar.
 3. Seleccione **Establecer calendario** y un cuadro de diálogo le mostrará una lista de plantillas de horas de trabajo disponibles.
 4. Seleccione la plantilla que desee utilizar y seleccione **Aplicar**.

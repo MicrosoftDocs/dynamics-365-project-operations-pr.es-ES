@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d09a0dd8234641ca106c37a38d1d721dfb07236c
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 1a69cf51ca8cde8260f4136cf1b2e936f99b112a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898687"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085374"
 ---
 # <a name="project-price-lists"></a>Listas de precios de proyectos
 
@@ -35,16 +34,16 @@ Dynamics 365 Project Operations amplía la entidad de lista de precios en Dynami
 
 Las listas de precios incluyen la información que proporcionan cuatro entidades distintas:
 
-- **Lista de precios**: esta entidad almacena información sobre el contexto, la divisa, la validez de fecha y la unidad de tiempo para el cálculo de precios del tiempo. El contexto indica si es una lista de precios expresa índices de costes o índices de ventas. 
-- **Divisa**: esta entidad almacena la divisa de los precios de la lista de precios. 
-- **Fecha**: esta entidad se usa cuando el sistema intenta especificar un precio predeterminado en una transacción. Se selecciona una lista de precios cuya validez de fecha incluye la fecha en que se produjo la transacción. Si se encuentra más de una lista de precios válida para la fecha de transacción y se adjunta a la unidad organizativa, el contrato o la oferta relacionada, no se establecerá ningún precio como predeterminado. 
-- **Tiempo**: esta entidad almacena la unidad de tiempo en la que se expresan los precios, como, la tarifa por horas o días. 
+- **Lista de precios** : esta entidad almacena información sobre el contexto, la divisa, la validez de fecha y la unidad de tiempo para el cálculo de precios del tiempo. El contexto indica si es una lista de precios expresa índices de costes o índices de ventas. 
+- **Divisa** : esta entidad almacena la divisa de los precios de la lista de precios. 
+- **Fecha** : esta entidad se usa cuando el sistema intenta especificar un precio predeterminado en una transacción. Se selecciona una lista de precios cuya validez de fecha incluye la fecha en que se produjo la transacción. Si se encuentra más de una lista de precios válida para la fecha de transacción y se adjunta a la unidad organizativa, el contrato o la oferta relacionada, no se establecerá ningún precio como predeterminado. 
+- **Tiempo** : esta entidad almacena la unidad de tiempo en la que se expresan los precios, como, la tarifa por horas o días. 
 
 La entidad Lista de precios dispone de tres tablas para almacenar precios:
 
-  - **Precio de rol**: esta tabla almacena una tarifa para una combinación de valores del rol y unidad organizativa y se usa para configurar precios basados en roles para recursos humanos.
-  - **Precio de categoría de transacciones**: esta tabla almacena precios por categoría de transacciones y se usa para configurar precios de categoría de gastos.
-  - **Elementos de lista de precios**: esta tabla almacena los precios de los productos del catálogo.
+  - **Precio de rol** : esta tabla almacena una tarifa para una combinación de valores del rol y unidad organizativa y se usa para configurar precios basados en roles para recursos humanos.
+  - **Precio de categoría de transacciones** : esta tabla almacena precios por categoría de transacciones y se usa para configurar precios de categoría de gastos.
+  - **Elementos de lista de precios** : esta tabla almacena los precios de los productos del catálogo.
  
 La lista de precios es una lista de tarifas. Las listas de tarifas son una combinación de la entidad Lista de precios y las filas relacionadas de las tablas Precio de rol, Precio de categoría de transacciones y Elementos de lista de precios.
 
@@ -54,15 +53,15 @@ El término *rol de recurso* hace referencia al conjunto de conocimientos, compe
 
 El tiempo de recursos humanos se oferta en función del rol que desempeña un recurso en un proyecto específico. Para el tiempo de recursos humanos, el cálculo de costes y la facturación se basan en el rol de recurso. El precio del tiempo se puede establecer en cualquier unidad de la unidad de venta **Tiempo**.
 
-La unidad de venta **Tiempo** se crea al instalar Project Operations. Tiene la unidad predeterminada **Hora**. No puede eliminar, cambiar el nombre ni editar los atributos de la unidad de venta **Tiempo** o de la unidad **Hora**. No obstante, puede agregar otras unidades a la unidad de venta **Tiempo**. Si intenta eliminar la unidad de venta **Tiempo** o la unidad **Hora**, es posible que se produzcan errores en la lógica de negocios.
+La unidad de venta **Tiempo** se crea al instalar Project Operations. Tiene la unidad predeterminada **Hora**. No puede eliminar, cambiar el nombre ni editar los atributos de la unidad de venta **Tiempo** o de la unidad **Hora**. No obstante, puede agregar otras unidades a la unidad de venta **Tiempo**. Si intenta eliminar la unidad de venta **Tiempo** o la unidad **Hora** , es posible que se produzcan errores en la lógica de negocios.
  
 ## <a name="transaction-categories-and-expense-categories"></a>Categorías de transacción y categorías de gastos
 
 Los viajes y los demás gastos en los que incurren los consultores de proyectos se facturan al cliente. El precio de las categorías de gastos se completa mediante listas de precios. Los vuelos, las habitaciones de hotel y el alquiler de vehículos son ejemplos de categorías de gastos. Cada línea de la lista de precios de gastos especifica el cálculo de precios de una categoría de gastos específica. Los siguientes tres métodos se utilizan para determinar el precio de las categorías de gastos:
 
-- **De coste**: el coste del gasto se factura al cliente y no se aplica ningún incremento.
-- **Porcentaje de incremento**: el porcentaje sobre el coste real se factura al cliente. 
-- **Precio por unidad**: se establece un precio de facturación para cada unidad de la categoría de gastos. El importe que se factura al cliente se calcula en función del número de unidades de gasto de las que informa el consultor. El kilometraje usa el método de cálculo de precios Precio unitario. Por ejemplo, la categoría de gasto de kilometraje se puede configurar para a 30 dólares estadounidenses (USD) por día o a 2 USD por milla. Cuando un consultor informa de kilometraje en un proyecto, el importe para facturar se calcula en función del número de millas de las que informa el consultor.
+- **De coste** : el coste del gasto se factura al cliente y no se aplica ningún incremento.
+- **Porcentaje de incremento** : el porcentaje sobre el coste real se factura al cliente. 
+- **Precio por unidad** : se establece un precio de facturación para cada unidad de la categoría de gastos. El importe que se factura al cliente se calcula en función del número de unidades de gasto de las que informa el consultor. El kilometraje usa el método de cálculo de precios Precio unitario. Por ejemplo, la categoría de gasto de kilometraje se puede configurar para a 30 dólares estadounidenses (USD) por día o a 2 USD por milla. Cuando un consultor informa de kilometraje en un proyecto, el importe para facturar se calcula en función del número de millas de las que informa el consultor.
  
 ## <a name="project-sales-pricing-and-overrides"></a>Cálculo de precios de ventas de proyecto y reemplazos
 
@@ -104,7 +103,7 @@ Puede crear reemplazos específicos de operaciones para determinados precios de 
 
 De forma predeterminada, un contrato de proyecto obtiene siempre una copia de la lista de precios de ventas principal en lugar de un vínculo directo a la lista. Este comportamiento ayuda garantizar que los acuerdos de precios que se hagan con un cliente para una declaración de trabajo (SOW) no cambien si se modifica la lista de precios principal.
 
-Sin embargo, en una oferta, puede usar una lista de precios principal. Como alternativa, puede copiar una lista de precios principal y editarla para crear una lista de precios personalizada aplicable solo a esa oferta. Para crear una nueva lista de precios específica para una oferta, en la página **Oferta**, seleccione **Crear precios personalizados**. Solo podrá obtener acceso a la lista de precios de proyecto específica de operaciones desde la oferta. 
+Sin embargo, en una oferta, puede usar una lista de precios principal. Como alternativa, puede copiar una lista de precios principal y editarla para crear una lista de precios personalizada aplicable solo a esa oferta. Para crear una nueva lista de precios específica para una oferta, en la página **Oferta** , seleccione **Crear precios personalizados**. Solo podrá obtener acceso a la lista de precios de proyecto específica de operaciones desde la oferta. 
 
 Al crear una lista de precios de proyecto personalizada, solo se copian los componentes del proyecto de la lista de precios. Es decir, se crea una nueva lista de precios como copia de la lista de precios de proyecto existente adjunta a la oferta. Dicha nueva lista de precios solo incluye precios de rol relacionados y precios de categoría de transacciones.
   

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961187"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085008"
 ---
 # <a name="approvals-overview"></a>Información general de aprobaciones
 
@@ -27,7 +27,7 @@ Cuando crea y envía una entrada de tiempo o gastos, se crea una entrada de apro
 ## <a name="approve-an-entry"></a>Aprobar una entrada
 El formulario **Aprobaciones** le permite cambiar entre diferentes vistas para que pueda ver los diferentes tipos de aprobaciones.
   
-1. Vaya al formulario **Aprobaciones** y seleccione **Gastos**, **Hora** o **Recordatorios**.
+1. Vaya al formulario **Aprobaciones** y seleccione **Gastos** , **Hora** o **Recordatorios**.
 2. Revise cada aprobación y seleccione las que desea aprobar.
 3. Seleccione **Aprobar** para aprobar las entradas seleccionadas.
 El sistema procesará estas entradas y creará datos reales o una reserva.
@@ -47,7 +47,7 @@ En algún punto, es posible que deba recuperar una entrada enviada. Si la entrad
 Cada proyecto tiene varios miembros del equipo del proyecto. Puede especificar qué miembros del equipo son también aprobadores de proyectos.
 
 1. Vaya al formulario **Proyectos** y abra el proyecto en la lista.
-2. En la pestaña **Equipo**, seleccione el miembro del equipo que será aprobador del proyecto y luego seleccione **Editar**.
+2. En la pestaña **Equipo** , seleccione el miembro del equipo que será aprobador del proyecto y luego seleccione **Editar**.
 3. Establezca el campo **Aprobador de proyecto** en **Sí**.
 4. Seleccione **Guardar**.
 5. Para agregar más aprobadores de proyectos, repita los pasos 2 a 4.
@@ -55,7 +55,7 @@ Cada proyecto tiene varios miembros del equipo del proyecto. Puede especificar q
 ## <a name="configure-the-users-manager"></a>Configurar el administrador de usuarios
 
 1. Vaya a **Configuración** > **Seguridad** > **Usuarios**.
-2. Seleccione el usuario al que le está asignando un administrador y en el área **Información de la organización**, seleccione el administrador de la lista. 
+2. Seleccione el usuario al que le está asignando un administrador y en el área **Información de la organización** , seleccione el administrador de la lista. 
 3. Seleccione **Guardar**.
 
 

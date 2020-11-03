@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 005e36811643b0b1e98a686792cf39125ae97949
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896347"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085077"
 ---
 # <a name="manage-leads-pro"></a>Administrar clientes potenciales (Pro)
 
@@ -23,7 +23,7 @@ Los clientes potenciales basados en proyectos se pueden gestionar y calificar en
 
 ## <a name="list-of-project-sales-leads"></a>Lista de clientes potenciales de proyecto
 
-En la sección **Ventas**, en el panel de navegación izquierdo, abra la página de lista **Clientes potenciales** para ver una lista de todos los registros de clientes potenciales del sistema. La lista de clientes potenciales que se muestra están basados en el trabajo y otros tipos de clientes potenciales que se pueden crear si también tiene Dynamics 365 Sales o aplicaciones de Dynamics 365 Field Service.
+En la sección **Ventas** , en el panel de navegación izquierdo, abra la página de lista **Clientes potenciales** para ver una lista de todos los registros de clientes potenciales del sistema. La lista de clientes potenciales que se muestra están basados en el trabajo y otros tipos de clientes potenciales que se pueden crear si también tiene Dynamics 365 Sales o aplicaciones de Dynamics 365 Field Service.
 
 Puede crear un vista filtrada para ver solo clientes potenciales basados en proyectos creando un filtro en el valor **Tipo**. Por ejemplo, puede seleccionar mostrar solo los clientes potenciales basados en el trabajo.
 
@@ -66,7 +66,7 @@ Los siguientes flujos de procesos de negocio son compatibles con ofertas basadas
 
 El proceso de negocio de cliente potencial a oportunidad comprende las etapas siguientes:
 
-| Nombre de la fase | Entidad asignada | Funcionalidad |
+| Nombre de la fase | Entidad mapeada | Funcionalidad |
 | --- | --- | --- |
 | Calificar | Cliente potencial | Calificar el cliente potencial para crear una cuenta, un contacto y una oportunidad. |
 | Desarrollar | Oportunidad | Desarrolle la oportunidad de agregar más información sobre el trabajo involucrado, las partes interesadas clave y la competencia. |

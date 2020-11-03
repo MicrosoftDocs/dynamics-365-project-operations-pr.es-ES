@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 2afe4ff2f84fc5426c409e6314da73b11a4de281
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908626"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085070"
 ---
 # <a name="expense-estimates"></a>Estimaciones de gastos
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
@@ -32,9 +32,9 @@ Complete los siguientes pasos para ver, agregar o eliminar un gasto del proyecto
 
 Los siguientes atributos se definen para cada elemento de línea de gastos:
 
-- **Categoría**: las agrupaciones comunes que se utilizan para describir todos los gastos incurridos en un proyecto.
-- **Fecha de inicio**: la fecha en la que se prevé que se incurrirá en el gasto.
-- **Cantidad**: el número estimado de elementos de gastos para una categoría específica.
-- **Precio de coste unitario**: precio unitario utilizado para calcular el coste del gasto.
-- **Precio de venta unitario**: precio unitario utilizado para calcular los precios de venta del gasto.
+- **Categoría** : las agrupaciones comunes que se utilizan para describir todos los gastos incurridos en un proyecto.
+- **Fecha de inicio** : la fecha en la que se prevé que se incurrirá en el gasto.
+- **Cantidad** : el número estimado de elementos de gastos para una categoría específica.
+- **Precio de coste unitario** : precio unitario utilizado para calcular el coste del gasto.
+- **Precio de venta unitario** : precio unitario utilizado para calcular los precios de venta del gasto.
 

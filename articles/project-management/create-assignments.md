@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 20eb3880b17fb1f765ad79bd720520b0c8004c0a
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906341"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085061"
 ---
 # <a name="create-resource-assignments"></a>Crear asignaciones de recursos
 
@@ -29,7 +29,7 @@ Al crear un miembro genérico del equipo mediante la asignación de tareas, crea
 
 1. En la cuadrícula Programación de una tarea, seleccione el icono Recurso en la celda **Recurso**.
 2. Escriba un nombre que sirva como nombre del recurso de marcador de posición. Por ejemplo, Administrador de programas.
-3. Seleccione **Crear** y, en el campo **Creación rápida de miembro del equipo de proyecto**, defina el rol para el recurso genérico.
+3. Seleccione **Crear** y, en el campo **Creación rápida de miembro del equipo de proyecto** , defina el rol para el recurso genérico.
 4. Asigne tareas, según sea necesario, a este recurso de marcador de posición seleccionando el recurso en el **Selector de recursos** para la tarea. Los recursos aparecen en **Miembros del equipo**.
 5. Cuando haya terminado de asignar el recurso genérico, seleccione el recurso genérico en la pestaña **Equipo** y después seleccione **Generar requisito** para crear un requisito de recursos para el recurso genérico.
 6. Seleccione **Reservar** para el recurso genérico, y entonces use el panel Programación para buscar y reservar un recurso real. También puede enviar el requisito para que lo satisfaga un administrador de recursos.
@@ -37,7 +37,7 @@ Al crear un miembro genérico del equipo mediante la asignación de tareas, crea
 
 ## <a name="assign-a-named-resource-from-the-list-of-all-bookable-resources"></a>Asignar un recurso con nombre de la lista de todos los recursos reservables
 
-Puede usar el cuadro de búsqueda de **Selector de recursos** para buscar todos los recursos activos y asignarlos a cualquier tarea de nodo hoja. Los recursos asignados de esta manera se agregan al equipo sin ninguna reserva. Esto es similar a agregar un miembro del equipo y seleccionar **Ninguno** como método de asignación. El recurso se muestra en las pestañas **Equipo**, **Asignación de recursos** y **Conciliación** como un recurso solo con asignaciones y un déficit de reserva. Resérvelos si desea usar su disponibilidad.
+Puede usar el cuadro de búsqueda de **Selector de recursos** para buscar todos los recursos activos y asignarlos a cualquier tarea de nodo hoja. Los recursos asignados de esta manera se agregan al equipo sin ninguna reserva. Esto es similar a agregar un miembro del equipo y seleccionar **Ninguno** como método de asignación. El recurso se muestra en las pestañas **Equipo** , **Asignación de recursos** y **Conciliación** como un recurso solo con asignaciones y un déficit de reserva. Resérvelos si desea usar su disponibilidad.
 
 1. Desde la cuadrícula de tareas, el panel o la escala de tiempo, navegue hasta la celda **Asignado a**.
 2. En el cuadro de búsqueda, comience a escribir un nombre. Los resultados de búsqueda del nombre se muestran en el **Selector de recursos** en **Otros recursos**.

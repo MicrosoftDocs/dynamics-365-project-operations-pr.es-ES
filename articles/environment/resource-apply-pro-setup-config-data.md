@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d99ab4c7b2ebf6ba56b86a3e0151036c6247e484
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949090"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085021"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Instalar y aplicar datos de configuración en Common Data Service para Project Operations
 
@@ -27,7 +27,7 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no en e
 
 ![Migración de la configuración](./media/1ConfigurationMigration.png)
 
-4. En la página 2 del asistente CMT, seleccione **Office 365** como **Tipo de implementación**.
+4. En la página 2 del asistente CMT, seleccione **Microsoft 365** como **Tipo de implementación**.
 5. Seleccione las casillas **Mostrar una lista de organizaciones disponibles** y **Mostrar avanzadas**.
 6. Seleccione la región de su inquilino, introduzca sus credenciales y luego seleccione **Iniciar sesión**.
 
@@ -79,11 +79,11 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no en e
 
 ![Recursos que se pueden reservar](./media/8BookableResources.png)
 
-3. En la pestaña **General**, seleccione su usuario administrador. Verifique que la zona horaria coincida con la que se encuentra. 
+3. En la pestaña **General** , seleccione su usuario administrador. Verifique que la zona horaria coincida con la que se encuentra. 
 
 ![Nuevo recurso reservable](./media/9NewBookableResource.png)
 
-4. En la pestaña **Planificación** del campo **Empresa**, elija la empresa **USPM** y luego seleccione **Guardar**. 
+4. En la pestaña **Planificación** del campo **Empresa** , elija la empresa **USPM** y luego seleccione **Guardar**. 
 
 ![Pestaña de programación](./media/10SchedulingTab.png)
 
@@ -114,10 +114,10 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no en e
  
 12. Actualice los siguientes campos:
 
- - **Empresa predeterminada**: USPM
- - **Unidad organizativa predeterminada**: Contoso Robotics Global
- - **Frecuencia de facturación**: séptimo y último día
- - **Plantilla de horas de trabajo**: cambia a la plantilla que creó.
+ - **Empresa predeterminada** : USPM
+ - **Unidad organizativa predeterminada** : Contoso Robotics Global
+ - **Frecuencia de facturación** : séptimo y último día
+ - **Plantilla de horas de trabajo** : cambia a la plantilla que creó.
 
 13. Seleccione **Guardar**. 
 

@@ -1,0 +1,79 @@
+---
+title: Configurar los componentes facturables de una línea de cotización
+description: Este tema proporciona información sobre cómo configurar componentes facturables y no facturables en una línea de presupuesto basada en proyectos.
+author: rumant
+manager: Annbe
+ms.date: 10/13/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.reviewer: kfend
+ms.author: rumant
+ms.openlocfilehash: e0b64d7edb21df127bf7544f044de7f3c496dfe3
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085269"
+---
+# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Configurar los componentes facturables de una línea de cotización
+
+_**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
+
+Una línea de contrato basada en proyectos tiene el concepto de componentes *incluidos* y componentes *facturables*.
+
+Los componentes incluidos están sujetos a:
+
+  - Método de facturación y divisiones de clientes
+  - Límites a no exceder 
+  - Configuración de frecuencia de facturación definida en la línea de oferta basada en proyecto
+
+Un subconjunto de los componentes incluidos se puede marcar como facturable usando el campo **Tipo de facturación**. El campo **Tipo de facturación** es un conjunto de opciones que permite los siguientes valores en el contexto de una línea de oferta:
+
+  - Imputable
+  - No facturable
+
+Los componentes facturables se pueden definir en tareas, roles y categorías de transacciones.
+
+La facturabilidad se define en las tareas de una línea de oferta de proyecto y se aplica a todas las clases de transacciones incluidas en esa línea. Si el campo **Incluir tareas** en una línea de contrato está en blanco o configurado en **Proyecto entero** , la pestaña **Tareas facturables** no estará disponible.
+
+La imputabilidad está definida en roles para una línea de oferta y solo se aplica a la clase de transacción **Hora**. Si el campo **Incluir tiempo** en una línea de oferta de proyecto está configurado en **No** , la pestaña **Roles facturables** no estará disponible.
+
+La imputabilidad se define en categorías de transacción para una línea de oferta y solo se aplica a la clase de transacción **Gastos**. Si el campo **Incluir gastos** en una línea de oferta de proyecto está configurado en **No** , la pestaña **Categorías facturables** no estará disponible.
+
+### <a name="update-a-project-task-to-be-chargeable-or-non-chargeable"></a>Actualizar una tarea del proyecto para ser facturable o no facturable
+
+Una tarea de proyecto puede ser facturable o no facturable en el contexto de una línea de oferta basada en proyecto, lo que posibilita la siguiente configuración:
+
+Si una línea de cotización basada en un proyecto incluye **Hora** y la tarea **T1** , la tarea se asocia a la línea de cotización como facturable. Si hay una segunda línea de oferta que incluye **Gastos** , puede asociar la tarea **T1** en la línea de oferta como no facturable. El resultado es que todo el tiempo registrado en la tarea es imputable y todos los gastos registrados en la tarea no son facturables.
+
+El tipo de facturación de una tarea se puede configurar en la pestaña **Tareas facturables** de una línea de oferta basada en proyecto actualizando el campo **Tipo de facturación** en la subcuadrícula **Tareas de línea de oferta**. Alternativamente, puede actualizar el tipo de facturación para una tarea de proyecto en el campo **Tipo de facturación** en la subcuadrícula de la tarea de configuración de facturación de un proyecto que muestra las líneas de oferta asociadas a una tarea.
+
+### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a>Actualizar un rol para ser facturable o no facturable
+
+Un rol puede ser facturable o no facturable en el contexto de una línea de cotización específica basada en un proyecto.
+
+El tipo de facturación de un rol se puede configurar en la pestaña **Roles facturables** de una línea de oferta basada en proyecto actualizando el campo **Tipo de facturación** en la subcuadrícula **Roles facturables**.
+
+### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Actualizar una categoría de transacción para ser facturable o no facturable
+
+Una categoría de transacción puede ser facturable o no facturable en una línea de oferta específica.
+
+El tipo de facturación de una transacción se puede configurar en la pestaña **Categorías facturables** de una línea de oferta basada en proyecto actualizando el campo **Tipo de facturación** en la subcuadrícula **Categorías facturables**.
+
+### <a name="resolve-chargeability"></a>Resolver imputabilidad
+Una estimación o real creada para el tiempo solo se considerará imputable si **Tiempo** está incluido en la línea de oferta, y si **Tarea** y **Rol** están configurados como facturables en la línea de oferta.
+
+Una estimación o real creada para los gastos solo se considerará facturable si **Gastos** está incluido en la línea de oferta, y si las categorías **Tarea** y **Categoría de transacción** están configuradas como facturables en la línea de oferta.
+
+| Incluye tiempo | Incluye gasto | Tareas incluidas | Rol | Categoría | Tarea | Facturación |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sí | Sí | Proyecto entero | Imputable | Imputable | No puede estar establecido | Facturación a tiempo real: Facturable </br>Tipo de facturación en gastos actuales: Facturable |
+| Sí | Sí | Solo tareas seleccionadas | Imputable | Imputable | Imputable | Facturación a tiempo real: Facturable</br>Tipo de facturación en gastos actuales: Facturable |
+| Sí | Sí | Solo tareas seleccionadas | No facturable | Imputable | Imputable | Facturación a tiempo real: No facturable</br>Tipo de facturación en gastos actuales: Facturable |
+| Sí | Sí | Solo tareas seleccionadas | Imputable | Imputable | No facturable | Facturación a tiempo real: No facturable</br> Tipo de facturación en gastos actuales: No facturable |
+| Sí | Sí | Solo tareas seleccionadas | No facturable | Imputable | No facturable | Facturación a tiempo real: No facturable</br> Tipo de facturación en gastos actuales: No facturable |
+| Sí | Sí | Solo tareas seleccionadas | No facturable | No facturable | Imputable | Facturación a tiempo real: No facturable</br> Tipo de facturación en gastos actuales: No facturable |
+| No | Sí | Proyecto entero | No puede estar establecido | Imputable | No puede estar establecido | Facturación a tiempo real: No disponible </br>Tipo de facturación en gastos actuales: Facturable |
+| No | Sí | Proyecto entero | No puede estar establecido | No facturable | No puede estar establecido | Facturación a tiempo real: No disponible </br>Tipo de facturación en gastos actuales: No facturable |
+| Sí | No | Proyecto entero | Imputable | No puede estar establecido | No puede estar establecido | Facturación a tiempo real: Facturable</br>Tipo de facturación en gastos actuales: No disponible |
+| Sí | No | Proyecto entero | No facturable | No puede estar establecido | No puede estar establecido | Facturación a tiempo real: No facturable </br>Tipo de facturación en gastos actuales: No disponible |

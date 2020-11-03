@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965896"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085080"
 ---
 # <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>Administración de unidades complejas, como por usuario, por mes para líneas de ofertas basadas en productos
 
@@ -29,8 +29,8 @@ Project Operations valida que solo las propiedades numéricas o las propiedades 
 
 Por ejemplo, Dynamics 365 Sales podría tener las siguientes propiedades:
 
-- **Número de usuarios**: el número de usuarios
-- **Número de meses**: el número de meses de suscripción
+- **Número de usuarios** : el número de usuarios
+- **Número de meses** : el número de meses de suscripción
 - **SKU de producto**
 
 Puede marcar las propiedades **Número de usuarios** y **Número de meses** como factores de cantidad editando las propiedades de la línea de productos.

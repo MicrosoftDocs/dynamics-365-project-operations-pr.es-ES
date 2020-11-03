@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: a409d1e378afe97de7fb6c77cf3ad6703661bdff
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908629"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085078"
 ---
 # <a name="project-based-quote-lines-pro"></a>Líneas de ofertas basadas en proyectos (Pro)
 
@@ -49,15 +49,15 @@ La siguiente tabla proporciona información sobre los campos de la pestaña **Ge
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Reglas de validación para campos en la pestaña General de líneas de oferta basadas en proyectos
 
-**Regla 1**: si el campo **Tareas incluidas** está en blanco, o si está configurado en **Todas las tareas del proyecto**, se incluye un proyecto en la línea de oferta.
+**Regla 1** : si el campo **Tareas incluidas** está en blanco, o si está configurado en **Todas las tareas del proyecto** , se incluye un proyecto en la línea de oferta.
 
-**Regla 2**: si el campo **Tareas incluidas** está en blanco, o si está configurado en **Todas las tareas del proyecto**, un proyecto y una determinada clase de transacción solo se pueden incluir en una línea de oferta basada en proyectos de una oferta.
+**Regla 2** : si el campo **Tareas incluidas** está en blanco, o si está configurado en **Todas las tareas del proyecto** , un proyecto y una determinada clase de transacción solo se pueden incluir en una línea de oferta basada en proyectos de una oferta.
 
-**Regla 3**: si el campo **Tareas incluidas** está configurado en **Solo tareas del proyecto seleccionadas**, un proyecto y una determinada clase de transacción se pueden incluir en varias líneas de oferta basadas en proyectos de una oferta.
+**Regla 3** : si el campo **Tareas incluidas** está configurado en **Solo tareas del proyecto seleccionadas** , un proyecto y una determinada clase de transacción se pueden incluir en varias líneas de oferta basadas en proyectos de una oferta.
 
-**Regla 4**: si una oportunidad tiene varias ofertas, puede haber líneas de oferta de ofertas diferentes que hagan referencia al mismo proyecto e incluyan la misma clase de transacción.
+**Regla 4** : si una oportunidad tiene varias ofertas, puede haber líneas de oferta de ofertas diferentes que hagan referencia al mismo proyecto e incluyan la misma clase de transacción.
 
-**Regla 5**: si las ofertas no pertenecen a la misma oportunidad, no pueden incluir el mismo proyecto y clase de transacción.
+**Regla 5** : si las ofertas no pertenecen a la misma oportunidad, no pueden incluir el mismo proyecto y clase de transacción.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>

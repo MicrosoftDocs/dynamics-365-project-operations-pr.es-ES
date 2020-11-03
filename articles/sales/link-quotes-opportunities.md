@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 606098473db479d0015e3a7a3c01a3d3b6de9db1
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898553"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085060"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Crear ofertas de proyectos a partir de oportunidades
 
@@ -30,7 +30,7 @@ Las ofertas se pueden crear a partir de oportunidades de proyectos de las siguie
 Para crear una oferta de proyecto a partir de una oportunidad, complete los siguientes pasos.
 
 1. Abra la página **Oportunidad de proyecto** y seleccione la pestaña **Ofertas**. 
-2. En la subcuadrícula **Ofertas**, seleccione **+** para crear una nueva oferta de proyecto basada en la oportunidad. Todas las líneas de oportunidad y las listas de precios del proyecto relacionadas se copian en la nueva oferta de la oportunidad.
+2. En la subcuadrícula **Ofertas** , seleccione **+** para crear una nueva oferta de proyecto basada en la oportunidad. Todas las líneas de oportunidad y las listas de precios del proyecto relacionadas se copian en la nueva oferta de la oportunidad.
 
 ## <a name="from-the-opportunity-sales-process-flow"></a>Desde el flujo del proceso de ventas de oportunidad
 
@@ -50,7 +50,7 @@ Para crear una oferta de proyecto a partir de un flujo de proceso de ventas de o
 Una oferta existente se puede vincular a una oportunidad. Complete los siguientes pasos para actualizar la información de oportunidad en una oferta existente.
 
 1. Abra la página **Oferta** y seleccione la pestaña **Resumen**.
-2. En el campo **Oportunidad**, seleccione la oportunidad que desea vincular a la oferta. Puedes ver la oferta en la cuadrícula **Ofertas** de la oportunidad. 
+2. En el campo **Oportunidad** , seleccione la oportunidad que desea vincular a la oferta. Puedes ver la oferta en la cuadrícula **Ofertas** de la oportunidad. 
 3. Usando el proceso de ventas de oportunidades, la oportunidad se puede mover a la siguiente etapa, **Proponer**. 
 
    Cuando mueva una oportunidad a esta etapa, puede seleccionar esta oferta de una lista de ofertas asociadas con esta oportunidad. Seleccionar esta oferta indica que está avanzando con ella.

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896302"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085072"
 ---
 # <a name="project-quote-key-concepts"></a>Conceptos clave de oferta de proyecto
 
@@ -78,7 +78,7 @@ Los acuerdos con varios clientes se producen cuando hay más de un cliente para 
 
 ## <a name="invoice-schedules"></a>Programar facturas
 
-Los programas de facturación son específicos para cada línea de oferta y también son opcionales. Los programas de facturación se crean en función de determinadas fechas de inicio y finalización y la frecuencia de facturación. Los programas de facturación se utilizan en la etapa de contrato cuando se configura el proceso de creación automática de facturas. En la etapa de oferta, las programaciones son opcionales. Cuando se crean programas de facturas en la fase **Oferta**, se copian en el contrato del proyecto que se crea cuando se gana una oferta del proyecto.
+Los programas de facturación son específicos para cada línea de oferta y también son opcionales. Los programas de facturación se crean en función de determinadas fechas de inicio y finalización y la frecuencia de facturación. Los programas de facturación se utilizan en la etapa de contrato cuando se configura el proceso de creación automática de facturas. En la etapa de oferta, las programaciones son opcionales. Cuando se crean programas de facturas en la fase **Oferta** , se copian en el contrato del proyecto que se crea cuando se gana una oferta del proyecto.
 
 ## <a name="changes-from-dynamics-365-sales-quote"></a>Cambios desde una oferta de Dynamics 365 Sales:
 

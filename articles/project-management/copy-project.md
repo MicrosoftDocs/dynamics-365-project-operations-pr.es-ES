@@ -3,23 +3,23 @@ title: Copiar un proyecto
 description: Este tema proporciona información sobre la copia de proyectos en Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e35dc725e7938e9f59f7151dd1b37500fabf77a4
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908627"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085089"
 ---
 # <a name="copy-a-project"></a>Copiar un proyecto
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Con Dynamics 365 Project Operations, puede crear rápidamente nuevos proyectos utilizando la acción **Copiar proyecto** desde **Proyectos**. Para copiar un proyecto, seleccione un proyecto y luego seleccione **Copiar**. La acción copiará:
+Con Dynamics 365 Project Operations, puede crear rápidamente nuevos proyectos seleccionando el formulario **Copiar proyecto** desde **Proyectos**. Para copiar un proyecto, abra el proyecto que desea copiar y luego seleccione **Copiar proyecto**. La acción copiará:
 
 - Propiedades del proyecto
 - La estructura de descomposición del trabajo
@@ -58,4 +58,6 @@ Cuando un equipo de proyecto se copia desde el proyecto de origen, se copian los
 
 ## <a name="estimates"></a>Estimaciones
 
-Cuando se copia el proyecto, las líneas de estimación de recursos y gastos se copian del proyecto de origen.
+Cuando se copia el proyecto, las líneas de estimación de recursos y gastos se copian del proyecto de origen. 
+
+Para obtener información sobre cómo acceder mediante programación a Copiar proyecto, consulte [Desarrollar plantillas de proyectos con Copy Project](dev-copy-project.md).
