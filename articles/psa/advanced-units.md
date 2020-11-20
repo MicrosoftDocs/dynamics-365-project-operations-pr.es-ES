@@ -3,7 +3,7 @@ title: Unidades y grupos de unidades
 description: En este tema se proporciona información sobre las unidades y las unidades de venta.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78f154856acf796f408491c5873cb29da8ac55bb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58ce821d11d729f6e2c33e5a50344458e395db4d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085164"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130599"
 ---
 # <a name="unit-groups-and-units"></a>Unidades y grupos de unidades
 
@@ -33,16 +33,16 @@ Las unidades y las unidades de venta son entidades básicas en Microsoft Dynamic
 
 A continuación se muestran algunos ejemplos de unidades y unidades de venta:
  
-- **Unidad de venta** : Distancia 
-    - **Unidades** : Milla, Kilómetro, etc.
-- **Unidad de venta** : Tiempo
-    - **Unidades** : Hora, Día, Semana, etc. 
+- **Unidad de venta**: Distancia 
+    - **Unidades**: Milla, Kilómetro, etc.
+- **Unidad de venta**: Tiempo
+    - **Unidades**: Hora, Día, Semana, etc. 
 
 Cuando se configuran varias unidades en una unidad de venta, también hay que configurar un factor de conversión entre ellas designando la primera unidad que se configura como unidad principal o predeterminada para la unidad de venta. 
 
-Por ejemplo, en una unidad de venta **Tiempo** , si configura **Hora** como la primera unidad, el sistema designará la unidad **Hora** como predeterminada. Si la siguiente unidad que se configura es **Día** , debe configurar un factor de conversión de **Día** a **Hora**. Si se agrega a continuación la unidad **Semana** como tercera unidad, debe configurar un factor de conversión para **Semana** con respecto a las unidades **Día** u **Hora**. 
+Por ejemplo, en una unidad de venta **Tiempo** , si configura **Hora** como la primera unidad, el sistema designará la unidad **Hora** como predeterminada. Si la siguiente unidad que se configura es **Día**, debe configurar un factor de conversión de **Día** a **Hora**. Si se agrega a continuación la unidad **Semana** como tercera unidad, debe configurar un factor de conversión para **Semana** con respecto a las unidades **Día** u **Hora**. 
 
-La imagen siguiente muestra un ejemplo de configuración para la unidad **Día** , donde el campo **Cantidad** muestra el número de horas que hay en un día, y para la unidad **Semana** , donde el campo **Cantidad** muestra el número de días que hay en una semana.
+La imagen siguiente muestra un ejemplo de configuración para la unidad **Día**, donde el campo **Cantidad** muestra el número de horas que hay en un día, y para la unidad **Semana**, donde el campo **Cantidad** muestra el número de días que hay en una semana.
 
 > ![Unidad de venta: página de información](media/advanced-2.png)
 
@@ -52,7 +52,7 @@ Dynamics 365 Project Service Automation utiliza unidades y unidades de venta par
 
 Para los gastos, cada categoría de gastos tiene una unidad y una unidad de venta predeterminadas. Estos valores se especifican como valores predeterminados en las entradas de lista de precios para las categorías de gastos. 
 
-Por ejemplo, supongamos que tiene una categoría de gastos con el nombre **Kilometraje**. Esta tiene una unidad de venta con el nombre **Distancia** y una unidad predeterminada con el nombre **Milla**. Si configura la unidad de venta **Distancia** para que tenga dos unidades ( **Milla** y **Kilómetro** ), podrá establecer dos precios para la categoría **Kilometraje** en una lista de precios: precio por milla y precio por kilómetro.
+Por ejemplo, supongamos que tiene una categoría de gastos con el nombre **Kilometraje**. Esta tiene una unidad de venta con el nombre **Distancia** y una unidad predeterminada con el nombre **Milla**. Si configura la unidad de venta **Distancia** para que tenga dos unidades (**Milla** y **Kilómetro**), podrá establecer dos precios para la categoría **Kilometraje** en una lista de precios: precio por milla y precio por kilómetro.
 
 | Categoría de gastos  | Unidad de venta  | Unidad      | Método de cálculo de precios  | Precio unitario  |
 |-------------------|---------------|-----------|-------------------|-------------------|
@@ -72,17 +72,17 @@ Las líneas de estimación del campo **Tiempo en oferta** se pueden expresar en 
 El siguiente ejemplo se muestra cómo usa PSA la unidad de venta, las unidades y los factores de conversión.
 - Unidades de medida
 
-   - **Unidad de venta** : Tiempo 
-   - **Unidades** : Hora 
+   - **Unidad de venta**: Tiempo 
+   - **Unidades**: Hora 
     
-    - **Día** : factor de conversión de 8 horas       
-    - **Semana** : factor de conversión de 40 horas  
+    - **Día**: factor de conversión de 8 horas       
+    - **Semana**: factor de conversión de 40 horas  
         
 - Configuración de la lista de precios en el proyecto A:
 
-    - **Nombre** : Precios de venta del Reino Unido de 2016 
-    - **Unidad de tiempo predeterminada** : Día 
-    - **Divisa** : GBP
+    - **Nombre**: Precios de venta del Reino Unido de 2016 
+    - **Unidad de tiempo predeterminada**: Día 
+    - **Divisa**: GBP
 
 | Rol      | Unidad de venta | Unidad | Unidad organizativa | Precio   |
 |-----------|------------|------|---------------------|---------|
@@ -109,4 +109,4 @@ En algunos países o regiones, hay requisitos legales que exigen que los índice
 Núm. Actualmente, la estimación de programación solo se puede hacer en horas y no se puede cambiar.
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>¿Es posible editar, eliminar y agregar las unidades y las unidades de venta?
-Sí. A excepción de la unidad de venta **Tiempo** y la unidad **Hora** , todas las unidades se pueden eliminar o editar y también es posible agregar nuevas unidades. En PSA, la unidad de venta **Tiempo** y la unidad **Hora** no pueden eliminarse. Sin embargo, se pueden actualizar con un texto traducido para el campo **Nombre**.
+Sí. A excepción de la unidad de venta **Tiempo** y la unidad **Hora**, todas las unidades se pueden eliminar o editar y también es posible agregar nuevas unidades. En PSA, la unidad de venta **Tiempo** y la unidad **Hora** no pueden eliminarse. Sin embargo, se pueden actualizar con un texto traducido para el campo **Nombre**.

@@ -1,21 +1,21 @@
 ---
-title: Suscribirse para una suscripción de vista previa
+title: Registrarse para una suscripción de versión preliminar (lite)
 description: 'Este tema proporciona información sobre cómo suscribirse y realizar la implementación simplificada de Project Operations: de oferta a facturación proforma.'
 author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085011"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175912"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Regístrese para obtener una suscripción de vista previa para implementación simplificada: de oferta a facturación proforma
+# <a name="sign-up-for-a-preview-subscription---lite"></a>Registrarse para una suscripción de versión preliminar (lite) 
 
 Este tema explica cómo suscribirse a la oferta de partners de vista previa e implementar de forma simplificada Dynamics 365 Project Operations: de oferta a facturación proforma.
 
@@ -67,7 +67,7 @@ Repita los mismos pasos que con el primer código de oferta. Asegúrese de agreg
 
 ![Página principal del Centro de administración](./media/14AdminPortal.png)
 
-2. En la página **Usuarios activos** , seleccione los usuarios a los que desea asignar una licencia.
+2. En la página **Usuarios activos**, seleccione los usuarios a los que desea asignar una licencia.
 
 ![Asignar licencias](./media/15AssignLicenses.png)
 

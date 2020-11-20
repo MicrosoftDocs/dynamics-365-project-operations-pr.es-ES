@@ -3,7 +3,7 @@ title: Especificar gastos
 description: Como introducir gastos en Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 360e2c6b103f3d441fd89995751ba038036563c4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34510b38773031795d3877c2736275fe67dbdd7b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085352"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132939"
 ---
 # <a name="enter-expenses-project-service"></a>Introducir gastos (Project Service)
 
@@ -49,7 +49,7 @@ Especifique sus gastos al menos semanalmente —o con la frecuencia solicitada p
   
    Si usa la aplicación móvil:  
   
-8. En el menú, vaya a **Gastos**.     Puede cambiar a la vista **Día** , **Semana** o **Mes** o ir al período de tiempo anterior o siguiente.  
+8. En el menú, vaya a **Gastos**.     Puede cambiar a la vista **Día**, **Semana** o **Mes** o ir al período de tiempo anterior o siguiente.  
   
 9. Pulse **...** y pulse en **Nuevo**.  
   

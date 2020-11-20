@@ -3,7 +3,7 @@ title: Unidades organizativas
 description: En este tema se proporciona información sobre las unidades organizativas en Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 454d9a4c4d139f493adf4604f8ba40a0211f0eec
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 755eee6ab9993c72ff1db46e0993527ac0826bfe
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085260"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130644"
 ---
 # <a name="organizational-units"></a>Unidades organizativas 
 
@@ -50,8 +50,8 @@ Además, existe un atributo para la unidad organizativa en la entidad Recurso. C
 
 La unidad organizativa desempeña dos roles en PSA:
 
-- **Unidad de contratación** : unidad organizativa que representa el grupo o la división de la compañía responsable de lograr la venta y administrar la entrega del trabajo y los servicios al cliente. La unidad de contratación se identifica con el campo **Unidad de contratación** en la sección del encabezado de las páginas **Oportunidad** , **Oferta** , **Contrato del proyecto** y **Proyecto**.
-- **Unidad de dotación de recursos** : unidad organizativa a la que pertenece o está asignado un recurso. Esta unidad organizativa puede ofrecer sus recursos para determinados roles en declaraciones del trabajo (SOW) y proyectos que son propiedad de la unidad de contratación.
+- **Unidad de contratación**: unidad organizativa que representa el grupo o la división de la compañía responsable de lograr la venta y administrar la entrega del trabajo y los servicios al cliente. La unidad de contratación se identifica con el campo **Unidad de contratación** en la sección del encabezado de las páginas **Oportunidad**, **Oferta**, **Contrato del proyecto** y **Proyecto**.
+- **Unidad de dotación de recursos**: unidad organizativa a la que pertenece o está asignado un recurso. Esta unidad organizativa puede ofrecer sus recursos para determinados roles en declaraciones del trabajo (SOW) y proyectos que son propiedad de la unidad de contratación.
 
 > ![Unidades de contratación y unidades de dotación de recursos](media/advanced-1.png)
 

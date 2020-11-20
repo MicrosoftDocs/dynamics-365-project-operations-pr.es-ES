@@ -1,21 +1,21 @@
 ---
-title: 'Implementación simplificada de operaciones de proyecto: de oferta a facturación proforma'
+title: Implementar Project Operations (lite)
 description: 'Este tema proporciona información sobre cómo instalar la implementación simplificada de Project Operations: de oferta a facturación proforma.'
 author: stsporen
 manager: Annbe
 ms.date: 10/02/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e938876d459b3f6dfedd90e57e3042cda96bffb7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0633585fcef91d9218d6140764addb7cf96ab31d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085012"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175687"
 ---
-# <a name="deploy-project-operations-lite-deployment--deal-to-proforma-invoicing"></a>Implementación simplificada de operaciones de proyecto: de oferta a facturación proforma
+# <a name="deploy-project-operations---lite"></a>Implementar Project Operations (lite)
 
 _**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
 
@@ -32,7 +32,7 @@ Project Operations admite varios modelos de implementación. Para determinar el 
 
 ## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>Instalar Project Operations en un nuevo entorno CDS
 
-1. Como [ Administrador global o de Power Platform](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) con licencia de Project Operations, cree un nuevo entorno CDS en el [Centro de administración de PowerPlatform](https://admin.powerplatform.com). Asegúrese de que **Base de datos CDS** y **Aplicaciones de Dynamics 365** están habilitados. Para obtener más información, consulte [Crear y administrar entornos en el centro de administración de Power Platform](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
+1. Como [Administrador global o de Power Platform](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) con licencia de Project Operations, cree un nuevo entorno CDS en el [Centro de administración de PowerPlatform](https://admin.powerplatform.com). Asegúrese de que **Base de datos CDS** y **Aplicaciones de Dynamics 365** están habilitados. Para obtener más información, consulte [Crear y administrar entornos en el centro de administración de Power Platform](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
 2. Seleccione **Microsoft Dynamics 365 Project Operations** en la lista de implementación de aplicaciones de Dynamics 365.
 
 

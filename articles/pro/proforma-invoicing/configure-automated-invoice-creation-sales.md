@@ -1,22 +1,22 @@
 ---
-title: Configurar la creación de una factura proforma
+title: Configurar la creación automática de facturas (lite)
 description: En este tema se proporciona información sobre cómo configurar la creación automática de facturas proforma.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e146dd510b3795d52d164fc6acf8e5400ba11310
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085057"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176587"
 ---
-# <a name="configure-automated-proforma-invoice-creation"></a>Configurar la creación de una factura proforma
-
+# <a name="configure-automatic-invoice-creation---lite"></a>Configurar la creación automática de facturas (lite)
+ 
 _**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
 
 Puede configurar la creación automática de facturas en Dynamics 365 Project Operations. El sistema crea un borrador de factura proforma basada en la programación de facturas para cada contrato de proyecto y línea de contrato. Los programas de facturación se configuran a nivel de línea de contrato. Cada línea de un contrato puede tener una programación de facturas distinta, o se puede incluir la misma programación de facturas en cada línea del contrato.
@@ -48,30 +48,30 @@ Los programas de facturación definidos en cada una de estas dos líneas de pedi
 
 En este ejemplo, cuando la facturación automática se ejecuta en:
 
-- **4 de octubre o cualquier fecha anterior** : no se genera ninguna factura para este contrato porque la tabla de **Programación de facturas** para cada una de estas líneas de contrato no indica el 4 de octubre, domingo, como fecha de ejecución de la factura.
-- **5 de octubre lunes** : se genera una factura para:
+- **4 de octubre o cualquier fecha anterior**: no se genera ninguna factura para este contrato porque la tabla de **Programación de facturas** para cada una de estas líneas de contrato no indica el 4 de octubre, domingo, como fecha de ejecución de la factura.
+- **5 de octubre lunes**: se genera una factura para:
 
     - Trabajo de prototipo que incluye el hito, si está marcado como **Listo para facturar**.
     - Trabajo de implementación que incluye todas las transacciones de horas creadas antes de la fecha de cierre de la transacción del 4 de octubre, domingo, que está marcada como **Listo para facturar**.
     - Gastos incurridos que incluye todas las transacciones de gastos creadas antes de la fecha de cierre de la transacción del 4 de octubre, domingo, que está marcada como **Listo para facturar**.
   
-- **6 de octubre o cualquier fecha anterior al 19 de octubre** : no se genera ninguna factura para este contrato ya que la tabla de **Programación de facturas** para cada una de estas líneas de contrato no indica el 6 de octubre o cualquier fecha previa al 19 de octubre, como fecha de ejecución de la factura.
+- **6 de octubre o cualquier fecha anterior al 19 de octubre**: no se genera ninguna factura para este contrato ya que la tabla de **Programación de facturas** para cada una de estas líneas de contrato no indica el 6 de octubre o cualquier fecha previa al 19 de octubre, como fecha de ejecución de la factura.
 - **19 de ocutbre, lunes:** se genera una factura para implementación que incluye todas las transacciones de horas creadas antes de la fecha de cierre de la transacción del 18 de octubre, domingo, que está marcada como **Listo para facturar**.
-- **2 de noviembre lunes** : se genera una factura para:
+- **2 de noviembre lunes**: se genera una factura para:
 
     - Trabajo de implementación que incluye todas las transacciones de horas creadas antes de la fecha de cierre de la transacción del 1 de noviembre, domingo, que está marcada como **Listo para facturar**.
     - Gastos incurridos que incluye todas las transacciones de gastos creadas antes de la fecha de cierre de la transacción del 1 de noviembre, domingo, que está marcada como **Listo para facturar**.
 
-- **martes 3 de noviembre** : se genera una factura para el trabajo de prototipo que incluye el hito de 12 000 USD, si está marcado como **Listo para facturar**.
+- **martes 3 de noviembre**: se genera una factura para el trabajo de prototipo que incluye el hito de 12 000 USD, si está marcado como **Listo para facturar**.
 
 ## <a name="configure-automatic-invoicing"></a>Configurar facturación automática
 
 Complete estos pasos para configurar la ejecución automática de facturas.
 
-1. En **Operaciones de proyecto** , vaya a **Configuración** > **Configuración de facturas recurrentes**.
+1. En **Operaciones de proyecto**, vaya a **Configuración** > **Configuración de facturas recurrentes**.
 2. Cree un trabajo por lotes y asígnele el nombre **Creación de facturas de Project Operations**. El nombre del trabajo por lotes debe incluir las palabras "creación de facturas".
-3. En el campo **Tipo de trabajo** , seleccione **Ninguno**. De forma predeterminada, laos campos **Frecuencia diaria** y **Está activo** están configuradas con el valor **Sí**.
-4. Seleccione **Ejecutar flujo de trabajo**. En el cuadro de diálogo **Buscar registros** , se mostrarán tres flujos de trabajo:
+3. En el campo **Tipo de trabajo**, seleccione **Ninguno**. De forma predeterminada, laos campos **Frecuencia diaria** y **Está activo** están configuradas con el valor **Sí**.
+4. Seleccione **Ejecutar flujo de trabajo**. En el cuadro de diálogo **Buscar registros**, se mostrarán tres flujos de trabajo:
 
 - ProcessRunCaller
 - ProcessRunner
@@ -81,11 +81,11 @@ Complete estos pasos para configurar la ejecución automática de facturas.
 6. En el siguiente cuadro de diálogo, seleccione **Aceptar**. El flujo de trabajo **Reposo** va seguido de un flujo de trabajo **Proceso**. 
 
 > [!NOTE]
-> También puede seleccionar **ProcessRunner** en el paso 5. A continuación, cuando se selecciona **Aceptar** , el flujo de trabajo **Proceso** va seguido del flujo de trabajo **Reposo**.
+> También puede seleccionar **ProcessRunner** en el paso 5. A continuación, cuando se selecciona **Aceptar**, el flujo de trabajo **Proceso** va seguido del flujo de trabajo **Reposo**.
 
 Los flujos de trabajo **ProcessRunCaller** y **ProcessRunner** crean facturas. **ProcessRunCaller** llama a **ProcessRunner**. **ProcessRunner** es el flujo de trabajo que crea realmente las facturas. El flujo de trabajo pasa por todas las líneas de contrato para las que se deben crear facturas y crea las facturas para dichas líneas. Para determinar las líneas de contrato para las que se deben crear facturas, el trabajo busca fechas de ejecución de facturas para las líneas de contrato. Si hay líneas de contrato que pertenecen a un contrato que tiene la misma fecha de ejecución de factura, las transacciones se combinarán en una factura con dos líneas de factura. Si no hay transacciones para crear facturas, el trabajo omite la creación de una factura.
 
-Cuando finaliza la ejecución de **ProcessRunner** , se llama al flujo de trabajo **ProcessRunCaller** , que proporciona la hora de finalización y después se cierra. A continuación, **ProcessRunCaller** pone en marcha un temporizador que se ejecuta durante 24 horas desde la hora de finalización especificada. Cuando se agota el tiempo del temporizador, el flujo de trabajo **ProcessRunCaller** se cierra.
+Cuando finaliza la ejecución de **ProcessRunner**, se llama al flujo de trabajo **ProcessRunCaller**, que proporciona la hora de finalización y después se cierra. A continuación, **ProcessRunCaller** pone en marcha un temporizador que se ejecuta durante 24 horas desde la hora de finalización especificada. Cuando se agota el tiempo del temporizador, el flujo de trabajo **ProcessRunCaller** se cierra.
 
 El trabajo del proceso por lotes para la creación de facturas es un trabajo recurrente. Si este proceso por lotes se ejecuta muchas veces, se crean varias instancias del trabajo y se generan errores. Por lo tanto, debe iniciar el proceso por lotes solo una vez y después reiniciarlo solo si se detiene su ejecución.
 

@@ -3,7 +3,7 @@ title: Programar recursos para un proyecto
 description: Cómo programar recursos para un proyecto en Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db69348aac96cbfaaa865228c9230cbda4b1e784
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1479bf920be897a6ee3498aada7a6c36692a01fc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085354"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132173"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Programar recursos para un proyecto (Project Service)
 
@@ -31,7 +31,7 @@ ms.locfileid: "4085354"
 
 Puede comprobar la disponibilidad de recursos para obtener una visión general de lo reservados que están sus recursos o bien puede filtrar la vista por conocimientos, equipo, ubicación y otras opciones.  
   
-El tablero de programación muestra una lista de recursos y su disponibilidad. Seleccione un modo de vista para mostrar disponibilidad por **Horas** , **Día** , **Semana** o **Mes**.  
+El tablero de programación muestra una lista de recursos y su disponibilidad. Seleccione un modo de vista para mostrar disponibilidad por **Horas**, **Día**, **Semana** o **Mes**.  
   
 Antes de usar al tablero de programación, es importante configurarlo. Para obtener más información, consulte [Configurar la tabla de programación (Field Service o Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
   
@@ -43,13 +43,13 @@ Si usa una versión anterior, para disponibilidad de recursos, consulte [Ver dis
 > 1. En el menú principal, seleccione **Programación de recursos** > **Administración**.  
 > 2. Haga clic en **Parámetros de programación**.  
 > 3. Abra el registro y desplácese hacia abajo hasta la sección **Resource Scheduling Optimization**.  
-> 4. En el campo **Conectar con Mapas** , elija **Sí**.  
+> 4. En el campo **Conectar con Mapas**, elija **Sí**.  
 > 5. Acepte la términos y guarde el registro.  
 > 6. En el menú principal, seleccione **Project Service** > **Tabla de programación**. A partir de aquí, hay varias formas diferentes de programar manualmente un requisito de reserva. Elija el método que funcione para usted.
   
 ## <a name="find-available-resources"></a>Buscar recursos disponibles
 
-1.  De la lista **Requisitos de reserva** , haga clic con el botón secundario en una reserva no programada y seleccione una de las acciones siguientes:  
+1.  De la lista **Requisitos de reserva**, haga clic con el botón secundario en una reserva no programada y seleccione una de las acciones siguientes:  
   
 - Elija **Buscar disponibilidad - Recurso actual** para buscar un recurso disponible en la lista de recursos del tablero de programación.  
 - Elija **Buscar disponibilidad - Todos los recursos** para buscar un recurso disponible en los recursos del sistema  
@@ -67,7 +67,7 @@ Si usa una versión anterior, para disponibilidad de recursos, consulte [Ver dis
   
 2.  Haga clic en el nombre del recurso que desea para reservar y seleccione **Reservar**.  
   
-3.  En el cuadro de diálogo **Reserva de recursos (crear)** , elija el proyecto para el que desea reservar el recurso junto con el método de reserva y las horas de inicio y finalización.  
+3.  En el cuadro de diálogo **Reserva de recursos (crear)**, elija el proyecto para el que desea reservar el recurso junto con el método de reserva y las horas de inicio y finalización.  
   
 4.  Cuando esté listo, seleccione **Reservar**.  
   

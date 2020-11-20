@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 6bb7c185656ff87bb3ca24209594c07d25862d70
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c4d02fd589d4a5d39380688852377f57fceb05b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085093"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130329"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Cumplimiento del requisito de recursos genéricos
 
@@ -21,9 +21,9 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no mant
 
 Puede para reservar un recurso con nombre para reemplazar el recurso genérico que tiene un requisito de recursos.
 
-1. En la página **Proyectos** , seleccione la pestaña **Equipo**.
+1. En la página **Proyectos**, seleccione la pestaña **Equipo**.
 2. Seleccione el recurso genérico que tiene algún requisito de recursos de la lista y después seleccione **Reservar**. O bien, abra el requisito del recurso y después haga clic en **Reservar**.
-3. En la página **Asistente de programación** , seleccione el recurso con nombre que desee reservar para su equipo de proyecto y después seleccione **Reservar**.
+3. En la página **Asistente de programación**, seleccione el recurso con nombre que desee reservar para su equipo de proyecto y después seleccione **Reservar**.
 
 Cuando se completa la reserva y se cumple con un recurso con nombre, el recurso genérico se reemplaza por el recurso con nombre.
 

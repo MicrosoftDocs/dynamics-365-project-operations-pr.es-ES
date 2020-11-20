@@ -3,7 +3,7 @@ title: Especificar hora
 description: Cómo introducir horas en Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4db1e62e062aa5024c8b8807e155fbd543af1059
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b06062cf21cacedda759cc7bf7f940fc33f16bd0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085351"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132894"
 ---
 # <a name="enter-time-project-service"></a>Introducir horas (Project Service)
 
@@ -51,7 +51,7 @@ Especifique sus horas al menos semanalmente —o con la frecuencia solicitada po
   
    Si usa la aplicación móvil:  
   
-9. En el menú, vaya a **Entradas de tiempo**.     Puede cambiar a la vista **Día** , **Semana** o **Mes** o ir al período de tiempo anterior o siguiente.  
+9. En el menú, vaya a **Entradas de tiempo**.     Puede cambiar a la vista **Día**, **Semana** o **Mes** o ir al período de tiempo anterior o siguiente.  
   
 10. Pulse **...** y pulse en **Nuevo**.  
   

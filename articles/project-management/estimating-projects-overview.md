@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085037"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131589"
 ---
 # <a name="estimate-projects-overview"></a>Información general de estimar proyectos
 
@@ -74,8 +74,8 @@ Si ha agregado un campo personalizado al detalle de la línea de oferta y desea 
 2. Seleccione **Buscar** y busque el complemento que desea actualizar.
 3. Seleccione el complemento y después haga clic en **Seleccionar** en la página principal.
 4. Seleccione el paso del complemento que desea actualizar, haga clic con el botón secundario y después seleccione **Actualizar**.
-5. En el cuadro de diálogo **Actualizar paso existente** , en el campo **Atributos de filtro** , seleccione el botón de puntos suspensivos ( **...** ):
-6. En el cuadro de diálogo **Seleccionar atributos** , active las casillas de verificación de los atributos personalizados.
+5. En el cuadro de diálogo **Actualizar paso existente**, en el campo **Atributos de filtro**, seleccione el botón de puntos suspensivos (**...**):
+6. En el cuadro de diálogo **Seleccionar atributos**, active las casillas de verificación de los atributos personalizados.
 7. Seleccione **Aceptar** para cerrar el cuadro de diálogo y después seleccione **Actualizar paso**.
 8. Repita los pasos del 1 al 7 para el segundo complemento.
 9. Cierre **PluginRegistrationTool**.

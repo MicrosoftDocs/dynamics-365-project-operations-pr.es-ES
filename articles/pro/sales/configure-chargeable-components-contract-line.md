@@ -1,21 +1,21 @@
 ---
-title: Configurar componentes facturables de una línea de contrato basada en proyecto
+title: Configurar componentes facturables de una línea de contrato basada en proyectos (lite)
 description: Este tema proporciona información sobre cómo agregar componentes facturables a las líneas de contrato en Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4d665a6351d2315d185e64e4eb6b0b8859f7bbc4
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 46429c94ca9aa1ebbbe9fc689a9a5bd6c52dc59e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085055"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177172"
 ---
-# <a name="configuring-chargeable-components-of-a-project-based-contract-line"></a>Configurar componentes facturables de una línea de contrato basada en proyecto
+# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Configurar componentes facturables de una línea de contrato basada en proyectos (lite)
 
 _**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
 
@@ -34,25 +34,25 @@ Un subconjunto de los componentes incluidos se puede marcar como facturable usan
 
 Los componentes facturables se pueden definir en tareas, roles y categorías de transacciones.
 
-La facturabilidad se define en las tareas de una línea de contrato de proyecto y se aplica a todas las clases de transacciones incluidas en la línea. Si el campo **Incluir tareas** en una línea de contrato está en blanco o configurado en * *Proyecto entero* *, la pestaña **Tareas facturables** no estará disponible.
+La facturabilidad se define en las tareas de una línea de contrato de proyecto y se aplica a todas las clases de transacciones incluidas en la línea. Si el campo **Incluir tareas** en una línea de contrato está en blanco o configurado en **Proyecto entero**, la pestaña **Tareas facturables** no estará disponible.
 
-La imputabilidad definida en roles para una línea de contrato de proyecto solo se aplica a la clase de transacción **Hora**. Si el campo **Incluir tiempo** en una línea de contrato está configurado en **No** , la pestaña **Roles facturables** no estará disponible.
+La imputabilidad definida en roles para una línea de contrato de proyecto solo se aplica a la clase de transacción **Hora**. Si el campo **Incluir tiempo** en una línea de contrato está configurado en **No**, la pestaña **Roles facturables** no estará disponible.
 
-La imputabilidad definida en categorías de transacción para una línea de contrato de proyecto solo se aplica a la clase de transacción **Gastos**. Si el campo **Incluir gastos** en una línea de contrato está configurado en **No** , la pestaña **Categorías facturables** no estará disponible.
+La imputabilidad definida en categorías de transacción para una línea de contrato de proyecto solo se aplica a la clase de transacción **Gastos**. Si el campo **Incluir gastos** en una línea de contrato está configurado en **No**, la pestaña **Categorías facturables** no estará disponible.
 
 ### <a name="update-a-project-task-as-chargeable-or-non-chargeable"></a>Actualizar una tarea del proyecto como facturable o no facturable
 
 Una tarea de proyecto puede ser facturable o no facturable en una línea de contrato específica, lo que hace posible la siguiente configuración:
 
-Si una línea de contrato basada en proyecto incluye **Tiempo** y una determinada tarea, **T1** está asociado como facturable. Si hay una segunda línea de contrato que incluye **Gastos** , puede asociar la tarea T1 en la línea de contrato como no imputable. El resultado es que todo el tiempo registrado en la tarea es imputable y todos los gastos no son imputables.
+Si una línea de contrato basada en proyecto incluye **Tiempo** y una determinada tarea, **T1** está asociado como facturable. Si hay una segunda línea de contrato que incluye **Gastos**, puede asociar la tarea T1 en la línea de contrato como no imputable. El resultado es que todo el tiempo registrado en la tarea es imputable y todos los gastos no son imputables.
 
-El tipo de facturación de una tarea se puede configurar en la pestaña **Tareas facturables** de la línea de contrato actualizando el campo **Tipo de facturación** en la subcuadrícula de tareas de la línea de contrato. Alternativamente, puede actualizar el campo **Tipo de facturación** en la subcuadrícula de la tarea Configuración de facturación de un proyecto que muestra las líneas de contrato asociadas a una tarea.
+El tipo de facturación de una tarea se puede configurar en la pestaña **Tareas con cargo** de la línea de contrato actualizando el campo **Tipo de facturación** en la subcuadrícula de tareas de la línea de contrato. Alternativamente, puede actualizar el campo **Tipo de facturación** en la subcuadrícula de la tarea Configuración de facturación de un proyecto que muestra las líneas de contrato asociadas a una tarea.
 
 ### <a name="update-a-role-as-chargeable-or-non-chargeable"></a>Actualizar un rol como facturable o no facturable
 
 Un rol puede ser facturable o no facturable en una línea de contrato específica.
 
-El tipo de facturación de un rol se puede configurar en la pestaña **Roles imputables** de una línea de contrato. Para hacer esto, actualice el campo **Tipo de facturación** en la subcuadrícula **Roles imputables**.
+El tipo de facturación de un rol se puede configurar en la pestaña **Roles imputables** de una línea de contrato. Para hacer esto, actualice el campo **Tipo de facturación** en la subcuadrícula **Funciones imputables**.
 
 ### <a name="update-a-transaction-category-as-chargeable-or-non-chargeable"></a>Actualizar una categoría de transacción como facturable o no facturable
 

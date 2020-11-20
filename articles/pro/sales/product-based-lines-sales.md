@@ -1,21 +1,21 @@
 ---
-title: Líneas de oportunidad basadas en productos
+title: Líneas de oportunidad basadas en productos (lite)
 description: Este tema proporciona información sobre artículos de líneas de oportunidades basadas en proyectos en Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 17ffcf8dc94d42102115281d281d6b553cf1fa17
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: fd32bedb94cf36f706c112a845f342d9dde19805
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085074"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176361"
 ---
-# <a name="product-based-opportunity-lines"></a>Líneas de oportunidad basadas en productos
+# <a name="product-based-opportunity-lines---lite"></a>Líneas de oportunidad basadas en productos (lite)
 
 _**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
 
@@ -25,4 +25,4 @@ Las líneas basadas en productos pueden ser artículos de catálogo o productos 
 
 Un concepto sobre las líneas de oportunidades basadas en productos que es específico de las oportunidades basadas en proyectos es **Presupuesto del cliente**. Utilice este campo para realizar un seguimiento de la cantidad que el cliente está dispuesto a pagar por el artículo de línea.
 
-Si el método de ingresos del resumen de oportunidades se establece en **Calculado por el sistema** , los valores del presupuesto del cliente en las líneas basadas en productos y proyectos se resumen para calcular los ingresos estimados.
+Si el método de ingresos del resumen de oportunidades se establece en **Calculado por el sistema**, los valores del presupuesto del cliente en las líneas basadas en productos y proyectos se resumen para calcular los ingresos estimados.

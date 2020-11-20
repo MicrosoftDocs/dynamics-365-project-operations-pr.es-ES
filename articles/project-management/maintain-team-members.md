@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f5b36628e90896c9fe6570de71c95eab83a44ebd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085014"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131544"
 ---
 # <a name="maintain-team-members"></a>Mantener miembros del equipo
 
@@ -22,13 +22,13 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no mant
 Puede agregar un recurso con nombre a su equipo de proyecto reservándolo directamente para el equipo.
 
 1. En Dynamics 365 Project Operations, vaya a **Proyectos** y seleccione el proyecto abierto para el que desea reservar.
-2. En la página **Proyecto** , en la pestaña **Equipo** , seleccione **Nuevo**. 
-3. En el cuadro de diálogo **Creación rápida: Miembro del equipo del proyecto** , seleccione el recurso reservable. El campo **Rol** se completará con el rol predeterminado del recurso si tiene alguno asignado. Puede cambiar el rol. 
+2. En la página **Proyecto**, en la pestaña **Equipo**, seleccione **Nuevo**. 
+3. En el cuadro de diálogo **Creación rápida: Miembro del equipo del proyecto**, seleccione el recurso reservable. El campo **Rol** se completará con el rol predeterminado del recurso si tiene alguno asignado. Puede cambiar el rol. 
 4. Seleccione las fechas de inicio y finalización en que será necesario el recurso y seleccione el método de asignación de capacidad del recurso. 
-5. En el campo **Aprobador de proyecto** , seleccione **Sí** en caso de que desee que el miembro del equipo sea aprobador de proyecto. El miembro del equipo puede aprobar las entradas de gastos y de tiempo enviadas para este proyecto. 
+5. En el campo **Aprobador de proyecto**, seleccione **Sí** en caso de que desee que el miembro del equipo sea aprobador de proyecto. El miembro del equipo puede aprobar las entradas de gastos y de tiempo enviadas para este proyecto. 
 6. Seleccione **Guardar**.
 
-Ahora puede asignar el recurso reservado a las tareas del proyecto. En la página **Proyecto** , en la pestaña **Programación** , asigne tareas al nuevo recurso. El selector de recursos que se inicia desde el campo **Recursos** de la cuadrícula de tareas mostrará los miembros de equipo que se pueden seleccionar.
+Ahora puede asignar el recurso reservado a las tareas del proyecto. En la página **Proyecto**, en la pestaña **Programación**, asigne tareas al nuevo recurso. El selector de recursos que se inicia desde el campo **Recursos** de la cuadrícula de tareas mostrará los miembros de equipo que se pueden seleccionar.
 
 
 En Operaciones de proyectos, las reservas de recursos y las asignaciones de tareas no están estrechamente relacionadas. Al usar el selector de recursos en la programación, puede asignar tareas a los miembros del equipo por más horas de las que cubren sus reservas en el proyecto.

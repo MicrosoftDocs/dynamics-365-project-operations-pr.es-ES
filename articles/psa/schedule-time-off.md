@@ -3,7 +3,7 @@ title: Programación de indisponibilidad
 description: Cómo programar tiempo libre en Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12ec70eca468fc17a1a85cfedc67adfecd80b007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: eed6103734773e90701853391584c55c1d1704e8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085373"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132219"
 ---
 # <a name="schedule-time-off-project-service"></a>Programar tiempo libre (Project Service)
 
@@ -41,7 +41,7 @@ Programe el tiempo de vacaciones o la ausencia de la misma forma que especifica 
   
 4.  Complete los campos en el formulario **Entrada de tiempo**.  
   
-5.  En **Tipo** , seleccione **Vacaciones** o **Ausencia**.  
+5.  En **Tipo**, seleccione **Vacaciones** o **Ausencia**.  
   
 6.  Haga clic en **Guardar**.  
   

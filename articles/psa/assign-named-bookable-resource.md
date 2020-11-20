@@ -3,7 +3,7 @@ title: Reservar recursos con nombre que se pueden reservar para un equipo de pro
 description: En este tema se proporciona información sobre cómo reservar recursos con nombre para equipos de proyectos y asignarlos a tareas.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: defc92e701ae6baf9d54f41dca123a09ef834c35
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0300c494a3294b26e2de6bbfa1dd50a76bb72651
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085267"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130194"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Reservar recursos con nombre que se pueden reservar para un equipo de proyecto y asignar tareas 
 
@@ -32,11 +32,11 @@ ms.locfileid: "4085267"
 Puede agregar un recurso con nombre a su equipo de proyecto reservándolo directamente en el equipo. Para ello, complete los pasos que se indican a continuación.
 
 1. En Project Service Automation, vaya a **Proyectos** y seleccione el proyecto abierto para el que desea realizar la reserva.
-2. En la página **Proyecto** , en la pestaña **Equipo** , haga clic en **Nuevo**. 
+2. En la página **Proyecto**, en la pestaña **Equipo**, haga clic en **Nuevo**. 
 
 ![Agregar un miembro de equipo desde la pestaña del equipo](media/RM-how-to-1.png)
 
-3. En el cuadro de diálogo **Creación rápida: Miembro del equipo del proyecto** , seleccione el recurso que se puede reservar. El campo **Rol** se completará con el rol predeterminado del recurso si tiene alguno asignado. Puede cambiar el rol si fuera necesario. 
+3. En el cuadro de diálogo **Creación rápida: Miembro del equipo del proyecto**, seleccione el recurso que se puede reservar. El campo **Rol** se completará con el rol predeterminado del recurso si tiene alguno asignado. Puede cambiar el rol si fuera necesario. 
 4. Seleccione las fechas de inicio y finalización del tiempo que será necesario el recurso y seleccione el método de asignación de capacidad del recurso. 
 5. Si desea que el miembro del equipo sea un aprobador de proyecto, seleccione **Sí** en el campo **Aprobador de proyecto**. Esto significa que el miembro del equipo podrá aprobar las entradas de gastos y de tiempo que se envíen para este proyecto. 
 6. Haga clic en **Guardar**.
@@ -44,7 +44,7 @@ Puede agregar un recurso con nombre a su equipo de proyecto reservándolo direct
 ![Agregar un miembro de equipo en el formulario de creación rápida](media/RM-how-to-2.png)
 
 
-Ahora puede asignar el recurso reservado a las tareas del proyecto. En la página **Proyecto** , haga clic en la pestaña **Programación** para asignar tareas al nuevo recurso. El selector de recursos que se inicia desde el campo **Recursos** de la cuadrícula de tareas mostrará los miembros de equipo que se pueden seleccionar.
+Ahora puede asignar el recurso reservado a las tareas del proyecto. En la página **Proyecto**, haga clic en la pestaña **Programación** para asignar tareas al nuevo recurso. El selector de recursos que se inicia desde el campo **Recursos** de la cuadrícula de tareas mostrará los miembros de equipo que se pueden seleccionar.
 
 ![Asignación de un miembro de equipo a una tarea en la pestaña de programación](media/RM-how-to-3.png)
 

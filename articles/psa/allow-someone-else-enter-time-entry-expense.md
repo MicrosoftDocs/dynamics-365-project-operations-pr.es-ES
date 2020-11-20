@@ -3,7 +3,7 @@ title: Permitia que otra persona especifique su entrada de tiempo o gasto
 description: Permitir que otra persona especifique la entrada de tiempo o gasto en Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085121"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130410"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Permitir que otra persona especifique la entrada de tiempo o gasto (Project Service)
 
@@ -37,13 +37,13 @@ Configurar un delegado para permitir que otra persona crear entradas de tiempo o
   
 2.  En la barra de comandos, haga clic en **Nuevo**.  
   
-3. **Nombre** : Escriba un nombre para el registro.  
+3. **Nombre**: Escriba un nombre para el registro.  
   
-4. **Tipo** : Seleccione si el delegado puede introducir entradas de tiempo o de gasto en su nombre.  
+4. **Tipo**: Seleccione si el delegado puede introducir entradas de tiempo o de gasto en su nombre.  
   
-5. **Delegado** : Seleccione el nombre de la persona que desea que sea el delegado.  
+5. **Delegado**: Seleccione el nombre de la persona que desea que sea el delegado.  
   
-6. **Fechas de inicio y finalización** : Seleccione las fechas en que la delegación empieza y finaliza.  
+6. **Fechas de inicio y finalización**: Seleccione las fechas en que la delegación empieza y finaliza.  
   
 7.  Cuando esté listo, haga clic en **Guardar y cerrar**.  
   
@@ -55,13 +55,13 @@ Configurar un delegado para permitir que otra persona crear entradas de tiempo o
   
 3.  En la barra de comandos, haga clic en **Desactivar**.  
   
-4.  En el cuadro de diálogo **Confirmar desactivación** , haga clic en **Desactivar**.  
+4.  En el cuadro de diálogo **Confirmar desactivación**, haga clic en **Desactivar**.  
   
 ## <a name="enter-time-for-someone-else"></a>Hora de entrada para otra persona  
   
 1.  En el menú principal, haga clic en **Project Service** > **Entradas de hora**.  
   
-2.  En la barra de comandos, seleccione el menú desplegable **NOMBRE DEL RECURSO** , seleccione el nombre de la persona para la que está introduciendo la hora.  
+2.  En la barra de comandos, seleccione el menú desplegable **NOMBRE DEL RECURSO**, seleccione el nombre de la persona para la que está introduciendo la hora.  
   
 3.  Haga clic en **Aceptar**.  
   
@@ -77,7 +77,7 @@ Configurar un delegado para permitir que otra persona crear entradas de tiempo o
   
 1.  En el menú principal, haga clic en **Project Service** > **Gastos**.  
   
-2.  En la barra de comandos, seleccione el menú desplegable **NOMBRE DEL RECURSO** , seleccione el nombre de la persona para la que está introduciendo los gastos.  
+2.  En la barra de comandos, seleccione el menú desplegable **NOMBRE DEL RECURSO**, seleccione el nombre de la persona para la que está introduciendo los gastos.  
   
 3.  Haga clic en **Aceptar**.  
   

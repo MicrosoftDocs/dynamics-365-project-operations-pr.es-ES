@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d726ab09da0e502da99191f7e7469c47f79b6e7c
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 871d323136cd982bd48ed9aa2b9c34017951d2d8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085040"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130734"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Asignar proyectos y tareas a una línea de oferta basada en proyecto
 
@@ -42,13 +42,13 @@ Puede asociar tareas con líneas de oferta de las siguientes ubicaciones:
 La página **Proyecto** proporciona la experiencia óptima para asociar tareas a líneas de oferta. Puede usar esta página para seleccionar varias tareas y asociarlas todas, más sus tareas secundarias, a la línea de oferta seleccionada.
 
 1. En la pestaña **General** de una línea de oferta basada en proyecto, verifique que el campo **Proyecto** esté relleno.
-2. En el campo **Tareas incluidas** , seleccione **Solo tareas seleccionadas**.
+2. En el campo **Tareas incluidas**, seleccione **Solo tareas seleccionadas**.
 3. Guarde la línea de oferta basadas en proyecto. Cuando el formulario se actualiza, aparece la pestaña **Tareas cargables**.
-4. En la pestaña **General** , seleccione el vínculo del proyecto en el campo **Proyecto**.
-5. En la página **Proyecto** , seleccione la pestaña **Facturación de tareas**.
+4. En la pestaña **General**, seleccione el vínculo del proyecto en el campo **Proyecto**.
+5. En la página **Proyecto**, seleccione la pestaña **Facturación de tareas**.
 6. En la segunda cuadrícula, que se aplica a la configuración de facturación específica de la tarea, seleccione una o más tareas y luego seleccione **Líneas de oferta asociadas**.
 7. En la página de diálogo que aparece, seleccione una línea de oferta que muestre líneas de oferta basadas en proyecto de la oferta.
-8. En el campo **Tipo de facturación** , indique si estas tareas son cargables o no.
+8. En el campo **Tipo de facturación**, indique si estas tareas son cargables o no.
 9. Seleccione la casilla de verificación para indicar si la asociación debe incluir tareas secundarias de las tareas seleccionadas. Al marcar la casilla, se asociarán las tareas secundarias de las tareas seleccionadas a la línea de oferta.
 10. Seleccione **Aceptar** para cerrar el cuadro de diálogo.
 
@@ -57,13 +57,13 @@ La página **Proyecto** proporciona la experiencia óptima para asociar tareas a
 Puede asociar las tareas del proyecto a las líneas de oferta desde la pestaña **Tareas cargables** de la página **Línea de oferta**.
 
 >[!NOTE]
->El lugar óptimo para asociar las tareas del proyecto a las líneas de oferta es la pestaña **Facturación de tareas** de la página **Proyecto**. Si asocia tareas de la pestaña **Tareas cargables** de la página **Línea de oferta** , debe asociar manualmente cada proyecto.
+>El lugar óptimo para asociar las tareas del proyecto a las líneas de oferta es la pestaña **Facturación de tareas** de la página **Proyecto**. Si asocia tareas de la pestaña **Tareas cargables** de la página **Línea de oferta**, debe asociar manualmente cada proyecto.
 
 1. En la pestaña **General** de una línea de oferta basada en proyecto, verifique que haya un proyecto seleccionado en el campo **Proyecto**.
-2. En el campo **Tareas incluidas** , seleccione **Solo tareas seleccionadas**.
+2. En el campo **Tareas incluidas**, seleccione **Solo tareas seleccionadas**.
 3. Guarde la línea de oferta basadas en proyecto. Cuando el formulario se actualiza, aparece la pestaña **Tareas cargables**.
-4. En la pestaña **Tareas cargables** , seleccione **Agregar una tarea de línea de oferta**.
-5. En la página **Tarea de línea de oferta** , en el campo **Tareas** , seleccione la tarea, y en el campo **Tipo de facturación** , seleccione **Guardar**. 
+4. En la pestaña **Tareas cargables**, seleccione **Agregar una tarea de línea de oferta**.
+5. En la página **Tarea de línea de oferta**, en el campo **Tareas**, seleccione la tarea, y en el campo **Tipo de facturación**, seleccione **Guardar**. 
 6. Cierre la página. La tarea seleccionada ahora está asociada a la línea de oferta.
 
 ## <a name="disassociate-tasks-from-projectbased-quote-lines"></a>Disociar tareas de líneas de oferta basadas en proyectos
@@ -72,8 +72,8 @@ Puede asociar las tareas del proyecto a las líneas de oferta desde la pestaña 
 
 Este método proporciona la experiencia óptima para disociar tareas de líneas de oferta. Puede seleccionar varias tareas y disociarlas todas, más sus tareas secundarias, de la línea de oferta seleccionada.
 
-1. En la pestaña **General** de una línea de oferta basada en proyecto, en el campo **Proyecto** , seleccione el vínculo del proyecto.
-2. En la página **Proyecto** , seleccione la pestaña **Facturación de tareas**.
+1. En la pestaña **General** de una línea de oferta basada en proyecto, en el campo **Proyecto**, seleccione el vínculo del proyecto.
+2. En la página **Proyecto**, seleccione la pestaña **Facturación de tareas**.
 3. En la segunda cuadrícula, que se aplica a la configuración de facturación específica de tareas, seleccione una o más tareas y luego seleccione **Dosociar oferta**.
 4. En la página de diálogo que aparece, seleccione una línea de oferta.
 5. Seleccione la casilla para indicar si la asociación debe también quitarse de las tareas secundarias de las tareas seleccionadas. Al marcar la casilla, se disociarán también las tareas secundarias de las tareas seleccionadas de la línea de oferta.
@@ -84,7 +84,7 @@ Este método proporciona la experiencia óptima para disociar tareas de líneas 
 
 Puede disociar también las tareas del proyecto de las líneas de oferta desde la pestaña **Tareas cargables** de la página **Línea de oferta**.
 
-1. En la pestaña **Tareas cargables** , seleccione **Eliminar una tarea de línea de oferta**.
+1. En la pestaña **Tareas cargables**, seleccione **Eliminar una tarea de línea de oferta**.
 2. Seleccione **Aceptar**. Un mensaje de advertencia le informa de que, si elimina esta asociación, los datos reales registrados previamente en la tarea podrían revertirse. 
 3. Seleccione **Aceptar** para continuar y eliminar la asociación entre la tarea y la línea de oferta basada en el proyecto.
 

@@ -3,7 +3,7 @@ title: Crear una oferta de proyecto
 description: Cómo crear un presupuesto de proyecto en Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: efa18faffc6b5e97e8fbc21352688874d07e906f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a28bafed6fa76e21e3edb890da04f105b2b2a3c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085256"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133164"
 ---
 # <a name="create-a-project-quote-project-service"></a>Crear un presupuesto de proyecto (Project Service)
 
@@ -31,11 +31,11 @@ ms.locfileid: "4085256"
 
 Crear una oferta es similar a crear una oportunidad. Mientras que una oportunidad es para información interna, una oferta es lo que envía a los clientes potenciales. Puede crear una o varias ofertas para cada oportunidad. Cuando cree una oferta para enviársela al cliente potencial, está en la fase **Proponer** del proyecto.  
   
-1. Para crear una oferta desde una oportunidad, vaya a **Project Service > Oportunidades** , y luego haga clic en la oportunidad para la que desee crear una oferta.  
+1. Para crear una oferta desde una oportunidad, vaya a **Project Service > Oportunidades**, y luego haga clic en la oportunidad para la que desee crear una oferta.  
   
 2. Haga clic en **Fase siguiente** a la derecha de la barra del proceso, y luego seleccione una oferta existente o haga clic en **Crear** para crear una nueva oferta.  
   
-3. En el área **Resumen** , cambie la información que considere necesaria.  
+3. En el área **Resumen**, cambie la información que considere necesaria.  
   
 4. Haga clic en **Guardar** para crear la oferta para que pueda seguir editándola.  
   

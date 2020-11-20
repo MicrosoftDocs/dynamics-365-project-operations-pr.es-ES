@@ -1,21 +1,21 @@
 ---
-title: Administración de varios clientes en líneas de ofertas basadas en proyectos
+title: Administrar varios clientes en líneas de ofertas basadas en proyectos (lite)
 description: En este tema se describe cómo administrar varios clientes en líneas de oferta basadas en proyectos.
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6a509fcf8d1fa11b4ce1ba1493d9c3cc64b4f22f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7cab29693fc1447beba74dc6266367f13e48634d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085049"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176497"
 ---
-# <a name="managing-multiple-customers-on-project-based-quote-lines"></a>Administración de varios clientes en líneas de ofertas basadas en proyectos
+# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Administrar varios clientes en líneas de ofertas basadas en proyectos (lite)
 
 _**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
 
@@ -33,10 +33,10 @@ La siguiente tabla muestra los campos del registro de cliente de línea de ofert
 
 | Campo | Ubicación | Descripción y guía | Impacto posterior |
 | --- | --- | --- | --- |
-| **Cuenta** | Una cuadrícula editable en la pestaña **Clientes de línea de oferta** , el formulario principal y los formularios de creación rápida para un cliente de línea de oferta. | Enumera todas las cuentas activas. Este campo se bloquea después de que se crea el registro. Si necesita actualizar el campo, elimine y vuelva a crear el registro. Si ha registrado datos reales, no puede eliminar el registro. | Cuando elige una cuenta de la lista maestra de cuentas para agregar, el cliente de la línea de oferta también se agrega como cliente de oferta al guardarlo. Al ganarse una oferta, los clientes de la línea de oferta se copian a los clientes de la línea de contrato del proyecto. |
-| **Porcentaje de división de facturación** | Una cuadrícula editable en la pestaña **Clientes de línea de oferta** , el formulario principal y los formularios de creación rápida para un cliente de línea de oferta. | Representa el porcentaje de cada transacción de venta no facturada que se atribuirá a este cliente de línea de oferta. | Copiado a los clientes de la línea de contrato del proyecto. |
-| **Límite a no exceder** | Una cuadrícula editable en la pestaña **Clientes de línea de oferta** , el formulario principal y los formularios de creación rápida para un cliente de línea de oferta. | Indica si hay un límite negociado o un máximo para el importe total que se facturará a este cliente por esta línea de oferta. | Se copia a los clientes de la línea de contrato del proyecto cuando se gana una oferta. |
-| **Con redondeo** | Una cuadrícula editable en la pestaña **Clientes de línea de oferta** , el formulario principal y los formularios de creación rápida para un cliente de línea de oferta. | Indica si este cliente es un cliente de redondeo predeterminado para esta línea de oferta basada en proyecto. | Se copia a los clientes de la línea de contrato del proyecto cuando se gana una oferta. |
+| **Cuenta** | Una cuadrícula editable en la pestaña **Clientes de línea de oferta**, el formulario principal y los formularios de creación rápida para un cliente de línea de oferta. | Enumera todas las cuentas activas. Este campo se bloquea después de que se crea el registro. Si necesita actualizar el campo, elimine y vuelva a crear el registro. Si ha registrado datos reales, no puede eliminar el registro. | Cuando elige una cuenta de la lista maestra de cuentas para agregar, el cliente de la línea de oferta también se agrega como cliente de oferta al guardarlo. Al ganarse una oferta, los clientes de la línea de oferta se copian a los clientes de la línea de contrato del proyecto. |
+| **Porcentaje de división de facturación** | Una cuadrícula editable en la pestaña **Clientes de línea de oferta**, el formulario principal y los formularios de creación rápida para un cliente de línea de oferta. | Representa el porcentaje de cada transacción de venta no facturada que se atribuirá a este cliente de línea de oferta. | Copiado a los clientes de la línea de contrato del proyecto. |
+| **Límite a no exceder** | Una cuadrícula editable en la pestaña **Clientes de línea de oferta**, el formulario principal y los formularios de creación rápida para un cliente de línea de oferta. | Indica si hay un límite negociado o un máximo para el importe total que se facturará a este cliente por esta línea de oferta. | Se copia a los clientes de la línea de contrato del proyecto cuando se gana una oferta. |
+| **Con redondeo** | Una cuadrícula editable en la pestaña **Clientes de línea de oferta**, el formulario principal y los formularios de creación rápida para un cliente de línea de oferta. | Indica si este cliente es un cliente de redondeo predeterminado para esta línea de oferta basada en proyecto. | Se copia a los clientes de la línea de contrato del proyecto cuando se gana una oferta. |
 
 ## <a name="edit-billing-split-percentages"></a>Editar porcentajes de división de facturación
 

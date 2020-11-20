@@ -3,7 +3,7 @@ title: Asociar cualificaciones con roles de recursos
 description: Cómo asociar habilidades con roles de recursos en Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b4d5fe145fc39afc1a909e0ff274c19e9a36d7a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70c4b5cfca1495cb887ad6034542c46fd4cb079c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085265"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130284"
 ---
 # <a name="associate-skills-with-resource-roles-project-service"></a>Asociar habilidades con roles de recursos (Project Service)
 
@@ -35,9 +35,9 @@ Mientras agregaba roles de recursos, probablemente ya les asoció algunas cualif
   
 2.  Haga clic en el rol de recursos al que desea agregar cualificaciones.  
   
-3.  En el área **Cualificaciones** , haga clic en **+** para agregar una cualificación.  
+3.  En el área **Cualificaciones**, haga clic en **+** para agregar una cualificación.  
   
-4.  En el panel requisito de competencia de rol, haga clic en el campo **Cualificación** , haga clic en el botón **Buscar** y luego seleccione una cualificación.  
+4.  En el panel requisito de competencia de rol, haga clic en el campo **Cualificación**, haga clic en el botón **Buscar** y luego seleccione una cualificación.  
   
 5.  Seleccione una competencia para esa cualificación y después haga clic en **Guardar**.  
   

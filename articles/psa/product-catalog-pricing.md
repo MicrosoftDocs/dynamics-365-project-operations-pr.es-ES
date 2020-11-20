@@ -3,7 +3,7 @@ title: Precios del catálogo de productos
 description: En este tema se proporciona información sobre cómo funciona el precio del catálogo de productos en Dynamics 365 Project Service Automation (PSA).
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e6d9266cfee996b68608c99f77d1b0c053985b3d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11f1d237be4540a64f1854fbed4e5c72ebbce18d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085179"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132309"
 ---
 # <a name="product-catalog-pricing"></a>Precios del catálogo de productos 
 
@@ -46,7 +46,7 @@ PSA admite varias opciones de redondeo cuando los precios se configuran en funci
 
 > ![Adición de productos desde un catálogo a diferentes listas de precios](media/basic-guide-16.png)
 
-Cuando crea una nueva lista de precios personalizada para una oferta seleccionando **Crear precios personalizados** en la página **Oferta de proyecto** , PSA realiza una copia de la lista de precios y el campo **Entidad** en el encabezado de la nueva lista de precios se establece en **Entidad de ventas**. El nombre de la nueva lista de precios se adjunta con el nombre de la oferta y una marca de tiempo. También puede usar el nombre de la nueva lista de precios y el nombre de la oferta en los flujos de trabajo personalizados para activar revisiones y aprobaciones adicionales de ofertas que utilizan precios personalizados.
+Cuando crea una nueva lista de precios personalizada para una oferta seleccionando **Crear precios personalizados** en la página **Oferta de proyecto**, PSA realiza una copia de la lista de precios y el campo **Entidad** en el encabezado de la nueva lista de precios se establece en **Entidad de ventas**. El nombre de la nueva lista de precios se adjunta con el nombre de la oferta y una marca de tiempo. También puede usar el nombre de la nueva lista de precios y el nombre de la oferta en los flujos de trabajo personalizados para activar revisiones y aprobaciones adicionales de ofertas que utilizan precios personalizados.
 
  
 ## <a name="default-product-price-list"></a>Lista de precios de productos predeterminada

@@ -1,21 +1,21 @@
 ---
-title: Resolución de precios de venta para estimaciones y datos reales
+title: Resolver precios de venta para estimaciones y datos reales (lite)
 description: Este tema proporciona información sobre cómo resolver precios de venta en estimaciones y reales.
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c8972bd7710735e9acdbf951079f2da24a00bd7f
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 92cebbe851c3cface86d0580e7e060134295e8c2
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088115"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176767"
 ---
-# <a name="resolving-sales-prices-for-estimates-and-actuals"></a>Resolución de precios de venta para estimaciones y datos reales
+# <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Resolver precios de venta para estimaciones y datos reales (lite)
 
 _**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
 
@@ -27,12 +27,12 @@ En Project Operations, las líneas de estimación de tiempo se utilizan para ind
 
 Después de que se resuelve una lista de precios para las ventas, el sistema completa los siguientes pasos para establecer la tarifa de facturación predeterminada.
 
-1. El sistema utiliza los campos **Rol** y **Unidad de recursos** campos en la línea de estimación para el tiempo, para que coincida con las líneas de precio de función en la lista de precios resuelta. Esta coincidencia supone que se están utilizando dimensiones de precios listas para usar para las tarifas de facturación. Si ha configurado precios basados en cualquier otro campo en lugar de, o además de **Rol** y **Unidad de recursos** , esa es la combinación que se utilizará para recuperar una línea de precio de función coincidente.
-2. Si el sistema encuentra una línea de precio de rol que tiene una tarifa de factura para la combinación de campos **Rol** y **Unidad de recursos** , entonces esa tarifa de factura se establece por defecto.
-3. Si el sistema no puede igualar los valores de campo **Rol** y **Unidad de recursos** , entonces recupera líneas de precio de función con una función coincidente pero valores nulos de **Unidad de recursos**. Una vez que el sistema encuentra un registro de precio de función coincidente, establecerá la tarifa de facturación predeterminada de ese registro. Esta coincidencia asume una configuración lista para usar para la prioridad relativa de **Rol** vs **Unidad de recursos** como una dimensión de precios de venta.
+1. El sistema utiliza los campos **Rol** y **Unidad de recursos** campos en la línea de estimación para el tiempo, para que coincida con las líneas de precio de función en la lista de precios resuelta. Esta coincidencia supone que se están utilizando dimensiones de precios listas para usar para las tarifas de facturación. Si ha configurado precios basados en cualquier otro campo en lugar de, o además de **Rol** y **Unidad de recursos**, esa es la combinación que se utilizará para recuperar una línea de precio de función coincidente.
+2. Si el sistema encuentra una línea de precio de rol que tiene una tarifa de factura para la combinación de campos **Rol** y **Unidad de recursos**, entonces esa tarifa de factura se establece por defecto.
+3. Si el sistema no puede igualar los valores de campo **Rol** y **Unidad de recursos**, entonces recupera líneas de precio de función con una función coincidente pero valores nulos de **Unidad de recursos**. Una vez que el sistema encuentra un registro de precio de función coincidente, establecerá la tarifa de facturación predeterminada de ese registro. Esta coincidencia asume una configuración lista para usar para la prioridad relativa de **Rol** vs **Unidad de recursos** como una dimensión de precios de venta.
 
 > [!NOTE]
-> Si configuró una priorización diferente de **Rol** y **Unidad de recursos** , o si tiene otras dimensiones que tienen mayor prioridad, este comportamiento cambiará en consecuencia. El sistema recupera los registros de precio de función con valores coincidentes de cada uno de los valores de dimensión de precios en el orden de prioridad con filas que tienen valores nulos para esas dimensiones en último lugar.
+> Si configuró una priorización diferente de **Rol** y **Unidad de recursos**, o si tiene otras dimensiones que tienen mayor prioridad, este comportamiento cambiará en consecuencia. El sistema recupera los registros de precio de función con valores coincidentes de cada uno de los valores de dimensión de precios en el orden de prioridad con filas que tienen valores nulos para esas dimensiones en último lugar.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Resuelva las tasas de ventas en líneas reales y estimadas por gasto
 
@@ -41,7 +41,7 @@ En Project Operations, las líneas de estimación de gasto se utilizan para indi
 Después de que se resuelve una lista de precios para las ventas, el sistema completa los siguientes pasos para establecer el precio de venta por unidad.
 
 1. El sistema utiliza la combinación de los campos **Categoría** y **Unidad de recursos** en la línea de estimación para el gasto, contra las líneas de precio de categoría en la lista de precios que se ha resuelto.
-2. Si el sistema encuentra una línea de precio de categoría que tiene una tarifa de ventas para la combinación de campos **Categoría** y **Unidad** , entonces esa tarifa de ventas se establece por defecto.
+2. Si el sistema encuentra una línea de precio de categoría que tiene una tarifa de ventas para la combinación de campos **Categoría** y **Unidad**, entonces esa tarifa de ventas se establece por defecto.
 3. Si el sistema encuentra una línea de precio de categoría coincidente, el método de fijación de precios se puede utilizar para predeterminar el precio de venta. La tabla siguiente muestra el comportamiento de incumplimiento del precio de gasto en Project Operations.
 
     | Contexto | Método de cálculo de precios | Precio predeterminado |
@@ -53,4 +53,4 @@ Después de que se resuelve una lista de precios para las ventas, el sistema com
     | &nbsp; | De coste | Basado en el coste real relacionado |
     | &nbsp; | Margen de beneficio sobre el coste | Aplicar un margen según lo definido por la línea de precio de categoría en la tasa de coste unitario del costo real relacionado |
 
-4. Si el sistema no puede emparejar los valores de los campos **Categoría** y **Unidad** , la tasa de ventas predeterminada es cero (0).
+4. Si el sistema no puede emparejar los valores de los campos **Categoría** y **Unidad**, la tasa de ventas predeterminada es cero (0).
