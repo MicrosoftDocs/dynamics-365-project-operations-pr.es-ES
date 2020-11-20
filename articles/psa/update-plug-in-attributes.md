@@ -6,7 +6,7 @@ manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,53 +16,53 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f215555dd7b29444e00499c0e731624e51057250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c42e5fda79d51430f4dedf46037e11c86a38c474
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085231"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121869"
 ---
-# <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a><span data-ttu-id="cd443-103">Actualización de atributos de complemento para incluir nuevas dimensiones de precios</span><span class="sxs-lookup"><span data-stu-id="cd443-103">Update plug-in attributes to include new pricing dimensions</span></span>
+# <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a><span data-ttu-id="44d15-103">Actualización de atributos de complemento para incluir nuevas dimensiones de precios</span><span class="sxs-lookup"><span data-stu-id="44d15-103">Update plug-in attributes to include new pricing dimensions</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="cd443-104">Si no está utilizando las características Oferta y Contrato de Project Service Automation (PSA), puede omitir este tema.</span><span class="sxs-lookup"><span data-stu-id="cd443-104">If you are not using the Project Service Automation (PSA) Quoting and Contracting features, you can skip this topic.</span></span>
+> <span data-ttu-id="44d15-104">Si no está utilizando las características Oferta y Contrato de Project Service Automation (PSA), puede omitir este tema.</span><span class="sxs-lookup"><span data-stu-id="44d15-104">If you are not using the Project Service Automation (PSA) Quoting and Contracting features, you can skip this topic.</span></span>
 
-<span data-ttu-id="cd443-105">En este tema se presupone que ha completado los procedimientos en los temas [Creación de campos y entidades personalizados](create-custom-fields-entities.md), [Adición de campos personalizados a la configuración de precios y entidades transaccionales](field-references.md) y [Configuración de campos personalizados como dimensiones de precios](set-up-pricing-dimensions.md).</span><span class="sxs-lookup"><span data-stu-id="cd443-105">This topic assumes that you have completed the procedures in the topics, [Create custom fields and entities](create-custom-fields-entities.md), [Add custom fields to price setup and transactional entities](field-references.md), and [Set up custom fields as pricing dimensions](set-up-pricing-dimensions.md).</span></span> <span data-ttu-id="cd443-106">Si no ha completado esos procedimientos, vuelva y complételos y, a continuación, regrese a este tema.</span><span class="sxs-lookup"><span data-stu-id="cd443-106">If you haven't completed those procedures, go back and complete them and then return to this topic.</span></span>
+<span data-ttu-id="44d15-105">En este tema se presupone que ha completado los procedimientos en los temas [Creación de campos y entidades personalizados](create-custom-fields-entities.md), [Adición de campos personalizados a la configuración de precios y entidades transaccionales](field-references.md) y [Configuración de campos personalizados como dimensiones de precios](set-up-pricing-dimensions.md).</span><span class="sxs-lookup"><span data-stu-id="44d15-105">This topic assumes that you have completed the procedures in the topics, [Create custom fields and entities](create-custom-fields-entities.md), [Add custom fields to price setup and transactional entities](field-references.md), and [Set up custom fields as pricing dimensions](set-up-pricing-dimensions.md).</span></span> <span data-ttu-id="44d15-106">Si no ha completado esos procedimientos, vuelva y complételos y, a continuación, regrese a este tema.</span><span class="sxs-lookup"><span data-stu-id="44d15-106">If you haven't completed those procedures, go back and complete them and then return to this topic.</span></span>
 
-<span data-ttu-id="cd443-107">Cuando se crea un detalle de línea de oferta en la página **Línea de oferta** para una línea de oferta de proyecto, el sistema crea dos líneas de estimación en segundo plano: una línea para la parte del coste de la estimación y otra para la parte de las ventas.</span><span class="sxs-lookup"><span data-stu-id="cd443-107">When a quote line detail is created on the **Quote Line** page for a project quote line, the system creates two estimate lines in the background -- one line for the cost side of the estimate and one for sales side.</span></span> <span data-ttu-id="cd443-108">Esto es lo mismo para las líneas de contrato del proyecto.</span><span class="sxs-lookup"><span data-stu-id="cd443-108">This is the same  for project contract lines.</span></span>
+<span data-ttu-id="44d15-107">Cuando se crea un detalle de línea de oferta en la página **Línea de oferta** para una línea de oferta de proyecto, el sistema crea dos líneas de estimación en segundo plano: una línea para la parte del coste de la estimación y otra para la parte de las ventas.</span><span class="sxs-lookup"><span data-stu-id="44d15-107">When a quote line detail is created on the **Quote Line** page for a project quote line, the system creates two estimate lines in the background -- one line for the cost side of the estimate and one for sales side.</span></span> <span data-ttu-id="44d15-108">Esto es lo mismo para las líneas de contrato del proyecto.</span><span class="sxs-lookup"><span data-stu-id="44d15-108">This is the same  for project contract lines.</span></span>
 
-<span data-ttu-id="cd443-109">Cuando realiza un cambio en la cantidad o en un campo en la parte del coste, ese cambio se propaga en la parte de las ventas.</span><span class="sxs-lookup"><span data-stu-id="cd443-109">When you make a change to the quantity or a field on the cost side, that change is propagated to the sales side.</span></span> <span data-ttu-id="cd443-110">Esto es posible debido a los siguientes complementos que deben volver a registrarse después de un cambio en las dimensiones de precios.</span><span class="sxs-lookup"><span data-stu-id="cd443-110">This is possible because of the following plug-ins that must be re-registered after a change to pricing dimensions.</span></span>
+<span data-ttu-id="44d15-109">Cuando realiza un cambio en la cantidad o en un campo en la parte del coste, ese cambio se propaga en la parte de las ventas.</span><span class="sxs-lookup"><span data-stu-id="44d15-109">When you make a change to the quantity or a field on the cost side, that change is propagated to the sales side.</span></span> <span data-ttu-id="44d15-110">Esto es posible debido a los siguientes complementos que deben volver a registrarse después de un cambio en las dimensiones de precios.</span><span class="sxs-lookup"><span data-stu-id="44d15-110">This is possible because of the following plug-ins that must be re-registered after a change to pricing dimensions.</span></span>
 
-- <span data-ttu-id="cd443-111">PreOperationContractLineDetailUpdate: actualizaciones **msdyn_orderlinetransaction**.</span><span class="sxs-lookup"><span data-stu-id="cd443-111">PreOperationContractLineDetailUpdate - Updates **msdyn_orderlinetransaction**.</span></span>
-- <span data-ttu-id="cd443-112">PreOperationQuoteLineDetailUpdate: actualizaciones **msdyn_quotelinetransaction**.</span><span class="sxs-lookup"><span data-stu-id="cd443-112">PreOperationQuoteLineDetailUpdate - Updates **msdyn_quotelinetransaction**.</span></span>
+- <span data-ttu-id="44d15-111">PreOperationContractLineDetailUpdate: actualizaciones **msdyn_orderlinetransaction**.</span><span class="sxs-lookup"><span data-stu-id="44d15-111">PreOperationContractLineDetailUpdate - Updates **msdyn_orderlinetransaction**.</span></span>
+- <span data-ttu-id="44d15-112">PreOperationQuoteLineDetailUpdate: actualizaciones **msdyn_quotelinetransaction**.</span><span class="sxs-lookup"><span data-stu-id="44d15-112">PreOperationQuoteLineDetailUpdate - Updates **msdyn_quotelinetransaction**.</span></span>
 
-<span data-ttu-id="cd443-113">Los siguientes pasos le guían a través del proceso de registro de los complementos.</span><span class="sxs-lookup"><span data-stu-id="cd443-113">The following steps walk you through the process of registering the plug-ins.</span></span>
+<span data-ttu-id="44d15-113">Los siguientes pasos le guían a través del proceso de registro de los complementos.</span><span class="sxs-lookup"><span data-stu-id="44d15-113">The following steps walk you through the process of registering the plug-ins.</span></span>
 
-1. <span data-ttu-id="cd443-114">Abra **PluginRegistrationTool** y conéctese a su instancia en línea.</span><span class="sxs-lookup"><span data-stu-id="cd443-114">Open the **PluginRegistrationTool** and connect to your online instance.</span></span>
-2. <span data-ttu-id="cd443-115">Haga clic en **Buscar** y busque el complemento que se va a actualizar.</span><span class="sxs-lookup"><span data-stu-id="cd443-115">Click **Search** and search for the plug-in to be updated.</span></span>
+1. <span data-ttu-id="44d15-114">Abra **PluginRegistrationTool** y conéctese a su instancia en línea.</span><span class="sxs-lookup"><span data-stu-id="44d15-114">Open the **PluginRegistrationTool** and connect to your online instance.</span></span>
+2. <span data-ttu-id="44d15-115">Haga clic en **Buscar** y busque el complemento que se va a actualizar.</span><span class="sxs-lookup"><span data-stu-id="44d15-115">Click **Search** and search for the plug-in to be updated.</span></span>
 
  ![Captura de pantalla del árbol de búsqueda](media/PRT-1.png)
 
-3. <span data-ttu-id="cd443-117">Después de que se encuentre el complemento, selecciónelo y, a continuación, haga clic en **Seleccionar en el formulario principal**.</span><span class="sxs-lookup"><span data-stu-id="cd443-117">After the plug-in is found, select it and then click **Select on Main Form**.</span></span>
+3. <span data-ttu-id="44d15-117">Después de que se encuentre el complemento, selecciónelo y, a continuación, haga clic en **Seleccionar en el formulario principal**.</span><span class="sxs-lookup"><span data-stu-id="44d15-117">After the plug-in is found, select it and then click **Select on Main Form**.</span></span>
 
-4. <span data-ttu-id="cd443-118">Seleccione el paso del complemento que se va a actualizar, haga clic con el botón secundario y, a continuación, seleccione **Actualizar**.</span><span class="sxs-lookup"><span data-stu-id="cd443-118">Select the step of the plug-in to be updated, right-click, and then select **Update**.</span></span>
+4. <span data-ttu-id="44d15-118">Seleccione el paso del complemento que se va a actualizar, haga clic con el botón secundario y, a continuación, seleccione **Actualizar**.</span><span class="sxs-lookup"><span data-stu-id="44d15-118">Select the step of the plug-in to be updated, right-click, and then select **Update**.</span></span>
 
  ![Captura de pantalla del complemento que se va a actualizar](media/PRT-2.png)
  
-5. <span data-ttu-id="cd443-120">En la ventana de actualización, haga clic en los tres puntos ( **...** ) en los atributos de filtrado.</span><span class="sxs-lookup"><span data-stu-id="cd443-120">In the update window, click the ellipsis ( **...** ) in the filtering attributes.</span></span>
+5. <span data-ttu-id="44d15-120">En la ventana de actualización, haga clic en los tres puntos (**...**) en los atributos de filtrado.</span><span class="sxs-lookup"><span data-stu-id="44d15-120">In the update window, click the ellipsis (**...**) in the filtering attributes.</span></span>
 
  ![Captura de pantalla de la información de configuración del paso existente de actualización](media/PRT-3.png)
  
-6. <span data-ttu-id="cd443-122">Seleccione las casillas de atributos de precios.</span><span class="sxs-lookup"><span data-stu-id="cd443-122">Select the pricing attribute check boxes.</span></span>
+6. <span data-ttu-id="44d15-122">Seleccione las casillas de atributos de precios.</span><span class="sxs-lookup"><span data-stu-id="44d15-122">Select the pricing attribute check boxes.</span></span>
 
  ![Captura de pantalla con la selección de la casilla para los atributos de precios](media/PRT-4.png)
 
-7. <span data-ttu-id="cd443-124">Haga clic en **Aceptar** para cerrar la página y, a continuación, seleccione **Actualizar paso**.</span><span class="sxs-lookup"><span data-stu-id="cd443-124">Click **OK** to close the page and then select **Update Step**.</span></span>
+7. <span data-ttu-id="44d15-124">Haga clic en **Aceptar** para cerrar la página y, a continuación, seleccione **Actualizar paso**.</span><span class="sxs-lookup"><span data-stu-id="44d15-124">Click **OK** to close the page and then select **Update Step**.</span></span>
 
  ![Captura de pantalla con el botón "Actualizar paso"](media/PRT-5.png)
  
-8. <span data-ttu-id="cd443-126">Repita este proceso para el segundo complemento, **PreOperationQuoteLineDetail: actualización de msdyn_quotelinetransaction**.</span><span class="sxs-lookup"><span data-stu-id="cd443-126">Repeat this process for the second plug-in, **PreOperationQuoteLineDetail - Update of msdyn_quotelinetransaction**.</span></span>
+8. <span data-ttu-id="44d15-126">Repita este proceso para el segundo complemento, **PreOperationQuoteLineDetail: actualización de msdyn_quotelinetransaction**.</span><span class="sxs-lookup"><span data-stu-id="44d15-126">Repeat this process for the second plug-in, **PreOperationQuoteLineDetail - Update of msdyn_quotelinetransaction**.</span></span>
 
-9. <span data-ttu-id="cd443-127">Cierre la herramienta de registro del complemento.</span><span class="sxs-lookup"><span data-stu-id="cd443-127">Close the plug-in registration tool.</span></span>
+9. <span data-ttu-id="44d15-127">Cierre la herramienta de registro del complemento.</span><span class="sxs-lookup"><span data-stu-id="44d15-127">Close the plug-in registration tool.</span></span>
 
