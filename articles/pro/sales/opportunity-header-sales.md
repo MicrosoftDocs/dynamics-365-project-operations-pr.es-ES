@@ -1,21 +1,21 @@
 ---
-title: Encabezado de oportunidad
-description: Este tema proporciona informacióngeneral sobre ofertas basadas en proyectos y las líneas de oportunidades basadas en proyectos.
+title: Configuración de oportunidades (lite)
+description: Este tema proporciona información sobre acuerdos basados en proyectos y líneas de oportunidades basadas en proyectos.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f08de54767f49c308d0ccc7f2e1c6ef880b7f99
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c34817181b75b1b0079974f536e4d7b032ae87dd
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085076"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181067"
 ---
-# <a name="opportunity-header"></a>Encabezado de oportunidad
+# <a name="opportunity-header---lite"></a>Encabezado de oportunidad (lite)
 
 _**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
 
@@ -25,9 +25,9 @@ Las oportunidades basadas en proyectos en Dynamics 365 Project Operations son ex
 
 La siguiente tabla incluye los campos de una oportunidad basada en proyectos que son exclusivos de Project Operations o tienen algunos cambios importantes en el comportamiento según las oportunidades de Ventas.
 
-| **Campo** | **Ubicación** | **Relevancia, propósito y orientación** | **Impacto posterior** |
+| **Campo** | **Ubicación** | **Descripción** | **Impacto posterior** |
 | --- | --- | --- | --- |
-| Escribir | Pestaña General (oculta) | El campo de conjunto de opciones incluye las siguientes opciones:</br>- Basado en el trabajo (disponible solo con Project Operations)</br>- Basado en artículo (disponible solo cuando están instalados Project Operations y Ventas)</br>- Servicio basado en mantenimiento (disponible cuando se instala Field Service) | Cuando utiliza Project Operations, este valor de campo se establece automáticamente en **Basado en el trabajo** que clasifica la oportunidad como basada en proyecto. Una oportunidad debe estar basada en proyecto para habilitar todas las extensiones y funcionalidades específicas del proyecto en el proceso de ventas posterior de esta oferta. |
+| Tipo | Pestaña General (oculta) | El campo de conjunto de opciones incluye las siguientes opciones:</br>- Basado en el trabajo (disponible solo con Project Operations)</br>- Basado en artículo (disponible solo cuando están instalados Project Operations y Ventas)</br>- Servicio basado en mantenimiento (disponible cuando se instala Field Service) | Cuando utiliza Project Operations, este valor de campo se establece automáticamente en **Basado en el trabajo** que clasifica la oportunidad como basada en proyecto. Una oportunidad debe estar basada en proyecto para habilitar todas las extensiones y funcionalidades específicas del proyecto en el proceso de ventas posterior de esta oferta. |
 | CONTACTO | Pestaña General | Referencia al contacto principal del cliente para esta oferta. | |
 | Cuenta | Pestaña General | Referencia al registro de cuenta o empresa del cliente. | |
 | Administrador de cuentas | Pestaña General | El nombre del administrador de cuentas de esta oportunidad basada en proyecto. | El administrador de cuentas es responsable de gestionar la relación con el cliente hasta la finalización de este proyecto. Según el registro de recursos contables vinculado al administrador de la cuenta, la unidad de contratación está predeterminada. |

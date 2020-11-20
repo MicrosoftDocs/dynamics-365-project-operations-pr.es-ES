@@ -1,28 +1,28 @@
 ---
-title: Importar estimaciones de un proyecto a una línea de oferta basada en proyecto
+title: Importar estimaciones de un proyecto a una línea de oferta basada en proyecto (lite)
 description: En este tema se proporciona información sobre cómo importar estimaciones de un proyecto a una línea de oferta.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 224c2265cfcc38dfc2ed74664d38c095feefaca7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 607ccaeb61b12458f8b0e9d7230c000e7ff0501a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085050"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177757"
 ---
-# <a name="importing-estimates-for-a-project-to-a-project-based-quote-line"></a>Importar estimaciones de un proyecto a una línea de oferta basada en proyecto
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Importar estimaciones de un proyecto a una línea de oferta basada en proyecto (lite)
 
 _**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
 
 Si se crea un proyecto durante la fase de preventa, puede seleccionar importar la estimación financiera del proyecto a la línea de oferta basada en el proyecto.
 
 1. Asegúrese de que la línea de oferta basada en el proyecto tenga la información del campo **Proyecto**.
-2. En la pestaña **Detalles de línea de oferta** , seleccione **Importar desde estimación de proyecto**.
+2. En la pestaña **Detalles de línea de oferta**, seleccione **Importar desde estimación de proyecto**.
 3. En la página de diálogo que se abre, seleccione una de las siguientes opciones de resumen.
 
   - **Clase de transacción**
@@ -30,7 +30,7 @@ Si se crea un proyecto durante la fase de preventa, puede seleccionar importar l
   - **Rol** 
   - **Tarea de proyecto**
 
-Según su selección, se copia la estimación del proyecto para todas las clases de transacciones incluidas en esta línea de oferta. Para comprobar qué clases de transacciones están incluidas, seleccione la pestaña **General** de la línea de oferta basada en el proyecto, y verifique los valores para **Incluir tiempo** , **Incluir gastos** e **Incluir tarifas**.  Para comprobar qué tareas están incluidas, seleccione la pestaña **Tareas facturables** en la línea de la oferta.
+Según su selección, se copia la estimación del proyecto para todas las clases de transacciones incluidas en esta línea de oferta. Para comprobar qué clases de transacciones están incluidas, seleccione la pestaña **General** de la línea de oferta basada en el proyecto, y verifique los valores para **Incluir tiempo**, **Incluir gastos** e **Incluir tarifas**.  Para comprobar qué tareas están incluidas, seleccione la pestaña **Tareas facturables** en la línea de la oferta.
 
 Dependiendo de las tareas asociadas e incluidas y clases de transacción, las estimaciones para esas tareas y combinaciones de clase de transacción se importan a la línea de oferta.
 

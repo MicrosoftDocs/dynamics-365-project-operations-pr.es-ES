@@ -1,21 +1,21 @@
 ---
-title: Contratos basados en pagos a cuenta y anticipos
+title: Contratos basados en pagos a cuenta y anticipos (lite)
 description: En este tema se proporciona información sobre modelos de contratos y adelantos basados en anticipos en Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ccf8ff4fa52fa6ff9fe534dfbe6736afc24ffba
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088114"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180888"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>Contratos basados en pagos a cuenta y anticipos 
+# <a name="advances-and-retainer-based-contracts---lite"></a>Contratos basados en pagos a cuenta y anticipos (lite)
 
 
 _**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
@@ -33,7 +33,7 @@ Además de un programa periódico basado en anticipos, Project Operations puede 
 
 El anticipo en Project Operations no está disponible para su uso hasta que se factura al cliente. Esto se indica mediante los siguientes campos en la subcuadrícula para anticipos y retenciones.
 
-| Campo | Relevancia, propósito y orientación | Impacto posterior |
+| Campo | Descripción | Impacto posterior |
 | --- | --- | --- |
 | Importe disponible | La cantidad que está disponible para ser utilizada en el anticipo o registro anticipado. | Hasta que se facture el anticipo o adelanto, no estará disponible para su uso, lo que significa que la cantidad disponible será cero. |
 | Importe usado | La cantidad que ya se ha usado en la retención o anticipo. | Un anticipo o retención puede conciliarse parcialmente en una factura con los costes reales que tendrán una parte marcada como ya utilizada o consumida. El resto del anticipo o adelanto está disponible para conciliar en una factura futura con los costos reales. |

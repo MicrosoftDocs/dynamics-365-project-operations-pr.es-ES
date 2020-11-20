@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e5a2402a2c1059ff11dbe1a331a028da77958235
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085067"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180303"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Configurar tarifas de costes y ventas para gastos
 
@@ -24,17 +24,17 @@ Puede configurar costes y precios de venta para categorías de transacciones en 
 Para configurar las tarifas de costes y ventas para las categorías de transacciones, complete los siguientes pasos. 
 
 1. Cree una lista de precios basada en el encabezado de la lista de precios. 
-2. En **Precios de Categoría** , en el menú de subcuadrícula, seleccione **+ Nueva categoría de precio**. 
-3. En la página **Creación rápida** , ingrese la categoría de transacción y la unidad para la que está creando el nuevo precio.
+2. En **Precios de categoría**, en el menú de la subcuadrícula, seleccione **+ Precio de nueva categoría**. 
+3. En la página **Creación rápida**, ingrese la categoría de transacción y la unidad para la que está creando el nuevo precio.
 
 La siguiente tabla muestra los campos en la pestaña **General** y la página **Creación rápida** de una categoría de línea de precio que debería recordar a medida que crea categorías de precios en una lista de precios de ventas o costes.
 
-| Campo | Ubicación | Relevancia, propósito y orientación | Impacto posterior |
+| Campo | Ubicación | Descripción | Impacto posterior |
 | --- | --- | --- | --- |
 | Categoría de transacción | Pestaña **General** y páginas **Creación rápida** | Seleccione la categoría de transacción para la que está creando un precio de venta o de costo. | La categoría de transacción en la estimación entrante o real para Gastos se comparará con esta línea para predeterminar la tarifa de coste o ventas de la categoría de transacción. |
 | Programación de unidad | Pestaña **General** y páginas **Creación rápida** | La programación unitaria se predetermina a la programación unitaria de la categoría de transacción. | No hay impacto posterior a partir de este campo. |
 | Unidad | Pestaña **General** y páginas **Creación rápida** | Seleccione la unidad para la que se están configurando las tarifas. | La unidad en la estimación entrante o real se compara con la unidad en esta línea para establecer la tasa predeterminada en la estimación de gastos o real. |
-| Método de cálculo de precios | Pestaña **General** y páginas **Creación rápida** | Posibles valores del campo **Método de cálculo de precios** son, **Precio por unidad** , **A un coste** y **Margen de beneficio sobre el coste**. | Durante la configuración del precio, seleccionando **Precio por unidad** bloquea el campo **Porcentaje** en la línea de precio de categoría. Si **A un coste** está seleccionado, los campos **Precio** y **Porcentaje** están bloqueados en la lista de precios de venta. Seleccionar **Margen de beneficio sobre el coste** bloquea el campo **Precio** en la lista de precios de venta. En una línea real entrante para gastos, el método de cálculo de precios **A un coste** o **Margen de beneficio sobre el coste** da como resultado que a la línea de ventas no facturada correspondiente se le asigne un precio que sea igual al precio sobre el costo real o se calcule como un margen de beneficio sobre el precio. |
+| Método de cálculo de precios | Pestaña **General** y páginas **Creación rápida** | Posibles valores del campo **Método de cálculo de precios** son, **Precio por unidad**, **A un coste** y **Margen de beneficio sobre el coste**. | Durante la configuración del precio, seleccionando **Precio por unidad** bloquea el campo **Porcentaje** en la línea de precio de categoría. Si **A un coste** está seleccionado, los campos **Precio** y **Porcentaje** están bloqueados en la lista de precios de venta. Seleccionar **Margen de beneficio sobre el coste** bloquea el campo **Precio** en la lista de precios de venta. En una línea real entrante para gastos, el método de cálculo de precios **A un coste** o **Margen de beneficio sobre el coste** da como resultado que a la línea de ventas no facturada correspondiente se le asigne un precio que sea igual al precio sobre el costo real o se calcule como un margen de beneficio sobre el precio. |
 | Precio | Pestaña **General** y páginas **Creación rápida** | Configure una tasa por unidad para la categoría de transacción y la combinación de unidades. Por ejemplo, la tasa de kilometraje es 10 USD por milla y 8 USD por kilómetro. | La tasa de kilometraje será la tasa que se establece por defecto en el precio por unidad o coste del estimado entrante o línea actual de una clase de transacción de gastos.|
 | Porcentaje | Pestaña **General** y páginas **Creación rápida** | Configure un porcentaje sobre coste para la categoría de transacción y la combinación de unidades. Por ejemplo, la tarifa de venta de pasajes aéreos debe marcarse un 10 por ciento sobre el costo del gasto del pasaje aéreo incurrido. | Este porcentaje de incremento por encima del coste solo es aplicable en una lista de precios de ventas cuando el método de cálculo de precios seleccionado es **Margen de beneficio sobre coste**. |
 | Divisa | Pestaña **General** y páginas **Creación rápida** | De forma predeterminada, este valor proviene de la moneda en el encabezado de la lista de precios. Para los precios de la categoría de transacción, la moneda no se puede anular. | Esta moneda es la predeterminada en el precio por unidad de la línea actual de la clase de transacción de gastos para costes y ventas. |

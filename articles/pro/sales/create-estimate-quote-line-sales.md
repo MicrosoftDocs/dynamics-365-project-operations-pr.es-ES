@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 56892a134c0c739958f7f939214930631dea7420
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085052"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180393"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Estimación de una línea de oferta basada en proyecto
 
@@ -30,9 +30,9 @@ Para estimar una línea de oferta basada en proyecto, en la línea de oferta bas
 
 Para crear una estimación en una línea de oferta basada en proyecto, seleccione la pestaña **Detalle de la línea de oferta**. El artículo de línea que cree en esta pestaña resumirá el valor ofertado para esta línea de oferta. 
 
-Para crear detalles de línea de oferta, seleccione **+ Detalle de nueva línea de oferta** en la subcuadrícula **Detalles de la línea de oferta**. Se abrirá un control deslizante de creación rápida. Los siguientes campos del formulario **Línea de oferta** :
+Para crear detalles de línea de cotización, seleccione **+ Detalle de nueva línea de cotización** sobre la subcuadrícula **Detalles de la línea de cotización**. Se abrirá un control deslizante de creación rápida. Los siguientes campos del formulario **Línea de oferta**:
 
-| **Campo** | **Ubicación** | **Relevancia, propósito y orientación** | **Impacto posterior** |
+| **Campo** | **Ubicación** | **Descripción** | **Impacto posterior** |
 | --- | --- | --- | --- |
 | Descripción | Creación rápida | Descripción de la estimación específica. | Este campo tiene como valor predeterminado el detalle de la línea de oferta relacionada para el coste que se crea automáticamente. |
 | Clase de transacción | Creación rápida | Esta lista desplegable proporciona las clases de transacciones que se incluyen en la pestaña **General** de la línea de oferta basada en proyecto.  | Este campo tiene como valor predeterminado el detalle de la línea de oferta relacionada para el coste que se crea automáticamente. |
@@ -50,11 +50,11 @@ Para crear detalles de línea de oferta, seleccione **+ Detalle de nueva línea 
 
 ## <a name="update-prices-on-quote-line-details"></a>Actualizar precios en los detalles de la línea de oferta
 
-Si ha cambiado los precios en la lista de precios del proyecto que se adjunta a la oferta, o en la lista de precios de coste de la unidad contratante, puede seleccionar **Recalcular** en la página **Oferta** , para actualizar los precios en los detalles de la línea de oferta individual para reflejar este cambio. Cuando seleccione **Recalcular** , aparecerá una advertencia que le informa que se restablecerán los precios en los detalles de la línea de oferta para todas las líneas de oferta de esta oferta. Seleccione **Sí** , para actualizar los precios de las ventas y los detalles de la línea de oferta de costes.
+Si ha cambiado los precios en la lista de precios del proyecto que se adjunta a la oferta, o en la lista de precios de coste de la unidad contratante, puede seleccionar **Recalcular** en la página **Oferta**, para actualizar los precios en los detalles de la línea de oferta individual para reflejar este cambio. Cuando seleccione **Recalcular**, aparecerá una advertencia que le informa que se restablecerán los precios en los detalles de la línea de oferta para todas las líneas de oferta de esta oferta. Seleccione **Sí**, para actualizar los precios de las ventas y los detalles de la línea de oferta de costes.
 
 ## <a name="access-quote-line-details-for-cost"></a>Acceder a los detalles de la línea de oferta para conocer el coste
 
-En la pestaña **Detalles de línea de oferta** , seleccione una fila de la cuadrícula para habilitar algunas acciones en la barra de herramientas de la subcuadrícula. La primera acción en la barra de herramientas de la subcuadrícula cuando se selecciona un detalle de línea de oferta es **Detalle de costes abiertos**. Seleccione **Detalle de costes abiertos** para ver la tasa de coste relacionada y el importe de esta línea de oferta.
+Sobre la pestaña **Detalles de la línea de oferta**, seleccione una fila en la cuadrícula para habilitar algunas acciones en la barra de herramientas de la subcuadrícula. La primera acción en la barra de herramientas de la subcuadrícula cuando se selecciona un detalle de línea de cotización es **Detalle de costos abiertos**. Seleccione **Detalle de costes abiertos** para ver la tasa de coste relacionada y el importe de esta línea de oferta.
 
 > [!NOTE]
 > El cambio de la unidad de recursos, la cantidad, las fechas, el rol o los valores de categoría en el detalle de la línea de oferta para el coste cambiará los valores correspondientes en los detalles de la línea de oferta para ventas.

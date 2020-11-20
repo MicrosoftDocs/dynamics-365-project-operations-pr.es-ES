@@ -1,21 +1,21 @@
 ---
-title: Líneas de ofertas basadas en proyectos (Pro)
+title: Información general sobre líneas de ofertas basadas en proyectos (lite)
 description: Este tema proporciona información sobre el uso de líneas de oferta basadas en proyectos para trabajo de proyecto. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a409d1e378afe97de7fb6c77cf3ad6703661bdff
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: be1663c0d226fa19fe4b9df566e16d215f1fc08e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085078"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181113"
 ---
-# <a name="project-based-quote-lines-pro"></a>Líneas de ofertas basadas en proyectos (Pro)
+# <a name="project-based-quote-lines-overview---lite"></a>Información general sobre líneas de ofertas basadas en proyectos (lite)
 
 _**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
 
@@ -31,7 +31,7 @@ Las líneas de oferta basadas en proyectos están diseñadas para ayudar a estim
 
 La siguiente tabla proporciona información sobre los campos de la pestaña **General** de la línea de oferta basada en proyecto. Estos campos ayudan a establecer la base para una estimación detallada y desde cero para el trabajo del proyecto.
 
-| **Campo** | **Relevancia, propósito y orientación** | **Impacto posterior** |
+| **Campo** | **Descripción** | **Impacto posterior** |
 | --- | --- | --- |
 | Nombre | El nombre de la línea de oferta que debería ayudarle a identificar el componente discreto de la oferta que se está estimando. | Se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta. |
 | Método de facturación | En una oferta creada a partir de una oportunidad, este valor se copia del campo correspondiente en la línea de oportunidad. Este campo incluye los dos modelos de contratación principales admitidos por Dynamics 365 Project Operations:</br>- Precio fijo</br>- Tiempo y material.| Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta. |
@@ -49,15 +49,15 @@ La siguiente tabla proporciona información sobre los campos de la pestaña **Ge
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Reglas de validación para campos en la pestaña General de líneas de oferta basadas en proyectos
 
-**Regla 1** : si el campo **Tareas incluidas** está en blanco, o si está configurado en **Todas las tareas del proyecto** , se incluye un proyecto en la línea de oferta.
+**Regla 1**: si el campo **Tareas incluidas** está en blanco, o si está configurado en **Todas las tareas del proyecto**, se incluye un proyecto en la línea de oferta.
 
-**Regla 2** : si el campo **Tareas incluidas** está en blanco, o si está configurado en **Todas las tareas del proyecto** , un proyecto y una determinada clase de transacción solo se pueden incluir en una línea de oferta basada en proyectos de una oferta.
+**Regla 2**: si el campo **Tareas incluidas** está en blanco, o si está configurado en **Todas las tareas del proyecto**, un proyecto y una determinada clase de transacción solo se pueden incluir en una línea de oferta basada en proyectos de una oferta.
 
-**Regla 3** : si el campo **Tareas incluidas** está configurado en **Solo tareas del proyecto seleccionadas** , un proyecto y una determinada clase de transacción se pueden incluir en varias líneas de oferta basadas en proyectos de una oferta.
+**Regla 3**: si el campo **Tareas incluidas** está configurado en **Solo tareas del proyecto seleccionadas**, un proyecto y una determinada clase de transacción se pueden incluir en varias líneas de oferta basadas en proyectos de una oferta.
 
-**Regla 4** : si una oportunidad tiene varias ofertas, puede haber líneas de oferta de ofertas diferentes que hagan referencia al mismo proyecto e incluyan la misma clase de transacción.
+**Regla 4**: si una oportunidad tiene varias ofertas, puede haber líneas de oferta de ofertas diferentes que hagan referencia al mismo proyecto e incluyan la misma clase de transacción.
 
-**Regla 5** : si las ofertas no pertenecen a la misma oportunidad, no pueden incluir el mismo proyecto y clase de transacción.
+**Regla 5**: si las ofertas no pertenecen a la misma oportunidad, no pueden incluir el mismo proyecto y clase de transacción.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>

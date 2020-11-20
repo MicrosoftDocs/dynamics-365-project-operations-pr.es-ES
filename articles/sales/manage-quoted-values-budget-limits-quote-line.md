@@ -1,21 +1,21 @@
 ---
-title: Líneas de ofertas basadas en proyectos
+title: Información general sobre líneas de ofertas basadas en proyectos
 description: Este tema proporciona información sobre el uso de líneas de oferta basadas en proyectos para trabajo de proyecto.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ea54d83b1e26d1ee3520dbfab9ba56ffd1191dc9
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085015"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181878"
 ---
-# <a name="project-based-quote-lines"></a>Líneas de ofertas basadas en proyectos
+# <a name="project-based-quote-lines-overview"></a>Información general sobre líneas de ofertas basadas en proyectos
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
 
@@ -31,7 +31,7 @@ Las líneas de oferta basadas en proyectos están diseñadas para ayudar a estim
 
 La siguiente tabla proporciona información sobre los campos de la pestaña **General** de la línea de oferta basada en proyecto. Estos campos ayudan a establecer la base para una estimación detallada y desde cero para el trabajo del proyecto.
 
-| **Campo** | **Relevancia, propósito y orientación** | **Impacto posterior** |
+| **Campo** | **Descripción** | **Impacto posterior** |
 | --- | --- | --- |
 | Nombre | El nombre de la línea de oferta que debería ayudarle a identificar el componente discreto de la oferta que se está estimando. | Se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta. |
 | Método de facturación | En una oferta creada a partir de una oportunidad, este valor se copia del campo correspondiente en la línea de oportunidad. Este campo incluye los dos modelos de contratación principales admitidos por Dynamics 365 Project Operations:</br>- Precio fijo</br>- Tiempo y material.| Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta. |
@@ -47,11 +47,11 @@ La siguiente tabla proporciona información sobre los campos de la pestaña **Ge
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Reglas de validación para campos en la pestaña General de líneas de oferta basadas en proyectos
 
-**Regla 1** : una determinada clase de transacción en el proyecto seleccionado solo se puede incluir en una línea de oferta basada en el proyecto de una oferta.
+**Regla 1**: una determinada clase de transacción en el proyecto seleccionado solo se puede incluir en una línea de oferta basada en el proyecto de una oferta.
 
-**Regla 2** : si una oportunidad tiene varias ofertas, puede haber líneas de oferta de ofertas diferentes que hagan referencia al mismo proyecto e incluyan la misma clase de transacción.
+**Regla 2**: si una oportunidad tiene varias ofertas, puede haber líneas de oferta de ofertas diferentes que hagan referencia al mismo proyecto e incluyan la misma clase de transacción.
 
-**Regla 3** : si las ofertas no pertenecen a la misma oportunidad, no pueden incluir el mismo proyecto y clase de transacción.
+**Regla 3**: si las ofertas no pertenecen a la misma oportunidad, no pueden incluir el mismo proyecto y clase de transacción.
 
 <table border="1" cellspacing="0" cellpadding="0">
     <tbody>

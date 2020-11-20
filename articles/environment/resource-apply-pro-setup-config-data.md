@@ -1,23 +1,33 @@
 ---
-title: Instalar y aplicar datos de configuración en Common Data Service para Project Operations
+title: Configurar y aplicar datos de configuración en Common Data Service
 description: Este tema proporciona información sobre cómo instalar y aplicar los datos de configuración en Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085021"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401149"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Instalar y aplicar datos de configuración en Common Data Service para Project Operations
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Configurar y aplicar datos de configuración en Common Data Service 
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
+
+## <a name="prerequisites"></a>Requisitos previos
+
+Antes de comenzar a configurar los datos en Common Data Service (CDS), se deben cumplir los siguientes requisitos previos:
+
+1.  Proporcione un entorno CDS y un entorno Dynamics 365 Finance para Project Operations.
+2.  La información de entidad legal de Dynamics 365 Finance se comparte con el entorno CDS. Esto significa que la entidad **Empresa** en CDS tiene los siguientes registros de empresa:
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>Instalar la configuración y los datos de configuración
 
@@ -79,11 +89,11 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no en e
 
 ![Recursos que se pueden reservar](./media/8BookableResources.png)
 
-3. En la pestaña **General** , seleccione su usuario administrador. Verifique que la zona horaria coincida con la que se encuentra. 
+3. En la pestaña **General**, seleccione su usuario administrador. Verifique que la zona horaria coincida con la que se encuentra. 
 
 ![Nuevo recurso reservable](./media/9NewBookableResource.png)
 
-4. En la pestaña **Planificación** del campo **Empresa** , elija la empresa **USPM** y luego seleccione **Guardar**. 
+4. En la pestaña **Planificación** del campo **Empresa**, elija la empresa **USPM** y luego seleccione **Guardar**. 
 
 ![Pestaña de programación](./media/10SchedulingTab.png)
 
@@ -114,10 +124,10 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no en e
  
 12. Actualice los siguientes campos:
 
- - **Empresa predeterminada** : USPM
- - **Unidad organizativa predeterminada** : Contoso Robotics Global
- - **Frecuencia de facturación** : séptimo y último día
- - **Plantilla de horas de trabajo** : cambia a la plantilla que creó.
+ - **Empresa predeterminada**: USPM
+ - **Unidad organizativa predeterminada**: Contoso Robotics Global
+ - **Frecuencia de facturación**: séptimo y último día
+ - **Plantilla de horas de trabajo**: cambia a la plantilla que creó.
 
 13. Seleccione **Guardar**. 
 

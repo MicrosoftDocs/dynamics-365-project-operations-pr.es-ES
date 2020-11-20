@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c11d6e76b551e0d2cde8ff514d1a0ddd989d07b9
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088121"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181161"
 ---
 # <a name="project-contract-settings"></a>Configuración de contrato de proyecto
 
@@ -23,9 +23,9 @@ Este tema proporciona información sobre los campos que se aplican a todo el con
 
 La siguiente tabla enumera los campos de información en un proyecto de contrato que son exclusivos de Dynamics 365 Project Operations o tienen algunos cambios importantes en el comportamiento de los pedidos de ventas de Dynamics 365 Sales.
 
-| Campo | Ubicación | Relevancia, propósito y orientación | Impacto posterior |
+| Campo | Ubicación | Descripción | Impacto posterior |
 | --- | --- | --- | --- |
-| Escribir | Pestaña **Resumen** (oculta) | Este es un campo de conjunto de opciones con las siguientes opciones:</br>- **Basado en el trabajo** (disponible solo cuando está instalado Project Operations)</br>- **Basado en artículo** (disponible solo cuando están instalados Project Operations and Sales)</br>- **Servicio basado en mantenimiento** (disponible cuando Dynamics 365 Field Service está instalado) | En Project Operations, el valor de este campo predeterminado es **Basado en el trabajo** y clasifica el contrato como un contrato basado en proyectos. Un contrato debe basarse en proyecto para permitir todas las extensiones y funciones específicas del proyecto. |
+| Tipo | Pestaña **Resumen** (oculta) | Este es un campo de conjunto de opciones con las siguientes opciones:</br>- **Basado en el trabajo** (disponible solo cuando está instalado Project Operations)</br>- **Basado en artículo** (disponible solo cuando están instalados Project Operations and Sales)</br>- **Servicio basado en mantenimiento** (disponible cuando Dynamics 365 Field Service está instalado) | En Project Operations, el valor de este campo predeterminado es **Basado en el trabajo** y clasifica el contrato como un contrato basado en proyectos. Un contrato debe basarse en proyecto para permitir todas las extensiones y funciones específicas del proyecto. |
 | Empresa propietaria | Pestaña **Resumen** | La entidad legal que contabilizará los costos e ingresos que se acumulen de los proyectos asociados con este contrato de proyecto. Cuando un contrato se crea a partir de una oferta, este campo se copia del campo correspondiente del registro de la oferta. | La empresa propietaria se equipara al concepto de entidad jurídica en el módulo **Gestión de proyectos y contabilidad** de Project Operations. Todos los costes e ingresos acumulados de este proyecto se contabilizarán en el libro mayor de la empresa propietaria. |
 | Cliente | Pestaña **Resumen** | Una referencia al registro de cuenta o empresa del cliente. Cuando un contrato se crea a partir de una oferta, este campo se copia del campo correspondiente del registro de la oferta. | La moneda del contrato de proyecto se establece de forma predeterminada según la moneda del cliente. La moneda se puede cambiar antes de guardar el contrato. |
 | Administrador de cuentas | Pestaña **Resumen** | El nombre del Administrador de la cuenta de esta oferta. Cuando un contrato se crea a partir de una oferta, este campo se copia del campo correspondiente del registro de la oferta. | El Administrador de cuentas es responsable de gestionar la relación con el cliente hasta la finalización del proyecto. Según el registro de recursos reservables vinculado al Administrador de la cuenta, la unidad de contratación está predeterminada en el contrato de proyecto. |
@@ -37,7 +37,7 @@ La siguiente tabla enumera los campos de información en un proyecto de contrato
 
 Los siguientes KPI están disponibles en la pestaña **Rendimiento del contrato** de un contrato de proyecto.
 
-| Campo | Ubicación | Relevancia, propósito y orientación |
+| Campo | Ubicación | Descripción |
 | --- | --- | --- |
 | Valor del contrato | Contrato general | El valor total del contrato del proyecto. |
 | Importe facturado | Contrato general | La suma de los importes de todas las facturas de este contrato. |

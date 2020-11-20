@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a10be42f4ae1ecc8ae5613ed8fdc669304e0ec72
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085006"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181788"
 ---
 # <a name="manage-leads"></a>Administrar clientes potenciales
 
@@ -23,7 +23,7 @@ Los clientes potenciales basados en proyectos se pueden gestionar y calificar en
 
 ## <a name="project-sales-leads"></a>Clientes potenciales de proyecto
 
-En la sección **Ventas** , en el panel de navegación izquierdo, abra la página de lista **Clientes potenciales** para ver una lista de todos los registros de clientes potenciales del sistema. La lista de clientes potenciales que se muestra están basados en el trabajo y otros tipos de clientes potenciales que se pueden crear si también tiene Dynamics 365 Sales o aplicaciones de Dynamics 365 Field Service.
+En la sección **Ventas**, en el panel de navegación izquierdo, abra la página de lista **Clientes potenciales** para ver una lista de todos los registros de clientes potenciales del sistema. La lista de clientes potenciales que se muestra están basados en el trabajo y otros tipos de clientes potenciales que se pueden crear si también tiene Dynamics 365 Sales o aplicaciones de Dynamics 365 Field Service.
 
 Puede crear un vista filtrada para ver solo clientes potenciales basados en proyectos creando un filtro en el valor **Tipo**. Por ejemplo, puede seleccionar mostrar solo los clientes potenciales basados en el trabajo.
 
@@ -38,7 +38,7 @@ Para que un cliente potencial calificado cree automáticamente una oportunidad, 
 
 La siguiente tabla incluye información de campos importante para un cliente potencial y las implicaciones posteriores de esos campos.
  
-| **Campo** | **Ubicación** | **Relevancia, propósito y orientación** | **Impacto posterior** |
+| **Campo** | **Ubicación** | **Descripción** | **Impacto posterior** |
 | --- | --- | --- | --- |
 | Tema | Pestaña General | Este campo de texto debe contener una breve descripción de la oferta. | El tema del cliente potencial se establecerá de forma predeterminada como tema de la oportunidad y el nombre de la oferta y el contrato del proyecto. |
 | Escribir | Pestaña General | El campo de conjunto de opciones incluye las siguientes opciones:</br>- Basado en el trabajo (disponible solo cuando está instalado Project Operations)</br>- Basado en artículo (disponible solo cuando están instalados Project Operations y Ventas)</br>- Servicio basado en mantenimiento (disponible cuando se instala Field Service) | Cuando el valor de este campo se establece en **Basado en el trabajo** en el cliente potencial, el cliente potencial está calificado para crear una Oportunidad basada en proyectos. Es necesaria una oportunidad basada en proyecto para habilitar todas las extensiones y funcionalidades específicas del proyecto en el proceso de ventas posterior de esta oferta. |
@@ -53,7 +53,7 @@ Los clientes potenciales con el valor **Tipo** establecido en **Basado en el tra
 
 - Una cuenta que usa el campo **Empresa** del cliente potencial.
 - Un registro de contacto asociado a la cuenta basado en los valores de los campos **Nombre de pila** y **Apellido** del cliente potencial.
-- Una oportunidad basada en proyectos que tiene el campo **Tipo** establecido en &quot;**Basado en trabajo**.
+- Una oportunidad basada en proyectos que tiene el campo **Tipo** establecido en **Basado en trabajo**.
 
 Para obtener información más detallada sobre los clientes potenciales calificados, consulte [Calificar o convertir clientes potenciales](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 

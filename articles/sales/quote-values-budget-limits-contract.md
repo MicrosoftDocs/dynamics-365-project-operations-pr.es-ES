@@ -1,21 +1,21 @@
 ---
-title: Información de resumen sobre una oferta de proyecto
+title: Configuración de oferta de proyecto
 description: Este tema proporciona información sobre la información y la configuración que se aplican a las ofertas de proyectos e impactan en ellas.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde5305f179e9a4454bf97c44f1ebdf9986dd43
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084994"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180258"
 ---
-# <a name="summary-information-on-a-project-quote"></a>Información de resumen sobre una oferta de proyecto
+# <a name="project-quote-settings"></a>Configuración de oferta de proyecto
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
 
@@ -24,9 +24,9 @@ Este artículo explica la información que se aplica a una oferta de proyecto. E
 
 La siguiente tabla enumera los campos de información de resumen de una oferta de proyecto que son exclusivos de Dynamics 365 Project Operations o tienen algunos cambios importantes en el comportamiento de las ofertas de Dynamics 365 Sales.
 
-| **Campo** | **Ubicación** | **Relevancia, propósito y orientación** | **Impacto posterior** |
+| **Campo** | **Ubicación** | **Descripción** | **Impacto posterior** |
 | --- | --- | --- | --- |
-| Escribir | Pestaña Resumen (oculta) | El campo de conjunto de opciones tiene las siguientes opciones:</br>- Basado en el trabajo (disponible solo cuando está instalado Project Operations)</br>- Basado en artículo (disponible solo cuando están instalados Project Operations y Ventas)</br>- Servicio basado en mantenimiento (disponible cuando Dynamics 365 Field Service está instalado) | Cuando utiliza la aplicación Project Operations, el valor de este campo se establece automáticamente en **Basado en el trabajo**. Esto clasifica la oferta como oferta basada en proyecto. Una oferta debe basarse en proyecto para permitir todas las extensiones y funciones específicas del proyecto. |
+| Tipo | Pestaña Resumen (oculta) | El campo de conjunto de opciones tiene las siguientes opciones:</br>- Basado en el trabajo (disponible solo cuando está instalado Project Operations)</br>- Basado en artículo (disponible solo cuando están instalados Project Operations y Ventas)</br>- Servicio basado en mantenimiento (disponible cuando Dynamics 365 Field Service está instalado) | Cuando utiliza la aplicación Project Operations, el valor de este campo se establece automáticamente en **Basado en el trabajo**. Esto clasifica la oferta como oferta basada en proyecto. Una oferta debe basarse en proyecto para permitir todas las extensiones y funciones específicas del proyecto. |
 | Empresa propietaria | Resumen | La entidad legal que contabilizará los costes e ingresos que se acumulen de este proyecto o proyectos asociados con esta oferta. Cuando una oferta se crea a partir de una oportunidad, este campo se copia del campo correspondiente de la oportunidad. | La empresa propietaria se equipara al concepto de entidad jurídica en el módulo **Gestión de proyectos y contabilidad** de Project Operations. Todos los costes e ingresos acumulados de este proyecto se contabilizarán en el libro mayor de la empresa propietaria. |
 | Cliente potencial | Pestaña Resumen | Referencia al registro de cuenta o empresa del cliente. Un cliente válido a referenciar en la oferta del proyecto debe configurarse como cliente en la empresa propietaria de la oferta. La empresa propietaria muestra la lista de entidades jurídicas, y estas están configuradas en el módulo **Gestión de proyectos y contabilidad** de Project Operations. Cuando una oferta se crea a partir de una oportunidad, este campo se copia del campo correspondiente de la oportunidad. | La moneda de la oferta del proyecto se establece de forma predeterminada según la moneda del cliente. Esto, sin embargo, se puede cambiar antes de guardar la oferta. |
 | Administrador de cuentas | Pestaña Resumen | El nombre del administrador de la cuenta de esta oferta. Cuando una oferta se crea a partir de una oportunidad, este campo se copia del campo correspondiente de la oportunidad. | El administrador de cuentas es responsable de gestionar la relación con el cliente hasta la finalización de este proyecto. Según el registro de recursos reservables vinculado al administrador de la cuenta, la unidad de contratación está predeterminada en la oferta de proyecto.|
@@ -38,7 +38,7 @@ La siguiente tabla enumera los campos de información de resumen de una oferta d
 
 A continuación se muestran las pestañas y los KPI disponibles en una oferta de proyecto que son exclusivos de Project Operations o tienen algunos cambios importantes en el comportamiento de las ofertas de ventas:
 
-| **Campo** | **Ubicación** | **Relevancia, propósito y orientación** |
+| **Campo** | **Ubicación** | **Descripción** |
 | --- | --- | --- |
 | Análisis de rentabilidad | Pestaña de la oferta | La pestaña muestra las siguientes métricas:</br>- Coste imputable total</br></br>- Coste no imputable total</br>- Ingresos totales</br>- Ingresos totales (base)</br>- Margen bruto</br>- Margen bruto ajustado|
 | Comparación con las expectativas del cliente | Pestaña de la oferta | Esta pestaña muestra las siguientes métricas:</br>- Finalización estimada</br>- Finalización solicitada</br>- Presupuesto del cliente</br>- Valor de oferta |

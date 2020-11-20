@@ -1,23 +1,30 @@
 ---
-title: Aplicar datos de configuración y de preparación de demostración
+title: Aplicar datos de configuración y configuración de demostración (lite)
 description: Este tema proporciona información sobre cómo aplicar la configuración de demostración y los datos de configuración para las operaciones de proyecto.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 5cfc270c07a568d692f6cd180b9c367ae185044c
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085013"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401284"
 ---
-# <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Aplique la configuración de demostración y los datos de configuración para la implementación simplificada de Project Operations: facturación de oferta a proforma
+# <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Aplicar datos de configuración y configuración de demostración para Project Operations (lite) 
 
 _**Implementación simplificada: facturación de oferta a proforma_
+
+## <a name="prerequisites"></a>Requisitos previos
+
+Antes de comenzar la configuración, debe tener un entorno de Common Data Service (CDS) aprovisionado para Dynamics 365 Project Operations.
+
+
+## <a name="instructions"></a>Instrucciones
 
 1. Descargar el [Paquete de datos maestros](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
 2. Navegue a la carpeta *ProjOpsDemoDataSetupAndMaster - Integrated CMT* y ejecute el archivo ejecutable *DataMigrationUtility*.
@@ -45,25 +52,25 @@ _**Implementación simplificada: facturación de oferta a proforma_
 10. La importación se ejecutará durante aproximadamente de dos a diez minutos, según la velocidad de su red. Una vez finalizada, salga del asistente de CMT. 
 11. Compruebe si su organización dispone de datos en las siguientes 20 entidades:
 
-- Divisa
-- Unidad organizativa
-- CONTACTO
-- Grupo fiscal
-- Grupo de clientes
-- Unidad
-- Unidad de venta
-- Lista de precios
-- Lista de precios de parámetros de proyecto
-- Frecuencia de facturación
-- Detalle de frecuencia de factura
-- Categoría de recurso reservable
-- Categoría de transacción
-- Categoría de gastos
-- Precio de rol
-- Precio de categoría de transacciones
-- Característica
-- Recurso reservable
-- Asociación de categoría de recurso reservable
-- Característica del recurso reservable
+-   Moneda
+-   Cuenta
+-   Unidad organizativa
+-   CONTACTO
+-   Grupo fiscal
+-   Grupo de clientes
+-   Unidad
+-   Unidad de venta
+-   Lista de precios
+-   Lista de precios de parámetros de proyecto 
+-   Frecuencia de facturación
+-   Categoría de recurso reservable
+-   Categoría de transacción
+-   Categoría de gastos
+-   Precio de rol
+-   Precio de categoría de transacciones
+-   Característica
+-   Recurso reservable
+-   Asociación de categoría de recurso reservable
+-   Característica del recurso reservable
 
 ![Completar importación](./media/6CompleteImport.png)

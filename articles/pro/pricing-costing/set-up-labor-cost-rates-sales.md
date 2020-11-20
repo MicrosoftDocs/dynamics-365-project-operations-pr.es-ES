@@ -1,33 +1,33 @@
 ---
-title: Configuración de tarifas de costes de mano de obra
+title: Configurar tarifas de costes de mano de obra (lite)
 description: Este tema proporciona información sobre cómo configurar tarifas para el costo de la mano en Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66a254ce4e7c7f25ac3ea303b73a01625988b0d9
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085059"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180752"
 ---
-# <a name="setting-up-labor-cost-rates"></a>Configuración de tarifas de costes de mano de obra 
+# <a name="set-up-labor-cost-rates---lite"></a>Configurar tarifas de costes de mano de obra (lite)
 
 _**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
 
 Cada lista de precios tiene un conjunto de tarifas laborales (precios de función) que se alinean con el contenido y la fecha de vigencia de la lista de precios.
 
-1. Cree una lista de precios y en la pestaña **Precio del rol** , en la subcuadrícula, seleccione **Nuevo rol**.
-2. En la página **Creación rápida** , seleccione el rol y la unidad organizativa.
+1. Cree una lista de precios y en la pestaña **Precio del rol**, en la subcuadrícula, seleccione **Nuevo rol**.
+2. En la página **Creación rápida**, seleccione el rol y la unidad organizativa.
 3. Especifique cualquier otra información obligatoria del campo.
 
 La siguiente tabla incluye algunos de los campos que son importantes al crear tarifas de mano de obra en una lista de precios de costo.
 
-| Campo | Ubicación | Relevancia, propósito y orientación | Impacto posterior |
+| Campo | Ubicación | Descripción | Impacto posterior |
 | --- | --- | --- | --- |
 | Rol | Pestaña **General** y páginas **Creación rápida** | Seleccione el rol a la que se aplica la tasa de coste. | El rol en la estimación entrante o real se comparará con esta línea para predeterminar el coste del rol. |
 | Unidad de dotación de recursos | Pestaña **General** y páginas **Creación rápida** | Seleccione la unidad organizativa o división de la empresa desde donde se utilizará este rol. Por ejemplo, un desarrollador de la división de robótica de Fabrikam India o un desarrollador de la división de software de Fabrikam USA. | La unidad de recursos en la estimación entrante o real se comparará con esta línea para predeterminar el de coste del rol. |

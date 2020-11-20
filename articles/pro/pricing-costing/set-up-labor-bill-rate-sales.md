@@ -1,21 +1,21 @@
 ---
-title: Configuración de tarifas de facturas de mano de obra
+title: Configurar tarifas de facturas de mano de obra (lite)
 description: Este tema proporciona información sobre cómo configurar tarifas de facturación de la mano de obra en Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e6294895857442f3a24a9d73ee07d2b90926a4fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085210"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181203"
 ---
-# <a name="setting-up-bill-rates-for-labor-rate-billing"></a>Configurar tarifas de facturación para la facturación de tarifas laborales 
+# <a name="set-up-labor-bill-rates---lite"></a>Configurar tarifas de facturas de mano de obra (lite)
 
 _**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
 
@@ -23,11 +23,11 @@ Cada lista de precios tiene un conjunto de precios o tarifas laborales que son e
 
 1. Para configurar tarifas de mano de obra para una lista de precios de venta, cree una lista de precios basada en el encabezado de la lista de precios. 
 2. En la pestaña **Precios de rol** en la subcuadrícula seleccione **+ Nuevo precio de rol**. 
-3. En el panel **Creación rápida** , introduzca la combinación de rol y unidad organizativa para la que necesita configurar la tarifa de facturación.
+3. En el panel **Creación rápida**, introduzca la combinación de rol y unidad organizativa para la que necesita configurar la tarifa de facturación.
 
   La siguiente tabla incluye los campos en la pestaña **General** y el panel **Creación rápida** de una línea de precio de función que debe tener en cuenta al crear precios de función en una lista de precios de venta:
 
-  | Campo | Ubicación | Relevancia, propósito y orientación | Impacto posterior |
+  | Campo | Ubicación | Descripción | Impacto posterior |
   | --- | --- | --- | --- |
   | Rol | Pestaña **General** y panel **Creación rápida** | Seleccione el rol para el que está configurando la tarifa de facturación. | El rol en la estimación entrante o real se comparará con esta línea para predeterminar la tarifa de facturación del rol. |
   | Unidad de dotación de recursos | Pestaña **General** y panel **Creación rápida** | Seleccione la unidad organizativa o división de la empresa a la que pertenece este rol. Por ejemplo, un desarrollador de la división de robótica de Fabrikam India o un desarrollador de la división de software de Fabrikam USA. | La unidad de recursos en la estimación entrante o real se comparará con esta línea para predeterminar la tarifa de facturación del rol. |

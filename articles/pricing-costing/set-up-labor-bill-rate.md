@@ -5,29 +5,29 @@ author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2c7d63d0cfd5c9b6dbfb65fa8c8227c7f6eeac48
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085172"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180735"
 ---
-# <a name="set-up-bill-rates-for-labor-rate-billing"></a>Configurar tarifas de facturación para la facturación de tarifas laborales 
+# <a name="set-up-labor-bill-rates"></a>Configurar tarifas de facturas de mano de obra
 
-**Se aplica a** : Project Operations para escenarios basados en recursos/no mantenidos en existencias
+**Se aplica a**: Project Operations para escenarios basados en recursos/no mantenidos en existencias
 
 Cada lista de precios tiene un conjunto de precios o tarifas laborales que son efectivas para el contexto y fecha de vigencia incluida en el encabezado de la lista de precios. Las tarifas de facturación por tiempo en Dynamics 365 Project Operations se pueden configurar en una sola moneda, que es la moneda del encabezado de la lista de precios.
 
 1. Para configurar tarifas de mano de obra para una lista de precios de venta, cree una lista de precios basada en el encabezado de la lista de precios. 
 2. En la pestaña **Precios de rol** en la subcuadrícula seleccione **+ Nuevo precio de rol**. 
-3. En el panel **Creación rápida** , introduzca la combinación de rol y unidad organizativa para la que necesita configurar la tarifa de facturación.
+3. En el panel **Creación rápida**, introduzca la combinación de rol y unidad organizativa para la que necesita configurar la tarifa de facturación.
 
    La siguiente tabla incluye los campos en la pestaña **General** y el panel **Creación rápida** de una línea de precio de función que debe tener en cuenta al crear precios de función en una lista de precios de venta:
 
-    | Campo | Ubicación | Relevancia, propósito y orientación | Impacto posterior |
+    | Campo | Ubicación | Descripción | Impacto posterior |
     | --- | --- | --- | --- |
     | Rol | Pestaña **General** y panel **Creación rápida** | Seleccione el rol para el que está configurando la tarifa de facturación. | El rol en la estimación entrante o real se comparará con esta línea para predeterminar la tarifa de facturación del rol. |
     | Empresa de dotación de recursos | Pestaña **General** y panel **Creación rápida** | Seleccione la compañía o entidad jurídica a la que pertenece el rol. Por ejemplo, un desarrollador de Fabrikam India o un desarrollador de Fabrikam USA. | La compañía de recursos en la estimación entrante o real se comparará con esta línea para predeterminar la tarifa de facturación del rol. |

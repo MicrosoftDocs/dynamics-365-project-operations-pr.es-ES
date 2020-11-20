@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d17f266b6e34fc2a2743fe19fd18b15fb992ceef
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085045"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180618"
 ---
 # <a name="set-up-labor-cost-rates"></a>Configurar tarifas de costos laborales
 
@@ -22,13 +22,13 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no en e
 
 Cada lista de precios tiene un conjunto de tarifas laborales (precios de función) que se alinean con el contenido y la fecha de vigencia de la lista de precios.
 
-1. Cree una lista de precios y en la pestaña **Precio del rol** , en la subcuadrícula, seleccione **Nuevo rol**.
-2. En la página **Creación rápida** , seleccione el rol y la unidad organizativa.
+1. Cree una lista de precios y en la pestaña **Precio del rol**, en la subcuadrícula, seleccione **Nuevo rol**.
+2. En la página **Creación rápida**, seleccione el rol y la unidad organizativa.
 3. Especifique cualquier otra información obligatoria del campo.
 
 La siguiente tabla incluye algunos de los campos que son importantes al crear tarifas de mano de obra en una lista de precios de costo.
 
-| Campo | Ubicación | Relevancia, propósito y orientación | Impacto posterior |
+| Campo | Ubicación | Descripción | Impacto posterior |
 | --- | --- | --- | --- |
 | Rol | Pestaña **General** y páginas **Creación rápida** | Seleccione el rol a la que se aplica la tasa de coste. | El rol en la estimación entrante o real se comparará con esta línea para predeterminar el coste del rol. |
 | Empresa de dotación de recursos | Pestaña **General** y páginas **Creación rápida** | Seleccione la entidad jurídica a la que está asignado el rol. Por ejemplo, un desarrollador de Fabrikam India o un desarrollador de Fabrikam USA. | La compañía de recursos en la estimación entrante o real se comparará con esta línea para predeterminar la tarifa de coste del rol. |

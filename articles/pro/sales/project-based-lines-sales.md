@@ -1,21 +1,21 @@
 ---
-title: Líneas de oportunidad basadas en proyectos (Pro)
+title: Líneas de oportunidad basadas en proyectos (lite)
 description: En este tema se proporciona información sobre lineas de oportunidad basadas en proyectos. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1a688b9bed5a38e7b5947cbcee1e3cb8ab211e98
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085073"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181041"
 ---
-# <a name="project-based-opportunity-lines-pro"></a>Líneas de oportunidad basadas en proyectos (Pro)
+# <a name="project-based-opportunity-lines---lite"></a>Líneas de oportunidad basadas en proyectos (lite)
 
 _**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
 
@@ -25,7 +25,7 @@ Las líneas de oportunidad basadas en proyectos son los elementos de línea que 
 
 A continuación, se muestran los campos de una línea de oportunidades basada en proyectos:
 
-| **Campo** | **Ubicación** | **Relevancia, propósito y orientación** | **Impacto posterior** |
+| **Campo** | **Ubicación** | **Descripción** | **Impacto posterior** |
 | --- | --- | --- | --- |
 | Tipo de producto | Pestaña General (oculta) | Puede seleccionar una de las siguientes opciones:</br>- Servicio basado en proyectos (disponible solo cuando está instalado Dynamics 365 Project Operations)</br>- Producto (disponible solo cuando están instalados Project Operations y Dynamics 365 Sales) | El valor de este campo se establece en **Servicio basado en proyectos** cuando crea una línea de oportunidad basada en el proyecto a partir de la cuadrícula de líneas basadas en el proyecto en la oportunidad. <br> Si cambia o anula este valor, la funcionalidad del proyecto no se habilitará en sus líneas de pedido basadas en proyectos. |
 | Oportunidad | Pestaña General | Este campo es de solo lectura y hace referencia al registro de oportunidad principal al que pertenece este artículo de línea. | No hay impacto posterior a partir de este campo. |
