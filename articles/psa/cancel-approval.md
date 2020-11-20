@@ -3,7 +3,7 @@ title: Cancelar entradas de gastos y tiempo aprobadas anteriormente
 description: En este tema se proporciona información sobre cómo cancelar una transacción de gastos y tiempo de proyecto aprobada.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ea816040570cc8f6ddf3c5ec8a74ac092fc68b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 84fc057599dd98162320d6104ed4a7612e894ecb
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085323"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123354"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Cancelar entradas de gastos o tiempo aprobadas anteriormente
 
@@ -36,7 +36,7 @@ En la versión más reciente de Dynamics 365 Project Service Automation, los apr
 Siga estos pasos para cancelar una entrada de gastos o tiempo aprobada anteriormente.
 
 1. Vaya a **Proyectos** \> **Mi trabajo** \> **Aprobaciones**.
-2. En la página de lista **Aprobaciones** , cambie la vista a **Mis aprobaciones anteriores**. Se mostrará una lista de las entradas de gastos y tiempo aprobadas anteriormente.
+2. En la página de lista **Aprobaciones**, cambie la vista a **Mis aprobaciones anteriores**. Se mostrará una lista de las entradas de gastos y tiempo aprobadas anteriormente.
 3. Seleccione una o varias entradas y después seleccione **Cancelar aprobación**. Recibirá un mensaje de advertencia.
 4. Seleccione **Aceptar** para cancelar la aprobación.
 
@@ -46,7 +46,7 @@ Cuando se cancela una aprobación, hay un impacto tanto operativo como financier
 
 ### <a name="operational-impact"></a>Impacto operativo
 
-En lo que respecta a las operaciones, cuando se cancela una aprobación, el estado del registro se restablece a **Borrador** y la aprobación deja de aparecer en la vista **Mis aprobaciones anteriores**. En su lugar, la aprobación cancelada aparece en la vista **Entradas de horas para aprobación** o la vista **Entradas de gastos para aprobación** , dependiendo de si se trataba de una entrada de tiempo o de gastos. Además, el estado de la entrada de gastos o de tiempo relacionado se cambia a **Enviado** para que la entrada relacionada sea homogénea con las aprobaciones que tienen un estado de **Borrador**.
+En lo que respecta a las operaciones, cuando se cancela una aprobación, el estado del registro se restablece a **Borrador** y la aprobación deja de aparecer en la vista **Mis aprobaciones anteriores**. En su lugar, la aprobación cancelada aparece en la vista **Entradas de horas para aprobación** o la vista **Entradas de gastos para aprobación**, dependiendo de si se trataba de una entrada de tiempo o de gastos. Además, el estado de la entrada de gastos o de tiempo relacionado se cambia a **Enviado** para que la entrada relacionada sea homogénea con las aprobaciones que tienen un estado de **Borrador**.
 
 Como aprobador, podrá editar algunos de los campos de las aprobaciones que tengan el estado de **Borrador**. Entre estos campos se incluyen los campos **Tipo de facturación** y **Horas facturables para entradas de tiempo**. Tras realizar los cambios, podrá volver a aprobar el registro. De manera alternativa, puede rechazar la entrada. Si rechaza la aprobación de una entrada de tiempo, el estado de la entrada cambiará a **Devuelto**. Si rechaza la aprobación de una entrada de gastos, el estado cambiará a **Rechazado**. Funcionalmente, tanto las entradas devueltas como las rechazadas se comportan igual que una entrada con el estado de **Borrador**. Un miembro del equipo del proyecto puede realizar cualquier cambio necesario en la entrada y después volver a enviarla para su aprobación, o bien puede eliminar la entrada por completo.
 

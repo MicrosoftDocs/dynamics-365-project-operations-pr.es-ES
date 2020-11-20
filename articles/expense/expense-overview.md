@@ -5,15 +5,15 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 6da831fef5dba060b8019d7689645405c7ebdbed
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6c5ef2a45e8141bda38baf3eaf0a403d6db95e48
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085028"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122859"
 ---
 # <a name="expense-home-page"></a>Página principal de gasto
 
@@ -24,8 +24,8 @@ Dynamics 365 Project Operations admite la capacidad de procesar gastos. El proce
 
 En Project Operations, hay dos modelos de implementación admitidos para Gastos: 
 
-- **Completo** : la implementación completa está disponible para **Operaciones de proyecto para escenarios basados en recursos/no en existencias** u **Operaciones de proyecto para escenarios basados en pedidos de producción**.
-- **Básico** : la implementación básica está disponible para **Operaciones de proyecto para escenarios basados en recursos/no en existencias** e **Implementación simplificada: facturación de ofertas a proforma**.
+- **Completo**: la implementación completa está disponible para **Operaciones de proyecto para escenarios basados en recursos/no en existencias** u **Operaciones de proyecto para escenarios basados en pedidos de producción**.
+- **Básico**: la implementación básica está disponible para **Operaciones de proyecto para escenarios basados en recursos/no en existencias** e **Implementación simplificada: facturación de ofertas a proforma**.
 
 ## <a name="full"></a>Completo 
 La implementación de gastos completos proporciona una aplicación de directivas completa que incluye la capacidad de crear directivas, como:

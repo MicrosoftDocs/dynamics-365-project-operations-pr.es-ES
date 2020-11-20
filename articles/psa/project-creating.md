@@ -3,7 +3,7 @@ title: Programaciones del proyecto
 description: En este tema se proporciona información sobre cómo crear una programación.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085183"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123264"
 ---
 # <a name="project-schedules"></a>Programaciones del proyecto 
 
@@ -83,12 +83,12 @@ Los botones **Subir** y **Bajar** cambian el puesto de una tarea dentro de su je
 
 La cuadrícula **Programar** es totalmente accesible y se puede usar con lectores de pantalla como Narrator, JAWS o NVDA. Puede moverse por el área de la cuadrícula mediante las teclas de flecha (como en Microsoft Excel), puede usar el tabulador para avanzar a través de los elementos interactivos de la interfaz de usuario, y puede usar la tecla de flecha hacia abajo, la tecla Intro o la barra espaciadora para seleccionar e invocar los menús desplegables. Los encabezados de columna también son interactivos. Puede ocultar y mostrar columnas, usar el tabulador y las teclas de flecha para moverse por los encabezados de columna y utilizar los botones de acción de la barra de herramientas. Además, puede usar los siguientes métodos abreviados de teclado:
 
-- **Actualizar** : ALT+Mayús+F5
-- **Agregar** : ALT+Mayús+Ins
-- **Eliminar** : ALT+Mayús+Supr
-- **Subir/bajar** : ALT+Mayús+Flechas de arriba/abajo
-- **Aplicar sangría/Anular sangría** : ALT_Mayús+Flechas izquierda/derecha
-- **Expandir/Contraer jerarquías** : ALT+Mayús+Teclas más/menos
+- **Actualizar**: ALT+Mayús+F5
+- **Agregar**: ALT+Mayús+Ins
+- **Eliminar**: ALT+Mayús+Supr
+- **Subir/bajar**: ALT+Mayús+Flechas de arriba/abajo
+- **Aplicar sangría/Anular sangría**: ALT_Mayús+Flechas izquierda/derecha
+- **Expandir/Contraer jerarquías**: ALT+Mayús+Teclas más/menos
 
 ## <a name="task-attributes"></a>Atributos de tareas
 
@@ -98,25 +98,25 @@ El nombre de una tarea describe el trabajo que debe completarse. En PSA, los atr
  
 ### <a name="schedule-attributes"></a>Atributos de programación
 
-Los atributos de **esfuerzo** , **fecha de inicio** , **fecha de finalización** y **duración** definen la programación de la tarea.
+Los atributos de **esfuerzo**, **fecha de inicio**, **fecha de finalización** y **duración** definen la programación de la tarea.
 
 Entre los atributos de programación adicionales se incluyen los siguientes:
 
-- **Horas de esfuerzo** : especifique una estimación de las horas necesarias para completar la tarea. 
-- **Duración** : especifique el número de días laborables necesarios para completar la tarea.
-- **Id. de programación** : este Id. generado automáticamente se usa para ordenar tareas en la jerarquía. Las dependencias entre las tareas administran el orden real en el que se trabajan las tareas.
+- **Horas de esfuerzo**: especifique una estimación de las horas necesarias para completar la tarea. 
+- **Duración**: especifique el número de días laborables necesarios para completar la tarea.
+- **Id. de programación**: este Id. generado automáticamente se usa para ordenar tareas en la jerarquía. Las dependencias entre las tareas administran el orden real en el que se trabajan las tareas.
  
 ### <a name="staffing-attributes"></a>Atributos de personal
 
 Puede obtener acceso a los atributos de personal a través del campo **Recursos** en la programación. Puede buscar un recurso existente o hacer clic en **Crear** y, en el panel **Creación rápida** , agregar un miembro del equipo del proyecto como un nuevo recurso.
 
-Los campos **Rol** , **Unidad de dotación de recursos** y **Nombre de puesto** se utilizan para describir los requisitos de personal para la tarea. Estos atributos de personal junto con la programación de tareas se utilizan para encontrar los recursos disponibles para realizar esta tarea.
+Los campos **Rol**, **Unidad de dotación de recursos** y **Nombre de puesto** se utilizan para describir los requisitos de personal para la tarea. Estos atributos de personal junto con la programación de tareas se utilizan para encontrar los recursos disponibles para realizar esta tarea.
 
-**Rol** : especifique el tipo de recurso necesario para realizar la tarea.
+**Rol**: especifique el tipo de recurso necesario para realizar la tarea.
 
-**Unidad de dotación de recursos** : especifique la unidad desde la que se deben asignar los recursos para la tarea. Este atributo afecta al coste y la estimación de ventas de la tarea si el coste y la tasa de facturación del recurso se establecen en función de las unidades de recursos.
+**Unidad de dotación de recursos**: especifique la unidad desde la que se deben asignar los recursos para la tarea. Este atributo afecta al coste y la estimación de ventas de la tarea si el coste y la tasa de facturación del recurso se establecen en función de las unidades de recursos.
 
-**Nombre de puesto** : escriba un nombre descriptivo para el recurso genérico que sirve como marcador de posición para el recurso que finalmente realizará el trabajo.
+**Nombre de puesto**: escriba un nombre descriptivo para el recurso genérico que sirve como marcador de posición para el recurso que finalmente realizará el trabajo.
 
 El campo **Recursos** contiene el nombre de puesto del recurso genérico o del recurso con nombre cuando se encuentra uno.
 

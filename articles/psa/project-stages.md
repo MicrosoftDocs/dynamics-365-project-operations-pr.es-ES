@@ -3,7 +3,7 @@ title: Tipos de fases del proyecto
 description: En este tema se proporciona información sobre las fases del proyecto.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 521bf4b3090473a603626a99fded53906b644a7a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: aa423979a794b07a8bd27440f47a29480b74b518
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085199"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123083"
 ---
 # <a name="project-stage-types"></a>Tipos de fases del proyecto 
 
@@ -46,11 +46,11 @@ Cuando cree un proyecto, la fase del proyecto se establece como **Nueva**. Si el
 
 ## <a name="quote"></a>Oferta
 
-Cuando asocia un proyecto a una oferta o lo crea desde una oferta, la fase del proyecto se establece en **Oferta** y las fechas de inicio y finalización estimadas se actualizan. Cuando el proyecto se encuentra en la fase **Oferta** , la pestaña **Ventas** en la página **Entidad del proyecto** muestra detalles de la oferta.
+Cuando asocia un proyecto a una oferta o lo crea desde una oferta, la fase del proyecto se establece en **Oferta** y las fechas de inicio y finalización estimadas se actualizan. Cuando el proyecto se encuentra en la fase **Oferta**, la pestaña **Ventas** en la página **Entidad del proyecto** muestra detalles de la oferta.
 
 ## <a name="plan"></a>Planear
 
-Cuando gana una oferta asociada a un proyecto, y el proyecto se mueve a la fase **Contrato** , la fase del proyecto se actualiza a **Planificar**. Cuando el proyecto se encuentra en la fase **Planificar** , la página **Entidad del proyecto** muestra detalles del contrato.
+Cuando gana una oferta asociada a un proyecto, y el proyecto se mueve a la fase **Contrato**, la fase del proyecto se actualiza a **Planificar**. Cuando el proyecto se encuentra en la fase **Planificar**, la página **Entidad del proyecto** muestra detalles del contrato.
 
 ## <a name="deliver"></a>Entregar
 
@@ -58,7 +58,7 @@ Cuando se completa el plan del proyecto y está listo para comenzar el proyecto,
 
 ## <a name="complete"></a>Completo 
 
-Cuando se completa el trabajo para el proyecto, el administrador del proyecto puede actualizar la fase a **Completo**. Al actualizar la fase del proyecto a **Completo** , el administrador del proyecto indica que el trabajo se ha completado al cien por cien, pero que el proyecto se mantiene abierto para que se puedan registrar las entradas de tiempo o gastos pendientes.
+Cuando se completa el trabajo para el proyecto, el administrador del proyecto puede actualizar la fase a **Completo**. Al actualizar la fase del proyecto a **Completo**, el administrador del proyecto indica que el trabajo se ha completado al cien por cien, pero que el proyecto se mantiene abierto para que se puedan registrar las entradas de tiempo o gastos pendientes.
 
 ## <a name="close"></a>Cerrar
 

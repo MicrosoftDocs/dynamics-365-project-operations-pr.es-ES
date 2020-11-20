@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 0f975d295b4c0ccef9827767beabd32ffd761faa
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085026"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121554"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Agregar miembros del equipo desde la cuadrícula Miembros del equipo
 
@@ -21,9 +21,9 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no mant
 
 Dynamics 365 Project Operations incluye un panel Administrador de recursos que proporciona información general visual de la utilización y la demanda de recursos en la organización. Puede usar los gráficos de este panel para visualizar la siguiente información:
 
-- **Demanda de recursos** : el gráfico **Solicitudes de recursos activas** muestra los recursos que se han enviado. Los recursos se agregan por rol o por proyecto.
-- **Demanda de recursos no enviada** : el gráfico **Demanda de recursos sin asignar** muestra todos los requisitos de recursos que no se han enviado. Este gráfico ayuda a los administradores de recursos a ver la demanda que no es firme y que se puede enviar con una solicitud de recursos.
-- **Utilización facturable de la última semana** : el gráfico **Uso por rol** muestra el porcentaje de uso facturable real de la organización por rol, con respecto al uso facturable objetivo por rol.
+- **Demanda de recursos**: el gráfico **Solicitudes de recursos activas** muestra los recursos que se han enviado. Los recursos se agregan por rol o por proyecto.
+- **Demanda de recursos no enviada**: el gráfico **Demanda de recursos sin asignar** muestra todos los requisitos de recursos que no se han enviado. Este gráfico ayuda a los administradores de recursos a ver la demanda que no es firme y que se puede enviar con una solicitud de recursos.
+- **Utilización facturable de la última semana**: el gráfico **Uso por rol** muestra el porcentaje de uso facturable real de la organización por rol, con respecto al uso facturable objetivo por rol.
 
     > [!NOTE]
     > Para que el gráfico **Uso por rol** esté disponible, cree un trabajo que ejecute el flujo de trabajo **UpdateRoleUtilization**. Este trabajo periódico se ejecuta cada siete días para calcular el uso facturable de los siete días anteriores. Los resultados se agregan por rol.
@@ -34,11 +34,11 @@ Los administradores de proyecto pueden usar el panel Administrador de recursos p
 
 ### <a name="add-a-team-member-directly-to-a-project"></a>Agregar un miembro del equipo directamente a un proyecto
 
-Para agregar un miembro del equipo directamente a un proyecto, en el formulario **Proyectos** , en la pestaña **Equipo** , seleccione **Nuevo**. Aparecerá el cuadro de diálogo **Creación rápida: Miembro del equipo del proyecto**. En este cuadro de diálogo, podrá realizar las tareas siguientes:
+Para agregar un miembro del equipo directamente a un proyecto, en el formulario **Proyectos**, en la pestaña **Equipo**, seleccione **Nuevo**. Aparecerá el cuadro de diálogo **Creación rápida: Miembro del equipo del proyecto**. En este cuadro de diálogo, podrá realizar las tareas siguientes:
 
-- **Reservar un recurso con nombre** : en el campo **Recurso reservable** , seleccione el nombre del recurso. Después, seleccione el rol, defina el período y seleccione un método de asignación. El recurso con nombre seleccionado se agrega al proyecto mediante el método de asignación seleccionado y el calendario de recursos.
-- **Agregar un recurso genérico** : deje el campo **Recurso reservable** en blanco y después seleccione el rol, defina el período y seleccione el método de asignación preferido. Se agrega un recurso genérico al equipo como marcador de posición. El marcador de posición contiene el patrón de demanda que se usa para reservar recursos con nombre en el equipo. El requisito se crea según el calendario del proyecto.
-- **Agregar un recurso con nombre al equipo sin consumir capacidad del recurso** : en el campo **Recurso reservable** , seleccione un recurso. Seleccione el período y luego **Ninguno** como método de asignación. El recurso se agrega al equipo, pero no se consume la capacidad del recurso con la reserva.
+- **Reservar un recurso con nombre**: en el campo **Recurso reservable**, seleccione el nombre del recurso. Después, seleccione el rol, defina el período y seleccione un método de asignación. El recurso con nombre seleccionado se agrega al proyecto mediante el método de asignación seleccionado y el calendario de recursos.
+- **Agregar un recurso genérico**: deje el campo **Recurso reservable** en blanco y después seleccione el rol, defina el período y seleccione el método de asignación preferido. Se agrega un recurso genérico al equipo como marcador de posición. El marcador de posición contiene el patrón de demanda que se usa para reservar recursos con nombre en el equipo. El requisito se crea según el calendario del proyecto.
+- **Agregar un recurso con nombre al equipo sin consumir capacidad del recurso**: en el campo **Recurso reservable**, seleccione un recurso. Seleccione el período y luego **Ninguno** como método de asignación. El recurso se agrega al equipo, pero no se consume la capacidad del recurso con la reserva.
 
 ### <a name="book-a-team-member-to-fulfill-resource-requirements-for-a-generic-resource"></a>Reservar un miembro del equipo para cumplir los requisitos de recursos de un recurso genérico
 
@@ -46,24 +46,24 @@ En Operaciones de proyecto, puede reservar un recurso genérico en un equipo de 
 
 Complete estos pasos para especificar las habilidades necesarias en un recurso genérico para un desarrollador.
 
-1. En el formulario **Proyectos** , en la pestaña **Equipo** , seleccione **Nuevo** para reservar un recurso genérico.
-2. En la vista **Todos los miembros del equipo** , en la columna **Requisitos de recursos** , seleccione el vínculo para agregar los conocimientos necesarios para el recurso genérico.
-3. En el formulario **Requisito de recursos** que aparece, en la cuadrícula **Conocimientos** , seleccione los puntos suspensivos ( **...** ) y después seleccione **Agregar nueva característica de requisito** para agregar los conocimientos necesarios para el desarrollador.
-4. En el formulario de diálogo **Creación rápida: Característica de requisito** que aparece, en el campo **Característica** , seleccione el conocimiento necesario.
-5. En el campo **Valor de clasificación** , seleccione el nivel de competencia para dicho conocimiento. 
-6. En el campo **Requisitos de recursos** , establezca el requisito para tomar los recursos de las unidades organizativas o incluso recursos con nombre. Cuando haya terminado, seleccione **Guardar**.
-7. En el formulario **Requisito de recursos** , seleccione **Reservar** para cumplir los requisitos de recursos. También puede seleccionar el recurso genérico en la cuadrícula **Todos los miembros del equipo** y después seleccionar **Reservar**.
+1. En el formulario **Proyectos**, en la pestaña **Equipo**, seleccione **Nuevo** para reservar un recurso genérico.
+2. En la vista **Todos los miembros del equipo**, en la columna **Requisitos de recursos**, seleccione el vínculo para agregar los conocimientos necesarios para el recurso genérico.
+3. En el formulario **Requisito de recursos** que aparece, en la cuadrícula **Conocimientos**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar nueva característica de requisito** para agregar los conocimientos necesarios para el desarrollador.
+4. En el formulario de diálogo **Creación rápida: Característica de requisito** que aparece, en el campo **Característica**, seleccione el conocimiento necesario.
+5. En el campo **Valor de clasificación**, seleccione el nivel de competencia para dicho conocimiento. 
+6. En el campo **Requisitos de recursos**, establezca el requisito para tomar los recursos de las unidades organizativas o incluso recursos con nombre. Cuando haya terminado, seleccione **Guardar**.
+7. En el formulario **Requisito de recursos**, seleccione **Reservar** para cumplir los requisitos de recursos. También puede seleccionar el recurso genérico en la cuadrícula **Todos los miembros del equipo** y después seleccionar **Reservar**.
 
     > [!NOTE]
     > En este ejemplo, se necesitan 40 horas pero no hay horas reservadas reales porque los recursos genéricos no tienen reservas. Además, no hay horas asignadas porque el recurso genérico se agregó directamente al equipo, en lugar de agregarlo mediante asignación de tareas.
 
-    En el formulario **Asistente para programación** , podrá filtrar los recursos disponibles según los requisitos especificados en el requisito de recursos. Los recursos se clasifican según los parámetros de ordenación especificados en el Tablero de programación.
+    En el formulario **Asistente para programación**, podrá filtrar los recursos disponibles según los requisitos especificados en el requisito de recursos. Los recursos se clasifican según los parámetros de ordenación especificados en el Tablero de programación.
 
    Entre los filtros usados más habitualmente se enceuntran los siguientes:
 
-    - **Características junto con una calificación** : permite filtrar por conocimientos, certificaciones y otras cualidades de recursos, además de las calificaciones de competencia.
-    - **Roles** : permite filtrar por los roles predeterminados asignados a los recursos reservables.
-    - **Unidades organizativas** : permite filtrar recursos reservables por las unidades organizativas a las que están asignados.
+    - **Características junto con una calificación**: permite filtrar por conocimientos, certificaciones y otras cualidades de recursos, además de las calificaciones de competencia.
+    - **Roles**: permite filtrar por los roles predeterminados asignados a los recursos reservables.
+    - **Unidades organizativas**: permite filtrar recursos reservables por las unidades organizativas a las que están asignados.
 
 8. Si no queda satisfecho con los resultados de la búsqueda de requisitos inicial, puede cambiar los criterios de filtro. Expanda el panel **Vista de filtro** de la izquierda y después seleccione **Buscar** para buscar recursos adicionales. Para cambiar el modo en que se ordenan los resultados, seleccione **Ordenar**.
 9. Seleccione los recursos según la demanda especificada en el requisito, tal como se indica en la parte superior de la cuadrícula. Puede eliminar la selección de celdas de la cuadrícula y dejar la capacidad del recurso abierta. Solo se puede seleccionar como reservado un recurso a la vez.
@@ -77,21 +77,21 @@ Complete estos pasos para especificar las habilidades necesarias en un recurso g
 
 En Project Operations, puede crear tareas y asignarles después recursos genéricos. Entonces, se puede representar la demanda de recursos con marcadores de posición mientras realiza una estimación de su programación y de sus finanzas. De este modo, puede generar requisitos de recursos para los recursos genéricos y cumplirlos.
 
-1. En el formulario **Proyectos** , en la pestaña **Programación** , seleccione **Agregar** para crear una tarea.
-2. En el campo **Recursos** , seleccione el símbolo de **Selector de recursos**. Aparecerá el selector de recursos para mostrar los miembros del equipo existentes para el proyecto.
+1. En el formulario **Proyectos**, en la pestaña **Programación**, seleccione **Agregar** para crear una tarea.
+2. En el campo **Recursos**, seleccione el símbolo de **Selector de recursos**. Aparecerá el selector de recursos para mostrar los miembros del equipo existentes para el proyecto.
 3. Especifique el nombre del nuevo recurso genérico y después seleccione **Crear**.
-4. En el cuadro **Creación rápida: Miembro del equipo del proyecto** que aparece, en el campo **Rol** , seleccione el rol del recurso genérico. 
-5. En el campo **Unidad de dotación de recursos** , seleccione la unidad organizativa para el recurso genérico. Seleccione **Guardar**. Ahora el miembro del equipo genérico está asignado a la tarea.
+4. En el cuadro **Creación rápida: Miembro del equipo del proyecto** que aparece, en el campo **Rol**, seleccione el rol del recurso genérico. 
+5. En el campo **Unidad de dotación de recursos**, seleccione la unidad organizativa para el recurso genérico. Seleccione **Guardar**. Ahora el miembro del equipo genérico está asignado a la tarea.
 
-   En la pestaña **Equipo** , se mostrará el nuevo miembro del equipo genérico. Tenga en cuenta que solo tiene horas asignadas. Estas horas son la suma de todas las tareas que están asignadas al miembro del equipo genérico. El miembro del equipo genérico no tiene las horas necesarias o un requisito de recursos.
+   En la pestaña **Equipo**, se mostrará el nuevo miembro del equipo genérico. Tenga en cuenta que solo tiene horas asignadas. Estas horas son la suma de todas las tareas que están asignadas al miembro del equipo genérico. El miembro del equipo genérico no tiene las horas necesarias o un requisito de recursos.
 
 6. Ahora puede asignar el miembro del equipo genérico a otras tareas con el selector de recursos.
 
    Cuando haya terminado de asignar el recurso genérico a las tareas, puede generar un requisito de recursos para el recurso genérico.
 
-7. En la pestaña **Equipo** , seleccione el recurso genérico y después seleccione **Generar requisito**. Cuando se genera el requisito, el miembro del equipo genérico tendrá las horas necesarias y un vínculo para el requisito de recursos.
+7. En la pestaña **Equipo**, seleccione el recurso genérico y después seleccione **Generar requisito**. Cuando se genera el requisito, el miembro del equipo genérico tendrá las horas necesarias y un vínculo para el requisito de recursos.
 
-  Tras reservar un recurso con nombre, el recurso genérico se quitará del equipo y se reemplazará con el recurso con nombre. En la pestaña **Programación** , se han quitado las asignaciones de recursos genéricos y se han reemplazado con el recurso con nombre.
+  Tras reservar un recurso con nombre, el recurso genérico se quitará del equipo y se reemplazará con el recurso con nombre. En la pestaña **Programación**, se han quitado las asignaciones de recursos genéricos y se han reemplazado con el recurso con nombre.
 
   > [!NOTE]
   > Este comportamiento se produce solo cuando un recurso con nombre está totalmente reservado para el requisito de recurso genérico. Cuando un recurso con nombre reemplaza parcialmente el requisito de recurso genérico o varios recursos con nombre reemplazan el requisito de recurso genérico, el recurso genérico se mantiene asignado a la tarea.
@@ -104,16 +104,16 @@ Por lo tanto, en estos escenarios, el administrador del proyecto es el responsab
 
 Tras crear un requisito de recursos, puede que el administrador de proyecto o el administrador de recursos deseen editar los detalles para refinar los criterios de búsqueda cuando se utilice el Panel de programación. Para editar el requisito de recursos, siga los pasos que se indican a continuación.
 
-1. En el formulario **Proyectos** , en la pestaña **Equipo** , seleccione el vínculo a cualquier requisito de un recurso genérico.
+1. En el formulario **Proyectos**, en la pestaña **Equipo**, seleccione el vínculo a cualquier requisito de un recurso genérico.
 2. En el formulario **Requisito de recursos** que aparece, introduzca la información de campo necesaria
 
-   En el formulario **Requisito de recursos** , el administrador de proyectos o el administrador de recursos también pueden definir habilidades, roles, preferencias de recursos y la unidad organizativa preferida.
+   En el formulario **Requisito de recursos**, el administrador de proyectos o el administrador de recursos también pueden definir habilidades, roles, preferencias de recursos y la unidad organizativa preferida.
 
 ### <a name="update-resource-bookings-after-they-are-booked-on-a-project"></a>Actualizar reservas de recursos tras su reserva en un proyecto
 
 Tras agregar un recurso genérico o un recurso con nombre a un equipo de proyecto, puede cambiar las reservas del recurso.
 
-1. En el formulario **Proyectos** , en la pestaña **Equipo** , seleccione un miembro de equipo y después seleccione **Mantener reservas**.
+1. En el formulario **Proyectos**, en la pestaña **Equipo**, seleccione un miembro de equipo y después seleccione **Mantener reservas**.
  
    Aparecerá el Tablero de programación y mostrará las reservas del miembro del equipo del proyecto. Expanda el registro del miembro del equipo para ver las horas que se han reservados con este proyecto y otros proyectos que consumen consumiendo la capacidad del miembro del equipo.
 
@@ -130,10 +130,10 @@ Puede cambiar cualquier estado de reserva predeterminado o personalizado.
 
 Project Operations incluye los estados siguientes:
 
-- **Cancelada** : cancela la reserva de un recurso y libera la capacidad del recurso.
-- **Reserva firme** : consume la capacidad de un recurso. Las reservas suelen mostrar este estado cuando se abre **Mantener reservas** desde la cuadrícula **Todos los miembros del equipo** en el formulario **Proyectos**.
-- **Reserva automática** : agrega un recurso a un equipo pero no consume la capacidad del recurso. Este estado indica que se ha reservado el recurso para un posible trabajo, pero que sigue teniendo capacidad si se necesita para otros trabajos. En la vista de la disponibilidad general de recursos, las reservas automáticas muestran un estado distinto del de las reservas manuales.
-- **Propuesta** : representa una propuesta de recurso de un administrador de recursos o de un administrador de proyecto. Las propuestas no consumen la capacidad de un recurso y no agregan el recurso el equipo del proyecto. Para reservar manualmente el recurso en el equipo, el administrador de proyecto debe aceptar la propuesta.
+- **Cancelada**: cancela la reserva de un recurso y libera la capacidad del recurso.
+- **Reserva firme**: consume la capacidad de un recurso. Las reservas suelen mostrar este estado cuando se abre **Mantener reservas** desde la cuadrícula **Todos los miembros del equipo** en el formulario **Proyectos**.
+- **Reserva automática**: agrega un recurso a un equipo pero no consume la capacidad del recurso. Este estado indica que se ha reservado el recurso para un posible trabajo, pero que sigue teniendo capacidad si se necesita para otros trabajos. En la vista de la disponibilidad general de recursos, las reservas automáticas muestran un estado distinto del de las reservas manuales.
+- **Propuesta**: representa una propuesta de recurso de un administrador de recursos o de un administrador de proyecto. Las propuestas no consumen la capacidad de un recurso y no agregan el recurso el equipo del proyecto. Para reservar manualmente el recurso en el equipo, el administrador de proyecto debe aceptar la propuesta.
 
 ### <a name="submit-resource-requests"></a>Enviar solicitudes de recursos
 
@@ -163,7 +163,7 @@ Puede ver el recurso propuesto junto con una visualización del efecto de la res
 
 A veces, el administrador del proyecto debe sustituir un miembro del equipo reservado de un proyecto.
 
-1. En el formulario **Proyectos** , en la pestaña **Equipo** , seleccione el recurso que necesita un sustituto y después seleccione **Mantener reservas**.
+1. En el formulario **Proyectos**, en la pestaña **Equipo**, seleccione el recurso que necesita un sustituto y después seleccione **Mantener reservas**.
 2. Expanda el recurso para ver proyectos a los que está asignado.
 3. Haga clic con el botón secundario y después seleccione **Sustituir recurso**.
 4. Si conoce el recurso que desea sustituir como recurso actual, seleccione o escriba el nombre y después seleccione **Reasignar**.
@@ -190,13 +190,13 @@ La pestaña también muestra un total neto del proyecto, junto con una columna t
 
 Para cada recurso, la pestaña calcula la diferencia entre las reservas de un miembro del equipo y un resumen de las asignaciones de tareas del miembro del equipo. Idealmente, esta diferencia debería ser 0 (cero). Es decir, no debería haber diferencia entre las reservas y las asignaciones. Las diferencias se muestran en color y sombreadas para llamar la atención en torno a dos condiciones:
 
-- **Escasez de reservas** : ocurre cuando un recurso tiene más asignaciones que reservas. Puesto que esta capacidad no se ha reservado, puede que el administrador de proyecto desee corregir esa condición extendiendo las reservas del recurso para cubrir el déficit.
-- **Reservas en exceso** : ocurre cuando se ha reservado un recurso para el proyecto, pero no se ha asignado a tareas. Esta condición podría ser aceptable en los casos en los que el recurso se reservó para el proyecto antes de que se produjera la asignación de tareas. Sin embargo, en otros casos, el recurso no está planificado para la asignarse a las tareas. En estos casos, el administrador de proyecto debería considerar cancelar las reservas del recurso de modo que la capacidad pueda utilizarse para otro proyecto.
+- **Escasez de reservas**: ocurre cuando un recurso tiene más asignaciones que reservas. Puesto que esta capacidad no se ha reservado, puede que el administrador de proyecto desee corregir esa condición extendiendo las reservas del recurso para cubrir el déficit.
+- **Reservas en exceso**: ocurre cuando se ha reservado un recurso para el proyecto, pero no se ha asignado a tareas. Esta condición podría ser aceptable en los casos en los que el recurso se reservó para el proyecto antes de que se produjera la asignación de tareas. Sin embargo, en otros casos, el recurso no está planificado para la asignarse a las tareas. En estos casos, el administrador de proyecto debería considerar cancelar las reservas del recurso de modo que la capacidad pueda utilizarse para otro proyecto.
 
 En algunos casos, cuando se visualiza el tiempo a un nivel superior al nivel de días (por ejemplo, al nivel de meses), puede ver una diferencia neta de cero para un recurso. En otras palabras, reservas = asignaciones. Sin embargo, si visualiza el tiempo en el nivel de semana, puede ver que hay asignaciones de cero horas y reservas de 40 horas en la primera semana, y asignaciones de 40 horas y reservas de cero horas en la segunda semana. En general, las reservas y las asignaciones se concilian, pero hay diferencias de una semana a la siguiente.
 
 Cuando se visualiza el tiempo a niveles más altos, las celdas de la pestaña **Conciliación** muestran un indicador para informar de que hay diferencias en los niveles de tiempo más bajos. Haga doble clic en una celda para ampliar y ver la diferencia. A continuación, puede hacer clic con el botón secundario para alejarse. Al seleccionar un recurso y luego seleccionar **Siguiente diferencia** en la barra de tareas de la cuadrícula, podrá ir a la siguiente diferencia entre las reservas y las asignaciones de dicho recurso. Seleccione **Diferencia anterior** para volver. También puede desactivar el indicador de diferencias y el comportamiento de navegación en **Configuración**.
 
-Si tiene asignaciones de tareas para un recurso pero no tiene reservas, en el formulario **Proyectos** , en la pestaña **Conciliación** , seleccione la escasez de reservas y luego seleccione **Ampliar reservas**. Aparecerá el cuadro de diálogo **Ampliar reservas** y mostrará la reserva necesaria para abordar la escasez de recursos. El cuadro de diálogo muestra las reservas existentes del recurso en todos los proyectos o en otras entidades que se pueden programar. Si se selecciona **Aceptar** para crear la para reservar del recurso independientemente de la disponibilidad del recurso, es posible que se produzca un problema de exceso de reserva.
+Si tiene asignaciones de tareas para un recurso pero no tiene reservas, en el formulario **Proyectos**, en la pestaña **Conciliación**, seleccione la escasez de reservas y luego seleccione **Ampliar reservas**. Aparecerá el cuadro de diálogo **Ampliar reservas** y mostrará la reserva necesaria para abordar la escasez de recursos. El cuadro de diálogo muestra las reservas existentes del recurso en todos los proyectos o en otras entidades que se pueden programar. Si se selecciona **Aceptar** para crear la para reservar del recurso independientemente de la disponibilidad del recurso, es posible que se produzca un problema de exceso de reserva.
 
 El administrador de proyecto o el administrador de recursos pueden usar el Tablero de programación para administrar las situaciones de exceso de reserva de un recurso más allá de su capacidad.

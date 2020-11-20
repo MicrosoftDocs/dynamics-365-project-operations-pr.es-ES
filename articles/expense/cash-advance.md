@@ -5,17 +5,17 @@ author: suvaidya
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 209fe0b8a79b2c0689c458c423664cb292da249b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c5839fbdab58903555936324139b76f4c94b6c35
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085031"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122770"
 ---
 # <a name="cash-advance"></a>Anticipo de efectivo
 
@@ -25,10 +25,10 @@ Un anticipo en efectivo permite a los empleados pedir prestado dinero a su empre
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Crear y enviar una solicitud de anticipo en efectivo
 
-1. En **Mis gastos** , seleccione **Adelantos en efectivo** > **Nuevo** para crear un nuevo anticipo en efectivo. 
-2. En la página **Nueva solicitud de anticipo en efectivo** , introduzca el propósito del gasto y seleccione la ubicación donde se incurrirá en el gasto.
+1. En **Mis gastos**, seleccione **Adelantos en efectivo** > **Nuevo** para crear un nuevo anticipo en efectivo. 
+2. En la página **Nueva solicitud de anticipo en efectivo**, introduzca el propósito del gasto y seleccione la ubicación donde se incurrirá en el gasto.
 3. Introduzca el importe y la moneda solicitados, y luego seleccione **Guardar**. 
-4. Cuando esté listo para enviar la solicitud de anticipo en efectivo, en la página **Solicitud de anticipo en efectivo** , seleccione **Flujo de trabajo** > **Enviar**.
+4. Cuando esté listo para enviar la solicitud de anticipo en efectivo, en la página **Solicitud de anticipo en efectivo**, seleccione **Flujo de trabajo** > **Enviar**.
 
 ## <a name="modify-a-cash-advance-request"></a>Modificar una solicitud de anticipo en efectivo
 
@@ -46,7 +46,7 @@ Puede revisar la lista de todos los anticipos en efectivo que están en borrador
 
 Los administradores o usuarios configurados como aprobadores en el flujo de trabajo podrán aprobar los adelantos en efectivo que se les envíen para su revisión. 
 
-1. Para aprobar un anticipo en efectivo, en **Procesar anticipos en efectivo** , seleccione **Adelantos en efectivo para mi revisión**.
+1. Para aprobar un anticipo en efectivo, en **Procesar anticipos en efectivo**, seleccione **Adelantos en efectivo para mi revisión**.
 2. Seleccione el anticipo en efectivo que necesita revisar y seleccione **Aprobar**.  
 
 ## <a name="pay-cash-advances"></a>Pagar anticipos en efectivo 

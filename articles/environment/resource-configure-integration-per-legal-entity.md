@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c0e02ef2d17bf49209369f7adad681d9a5981e2a
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096773"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122904"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Configurar la integración de Project Operations por entidad jurídica 
 
@@ -26,7 +26,7 @@ Este tema le guía a través de los pasos necesarios para configurar Dynamics 36
 Complete los siguientes pasos para habilitar las funciones necesarias.
 
 1. En Dynamics 365 Finance, vaya al espacio de trabajo **Administración de funciones**.
-2. En **Lista de características** , busque y habilite las siguientes funciones:
+2. En **Lista de características**, busque y habilite las siguientes funciones:
   
     - **Habilitar varias líneas de contrato para un proyecto**
     - **Habilitar Project Operations en Dynamics 365 Customer Engagement**
@@ -48,6 +48,6 @@ Puede habilitar Project Operations en Dynamics 365 Customer Engagement a nivel d
 
 Cada entidad legal que usa Project Operations en Dynamics 365 Customer Engagement necesita un conjunto de parámetros predeterminados. Estos parámetros se configuran en la pestaña **Project Operations** en la página **Parámetros contables y de gestión de proyectos**. Los parámetros son los siguientes:
 
-  - **Valores predeterminados del tipo de facturación** : Project Operations utiliza un conjunto fijo de valores predeterminados de tipo de facturación que deben asignarse a las propiedades de línea Finance. Cree un registro para cada tipo de facturación: **No especificado** , **Facturable** , **No facturable** , **Complementario** y **No disponible**.
-  - **Valores predeterminados de categoría de proyecto** : seleccione las categorías de proyecto predeterminadas que se utilizarán para cada tipo de transacción. Estos valores predeterminados se utilizarán en el **Diario de integración de Project Operations** y en estimaciones donde no se especifica ninguna categoría de transacción para el proyecto real.
-  - **Pronósticos** : seleccione el modelo de pronóstico que se utilizará para las estimaciones de tiempo y gastos.
+  - **Valores predeterminados del tipo de facturación**: Project Operations utiliza un conjunto fijo de valores predeterminados de tipo de facturación que deben asignarse a las propiedades de línea Finance. Cree un registro para cada tipo de facturación: **No especificado**, **Facturable**, **No facturable**, **Complementario** y **No disponible**.
+  - **Valores predeterminados de categoría de proyecto**: seleccione las categorías de proyecto predeterminadas que se utilizarán para cada tipo de transacción. Estos valores predeterminados se utilizarán en el **Diario de integración de Project Operations** y en estimaciones donde no se especifica ninguna categoría de transacción para el proyecto real.
+  - **Pronósticos**: seleccione el modelo de pronóstico que se utilizará para las estimaciones de tiempo y gastos.

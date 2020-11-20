@@ -3,7 +3,7 @@ title: Requisitos de reservas automáticas
 description: En este tema se ofrece información sobre cómo cumplir los requisitos de reservas automáticas.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 861e484ea2fc251e0082b4cb0cd5409a45a74057
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085358"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124119"
 ---
 # <a name="soft-book-requirements"></a>Requisitos de reservas automáticas
 
@@ -31,7 +31,7 @@ Se puede realizar una reserva manual de un requisito de recurso. Una reserva man
 
 ![Estado de reserva establecido en Automática](media/Resource-Management-image77.png)
 
-Cuando la pestaña **Equipo** está en la vista **Miembros del equipo con nombre** , aparece el recurso. Las horas de reserva automática se notifican en la columna **Horas reservadas automáticamente**.
+Cuando la pestaña **Equipo** está en la vista **Miembros del equipo con nombre**, aparece el recurso. Las horas de reserva automática se notifican en la columna **Horas reservadas automáticamente**.
 
 ![Horas reservadas automáticamente en la vista Miembros del equipo con nombre](media/Resource-Management-image78.png)
 
@@ -54,10 +54,10 @@ Para convertir una reserva automática en una manual, en el tablero de programac
 
 ![Cambio del estado de la reservar a Manual](media/Resource-Management-image82.png)
 
-Se modifica la reserva y se cambia el estado en el tablero de programación. Como el estado de la reserva ahora es **Manual** , el recurso se muestra como reservado y se ajusta la capacidad y la disponibilidad.
+Se modifica la reserva y se cambia el estado en el tablero de programación. Como el estado de la reserva ahora es **Manual**, el recurso se muestra como reservado y se ajusta la capacidad y la disponibilidad.
 
 Puede usar el mismo método para cancelar una reserva manual o una reserva automática desde el tablero de programación.
 
-Para convertir un recurso reservado automáticamente en la pestaña **Equipo** , seleccione el recurso y, a continuación, seleccione **Confirmar**.
+Para convertir un recurso reservado automáticamente en la pestaña **Equipo**, seleccione el recurso y, a continuación, seleccione **Confirmar**.
 
 ![Confirmación del comando](media/Resource-Management-image83.png)

@@ -3,7 +3,7 @@ title: Habilidades y modelos de competencia
 description: Este tema proporciona información sobre cómo usar las habilidades y los modelos de competencia.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/13/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cd243544df062e5801bbfa0a3bd75c4d9a116a6f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 92735262ebc4b48dd1143af57349d77e1fe3061c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085368"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124209"
 ---
 # <a name="skills-and-proficiency-models"></a>Habilidades y modelos de competencia
 
@@ -41,8 +41,8 @@ Las habilidades para los recursos se clasifican según los modelos de competenci
 
 1. Para crear un modelo de competencia, vaya a **Recursos** \> **Modelos de competencia** y, a continuación, seleccione **Nuevo**.
 2. En el nuevo modelo de calificación, especifique el valor mínimo y máximo de calificación y la entidad que se está calificando.
-3. En la subcuadrícula **Valores de calificación** , puede definir los diferentes valores de calificación, desde el mínimo hasta el máximo.
+3. En la subcuadrícula **Valores de calificación**, puede definir los diferentes valores de calificación, desde el mínimo hasta el máximo.
 
 > ![Calificaciones mínimas y máximas definidas](media/Resource-Management-image85.png)
 
-Estos valores de calificación se muestran en los filtros **Requisitos de recursos** , **Tablero de programación** y **Asistente de programación**.
+Estos valores de calificación se muestran en los filtros **Requisitos de recursos**, **Tablero de programación** y **Asistente de programación**.

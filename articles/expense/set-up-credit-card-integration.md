@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 12c7971204b485ee7cb222cd9cffdfdfde93dcf4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e0004f9096ea8a03745dbfce35fe0d32d3d707f6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085111"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120879"
 ---
 # <a name="set-up-credit-card-integration"></a>Configurar la integración de tarjetas de crédito
 
@@ -30,9 +30,9 @@ Las transacciones con tarjeta de crédito relacionadas con gastos se pueden conf
 
 ## <a name="import-credit-card-transactions"></a>Importar transacciones con tarjeta de crédito
 
-1. En la página **Transacciones con tarjeta de crédito** , seleccione **Importar transacciones**. Si abre la administración de datos por primera vez, el sistema debe actualizar la lista de entidades de datos antes de que pueda continuar.
-2. En el campo **Nombre** , escriba una descripción única del trabajo de importación.
-3. En el campo **Formato de datos de origen** , seleccione el formato del archivo que contiene las transacciones con tarjeta de crédito para importar.
+1. En la página **Transacciones con tarjeta de crédito**, seleccione **Importar transacciones**. Si abre la administración de datos por primera vez, el sistema debe actualizar la lista de entidades de datos antes de que pueda continuar.
+2. En el campo **Nombre**, escriba una descripción única del trabajo de importación.
+3. En el campo **Formato de datos de origen**, seleccione el formato del archivo que contiene las transacciones con tarjeta de crédito para importar.
 4. Seleccione **Cargar** y luego busque y seleccione el archivo para importar.
 5. Una vez cargado el archivo, valide la asignación del archivo de transacciones con tarjeta de crédito y las columnas de la entidad de datos de transacciones con tarjeta de crédito seleccionando el vínculo **Ver mapa** en el mosaico. Si hay errores de asignación, o si debe cambiar la asignación, realice los cambios de asignación desde la pestaña **Visualización de asignaciones** o la pestaña **Detalles de la asignación**.
 6. Para automatizar las transacciones con tarjeta de crédito, seleccione **Crear trabajo de datos periódico**. A continuación, puede establecer la periodicidad que define la frecuencia con la que se deben importar las transacciones con tarjeta de crédito. Cuando haya terminado, seleccione **Aceptar**.
@@ -44,6 +44,6 @@ Las transacciones con tarjeta de crédito relacionadas con gastos se pueden conf
 
 ## <a name="reassign-the-credit-card-transactions-for-terminated-employees"></a>Reasignar las transacciones con tarjeta de crédito para empleados cancelados
 
-Una vez que se cancela un registro de empleado, la cuenta de Active Directory Domain Services (AD DS) del empleado se deshabilita. Sin embargo, es posible que haya transacciones con tarjeta de crédito activas que aún deben contabilizarse como gastos y reembolsarse. Desde la página **Transacciones con tarjeta de crédito** , puede reasignar al empleado para cualquier transacción con tarjeta de crédito en la que se haya cancelado al empleado.
+Una vez que se cancela un registro de empleado, la cuenta de Active Directory Domain Services (AD DS) del empleado se deshabilita. Sin embargo, es posible que haya transacciones con tarjeta de crédito activas que aún deben contabilizarse como gastos y reembolsarse. Desde la página **Transacciones con tarjeta de crédito**, puede reasignar al empleado para cualquier transacción con tarjeta de crédito en la que se haya cancelado al empleado.
 
 Seleccione una o varias transacciones con tarjeta de crédito y luego seleccione **Reasignar transacciones**. A continuación, puede seleccionar otro empleado para asignarle las transacciones con tarjeta de crédito. Una vez reasignadas las transacciones con tarjeta de crédito, pueden seleccionarse para un informe de gastos y pagarse mediante el proceso habitual para el reembolso del informe de gastos.

@@ -3,7 +3,7 @@ title: Guía de usuario para el centro de recursos de proyecto
 description: Guía del usuario final de Project Resource Hub para Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 181e47a7bf923100e480eabd120d8bd784c24d07
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1c52a17d791b5656f13535077e4300b331db71b5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085139"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123174"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Manual de usuario para Project Resource Hub
 
@@ -66,7 +66,7 @@ Las secciones Favoritos y Usados recientemente proporcionan acceso rápido a sus
 
 - Para acceder a estas secciones, pulse el botón **Menú** ![botón Menú](media/MenuButton.png "Botón de menú") en la barra de navegación y después pulse el botón **Favoritos y recientes** ![botón de Favoritos](media/FavButton.png "Botón Favoritos").
 
-- Para anclar un elemento como favorito, en la lista de elementos **Usados recientemente** , pulse la chincheta. Esto anclará y mover el elemento a Favoritos.
+- Para anclar un elemento como favorito, en la lista de elementos **Usados recientemente**, pulse la chincheta. Esto anclará y mover el elemento a Favoritos.
 
   ![Favoritos y elementos recientes](media/Favs_3.png "Favoritos y elementos recientes")
  
@@ -88,7 +88,7 @@ Especifique sus gastos al menos semanalmente —o con la frecuencia solicitada p
 
 1. Seleccione el botón del menú ![botón del menú](media/MenuButton.png "Botón de menú") y **Gastos**. Esto activa el calendario.
 
-2. Puede cambiar a la vista **Día** , **Semana** o **Mes** o ir al período de tiempo anterior o siguiente. 
+2. Puede cambiar a la vista **Día**, **Semana** o **Mes** o ir al período de tiempo anterior o siguiente. 
 
 3. Para especificar los gastos, pulse **Nuevo** en la barra de comandos. 
 

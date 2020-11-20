@@ -2,7 +2,7 @@
 title: Novedades o cambios en la versión 3 de Project Service Automation
 description: Este tema proporciona información sobre las novedades y los cambios en Project Service Automation versión 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c198a0fd293008b73422f3f60ea023f918e0ddc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085110"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120024"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Novedades o cambios en la versión 3 de Project Service Automation
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -37,10 +37,10 @@ El programa del proyecto, que se conocía como Estructura de descomposición del
 
 El programa ahora tiene una nueva superficie de interacción que es tanto moderna como accesible. Sin embargo, el motor de programación de Project Service Automation subyacente no ha cambiado. Los botones de control en la cinta de la cuadrícula de programación le permiten interactuar con la programación de forma similar a la versión anterior de Project Service Automation. Entre los cambios adicionales en la programación se encuentran los siguientes:
 
-- **Diagrama de Gantt** : el diagrama de Gantt ya no está presente. Volverá a aparecer una nueva visualización de Gannt en una actualización futura.
-- **Encabezados de columna** : puede ocultar los encabezados de columna en la cuadrícula haciendo clic en el indicador hacia abajo junto al título de la columna. 
-- **Columnas** : puede mostrar columnas ocultas haciendo clic en **Agregar columna**. 
-- **Categoría de transacción** : se ha agregado una **Categoría de transacción** a la cuadrícula de programación y se muestra de forma predeterminada. 
+- **Diagrama de Gantt**: el diagrama de Gantt ya no está presente. Volverá a aparecer una nueva visualización de Gannt en una actualización futura.
+- **Encabezados de columna**: puede ocultar los encabezados de columna en la cuadrícula haciendo clic en el indicador hacia abajo junto al título de la columna. 
+- **Columnas**: puede mostrar columnas ocultas haciendo clic en **Agregar columna**. 
+- **Categoría de transacción**: se ha agregado una **Categoría de transacción** a la cuadrícula de programación y se muestra de forma predeterminada. 
  
 ## <a name="project-templates"></a>Plantillas de proyecto
 Se han realizado los siguientes cambios en la funcionalidad de la plantilla del proyecto.
@@ -94,7 +94,7 @@ Las estimaciones se han dividido en dos pestañas:, **Asignación de recursos** 
 
 ![Pestaña Asignaciones de recursos con las estimaciones de esfuerzo y las asignaciones de recursos para tareas](media/resource-assignments-tab-02.png)
 
-La pestaña **Estimaciones** muestra los importes de costes y ventas para las asignaciones de recursos. Los importes son de solo lectura. Los costes y los precios de ventas ahora se basan en las asignaciones de miembros del equipo en la programación. Esto significa que si tiene una tarea sin ninguna asignación, la tarea se mostrará debajo del cubo no asignado. Esto también significa que sin **rol** , que es una dimensión de precios predeterminada, no habrá costes o ventas estimados si tiene un cliente o contrato/oferta asociados con el proyecto. 
+La pestaña **Estimaciones** muestra los importes de costes y ventas para las asignaciones de recursos. Los importes son de solo lectura. Los costes y los precios de ventas ahora se basan en las asignaciones de miembros del equipo en la programación. Esto significa que si tiene una tarea sin ninguna asignación, la tarea se mostrará debajo del cubo no asignado. Esto también significa que sin **rol**, que es una dimensión de precios predeterminada, no habrá costes o ventas estimados si tiene un cliente o contrato/oferta asociados con el proyecto. 
 
 ![Pestaña Estimaciones con los importes de costes y ventas](media/estimates-tab-03.png)
   
@@ -105,7 +105,7 @@ Las estimaciones de gastos se pueden introducir en la cuadrícula en la pestaña
 ![Pestaña Estimaciones de gastos con la cuadrícula de estimaciones de gastos](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Administración de recursos
-En la versión 3 de Project Service Automation, con la nueva interfaz unificada del cliente y los cambios en la relación entre las reservas y las asignaciones, la dotación de personal de un proyecto con recursos genéricos o reales ha cambiado drásticamente desde la versión 2 y la versión 1. Sin embargo, los conceptos de recursos reservables, tanto **real** como **genérico** , siguen siendo los mismos, al igual que los miembros del equipo, los requisitos, las asignaciones y las reservas.   
+En la versión 3 de Project Service Automation, con la nueva interfaz unificada del cliente y los cambios en la relación entre las reservas y las asignaciones, la dotación de personal de un proyecto con recursos genéricos o reales ha cambiado drásticamente desde la versión 2 y la versión 1. Sin embargo, los conceptos de recursos reservables, tanto **real** como **genérico**, siguen siendo los mismos, al igual que los miembros del equipo, los requisitos, las asignaciones y las reservas.   
 
 ![Uso de selector de recursos](media/resource-management-05.png)
 
@@ -137,8 +137,8 @@ La pestaña **Conciliación** muestra las reservas y todas las asignaciones para
 
 Para cada recurso, la vista selecciona la diferencia entre las reservas de un miembro del equipo y un informe de sus asignaciones de tareas y muestra las siguientes dos diferencias que pueden producirse con las reservas y asignaciones en un proyecto: 
 
-- **Escasez de reservas** : la escasez de reservas se produce cuando un recurso tiene más asignaciones que reservas. Puesto que esta capacidad no se ha reservado, un jefe de proyecto puede efectuar la corrección extendiendo las reservas del recurso para cubrir el déficit. 
-- **Reservas en exceso** : las reservas en exceso se producen cuando se ha reservado un recurso para el proyecto, pero no se ha asignado a tareas.  Esto podría ser aceptable si, por ejemplo, el recurso se ha reservado antes de que se produzca la a asignación de tareas. Sin embargo, en otros casos, es posible que no se planee asignar el recurso, y el jefe de proyecto debería considerar cancelar las reservas del recurso para permitir que la capacidad se use para otro proyecto. 
+- **Escasez de reservas**: la escasez de reservas se produce cuando un recurso tiene más asignaciones que reservas. Puesto que esta capacidad no se ha reservado, un jefe de proyecto puede efectuar la corrección extendiendo las reservas del recurso para cubrir el déficit. 
+- **Reservas en exceso**: las reservas en exceso se producen cuando se ha reservado un recurso para el proyecto, pero no se ha asignado a tareas.  Esto podría ser aceptable si, por ejemplo, el recurso se ha reservado antes de que se produzca la a asignación de tareas. Sin embargo, en otros casos, es posible que no se planee asignar el recurso, y el jefe de proyecto debería considerar cancelar las reservas del recurso para permitir que la capacidad se use para otro proyecto. 
 
 Cuando tenga asignaciones de tareas para un recurso sin reservas (escasez de reservas), puede seleccionar la escasez de reservas agregadas y hacer clic en **Ampliar reserva**. Desde ahí, puede ver la reserva que se necesita para solucionar la escasez de recursos y su disponibilidad. 
  
@@ -158,7 +158,7 @@ Haga clic en **Nuevo** en la cinta para abrir una página de creación rápida p
 Los campos de búsqueda están respaldados por vistas del sistema. Por ejemplo, después de introducir la información del proyecto, el campo **Tarea de proyecto** se establece de forma predeterminada en la vista **Mis tareas de proyecto abiertas**. Para crear entradas de tiempo para tareas que no están asignadas al usuario, haga clic en **Cambiar vista** en la búsqueda y seleccione **Todas las tareas de proyecto activas**. Una vez que se haya creado la entrada de tiempo y se muestre en la cuadrícula, podrá editar cualquier valor de línea directamente en la cuadrícula.  
 
 ### <a name="bulk-createcopy"></a>Creación/copia de forma masiva 
-Después de que se hayan creado algunas entradas de tiempo, puede usar la funcionalidad de copia para crear entradas de tiempo adicionales de forma masiva. Haga clic en **Copiar** para abrir el cuadro de diálogo **Copiar**. En **Desde el período: fecha de inicio** , establezca el rango de fechas desde el que se deben copiar los períodos. En **Hasta el período: fecha de inicio** , especifique la fecha para la que se deben crear entradas de tiempo. Haga clic en **Copiar** para copiar las entradas de tiempo al día correspondiente de la semana indicado en **Hasta el período**. Por ejemplo, la entrada de tiempo del lunes de la semana pasada se copiará en el lunes de la semana indicada en **Hasta el período**. 
+Después de que se hayan creado algunas entradas de tiempo, puede usar la funcionalidad de copia para crear entradas de tiempo adicionales de forma masiva. Haga clic en **Copiar** para abrir el cuadro de diálogo **Copiar**. En **Desde el período: fecha de inicio**, establezca el rango de fechas desde el que se deben copiar los períodos. En **Hasta el período: fecha de inicio**, especifique la fecha para la que se deben crear entradas de tiempo. Haga clic en **Copiar** para copiar las entradas de tiempo al día correspondiente de la semana indicado en **Hasta el período**. Por ejemplo, la entrada de tiempo del lunes de la semana pasada se copiará en el lunes de la semana indicada en **Hasta el período**. 
 
 ![Copia de entradas de tiempo de forma masiva](media/bulk-copy-time-entry-09.png)
  
@@ -172,9 +172,9 @@ En la versión 3, nos hemos alejado del control de calendario personalizado y ah
 > Una limitación del calendario es que este control no admite acciones en elementos de calendario individuales. Por ejemplo, no podrá seleccionar uno o más elementos del calendario y enviar o eliminar esos elementos. Al hacer clic en un elemento del calendario, se abrirá la página de la entidad **Entrada de tiempo** para acciones adicionales. 
 
 ### <a name="extensibility"></a>Extensibilidad
-**Captura de datos en campos personalizados solo en entidades de entrada tiempo y gastos** : la entrada de tiempo utiliza una cuadrícula editable, una cuadrícula de solo lectura y controles de calendario desde la plataforma. Todos estos controles son nativos y, por lo tanto, admitirán personalizaciones. En la versión 3 de Project Service Automation, puede agregar campos personalizados adicionales, configurar campos de búsqueda y realizar una copia de seguridad con vistas personalizadas. También puede establecer una lógica empresarial personalizada basada en valores seleccionados en campos personalizados.  
+**Captura de datos en campos personalizados solo en entidades de entrada tiempo y gastos**: la entrada de tiempo utiliza una cuadrícula editable, una cuadrícula de solo lectura y controles de calendario desde la plataforma. Todos estos controles son nativos y, por lo tanto, admitirán personalizaciones. En la versión 3 de Project Service Automation, puede agregar campos personalizados adicionales, configurar campos de búsqueda y realizar una copia de seguridad con vistas personalizadas. También puede establecer una lógica empresarial personalizada basada en valores seleccionados en campos personalizados.  
 
-**Captura de datos en campos personalizados en la entrada de tiempo y gastos y propagación a través de entidades que admiten el flujo de envío y aprobación** : el procesamiento típico de las entradas de tiempo se muestra en el siguiente diagrama.
+**Captura de datos en campos personalizados en la entrada de tiempo y gastos y propagación a través de entidades que admiten el flujo de envío y aprobación**: el procesamiento típico de las entradas de tiempo se muestra en el siguiente diagrama.
 
 ![Flujo de entrada de procesamiento de tiempo](media/process-time-entries-10.png)
 
@@ -192,11 +192,11 @@ La plataforma Common Data Service no admite que un usuario se haga pasar por otr
 La personalización le permite agregar **Recurso que se puede reservar** a las experiencias de creación y edición, lo que permitirá que un usuario actúe como delegado al cambiar el campo **Reserva de recursos** a otro usuario para el que se deben registrar las entradas de tiempo y gastos. Los siguientes pasos tratan sobre la delegación de entrada de tiempo. Se aplica la misma información a la delegación de entrada de gastos. 
  
 1.  Asegúrese de que el usuario delegado tenga acceso de seguridad global en proyectos y tareas de proyecto. 
-1.  Puesto que **Recurso que se puede reservar** , que es un campo de la entidad **Entrada de tiempo** , no se expone en la página **Creación rápida** , tendrá que agregarlo.
+1.  Puesto que **Recurso que se puede reservar**, que es un campo de la entidad **Entrada de tiempo**, no se expone en la página **Creación rápida**, tendrá que agregarlo.
 
     O bien.
 
-    Cree una vista personalizada, que incluye la columna **Recurso que se puede reservar** , para ver solo las entradas de tiempo creadas para el recurso. Publique las personalizaciones en el diseñador del módulo de la aplicación para que esta vista aparezca en **Selector de vistas** en la página **Entradas de tiempo**. Existen dos complementos que gestionan la configuración del administrador para las entradas de tiempo que no son del proyecto:
+    Cree una vista personalizada, que incluye la columna **Recurso que se puede reservar**, para ver solo las entradas de tiempo creadas para el recurso. Publique las personalizaciones en el diseñador del módulo de la aplicación para que esta vista aparezca en **Selector de vistas** en la página **Entradas de tiempo**. Existen dos complementos que gestionan la configuración del administrador para las entradas de tiempo que no son del proyecto:
 
     - PreValidateTimeEntryCreate
     - PreValidateTimeEntryUpdate

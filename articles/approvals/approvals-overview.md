@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 14c6914cf9b5fb52e7554e51604e79f0920064df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085008"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123849"
 ---
 # <a name="approvals-overview"></a>Información general de aprobaciones
 
@@ -27,7 +27,7 @@ Cuando crea y envía una entrada de tiempo o gastos, se crea una entrada de apro
 ## <a name="approve-an-entry"></a>Aprobar una entrada
 El formulario **Aprobaciones** le permite cambiar entre diferentes vistas para que pueda ver los diferentes tipos de aprobaciones.
   
-1. Vaya al formulario **Aprobaciones** y seleccione **Gastos** , **Hora** o **Recordatorios**.
+1. Vaya al formulario **Aprobaciones** y seleccione **Gastos**, **Hora** o **Recordatorios**.
 2. Revise cada aprobación y seleccione las que desea aprobar.
 3. Seleccione **Aprobar** para aprobar las entradas seleccionadas.
 El sistema procesará estas entradas y creará datos reales o una reserva.
@@ -47,7 +47,7 @@ En algún punto, es posible que deba recuperar una entrada enviada. Si la entrad
 Cada proyecto tiene varios miembros del equipo del proyecto. Puede especificar qué miembros del equipo son también aprobadores de proyectos.
 
 1. Vaya al formulario **Proyectos** y abra el proyecto en la lista.
-2. En la pestaña **Equipo** , seleccione el miembro del equipo que será aprobador del proyecto y luego seleccione **Editar**.
+2. En la pestaña **Equipo**, seleccione el miembro del equipo que será aprobador del proyecto y luego seleccione **Editar**.
 3. Establezca el campo **Aprobador de proyecto** en **Sí**.
 4. Seleccione **Guardar**.
 5. Para agregar más aprobadores de proyectos, repita los pasos 2 a 4.
@@ -55,7 +55,7 @@ Cada proyecto tiene varios miembros del equipo del proyecto. Puede especificar q
 ## <a name="configure-the-users-manager"></a>Configurar el administrador de usuarios
 
 1. Vaya a **Configuración** > **Seguridad** > **Usuarios**.
-2. Seleccione el usuario al que le está asignando un administrador y en el área **Información de la organización** , seleccione el administrador de la lista. 
+2. Seleccione el usuario al que le está asignando un administrador y en el área **Información de la organización**, seleccione el administrador de la lista. 
 3. Seleccione **Guardar**.
 
 

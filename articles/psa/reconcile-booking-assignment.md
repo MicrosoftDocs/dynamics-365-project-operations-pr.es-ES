@@ -3,7 +3,7 @@ title: Conciliación de reservas y asignaciones
 description: En este tema se proporciona información sobre datos reales.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ca6f4bb69322db08c413e076860e2ee9fdcc412
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f5255b4aa2c6c8b7fa7320da2e10b2ed23a88fdd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085194"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120474"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Conciliación de reservas y asignaciones
 
@@ -35,21 +35,21 @@ Debido al emparejamiento flexible de las reservas de proyectos y las asignacione
 
 Para cada miembro del equipo nombrado, la pestaña **Conciliación** muestra las reservas y las asignaciones hasta la tarea individual. Muestra horas en celdas que pueden representar períodos de meses a días.
 
-En el campo **Escala temporal** , puede seleccionar **Mes** , **Semana** o **Día**. Se selecciona **Semana** por defecto. Sin embargo, puede cambiar el valor predeterminado seleccionando el botón **Configuración**. Cuando se abre la pestaña **Conciliación** , se muestra la fecha actual, pero puede usar el control de calendario para avanzar o retroceder en el tiempo. Cuando un proyecto tiene una fecha de inicio en el futuro, la pestaña muestra esa fecha cuando se abre. El control de calendario también tiene opciones que le permiten pasar a las fechas de inicio y finalización del proyecto.
+En el campo **Escala temporal**, puede seleccionar **Mes**, **Semana** o **Día**. Se selecciona **Semana** por defecto. Sin embargo, puede cambiar el valor predeterminado seleccionando el botón **Configuración**. Cuando se abre la pestaña **Conciliación**, se muestra la fecha actual, pero puede usar el control de calendario para avanzar o retroceder en el tiempo. Cuando un proyecto tiene una fecha de inicio en el futuro, la pestaña muestra esa fecha cuando se abre. El control de calendario también tiene opciones que le permiten pasar a las fechas de inicio y finalización del proyecto.
 
 Puede usar los controles de expansión en cada recurso para mostrar los detalles de las reservas de ese recurso. También puede expandir las asignaciones de cada recurso al nivel de la tarea individual.
 
 La parte inferior de la pestaña **Conciliación** muestra un total neto total para el proyecto, y la pestaña también incluye una columna de total. Para cada recurso, la pestaña selecciona la diferencia entre las reservas de un miembro del equipo en el proyecto y el resumen de las asignaciones de tareas de ese miembro del equipo. Idealmente, la diferencia debería ser 0 (cero). Es decir, no debería haber diferencia entre las reservas del recurso y sus asignaciones de tareas. Cualquier diferencia se indica con color y sombreado para indicar dos condiciones:
 
-- **Escasez de reservas** : la escasez de reservas se produce cuando un recurso tiene más asignaciones que reservas. Puesto que esta capacidad no se ha reservado, un jefe de proyecto puede corregir esa condición extendiendo las reservas del recurso para cubrir la escasez.
-- **Reservas en exceso** : las reservas en exceso se producen cuando se ha reservado un recurso para el proyecto, pero no se ha asignado a tareas. Esta condición podría ser aceptable si, por ejemplo, el recurso se ha reservado antes de que se produzca la a asignación de tareas. Sin embargo, en otros casos, el recurso podría no estar planificado para asignarse. En estos casos, el jefe de proyecto debería considerar cancelar las reservas del recurso de modo que la capacidad pueda utilizarse para otro proyecto.
+- **Escasez de reservas**: la escasez de reservas se produce cuando un recurso tiene más asignaciones que reservas. Puesto que esta capacidad no se ha reservado, un jefe de proyecto puede corregir esa condición extendiendo las reservas del recurso para cubrir la escasez.
+- **Reservas en exceso**: las reservas en exceso se producen cuando se ha reservado un recurso para el proyecto, pero no se ha asignado a tareas. Esta condición podría ser aceptable si, por ejemplo, el recurso se ha reservado antes de que se produzca la a asignación de tareas. Sin embargo, en otros casos, el recurso podría no estar planificado para asignarse. En estos casos, el jefe de proyecto debería considerar cancelar las reservas del recurso de modo que la capacidad pueda utilizarse para otro proyecto.
 
 > [!NOTE]
 > La leyenda de estas condiciones podría estar oculta para dejar más espacio para la cuadrícula. En este caso, puede hacer que la leyenda sea visible seleccionando el botón **Configuración**.
 
-En algunos casos, cuando el campo **Escala temporal** se establece en un nivel superior a **Día** , las diferencias pueden calcularse como 0 (cero). Por ejemplo, en el nivel **Mes** , la diferencia neta para un recurso podría ser 0 (cero) para indicar que las reservas equivalen a asignaciones. Sin embargo, si observa el nivel **Semana** , puede ver que hay asignaciones de 0 (cero) horas y reservas de 40 horas en la primera semana del mes, y asignaciones de 40 horas y reservas de 0 (cero) horas en la segunda semana del mes. Aunque el total de reservas y asignaciones para el mes son iguales, difieren por semana.
+En algunos casos, cuando el campo **Escala temporal** se establece en un nivel superior a **Día**, las diferencias pueden calcularse como 0 (cero). Por ejemplo, en el nivel **Mes**, la diferencia neta para un recurso podría ser 0 (cero) para indicar que las reservas equivalen a asignaciones. Sin embargo, si observa el nivel **Semana**, puede ver que hay asignaciones de 0 (cero) horas y reservas de 40 horas en la primera semana del mes, y asignaciones de 40 horas y reservas de 0 (cero) horas en la segunda semana del mes. Aunque el total de reservas y asignaciones para el mes son iguales, difieren por semana.
 
-Cuando vea niveles de tiempo más altos, la pestaña **Conciliación** mostrará un indicador de celda para notificarle que hay diferencias en los niveles de tiempo más bajos. Por ejemplo, en la siguiente ilustración, aparece un indicador de celda en la celda para el mes de octubre de 2018 para el recurso denominado Lidia Valladares. Por lo tanto, puede ver que, a pesar de que las reservas y asignaciones del recurso son iguales cuando se agregan a nivel de **Mes** , no coinciden en niveles inferiores.
+Cuando vea niveles de tiempo más altos, la pestaña **Conciliación** mostrará un indicador de celda para notificarle que hay diferencias en los niveles de tiempo más bajos. Por ejemplo, en la siguiente ilustración, aparece un indicador de celda en la celda para el mes de octubre de 2018 para el recurso denominado Lidia Valladares. Por lo tanto, puede ver que, a pesar de que las reservas y asignaciones del recurso son iguales cuando se agregan a nivel de **Mes**, no coinciden en niveles inferiores.
 
 ![Reservas y asignaciones no coincidentes a nivel mensual](media/reconcile-assignments-01.JPG)
 

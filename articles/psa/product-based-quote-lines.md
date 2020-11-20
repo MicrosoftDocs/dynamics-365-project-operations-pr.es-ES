@@ -3,7 +3,7 @@ title: Líneas de oferta basadas en producto
 description: En este tema se proporciona información sobre líneas de oferta basadas en productos.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55a5b5041a494892e6d96bf24e1bc132a26521dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9c3b2b35abe894e79d6f55a7ddd6e5c64d0f12f2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085328"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123236"
 ---
 # <a name="product-based-quote-lines"></a>Líneas de oferta basadas en producto
 
@@ -54,7 +54,7 @@ Si una línea de oferta se basa en un catálogo de productos, puede reemplazar e
 - Reemplazar precio  
 - Usar valor predeterminado
 
-Si establece este campo en **Reemplazar precio** , Dynamics 365 no establece un precio predeterminado. Debe escribir un precio para el producto en la línea de oferta. Si establece este campo en **Usar valor predeterminado** , Dynamics 365 usa el precio de venta predeterminado y bloquea el campo para evitar la edición.
+Si establece este campo en **Reemplazar precio**, Dynamics 365 no establece un precio predeterminado. Debe escribir un precio para el producto en la línea de oferta. Si establece este campo en **Usar valor predeterminado**, Dynamics 365 usa el precio de venta predeterminado y bloquea el campo para evitar la edición.
 
 Después de instalar PSA, los precios de venta predeterminados se introducen en las líneas basadas en productos en una oferta. El campo **Precios** se establece en **Reemplazar precio** para que pueda editar el precio predeterminado en las líneas de oferta.
 
@@ -72,8 +72,8 @@ PSA valida que solo las propiedades numéricas o las propiedades del producto qu
 
 Por ejemplo, Dynamics 365 podría tener las siguientes propiedades: 
 
-- **Número de usuarios** : el número de usuarios. 
-- **Número de meses** : el número de meses de suscripción.
+- **Número de usuarios**: el número de usuarios. 
+- **Número de meses**: el número de meses de suscripción.
 - **SKU de producto** 
 
 Las propiedades **Número de usuarios** y **Número de meses** se pueden marcar como factores de cantidad editando las propiedades de la línea de productos. 

@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 27f58f0dacc3404119a719547ad374629c740740
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 278b226c88c2f441262eb5be0504f34a1964848c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085086"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119844"
 ---
 # <a name="manage-time-zones"></a>Administrar zonas horarias
 
@@ -22,7 +22,7 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no mant
 
 ## <a name="projects"></a>Proyectos
 
-Cuando se crea un proyecto, su zona horaria se basa en la zona horaria definida en la plantilla de horas de trabajo aplicada. En el **Proyecto** , las fechas son siempre relativas a la zona horaria del usuario que está conectado en cada pestaña, excepto la pestaña **Tarea**. Cuando vea la estructura de descomposición del trabajo, las fechas siempre se mostrarán en la zona horaria del proyecto.
+Cuando se crea un proyecto, su zona horaria se basa en la zona horaria definida en la plantilla de horas de trabajo aplicada. En el **Proyecto**, las fechas son siempre relativas a la zona horaria del usuario que está conectado en cada pestaña, excepto la pestaña **Tarea**. Cuando vea la estructura de descomposición del trabajo, las fechas siempre se mostrarán en la zona horaria del proyecto.
 
 ## <a name="tasks"></a>Tareas
 
@@ -30,7 +30,7 @@ Cuando se crea una tarea, la hora de inicio, la hora de finalización y las hora
 
 ## <a name="manage-resources-with-time-zones"></a>Administrar recursos con zonas horarias
 
-Para obtener resultados precisos y predecibles al usar **Ampliar reserva** , hay dos requisitos previos clave que deben cumplirse:  
+Para obtener resultados precisos y predecibles al usar **Ampliar reserva**, hay dos requisitos previos clave que deben cumplirse:  
 
 - El usuario debe configurar la zona horaria de su dispositivo para que coincida con la zona horaria definida en la **Configuración de personalización** del sistema.
  
@@ -57,7 +57,7 @@ En la tabla siguiente se muestra:
 |Recurso C  |  ![Calendario de recurso C](media/reconcile-assignments-08.png) |
 |Recurso D  | ![Calendario de recurso D](media/reconcile-assignments-09.png)  |
  
-Cuando navega a la vista **Conciliación** , se muestran las asignaciones de recursos y la escasez de reservas asociada.
+Cuando navega a la vista **Conciliación**, se muestran las asignaciones de recursos y la escasez de reservas asociada.
 
 ![Vista de conciliación antes de la extensión](media/reconcile-assignments-10.png)
 

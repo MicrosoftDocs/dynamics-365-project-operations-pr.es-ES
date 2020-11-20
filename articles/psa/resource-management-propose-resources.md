@@ -3,7 +3,7 @@ title: Propuesta de recursos de proyecto
 description: En este tema se proporciona información sobre proponer recursos de proyecto.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,25 +18,25 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18d7dcd95806841c952ea621ec65b513ef614958
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1fcb8d1d40286cf5cbb23338f93b072ae5bed70d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085367"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120204"
 ---
 # <a name="propose-project-resources"></a>Propuesta de recursos de proyecto
 
 Los administradores de recursos pueden proponer un recurso al administrador del proyecto mediante una solicitud de recurso.
 
 1. Desde la cuadrícula de solicitud o la propia solicitud, seleccione **Buscar recursos**.
-2. En la página **Asistente de programación** , seleccione el recurso y, a continuación, en el panel **Crear reserva de recursos** , en el campo **Estado de reserva** , seleccione **Reservar**.
+2. En la página **Asistente de programación**, seleccione el recurso y, a continuación, en el panel **Crear reserva de recursos**, en el campo **Estado de reserva**, seleccione **Reservar**.
 
     ![Recurso propuesto seleccionado](media/Resource-Management-image62.png)
 
 Se producen las siguientes actualizaciones de estado:
 
-- En la página **Asistente de programación** , los indicadores de estado se actualizan para indicar que la reserva se propone, no se reserva manualmente.
+- En la página **Asistente de programación**, los indicadores de estado se actualizan para indicar que la reserva se propone, no se reserva manualmente.
 
     ![Indicadores de estado de la reserva propuesta en la página Asistente de programación](media/Resource-Management-image63.png)
 
@@ -82,7 +82,7 @@ Puesto que la vista **Uso de recursos** se basa en el tablero de programación, 
 
 La cuadrícula requiere que establezca un uso objetivo en el rol o en el recurso individual. Para realizar esta configuración, vaya a **Recursos** \> **Roles de recursos**.
 
-Además, se debe asignar un rol predeterminado a cada recurso que se puede reservar. Vaya a **Recursos** \> **Recursos**. En la pestaña **Project Service** , verifique que se haya definido un rol de recurso y que el campo **Es predeterminado** esté establecido en **Sí**. Puede agregar roles adicionales en los que **Es predeterminado = No**. El rol en el que **Es predeterminado = Sí** se usa para evaluar el uso del recurso en relación el objetivo para ese rol.
+Además, se debe asignar un rol predeterminado a cada recurso que se puede reservar. Vaya a **Recursos** \> **Recursos**. En la pestaña **Project Service**, verifique que se haya definido un rol de recurso y que el campo **Es predeterminado** esté establecido en **Sí**. Puede agregar roles adicionales en los que **Es predeterminado = No**. El rol en el que **Es predeterminado = Sí** se usa para evaluar el uso del recurso en relación el objetivo para ese rol.
 
 ![Rol predeterminado establecido](media/Resource-Management-image67.png)
 

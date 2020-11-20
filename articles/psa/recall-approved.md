@@ -3,7 +3,7 @@ title: Recuperación de las entradas de tiempo o gastos aprobados
 description: En este tema se proporciona información sobre cómo recuperar una transacción de tiempo o gasto aprobada previamente.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bacd70881a6c463cc449a365173da5338a3d3fc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 102da39d5940874a8e1f4220437ecdf386a7187b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085195"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120564"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Recuperación de las entradas de tiempo o gastos aprobados
 
@@ -60,13 +60,13 @@ Siga estos pasos para solicitar una recuperación de un tiempo aprobado o entrad
 Siga estos pasos para aprobar o rechazar una solicitud de recuperación.
 
 1. Vaya a **Proyectos** \> **Mi trabajo** \> **Aprobaciones**.
-2. En la página de lista **Aprobaciones** , cambie la vista a **Solicitudes de recuperación pendientes de aprobación**. Se mostrará una lista de solicitudes de recuperación enviadas.
+2. En la página de lista **Aprobaciones**, cambie la vista a **Solicitudes de recuperación pendientes de aprobación**. Se mostrará una lista de solicitudes de recuperación enviadas.
 3. Seleccione una o más entradas y, a continuación, seleccione **Aprobar** o **Rechazar**.
-4. Si seleccionó **Aprobar** , recibirá un mensaje de advertencia en el que se explicará el impacto de la aprobación. Seleccione **Aceptar** para confirmar la operación. Se aprobará la solicitud de recuperación.
+4. Si seleccionó **Aprobar**, recibirá un mensaje de advertencia en el que se explicará el impacto de la aprobación. Seleccione **Aceptar** para confirmar la operación. Se aprobará la solicitud de recuperación.
 
     –o bien–
 
-    Si seleccionó **Rechazar** , se rechazará la solicitud de recuperación.
+    Si seleccionó **Rechazar**, se rechazará la solicitud de recuperación.
 
 > [!NOTE]
 > Como cuando se solicita una recuperación, cuando se aprueba una recuperación, el sistema verifica cualquier actividad de facturación en las entradas de tiempo o gastos. Si ya se ha facturado una entrada, o si está en un borrador de factura, el aprobador recibirá un mensaje de error que indicará que no se puede aprobar la recuperación del tiempo o el gasto, porque ya se ha facturado.
@@ -90,7 +90,7 @@ Si se aprueba una solicitud de recuperación, los datos reales correspondientes 
 - El campo **Estado del ajuste** se actualiza a **Ajustado**.
 - El campo **Estado de facturación** se actualiza a **Cancelado**.
 
-A continuación, se crean movimientos de retrocesión en la tabla Datos reales. Para crear entradas de retrocesión, el sistema copia los valores de campo desde los datos reales originales. Los únicos valores que no se copian son los valores de cantidad. En su lugar, estos valores se revierten. A continuación, se crean datos reales revertidos para los datos reales **Coste** y **Ventas sin facturar**. El campo **Estado del ajuste** en los datos reales invertidos se establece en **No ajustable** , y el campo **Estado de facturación** se establece en **Cancelado**. Debido a estos cambios, el gasto registrado y la acumulación de ingresos en el proyecto ya no representarán los importes que representan esos datos reales.
+A continuación, se crean movimientos de retrocesión en la tabla Datos reales. Para crear entradas de retrocesión, el sistema copia los valores de campo desde los datos reales originales. Los únicos valores que no se copian son los valores de cantidad. En su lugar, estos valores se revierten. A continuación, se crean datos reales revertidos para los datos reales **Coste** y **Ventas sin facturar**. El campo **Estado del ajuste** en los datos reales invertidos se establece en **No ajustable**, y el campo **Estado de facturación** se establece en **Cancelado**. Debido a estos cambios, el gasto registrado y la acumulación de ingresos en el proyecto ya no representarán los importes que representan esos datos reales.
 
 Si se rechaza una solicitud de recuperación, no habrá impacto financiero en el proyecto.
 

@@ -3,7 +3,7 @@ title: Revisión del trabajo pendiente de facturación en proyectos y contratos 
 description: En este tema se proporciona información sobre cómo revisar los trabajos pendientes en los productos, los gastos y el tiempo, y cómo marcarlos como listos para la facturación.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eb6d942d61bf8b5d20afb75c88716132a596bcbd
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bcdcc0cae06ce61bd582d56a8398e718051ff564
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085357"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123984"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Revisión del trabajo pendiente de facturación en proyectos y contratos de proyecto
 

@@ -2,7 +2,7 @@
 title: Consideraciones de actualización para la estructura de descomposición del trabajo
 description: En este tema se proporciona información sobre cómo actualizar la estructura de descomposición del trabajo de Project Service Automation 2.x a 3.x.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 169dc24f0d1ae151ea5927123fb738221de88250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b75fd372732f42a3557aaa5eccec1f24a644941
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085230"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121824"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Consideraciones de actualización para la estructura de descomposición del trabajo
 En este tema se proporciona información sobre cómo actualizar la estructura de descomposición del trabajo de Project Service Automation 2.x a 3.x. Este tema define el estado correcto de un proyecto en Project Service Automation (PSA) necesario para realizar una actualización correcta. También incluye información sobre las condiciones de bloqueo comunes que harán que se produzca un error en la actualización. Para obtener más información sobre cómo definir las tareas del proyecto y sus funciones dentro de una programación del proyecto, consulte [Programaciones del proyecto](project-creating.md).

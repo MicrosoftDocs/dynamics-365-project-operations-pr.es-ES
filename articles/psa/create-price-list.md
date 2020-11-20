@@ -3,7 +3,7 @@ title: Crear una lista de precios
 description: Cómo crear una lista de precios en Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf75286fd1837e27a9b6053ccb21b60771ee197d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 08d93ad86d782922df6b22370749628ddbdc0718
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085184"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122049"
 ---
 # <a name="create-a-price-list-project-service"></a>Crear una lista de precios (Project Service)
 
@@ -39,33 +39,33 @@ Las listas de precios se basan en roles y categorías de gastos, por lo que ante
   
 2.  Haga clic en **Nuevo**.  
   
-3.  En **Contexto** , seleccione si esta lista de precios es para **Coste** , **Compra** o **Ventas**.  
+3.  En **Contexto**, seleccione si esta lista de precios es para **Coste**, **Compra** o **Ventas**.  
   
-4.  En **Nombre** , escriba un nombre para la lista de precios.  
+4.  En **Nombre**, escriba un nombre para la lista de precios.  
   
-5.  En **Divisa** , seleccione la divisa que va a usar para facturar o contabilizar como coste.  
+5.  En **Divisa**, seleccione la divisa que va a usar para facturar o contabilizar como coste.  
   
-6.  En **Unidad de tiempo** , especifique el período de tiempo al que se aplica el precio, como día u hora.  
+6.  En **Unidad de tiempo**, especifique el período de tiempo al que se aplica el precio, como día u hora.  
   
-7.  Rellene **Fecha de inicio** , **Fecha de finalización** y **Descripción** según sea necesario.  
+7.  Rellene **Fecha de inicio**, **Fecha de finalización** y **Descripción** según sea necesario.  
   
 8.  Haga clic en **Guardar** para crear el registro para que pueda seguir editándolo.  
   
 9. Para agregar un rol de precio a la lista de precios, haga clic en **+** en **Rol de precios**.  
   
-10. En el panel **Precio de rol** , complete los detalles y, a continuación haga clic en **Guardar**. Siga agregando precios de rol si es necesario. Cuando termine, haga clic en **Guardar** en la esquina inferior derecha de la pantalla.  
+10. En el panel **Precio de rol**, complete los detalles y, a continuación haga clic en **Guardar**. Siga agregando precios de rol si es necesario. Cuando termine, haga clic en **Guardar** en la esquina inferior derecha de la pantalla.  
   
 11. Para agregar un precio de categoría de gasto a la lista de precios, haga clic en **+** en **Precios de categorías**.  
   
-12. En el panel **Precio de categoría de transacciones** , complete los detalles y, a continuación haga clic en **Guardar**. Siga agregando precios de categorías si es necesario. Cuando termine, haga clic en **Guardar** en la esquina inferior derecha de la pantalla.  
+12. En el panel **Precio de categoría de transacciones**, complete los detalles y, a continuación haga clic en **Guardar**. Siga agregando precios de categorías si es necesario. Cuando termine, haga clic en **Guardar** en la esquina inferior derecha de la pantalla.  
   
 13. Para agregar elementos de lista de precios a la lista de precios, haga clic en **+** en **Elementos de lista de precios**.  
   
-14. En el panel **Elemento de lista de precios** , complete los detalles y, a continuación haga clic en **Guardar**. Siga agregando elementos de lista de precios si es necesario. Cuando termine, haga clic en **Guardar** en la esquina inferior derecha de la pantalla.  
+14. En el panel **Elemento de lista de precios**, complete los detalles y, a continuación haga clic en **Guardar**. Siga agregando elementos de lista de precios si es necesario. Cuando termine, haga clic en **Guardar** en la esquina inferior derecha de la pantalla.  
   
 15. Para agregar relaciones de zona a la lista de precios, haga clic en **+** en **Relaciones de zonas**.  
   
-16. En la ventana **Nueva conexión** , complete los detalles y, a continuación haga clic en **Guardar**. Seguir agregando relaciones de zonas de ventas si es necesario. Cuando termine, haga clic en **Guardar** en la esquina inferior derecha de la pantalla.  
+16. En la ventana **Nueva conexión**, complete los detalles y, a continuación haga clic en **Guardar**. Seguir agregando relaciones de zonas de ventas si es necesario. Cuando termine, haga clic en **Guardar** en la esquina inferior derecha de la pantalla.  
   
 ### <a name="see-also"></a>Vea también  
  [Configurar Project Service Automation](../psa/configure.md)

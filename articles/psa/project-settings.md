@@ -3,7 +3,7 @@ title: Configuración del proyecto
 description: En este tema se proporciona información sobre la configuración de administración del proyecto.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c9b8659f3b7ee81d2e21ef52743debd521fa9bb9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b2cda6bfd7f152ee948cf49fab91aed475968a09
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085311"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123129"
 ---
 # <a name="project-settings"></a>Configuración del proyecto
 
@@ -36,7 +36,7 @@ Use la siguiente configuración para obtener acceso a las características de pl
 Para crear una programación de proyecto, cree una plantilla de calendario de proyecto que defina la cantidad de horas de trabajo por día y los cierres de negocios. Para crear una plantilla de calendario de proyecto, asocie una plantilla de trabajo con el campo **Plantilla de calendario** para el proyecto. Siga estos pasos para crear una plantilla de trabajo.
 
 1. En PSA, en el panel de navegación izquierdo, haga clic en **Recursos**. 
-2. En la página de la lista **Recursos** , abra un registro de usuario y, a continuación, seleccione **Mostrar horas laborables**.
+2. En la página de la lista **Recursos**, abra un registro de usuario y, a continuación, seleccione **Mostrar horas laborables**.
 
   > [!NOTE]
   > Asegúrese de permitir ventanas emergentes en la página del explorador. Esto le permitirá ver las horas de trabajo establecidas para el recurso.
@@ -53,7 +53,7 @@ Para crear una programación de proyecto, cree una plantilla de calendario de pr
 5. Establezca el rango de fechas, seleccione **Guardar** y, a continuación, haga clic en **Cerrar**. 
 6. Vuelva a la página de lista **Recursos** y seleccione el recurso para el que estableció las horas de trabajo. 
 7. Seleccione **Establecer calendario como** para establecer la plantilla de trabajo. 
-8. En el cuadro de diálogo **Plantilla de trabajo** , introduzca un nombre para la plantilla de trabajo y, a continuación, seleccione **Aplicar**. 
+8. En el cuadro de diálogo **Plantilla de trabajo**, introduzca un nombre para la plantilla de trabajo y, a continuación, seleccione **Aplicar**. 
 
 Ahora puede asociar la plantilla de trabajo con una plantilla de calendario de proyecto.
 
@@ -65,4 +65,4 @@ Cada organización debe configurar estos roles en la página **Categorías de re
 
 ## <a name="price-lists"></a>Listas de precios
 
-Las listas de precios le permiten establecer costes y precios de venta para roles de recursos, categorías de gastos, productos y otros elementos en una organización. Antes de establecer estimaciones financieras para el trabajo que deben realizarse para un proyecto, debe crear un coste de apoyo y una lista de precios de venta. En la sección de parámetros, también debe configurar una lista predeterminada de costes y precios de venta que se aplique a todos los proyectos que se crean en la organización. En la página **Parámetros de proyecto activos** , asegúrese de configurar una lista predeterminada de costes y precios de venta.
+Las listas de precios le permiten establecer costes y precios de venta para roles de recursos, categorías de gastos, productos y otros elementos en una organización. Antes de establecer estimaciones financieras para el trabajo que deben realizarse para un proyecto, debe crear un coste de apoyo y una lista de precios de venta. En la sección de parámetros, también debe configurar una lista predeterminada de costes y precios de venta que se aplique a todos los proyectos que se crean en la organización. En la página **Parámetros de proyecto activos**, asegúrese de configurar una lista predeterminada de costes y precios de venta.

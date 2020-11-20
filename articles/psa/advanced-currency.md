@@ -3,7 +3,7 @@ title: Escenarios de varias divisas (versión 3.x)
 description: En este tema se proporciona información sobre escenarios de varias divisas.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7be029eeca3129d30f4bec1bf9b180a0a5122a86
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 61ca37db59b7d25478434c2376e3a987afd4972d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085258"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123399"
 ---
 # <a name="multiple-currency-scenarios"></a>Escenarios de varias divisas
 
@@ -31,8 +31,8 @@ ms.locfileid: "4085258"
 
 Microsoft Dynamics 365 tiene dos conceptos de divisas:
 
-- **Divisa de la transacción** : se trata de la divisa en la que se produce una transacción. 
-- **Divisa base** : divisa de la instancia de Microsoft Dynamics 365. Esta divisa se configura cuando se aprovisiona una instancia de Microsoft Dynamics 365. No se puede cambiar.
+- **Divisa de la transacción**: se trata de la divisa en la que se produce una transacción. 
+- **Divisa base**: divisa de la instancia de Microsoft Dynamics 365. Esta divisa se configura cuando se aprovisiona una instancia de Microsoft Dynamics 365. No se puede cambiar.
 
 Por ejemplo, Contoso Estados Unidos vendió 100 camisetas a un cliente del Reino Unido a 15 libras esterlinas (GBP) la unidad. La siguiente tabla muestra cómo se registra esta transacción en la entidad Producto del pedido.
 
@@ -56,7 +56,7 @@ A continuación se describen las entidades que se consideran transacciones comer
 - Detalle de línea de factura
 - Real
 
-En cada una de estas entidades existe un registro que representa el importe del coste o el importe de las ventas. Al igual que ocurre para cualquier entidad de Dynamics 365 que tenga un campo **Importe** , cada registro incluye importes tanto en la divisa de la transacción y la divisa base. 
+En cada una de estas entidades existe un registro que representa el importe del coste o el importe de las ventas. Al igual que ocurre para cualquier entidad de Dynamics 365 que tenga un campo **Importe**, cada registro incluye importes tanto en la divisa de la transacción y la divisa base. 
 
 PSA amplía el concepto de divisa de la transacción para el coste y las ventas de las maneras siguientes:
 

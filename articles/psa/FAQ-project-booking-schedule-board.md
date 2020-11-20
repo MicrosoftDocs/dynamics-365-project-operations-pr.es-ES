@@ -3,7 +3,7 @@ title: Crear una reserva de proyecto desde el tablero Programación
 description: En este tema se proporciona información sobre cómo crear una reserva de proyecto desde el tablero Programación.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57fbc71681015fca73cdda4bc7d392f6be4289f3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ccbfedec82b2d9035b51cf1b283ae5c441f1cbcc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085165"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122319"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Crear una reserva de proyecto desde el tablero Programación
 
@@ -31,7 +31,7 @@ Puede reservar un recurso para un proyecto directamente desde la pestaña **Equi
 
 También puede reservar un recurso para un proyecto directamente desde el tablero Programación. Esto se puede hacer de tres maneras:
 
-- **Reservar a partir de un requisito de recurso generado** : puede generar un requisito de recursos tras crear un recurso genérico y asignar tareas en un proyecto.
+- **Reservar a partir de un requisito de recurso generado**: puede generar un requisito de recursos tras crear un recurso genérico y asignar tareas en un proyecto.
 
 - **Reservar desde el requisito principal:** los requisitos principales aparecen en el tablero Programación en la pestaña **Proyecto**. 
 
@@ -81,7 +81,7 @@ Complete los pasos siguientes para reservar desde un requisito de nuevo recurso.
 
 1. Vaya a **Requisitos de recursos** y después seleccione **Nuevo** para crear un nuevo requisito de recursos.
 
-2. En la pestaña **Proyecto** , seleccione un proyecto para asociar el requisito al proyecto.
+2. En la pestaña **Proyecto**, seleccione un proyecto para asociar el requisito al proyecto.
  
     En el tablero Programación, este nuevo requisito se muestra como un **Requisito abierto** que se puede rellenar.
 

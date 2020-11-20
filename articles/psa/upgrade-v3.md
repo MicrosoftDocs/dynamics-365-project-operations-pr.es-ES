@@ -2,7 +2,7 @@
 title: 'Consideraciones de actualización: De la versión 2.x o 1.x a la versión 3.x de Microsoft Dynamics 365 Project Service Automation'
 description: En este tema se proporciona información sobre las consideraciones que debe tomar cuando actualiza de la versión 2.xo 1.x a la versión 3 de Project Service Automation.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19d6d312c7cedd2d7b9b5649452b85dd24fae761
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085228"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121734"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Consideraciones de actualización: De la versión 2.x o 1.x a la versión 3.x
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -56,7 +56,7 @@ Cuando actualiza a la versión 3, las tareas de línea se reemplazan por asignac
 
 ![Asignaciones de recursos](media/resource-assignment-v2-05.png)
 
-Debido a que las estimaciones se basan en el rol predeterminado del recurso, las estimaciones de ventas y costes pueden cambiar. Tenga en cuenta que en el siguiente gráfico, ya no verá el rol **Desarrollador** , ya que el rol ahora se toma del rol predeterminado del recurso que se puede reservar.
+Debido a que las estimaciones se basan en el rol predeterminado del recurso, las estimaciones de ventas y costes pueden cambiar. Tenga en cuenta que en el siguiente gráfico, ya no verá el rol **Desarrollador**, ya que el rol ahora se toma del rol predeterminado del recurso que se puede reservar.
 
 ![Estimaciones de costes para roles predeterminados.](media/resource-assignment-cost-estimate-06.png)
 ![Estimación de ventas para roles predeterminados](media/resource-assignment-sales-estimate-07.png)
@@ -77,7 +77,7 @@ En la versión 2 y 1, los proyectos con recursos genéricos pueden estar en dos 
 
 Antes de comenzar con la actualización, le recomendamos que vuelva a generar el equipo para cada proyecto que tenga tareas asignadas a recursos genéricos o que no haya ejecutado aún el proceso de generación de equipo en ellos.
 
-Para las tareas asignadas a los miembros genéricos del equipo que se generaron con **Generar equipo** , la actualización dejará el recurso genérico en el equipo y la asignación a ese miembro genérico del equipo. Le recomendamos que genere los requisitos de recursos para el miembro del equipo genérico después de la actualización, pero antes de reservar o enviar una solicitud de recursos. Esto conservará cualquier asignación de unidad organizativa en los miembros genéricos del equipo que sea diferente de la unidad organizativa contratante del proyecto.
+Para las tareas asignadas a los miembros genéricos del equipo que se generaron con **Generar equipo**, la actualización dejará el recurso genérico en el equipo y la asignación a ese miembro genérico del equipo. Le recomendamos que genere los requisitos de recursos para el miembro del equipo genérico después de la actualización, pero antes de reservar o enviar una solicitud de recursos. Esto conservará cualquier asignación de unidad organizativa en los miembros genéricos del equipo que sea diferente de la unidad organizativa contratante del proyecto.
 
 Por ejemplo, en el proyecto Project Z, la unidad organizativa contratante es Contoso Estados Unidos. En el plan del proyecto, a las tareas de prueba dentro de la fase de Implementación se les ha asignado el rol de Consultor técnico y la unidad organizativa asignada es Contoso India.
 
