@@ -3,7 +3,7 @@ title: Ver y enviar facturas
 description: Cómo ver y enviar facturas en Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,41 +18,41 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8eaef971d1fd419b7a21f0934d6a7f5f92aa35e2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 27994c4a14b25d769a0919514906a7be1804dae2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085220"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125784"
 ---
-# <a name="view-and-send-invoices-project-service"></a><span data-ttu-id="2048b-103">Ver y enviar facturas (Project Service)</span><span class="sxs-lookup"><span data-stu-id="2048b-103">View and send invoices (Project Service)</span></span>
+# <a name="view-and-send-invoices-project-service"></a><span data-ttu-id="113ae-103">Ver y enviar facturas (Project Service)</span><span class="sxs-lookup"><span data-stu-id="113ae-103">View and send invoices (Project Service)</span></span>
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="2048b-104">Cuando cree un proyecto, establece la frecuencia para generar facturas.</span><span class="sxs-lookup"><span data-stu-id="2048b-104">When you create a project, you set the frequency to generate invoices.</span></span> <span data-ttu-id="2048b-105">Puede ver y revisar las facturas antes de enviarlas a los clientes.</span><span class="sxs-lookup"><span data-stu-id="2048b-105">You can view and review invoices before you send them to your customers.</span></span>  
+<span data-ttu-id="113ae-104">Cuando cree un proyecto, establece la frecuencia para generar facturas.</span><span class="sxs-lookup"><span data-stu-id="113ae-104">When you create a project, you set the frequency to generate invoices.</span></span> <span data-ttu-id="113ae-105">Puede ver y revisar las facturas antes de enviarlas a los clientes.</span><span class="sxs-lookup"><span data-stu-id="113ae-105">You can view and review invoices before you send them to your customers.</span></span>  
   
-1.  <span data-ttu-id="2048b-106">Vaya a **Project Service > Facturas**.</span><span class="sxs-lookup"><span data-stu-id="2048b-106">Go to **Project Service > Invoices**.</span></span>  
+1.  <span data-ttu-id="113ae-106">Vaya a **Project Service > Facturas**.</span><span class="sxs-lookup"><span data-stu-id="113ae-106">Go to **Project Service > Invoices**.</span></span>  
   
-2.  <span data-ttu-id="2048b-107">Haga clic en la factura que desee revisar.</span><span class="sxs-lookup"><span data-stu-id="2048b-107">Click the invoice you want to review.</span></span>  
+2.  <span data-ttu-id="113ae-107">Haga clic en la factura que desee revisar.</span><span class="sxs-lookup"><span data-stu-id="113ae-107">Click the invoice you want to review.</span></span>  
   
-3.  <span data-ttu-id="2048b-108">Realice los cambios necesarios.</span><span class="sxs-lookup"><span data-stu-id="2048b-108">Make any changes as necessary.</span></span> <span data-ttu-id="2048b-109">Cuando haya terminado de realizar cambios, haga clic en **Recalcular**.</span><span class="sxs-lookup"><span data-stu-id="2048b-109">When you’re done making changes, click **Recalculate**.</span></span>  
+3.  <span data-ttu-id="113ae-108">Realice los cambios necesarios.</span><span class="sxs-lookup"><span data-stu-id="113ae-108">Make any changes as necessary.</span></span> <span data-ttu-id="113ae-109">Cuando haya terminado de realizar cambios, haga clic en **Recalcular**.</span><span class="sxs-lookup"><span data-stu-id="113ae-109">When you’re done making changes, click **Recalculate**.</span></span>  
   
-4.  <span data-ttu-id="2048b-110">Cuando esté listo para enviar una factura, haga clic en **Enviar al cliente**.</span><span class="sxs-lookup"><span data-stu-id="2048b-110">When you’re ready to send the invoice, click **Send to Customer**.</span></span>  
+4.  <span data-ttu-id="113ae-110">Cuando esté listo para enviar una factura, haga clic en **Enviar al cliente**.</span><span class="sxs-lookup"><span data-stu-id="113ae-110">When you’re ready to send the invoice, click **Send to Customer**.</span></span>  
   
-5.  <span data-ttu-id="2048b-111">Una vez que el cliente haya pagado la factura, haga clic en **Marcar factura como pagada**.</span><span class="sxs-lookup"><span data-stu-id="2048b-111">Once the customer has paid the invoice, click **Mark Invoice as Paid**.</span></span>  
+5.  <span data-ttu-id="113ae-111">Una vez que el cliente haya pagado la factura, haga clic en **Marcar factura como pagada**.</span><span class="sxs-lookup"><span data-stu-id="113ae-111">Once the customer has paid the invoice, click **Mark Invoice as Paid**.</span></span>  
   
-## <a name="manually-invoice-a-contract"></a><span data-ttu-id="2048b-112">Facturar un contrato manualmente</span><span class="sxs-lookup"><span data-stu-id="2048b-112">Manually invoice a contract</span></span>  
- <span data-ttu-id="2048b-113">Puede facturar manualmente un proyecto en lugar de facturarlo automáticamente.</span><span class="sxs-lookup"><span data-stu-id="2048b-113">You can manually invoice a project instead of invoicing it automatically.</span></span>  
+## <a name="manually-invoice-a-contract"></a><span data-ttu-id="113ae-112">Facturar un contrato manualmente</span><span class="sxs-lookup"><span data-stu-id="113ae-112">Manually invoice a contract</span></span>  
+ <span data-ttu-id="113ae-113">Puede facturar manualmente un proyecto en lugar de facturarlo automáticamente.</span><span class="sxs-lookup"><span data-stu-id="113ae-113">You can manually invoice a project instead of invoicing it automatically.</span></span>  
   
-1.  <span data-ttu-id="2048b-114">Vaya a **Project Service > Proyectos**.</span><span class="sxs-lookup"><span data-stu-id="2048b-114">Go to **Project Service > Projects**.</span></span>  
+1.  <span data-ttu-id="113ae-114">Vaya a **Project Service > Proyectos**.</span><span class="sxs-lookup"><span data-stu-id="113ae-114">Go to **Project Service > Projects**.</span></span>  
   
-2.  <span data-ttu-id="2048b-115">Haga clic en el proyecto que desea facturar.</span><span class="sxs-lookup"><span data-stu-id="2048b-115">Click the project you want to invoice.</span></span>  
+2.  <span data-ttu-id="113ae-115">Haga clic en el proyecto que desea facturar.</span><span class="sxs-lookup"><span data-stu-id="113ae-115">Click the project you want to invoice.</span></span>  
   
-3.  <span data-ttu-id="2048b-116">Haga clic en **Ventas** y luego haga clic en **Factura**.</span><span class="sxs-lookup"><span data-stu-id="2048b-116">Click **Sales** and then click **Invoice**.</span></span>  
+3.  <span data-ttu-id="113ae-116">Haga clic en **Ventas** y luego haga clic en **Factura**.</span><span class="sxs-lookup"><span data-stu-id="113ae-116">Click **Sales** and then click **Invoice**.</span></span>  
   
-4.  <span data-ttu-id="2048b-117">Seleccione los parámetros de las transacciones que desee facturar, incluidos fecha límite, el tipo de elemento a facturar, unidad e hito.</span><span class="sxs-lookup"><span data-stu-id="2048b-117">Select the parameters for the transactions you want to invoice, including cutoff date, type of item to invoice, unit, and milestone.</span></span> <span data-ttu-id="2048b-118">Cuando haya terminado de seleccionar los parámetros, haga clic en **Siguiente**.</span><span class="sxs-lookup"><span data-stu-id="2048b-118">When you’re done selecting the parameters, click **Next**.</span></span>  
+4.  <span data-ttu-id="113ae-117">Seleccione los parámetros de las transacciones que desee facturar, incluidos fecha límite, el tipo de elemento a facturar, unidad e hito.</span><span class="sxs-lookup"><span data-stu-id="113ae-117">Select the parameters for the transactions you want to invoice, including cutoff date, type of item to invoice, unit, and milestone.</span></span> <span data-ttu-id="113ae-118">Cuando haya terminado de seleccionar los parámetros, haga clic en **Siguiente**.</span><span class="sxs-lookup"><span data-stu-id="113ae-118">When you’re done selecting the parameters, click **Next**.</span></span>  
   
-5.  <span data-ttu-id="2048b-119">Haga clic en **Finalizar**.</span><span class="sxs-lookup"><span data-stu-id="2048b-119">Click **Finish**.</span></span>  
+5.  <span data-ttu-id="113ae-119">Haga clic en **Finalizar**.</span><span class="sxs-lookup"><span data-stu-id="113ae-119">Click **Finish**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="2048b-120">Vea también</span><span class="sxs-lookup"><span data-stu-id="2048b-120">See Also</span></span>  
- [<span data-ttu-id="2048b-121">Guía del jefe de proyecto</span><span class="sxs-lookup"><span data-stu-id="2048b-121">Project Manager Guide</span></span>](../psa/project-manager-guide.md)
+### <a name="see-also"></a><span data-ttu-id="113ae-120">Vea también</span><span class="sxs-lookup"><span data-stu-id="113ae-120">See Also</span></span>  
+ [<span data-ttu-id="113ae-121">Guía del jefe de proyecto</span><span class="sxs-lookup"><span data-stu-id="113ae-121">Project Manager Guide</span></span>](../psa/project-manager-guide.md)

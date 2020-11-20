@@ -3,7 +3,7 @@ title: ¿Qué es Dynamics 365 Project Service Automation?
 description: Introducción y visión general de Project Service
 author: stsporen
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/23/2019
@@ -18,69 +18,69 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a9e2a09177e944bd8dcb9dafdfed51d6613534d5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 19599fe13964aea2c25bc1774063c13cf79703d0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085332"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128034"
 ---
-# <a name="what-is-dynamics-365-project-service-automation"></a><span data-ttu-id="1c6de-103">¿Qué es Dynamics 365 Project Service Automation?</span><span class="sxs-lookup"><span data-stu-id="1c6de-103">What is Dynamics 365 Project Service Automation?</span></span>
+# <a name="what-is-dynamics-365-project-service-automation"></a><span data-ttu-id="508d7-103">¿Qué es Dynamics 365 Project Service Automation?</span><span class="sxs-lookup"><span data-stu-id="508d7-103">What is Dynamics 365 Project Service Automation?</span></span>
 
 [!INCLUDE[cc-applies-to-psa-apps-all](../includes/cc-applies-to-psa-apps-all.md)]
 
-<span data-ttu-id="1c6de-104">La aplicación Project Service Automation (PSA) ayuda a las organizaciones eficazmente en el seguimiento, administración, y entrega de proyecto de servicios, desde venta inicial hasta la facturación final.</span><span class="sxs-lookup"><span data-stu-id="1c6de-104">The Project Service Automation (PSA) application helps organizations efficiently track, manage, and deliver project-based services, from the initial sale all the way to invoicing.</span></span> <span data-ttu-id="1c6de-105">La aplicación le permite:</span><span class="sxs-lookup"><span data-stu-id="1c6de-105">The app enables you to:</span></span>
+<span data-ttu-id="508d7-104">La aplicación Project Service Automation (PSA) ayuda a las organizaciones eficazmente en el seguimiento, administración, y entrega de proyecto de servicios, desde venta inicial hasta la facturación final.</span><span class="sxs-lookup"><span data-stu-id="508d7-104">The Project Service Automation (PSA) application helps organizations efficiently track, manage, and deliver project-based services, from the initial sale all the way to invoicing.</span></span> <span data-ttu-id="508d7-105">La aplicación le permite:</span><span class="sxs-lookup"><span data-stu-id="508d7-105">The app enables you to:</span></span>
 
-- <span data-ttu-id="1c6de-106">Planear proyectos, y crear estimaciones y programaciones de trabajo</span><span class="sxs-lookup"><span data-stu-id="1c6de-106">Plan projects, and create estimates and work schedules</span></span>
-- <span data-ttu-id="1c6de-107">Estimar y hacer seguimiento de los costes e ingresos del proyecto</span><span class="sxs-lookup"><span data-stu-id="1c6de-107">Estimate and track project cost and revenue</span></span>
-- <span data-ttu-id="1c6de-108">Prever requisitos de recursos cuando los proyectos están en tramitación</span><span class="sxs-lookup"><span data-stu-id="1c6de-108">Forecast resource requirements for projects in the pipeline</span></span>
-- <span data-ttu-id="1c6de-109">Realizar un seguimiento del progreso y los costes del proyecto</span><span class="sxs-lookup"><span data-stu-id="1c6de-109">Track project progress and cost consumption</span></span>
-- <span data-ttu-id="1c6de-110">Administrar oferta, precios, y la facturación para proyectos</span><span class="sxs-lookup"><span data-stu-id="1c6de-110">Manage quoting, pricing, and billing for projects</span></span>
-- <span data-ttu-id="1c6de-111">Planificar y asignar recursos</span><span class="sxs-lookup"><span data-stu-id="1c6de-111">Assign and manage resources</span></span>
-- <span data-ttu-id="1c6de-112">Usar informes y paneles interactivos para controlar los indicadores clave de rendimiento de proyectos correctos</span><span class="sxs-lookup"><span data-stu-id="1c6de-112">Use reports and interactive dashboards to monitor key performance indicators for successful projects</span></span>
-- <span data-ttu-id="1c6de-113">Y mucho más...</span><span class="sxs-lookup"><span data-stu-id="1c6de-113">...and more</span></span>
+- <span data-ttu-id="508d7-106">Planear proyectos, y crear estimaciones y programaciones de trabajo</span><span class="sxs-lookup"><span data-stu-id="508d7-106">Plan projects, and create estimates and work schedules</span></span>
+- <span data-ttu-id="508d7-107">Estimar y hacer seguimiento de los costes e ingresos del proyecto</span><span class="sxs-lookup"><span data-stu-id="508d7-107">Estimate and track project cost and revenue</span></span>
+- <span data-ttu-id="508d7-108">Prever requisitos de recursos cuando los proyectos están en tramitación</span><span class="sxs-lookup"><span data-stu-id="508d7-108">Forecast resource requirements for projects in the pipeline</span></span>
+- <span data-ttu-id="508d7-109">Realizar un seguimiento del progreso y los costes del proyecto</span><span class="sxs-lookup"><span data-stu-id="508d7-109">Track project progress and cost consumption</span></span>
+- <span data-ttu-id="508d7-110">Administrar oferta, precios, y la facturación para proyectos</span><span class="sxs-lookup"><span data-stu-id="508d7-110">Manage quoting, pricing, and billing for projects</span></span>
+- <span data-ttu-id="508d7-111">Planificar y asignar recursos</span><span class="sxs-lookup"><span data-stu-id="508d7-111">Assign and manage resources</span></span>
+- <span data-ttu-id="508d7-112">Usar informes y paneles interactivos para controlar los indicadores clave de rendimiento de proyectos correctos</span><span class="sxs-lookup"><span data-stu-id="508d7-112">Use reports and interactive dashboards to monitor key performance indicators for successful projects</span></span>
+- <span data-ttu-id="508d7-113">Y mucho más...</span><span class="sxs-lookup"><span data-stu-id="508d7-113">...and more</span></span>
 
-<span data-ttu-id="1c6de-114">Además, para ayudar a controlar y supervisar los costes del trabajo basado en proyectos, los consultores individuales ingresan y rastrean fácilmente el tiempo y los gastos del proyecto, ya sea en un dispositivo móvil o usando un navegador web.</span><span class="sxs-lookup"><span data-stu-id="1c6de-114">In addition, to help you monitor and control costs for your project-based work, individual consultants easily enter and track project time and expenses either on mobile or using a web browser.</span></span>
+<span data-ttu-id="508d7-114">Además, para ayudar a controlar y supervisar los costes del trabajo basado en proyectos, los consultores individuales ingresan y rastrean fácilmente el tiempo y los gastos del proyecto, ya sea en un dispositivo móvil o usando un navegador web.</span><span class="sxs-lookup"><span data-stu-id="508d7-114">In addition, to help you monitor and control costs for your project-based work, individual consultants easily enter and track project time and expenses either on mobile or using a web browser.</span></span>
 
-## <a name="whats-new-in-psa"></a><span data-ttu-id="1c6de-115">Novedades de PSA</span><span class="sxs-lookup"><span data-stu-id="1c6de-115">What's new in PSA</span></span>
-<span data-ttu-id="1c6de-116">¡El equipo está entusiasmado de anunciar nuestras más nuevas actualizaciones!</span><span class="sxs-lookup"><span data-stu-id="1c6de-116">The team is excited to announce our newest updates!</span></span> <span data-ttu-id="1c6de-117">Desde mejoras a la interfaz de usuario, corrección de errores y adiciones de nuevas características y capacidades importantes.</span><span class="sxs-lookup"><span data-stu-id="1c6de-117">Ranging from improvements to the user interface, fixing bugs, and adding important new features and capabilties.</span></span> <span data-ttu-id="1c6de-118">Ustedes han pedido, nosotros hemos escuchado.</span><span class="sxs-lookup"><span data-stu-id="1c6de-118">You asked; we listened.</span></span>
+## <a name="whats-new-in-psa"></a><span data-ttu-id="508d7-115">Novedades de PSA</span><span class="sxs-lookup"><span data-stu-id="508d7-115">What's new in PSA</span></span>
+<span data-ttu-id="508d7-116">¡El equipo está entusiasmado de anunciar nuestras más nuevas actualizaciones!</span><span class="sxs-lookup"><span data-stu-id="508d7-116">The team is excited to announce our newest updates!</span></span> <span data-ttu-id="508d7-117">Desde mejoras a la interfaz de usuario, corrección de errores y adiciones de nuevas características y capacidades importantes.</span><span class="sxs-lookup"><span data-stu-id="508d7-117">Ranging from improvements to the user interface, fixing bugs, and adding important new features and capabilties.</span></span> <span data-ttu-id="508d7-118">Ustedes han pedido, nosotros hemos escuchado.</span><span class="sxs-lookup"><span data-stu-id="508d7-118">You asked; we listened.</span></span>
 
-<span data-ttu-id="1c6de-119">Eche un vistazo a las [notas de la versión de octubre de 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) para ver nuestras nuevas mejoras e incorporaciones.</span><span class="sxs-lookup"><span data-stu-id="1c6de-119">Take a look at the [October '19 Release Notes](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) to see our newest enhancements and additions.</span></span>
+<span data-ttu-id="508d7-119">Eche un vistazo a las [notas de la versión de octubre de 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) para ver nuestras nuevas mejoras e incorporaciones.</span><span class="sxs-lookup"><span data-stu-id="508d7-119">Take a look at the [October '19 Release Notes](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) to see our newest enhancements and additions.</span></span>
 
-### <a name="in-development"></a><span data-ttu-id="1c6de-120">En desarrollo</span><span class="sxs-lookup"><span data-stu-id="1c6de-120">In development</span></span>
-<span data-ttu-id="1c6de-121">Para ver lo que hemos planeado en un futuro próximo, diríjase a [Dynamics 365: plan del primer lanzamiento de versiones de 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).</span><span class="sxs-lookup"><span data-stu-id="1c6de-121">To see what we have planned in the near future, head over to the [Dynamics 365: 2020 release wave 1 plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).</span></span>
+### <a name="in-development"></a><span data-ttu-id="508d7-120">En desarrollo</span><span class="sxs-lookup"><span data-stu-id="508d7-120">In development</span></span>
+<span data-ttu-id="508d7-121">Para ver lo que hemos planeado en un futuro próximo, diríjase a [Dynamics 365: plan del primer lanzamiento de versiones de 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).</span><span class="sxs-lookup"><span data-stu-id="508d7-121">To see what we have planned in the near future, head over to the [Dynamics 365: 2020 release wave 1 plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).</span></span>
 
-## <a name="get-help-with-psa-version-3x"></a><span data-ttu-id="1c6de-122">Obtener asistencia con la versión 3.x de PSA</span><span class="sxs-lookup"><span data-stu-id="1c6de-122">Get help with PSA version 3.x</span></span>
-<span data-ttu-id="1c6de-123">¿Busca recursos para ayudarle a planear la implementación?</span><span class="sxs-lookup"><span data-stu-id="1c6de-123">Looking for resources to help plan your implementation?</span></span> <span data-ttu-id="1c6de-124">Consulte estas guías descargables.</span><span class="sxs-lookup"><span data-stu-id="1c6de-124">Check out these downloadable guides.</span></span>
+## <a name="get-help-with-psa-version-3x"></a><span data-ttu-id="508d7-122">Obtener asistencia con la versión 3.x de PSA</span><span class="sxs-lookup"><span data-stu-id="508d7-122">Get help with PSA version 3.x</span></span>
+<span data-ttu-id="508d7-123">¿Busca recursos para ayudarle a planear la implementación?</span><span class="sxs-lookup"><span data-stu-id="508d7-123">Looking for resources to help plan your implementation?</span></span> <span data-ttu-id="508d7-124">Consulte estas guías descargables.</span><span class="sxs-lookup"><span data-stu-id="508d7-124">Check out these downloadable guides.</span></span>
 
- [<span data-ttu-id="1c6de-125">Planeamiento de proyecto y mantenimiento de seguimiento</span><span class="sxs-lookup"><span data-stu-id="1c6de-125">Project planning and tracking guide</span></span>](../psa/implementation-guides/project-planning-tracking.md)
+ [<span data-ttu-id="508d7-125">Planeamiento de proyecto y mantenimiento de seguimiento</span><span class="sxs-lookup"><span data-stu-id="508d7-125">Project planning and tracking guide</span></span>](../psa/implementation-guides/project-planning-tracking.md)
 
- [<span data-ttu-id="1c6de-126">Oferta básica, precios, y mantenimiento de facturación</span><span class="sxs-lookup"><span data-stu-id="1c6de-126">Basic quoting, pricing, and billing guide</span></span>](../psa/implementation-guides/begin-quoting-pricing-billing.md)
+ [<span data-ttu-id="508d7-126">Oferta básica, precios, y mantenimiento de facturación</span><span class="sxs-lookup"><span data-stu-id="508d7-126">Basic quoting, pricing, and billing guide</span></span>](../psa/implementation-guides/begin-quoting-pricing-billing.md)
 
- [<span data-ttu-id="1c6de-127">Oferta avanzada, precios, y mantenimiento de facturación</span><span class="sxs-lookup"><span data-stu-id="1c6de-127">Advanced quoting, pricing, and billing guide</span></span>](../psa/implementation-guides/adv-quoting-pricing-billing.md)
+ [<span data-ttu-id="508d7-127">Oferta avanzada, precios, y mantenimiento de facturación</span><span class="sxs-lookup"><span data-stu-id="508d7-127">Advanced quoting, pricing, and billing guide</span></span>](../psa/implementation-guides/adv-quoting-pricing-billing.md)
 
- [<span data-ttu-id="1c6de-128">Guía del administrador de recursos</span><span class="sxs-lookup"><span data-stu-id="1c6de-128">Resource management guide</span></span>](../psa/implementation-guides/resource-management-guide.md)
+ [<span data-ttu-id="508d7-128">Guía del administrador de recursos</span><span class="sxs-lookup"><span data-stu-id="508d7-128">Resource management guide</span></span>](../psa/implementation-guides/resource-management-guide.md)
 
- [<span data-ttu-id="1c6de-129">Guía de informes</span><span class="sxs-lookup"><span data-stu-id="1c6de-129">Reporting guide</span></span>](../psa/implementation-guides/reporting-guide.md)
+ [<span data-ttu-id="508d7-129">Guía de informes</span><span class="sxs-lookup"><span data-stu-id="508d7-129">Reporting guide</span></span>](../psa/implementation-guides/reporting-guide.md)
 
- [<span data-ttu-id="1c6de-130">Notas para desarrolladores</span><span class="sxs-lookup"><span data-stu-id="1c6de-130">Notes for developers</span></span>](../psa/developer-guides/overview-dev-notes-v3.x.md)
+ [<span data-ttu-id="508d7-130">Notas para desarrolladores</span><span class="sxs-lookup"><span data-stu-id="508d7-130">Notes for developers</span></span>](../psa/developer-guides/overview-dev-notes-v3.x.md)
 
-## <a name="guidance-for-earlier-versions-app-version-2x-or-1x"></a><span data-ttu-id="1c6de-131">Guía para las versiones anteriores (versión 2.x de la aplicación o 1.x)</span><span class="sxs-lookup"><span data-stu-id="1c6de-131">Guidance for earlier versions (app version 2.x or 1.x)</span></span>
- [<span data-ttu-id="1c6de-132">Guía del administrador</span><span class="sxs-lookup"><span data-stu-id="1c6de-132">Administrator guide</span></span>](../psa/admin-guide.md)
+## <a name="guidance-for-earlier-versions-app-version-2x-or-1x"></a><span data-ttu-id="508d7-131">Guía para las versiones anteriores (versión 2.x de la aplicación o 1.x)</span><span class="sxs-lookup"><span data-stu-id="508d7-131">Guidance for earlier versions (app version 2.x or 1.x)</span></span>
+ [<span data-ttu-id="508d7-132">Guía del administrador</span><span class="sxs-lookup"><span data-stu-id="508d7-132">Administrator guide</span></span>](../psa/admin-guide.md)
 
- [<span data-ttu-id="1c6de-133">Guía del administrador de recursos</span><span class="sxs-lookup"><span data-stu-id="1c6de-133">Resource manager guide</span></span>](../psa/resource-manager-guide.md)
+ [<span data-ttu-id="508d7-133">Guía del administrador de recursos</span><span class="sxs-lookup"><span data-stu-id="508d7-133">Resource manager guide</span></span>](../psa/resource-manager-guide.md)
 
- [<span data-ttu-id="1c6de-134">Guía del jefe de proyecto</span><span class="sxs-lookup"><span data-stu-id="1c6de-134">Project manager guide</span></span>](../psa/project-manager-guide.md)
+ [<span data-ttu-id="508d7-134">Guía del jefe de proyecto</span><span class="sxs-lookup"><span data-stu-id="508d7-134">Project manager guide</span></span>](../psa/project-manager-guide.md)
 
- [<span data-ttu-id="1c6de-135">Guía de administrador de cuentas</span><span class="sxs-lookup"><span data-stu-id="1c6de-135">Account manager guide</span></span>](../psa/account-manager-guide.md)
+ [<span data-ttu-id="508d7-135">Guía de administrador de cuentas</span><span class="sxs-lookup"><span data-stu-id="508d7-135">Account manager guide</span></span>](../psa/account-manager-guide.md)
 
- [<span data-ttu-id="1c6de-136">Tiempo, gastos y colaboración</span><span class="sxs-lookup"><span data-stu-id="1c6de-136">Time, expense, and collaboration</span></span>](../psa/time-expense-collaboration-guide.md)
+ [<span data-ttu-id="508d7-136">Tiempo, gastos y colaboración</span><span class="sxs-lookup"><span data-stu-id="508d7-136">Time, expense, and collaboration</span></span>](../psa/time-expense-collaboration-guide.md)
 
- [<span data-ttu-id="1c6de-137">Notas de productos (versión 2.x de la aplicación o 1.x)</span><span class="sxs-lookup"><span data-stu-id="1c6de-137">White papers (app version 2.x or 1.x)</span></span>](../psa/white-papers.md)
+ [<span data-ttu-id="508d7-137">Notas de productos (versión 2.x de la aplicación o 1.x)</span><span class="sxs-lookup"><span data-stu-id="508d7-137">White papers (app version 2.x or 1.x)</span></span>](../psa/white-papers.md)
 
- [<span data-ttu-id="1c6de-138">Notas para desarrolladores (versión de la aplicación 2.x)</span><span class="sxs-lookup"><span data-stu-id="1c6de-138">Notes for developers (app version 2.x)</span></span>](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
+ [<span data-ttu-id="508d7-138">Notas para desarrolladores (versión de la aplicación 2.x)</span><span class="sxs-lookup"><span data-stu-id="508d7-138">Notes for developers (app version 2.x)</span></span>](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
- ## <a name="watch-a-2-minute-overview-video"></a><span data-ttu-id="1c6de-139">Ver un vídeo de información general</span><span class="sxs-lookup"><span data-stu-id="1c6de-139">Watch a 2-minute overview video</span></span>
- <a name="heroArea"></a> <span data-ttu-id="1c6de-140">[![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)</span><span class="sxs-lookup"><span data-stu-id="1c6de-140">[![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)</span></span>
+ ## <a name="watch-a-2-minute-overview-video"></a><span data-ttu-id="508d7-139">Ver un vídeo de información general</span><span class="sxs-lookup"><span data-stu-id="508d7-139">Watch a 2-minute overview video</span></span>
+ <a name="heroArea"></a> <span data-ttu-id="508d7-140">[![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)</span><span class="sxs-lookup"><span data-stu-id="508d7-140">[![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)</span></span>
 
 
