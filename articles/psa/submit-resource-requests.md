@@ -3,7 +3,7 @@ title: Enviar solicitudes de recursos
 description: Cómo administrar solicitudes de recursos en Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1978a9212db25ac32ff2dc5f9050ec43fc1ccbd7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50f66d1157b932a91224a63d91ea2aeccc2c209f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085240"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126909"
 ---
 # <a name="submit-resource-requests-project-service"></a>Administrar solicitudes de recursos (Project Service)
 
@@ -41,11 +41,11 @@ Una vez que ha ganado un contrato de proyecto, deberá dotar de personal al proy
   
 5.  Para reservar manualmente un recurso en su lugar, seleccione el rol, y después haga clic en **Reserva manual**. Se muestra una vista de calendario de todos los recursos y su disponibilidad, con codificación en color que proporciona una vista visual del estado de la reserva de un recurso. Realice cualquiera de estas acciones para optimizar la búsqueda:  
   
-    -   Seleccione una vista o un criterio de ordenación en la parte superior de la pantalla. También puede seleccionar si mostrar la disponibilidad para **Día** , **Semana** , **Mes** y usar las flechas para ver el período de tiempo anterior o siguiente. Use el cuadro de búsqueda para encontrar un recurso específico.  
+    -   Seleccione una vista o un criterio de ordenación en la parte superior de la pantalla. También puede seleccionar si mostrar la disponibilidad para **Día**, **Semana**, **Mes** y usar las flechas para ver el período de tiempo anterior o siguiente. Use el cuadro de búsqueda para encontrar un recurso específico.  
   
     -   Haga clic en **Opciones** para cambiar qué se muestra. Por ejemplo, puede mostrar una leyenda que muestre la combinación de colores para distintos tipos de reservaciones, o bien puede elegir mostrar sólo un tipo determinado de reserva (por ejemplo, reserva manual o reserva automática).  
   
-    -   Haga clic en **Filtrar** para mostrar el panel **Filtrar** , que permite filtrar los resultados por unidad organizativa, rol, habilidad, u otros atributos.  
+    -   Haga clic en **Filtrar** para mostrar el panel **Filtrar**, que permite filtrar los resultados por unidad organizativa, rol, habilidad, u otros atributos.  
   
     -   En el calendario del recurso que desea para reservar, seleccione el período de tiempo para reservar el recurso y haga clic en **Reservar** para reservar el recurso o en **Proponer reserva** para proponer la reserva y pedir al su aprobación.  
   

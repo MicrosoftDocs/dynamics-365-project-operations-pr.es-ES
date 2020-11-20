@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c998addbbdbbea8fe69c95f65e58a24146f394c8
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: f159ecac53b824ef208221bb14958923fb5da63b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4084999"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127391"
 ---
 # <a name="project-tracking-overview"></a>Información general del seguimiento de proyectos
 
@@ -25,10 +25,10 @@ La necesidad de realizar un seguimiento del progreso de acuerdo con una programa
 
 La vista **Seguimiento del esfuerzo** realiza un seguimiento del progreso de las tareas de la programación comparando las horas de esfuerzo reales dedicadas a una tarea con las horas de esfuerzo planificadas de la tarea. Dynamics 365 Project Operations utiliza las siguientes fórmulas para calcular las métricas de seguimiento:
 
-- **Porcentaje de progreso** : Esfuerzo real realizado hasta la fecha ÷ Estimación al finalizar (EAF) 
-- **Estimación de finalización (ETC)** : Esfuerzo planificado - Esfuerzo real realizado hasta la fecha 
-- **EAF** : Esfuerzo restante + Esfuerzo real realizado hasta la fecha 
-- **Variación del esfuerzo proyectado** : Esfuerzo planificado - EAF
+- **Porcentaje de progreso**: Esfuerzo real realizado hasta la fecha ÷ Estimación al finalizar (EAF) 
+- **Estimación de finalización (ETC)**: Esfuerzo planificado - Esfuerzo real realizado hasta la fecha 
+- **EAF**: Esfuerzo restante + Esfuerzo real realizado hasta la fecha 
+- **Variación del esfuerzo proyectado**: Esfuerzo planificado - EAF
 
 Project Operations muestra una proyección de la variación del esfuerzo en la tarea. Si el EAF es superior al esfuerzo planificado, se prevé que la tarea tardará más tiempo del planificado originalmente y va por detrás de la programación. Si el EAF es inferior al esfuerzo planificado, se prevé que la tarea tardará menos tiempo del planificado originalmente y va adelantada a la programación.
 
@@ -60,10 +60,10 @@ La vista **Seguimiento de costes** compara el coste real que se gastó en una ta
 > [!NOTE]
 > Esta vista muestra solo los costes laborales y no incluye los costes de las estimaciones de gastos. Project Operations utiliza las siguientes fórmulas para calcular las métricas de seguimiento:
 
-- **Porcentaje del coste consumido** : Coste real gastado hasta la fecha ÷ Coste estimado al finalizar
-- **Coste de finalización (CTC)** : Coste planificado - Coste real gastado hasta la fecha
-- **EAF** : Coste restante + Coste real gastado hasta la fecha
-- **Variación del coste proyectado** : Coste planificado - EAF
+- **Porcentaje del coste consumido**: Coste real gastado hasta la fecha ÷ Coste estimado al finalizar
+- **Coste de finalización (CTC)**: Coste planificado - Coste real gastado hasta la fecha
+- **EAF**: Coste restante + Coste real gastado hasta la fecha
+- **Variación del coste proyectado**: Coste planificado - EAF
 
 Se muestra una proyección de la variación de coste en la tarea. Si el EAF es superior al coste planificado, se prevé que la tarea costará más de lo planificado originalmente. Por lo tanto, la tendencia es que se supere el presupuesto. Si el EAF es inferior al coste planificado, se prevé que la tarea costará menos de lo planificado originalmente. Por lo tanto, la tendencia es que no se supere el presupuesto.
 

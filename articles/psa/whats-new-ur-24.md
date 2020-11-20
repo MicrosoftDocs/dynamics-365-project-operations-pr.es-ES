@@ -3,7 +3,7 @@ title: Novedades o cambios en la versión de actualización 24, V3, de Project S
 description: En este tema se muestran las características y correcciones que están disponibles en la versión de actualización 24, V3, de Project Service Automation.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 10/02/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6c8348e65307f63a251f97bf1ea17578e7026da8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a37e71be2cce259d8aed0621d13393b6bbe4199
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085100"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126594"
 ---
 # <a name="project-service-automation-update-release-24-v3"></a>Versión de actualización de Project Service Automation 24, V3
 
@@ -67,7 +67,7 @@ Se han solucionado los siguientes problemas:
 
 Se han solucionado los siguientes problemas:
 
-- En la **Programación del proyecto** , al cambiar de **Manual** a **Automático** , el autoguardado no se completa.
+- En la **Programación del proyecto**, al cambiar de **Manual** a **Automático**, el autoguardado no se completa.
 - Los costes de gastos no deben calcularse en función de la variación en la **Cuadrícula de seguimiento de proyectos**.
 - Un comportamiento incoherente para la columna **Etiqueta de estimaciones** durante la carga en comparación con cambiar el tipo **Fases temporales**.
 - El coste real de un proyecto puede que no refleje los totales de **Datos reales**.

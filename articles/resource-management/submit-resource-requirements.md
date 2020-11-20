@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 94cf0f0d88e9be2522936b45122ed0037434d4f3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 18f43acc64ed72b1543a2d7d91a2648e7e185fc4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085042"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128844"
 ---
 # <a name="submit-a-resource-request"></a>Enviar una solicitud de recursos
 
@@ -21,7 +21,7 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no mant
 
 Puede enviar un requisito de recurso generado como solicitud de recurso. La solicitud se envía a un administrador de recursos para su cumplimiento.
 
-1. En Dynamics 365 Project Operations, en la página **Proyectos** , seleccione la pestaña **Equipo** para ver una lista de recursos reservables. 
+1. En Dynamics 365 Project Operations, en la página **Proyectos**, seleccione la pestaña **Equipo** para ver una lista de recursos reservables. 
 2. Seleccione el recurso genérico que tiene algún requisito de recursos de la lista y después haga clic en **Enviar solicitud**.
 
 El estado de la solicitud del miembro del equipo genérico cambiará a **Enviado**.

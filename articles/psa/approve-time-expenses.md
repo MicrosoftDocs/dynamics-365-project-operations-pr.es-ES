@@ -3,7 +3,7 @@ title: Aprobar tiempo y gastos
 description: Cómo aprobar hora y gastos (Project Service)
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6b5fca4ab1eb4c907c3fd6cca5e2adf79fad9590
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ce126815dce37055fb364512a9a14c828d9b0c32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085326"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127134"
 ---
 # <a name="approve-time-and-expenses-project-service"></a>Aprobar hora y gastos (Project Service)
 
@@ -35,7 +35,7 @@ Una vez que los consultores especifiquen su hora y gastos para un proyecto, debe
   
 2.  Haga clic en el elemento para aprobar.  
   
-3.  En las pestañas **Entradas de horas** , **Entradas de gastos** y **Ausencia o vacaciones** , revise cada elemento y realice cambios según sea necesario.  
+3.  En las pestañas **Entradas de horas**, **Entradas de gastos** y **Ausencia o vacaciones**, revise cada elemento y realice cambios según sea necesario.  
   
 4.  Para aprobar un elemento, selecciónelo y haga clic en **Aprobar**. Puede seleccionar y aprobar varios elementos al mismo tiempo.  
   

@@ -3,7 +3,7 @@ title: Información general de datos reales
 description: En este tema se proporciona información sobre datos reales del proyecto.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9559cb2dcc38cb8058c5a9a3b97a35019fea486f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf9e36c99790b77f0ed6490f49b4ebeb043bcdf6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085346"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129789"
 ---
 # <a name="actuals-overview"></a>Información general de datos reales
 
@@ -39,7 +39,7 @@ En PSA, cuando se envía una entrada de hora para un proyecto que está asignado
 
 La lógica para especificar precios predeterminados se encuentra en la línea de diario. Todos los valores de campo de una entrada de hora se copian a la línea de diario. Estos campos incluyen la fecha de la transacción, la línea de contrato a la que está asignado el proyecto y el resultado de la divisa en la lista de precios correspondiente. 
 
-Los campos que afectan a los precios predeterminados, como, por ejemplo, **Rol** y **Unidad organizativa** , hacen que se especifique el precio adecuado de manera predeterminada en la línea de diario. Si agrega un campo personalizado en la entrada de hora y desea que el valor de campo se propague a los datos reales, cree el campo en la entidad Datos reales y utilice las asignaciones de campos para copiar el campo de la entrada de hora a los datos reales.
+Los campos que afectan a los precios predeterminados, como, por ejemplo, **Rol** y **Unidad organizativa**, hacen que se especifique el precio adecuado de manera predeterminada en la línea de diario. Si agrega un campo personalizado en la entrada de hora y desea que el valor de campo se propague a los datos reales, cree el campo en la entidad Datos reales y utilice las asignaciones de campos para copiar el campo de la entrada de hora a los datos reales.
 
 ## <a name="submitting-an-expense-entry"></a>Envío de una entrada de gastos
 

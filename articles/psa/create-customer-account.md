@@ -3,7 +3,7 @@ title: Crear una cuenta de cliente
 description: Cómo crear una cuenta de cliente en Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0dc328d1e0a2deba256dacb1697aee65e89055e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f80d7612563b49765c5d0dc36e0033c9f7c42f9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085154"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129114"
 ---
 # <a name="create-a-customer-account-project-service"></a>Crear una cuenta de cliente (Project Service)
 
@@ -35,11 +35,11 @@ Cree una cuenta para cada cliente con el que trabaja, tanto si está preparando 
   
 2.  Haga clic en **Nuevo**.  
   
-3.  En el área **Resumen** , escriba un nombre para la nueva cuenta en **Nombre** y luego rellene los otros campos según sea necesario.  
+3.  En el área **Resumen**, escriba un nombre para la nueva cuenta en **Nombre** y luego rellene los otros campos según sea necesario.  
   
 4.  Haga clic en **Guardar** para crear el registro para que pueda seguir editándolo.  
   
-5.  En el área **Listas de precios de proyecto** , haga clic en + para agregar una lista de precios. Para agregar más de una lista de precios para esta cuenta.  
+5.  En el área **Listas de precios de proyecto**, haga clic en + para agregar una lista de precios. Para agregar más de una lista de precios para esta cuenta.  
   
 6.  Cuando termine, haga clic en **Guardar** en la esquina inferior derecha de la pantalla.  
   

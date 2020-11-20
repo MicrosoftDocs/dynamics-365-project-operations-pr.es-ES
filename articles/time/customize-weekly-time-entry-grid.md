@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085047"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124659"
 ---
 # <a name="extending-time-entries"></a>Extensión de entradas de tiempo
 
@@ -33,7 +33,7 @@ Es posible extender las entradas de tiempo en dos áreas:
 
 ## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Agregar entradas de tiempo personalizadas para su propio uso
 
-Las entradas de tiempo son una entidad de núcleo utilizada en múltiples escenarios. En la Oleada 1 de abril de 2020 se presentó la solución principal de TESA. TESA proporciona una entidad **Configuración** y un nuevo rol de seguridad **Usuario de entrada de tiempo**. Los nuevos campos, **msdyn_start** y **msdyn_end** , que tienen una relación directa con **msdyn_duration** , también se incluyeron. La nueva entidad, el rol de seguridad, y los campos permiten un enfoque más unificado del tiempo en varios productos.
+Las entradas de tiempo son una entidad de núcleo utilizada en múltiples escenarios. En la Oleada 1 de abril de 2020 se presentó la solución principal de TESA. TESA proporciona una entidad **Configuración** y un nuevo rol de seguridad **Usuario de entrada de tiempo**. Los nuevos campos, **msdyn_start** y **msdyn_end**, que tienen una relación directa con **msdyn_duration**, también se incluyeron. La nueva entidad, el rol de seguridad, y los campos permiten un enfoque más unificado del tiempo en varios productos.
 
 
 ### <a name="time-source-entity"></a>Entidad de origen de tiempo
@@ -57,7 +57,7 @@ La lógica actualizará automáticamente el registro de entrada de tiempo en las
     - **msdyn_end**
     - **msdyn_duration**
 
-- Los campos, **msdyn_start** y **msdyn_end** , son dependientes de la zona horaria.
+- Los campos,**msdyn_start** y **msdyn_end**, son dependientes de la zona horaria.
 - Entradas de tiempo creadas con solo **msdyn_date** y **msdyn_duration** especificado comenzará a la medianoche. Los campos **msdyn_start** y **msdyn_end** se actualizarán en consecuencia.
 
 #### <a name="time-entry-types"></a>Tipos de entradas de tiempo
@@ -103,28 +103,28 @@ Personalice **Mis entradas de tiempo semanales** y agregue el campo personalizad
 
 #### <a name="create-a-new-default-custom-time-entry"></a>Crear una nueva entrada de tiempo personalizada predeterminada
 
-Esta vista debe contener los campos **Descripción** y **Comentarios externos** , además de las columnas que desea tener en la cuadrícula. 
+Esta vista debe contener los campos **Descripción** y **Comentarios externos**, además de las columnas que desea tener en la cuadrícula. 
 
 1. Elija la posición, el tamaño y el criterio de ordenación predeterminado de la cuadrícula editando esas propiedades en la vista. 
 2. Configure el control personalizado para esta vista, para que sea un control **Cuadrícula de entrada de tiempo**. 
 3. Agregue este control a la vista y selecciónelo para la web, el teléfono y la tableta. 
 4. Configure los parámetros para la cuadrícula de entrada de tiempo semanal. 
-5. Establezca el campo **Fecha de inicio** en **msdyn_date** , el campo **Duración** en **msdyn_duration** y el campo **Estado** en **msdyn_entrystatus**. 
+5. Establezca el campo **Fecha de inicio** en **msdyn_date**, el campo **Duración** en **msdyn_duration** y el campo **Estado** en **msdyn_entrystatus**. 
 6. Para la vista predeterminada, el campo **Lista de estado de solo lectura** está configurado en **192350002,192350003,192350004**. El campo **Flujo de tareas de edición de filas** está configurado en **msdyn_timeentryrowedit**. El campo **Flujo de tareas de edición de celda** está configurado en **msdyn_timeentryedit**. 
 7. Puede personalizar estos campos para agregar o eliminar el estado de solo lectura, o para usar una experiencia basada en tareas (TBX) diferente para la edición de filas o celdas. Estos campos ahora están vinculados a un valor estático.
 
 
 > [!NOTE] 
-> Ambas opciones eliminarán algunos filtros listos para usar en las entidades **Proyecto** y **Tarea de proyecto** , por lo que todas las vistas de búsqueda para las entidades serán visibles. Con los filtros listos para usar, solo se verán las vistas de búsqueda relevantes.
+> Ambas opciones eliminarán algunos filtros listos para usar en las entidades **Proyecto** y **Tarea de proyecto**, por lo que todas las vistas de búsqueda para las entidades serán visibles. Con los filtros listos para usar, solo se verán las vistas de búsqueda relevantes.
 
-Debe determinar el flujo de tareas apropiado para el campo personalizado. Si agregó el campo a la cuadrícula, debe ir en el flujo de tareas de edición de fila que se utiliza para los campos que se aplican a toda la fila de entradas de tiempo. Si el campo personalizado tiene un valor único todos los días, como un campo personalizado para **Hora de finalización** , debe ir en el flujo de tareas de edición de celda.
+Debe determinar el flujo de tareas apropiado para el campo personalizado. Si agregó el campo a la cuadrícula, debe ir en el flujo de tareas de edición de fila que se utiliza para los campos que se aplican a toda la fila de entradas de tiempo. Si el campo personalizado tiene un valor único todos los días, como un campo personalizado para **Hora de finalización**, debe ir en el flujo de tareas de edición de celda.
 
 Para agregar el campo personalizado a un flujo de tareas, arrastre un elemento **Campo** a la posición adecuada en la página y, a continuación, establezca las propiedades del campo. Establezca la propiedad **Origen** en **Entrada de tiempo** y la propiedad **Campo de datos** en el campo personalizado. La propiedad **Campo** especifica el nombre para mostrar en la página TBX. Seleccione **Aplicar** para guardar sus cambios en el campo y luego seleccione **Actualizar** para guardar sus cambios en la página.
 
-Para utilizar una nueva página TBX personalizada, cree un nuevo proceso. Establezca la categoría en **Flujo de proceso de negocio** , la entidad en **Entrada de tiempo** y el tipo de proceso de negocio en **Ejecutar proceso como un flujo de tareas**. En **Propiedades** , la propiedad **Nombre de página** debe establecerse en el nombre para mostrar de la página. Agregue todos los campos relevantes a la página TBX. Guarde y publique el proceso. Actualice la propiedad de control personalizado para el flujo de tareas relevante al valor de **Nombre** en el proceso.
+Para utilizar una nueva página TBX personalizada, cree un nuevo proceso. Establezca la categoría en **Flujo de proceso de negocio**, la entidad en **Entrada de tiempo** y el tipo de proceso de negocio en **Ejecutar proceso como un flujo de tareas**. En **Propiedades**, la propiedad **Nombre de página** debe establecerse en el nombre para mostrar de la página. Agregue todos los campos relevantes a la página TBX. Guarde y publique el proceso. Actualice la propiedad de control personalizado para el flujo de tareas relevante al valor de **Nombre** en el proceso.
 
 ### <a name="add-new-option-set-values"></a>Adición de nuevos valores de conjunto de opciones
-Para agregar valores de conjunto de opciones a un campo listo para usar, abra la página de edición para el campo y, a continuación, en **Tipo** , seleccione **Editar** junto al conjunto de opciones. Agregar una nueva opción que tenga una etiqueta y un color personalizados. Si desea agregar un nuevo estado de entrada de tiempo, el campo listo para usar se denomina **Estado de entrada** , no **Estado**.
+Para agregar valores de conjunto de opciones a un campo listo para usar, abra la página de edición para el campo y, a continuación, en **Tipo**, seleccione **Editar** junto al conjunto de opciones. Agregar una nueva opción que tenga una etiqueta y un color personalizados. Si desea agregar un nuevo estado de entrada de tiempo, el campo listo para usar se denomina **Estado de entrada**, no **Estado**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Designación de un nuevo estado de entrada de tiempo como solo lectura
 Para designar un nuevo estado de entrada de tiempo como de solo lectura, agregue el nuevo valor de entrada de tiempo a la propiedad **Lista de estados de solo lectura**. La parte editable de la cuadrícula de entrada de tiempo se bloqueará para las filas que tienen el nuevo estado.

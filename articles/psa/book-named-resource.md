@@ -3,7 +3,7 @@ title: Reservar recursos con nombre desde los requisitos de recursos
 description: En este tema se proporciona información sobre la reserva de recursos con nombre para un requisito de recurso genérico.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 20e3a904bc33360b194c0c53e58430c80d1ff55f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d7ff58ec08661adc702867c6c26805a74a3637c9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085353"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125919"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Reservar recursos con nombre desde los requisitos de recursos
 
@@ -31,14 +31,14 @@ ms.locfileid: "4085353"
 
 Puede para reservar un recurso con nombre para reemplazar el recurso genérico que tiene un requisito de recursos.
 
-1. En Project Service Automation (PSA), en la página **Proyectos** , haga clic en la pestaña **Equipo**.
+1. En Project Service Automation (PSA), en la página **Proyectos**, haga clic en la pestaña **Equipo**.
 2. Seleccione el recurso genérico que tiene algún requisito de recursos de la lista y después haga clic en **Reservar**. O bien, abra el requisito del recurso y después haga clic en **Reservar**.
 
 
 ![Reserva de un miembro del equipo genérico](media/RM-how-to-14.png)
 
 
-3. En la página **Asistente de programación** , seleccione el recurso con nombre que desee reservar para su equipo de proyecto y después haga clic en **Reservar**.
+3. En la página **Asistente de programación**, seleccione el recurso con nombre que desee reservar para su equipo de proyecto y después haga clic en **Reservar**.
 
 ![Reserva de un miembro de equipo genérico con el asistente de programación](media/RM-how-to-15.png)
 

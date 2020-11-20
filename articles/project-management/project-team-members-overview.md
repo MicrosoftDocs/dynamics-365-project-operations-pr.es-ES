@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085039"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127449"
 ---
 # <a name="project-team-members"></a>Miembros del equipo del proyecto
 
@@ -47,16 +47,16 @@ La siguiente tabla enumera los atributos clave de un miembro del equipo del proy
 
 Desde la cuadrícula de miembros del equipo, se pueden tomar las siguientes acciones:
 
-- **Reservar** : para las organizaciones que ejecutan aprovechando la metodología de reservas híbridas, la acción de reservar permitirá a los usuarios reservar un recurso con nombre según los requisitos requeridos generados por el miembro del equipo genérico
-- **Generar requisito** : esta acción genera el requisito.
-- **Especificar patrón** : permite a los gerentes de proyecto ajustar los contornos de los requisitos de recursos a nivel granular. Los gerentes de proyecto pueden adaptarse a las necesidades específicas del proyecto en los casos en que la distribución predeterminada no se ajuste.
-- **Enviar peticion** : para organizaciones que utilizan la metodología central de reservas.
-- **Editar** : los atributos de los miembros del equipo se pueden editar, incluida la unidad organizativa, el rol y el nombre del puesto.
-- **Mantener reservas** : cuando es necesario actualizar las reservas de recursos, mantener las reservas permite al administrador del proyecto ajustar:
+- **Reservar**: para las organizaciones que ejecutan aprovechando la metodología de reservas híbridas, la acción de reservar permitirá a los usuarios reservar un recurso con nombre según los requisitos requeridos generados por el miembro del equipo genérico
+- **Generar requisito**: esta acción genera el requisito.
+- **Especificar patrón**: permite a los gerentes de proyecto ajustar los contornos de los requisitos de recursos a nivel granular. Los gerentes de proyecto pueden adaptarse a las necesidades específicas del proyecto en los casos en que la distribución predeterminada no se ajuste.
+- **Enviar peticion**: para organizaciones que utilizan la metodología central de reservas.
+- **Editar**: los atributos de los miembros del equipo se pueden editar, incluida la unidad organizativa, el rol y el nombre del puesto.
+- **Mantener reservas**: cuando es necesario actualizar las reservas de recursos, mantener las reservas permite al administrador del proyecto ajustar:
 
     - Principio
     - Final
     - Asignación de esfuerzo total
 
-- **Nuevo** : además de agregar recursos directamente desde la programación, los gerentes de proyecto pueden agregar nuevos miembros del equipo con nombre o genéricos desde la cuadrícula de miembros del equipo.
-- **Eliminar** : al seleccionar uno o varios miembros del equipo, el gerente de proyecto puede eliminar los recursos que ya no participarán en el proyecto. Eliminar un miembro del equipo también eliminará todas las asignaciones de recursos asociados y cancelará todas las reservas existentes.
+- **Nuevo**: además de agregar recursos directamente desde la programación, los gerentes de proyecto pueden agregar nuevos miembros del equipo con nombre o genéricos desde la cuadrícula de miembros del equipo.
+- **Eliminar**: al seleccionar uno o varios miembros del equipo, el gerente de proyecto puede eliminar los recursos que ya no participarán en el proyecto. Eliminar un miembro del equipo también eliminará todas las asignaciones de recursos asociados y cancelará todas las reservas existentes.

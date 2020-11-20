@@ -3,7 +3,7 @@ title: Configurar categorías de gastos
 description: Cómo configurar categorías de gastos en Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 82522c0ba8587446c5038a9cf38fcadfdcb6ba8d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1768d7bd7ab94d909e53cd71f9c39b44e7ed4b4f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085120"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129294"
 ---
 # <a name="configure-expense-categories-project-service"></a>Configurar categorías de gastos (Project Service)
 
@@ -37,7 +37,7 @@ Cada categoría de gastos puede tener su propia unidad de venta y unidad. Puede 
   
 2.  Haga clic en **Nuevo**.  
   
-3.  En el área **General** , rellene los campos según sea necesario. Se recomienda configurar las siguientes categorías de gastos como mínimo:  
+3.  En el área **General**, rellene los campos según sea necesario. Se recomienda configurar las siguientes categorías de gastos como mínimo:  
   
     -   Vuelos  
   

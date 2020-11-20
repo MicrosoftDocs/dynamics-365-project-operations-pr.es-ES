@@ -3,7 +3,7 @@ title: Crear unidades organizativas
 description: Cómo crear unidades organizativas en Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4c653f5bd066fd174c8fb0996820628c1b281519
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebb00b9838773560404a9e3f7a19cc83408d7889
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085197"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125109"
 ---
 # <a name="create-organizational-units-project-service"></a>Crear unidades organizativas (Project Service)
 
@@ -38,13 +38,13 @@ Su compañía probablemente organiza su negocios de consultoría por geografía,
   
 2.  Haga clic en **Nuevo**.  
   
-3.  En el área **General** , escriba un nombre para la unidad organizativa en **Nombre** y luego rellene los otros campos según sea necesario.  
+3.  En el área **General**, escriba un nombre para la unidad organizativa en **Nombre** y luego rellene los otros campos según sea necesario.  
   
 4.  Haga clic en **Guardar** para crear el registro para que pueda seguir editándolo.  
   
-5.  En **Listas de precio de coste** , haga clic en **+** para agregar una lista de precios. Solo puede agregar listas de precios con el contexto **Coste** aquí.  
+5.  En **Listas de precio de coste**, haga clic en **+** para agregar una lista de precios. Solo puede agregar listas de precios con el contexto **Coste** aquí.  
   
-6.  En el campo **Nombre** , haga clic en el botón **Buscar** y seleccione una lista de precios que desea poner a disposición de dicha unidad organizativa. Siga agregando listas de precios según sea necesario.  
+6.  En el campo **Nombre**, haga clic en el botón **Buscar** y seleccione una lista de precios que desea poner a disposición de dicha unidad organizativa. Siga agregando listas de precios según sea necesario.  
   
 7.  Cuando termine, haga clic en **Guardar** en la esquina inferior derecha de la pantalla.  
   

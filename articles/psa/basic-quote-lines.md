@@ -3,7 +3,7 @@ title: Ofertas y líneas de oferta
 description: En este tema se proporciona información sobre las ofertas y las líneas de oferta.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae48c691fd855e6f22d0642965fc0c1617793368
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 509bc089e69ec234ddfdecb789c2e446286da82b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085263"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129474"
 ---
 # <a name="quotes-and-quote-lines"></a>Ofertas y líneas de oferta
 
@@ -35,15 +35,15 @@ En Dynamics 365 Project Service Automation, hay dos tipos de ofertas: las oferta
 - Las ofertas de ventas admiten la activación y las revisiones. Las ofertas de proyecto no admiten dichos procesos.
 - Puede adjuntar varios pedidos a una oferta de ventas. En cambio, solo puede adjuntar un contrato de proyecto a una oferta de proyecto.
 - Puede ganar una oferta de ventas y mantener la oportunidad relacionada abierta. Tras ganar una oferta de proyecto, la oportunidad relacionada se cierra.
-- Las ofertas de ventas no incluyen algunos campos y conceptos que se incluyen en las ofertas de proyecto. Entre los campos se incluyen **Unidad de contratación** , **Administrador de cuentas** y **Nombre de contacto de facturación**.  
+- Las ofertas de ventas no incluyen algunos campos y conceptos que se incluyen en las ofertas de proyecto. Entre los campos se incluyen **Unidad de contratación**, **Administrador de cuentas** y **Nombre de contacto de facturación**.  
 - Las ofertas de ventas y las ofertas de proyecto también se identifican mediante un campo basado en un conjunto de opciones con el nombre **Tipo**. Para una oferta de ventas, este campo tiene el valor **Basado en artículo**. Para una oferta de proyecto, tiene el valor **Basado en trabajo**.
 
 Este tema se centrará en los detalles de las ofertas de proyecto.
 
 Una oferta del proyecto en PSA puede tener varios elementos de línea o varias líneas de oferta. De hecho, una oferta de proyecto tiene dos cuadrículas para elementos de línea. Una cuadrícula es para las líneas basadas en proyecto que permiten las estimaciones detalladas. La otra cuadrícula es para las líneas basadas en productos que utilizan un precio unitario sencillo y un enfoque basado en la cantidad.
 
-- **Basado en proyecto** : el importe se determina (valor ofertado) tras estimar la cantidad de trabajo requerida. Puede estimar el trabajo a un nivel alto, o bien puede estimarlo directamente como detalles de línea debajo de cada línea de oferta. Por último, puede estimar el trabajo según estimaciones realizadas desde cero utilizando un proyecto y un plan de proyecto. Las líneas de oferta basadas en proyectos solo se encuentran en ofertas basadas en proyectos creadas con Project Service Automation. Este tipo de línea de oferta es un formulario personalizado de las líneas de oferta fuera de catálogo que están disponibles en Microsoft Dynamics 365 Sales.
-- **Basado en producto** : el importe (valor citado) se determina en función de la cantidad de unidades que se venden y del precio de venta unitario del producto. El producto de una basada en producto puede provenir de un catálogo de productos de ventas, o bien puede ser un producto que usted defina. Este tipo de línea de oferta también está disponible en ofertas basadas en proyecto que se crean con PSA.
+- **Basado en proyecto**: el importe se determina (valor ofertado) tras estimar la cantidad de trabajo requerida. Puede estimar el trabajo a un nivel alto, o bien puede estimarlo directamente como detalles de línea debajo de cada línea de oferta. Por último, puede estimar el trabajo según estimaciones realizadas desde cero utilizando un proyecto y un plan de proyecto. Las líneas de oferta basadas en proyectos solo se encuentran en ofertas basadas en proyectos creadas con Project Service Automation. Este tipo de línea de oferta es un formulario personalizado de las líneas de oferta fuera de catálogo que están disponibles en Microsoft Dynamics 365 Sales.
+- **Basado en producto**: el importe (valor citado) se determina en función de la cantidad de unidades que se venden y del precio de venta unitario del producto. El producto de una basada en producto puede provenir de un catálogo de productos de ventas, o bien puede ser un producto que usted defina. Este tipo de línea de oferta también está disponible en ofertas basadas en proyecto que se crean con PSA.
 
 El importe de una oferta es el total de las líneas basadas en producto y las líneas basadas en proyecto.
 
@@ -75,12 +75,12 @@ PSA admite los tres tipos de programaciones de facturación para las líneas de 
 
 Las organizaciones de servicios profesionales suelen ofertar y facturar a sus clientes según una clasificación de costes. En PSA, los costes se representan con las clasificaciones de transacciones siguientes:
 
-- **Tiempo** : esta clasificación representa el coste de la mano de obra o el tiempo que los recursos humanos dedicaron a un proyecto.
-- **Gasto** : esta clasificación representa el resto de gastos de un proyecto. Puesto que los gastos se pueden clasificar de manera general, la mayoría de las organizaciones crean subcategorías, como, por ejemplo, viajes, alquiler de vehículos, habitaciones de hotel o material de oficina.
-- **Tarifa** : esta clasificación representa gastos generales variados, sanciones u otros elementos que se cobran al cliente. 
-- **Impuesto** : esta clasificación representa los importes de los impuestos que los usuarios agregan mientras especifican gastos.
-- **Transacción material** : esta clasificación representa datos reales de líneas de producto de una factura de proyecto confirmada.
-- **Hito** : esta clasificación se utiliza en la lógica de facturación de precio fijo en PSA.
+- **Tiempo**: esta clasificación representa el coste de la mano de obra o el tiempo que los recursos humanos dedicaron a un proyecto.
+- **Gasto**: esta clasificación representa el resto de gastos de un proyecto. Puesto que los gastos se pueden clasificar de manera general, la mayoría de las organizaciones crean subcategorías, como, por ejemplo, viajes, alquiler de vehículos, habitaciones de hotel o material de oficina.
+- **Tarifa**: esta clasificación representa gastos generales variados, sanciones u otros elementos que se cobran al cliente. 
+- **Impuesto**: esta clasificación representa los importes de los impuestos que los usuarios agregan mientras especifican gastos.
+- **Transacción material**: esta clasificación representa datos reales de líneas de producto de una factura de proyecto confirmada.
+- **Hito**: esta clasificación se utiliza en la lógica de facturación de precio fijo en PSA.
 
 Puede asociar una o varias de estas clasificaciones de transacciones a cada línea de oferta. Tras ganar una oferta, la asignación entre las clasificaciones de transacciones y la línea de oferta se transfiere a la línea de contrato.
  
@@ -91,16 +91,16 @@ Por ejemplo, una oferta puede contener las siguientes dos líneas de oferta:
 - Gastos de desplazamiento relacionados que utilizan un método de facturación de precio fijo. Por ejemplo, todos los gastos de desplazamientos del proyecto **Implementación de Dynamics AX** se facturan a un valor monetario fijo.
 
 > [!NOTE]
-> La combinación de las clasificaciones de transacciones y del proyecto de **Tiempo** , **Gasto** y **Tarifa** asociados a una línea de oferta o a la línea de contrato debe ser única. Si se asocia la misma combinación de clases de transacciones y proyecto a más de una línea de contrato o línea de oferta, PSA no funcionará correctamente.
+> La combinación de las clasificaciones de transacciones y del proyecto de **Tiempo**, **Gasto** y **Tarifa** asociados a una línea de oferta o a la línea de contrato debe ser única. Si se asocia la misma combinación de clases de transacciones y proyecto a más de una línea de contrato o línea de oferta, PSA no funcionará correctamente.
 
 ## <a name="billing-types"></a>Tipo de facturación
 
 El campo **Tipo de facturación** define el concepto de imputabilidad en PSA. Se trata de un conjunto de opciones que puede tener los valores siguientes:
 
-- **Imputable** : el coste acumulado por este rol o esta categoría es un coste directo que determina la ejecución del proyecto y el cliente debe pagar por este trabajo. El pago se puede administrar como acuerdo de tiempo y materiales o de precio fijo. Sin embargo, al empleado que invierta este tiempo recibirá se le abonará el uso facturable de este tiempo.
-- **No imputable** : el coste acumulado por este rol o esta categoría se considera un coste directo que determina la ejecución del proyecto a pesar de que el cliente no reconozca este hecho y no vaya a pagar por este trabajo. Al empleado que invierta este tiempo no se le abonará ningún uso facturable por este tiempo.
-- **Gratis** : el coste acumulado por este rol o esta categoría se considera un coste directo que determina la ejecución del proyecto y el cliente así lo reconoce. Al empleado que invierta este tiempo se le abonará el uso facturable por este tiempo. Sin embargo, este coste no se cobrará al cliente.
-- **No disponible** : esta opción se utiliza para los costes en los que se incurre en proyectos internos que no requieren seguimiento.
+- **Imputable**: el coste acumulado por este rol o esta categoría es un coste directo que determina la ejecución del proyecto y el cliente debe pagar por este trabajo. El pago se puede administrar como acuerdo de tiempo y materiales o de precio fijo. Sin embargo, al empleado que invierta este tiempo recibirá se le abonará el uso facturable de este tiempo.
+- **No imputable**: el coste acumulado por este rol o esta categoría se considera un coste directo que determina la ejecución del proyecto a pesar de que el cliente no reconozca este hecho y no vaya a pagar por este trabajo. Al empleado que invierta este tiempo no se le abonará ningún uso facturable por este tiempo.
+- **Gratis**: el coste acumulado por este rol o esta categoría se considera un coste directo que determina la ejecución del proyecto y el cliente así lo reconoce. Al empleado que invierta este tiempo se le abonará el uso facturable por este tiempo. Sin embargo, este coste no se cobrará al cliente.
+- **No disponible**: esta opción se utiliza para los costes en los que se incurre en proyectos internos que no requieren seguimiento.
 
 ## <a name="invoice-schedule"></a>Programación de facturas
 
@@ -116,11 +116,11 @@ PSA utiliza estos tres valores de atributos para generar un conjunto provisional
 
 La frecuencia de facturación es una entidad que almacena los valores de atributos que ayudan a expresar la frecuencia con la que se crean las facturas. Los siguientes atributos expresan o definen la entidad Frecuencia de factura:
 
-- **Período** : los períodos pueden ser mensuales, quincenales y semanales. 
-- **Ejecuciones por período** : para los períodos semanales y quincenales, puede definir solo una ejecución por período. Para los períodos mensuales, puede definir entre una y cuatro ejecuciones por período. 
-- **Días de ejecución** : días en que se debe ejecutar la facturación. Puede configurar este atributo de dos maneras:
-  - **Días de la semana** : por ejemplo, puede especificar que la facturación se ejecute todos los lunes o cada segundo lunes. Es posible que los clientes que necesitan establecer la ejecución de la facturación en un día laboral prefieran este tipo de configuración. 
-  - **Días naturales** : por ejemplo, puede especificar que la facturación se ejecute los días siete y veintiuno de cada mes. Algunas organizaciones pueden preferir esta tipo de configuración porque ayuda a garantizar que la facturación se ejecute según una programación fija todos los meses.
+- **Período**: los períodos pueden ser mensuales, quincenales y semanales. 
+- **Ejecuciones por período**: para los períodos semanales y quincenales, puede definir solo una ejecución por período. Para los períodos mensuales, puede definir entre una y cuatro ejecuciones por período. 
+- **Días de ejecución**: días en que se debe ejecutar la facturación. Puede configurar este atributo de dos maneras:
+  - **Días de la semana**: por ejemplo, puede especificar que la facturación se ejecute todos los lunes o cada segundo lunes. Es posible que los clientes que necesitan establecer la ejecución de la facturación en un día laboral prefieran este tipo de configuración. 
+  - **Días naturales**: por ejemplo, puede especificar que la facturación se ejecute los días siete y veintiuno de cada mes. Algunas organizaciones pueden preferir esta tipo de configuración porque ayuda a garantizar que la facturación se ejecute según una programación fija todos los meses.
   
 ### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Programación de facturas para una línea de oferta de precio fijo
 

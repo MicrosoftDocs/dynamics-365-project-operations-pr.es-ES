@@ -3,7 +3,7 @@ title: Use el complemento Project Service Add-in para planear el trabajo en Micr
 description: En este tema se proporciona información sobre cómo agregar, configurar y usar el complemento de Microsoft Project para Microsoft Project Service.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085278"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129699"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Use el complemento Project Service Automation para planear el trabajo en Microsoft Project
 
@@ -59,7 +59,7 @@ ms.locfileid: "4085278"
 ## <a name="read-from-a-template"></a>Leer desde una plantilla  
  Lea desde una plantilla que haya creado en [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] y copiado en [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] para comenzar su planificación de proyectos. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Crear una plantilla de proyecto (Project Service Automation)](../psa/create-project-template.md)  
 
-1.  En la pestaña **Project Service** , haga clic en **Leer** > **Plantilla de proyecto de Project Service Automation**.  
+1.  En la pestaña **Project Service**, haga clic en **Leer** > **Plantilla de proyecto de Project Service Automation**.  
 
 2.  Elija una plantilla de proyecto de la lista y después haga clic en **Abrir**.  
 
@@ -78,7 +78,7 @@ ms.locfileid: "4085278"
 
 1.  En la pestaña Project Service, seleccione una fila y haga clic en **Buscar recursos**.  
 
-2.  En la pantalla **Reservar recurso** , seleccione el recurso que desee usar para el proyecto.  
+2.  En la pantalla **Reservar recurso**, seleccione el recurso que desee usar para el proyecto.  
 
 3.  Haga clic en **Reservar** y, a continuación, en **Aceptar**.  
 
@@ -95,9 +95,9 @@ El proyecto se importará en [!INCLUDE[pn_project_service_auto](../includes/pn-p
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Uso**    |    Importaciones en [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] la pantalla **Estimaciones del proyecto**.     |
 
 **Para importar y publicar el proyecto**  
-1. En la pestaña **Project Service** , haga clic en **Publicar** > **Nuevo proyecto de Project Service Automation**.  
+1. En la pestaña **Project Service**, haga clic en **Publicar** > **Nuevo proyecto de Project Service Automation**.  
 
-2. En el cuadro de diálogo **Publicar en un nuevo proyecto en Project Service** , escriba el **Nombre del proyecto** y seleccione **Cliente**.  
+2. En el cuadro de diálogo **Publicar en un nuevo proyecto en Project Service**, escriba el **Nombre del proyecto** y seleccione **Cliente**.  
 
 3. Active opcionalmente **Vincular el plan del proyecto a Project Service Automation** para vincular el archivo de Project con Project Service Automation.  
 
@@ -139,11 +139,11 @@ El proyecto se importará en [!INCLUDE[pn_project_service_auto](../includes/pn-p
 
 2. Seleccione **A documentos de proyecto de Project Service Automation**.  
 
-3. En el diálogo **Habilitar Abrir en [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** , seleccione **Sí** o **No**.  
+3. En el diálogo **Habilitar Abrir en [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**, seleccione **Sí** o **No**.  
 
-   - Si hace clic en **Sí** , podrá seleccionar el botón **Abrir en [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** en Project Service Automation, iniciar [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] y cargar el archivo de Project desde la biblioteca de documentos de SharePoint.  
+   - Si hace clic en **Sí**, podrá seleccionar el botón **Abrir en [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** en Project Service Automation, iniciar [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] y cargar el archivo de Project desde la biblioteca de documentos de SharePoint.  
 
-   - Si hace clic en **No** , el vínculo para abrir en el botón **Abrir en [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** no funcionará.  
+   - Si hace clic en **No**, el vínculo para abrir en el botón **Abrir en [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** no funcionará.  
 
 4. El archivo [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] se puede encontrar en [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] en **Documentos** para el proyecto de [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] específico.  
 
@@ -153,20 +153,20 @@ El proyecto se importará en [!INCLUDE[pn_project_service_auto](../includes/pn-p
 
 2. Seleccione **A documentos de proyecto de Project Service Automation**.  
 
-3. En el diálogo **Habilitar Abrir en [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** , seleccione **Sí** o **No**.  
+3. En el diálogo **Habilitar Abrir en [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**, seleccione **Sí** o **No**.  
 
-   - Si hace clic en **Sí** , podrá seleccionar el botón **Abrir en [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** en Project Service Automation, iniciar [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] y cargar el archivo de Project desde la biblioteca de documentos de SharePoint.  
+   - Si hace clic en **Sí**, podrá seleccionar el botón **Abrir en [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** en Project Service Automation, iniciar [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] y cargar el archivo de Project desde la biblioteca de documentos de SharePoint.  
 
-   - Si hace clic en **No** , el vínculo para abrir en el botón **Abrir en [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** no funcionará.  
+   - Si hace clic en **No**, el vínculo para abrir en el botón **Abrir en [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** no funcionará.  
 
 4. El archivo [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] se puede encontrar en [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] en **Documentos** para el proyecto de [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] específico.  
 
 ## <a name="publish--your-project-as-a-template"></a>Publicar el proyecto como plantilla  
  Puede guardar el proyecto y reusarlo guardándolo como plantilla de proyecto en [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  Las plantillas de proyecto son planes de proyecto reutilizables en [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Crear una plantilla de proyecto (Project Service Automation)](../psa/create-project-template.md)  
 
-1. En la pestaña **Project Service** , haga clic en **Publicar** > **Nueva plantilla de proyecto de Project Service Automation**.  
+1. En la pestaña **Project Service**, haga clic en **Publicar** > **Nueva plantilla de proyecto de Project Service Automation**.  
 
-2. En la plantilla **Publicar un nuevo proyecto en Project Service** , escriba el **Nombre de plantilla de proyecto**.  
+2. En la plantilla **Publicar un nuevo proyecto en Project Service**, escriba el **Nombre de plantilla de proyecto**.  
 
 3. Active opcionalmente **Vincular el plan del proyecto a Project Service Automation** para vincular el archivo de Project con [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 

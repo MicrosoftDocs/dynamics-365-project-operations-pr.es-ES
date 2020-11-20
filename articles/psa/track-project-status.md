@@ -3,7 +3,7 @@ title: Realizar un seguimiento del estado de un proyecto
 description: Cómo hacer seguimiento del estado de un proyecto en Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 70d07c98bd9432712e939445dbf867b96642f5ba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00b6d874b42a415fe567d17e49c0ea319d8952a0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085234"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127854"
 ---
 # <a name="track-a-projects-status-project-service"></a>Seguir el estado de un proyecto (Project Service)
 
@@ -40,7 +40,7 @@ A medida que la participación progresa, las fases del proyecto se actualizan pa
 |  **Oferta**   |      Cuando asocia un proyecto a una oferta o lo crea desde una oferta, la fase del proyecto se establece en **Oferta** y las fechas de inicio y finalización estimadas también se actualizan. Cuando el proyecto está en la fase de oferta, los detalles de la oferta se muestran en la pestaña **Ventas** en la página **Proyecto**.      |
 |   **Planificar**   |                                     Si gana una oferta asociada a un proyecto y, cuando la participación progresa a la fase de contrato, la fase del proyecto se actualiza a **Plan**. Los detalles del contrato se muestran en la pestaña **Ventas** en la página **Proyecto**.                                      |
 | **Completada** |                    Cuando se completa el trabajo del proyecto, puede cambiar la fase a **Completado**. Cuando la fase del proyecto se establece como completada, se entiende que el trabajo se ha completado al 100% pero el proyecto se mantiene abierto para cualquier entrada de tiempo o gasto pendiente de registrar.                     |
-|  **Cerrar**   |           Cuando todas las transacciones se han registrado en el proyecto y no espera que se registren más, puede establecer manualmente la fase a **Cierre**. Cuando el proyecto se establece en **Cierre** , no puede registrar más transacciones en el proyecto y el proyecto será de solo lectura.           |
+|  **Cerrar**   |           Cuando todas las transacciones se han registrado en el proyecto y no espera que se registren más, puede establecer manualmente la fase a **Cierre**. Cuando el proyecto se establece en **Cierre**, no puede registrar más transacciones en el proyecto y el proyecto será de solo lectura.           |
 
 ## <a name="to-track-a-projects-status"></a>Para realizar un seguimiento del estado de un proyecto  
 

@@ -3,7 +3,7 @@ title: Programar un proyecto con una estructura de descomposición del trabajo
 description: Cómo programar un proyecto con una estructura de descomposición del trabajo en Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d77d9f8427f06015d4f4cb9438d7f59ac840b061
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 04f30f2f2ed93dd1525f1c86a7521cdbf39a77bc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085330"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127899"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Programe un proyecto con una estructura de descomposición del trabajo (Project Service)
 
@@ -86,14 +86,14 @@ Usará los siguientes tipos de tareas al crear la estructura de descomposición 
   
 ### <a name="schedule-attributes"></a>Atributos de programación
 
- - Asigne valores a **Horas de esfuerzo** , **Número de recursos** , **Fecha de inicio** , **Fecha de finalización** , **Duración** para determinar la programación de la tarea. 
+ - Asigne valores a **Horas de esfuerzo**, **Número de recursos**, **Fecha de inicio**, **Fecha de finalización**, **Duración** para determinar la programación de la tarea. 
  - **Esfuerzo** es una estimación de las horas que se tarda en llevar a cabo la tarea.
  - **Número de recursos** es cálculo que el jefe del proyecto incluye en la tarea para ayudar a elaborar la programación mejor posible. 
  - **Duración** (en días) indica el número de días laborables que se requiere para llevar a cabo la tarea.  
   
 ### <a name="staffing-attributes"></a>Atributos de personal
 
- - **Rol** , **Unidad organizativa de recursos** , **Número de recursos** y **Recursos** describen los requisitos de personal para la tarea. 
+ - **Rol**, **Unidad organizativa de recursos**, **Número de recursos** y **Recursos** describen los requisitos de personal para la tarea. 
  - **Rol** describe el tipo de recurso necesario para llevar a cabo la tarea. 
  - **Unidad organizativa de recursos** indica la unidad organizativa de la que debe obtenerse de recursos de personal para esa tarea; esto también afecta a la estimación costes y ventas de la tarea, ya que se contabiliza al determinar el precio de venta unitario para el recurso. 
  - **Recursos** contiene un recurso genérico o un recurso con nombre cuando se encuentra uno.  

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8c0fe18b33207f73848709b99334f64aadc7867a
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: fda8fee6dcf55126077fb6b8c502ee9dada9b44c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085064"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125604"
 ---
 # <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Importar estimaciones de un proyecto a una línea de oferta basada en proyecto
 
@@ -23,7 +23,7 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no en e
 Si se crea un proyecto durante la fase de preventa, puede seleccionar importar la estimación financiera del proyecto a la línea de oferta basada en el proyecto.
 
 1. Asegúrese de que la línea de oferta basada en el proyecto tenga la información del campo **Proyecto**.
-2. En la pestaña **Detalles de línea de oferta** , seleccione **Importar desde estimación de proyecto**.
+2. En la pestaña **Detalles de línea de oferta**, seleccione **Importar desde estimación de proyecto**.
 3. En la página de diálogo que se abre, seleccione una de las siguientes opciones de resumen:
 
   - **Clase de transacción**
@@ -31,7 +31,7 @@ Si se crea un proyecto durante la fase de preventa, puede seleccionar importar l
   - **Rol** 
   - **Tarea de proyecto**
 
-Según su selección, se copia la estimación del proyecto para todas las clases de transacciones incluidas en esta línea de oferta. Para comprobar qué clases de transacciones están incluidas, seleccione la pestaña **General** de la línea de oferta basada en el proyecto, y verifique los valores para **Incluir tiempo** , **Incluir gastos** e **Incluir tarifas**.
+Según su selección, se copia la estimación del proyecto para todas las clases de transacciones incluidas en esta línea de oferta. Para comprobar qué clases de transacciones están incluidas, seleccione la pestaña **General** de la línea de oferta basada en el proyecto, y verifique los valores para **Incluir tiempo**, **Incluir gastos** e **Incluir tarifas**.
 
 Cuando importe estimaciones, el sistema establecerá el precio predeterminado según las listas de precios del proyecto adjuntas a la oferta y el tipo de facturación configurado en la línea de oferta basada en el proyecto. Si una función o categoría se configura en la línea de oferta basada en el proyecto como no imputable, la línea de estimación importada se establecerá como no imputable y no se sumará al valor cotizado de la línea de oferta.
 

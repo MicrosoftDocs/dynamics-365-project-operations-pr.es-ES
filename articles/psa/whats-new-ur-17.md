@@ -3,7 +3,7 @@ title: Novedades o cambios en la versión de actualización 17, V3, de Project S
 description: En este tema se muestran las características y correcciones que están disponibles en la versión de actualización 17, V3, de Project Service Automation.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 03/06/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ba685568692dafe117de42a71bb14d391cd7cc4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bb93208217972639f91b39b7b6705d9897373ef7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085104"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126829"
 ---
 # <a name="project-service-automation-update-release-17-v3"></a>Versión de actualización de Project Service Automation 17, V3
 
@@ -52,6 +52,6 @@ En este tema se muestran las características y correcciones que son nuevas o qu
 **Sales**
 
 - Corregido: **Invoice.PreValidateInvoiceUpdate** ahora controla el escenario de la reasignación de propietarios de registros de manera adecuada.
-- Corregido: Cuando la clase de transacción es **Hora** , **UnitGroup** es no editable para todas las entidades, incluyendo, **QuoteLineDetails** , **JournalLine** , **InvoiceLineDetail** y **ContractLineDetails**. Sin embargo, **Unidad** es no editable solo para **JournalLine** y **FacturaLíneaDetalles**.
+- Corregido: Cuando la clase de transacción es **Hora**, **UnitGroup** es no editable para todas las entidades, incluyendo, **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail** y **ContractLineDetails**. Sin embargo, **Unidad** es no editable solo para **JournalLine** y **FacturaLíneaDetalles**.
 
 

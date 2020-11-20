@@ -2,7 +2,7 @@
 title: Novedades o cambios del primer lanzamiento de 2020 de la versión 3.x de Project Service Automation
 description: Este tema proporciona información sobre las novedades y los cambios en el primer lanzamiento de Project Service Automation versión 3, 2020.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 16b51995f863d9ee54172625dacbf081c51c8556
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2308f83e09c25059b6a36599b04b5b00f66c704f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085094"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126504"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Novedades o cambios del primer lanzamiento de 2020 de la versión 3 de Project Service Automation
 El tema resalta las consideraciones de actualización clave al pasar a la última versión del primer lanzamiento de Project Service Automation (PSA) versión 3.x, 2020.
 
 ## <a name="time-entry"></a>Entrada de tiempo
-La experiencia de entrada de tiempo se ha ampliado para ofrecer capacidades para ampliar la entrada de tiempo en más escenarios de clientes. Esto incluye la capacidad de agregar tipos de entrada, que ahora impulsan un comportamiento específico basado en el nombre del esquema de campo **Configuración de entrada de tiempo** , que se muestra como **Origen de la hora**. Se ha agregado una nueva solución, llamada Tiempo, Gasto, Estado y Aprobaciones (TESA) para admitir esta funcionalidad.
+La experiencia de entrada de tiempo se ha ampliado para ofrecer capacidades para ampliar la entrada de tiempo en más escenarios de clientes. Esto incluye la capacidad de agregar tipos de entrada, que ahora impulsan un comportamiento específico basado en el nombre del esquema de campo **Configuración de entrada de tiempo**, que se muestra como **Origen de la hora**. Se ha agregado una nueva solución, llamada Tiempo, Gasto, Estado y Aprobaciones (TESA) para admitir esta funcionalidad.
 
 ### <a name="upgrade-consideration"></a>Consideración sobre actualizaciones
 Para admitir esta funcionalidad, se han actualizado los roles dentro de PSA para incluir nuevos privilegios. Estos privilegios conceden acceso de lectura a la nueva entidad, **Configuración de entrada de tiempo**.

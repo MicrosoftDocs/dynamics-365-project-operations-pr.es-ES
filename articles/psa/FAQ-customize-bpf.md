@@ -2,7 +2,7 @@
 title: ¿Cómo personalizo el flujo de proceso de negocio de las fases del proyecto?
 description: Información general sobre cómo personalizar el flujo de proceso de negocio de fases del proyecto?
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2dccc33088cd9e49e7ffe609f9d9754ef33a5dba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a999bbffff848db7a6349df380d9ed5e73c143ab
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085334"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125064"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>¿Cómo personalizo el flujo de proceso de negocio de las fases del proyecto?
 [!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
-Existe una limitación conocida en versiones anteriores de la aplicación Project Service que los nombres de las fases en el flujo de proceso de negocio de las fases de proyecto deben coincidir exactamente con los nombres esperados en inglés ( **Quote** , **Plan** , **Close** ). En caso contrario, la lógica de negocios, que se basan en nombres de fases en inglés, no funciona correctamente. Por eso no se ven acciones familiares como **Cambiar proceso** o **Editar proceso** disponibles en el formulario de proyecto, y no se fomenta la personalización del flujo de proceso de negocio. 
+Existe una limitación conocida en versiones anteriores de la aplicación Project Service que los nombres de las fases en el flujo de proceso de negocio de las fases de proyecto deben coincidir exactamente con los nombres esperados en inglés (**Quote**, **Plan**, **Close**). En caso contrario, la lógica de negocios, que se basan en nombres de fases en inglés, no funciona correctamente. Por eso no se ven acciones familiares como **Cambiar proceso** o **Editar proceso** disponibles en el formulario de proyecto, y no se fomenta la personalización del flujo de proceso de negocio. 
 
 Esta limitación se ha abordado en la versión 2.4.5.48 y posteriores. Este artículo ofrece las soluciones alternativas sugeridas si necesita personalizar el flujo de proceso de negocio predeterminado para versiones anteriores.  
 
@@ -48,7 +48,7 @@ En la aplicación Project Service versión 1.x en la plataforma 8.2, cuando no c
 
 En la aplicación Project Service versión 2.4.4.30 o anterior en la plataforma 9.0, se produjo un cambio arquitectónico relevante para los flujos de proceso de negocio, que requerían una reescritura de la lógica de negocios de flujo de proceso de negocio. Por ello, si no coinciden los nombres de fases de procesos con los nombres ingleses esperados, aparece un mensaje de error. 
 
-Por tanto, si desea personalizar el flujo de proceso de negocio de las fases de proyecto para la entidad de proyecto, solo puede agregar nuevas fases al flujo de proceso de negocio predeterminado para la entidad de proyecto, manteniendo las fases **Quote** , **Plan** y **Close** como se encuentran. Esta restricción garantiza que no recibe errores de la lógica de negocios que espera los nombres de fases ingleses en el flujo de proceso de negocio.
+Por tanto, si desea personalizar el flujo de proceso de negocio de las fases de proyecto para la entidad de proyecto, solo puede agregar nuevas fases al flujo de proceso de negocio predeterminado para la entidad de proyecto, manteniendo las fases **Quote**, **Plan** y **Close** como se encuentran. Esta restricción garantiza que no recibe errores de la lógica de negocios que espera los nombres de fases ingleses en el flujo de proceso de negocio.
 
 En la versión 2.4.5.48 o versiones posteriores, la lógica de negocios descrita en este artículo se ha quitado del flujo de proceso de negocio predeterminado para la entidad de proyecto. La actualización a esa versión o posterior le permitirá personalizar o reemplazar el flujo de proceso de negocio predeterminado con uno propio. 
 
@@ -56,12 +56,12 @@ En la versión 2.4.5.48 o versiones posteriores, la lógica de negocios descrita
 
 Si la actualización no es una opción, puede personalizar el flujo de proceso de negocio de las fases de proyecto para la entidad de proyecto de una de estas dos formas:
 
-1. Agregue fases adicionales a la configuración predeterminada, manteniendo los nombres de fases ingleses para **Quote** , **Plan** y **Close**.
+1. Agregue fases adicionales a la configuración predeterminada, manteniendo los nombres de fases ingleses para **Quote**, **Plan** y **Close**.
 
 
 ![Captura de pantalla de cómo agregar fases a la configuración predeterminada](media/FAQ-Customize-BPF-1.png)
  
-2. Cree su propio flujo de proceso de negocio y conviértalo en el flujo de proceso de negocio principal para la entidad de proyecto, lo que le permite tener los nombres de etapa que desee. Sin embargo, si desea usar las mismas fases estándar de proyecto **Quote** , **Plan** y **Close** , necesita realizar algunas personalizaciones que se toman de sus nombres de fases personalizados. La lógica más compleja está en el cierre del proyecto, que usted puede desencadenar desactivando el registro del proyecto.
+2. Cree su propio flujo de proceso de negocio y conviértalo en el flujo de proceso de negocio principal para la entidad de proyecto, lo que le permite tener los nombres de etapa que desee. Sin embargo, si desea usar las mismas fases estándar de proyecto **Quote**, **Plan** y **Close**, necesita realizar algunas personalizaciones que se toman de sus nombres de fases personalizados. La lógica más compleja está en el cierre del proyecto, que usted puede desencadenar desactivando el registro del proyecto.
 
 ![Personalización de BPF](media/FAQ-Customize-BPF-2.png)
 
@@ -81,7 +81,7 @@ Siga estas instrucciones para crear su propio flujo de proceso de negocio para l
 
   ![Crear proceso](media/FAQ-Customize-BPF-3.png)
 
-2. Use el diseñador del proceso para crear los nombres de fases que desee. Si desea la misma funcionalidad que las fases predeterminadas para **Quote** , **Plan** y **Close** , tendrá que crearla basada en los nombres de fase del flujo de proceso de negocio personalizado.
+2. Use el diseñador del proceso para crear los nombres de fases que desee. Si desea la misma funcionalidad que las fases predeterminadas para **Quote**, **Plan** y **Close**, tendrá que crearla basada en los nombres de fase del flujo de proceso de negocio personalizado.
 
    ![Captura de pantalla del diseñador del proceso usado para personalizar BPF](media/FAQ-Customize-BPF-4.png) 
 

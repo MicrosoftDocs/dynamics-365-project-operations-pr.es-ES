@@ -3,7 +3,7 @@ title: Novedades o cambios en la versión de actualización 21, V3, de Project S
 description: En este tema se muestran las características y correcciones que están disponibles en la versión de actualización 21, V3, de Project Service Automation.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e8a15d5f723da528640c62c1892bac0d801c2bee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 799be481c365e82e8ffb59ba242e30378644008b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085099"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126729"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Versión de actualización de Project Service Automation 21, V3
 
@@ -54,7 +54,7 @@ Se han solucionado los siguientes problemas:
 
 Se han solucionado los siguientes problemas:
 
-- Las cuadrículas del formulario **Proyecto** ( **Asignación de recursos** , **Tarea** , la vista **Conciliación** , **Estimaciones de gastos** ) permanecen editables incluso cuando un proyecto no está activo.
+- Las cuadrículas del formulario **Proyecto** (**Asignación de recursos**, **Tarea**, la vista **Conciliación**, **Estimaciones de gastos**) permanecen editables incluso cuando un proyecto no está activo.
 - Los clientes duplicados no se pueden fusionar con los clientes que están vinculados a contratos de proyecto confirmados.
 - Cuando se agrega un recurso que no tiene un calendario válido, el sistema no devuelve un mensaje de error descriptivo.
 - El botón **Agregar tarea** en la cuadrícula de tareas está habilitado cuando el proyecto está vinculado al **complemento de Microsoft Project**.

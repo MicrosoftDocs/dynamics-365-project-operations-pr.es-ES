@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6b1ebdc97ec4704ba256acb521c0f2e7c474940b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085255"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128484"
 ---
 # <a name="pricing-dimensions-overview"></a>Información general de dimensiones de precios
 
@@ -35,19 +35,19 @@ Las dimensiones que se utilizan en los recursos humanos para establecer los prec
 
 Debido a esto, hay dos tipos de valores de dimensión de precios disponibles:
 
-- **Conjuntos de opciones** : dimensiones que son enumeraciones fijas para un conjunto de valores.
-- **Valores basados en entidad** : dimensiones que son enumeraciones fijas para un conjunto de valores.
+- **Conjuntos de opciones**: dimensiones que son enumeraciones fijas para un conjunto de valores.
+- **Valores basados en entidad**: dimensiones que son enumeraciones fijas para un conjunto de valores.
 
 ## <a name="pricing-dimensions"></a>Dimensiones de precios
 
-Dynamics 365 Project Operations se envía con un conjunto predeterminado de dimensiones de precios. Puede ver estas dimensiones de precios yendo a **Project Operations** > **Parámetros**. En el registro de parámetros, en la pestaña **Dimensión de precios basados en importes** , verifique que el rol **msdyn_resourcecategory** y la unidad organizativa de recursos **msdyn_organizationalunit** tenga los campos **Aplicable a ventas** y **Aplicable a costes** establecido en **Sí**. Con estos cambios habilitados, puede configurar el precio y el coste de cada combinación de roles y unidades organizativas.
+Dynamics 365 Project Operations se envía con un conjunto predeterminado de dimensiones de precios. Puede ver estas dimensiones de precios yendo a **Project Operations** > **Parámetros**. En el registro de parámetros, en la pestaña **Dimensión de precios basados en importes**, verifique que el rol **msdyn_resourcecategory** y la unidad organizativa de recursos **msdyn_organizationalunit** tenga los campos **Aplicable a ventas** y **Aplicable a costes** establecido en **Sí**. Con estos cambios habilitados, puede configurar el precio y el coste de cada combinación de roles y unidades organizativas.
 
 Si necesita fijar el precio o el coste de sus recursos mediante atributos adicionales, puede crear campos, entidades y dimensiones personalizados.
 
 ## <a name="pricing-human-resource-time"></a>Precios del tiempo de recursos humanos
 La forma en que una organización establece el precio para el tiempo de los recursos humanos es a menudo una consideración estratégica importante que afecta directamente la rentabilidad de la organización. Trabaje con los equipos de finanzas y los directores de práctica cuando su organización esté lista para identificar cómo quiere establecer las tarifas y los costes del tiempo de recursos humanos.
 
-Otras consideraciones para los precios incluyen si se deben reutilizar campos o entidades que actualmente no son dimensiones de precios, pero que se aplican como una dimensión de precios para su organización. Los campos como **Categoría de transacción** ( **msdyn_transactioncategory** ) y **Recurso que se puede reservar** ( **bookableresource** ) son ejemplos de dimensiones candidatas. 
+Otras consideraciones para los precios incluyen si se deben reutilizar campos o entidades que actualmente no son dimensiones de precios, pero que se aplican como una dimensión de precios para su organización. Los campos como **Categoría de transacción** (**msdyn_transactioncategory**) y **Recurso que se puede reservar** (**bookableresource**) son ejemplos de dimensiones candidatas. 
 
 Considere si su dimensión de precios debe ser una tabla o un conjunto de opciones. Si prevé cambios en los valores de una dimensión que supere 10 o 12 y necesita atributos adicionales en estos valores, puede crear una entidad en lugar de un conjunto de opciones. Mantener un conjunto de opciones, como agregar o eliminar valores, requiere un administrador o desarrollador, mientras que la mayoría de los usuarios pueden agregar nuevas filas a una tabla.
 

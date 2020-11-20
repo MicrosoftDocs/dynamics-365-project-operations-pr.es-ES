@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c8ac11d45c1d28967eaf5d76b326950ebd0c8eb3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 988d3338f19443f1d8bcb7cf77e69aa3c1cff155
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085001"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128799"
 ---
 # <a name="edit-a-resource-requirement"></a>Editar un requisito de recursos
 
@@ -26,7 +26,7 @@ Una vez que el requisito de recursos está definido mediante la acción **Genera
 Como gerente de proyecto, complete los siguientes pasos para editar los requisitos de recursos de un miembro del equipo.
 
 1. Vaya a la cuadrícula de miembros del equipo, ubique al miembro del equipo en la lista y seleccione el vínculo a los requisitos de recursos asociados.
-2. En el formulario **Detalles del requisito** , actualice los siguientes atributos según sea necesario.
+2. En el formulario **Detalles del requisito**, actualice los siguientes atributos según sea necesario.
 
 - Aptitudes
 - Roles
@@ -36,4 +36,4 @@ Como gerente de proyecto, complete los siguientes pasos para editar los requisit
 
 ## <a name="edit-resource-assignment-contours"></a>Editar contornos de asignación de recursos
 
-Además de editar los detalles de los requisitos de recursos, un gerente de proyecto puede actualizar los contornos individuales de los requisitos de recursos utilizando la funcionalidad **Especificar patrón**. Cuando se selecciona **Especificar patrón** , se abre una página y puede ver los contornos en la escala de tiempo de día, semana o mes. Cada contorno se puede ajustar para la hora de inicio, la hora de finalización y el esfuerzo total en un período determinado.
+Además de editar los detalles de los requisitos de recursos, un gerente de proyecto puede actualizar los contornos individuales de los requisitos de recursos utilizando la funcionalidad **Especificar patrón**. Cuando se selecciona **Especificar patrón**, se abre una página y puede ver los contornos en la escala de tiempo de día, semana o mes. Cada contorno se puede ajustar para la hora de inicio, la hora de finalización y el esfuerzo total en un período determinado.

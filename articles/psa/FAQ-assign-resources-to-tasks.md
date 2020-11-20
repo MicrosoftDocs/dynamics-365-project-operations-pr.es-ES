@@ -3,7 +3,7 @@ title: Asignar un recurso a una tarea
 description: En este tema se proporciona información sobre cómo asignar recursos a tareas.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 77f13d1e96b76dfea241fbf7a67d5676582f0235
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b7aef799ec4b90d602a6f3641cbac06264664f00
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085337"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125154"
 ---
 # <a name="assign-a-resource-to-a-task"></a>Asignar un recurso a una tarea
 
@@ -33,9 +33,9 @@ Hay tres formas de asignar un recurso a una tarea en Microsoft Dynamics 365 Proj
 
 Puede agregar un recurso al equipo del proyecto y después asignar el recurso a tareas en la programación del proyecto.
 
-1. En la pestaña **Miembro del equipo** , agregue un nuevo miembro del equipo seleccionando **Nuevo**. 
+1. En la pestaña **Miembro del equipo**, agregue un nuevo miembro del equipo seleccionando **Nuevo**. 
 
-2. Se abrirá el panel **Creación rápida de miembros del equipo** , donde podrá seleccionar el nombre del recurso que se puede reservar y definir un rol. 
+2. Se abrirá el panel **Creación rápida de miembros del equipo**, donde podrá seleccionar el nombre del recurso que se puede reservar y definir un rol. 
 
     Seleccione uno de los siguientes métodos de asignación para la reservar del recurso:
 
@@ -45,10 +45,10 @@ Puede agregar un recurso al equipo del proyecto y después asignar el recurso a 
     - **Por horas: cargo por adelantado** reserva el recurso para un número especificado de horas, cargando por adelantado las horas diarias a lo largo de las fechas de inicio y fin especificadas.
     - **Ninguno** agrega el recurso al equipo, pero no crea ninguna reserva que absorba su capacidad.
 
-3. En la cuadrícula **Programación** de una tarea, seleccione el icono **Recurso** en la celda de recursos y después, en **Miembros del equipo** , seleccione el miembro del equipo que acaba de agregar. 
+3. En la cuadrícula **Programación** de una tarea, seleccione el icono **Recurso** en la celda de recursos y después, en **Miembros del equipo**, seleccione el miembro del equipo que acaba de agregar. 
 
 > [!NOTE]
-> En las pestañas **Miembro del equipo** y **Conciliación** , el recurso muestra las horas reservadas y las horas asignadas. Las horas deben ser las mismas, pero no necesariamente, ya que las reservas y las asignaciones no están emparejadas firmemente. La pestaña **Conciliación** proporciona detalles cuando son diferentes, como cuando se asigna un recurso por más horas de las que se ha reservado. Si es necesario, puede corregir la información ampliando las reservas del recurso, o bien modificando la asignación.
+> En las pestañas **Miembro del equipo** y **Conciliación**, el recurso muestra las horas reservadas y las horas asignadas. Las horas deben ser las mismas, pero no necesariamente, ya que las reservas y las asignaciones no están emparejadas firmemente. La pestaña **Conciliación** proporciona detalles cuando son diferentes, como cuando se asigna un recurso por más horas de las que se ha reservado. Si es necesario, puede corregir la información ampliando las reservas del recurso, o bien modificando la asignación.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Crear un miembro del equipo genérico con la asignación de tareas
 
@@ -58,7 +58,7 @@ Cuando cree un miembro del equipo genérico mediante la asignación de tareas, c
 
 2. Escriba un nombre que sirva como nombre del recurso de marcador de posición. Por ejemplo, Administrador de programas.
 
-3. Seleccione **Crear** y, en el campo **Creación rápida de miembro del equipo de proyecto** , defina el rol para el recurso genérico.
+3. Seleccione **Crear** y, en el campo **Creación rápida de miembro del equipo de proyecto**, defina el rol para el recurso genérico.
 
 4. Puede continuar asignando tareas a este recurso de marcador de posición seleccionando el recurso en el **Selector de recursos** para la tarea. Aparecen en **Miembros del equipo**.
 

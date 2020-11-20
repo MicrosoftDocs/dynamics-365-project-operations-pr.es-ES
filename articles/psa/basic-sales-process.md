@@ -3,7 +3,7 @@ title: Procesos de venta
 description: En este tema se proporciona información sobre los procesos de ventas básicos.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f09b30fe6d842faaf896cb97f44b060ec4049213
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38e02018e46943f53680babd12c7bede0a5d19de
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085262"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129339"
 ---
 # <a name="sales-processes"></a>Procesos de venta
 
@@ -70,21 +70,21 @@ Estas seis fases se representan con cheurones (\>) que se pueden seleccionar par
  
 Su organización puede usar distintas entidades para representar la misma operación a medida que evoluciona. Al principio del proceso de ventas, una operación se representa con la entidad Oportunidad. A medida que pasa el tiempo y afloran más detalles, puede utilizar estimaciones generales para crear una o varias ofertas. Si las partes interesadas del cliente e internas revisan una de dichas ofertas, la operación pasa a representarse con la entidad Oferta. Cuando el cliente acepta la oferta, la operación pasa a representarse con un contrato de proyecto o una SOW. Para facilitar este comportamiento, los BPF se estructuran de manera a que cada fase del proceso esté vinculada a una tabla de base de datos distinta.
 
-La fase **Calificar** del proceso de ventas se puede respaldar con la entidad Oportunidad. Las fases **Estimar** y **Revisión interna** se pueden respaldar con la entidad Oferta. Las fases **Contrato** , **Entrega** y **Cerrar** Se pueden respaldar con la entidad Contrato de proyecto.
+La fase **Calificar** del proceso de ventas se puede respaldar con la entidad Oportunidad. Las fases **Estimar** y **Revisión interna** se pueden respaldar con la entidad Oferta. Las fases **Contrato**, **Entrega** y **Cerrar** Se pueden respaldar con la entidad Contrato de proyecto.
 
 A medida que las operaciones pasen por las distintas fases, se le pedirá que cree el registro de entidad correspondiente como ayuda y guía durante el proceso. Las fases pueden ser condicionales. Por ejemplo, si necesita una revisión interna de una oferta solo si la oferta usa una lista de precios personalizada, puede configurar la condición en la fase adecuada del proceso de negocio. La fase **Revisión interna** solo se muestra para las ofertas que utilizan una lista de precios personalizada. Para el resto de operaciones y ofertas, la fase **Estimación** va seguida de la fase **Contrato**.
 
 > [!NOTE]
-> PSA cuenta con páginas específicas para las entidades Oportunidad, Oferta, Pedido y Factura. Debe crear oportunidades, ofertas, pedidos y facturas de servicios de proyecto mediante las páginas de información de proyecto de dichas entidades. Si usa otra página para crear un registro, no podrá abrir el registro desde la página **Información de proyecto**. Si desea abrir un registro desde la página **Información de proyecto** , debe eliminar el registro y volver a crearlo mediante la página **Información de proyecto**. En la página **Información de proyecto** , la lógica de negocios de cada uno de estos tipos de entidad garantiza que el campo **Tipo** del registro esté configurado correctamente y que todos los conceptos obligatorios se inicialicen correctamente.
+> PSA cuenta con páginas específicas para las entidades Oportunidad, Oferta, Pedido y Factura. Debe crear oportunidades, ofertas, pedidos y facturas de servicios de proyecto mediante las páginas de información de proyecto de dichas entidades. Si usa otra página para crear un registro, no podrá abrir el registro desde la página **Información de proyecto**. Si desea abrir un registro desde la página **Información de proyecto**, debe eliminar el registro y volver a crearlo mediante la página **Información de proyecto**. En la página **Información de proyecto**, la lógica de negocios de cada uno de estos tipos de entidad garantiza que el campo **Tipo** del registro esté configurado correctamente y que todos los conceptos obligatorios se inicialicen correctamente.
 
 > ![Información del proyecto para un nuevo pedido](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Diferencias entre Project Service Automation y Ventas
 Aunque el proceso de ventas de PSA usa las capacidades básicas del proceso de ventas de Ventas, este tiene algunas diferencias clave que se deben a las variaciones en las prácticas de negocio de las organizaciones basadas en proyecto. A continuación, encontrará algunos ejemplos:
 
-- **Ofertas de proyecto** : en Project Service Automation, una oferta se cierra después de crear un contrato de proyecto a partir de una oferta. En Ventas, se puede mantener una oferta abierta después de ganarla. La razón de esta diferencia es que la coincidencia entre una oferta y un contrato de proyecto es mejor para las organizaciones basadas en proyecto. 
-- **Activación y revisiones** : en PSA, la activación y las revisiones no son compatibles con las ofertas de proyecto. En Ventas, una oferta se puede bloquear para evitar ediciones adicionales.
-- **Cierre de una oferta como perdida o ganada** : en PSA, cuando una oferta de proyecto se cierra como ganada o perdida, la oportunidad permanece abierta. Todas las demás ofertas de la oportunidad se cierran como perdidas. En Ventas, cuando una oferta se cierra como ganada o perdida, se solicita al usuario que realice una acción en la oportunidad. Dependiendo de la entrada del usuario, la oportunidad subyacente se puede cerrar o dejar abierta.
+- **Ofertas de proyecto**: en Project Service Automation, una oferta se cierra después de crear un contrato de proyecto a partir de una oferta. En Ventas, se puede mantener una oferta abierta después de ganarla. La razón de esta diferencia es que la coincidencia entre una oferta y un contrato de proyecto es mejor para las organizaciones basadas en proyecto. 
+- **Activación y revisiones**: en PSA, la activación y las revisiones no son compatibles con las ofertas de proyecto. En Ventas, una oferta se puede bloquear para evitar ediciones adicionales.
+- **Cierre de una oferta como perdida o ganada**: en PSA, cuando una oferta de proyecto se cierra como ganada o perdida, la oportunidad permanece abierta. Todas las demás ofertas de la oportunidad se cierran como perdidas. En Ventas, cuando una oferta se cierra como ganada o perdida, se solicita al usuario que realice una acción en la oportunidad. Dependiendo de la entrada del usuario, la oportunidad subyacente se puede cerrar o dejar abierta.
 
 ## <a name="tracking-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>Seguimiento de revisiones de ofertas y planes de proyecto en el ciclo de ventas
 En PSA, no es posible realizar seguimientos de las revisiones de ofertas. En su lugar, debe marcar la oferta existente como **Cerrada como perdida** y crear una nueva oferta. Puede copiar una oferta o clonar una oferta basada en proyecto con PSA.

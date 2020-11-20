@@ -3,7 +3,7 @@ title: Costes e ingresos del proyecto
 description: En este tema se proporciona información sobre la estimación de costes e ingresos del proyecto.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9862b6c69596f5b998cf40691f8478bb87251583
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 282950c0ee21f430a2f20b21128830891c76c84a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085178"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127989"
 ---
 # <a name="project-costs-and-revenue"></a>Costes e ingresos del proyecto
 
@@ -80,7 +80,7 @@ En la vista en fases de tiempo, distribuya el esfuerzo total estimado para la ta
 
 ### <a name="work-hours-based-allocation"></a>Asignación basada en horas laborables
  
-En el modo de tareas de programación automática, las horas diarias predeterminadas para los recursos de la tarea se establecen en la tarifa por hora de trabajo completa. Este comportamiento se aplica cuando el esfuerzo se asigna al dividirlo en la duración de la tarea en la vista en fases temporales. Por ejemplo, si estima que una tarea se completará con un recurso en la escala de tiempo **Día** , el esfuerzo que se asigna por día no excederá las horas de trabajo por día que se definen en el calendario del proyecto. Por lo tanto, la asignación de esfuerzo siempre garantiza que los recursos se estimen para utilizarse durante todo el día.
+En el modo de tareas de programación automática, las horas diarias predeterminadas para los recursos de la tarea se establecen en la tarifa por hora de trabajo completa. Este comportamiento se aplica cuando el esfuerzo se asigna al dividirlo en la duración de la tarea en la vista en fases temporales. Por ejemplo, si estima que una tarea se completará con un recurso en la escala de tiempo **Día**, el esfuerzo que se asigna por día no excederá las horas de trabajo por día que se definen en el calendario del proyecto. Por lo tanto, la asignación de esfuerzo siempre garantiza que los recursos se estimen para utilizarse durante todo el día.
 
 ### <a name="even-allocation"></a>Asignación Par
 

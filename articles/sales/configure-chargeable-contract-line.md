@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d6f67d5dc6b94148d437b3399229c1235c702c6a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085085"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128723"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Configurar componentes facturables de una línea de contrato basada en proyectos
 
@@ -27,21 +27,21 @@ Un subconjunto de los componentes incluidos se puede marcar como facturable actu
 
 Los componentes facturables se pueden definir en roles y categorías de transacciones.
 
-La imputabilidad definida en roles para una línea de contrato de proyecto solo se aplica a la clase de transacción **Hora**. Si **Incluir tiempo** en una línea de contrato de proyecto está configurado en **No** , la pestaña **Roles facturables** no estará disponible.
+La imputabilidad definida en roles para una línea de contrato de proyecto solo se aplica a la clase de transacción **Hora**. Si **Incluir tiempo** en una línea de contrato de proyecto está configurado en **No**, la pestaña **Roles facturables** no estará disponible.
 
-La imputabilidad definida en categorías de transacción para una línea de contrato de proyecto solo se aplica a la clase de transacción **Gastos**. Si **Incluir gastos** en una línea de contrato de proyecto está configurado en **No** , la pestaña **Categorías facturables** no estará disponible.
+La imputabilidad definida en categorías de transacción para una línea de contrato de proyecto solo se aplica a la clase de transacción **Gastos**. Si **Incluir gastos** en una línea de contrato de proyecto está configurado en **No**, la pestaña **Categorías facturables** no estará disponible.
 
 ### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a>Actualizar un rol para ser facturable o no facturable
 
 Un rol puede ser facturable o no facturable en una línea de contrato específica.
 
-En la pestaña **Roles facturables** de una línea de contrato basada en proyectos, en la subcuadrícula **Categorías facturables** , en el campo **Tipo de facturación** , actualice el tipo de facturación para un rol.
+En la pestaña **Roles con cargo** de la línea de contrato basada en proyecto, en la subcuadrícula **Categorías con cargo**, en el campo **Tipo de facturación**, actualice el tipo de facturación de un rol.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Actualizar una categoría de transacción para ser facturable o no facturable
 
 Una categoría de transacción puede ser facturable o no facturable en una línea de contrato basada en proyectos específica.
 
-En la pestaña **Categorías facturables** de una línea de contrato basada en proyectos, en la subcuadrícula **Categorías facturables** , en el campo **Tipo de facturación** , actualice el tipo de facturación para una transacción.
+En la pestaña **Categorías con cargo** de la línea de contrato basada en proyecto, en la subcuadrícula **Categorías con cargo**, en el campo **Tipo de facturación**, actualice el tipo de facturación de una transacción.
 
 ### <a name="resolve-chargeability"></a>Resolver imputabilidad
 

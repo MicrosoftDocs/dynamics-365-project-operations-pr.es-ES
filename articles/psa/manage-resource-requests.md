@@ -3,7 +3,7 @@ title: Administrar solicitudes de recursos
 description: Cómo administrar solicitudes de recursos en Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49a2d2102246126f6edc9cb36a072583c566c95a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11d7e603755c9339c2d43b79ef65c27e3bb6e6fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085147"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129024"
 ---
 # <a name="manage-resource-requests-project-service"></a>Administrar solicitudes de recursos (Project Service)
 
@@ -37,11 +37,11 @@ Los administradores de cuentas y los jefes de proyecto solicitan regularmente re
   
     Realice cualquiera de estas acciones para optimizar la búsqueda:  
   
-   -   Seleccione una vista o un criterio de ordenación en la parte superior de la pantalla. También puede seleccionar si mostrar la disponibilidad para **Día** , **Semana** , **Mes** y usar las flechas para ver el período de tiempo anterior o siguiente. Use el cuadro de búsqueda para encontrar un recurso específico.  
+   -   Seleccione una vista o un criterio de ordenación en la parte superior de la pantalla. También puede seleccionar si mostrar la disponibilidad para **Día**, **Semana**, **Mes** y usar las flechas para ver el período de tiempo anterior o siguiente. Use el cuadro de búsqueda para encontrar un recurso específico.  
   
    -   Haga clic en **Opciones** para cambiar qué se muestra. Por ejemplo, puede mostrar una leyenda que muestre la combinación de colores para distintos tipos de reservaciones, o bien puede elegir mostrar sólo un tipo determinado de reserva (por ejemplo, reserva manual o reserva automática).  
   
-   -   Haga clic en **Filtrar** para mostrar el panel **Filtrar** , que permite filtrar los resultados por unidad organizativa, rol, habilidad, u otros atributos.  
+   -   Haga clic en **Filtrar** para mostrar el panel **Filtrar**, que permite filtrar los resultados por unidad organizativa, rol, habilidad, u otros atributos.  
   
        ![Solicitudes de recursos de Project Service](../psa/media/project-service-resource-request-screen.png "Solicitudes de recursos de Project Service")  
   
