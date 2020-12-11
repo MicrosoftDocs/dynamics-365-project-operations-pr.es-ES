@@ -38,6 +38,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Novedades
       items:
+        - name: 'Diciembre de 2020: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
+          href: whats-new/whats-new-dec-2020-resource-based.md
         - name: 'Noviembre de 2020: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Proceso de venta de proyectos
@@ -87,7 +89,7 @@
                 - name: Administrar varios clientes en líneas de ofertas basadas en proyectos
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: Configurar los componentes facturables de una línea de oferta de proyecto
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: Crear estimaciones sobre una línea de oferta
                   href: sales/create-estimate-quote-line.md
                 - name: Importar estimaciones de un proyecto a una línea de oferta basada en proyecto
@@ -109,7 +111,7 @@
             - name: Administrar listas de precios de proyectos en contratos de proyectos
               href: sales/contracts-manage-project-price-lists.md
             - name: Administrar varios clientes en contratos de proyectos
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: Líneas de contrato basadas en proyectos
               items:
                 - name: Información general de líneas de contrato basadas en proyectos
@@ -128,6 +130,14 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Copiar un contrato de proyecto
               href: pro/sales/copy-project-contracts-sales.md
+            - name: Pagos a cuenta y anticipos
+              items:
+                - name: Contratos basados en pagos a cuenta y anticipos (lite)
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: Configurar una programación de pagos a cuenta (lite)
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: Crear un anticipo ad hoc en un contrato (lite)
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Precios y costes
       items:
         - name: Configuración de lista de precios
@@ -158,10 +168,18 @@
           items:
             - name: Información general de dimensiones de precios
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Crear una solución para dimensiones de precios personalizadas
+              href: sales/create-solution-custompd.md
             - name: Usar campos existentes como dimensiones de precios
               items:
                 - name: Campos de Project Operations como dimensiones de precios
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Usar un recurso reservable como dimensión de precios
+                  href: sales/use-br-as-pd.md
+                - name: Usar la categoría de transacción como dimensión de precios
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Recurso reservable con varios roles en un proyecto
+                  href: sales/br-playing-multiple-roles.md
             - name: Campos personalizados como dimensiones de precios
               items:
                 - name: Crear campos y entidades personalizados como dimensiones de precios
@@ -170,6 +188,8 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: Configurar campos personalizados como dimensiones de precios
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Actualizar atributos de complementos para incluir nuevas dimensiones de precios
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Desactivar una dimensión de precios
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Administración de proyectos
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Administración de recursos
           items:
+            - name: Crear recursos
+              href: resource-management/create-resources.md
             - name: Definir habilidades y competencias
               href: resource-management/define-skills-proficiencies.md
+            - name: Definir roles
+              href: resource-management/define-roles.md
             - name: Definir calendarios de recursos
               href: resource-management/define-resource-calendars.md
         - name: Métodos de asignación de reservas
           href: resource-management/booking-allocation-methods.md
+        - name: Estados de reserva
+          href: resource-management/booking-status.md
         - name: Habilidades y modelos de competencia
           href: resource-management/skills-proficiency-models.md
         - name: Conciliación de recursos
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: Administrar una factura de proyecto proforma
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Facturar un anticipo o pago a cuenta
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Confirmar una factura de proyecto proforma
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: Configurar la automatización de facturas de proyecto
@@ -370,6 +398,32 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Diario de integración en Project Operations
           href: project-accounting/project-operations-integration-journal.md
+        - name: Facturación con empresas vinculadas
+          items:
+            - name: Información general de facturación con empresas vinculadas
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Configurar la facturación con empresas vinculadas
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Crear facturas de proveedores y clientes de empresas vinculadas
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: Crear transacciones de empresas vinculadas
+              href: project-accounting/create-intercompany-transactions.md
+    - name: Reconocimiento de ingresos
+      items:
+        - name: Introducción al reconocimiento de ingresos
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: Configurar reconocimiento de ingresos
+          items:
+            - name: Configurar tipos de períodos
+              href: project-accounting/period-types.md
+            - name: Configurar plantillas de costes
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: Administrar estimaciones de ingresos
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: Proyectos de estimación de ingresos a precio fijo
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: Coste para completar métodos
+          href: revenue-recognition/cost-complete-methods.md
 - name: 'Implementación simplificada: del acuerdo a la facturación proforma'
   items:
     - name: Tareas iniciales
@@ -386,6 +440,8 @@
           href: environment/security-model.md
     - name: Novedades
       items:
+        - name: 'Novedades de diciembre de 2020: implementación simplificada: del acuerdo a la facturación proforma'
+          href: pro/whats-new/whats-new-dec-2020-lite.md
         - name: 'Novedades de noviembre de 2020: implementación simplificada: del acuerdo a la facturación proforma'
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Proceso de venta de proyectos
@@ -538,10 +594,18 @@
           items:
             - name: Información general de dimensiones de precios
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Crear una solución para dimensiones de precios personalizadas
+              href: sales/create-solution-custompd.md
             - name: Usar campos existentes como dimensiones de precios
               items:
-                - name: Usar un campo existente como dimensión de precios
+                - name: Campos de Project Operations como dimensiones de precios
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Usar un recurso reservable como dimensión de precios
+                  href: sales/use-br-as-pd.md
+                - name: Usar la categoría de transacción como dimensión de precios
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Recurso reservable con varios roles en un proyecto
+                  href: sales/br-playing-multiple-roles.md
             - name: Campos personalizados como dimensiones de precios
               items:
                 - name: Crear campos y entidades personalizados como dimensiones de precios
@@ -550,6 +614,8 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: Configurar campos personalizados como dimensiones de precios
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Actualizar atributos de complementos para incluir nuevas dimensiones de precios
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Desactivar una dimensión de precios
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Administración de proyectos
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Administración de recursos
           items:
+            - name: Crear recursos
+              href: resource-management/create-resources.md
             - name: Definir habilidades y competencias
               href: resource-management/define-skills-proficiencies.md
+            - name: Definir roles
+              href: resource-management/define-roles.md
             - name: Definir calendarios de recursos
               href: resource-management/define-resource-calendars.md
         - name: Reservar métodos de asignación
           href: resource-management/booking-allocation-methods.md
+        - name: Estados de reserva
+          href: resource-management/booking-status.md
         - name: Habilidades y modelos de competencia
           href: resource-management/skills-proficiency-models.md
         - name: Conciliación de recursos
@@ -834,6 +906,8 @@
       items:
         - name: Programación de lanzamiento de actualizaciones para Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novedades y cambios de la versión de actualización 26, V3'
+          href: psa/whats-new-ur-26.md
         - name: 'Novedades y cambios de la versión de actualización 25, V3'
           href: psa/whats-new-ur-25.md
         - name: 'Novedades y cambios de la versión de actualización 24, V3'
@@ -928,7 +1002,7 @@
               href: psa/create-custom-fields-entities.md
             - name: Agregar campos personalizados a la configuración de precios y entidades transaccionales
               href: psa/field-references.md
-            - name: 'Configurar campos personalizados como dimensiones de precios '
+            - name: Configurar campos personalizados como dimensiones de precios
               href: psa/set-up-pricing-dimensions.md
             - name: Actualización de atributos de complementos para incluir nuevas dimensiones de precios
               href: psa/update-plug-in-attributes.md
