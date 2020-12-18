@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119439"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650249"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configurar campos personalizados como dimensiones de precios
 
@@ -41,9 +41,15 @@ En este tema se proporciona información sobre cómo configurar dimensiones de p
 Para que un campo se convierta en una dimensión de precios, debe:
 
 - Crearse como campo en las entidades **Precio de rol** y **Incrementos del precio de rol**. Para obtener más información sobre cómo hacer esto, consulte. [Adición de campos personalizados a la configuración de precios y entidades transaccionales](add-custom-fields-price-setup-transactional-entities.md).
+
 - Crearse como una fila en la tabla **Dimensión de precios**. Por ejemplo, agregue filas de dimensión de precios como se muestra en el siguiente gráfico. 
 
+![Importe: basado en las filas de dimensión de precios](media/Amt-based-PD.png)
+
 Horas de trabajo del recurso (**msdyn_resourceworkhours**) se agrega como dimensión basada en el incremento y que se ha agregado a la cuadrícula en la pestaña **Dimensión de precios basada en el incremento**.
+
+![Incremento: basado en las filas de dimensión de precios](media/Markup-based-PD.png)
+
 
 > [!IMPORTANT]
 > Cualquier cambio en los datos de dimensión de precios en esta tabla, existente o nuevo, se propaga a la lógica comercial de precios solo después de que se actualice la memoria caché. El tiempo de actualización de la memoria caché puede ser de hasta 10 minutos. Deje que transcurra ese período para ver los cambios en la lógica de incumplimiento de precios que deben generarse a partir de los cambios en los datos de dimensión de precios.

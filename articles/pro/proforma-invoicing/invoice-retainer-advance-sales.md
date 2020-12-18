@@ -1,5 +1,5 @@
 ---
-title: Facturar un anticipo o pago a cuenta (lite)
+title: Facturar a un autor de retención o anticipo
 description: En este tema se proporciona información sobre cómo facturar a un autor de la retención o anticipo en Project Operations.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180573"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596213"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>Facturar un anticipo o pago a cuenta (lite)
+# <a name="invoice-a-retainer-or-an-advance"></a>Facturar un anticipo o pago a cuenta
 
-_**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
+_**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Dynamics 365 Project Operations admite contratos basados en anticipos y anticipos únicos. En un contrato de proyecto, puede registrar un programa de anticipos o un anticipo único. Sin embargo, la grabación a nivel de contrato de proyecto no hace que un anticipo o anticipo esté disponible inmediatamente para su uso. Para utilizar una retención o anticipo en una factura que realmente cobra al cliente, primero se debe facturar el anticipo o anticipo.
+Dynamics 365 Project Operations admite contratos basados en pagos a cuenta y anticipos únicos. En un contrato de proyecto, puede registrar un programa de anticipos o un anticipo único. Sin embargo, la grabación a nivel de contrato de proyecto no hace que un anticipo o anticipo esté disponible inmediatamente para su uso. Para utilizar una retención o anticipo en una factura que realmente cobra al cliente, primero se debe facturar el anticipo o anticipo.
 
 Complete estos pasos para facturar a un autor de retención o un adelanto.
 

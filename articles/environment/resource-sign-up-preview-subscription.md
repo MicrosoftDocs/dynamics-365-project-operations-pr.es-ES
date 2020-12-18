@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a6dfa51f59119834230b7c9f8859a9d85eaae999
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121149"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643000"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Regístrese para obtener suscripciones de vista previa de Project Operations para escenarios de recursos/no en existencias
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tema explica cómo suscribirse a la oferta de vista previa/partner y cómo implementar el entorno de Project Operations para escenarios basados en recursos/no en existencias.
 
@@ -31,18 +33,18 @@ Este tema explica cómo suscribirse a la oferta de vista previa/partner y cómo 
 
 Cuando se apruebe su [solicitud de vista previa](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), recibirá tres ofertas de Microsoft por correo electrónico. Estas ofertas le permiten implementar la Vista previa de Project Operations:
 
-- Dynamics 365 Project Operations (CRM): prueba de Vista previa
+- Dynamics 365 Project Operations (CRM): Prueba de versión preliminar
 - Office 365 Project Operations: prueba de Vista previa
 - Dynamics 365 Finance - Prueba de versión preliminar
 
 > [!IMPORTANT]
 > Solo una persona, el inquilino administrador, necesita realizar esta tarea en una organización. Si no es el suscriptor de esta versión, espere hasta que su organización se haya registrado y haya recibido sus credenciales de usuario.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM): prueba de Vista previa 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM): Prueba de versión preliminar 
 
 Antes de comenzar, asegúrese de haber iniciado sesión en un navegador con la cuenta de trabajo del usuario en el inquilino donde desea la vista previa de Project Operations.
 
-1. Canjee el primer código de oferta, **Dynamics 365 Project Operations (CRM): versión preliminar de prueba** pegándolo en la URL del navegador.
+1. Canjee el primer código de oferta, **Dynamics 365 Project Operations (CRM): Prueba de versión preliminar** pegándolo en la dirección URL del navegador.
 
 ![Canjear oferta](./media/16RedeemFirstOfferNew.png)
 
@@ -75,7 +77,7 @@ Repita los mismos pasos con la última oferta del correo electrónico de bienven
 
 ![Asignar licencias](./media/15AssignLicenses.png)
 
-3. Verifique que las licencias **Vista previa de Dynamics 365 Project Operations (CRM)** y **Office 365 Project Operations: vista previa** se han seleccionado y seleccione **Guardar cambios**.
+3. Compruebe que se ha seleccionado la licencia de **Dynamics 365 Project Operations (CRM): Versión preliminar** y **Office 365 Project Operations: Versión preliminar** y seleccione **Guardar cambios**.
 
 > [!NOTE]
 > No es necesario asignar la oferta de prueba de Finance a un usuario.

@@ -1,6 +1,6 @@
 ---
 title: Modelo de seguridad
-description: En este tema se proporciona información sobre el modelo de seguridad de Dynamics 365 Project Operations.
+description: Este tema proporciona información sobre el modelo de seguridad en Dynamics 365 Project Operations.
 author: stsporen
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3fc4101d0ea4b8e2a4ba8f1d43540d57239cf402
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124389"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642924"
 ---
 # <a name="security-model"></a>Modelo de seguridad
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Microsoft Dynamics 365 Project Operations contiene un modelo de seguridad único que permite un modelo de seguridad empresarial basado en roles que colabora con Grupos de Microsoft Office. 
 

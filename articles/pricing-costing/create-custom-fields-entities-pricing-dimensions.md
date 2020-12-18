@@ -3,7 +3,7 @@ title: Crear campos y entidades personalizados como dimensiones de precios
 description: En este tema se proporciona información sobre cómo crear entidades o conjuntos de opciones personalizados.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,42 +17,50 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 616bcd5758b434b45bd06aa1a026f32efc8b7f99
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: fc5917856b8f28d36dc55593a68eba7823a00b36
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130914"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642834"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Crear campos y entidades personalizados como dimensiones de precios
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Complete los pasos siguientes siempre que desee crear una entidad o un conjunto de opciones personalizado.
+Complete los siguientes pasos cuando desee crear una entidad o conjunto de opciones personalizada para usarla como dimensión de precios. Para obtener más información, consulte la [Información general de dimensiones de precios](pricing-dimensions-overview.md).  
 
 > [!IMPORTANT]
-> Se recomienda realizar todos los cambios de dimensión de precios personalizados en una solución independiente. Esta importante práctica recomendada proporciona flexibilidad en el futuro para actualizar o quitar cambios según sea necesario. Esto le ayudará a reutilizar su trabajo y le facilitará el llevar estos cambios a otras instancias. Tras realizar todos los cambios necesarios, exporte esta solución como **Solución administrada** e impórtela en otras instancias para volver a utilizar la configuración de cálculo de precios.
+> Se recomienda realizar todos los cambios de dimensión de precios personalizados en una solución independiente. Esta importante práctica recomendada proporciona flexibilidad en el futuro para actualizar o eliminar cambios según sea necesario. Esto también ayudará con la reutilización de su trabajo y facilitará la transferencia de estos cambios a otra instancia. Una vez que haya realizado todos los cambios necesarios, exporte esta solución como **Solución administrada** e impórtela en otras instancias para reutilizar su configuración de precios.
 
-
-## <a name="create-a-custom-solution-for-pricing-dimensions"></a>Crear una solución personalizada para las dimensiones de precios
-1. Vaya a **Configuración** > **Soluciones** y después seleccione **Nuevo** para crear una nueva solución. 
-2. Asigne un nombre a la solución, **dimensiones de precios de \<your organization name>**, especifique la información restante necesaria y después seleccione **Guardar**.
   
 ## <a name="create-custom-fields-and-option-sets-in-the-pricing-dimension-solution"></a>Crear campos personalizados y conjuntos de opciones en la solución de la dimensión de precios
 
 Las dimensiones de precios pueden ser una entidad o un conjunto de opciones. Ambas cosas deben crearse en su solución de cálculo de precios. Los pasos de este procedimiento explican cómo crear dimensiones basadas en entidades y dimensiones basadas en conjuntos de opciones.
 
 ### <a name="entity-based-dimensions"></a>Dimensiones basadas en entidades
+Para crear dimensiones basadas en entidades, siga los siguientes pasos:
 
 1. Vaya a **Configuración** > **Soluciones** y luego haga doble clic en **dimensiones de precios de \<your organization name>**.
 2. En el Explorador de soluciones, en el panel de navegación izquierdo, seleccione **Entidades**.
 3. Seleccione **Nuevo** para crear una nueva entidad con el nombre **Título estándar**. 
 4. Especifique la información necesaria restante y después seleccione **Guardar**.
 
+> ![Definición de entidad de título estándar](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Dimensiones basadas en conjuntos de opciones 
-Puede crear dos dimensiones basadas en conjuntos de opciones. Utilice **Ubicación de trabajo del recurso** para realizar el seguimiento del precio del trabajo de la ubicación **Domicilio** y del trabajo **In situ** y utilice **Horas de trabajo del recurso** con los valores **Regular** y **Horas extra** para aplicar un incremento cuando se complete el trabajo.
+Puede crear dos dimensiones basadas en conjuntos de opciones. 
 
+- Use la **Ubicación de trabajo del recurso** para realizar un seguimiento del precio del trabajo de la ubicación **Hogar** e **In situ**. 
+- Use **Horas de trabajo del recurso** con los valores **Regular** y **Horas extra** para aplicar un incremento cuando finalice el trabajo.
+
+El siguiente gráfico proporciona una vista de la dimensión **Ubicación de trabajo del recurso**. 
+
+> ![Dimensión de precios basada en conjuntos de opciones con el nombre Ubicación de trabajo del recurso](media/Option-set-PD-called-Resource-Work-Location.png)
+
+El siguiente gráfico proporciona una vista de la dimensión **Horas de trabajo del recurso**. 
+
+> ![Dimensión de precios basada en conjuntos de opciones con el nombre Horas de trabajo del recurso](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Vaya a **Configuración** > **Soluciones** y haga doble clic en **dimensiones de precios de \<your organization name>**. 
 2. En el Explorador de soluciones, en el panel de navegación izquierdo, seleccione **Conjuntos de opciones**. 
@@ -62,33 +70,10 @@ Puede crear dos dimensiones basadas en conjuntos de opciones. Utilice **Ubicaci�
 
 Puede crear datos para las dimensiones basadas en entidades manualmente, o bien mediante llamadas de servicio o importaciones de Microsoft Excel. Use los pasos de este procedimiento para crear dos títulos estándar, **Ingeniero de sistemas** e **Ingeniero de sistemas sénior** desde la dimensión basada en entidades **Título estándar**. Si el tamaño de los datos que desea crear es pequeño, como en el siguiente ejemplo, puede usar un formulario estándar.
 
-1. Seleccione **Búsqueda avanzada**, seleccione la entidad **Título estándar** y luego seleccione **Resultados**. Se mostrarán todas las filas de la entidad **Título estándar**.
-2. Seleccione **Nuevo** y, en el campo **Nombre**, escriba "Ingeniero de sistemas" y seleccione **Guardar**.
-3. Cerrar el formulario. 
-4. Repita los pasos del 1 al 3 para crear el otro título estándar “Ingeniero de sistemas sénior”.
+1. Seleccione **Búsqueda avanzada**.
+2. Seleccione la entidad **Título estándar** y, a continuación, **Resultados**. Se mostrarán todas las filas de la entidad **Título estándar**.
+3. Seleccione **Nuevo** y, en el campo **Nombre**, escriba "Ingeniero de sistemas" y seleccione **Guardar**.
+4. Cierre la página. 
+5. Repita los pasos del 1 al 3 para crear el otro título estándar “Ingeniero de sistemas sénior”.
 
-## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Agregue todas las entidades necesarias y los componentes relacionados a la solución de dimensión de precios
-Deberá agregar las siguientes entidades a su solución de cálculo de precios. Use los pasos de este procedimiento para realizar cambios de esquema importantes en la solución de cálculo de precios para que las entidades estén al tanto de las nuevas dimensiones de precios.
-
-1. Seleccione **Configuración** > **Soluciones** y haga doble clic en **dimensiones de precios de \<your organization name>**. 
-2. En el Explorador de soluciones, en el panel de navegación izquierdo, seleccione **Agregar existente** > **Entidades**.
-3. En el cuadro de diálogo **Componentes de la solución**, seleccione las siguientes entidades:
-
-  - Real
-  - Recurso que se puede reservar
-  - Línea de estimación
-  - Detalle de línea de factura
-  - Línea del diario
-  - Detalle de línea de contrato de proyecto
-  - Miembro del equipo del proyecto
-  - Detalle de línea de oferta
-  - Incremento del precio de rol
-  - Precio de rol 
-  - Entrada de tiempo 
-
-
-> [!NOTE]
-> Asegúrese de incluir todos los formularios y las vistas de cada una de las entidades seleccionadas.
-
-4. Cuando se le pida que incluya las entidades dependientes para las entidades seleccionadas anteriormente, seleccione **No**.
-
+> ![Datos de ejemplo para la entidad Título estándar](media/ST-data.png)

@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085282"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642654"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizar los contratos del proyecto y los proyectos directamente desde Project Service Automation a Finance and Operations
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tema describe la plantilla y las tareas subyacentes que se utilizan para sincronizar los contratos del proyecto y los proyectos directamente desde Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 
@@ -51,8 +53,8 @@ Para tener acceso a las plantillas disponibles, en el centro de administración 
 Las siguientes plantillas y las tareas subyacentes se utilizan para sincronizar los contratos de proyectos y los proyectos desde Project Service Automation a Finance:
 
 ### <a name="integrating-with-dynamics-365-project-service-automation-v2x"></a>Integración con Dynamics 365 Project Service Automation v2.x
-- **Nombre de la plantilla en Integración de datos** : proyectos y contratos (PSA a Fin and Ops).
-- **Nombre de las tareas en el proyecto** :
+- **Nombre de la plantilla en Integración de datos**: proyectos y contratos (PSA a Fin and Ops).
+- **Nombre de las tareas en el proyecto**:
 
     - Contratos de proyectos de PSA a Fin and Ops
     - Proyectos de PSA a Fin and Ops
@@ -62,8 +64,8 @@ Las siguientes plantillas y las tareas subyacentes se utilizan para sincronizar 
 ### <a name="integrating-with-dynamics-365-project-service-automation-v3x"></a>Integración con Dynamics 365 Project Service Automation v3.x
 Hay un cambio de esquema en Project Service Automation que afecta a la plantilla de hito de la línea de contrato del proyecto y se requiere el uso de la versión v2 de la plantilla para integrar Project Service Automation v3.x con Dynamics 365.
 
-- **Nombre de la plantilla en Integración de datos** : proyectos y contratos (PSA 3.x a Fin and Ops), v2.
-- **Nombre de las tareas en el proyecto** :
+- **Nombre de la plantilla en Integración de datos**: proyectos y contratos (PSA 3.x a Fin and Ops), v2.
+- **Nombre de las tareas en el proyecto**:
 
     - Contratos de proyectos de PSA a Fin and Ops
     - Proyectos de PSA a Fin and Ops
@@ -133,9 +135,9 @@ Si debe usar Power Query, siga estas pautas:
 ## <a name="template-mapping-in-data-integration"></a>Asignación de plantillas en la integración de datos
 
 > [!NOTE] 
-> Los campos **CustomerReference** , **AddressCity** , **AddressCountryRegionID** , **AddressDescription** , **AddressLine1** , **AddressLine2** , **AddressState** y **AddressZipCode** no se incluyen en la asignación predeterminada para contratos de proyecto. Puede agregar las asignaciones si necesita que estos datos se sincronicen para los contratos de proyecto.
+> Los campos **CustomerReference**, **AddressCity**, **AddressCountryRegionID**, **AddressDescription**, **AddressLine1**, **AddressLine2**, **AddressState** y **AddressZipCode** no se incluyen en la asignación predeterminada para contratos de proyecto. Puede agregar las asignaciones si necesita que estos datos se sincronicen para los contratos de proyecto.
 >
-> Los cmapos **Description** , **ParentID** , **ProjectGroup** , **ProjectManagerPersonnelNumber** y **ProjectType** no se incluyen en la asignación predeterminada para proyectos. Puede agregar las asignaciones si necesita que estos datos se sincronicen para los proyectos.
+> Los cmapos **Description**, **ParentID**, **ProjectGroup**, **ProjectManagerPersonnelNumber** y **ProjectType** no se incluyen en la asignación predeterminada para proyectos. Puede agregar las asignaciones si necesita que estos datos se sincronicen para los proyectos.
 
 Las siguientes ilustraciones muestran ejemplos de asignaciones de tareas de plantilla en Integración de datos. La asignación muestra la información del campo que se sincronizará de Project Service Automation a Finance.
 

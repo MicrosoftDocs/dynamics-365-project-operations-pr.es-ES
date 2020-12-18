@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0100c29873be6346614e958ef6ea0c77da2c9590
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 22976730ef3c8c22ea028b27a6eb5f14fb88993e
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131634"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642429"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Desarrollar plantillas de proyectos con Copiar proyecto
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Dynamics 365 Project Operations admite la capacidad de copiar un proyecto y revertir cualquier asignación a los recursos genéricos que representan el rol. Los clientes pueden utilizar esta funcionalidad para crear plantillas de proyectos básicas.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Dynamics 365 Project Operations admite la capacidad de copiar un proyecto y de revertir cualquier asignación a los recursos genéricos que representan el rol. Los clientes pueden utilizar esta funcionalidad para crear plantillas de proyectos básicas.
 
 Cuando selecciona **Copiar proyecto**, se actualiza el estado del proyecto de destino. Use **Razón para el estado** para determinar cuándo se completa la acción de copia. Seleccionar **Copiar proyecto** también actualiza la fecha de inicio del proyecto a la fecha de inicio actual si no se detecta una fecha objetivo en la entidad del proyecto objetivo.
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180798"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513945"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Crear un programa de factura en una línea de contrato basada en un proyecto 
 
@@ -49,7 +49,7 @@ Complete los siguientes pasos para generar un programa de facturación basado en
 3. Abra la línea de contrato **Precio fijo** que esta creando para el programa de hitos. En la pestaña **Facturación de hitos**, seleccione la fecha de inicio de facturación y la frecuencia de la facturación. 
 4. En la subcuadrícula, seleccione **Generar hitos periódicos**. La programación de la factura se genera con los campos **Nombre del hito**, **Fecha del hito** e **Importe del hito** campos configurados de la siguiente manera:
 
-    - **Nombre del hito**: esta fecha se establece según la frecuencia de facturación.
+    - **Nombre del hito**: este nombre viene impuesto por la frecuencia de factura.
     - **Fecha del hito**: esta fecha se establece según la frecuencia de facturación.
     - **Cantidad del hito**: el importe se calcula dividiendo la cantidad del contrato en la línea de contrato por el número de hitos, según indiquen la frecuencia y el inicio de la facturación y las fechas de entrega solicitadas.
 

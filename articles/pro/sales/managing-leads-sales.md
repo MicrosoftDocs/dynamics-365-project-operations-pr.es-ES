@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180528"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513810"
 ---
 # <a name="manage-leads---lite"></a>Administrar clientes potenciales (lite)
 
@@ -23,7 +23,7 @@ Los clientes potenciales basados en proyectos se pueden gestionar y calificar en
 
 ## <a name="list-of-project-sales-leads"></a>Lista de clientes potenciales de proyecto
 
-En la sección **Ventas**, en el panel de navegación izquierdo, abra la página de lista **Clientes potenciales** para ver una lista de todos los registros de clientes potenciales del sistema. La lista de clientes potenciales que se muestra están basados en el trabajo y otros tipos de clientes potenciales que se pueden crear si también tiene Dynamics 365 Sales o aplicaciones de Dynamics 365 Field Service.
+En la sección **Ventas**, en el panel de navegación izquierdo, abra la página de lista **Clientes potenciales** para ver una lista de todos los registros de clientes potenciales del sistema. Los clientes potenciales de la lista están basados en trabajo y otros tipos de clientes potenciales que se pueden crear si también tiene las aplicaciones de Dynamics 365 Sales o Dynamics 365 Field Service.
 
 Puede crear un vista filtrada para ver solo clientes potenciales basados en proyectos creando un filtro en el valor **Tipo**. Por ejemplo, puede seleccionar mostrar solo los clientes potenciales basados en el trabajo.
 

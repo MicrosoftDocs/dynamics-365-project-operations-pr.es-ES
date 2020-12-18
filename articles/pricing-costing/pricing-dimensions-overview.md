@@ -1,28 +1,20 @@
 ---
 title: Información general de dimensiones de precios
-description: En este tema se proporciona información sobre las dimensiones de precios en Dynamics 365 Project Operations.
+description: En este tema se proporciona información sobre las dimensiones de Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128484"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650233"
 ---
 # <a name="pricing-dimensions-overview"></a>Información general de dimensiones de precios
 
@@ -42,7 +34,19 @@ Debido a esto, hay dos tipos de valores de dimensión de precios disponibles:
 
 Dynamics 365 Project Operations se envía con un conjunto predeterminado de dimensiones de precios. Puede ver estas dimensiones de precios yendo a **Project Operations** > **Parámetros**. En el registro de parámetros, en la pestaña **Dimensión de precios basados en importes**, verifique que el rol **msdyn_resourcecategory** y la unidad organizativa de recursos **msdyn_organizationalunit** tenga los campos **Aplicable a ventas** y **Aplicable a costes** establecido en **Sí**. Con estos cambios habilitados, puede configurar el precio y el coste de cada combinación de roles y unidades organizativas.
 
-Si necesita fijar el precio o el coste de sus recursos mediante atributos adicionales, puede crear campos, entidades y dimensiones personalizados.
+![Captura de pantalla de los parámetros Project Service con la opción "Aplicable a ventas" resaltada](media/PS-OOB-parameters.png)
+
+Si necesita fijar el precio o el coste de sus recursos mediante atributos adicionales, puede crear campos, entidades y dimensiones personalizados. Para obtener más información, vea los siguientes temas: 
+  
+  > [!NOTE]
+  > Los procedimientos deben completarse en el orden en que se enumeran.
+
+1. [Crear una solución para dimensiones de precios personalizadas](../sales/create-solution-custompd.md)
+2. [Crear campos y entidades personalizados](create-custom-fields-entities-pricing-dimensions.md)
+3. [Agregar de campos personalizados a la configuración de precios y entidades transaccionales](add-custom-fields-price-setup-transactional-entities.md)
+4. [Configurar campos personalizados como dimensiones de precios](set-up-custom-fields-pricing-dimensions.md)
+5. [Actualización de atributos de complemento para incluir nuevas dimensiones de precios](update-plugin-attributes-pd.md)
+
 
 ## <a name="pricing-human-resource-time"></a>Precios del tiempo de recursos humanos
 La forma en que una organización establece el precio para el tiempo de los recursos humanos es a menudo una consideración estratégica importante que afecta directamente la rentabilidad de la organización. Trabaje con los equipos de finanzas y los directores de práctica cuando su organización esté lista para identificar cómo quiere establecer las tarifas y los costes del tiempo de recursos humanos.

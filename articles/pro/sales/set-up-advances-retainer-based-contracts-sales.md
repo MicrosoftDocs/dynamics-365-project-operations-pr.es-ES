@@ -1,5 +1,5 @@
 ---
-title: Contratos basados en pagos a cuenta y anticipos (lite)
+title: Contratos basados en pagos a cuenta y anticipos
 description: En este tema se proporciona información sobre modelos de contratos y adelantos basados en anticipos en Project Operations.
 author: rumant
 manager: Annbe
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180888"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596123"
 ---
-# <a name="advances-and-retainer-based-contracts---lite"></a>Contratos basados en pagos a cuenta y anticipos (lite)
+# <a name="advances-and-retainer-based-contracts"></a>Contratos basados en pagos a cuenta y anticipos
 
 
-_**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
+_**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Dynamics 365 Project Operations admite contratos basados en anticipos. Un contrato basado en anticipos es un conjunto negociado de pagos igualmente distribuidos por los que se facturará al cliente durante la duración de un proyecto. Este tipo de contrato se usa típicamente para modelos de facturación basados en tiempo y material o consumo donde existe la necesidad de brindarle al cliente una factura predecible y un calendario de pago. Los ingresos reales acumulados en cada período se concilian con el pago recibido del cliente al comienzo del período. De acuerdo con el concepto del modelo de facturación de Tiempo y Material, los valores de los ingresos acumulados en cada período pueden variar con los costos incurridos. Si los ingresos acumulados superan la cantidad recibida al comienzo del período, la empresa de ejecución del proyecto podría:
+Dynamics 365 Project Operations admite los contratos basados en anticipos. Un contrato basado en anticipos es un conjunto negociado de pagos igualmente distribuidos por los que se facturará al cliente durante la duración de un proyecto. Este tipo de contrato se usa típicamente para modelos de facturación basados en tiempo y material o consumo donde existe la necesidad de brindarle al cliente una factura predecible y un calendario de pago. Los ingresos reales acumulados en cada período se concilian con el pago recibido del cliente al comienzo del período. De acuerdo con el concepto del modelo de facturación de Tiempo y Material, los valores de los ingresos acumulados en cada período pueden variar con los costos incurridos. Si los ingresos acumulados superan la cantidad recibida al comienzo del período, la empresa de ejecución del proyecto podría:
 
 - Facturar solo al cliente el exceso 
 - Aplazar la conciliación de los ingresos hasta el próximo período de facturación y hacer una factura final al final del proyecto por cualquier ingreso restante no conciliado

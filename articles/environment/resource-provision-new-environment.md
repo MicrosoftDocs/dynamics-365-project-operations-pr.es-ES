@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121194"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643013"
 ---
 # <a name="provision-a-new-environment"></a>Aprovisionar un entorno nuevo
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
 
-Este tema proporciona información sobre cómo aprovisionar un nuevo entorno de Dynamics 365 Project Operations para escenarios basados en recursos/no en existencias.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Este tema proporciona información sobre cómo aprovisionar un nuevo entorno de Dynamics 365 Project Operations para escenarios basados en recursos/no mantenidos en existencias.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Habilitear el aprovisionamiento automatizado de Project Operations en un proyecto LCS
 
@@ -120,7 +122,7 @@ El mantenimiento del entorno llevará algún tiempo. Una vez que se haya complet
 
 ![Aplicar soluciones](./media/13ApplySolutions.png)
 
-5. Seleccione ambas soluciones, **Mapa de entidad de escritura dual de Dynamics 365 Finance and Operations** y **Mapas de entidad de escritura dual de Dynamics 365 Project Operations** y luego seleccione **Aplicar**.
+5. Seleccione ambas soluciones, **Asignación de tablas de doble escritura de Dynamics 365 Finance and Operations** y **Asignación de tablas de doble escritura de Dynamics 365 Project Operations** y luego seleccione **Aplicar**.
 
 ![Confirmar soluciones](./media/14ConfirmSolutions.png)
 
@@ -160,6 +162,7 @@ La actualización tomará aproximadamente 20 minutos. Recibirá una alerta cuand
 | --- | --- | --- | --- | --- | --- |
 | **Roles de recursos del proyecto para todas las empresas (categorías de recursos reservables)** | No | Sí | Common Data Service | No | N/D |
 | **Entidades legales (empresas\_cdm)** | No | Sí | Aplicaciones de Finance and Operations | No | N/D |
+| **Libro mayor (msdyn_ledgers)** | No | Sí | Aplicaciones de Finance and Operations | Sí | Si, aplicaciones de Finance and Operations |
 | **Datos reales de integración de Project Operations (datos reales de\_msdyn)** | No | No | N/D | Sí | No |
 | **Líneas de contrato de proyecto (detalles de pedidos de ventas)** | No | No | N/D | No | No |
 | **Entidad de integración para las relaciones de transacciones del proyecto (conexiones de transacción\_msdyn)** | No | No | N/D | No | N/D |

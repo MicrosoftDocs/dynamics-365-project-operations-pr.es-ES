@@ -3,17 +3,17 @@ title: Entrada de gastos (simplificados)
 description: Este tema proporciona información sobre cómo trabajar con la entrada de gastos en una implementación simplificada.
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121104"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590967"
 ---
 # <a name="expense-entry-lite"></a>Entrada de gastos (simplificados)
 
@@ -21,7 +21,7 @@ _**Se aplica a:** Implementación simplificada: del acuerdo a la facturación pr
 
 La gestión de gastos básica o simplificada es la capacidad de registrar gastos simples. Puede registrar gastos contra un proyecto y luego el aprobador del proyecto los revisará y aprobará.
 
-Para obtener más información sobre las capacidades de gastos en Dynamics 365 Project Operations, consulte [Resumen de gastos](expense-overview.md).
+Para obtener más información acerca de las capacidades de gastos en Dynamics 365 Project Operations, consulte [Información general de gastos](expense-overview.md).
 
 ## <a name="capture-a-basic-expense"></a>Capturar un gasto básico
 
@@ -36,6 +36,10 @@ Una vez que haya terminado de capturar todos sus gastos y esté listo para que s
 
 1. Vaya a **Gastos** y seleccione un gasto. O bien, seleccione todos los gastos usando la casilla de verificación del encabezado.
 2. Seleccione **Enviar**. El sistema procesa las entradas seleccionadas y luego crea solicitudes de aprobación de gastos.
+
+## <a name="add-an-attachment"></a>Agregar datos adjuntos
+
+Es posible que deba proporcionar al aprobador documentación adicional acerca de su gasto. Puede adjuntar un recibo en la escala de tiempo de la entrada de gasto. Seleccione **Editar** y en la sección **Escala de tiempo**, y luego seleccione el icono del clip de papel para adjuntar el recibo.
 
 ## <a name="recall-a-basic-expense"></a>Recuperar un gasto básico
 
