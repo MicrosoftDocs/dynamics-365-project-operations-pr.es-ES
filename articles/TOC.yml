@@ -1,6 +1,6 @@
 - name: Dynamics 365 Project Operations
   href: index.md
-- name: Tareas iniciales
+- name: Comenzar
   items:
     - name: Determinar el tipo de implementación
       href: environment/determine-deployment-type.md
@@ -8,7 +8,7 @@
       href: whats-new/project-operations-updates.md
 - name: Project Operations para escenarios basados en recursos/no mantenidos en existencias
   items:
-    - name: Tareas iniciales
+    - name: Comenzar
       items:
         - name: Introducción a la implementación de Project Operations para escenarios basados en recursos/no mantenidos en existencias
           href: environment/project-operations-integrated-deployment-overview.md
@@ -24,8 +24,6 @@
               href: environment/resource-add-azure-subscription-lcs-project.md
         - name: Aplicar datos de demostración
           items:
-            - name: Aplicar datos de demostración a un entorno de Finance hospedado en la nube
-              href: environment/resource-apply-finance-demo-data.md
             - name: Aplicar datos de configuración en Common Data Service
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Implementar entornos
@@ -38,6 +36,10 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Novedades
       items:
+        - name: 'Febrero de 2021: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
+          href: whats-new/whats-new-feb-2021-resource-based.md
+        - name: 'Enero de 2021: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
+          href: whats-new/whats-new-jan-2021-resource-based.md
         - name: 'Diciembre de 2020: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
           href: whats-new/whats-new-dec-2020-resource-based.md
         - name: 'Noviembre de 2020: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
@@ -132,11 +134,11 @@
               href: pro/sales/copy-project-contracts-sales.md
             - name: Pagos a cuenta y anticipos
               items:
-                - name: Contratos basados en pagos a cuenta y anticipos (lite)
+                - name: Contratos basados en pagos a cuenta y anticipos
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Configurar una programación de pagos a cuenta (lite)
+                - name: Configurar una programación de anticipos
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Crear un anticipo ad hoc en un contrato (lite)
+                - name: Crear un anticipo ad hoc en un contrato
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Precios y costes
       items:
@@ -210,11 +212,13 @@
           href: project-management/copy-project.md
         - name: Planificación de la estructura de descomposición del trabajo
           items:
+            - name: Crear una estructura de descomposición del trabajo
+              href: project-management/create-wbs.md
             - name: Crear asignaciones
               href: project-management/create-assignments.md
         - name: Estimar proyectos
           items:
-            - name: Información general de estimar proyectos
+            - name: Información general de estimación de proyectos
               href: project-management/estimating-projects-overview.md
             - name: Estimaciones de recursos
               href: project-management/resource-estimates.md
@@ -232,6 +236,8 @@
               href: project-management/project-team-members-overview.md
             - name: Mantener miembros del equipo
               href: project-management/maintain-team-members.md
+        - name: Solucionar problemas de trabajo en la cuadrícula de tareas
+          href: project-management/projectplanningUIFAQ.md
         - name: Colaboración
           items:
             - name: Colaboración con Grupos de Office
@@ -262,6 +268,8 @@
               href: resource-management/book-project.md
             - name: Revisar recursos propuestos
               href: resource-management/review-proposed-resources.md
+            - name: Editar reservas
+              href: resource-management/edit-existing-bookings.md
         - name: Reserva de recursos descentralizada (híbrida)
           items:
             - name: Agregar miembros del equipo desde la cuadrícula de Miembro del equipo
@@ -326,6 +334,8 @@
                   href: expense/set-up-credit-card-integration.md
                 - name: Configurar categorías de gasto
                   href: expense/set-up-expense-categories.md
+            - name: Trabajar con gastos personales en un informe de gastos
+              href: expense/personal-expenses-expense-report.md
             - name: Crear informes de gastos
               items:
                 - name: Distribuciones en un informe de gastos
@@ -370,22 +380,28 @@
           items:
             - name: Crear y confirmar diarios de corrección
               href: actuals/create-confirm-correction-journals.md
-    - name: Facturación proforma
+    - name: Facturación
       items:
-        - name: Administrar el trabajo pendiente de facturación de proyectos
-          href: proforma-invoicing/manage-billing-backlog.md
-        - name: Administrar los estados y validaciones que no se deben superar
-          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: Crear una factura proforma de proyecto manualmente
-          href: proforma-invoicing/create-manual-proforma-invoice.md
-        - name: Administrar una factura de proyecto proforma
-          href: proforma-invoicing/manage-proforma-invoice.md
-        - name: Facturar un anticipo o pago a cuenta
-          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-        - name: Confirmar una factura de proyecto proforma
-          href: proforma-invoicing/confirm-proforma-invoice.md
-        - name: Configurar la automatización de facturas de proyecto
-          href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Información general del proceso de facturación
+          href: invoicing/post-project-invoices.md
+        - name: Administrar propuestas de factura de proyecto
+          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Facturación proforma
+          items:
+            - name: Administrar el trabajo pendiente de facturación de proyectos
+              href: proforma-invoicing/manage-billing-backlog.md
+            - name: Administrar los estados y validaciones que no se deben superar
+              href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+            - name: Crear una factura proforma de proyecto manualmente
+              href: proforma-invoicing/create-manual-proforma-invoice.md
+            - name: Administrar una factura de proyecto proforma
+              href: proforma-invoicing/manage-proforma-invoice.md
+            - name: Facturar un anticipo o pago a cuenta
+              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+            - name: Confirmar una factura de proyecto proforma
+              href: proforma-invoicing/confirm-proforma-invoice.md
+            - name: Configurar la automatización de facturas de proyecto
+              href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Contabilidad de proyecto
       items:
         - name: Valores predeterminados de dimensiones financieras
@@ -404,10 +420,10 @@
               href: project-accounting/intercompany-invoicing-overview.md
             - name: Configurar la facturación con empresas vinculadas
               href: project-accounting/configure-intercompany-invoicing.md
-            - name: Crear facturas de proveedores y clientes de empresas vinculadas
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
             - name: Crear transacciones de empresas vinculadas
               href: project-accounting/create-intercompany-transactions.md
+            - name: Crear facturas de proveedores y clientes de empresas vinculadas
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Reconocimiento de ingresos
       items:
         - name: Introducción al reconocimiento de ingresos
@@ -418,15 +434,15 @@
               href: project-accounting/period-types.md
             - name: Configurar plantillas de costes
               href: revenue-recognition/rev-rec-cost-templates.md
-        - name: Administrar estimaciones de ingresos
-          href: revenue-recognition/rev-rec-completed-contract-method.md
         - name: Proyectos de estimación de ingresos a precio fijo
           href: revenue-recognition/rev-rec-percentage-completion-method.md
         - name: Coste para completar métodos
           href: revenue-recognition/cost-complete-methods.md
+        - name: Administrar estimaciones de ingresos
+          href: revenue-recognition/rev-rec-completed-contract-method.md
 - name: 'Implementación simplificada: del acuerdo a la facturación proforma'
   items:
-    - name: Tareas iniciales
+    - name: Comenzar
       items:
         - name: Introducción a la implementación simplificada
           href: pro/project-operations-overview-lite.md
@@ -434,15 +450,19 @@
           href: environment/lite-preview-subscription-sign-up.md
         - name: Implementar Project Operations (lite)
           href: environment/lite-deployment.md
-        - name: Aplicar datos de configuración y configuración de demostración (lite)
+        - name: 'Aplicar datos de configuración y configuración de demostración: simplificado'
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Modelo de seguridad
           href: environment/security-model.md
     - name: Novedades
       items:
-        - name: 'Novedades de diciembre de 2020: implementación simplificada: del acuerdo a la facturación proforma'
+        - name: 'Novedades de febrero de 2021: implementación simplificada'
+          href: pro/whats-new/whats-new-feb-2021-lite.md
+        - name: 'Novedades de enero de 2021: implementación simplificada'
+          href: pro/whats-new/whats-new-jan-2021-lite.md
+        - name: 'Novedades de diciembre de 2020: implementación simplificada'
           href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: 'Novedades de noviembre de 2020: implementación simplificada: del acuerdo a la facturación proforma'
+        - name: 'Novedades de noviembre de 2020: implementación simplificada'
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Proceso de venta de proyectos
       items:
@@ -636,11 +656,13 @@
           href: project-management/copy-project.md
         - name: Planificación de la estructura de descomposición del trabajo
           items:
+            - name: Crear una estructura de descomposición del trabajo
+              href: project-management/create-wbs.md
             - name: Crear asignaciones
               href: project-management/create-assignments.md
         - name: Estimar proyectos
           items:
-            - name: Información general de estimar proyectos
+            - name: Información general de estimación de proyectos
               href: project-management/estimating-projects-overview.md
             - name: Estimaciones de recursos
               href: project-management/resource-estimates.md
@@ -658,10 +680,16 @@
               href: project-management/project-team-members-overview.md
             - name: Mantener miembros del equipo
               href: project-management/maintain-team-members.md
+        - name: Solucionar problemas de trabajo en la cuadrícula de tareas
+          href: project-management/projectplanningUIFAQ.md
         - name: Colaboración
           items:
             - name: Colaboración con Grupos de Office
               href: project-management/collaboration-groups.md
+        - name: Notas del desarrollador
+          items:
+            - name: Desarrollar plantillas de proyectos con Copiar proyecto
+              href: project-management/dev-copy-project.md
     - name: Administración de recursos
       items:
         - name: Conceptos clave
@@ -684,6 +712,8 @@
               href: resource-management/book-project.md
             - name: Revisar recursos propuestos
               href: resource-management/review-proposed-resources.md
+            - name: Editar reservas
+              href: resource-management/edit-existing-bookings.md
         - name: Reserva de recursos descentralizada (híbrida)
           items:
             - name: Agregar miembros del equipo desde la cuadrícula de Miembro del equipo
@@ -772,6 +802,10 @@
   items:
     - name: Novedades
       items:
+        - name: 'Novedades de enero de 2021: Project Operations para escenarios basados en existencias/producción'
+          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+        - name: 'Novedades de diciembre de 2020: Project Operations para escenarios basados en existencias/producción'
+          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
         - name: 'Novedades de noviembre de 2020: Project Operations para escenarios basados en existencias/producción'
           href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Introducción a la implementación de Project Operations para escenarios basados en existencias/producción
@@ -906,6 +940,14 @@
       items:
         - name: Programación de lanzamiento de actualizaciones para Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novedades y cambios de la revisión 28.5 de la versión de actualización, V3'
+          href: psa/whats-new-ur-28-5.md
+        - name: 'Novedades y cambios de la versión de actualización 28, V3'
+          href: psa/whats-new-ur-28.md
+        - name: 'Novedades y cambios de la revisión 27.5 de la versión de actualización, V3'
+          href: psa/whats-new-ur-27-5.md
+        - name: 'Novedades y cambios de la versión de actualización 27, V3'
+          href: psa/whats-new-ur-27.md
         - name: 'Novedades y cambios de la versión de actualización 26, V3'
           href: psa/whats-new-ur-26.md
         - name: 'Novedades y cambios de la versión de actualización 25, V3'
@@ -936,6 +978,8 @@
           href: psa/whats-new-ur-13.md
         - name: 'Novedades y cambios de la versión de actualización 12, V3'
           href: psa/whats-new-ur-12.md
+        - name: Novedades y cambios en el lanzamiento 1 de 2021 de Project Service Automation V3.x
+          href: psa/whats-new-2021-wave1.md
         - name: Novedades o cambios en el lanzamiento 1 de 2020 de Project Service Automation V3.x
           href: psa/whats-new-v3-2020-wave1.md
         - name: Novedades o cambios en Project Service Automation V3
@@ -992,6 +1036,8 @@
               href: psa/project-stages.md
             - name: Configuración de proyecto
               href: psa/project-settings.md
+            - name: Planifique su trabajo en Microsoft Project con el complemento Project Service
+              href: psa/add-in-plan-work-projects.md
         - name: Dimensiones de precios y costes
           items:
             - name: Página principal de dimensiones de precios y costes
