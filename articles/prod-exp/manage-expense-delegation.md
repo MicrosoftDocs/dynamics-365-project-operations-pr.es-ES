@@ -1,6 +1,6 @@
 ---
 title: Administrar delegación de gastos
-description: Un usuario delegado de gastos puede crear y administrar informes de gastos en nombre de otro empleado de la organización.
+description: Un usuario delegado de gastos puede crear y administrar informes de gastos de otro empleado de la organización.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2020
@@ -16,27 +16,28 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2ce1d1cf35745ef4372258e07fd4d2b108ed4827
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebe9a47b463498e8e79058019a0b28320590639b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085300"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960808"
 ---
 # <a name="manage-expense-delegation"></a>Administrar delegación de gastos
 
-[!include [banner](../includes/banner.md)]
+Un delegado de gastos puede crear y administrar informes de gastos para otro empleado.
 
-Un usuario delegado de gastos puede crear y administrar informes de gastos en nombre de otro empleado de la organización.
+## <a name="configure-expense-delegation"></a>Configurar la delegación de gastos
 
-## <a name="configuring-expense-delegation"></a>Configurar la delegación de gastos
+1. Para configurar un usuario como delegado de gastos, vaya a **Gestión de gastos > Configuración > General > Delegados**.
+2. En la página **Delegados**, seleccione **Nuevo**.
+3. Seleccione el empleado para el que se va a definir un delegado. 
+4. Introduzca el alias del usuario delegado y la fecha de inicio y finalización del período de delegación.
 
-Para configurar un usuario como delegado de gastos, vaya a **Gestión de gastos > Configuración > General> Delegados** para abrir la página **Delegados**. Seleccione **Nuevo** y luego el empleado que tendrá definido un delegado. Introduzca el alias del usuario delegado y la fecha de inicio y finalización del período de delegación.
+## <a name="manage-expense-delegation-for-another-employee"></a>Gestionar la delegación de gastos de otro empleado
 
-## <a name="managing-expense-delegation-on-behalf-of-another-employee"></a>Administrar delegación de gastos en nombre de otro empleado
+Cuando la clave de administración de características **Habilitar página de lista de delegados de gastos** está habilitada, la página de lista **Gastos delegados en mí** estará disponible. Vaya a **Administración de gastos** > **Mis gastos** > **Gastos delegados en mi**.
 
-Si la clave de gestión de funciones **Habilitar la página de lista de delegados de gastos** está habilitado, la página de lista **Gastos delegados en mi** estará disponible navegando a **Gestión de gastos > Mis gastos > Gastos delegados en mi**.
+Un usuario delegado puede filtrar y buscar rápidamente en los informes de gastos existentes que se le hayan delegado. También pueden crear un nuevo informe de gastos para otros usuarios seleccionando **Nuevo informe de gastos**.
 
-Un usuario delegado puede filtrar y buscar rápidamente los informes de gastos existentes que le han sido delegados al usuario. El usuario también puede crear rápidamente un nuevo informe de gastos en nombre de otros usuarios seleccionando **Nuevo informe de gastos**.
-
-Los usuarios delegados también pueden crear y administrar informes de gastos en nombre otros empleados yendo a **Administración de gastos > Mis gastos > Informes de gastos** y pulsando el botón **Abrir gastos de otros usuarios**.
+Los usuarios delegados también pueden crear y administrar informes de gastos para otros empleados a través de **Gestión de gastos** > **Mis gastos** > **Informes de gastos** y seleccionando **Abrir gastos de otros usuarios**.

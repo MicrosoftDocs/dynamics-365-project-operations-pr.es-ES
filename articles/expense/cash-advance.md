@@ -3,19 +3,19 @@ title: Anticipo de efectivo
 description: En este tema se proporciona información sobre adelantos de efectivo.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 02/01/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c5839fbdab58903555936324139b76f4c94b6c35
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 58864790720824cecad8ce1ff7ff0a335a42cc03
+ms.sourcegitcommit: 7aa0b7fb22213d8baa2d69efece9a636d9f62493
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122770"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5098905"
 ---
 # <a name="cash-advance"></a>Anticipo de efectivo
 
@@ -24,8 +24,9 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no en e
 Un anticipo en efectivo permite a los empleados pedir prestado dinero a su empresa antes de incurrir en gastos. Cuando se aprueba y paga un anticipo en efectivo solicitado, el empleado puede usar el dinero para los gastos comerciales en los que puede estar a punto de incurrir. 
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Crear y enviar una solicitud de anticipo en efectivo
+Para crear un nuevo anticipo en efectivo y enviar una solicitud de anticipo en efectivo, haga lo siguiente: 
 
-1. En **Mis gastos**, seleccione **Adelantos en efectivo** > **Nuevo** para crear un nuevo anticipo en efectivo. 
+1. En **Mis gastos**, seleccione **Anticipos en efectivo** > **Nuevo**. 
 2. En la página **Nueva solicitud de anticipo en efectivo**, introduzca el propósito del gasto y seleccione la ubicación donde se incurrirá en el gasto.
 3. Introduzca el importe y la moneda solicitados, y luego seleccione **Guardar**. 
 4. Cuando esté listo para enviar la solicitud de anticipo en efectivo, en la página **Solicitud de anticipo en efectivo**, seleccione **Flujo de trabajo** > **Enviar**.
@@ -34,7 +35,7 @@ Un anticipo en efectivo permite a los empleados pedir prestado dinero a su empre
 
 Puede modificar una solicitud de anticipo en efectivo si no se ha enviado para su aprobación.
 
-1. En **Mis gastos: anticipos en efectivo** localice y seleccione el anticipo en efectivo que desea editar.
+1. En **Mis gastos: anticipos en efectivo**, busque y seleccione el anticipo en efectivo que desea editar.
 2. Seleccione **Editar** y realice los cambios necesarios en la solicitud de anticipo en efectivo. 
 3. Seleccione **Guardar y cerrar**.
 
@@ -57,7 +58,8 @@ El siguiente procedimiento generalmente lo completa un contable o un usuario con
 
 ## <a name="submit-an-expense-report-against-a-paid-cash-advance"></a>Presentar un informe de gastos frente a un anticipo en efectivo pagado 
 
-Cuando crea y envía un informe de gastos para el anticipo en efectivo que ya recibió, los gastos se ajustarán automáticamente contra ese anticipo. Si su anticipo en efectivo es mayor que el importe registrado como gasto, debe devolver el saldo a la empresa utilizando la categoría de gastos **Devolver efectivo**. Si el anticipo en efectivo pagado por la empresa es menor que la cantidad que gastó, la empresa debe reembolsarle el saldo. 
+Al crear y enviar un informe de gastos para el anticipo en efectivo que ya ha recibido, los gastos se ajustarán automáticamente con ese anticipo. Si su anticipo en efectivo es mayor que el importe registrado como gasto, debe devolver el saldo a la empresa utilizando la categoría de gastos **Devolver efectivo**. Si el anticipo en efectivo pagado por la empresa es menor que la cantidad que gastada, la empresa deberá reembolsarle el saldo. 
 
 ### <a name="example"></a>Ejemplo
-Tiene previsto viajar para asistir a una conferencia, desde Seattle a la ciudad de Nueva York. Usted crea una solicitud de anticipo en efectivo de 3.000,00 USD, ya que ha estimado que el coste de la entrada a la conferencia, los vuelos, el hotel, las comidas y los taxis suman aproximadamente esta cantidad. No se le pagará a menos que su gerente haya aprobado esta solicitud. Una vez que su gerente la aprueba, el anticipo en efectivo solicitado se paga en forma de 3.000,00 USD en su cuenta bancaria. Luego asiste a la conferencia. Después de completar su viaje, descubre que el gasto total fue solo de 2.790,00 USD. Seleccione **Efectivo** en el campo **Método de pago** y envíe los gastos por 2.790,00 USD. El importe de su gasto enviado se ajusta automáticamente contra el anticipo en efectivo de 3.000,00 USD que se le prestó. Ahora debe un saldo de 210,00 USD (3.000,00 - 2.790,00) a la empresa, que puede devolver a la empresa mediante la categoría de gastos **Devolver efectivo**. 
+Planea viajar de Seattle a Nueva York para una conferencia. Crea una solicitud de anticipo en efectivo de 3000,00 dólares estadounidenses por el coste estimado de la entrada en la conferencia, vuelos, hotel, comidas y taxis. No se le pagará a menos que su supervisor apruebe esta solicitud. Una vez que su gerente la aprueba, el anticipo en efectivo solicitado se paga en forma de 3.000,00 USD en su cuenta bancaria. Luego asiste a la conferencia. Después de completar su viaje, descubre que el gasto total fue solo de 2.790,00 USD. Seleccione **Efectivo** en el campo **Método de pago** y envíe sus gastos por valor de 2790,00 dólares estadounidenses. El importe de su gasto enviado se ajusta automáticamente contra el anticipo en efectivo de 3.000,00 USD que se le prestó. Ahora debe un saldo de 210,00 dólares estadounidenses (3000,00 - 2790,00), que puede devolver a la empresa a través de la categoría de gastos **Devolución de efectivo**.
+

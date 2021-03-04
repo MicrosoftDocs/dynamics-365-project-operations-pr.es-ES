@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2291515cc154fb5b34ca5802135791958bea1e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db3529597c662a326730cf6a0b855ae865f0dce5
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085296"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960358"
 ---
 # <a name="configure-expense-management"></a>Configurar la gestión de gastos
-
-[!include [banner](../includes/banner.md)]
 
 Este tema describe las consideraciones y las decisiones que debe tomar durante el proceso de planificación antes de configurar la administración de gastos. En la Gestión de gastos, puede almacenar información sobre métodos de pago, solicitudes de viaje, informes de gastos, políticas, etc.
 
@@ -65,7 +63,7 @@ Debe definir las dietas de los empleados que proporciona su organización. Debid
 
 - Reglas de dietas que se basan en la ubicación:
 
-    - ¿Varían las tarifas de dietas según la ubicación? ¿Qué lugares están incluidos?
+    - ¿Varían las tarifas de dietas según la ubicación? ¿Qué ubicaciones están incluidas?
     - Si las tarifas de dietas varían según la ubicación, para cada ubicación, qué porcentaje se proporciona para los siguientes tipos de gastos:
 
         - Comidas
@@ -129,10 +127,10 @@ Si la categoría de gastos también se utiliza en la gestión y contabilidad de 
 
     - Ingresos facturados
     - Valor acumulado de ingresos de ventas
-    - Valor de ventas WIP
-    - Producción de ingresos acumulados
-    - Producción WIP
-    - Beneficios de ingresos acumulados
+    - Trabajo en curso - Valor de ventas
+    - Ingresos acumulados - Producción
+    - Trabajo en curso - Producción
+    - Ingresos acumulados - Ganancias
     - Beneficio WIP
     - Suscripción de ingresos acumulados
     - Suscripción WIP
@@ -147,7 +145,7 @@ Para los impuestos relacionados con los gastos, debe determinar qué se incluye 
 - ¿Debe habilitarse la recuperación de impuestos sobre los gastos?
 
     > [!NOTE]
-    > Cuando estaba planificando el libro mayor, si decidió aplicar las reglas del impuesto sobre las ventas y el impuesto sobre el uso de EE. (Para aplicar las reglas de impuestos sobre las ventas y sobre el uso de EE. UU., establezca la opción **Aplicar reglas de impuestos sobre las ventas** opción a **Sí** ).
+    > Cuando estaba planificando el libro mayor, si decidió aplicar las reglas del impuesto sobre las ventas y el impuesto sobre el uso de EE. (Para aplicar las reglas de impuestos sobre las ventas y sobre el uso de EE. UU., establezca la opción **Aplicar reglas de impuestos sobre las ventas** opción a **Sí**).
 
 ## <a name="policies"></a>Directivas
 

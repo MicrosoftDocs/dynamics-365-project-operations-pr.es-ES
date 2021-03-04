@@ -16,23 +16,21 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1be96521cdb486dd5a702cded615d3e1015b364
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 49397592ea002b9da872ac1aa455719b6ca2292e
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085190"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960223"
 ---
 # <a name="vat-recovery"></a>Recuperación de IVA 
-
-[!include [banner](../includes/banner.md)]
 
 Para recibir reembolsos en transacciones elegibles de impuesto al valor añadido (IVA), una empresa u organización debe identificar, recopilar, verificar y enviar información precisa. Este proceso incluye múltiples tareas y, dependiendo del tamaño de su empresa, puede incluir varios empleados o roles.
 
 Para recuperar el IVA usando Administración de gastos, se deben completar los siguientes requisitos previos:
 
 - Se deben crear códigos de impuestos para países/regiones que se asignan a categorías de gastos.
-- Se debe crear un grupo de impuestos sobre las ventas para cada código de impuestos.
+- Se debe crear un grupo de impuestos para cada código de impuestos.
 - Se debe crear un código de impuestos sobre las ventas de elemento para cada grupo de impuestos sobre las ventas.
 
 Una vez que se completan los requisitos previos, los empleados siguen los siguientes pasos para solicitar reembolsos por transacciones de IVA.
