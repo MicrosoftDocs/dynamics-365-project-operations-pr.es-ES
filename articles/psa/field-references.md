@@ -17,20 +17,23 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32d0dbc3a69d713dcae8d27e52f2a0c6fc296127
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: af2256e77c3ceeee9638f57d971137df1658687b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085254"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148484"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Adición de campos personalizados a la configuración de precios y entidades transaccionales 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 En este tema se supone que ha completado los procedimientos que se describen en el tema [Crear campos y entidades personalizados](create-custom-fields-entities.md). Si no ha completado esos procedimientos, vuelva y complételos y, a continuación, regrese a este tema. 
 
 En este tema, los procedimientos mostrarán cómo agregar las referencias de campos personalizadas necesarias a las entidades y los elementos de la interfaz de usuario como los formularios y las vistas.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Agregar campos de dimensiones de precios personalizadas 
-Tras crear los campos y las entidades personalizadas, el siguiente paso es que la configuración de precios y las entidades transaccionales conozcan las entidades personalizadas o los conjuntos de opciones con la creación de campos de referencia. En función de si su lista de dimensiones de precios incluye dimensiones de conjuntos de opciones, dimensiones de entidad o ambas cosas, siga solo los pasos que se describen en **Dimensiones de precio personalizadas basadas en conjuntos de opciones** , en **Dimensiones de precio personalizadas basadas en entidades** o en ambas secciones, respectivamente.
+Tras crear los campos y las entidades personalizadas, el siguiente paso es que la configuración de precios y las entidades transaccionales conozcan las entidades personalizadas o los conjuntos de opciones con la creación de campos de referencia. En función de si su lista de dimensiones de precios incluye dimensiones de conjuntos de opciones, dimensiones de entidad o ambas cosas, siga solo los pasos que se describen en **Dimensiones de precio personalizadas basadas en conjuntos de opciones**, en **Dimensiones de precio personalizadas basadas en entidades** o en ambas secciones, respectivamente.
 
 ### <a name="option-set-based-custom-pricing-dimensions"></a>Dimensiones de precios personalizadas basadas en conjuntos de opciones
 Cuando una dimensión de precio personalizada se basa en conjuntos de opciones, agréguela como campo a las entidades clave de Project Service. En el procedimiento siguiente, **Ubicación de trabajo del recurso** y **Horas de trabajo del recurso** se utilizan como dimensiones de precios basadas en conjuntos de opciones. Estas se deben agregar primero como campos a las entidades de precio **Precio de rol** e **Incremento del precio de rol**.
@@ -39,7 +42,7 @@ Cuando una dimensión de precio personalizada se basa en conjuntos de opciones, 
 2. En el Explorador de soluciones, en el panel de navegación izquierdo, seleccione **Entidades > Precio de rol**.
 3. Expanda la entidad **Precio de rol** y seleccione **Campos**.
 4. Haga clic en **Nuevo** para crear un nuevo campo llamado **Ubicación de trabajo del recurso** y seleccione **Conjunto de opciones** como tipo de campo. 
-5. Seleccione **Utilizar un conjunto de opciones existente** , seleccione el conjunto de opciones **Ubicación de trabajo del recurso** y después haga clic en **Guardar**.
+5. Seleccione **Utilizar un conjunto de opciones existente**, seleccione el conjunto de opciones **Ubicación de trabajo del recurso** y después haga clic en **Guardar**.
 6. Repita los pasos del 1 al 5 para agregar este campo a la entidad **Incremento del precio de rol**. 
 7. Repita los pasos del 1 al 5 para el conjunto de opciones **Horas de trabajo del recurso**.
 
@@ -48,27 +51,27 @@ Cuando una dimensión de precio personalizada se basa en conjuntos de opciones, 
 
 > ![Agregar la ubicación de trabajo del recurso al precio de rol](media/RWL-Field.png)
 
-En las fases de ventas y estimación de un proyecto, las estimaciones del esfuerzo de trabajo necesario para completar el trabajo **Local** e **In situ** , en **Horas ordinarias** y **Horas extra** se usan para estimar el valor de la oferta o el proyecto. Los campos **Ubicación de trabajo del recurso** y **Horas de trabajo del recurso** se agregarán a las entidades de estimación **Detalle de línea de oferta** , **Detalle de línea de contrato** , **Tarea de proyecto** , **Miembro del equipo del proyecto** y **Línea de estimación**.
+En las fases de ventas y estimación de un proyecto, las estimaciones del esfuerzo de trabajo necesario para completar el trabajo **Local** e **In situ**, en **Horas ordinarias** y **Horas extra** se usan para estimar el valor de la oferta o el proyecto. Los campos **Ubicación de trabajo del recurso** y **Horas de trabajo del recurso** se agregarán a las entidades de estimación **Detalle de línea de oferta**, **Detalle de línea de contrato**, **Tarea de proyecto**, **Miembro del equipo del proyecto** y **Línea de estimación**.
 
 1. En PSA, haga clic en **Configuración** > **Soluciones** y luego haga doble clic en **dimensiones de precios de \<your organization name>**. 
 2. En el Explorador de soluciones, en el panel de navegación izquierdo, seleccione **Entidades > Detalle de línea de oferta**.
 3. Expanda la entidad **Detalle de línea de oferta** y seleccione **Campos**.
 4. Haga clic en **Nuevo** para crear un nuevo campo llamado **Ubicación de trabajo del recurso** y seleccione el tipo de campo **Conjunto de opciones**. 
 5. Seleccione **Utilizar un conjunto de opciones existente** y **Ubicación de trabajo del recurso** y después haga clic en **Guardar**.
-6. Repita los pasos del 1 al 5 para agregar este campo a las entidades **Detalle de línea de contrato de proyecto** , **Tarea de proyecto** , **Miembro del equipo del proyecto** y **Línea de estimación**.
+6. Repita los pasos del 1 al 5 para agregar este campo a las entidades **Detalle de línea de contrato de proyecto**, **Tarea de proyecto**, **Miembro del equipo del proyecto** y **Línea de estimación**.
 7. Repita los pasos del 1 al 6 para el conjunto de opciones **Horas de trabajo del recurso**. 
 
 > ![Agregar la ubicación de trabajo del recurso a la línea de estimación](media/RWL-Default-Value.png)
 
 
-Para la entrega y la facturación, el precio del trabajo completado se debe valorar de manera exacta para seleccionar si se realizó de forma **Local** o **In situ** y si se completó durante **Horas normales** u **Horas extras** en los datos reales del proyecto. Los campos **Ubicación de trabajo del recurso** y **Horas de trabajo del recurso** se deben agregar a las entidades **Entrada de tiempo** , **Real** , **Detalle de línea de factura** y **Línea de diario**.
+Para la entrega y la facturación, el precio del trabajo completado se debe valorar de manera exacta para seleccionar si se realizó de forma **Local** o **In situ** y si se completó durante **Horas normales** u **Horas extras** en los datos reales del proyecto. Los campos **Ubicación de trabajo del recurso** y **Horas de trabajo del recurso** se deben agregar a las entidades **Entrada de tiempo**, **Real**, **Detalle de línea de factura** y **Línea de diario**.
 
 1. En PSA, haga clic en **Configuración** > **Soluciones** y luego haga doble clic en **dimensiones de precios de \<your organization name>**.
 2. En el Explorador de soluciones, en el panel de navegación izquierdo, seleccione **Entidades > Entrada de tiempo**.
 3. Expanda la entidad **Detalle de línea de oferta** y después seleccione **Campos**.
 4. Haga clic en **Nuevo** para crear un nuevo campo llamado **Ubicación de trabajo del recurso** y seleccione **Conjunto de opciones** como tipo de campo. 
-5. Seleccione **Utilizar un conjunto de opciones existente** , seleccione el conjunto de opciones **Ubicación de trabajo del recurso** y después haga clic en **Guardar**.
-6. Repita los pasos del 1 al 5 para agregar este campo a las entidades **Real** , **Detalle de línea de factura** y **Línea de diario**.
+5. Seleccione **Utilizar un conjunto de opciones existente**, seleccione el conjunto de opciones **Ubicación de trabajo del recurso** y después haga clic en **Guardar**.
+6. Repita los pasos del 1 al 5 para agregar este campo a las entidades **Real**, **Detalle de línea de factura** y **Línea de diario**.
 7. Repita los pasos del 1 al 6 para el conjunto de opciones **Horas de trabajo del recurso**. 
 
 > ![Agregar la ubicación de trabajo del recurso a la entrada de tiempo](media/RWL-time-entry.png)
@@ -101,13 +104,13 @@ En las fases de ventas y estimación del proyecto, para establecer el precio de 
 - **Miembro del equipo del proyecto**
 - **Línea de estimación**
 
-5. Repita los pasos del 1 al 5 para crear relaciones de 1:N de **Título estándar** a **Detalle de línea de oferta** , **Detalle de línea de contrato de proyecto** , **Tarea de proyecto** , **Miembro del equipo del proyecto** y **Línea de estimación**.
+5. Repita los pasos del 1 al 5 para crear relaciones de 1:N de **Título estándar** a **Detalle de línea de oferta**, **Detalle de línea de contrato de proyecto**, **Tarea de proyecto**, **Miembro del equipo del proyecto** y **Línea de estimación**.
 
 > ![Agregar el título estándar como un campo de referencia a la línea de estimación](media/ST-Estimate-Line.png)
 
-En las fases de entrega y facturación, el precio del trabajo completado por cada título estándar se debe valorar con exactitud en los datos reales de proyecto. Esto significa que debe haber relaciones de 1:N desde las entidades **Título estándar** hasta **Entrada de tiempo** , **Real** , **Detalle de línea de factura** y **Línea de diario**.
+En las fases de entrega y facturación, el precio del trabajo completado por cada título estándar se debe valorar con exactitud en los datos reales de proyecto. Esto significa que debe haber relaciones de 1:N desde las entidades **Título estándar** hasta **Entrada de tiempo**, **Real**, **Detalle de línea de factura** y **Línea de diario**.
 
-6. Repita los pasos del 1 al 6 para crear relaciones de 1:N desde las entidades **Título estándar** hasta las entidades **Entrada de tiempo** , **Real** , **Detalle de línea de factura** y **Línea de diario**.
+6. Repita los pasos del 1 al 6 para crear relaciones de 1:N desde las entidades **Título estándar** hasta las entidades **Entrada de tiempo**, **Real**, **Detalle de línea de factura** y **Línea de diario**.
 
 > ![Agregar el título estándar como un campo de referencia a la entrada de tiempo](media/ST-Mapping.png)
 
@@ -116,7 +119,7 @@ Para la entrada de tiempo, resultaría muy útil que el sistema proporcionara de
 
 1. En el Explorador de soluciones, en el panel de navegación izquierdo, seleccione **Entidades > Título estándar**.
 2. Expanda la entidad **Título estándar** y seleccione **Relaciones de 1:N**.
-3. Haga doble clic en **Recurso que se puede reservar a entrada de tiempo**. En la página **Relación** , haga clic en **Utilizar asignaciones de campos**. 
+3. Haga doble clic en **Recurso que se puede reservar a entrada de tiempo**. En la página **Relación**, haga clic en **Utilizar asignaciones de campos**. 
 4. Haga clic en **Nuevo** para crear una nueva asignación de campos entre el campo **Título estándar** de la entidad **Recurso que se puede reservar** hasta el campo de referencia **Título estándar** de la unidad **Entrada de tiempo**. 
 
 > ![Configurar las asignaciones de campos para permitir establecer como predeterminado el título estándar desde Recurso que se puede reservar hasta Entrada de tiempo](media/ST-Mapping2.png)
@@ -129,7 +132,7 @@ Esto completa los cambios de esquema necesarios para las dimensiones personaliza
 Tras realizar todos los cambios de esquema necesarios, el siguiente paso es hacer que los campos estén visibles en la interfaz de usuario. Para ello, agregue los campos a los formularios y las vistas.
 
 1. Abra el formulario o la vista. En el panel de navegación derecho, seleccione el campo y arrástrelo al lienzo de formulario. 
-2. Si va a editar una vista, utilice el panel de navegación derecho, haga clic en **Agregar campos** y, en el cuadro de diálogo **Listado de campos** , seleccione los campos que necesite y haga clic en **Aceptar**.
+2. Si va a editar una vista, utilice el panel de navegación derecho, haga clic en **Agregar campos** y, en el cuadro de diálogo **Listado de campos**, seleccione los campos que necesite y haga clic en **Aceptar**.
 
 La tabla siguiente proporciona una lista completa de los formularios y las vistas estándar por entidad que deberán actualizarse con los nuevos campos. Si tiene formularios o vistas adicionales en sus personalizaciones acerca de estas entidades, agregue también los campos nuevos.
 
