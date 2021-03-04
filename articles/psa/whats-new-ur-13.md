@@ -59,3 +59,6 @@ En este tema se muestran las características y correcciones que son nuevas o qu
      - Corregido: botones adicionales para **Nueva oportunidad**, **Cita**, **Fila para ordenar** y **Añadir producto** son visibles en los comandos de Oportunidades, Presupuestos, Pedidos de productos y la subcuadrícula Líneas basadas en proyectos.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Después de que se resuelve una lista de precios para las ventas, el sistema com
     | &nbsp; | Margen de beneficio sobre el coste | Aplicar un margen según lo definido por la línea de precio de categoría en la tasa de coste unitario del costo real relacionado |
 
 4. Si el sistema no puede emparejar los valores de los campos **Categoría** y **Unidad**, la tasa de ventas predeterminada es cero (0).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

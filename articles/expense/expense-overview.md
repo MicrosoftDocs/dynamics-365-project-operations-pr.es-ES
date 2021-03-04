@@ -44,3 +44,6 @@ Para más información, consulte [Entrada de gastos (simplificada)](basic-expens
 
 ## <a name="determine-your-expense-deployment"></a>Determinar la implementación de gastos
 Para determinar si está ejecutando la implementación de la administración de gastos básicos, verifique que la dirección URL termine por **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

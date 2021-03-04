@@ -43,3 +43,5 @@ Agregar características a los requisitos de recursos le permite documentar el c
 3. En la subcuadrícula **Habilidades**, seleccione **+Agregar nueva característica de requisito.**
 4. En el panel de creación rápida, busque y seleccione las características requeridas y agregue un **Valor de calificación**.
 5. Seleccione **Guardar y cerrar**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

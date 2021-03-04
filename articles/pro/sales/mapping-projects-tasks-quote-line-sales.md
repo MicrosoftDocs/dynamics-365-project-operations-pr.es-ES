@@ -90,3 +90,6 @@ Puede disociar también las tareas del proyecto de las líneas de oferta desde l
 
 >[!NOTE]
 > Este procedimiento no elimina la tarea del proyecto. Solo elimina la asociación de tareas de la línea de oferta basada en proyecto.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

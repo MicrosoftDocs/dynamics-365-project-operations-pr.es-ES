@@ -82,3 +82,6 @@ En la lista de precios de costes de Fabrikam UK-Robotics, las tarifas de costes 
 | Developer | Fabrikam UK | 115 GBP |
 
 La lista de precios de coste puede proporcionar tarifas de mano de obra en varias monedas. Al generar una estimación de costos en el proyecto, las operaciones del proyecto convertirán estas tasas de costos a la moneda del proyecto y se las mostrarán al usuario. Cuando se aprueba una entrada de tiempo y se crea un costo real, el costo real se calcula en la moneda de esa línea de precio de función coincidente en la lista de precios de costo. Los costes reales por tiempo en un solo proyecto se pueden registrar en múltiples monedas. Sin embargo, al acumular o resumir los costes laborales reales a nivel de proyecto, las operaciones del proyecto convertirán todos los montos de costos laborales a la moneda del proyecto, que el usuario puede ver.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

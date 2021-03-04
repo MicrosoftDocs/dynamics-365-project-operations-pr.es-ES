@@ -45,3 +45,6 @@ Cuando selecciona **Aceptar** en la página de diálogo, el sistema crea una cop
 > - Referencia del proyecto en el proyecto, líneas de oferta basadas, información del presupuesto del cliente
 >
 >Debido a que esta información es muy específica para cada oferta, estos campos y registros no se copian. Se copian las líneas de oferta para proyectos y productos, las estimaciones sobre los detalles de la línea de oferta y los valores que no deben excederse a nivel de oferta. Los valores predeterminados de precio y tasa de coste dependen de la opción **Copiar precios** seleccionada en la página de diálogo **Copiar parámetros**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Su compañía probablemente organiza su negocios de consultoría por geografía,
   
 ### <a name="see-also"></a>Vea también  
  [Configurar Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

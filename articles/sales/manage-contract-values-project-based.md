@@ -57,3 +57,6 @@ Regla: un proyecto y una determinada clase de transacción solo se pueden inclui
 | C1       | CL2           | P1      | No           | Sí             | No          | Válido           | El tiempo y las tarifas del proyecto P1 se incluyen en el CL1. El gasto del proyecto P1 se incluyen en CL2. </br>   No hay superposición en lo que se incluye en cada línea de contrato y, por lo tanto, es válido.  |
 | C1       | CL1           | P1      | Sí          | Sí             | Sí         | No válido       | Viola la regla. El tiempo, los gastos y las tarifas del proyecto P1 se incluyen en las líneas de dos contratos.                                                                                               |
 | CL2      | CL2           | P1      | Sí          | Sí             | Sí         | No válido       | Viola la regla. El tiempo, los gastos y las tarifas del proyecto P1 se incluyen en las líneas de dos contratos.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

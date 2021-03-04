@@ -79,3 +79,6 @@ Si ha agregado un campo personalizado al detalle de la línea de oferta y desea 
 7. Seleccione **Aceptar** para cerrar el cuadro de diálogo y después seleccione **Actualizar paso**.
 8. Repita los pasos del 1 al 7 para el segundo complemento.
 9. Cierre **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

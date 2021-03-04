@@ -231,3 +231,6 @@ En la siguiente tabla se describe cómo se sincronizan los datos entre Project S
 
 ### <a name="see-also"></a>Vea también  
  [Guía del jefe de proyecto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

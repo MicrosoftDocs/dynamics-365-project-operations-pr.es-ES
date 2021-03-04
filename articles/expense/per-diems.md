@@ -31,3 +31,6 @@ Una dieta es un subsidio que se paga a un trabajador que viaja por trabajo. En l
     
 ## <a name="submit-expenses-using-per-diem"></a>Enviar los gastos utilizando dietas
 Para enviar gastos utilizando dietas, use la categoría de gastos **Dietas** al crear un informe de gastos. Introduzca **Dietas desde la fecha**, **Dietas hasta la fecha**, y la **Ubicación de dietas**. La cantidad se calculará en función de las tarifas de dietas para la ubicación seleccionada y la reducción de comidas se calculará en función de los niveles de tarifas de dietas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

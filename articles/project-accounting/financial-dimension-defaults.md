@@ -62,3 +62,6 @@ Los proyectos se crean y mantienen en CDS. Los atributos contables para proyecto
 4. Estalbezca los valores predeterminados de dimensiones financieras. Observe que las dimensiones financieras usan los valores predeterminados de la cuenta del cliente. Si el proyecto está asociado con una línea de contrato con varios clientes de contrato de proyecto, el cliente principal se utiliza para las dimensiones financieras predeterminadas.
 
 Las dimensiones financieras predeterminadas del proyecto se utilizan para establecer los valores predeterminados de las líneas de diario para las transacciones de tiempo, gastos y tarifas en el **Diario de integración de Project Operations** y en las líneas de factura de proyectos relacionados.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

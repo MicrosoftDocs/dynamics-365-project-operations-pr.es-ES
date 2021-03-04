@@ -41,3 +41,6 @@ Cuando la clave de administración de características **Habilitar página de li
 Un usuario delegado puede filtrar y buscar rápidamente en los informes de gastos existentes que se le hayan delegado. También pueden crear un nuevo informe de gastos para otros usuarios seleccionando **Nuevo informe de gastos**.
 
 Los usuarios delegados también pueden crear y administrar informes de gastos para otros empleados a través de **Gestión de gastos** > **Mis gastos** > **Informes de gastos** y seleccionando **Abrir gastos de otros usuarios**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

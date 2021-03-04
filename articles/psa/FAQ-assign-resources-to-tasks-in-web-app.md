@@ -116,3 +116,6 @@ Seleccione **Reservar** para el recurso genérico, y entonces podrá usar el tab
 Cuando el recurso genérico se satisfaga con un recurso con nombre, se quitará el recurso genérico del equipo y las asignaciones de tarea para el recurso genérico se asignarán al recurso con nombre que satisfizo el requisito del recurso genérico.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ En este tema se muestran las características y correcciones que son nuevas o qu
     - Corregido: ID de objetos duplicados encontrados en el formulario **principal de contrato**.
     - Corregido: La lógica se ha actualizado para hacer que la pestaña **Análisis de la oferta** esté visible para que muestre la configuración de metadatos de la pestaña.
     - Corregido: La Fecha contable del registro actual ahora proviene de la fecha de entrada de tiempo/gasto y no de la fecha de la aprobación.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

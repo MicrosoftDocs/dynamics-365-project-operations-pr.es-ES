@@ -41,3 +41,6 @@ Puede enviar un requisito de recurso generado como solicitud de recurso. La soli
 El estado de la solicitud del miembro del equipo genérico cambiará a **Enviado**.
 
 Una vez que el administrador de recursos complete la solicitud, el recurso genérico se reemplazará por un recurso con nombre si el administrador de recursos cumple la solicitud con la reserva de un recurso con nombre. De lo contrario, el recurso genérico permanecerá en el equipo y el estado de la solicitud cambiará a **Necesita revisión** si el administrador de recursos ha propuesto un recurso con nombre.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

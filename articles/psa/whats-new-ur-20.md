@@ -62,3 +62,6 @@ Se han solucionado los siguientes problemas:
 - La lista **Precio de coste de unidad de organización** permite superposiciones en la vigencia de la fecha.
 - Los usuarios no pueden cambiar **OrgUnit** cuando el tipo de pedido no está basado en el trabajo porque dará lugar a un error de excepción de referencia nula.
 - Al intentar navegar desde el formulario **Detalles de línea de presupuesto**, de vuelta a la pestaña **Presupuesto**, el formulario se actualiza y muestra la pestaña **Resumen**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

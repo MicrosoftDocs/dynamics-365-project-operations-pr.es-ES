@@ -43,3 +43,6 @@ El siguiente diagrama muestra la facturación de empresas vinculadas en relació
 - [Configurar la facturación con empresas vinculadas](configure-intercompany-invoicing.md)
 - [Registrar transacciones de empresas vinculadas](create-intercompany-transactions.md)
 - [Crear facturas de proveedores y clientes de empresas vinculadas](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

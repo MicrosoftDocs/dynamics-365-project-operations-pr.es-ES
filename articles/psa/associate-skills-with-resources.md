@@ -45,3 +45,6 @@ En el paso anterior, ya asoció algunas cualificaciones con un nuevo recurso. Oc
   
 ### <a name="see-also"></a>Vea también  
  [Configuración de recursos](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

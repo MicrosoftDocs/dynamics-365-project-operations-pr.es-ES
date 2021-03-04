@@ -41,3 +41,6 @@ El vínculo al archivo PDF que se proporcionaba antes en este tema se ha quitado
 
 > [!NOTE]
 > Este tema se quitará en una próxima actualización de la documentación. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

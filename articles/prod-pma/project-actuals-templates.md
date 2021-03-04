@@ -140,3 +140,6 @@ Las siguientes ilustraciones muestran ejemplos de asignaciones de tareas de plan
 [![Asignación de plantillas: actualización de reales](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Asignación de plantillas: actualización de transacción](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Puesto que Dynamics 365 Project Operations utiliza el motor Universal Resource S
 
 Para ver más detalles sobre un recurso individual, haga clic con el botón secundario en él para abrir la tarjeta de recursos.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

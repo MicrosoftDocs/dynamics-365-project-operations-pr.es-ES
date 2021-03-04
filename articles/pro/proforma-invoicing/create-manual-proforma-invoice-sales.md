@@ -35,3 +35,6 @@ Todas las facturas del proyecto creadas están disponibles en la página **Factu
 También se puede crear una factura proforma a partir de la página de detalles del **Contrato de proyecto**. El sistema comprueba que el contrato de proyecto tenga un trabajo pendiente **Listo para facturar** anterior a la fecha actual. A partir de estos contratos, el sistema crea borradores de facturas proforma en función del número de clientes en cada línea de contrato.
 
 Cuando se crea una sola factura proforma, se abre la página **Factura**. Si se crean varias facturas para ese contrato de proyecto, se abrirá la página de lista **Facturas** para mostrar todas las facturas creadas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

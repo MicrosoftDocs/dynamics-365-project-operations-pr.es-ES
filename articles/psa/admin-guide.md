@@ -52,3 +52,6 @@ Esta guía muestra el proceso de instalación y de configuración:
  [Guía de administrador de cuentas](../psa/account-manager-guide.md) [Jefe del proyecto Guide](../psa/project-manager-guide.md)   
  [Guía del administrador de recursos](../psa/resource-manager-guide.md)   
  [Guía de tiempo, gastos y colaboración](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

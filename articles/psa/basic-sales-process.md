@@ -93,3 +93,6 @@ En PSA, no es posible realizar seguimientos de las revisiones de ofertas. En su 
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Seguimiento de comentarios y aprobaciones de ofertas y contratos de proyecto
 Puede administrar la revisión y la aprobación de ofertas y contratos de proyecto mediante el muro de registros y las publicaciones. Su organización puede crear flujos de trabajo personalizados y complementos para asignar, redirigir, remitir a instancias superiores y administrar notificaciones de los elementos de trabajo de revisión y aprobación.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

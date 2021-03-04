@@ -53,3 +53,6 @@ Las categorías de proyectos representan el nivel más granular de configuració
 Los grupos de categorías se utilizan para compartir propiedades, principalmente perfiles de registro, entre categorías de proyectos relacionadas. Debe haber al menos un grupo de categorías para cada tipo de transacción y a cada categoría de proyecto se le asigna un grupo.
 
 Las especificaciones de contabilización de las operaciones de proyecto se definen mediante las reglas del perfil de costes e ingresos del proyecto, las categorías de proyectos y los grupos de categorías. Puede configurar grupos de categorías yendo a **Gestión de proyectos y contabilidad** \> **Configuración** \> **Categorías** \> **Grupos de categorías**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

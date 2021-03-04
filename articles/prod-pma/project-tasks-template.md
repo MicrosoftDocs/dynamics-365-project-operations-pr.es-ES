@@ -83,3 +83,6 @@ Si debe usar Power Query, siga estas pautas:
 La siguiente ilustración muestra un ejemplo de las asignaciones de tareas de plantilla en Integración de datos. La asignación muestra la información del campo que se sincronizará de Project Service Automation a Finance.
 
 [![Asignación de plantillas](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

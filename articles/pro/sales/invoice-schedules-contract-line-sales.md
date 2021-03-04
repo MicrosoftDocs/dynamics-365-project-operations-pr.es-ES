@@ -74,3 +74,6 @@ Los hitos de precio fijo se pueden generar manualmente cuando no se dividen peri
 | Impuestos | Creación rápida | La cantidad del impuesto aplicado al hito. | Este se incluye en el hito de la línea del contrato del proyecto y en la factura. |
 
 4. Seleccione **Guardar y cerrar**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

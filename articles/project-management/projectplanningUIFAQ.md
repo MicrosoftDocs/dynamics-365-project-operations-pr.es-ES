@@ -106,3 +106,6 @@ Cuando se realizan una o más actualizaciones en la estructura de descomposició
   - Sistema de Project Operations
   - Sistema de Project
   - Sistema de doble escritura de Project Operations (este rol es obligatorio si se va a implementar el escenario basado en recursos/no mantenidos en existencias de Project Operations).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

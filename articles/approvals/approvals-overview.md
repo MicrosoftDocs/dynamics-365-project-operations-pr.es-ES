@@ -59,3 +59,6 @@ Cada proyecto tiene varios miembros del equipo del proyecto. Puede especificar q
 3. Seleccione **Guardar**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

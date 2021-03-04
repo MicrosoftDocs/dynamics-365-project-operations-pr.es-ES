@@ -43,3 +43,6 @@ Para hacer una copia de la lista de precios, complete los siguientes pasos.
 1. En las pestañas **Rol**, **Categoría** y **Artículo de lista de precios** de una lista de precios, puede seleccionar **Actualizar precios** para aplicar un margen de beneficio a todos los precios de la subcuadrícula. 
 2. En la página de diálogo que se abre, introduzca un margen de beneficios. También puede ingresar un porcentaje de margen negativo para disminuir los precios en un cierto porcentaje. 
 3. Seleccione **Aceptar** en la página de diálogo y luego verifique que los precios en la subcuadrícula reflejen los cambios que realizó.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Se han solucionado los siguientes problemas:
 - Los clientes pueden experimentar un rendimiento degradado al crear un proyecto porque **GetBookableResourceIdFromUser** recupera todas las columnas de recursos reservables en lugar de solo el identificador principal.
 - La entidad **Tipo de transacción** carece del complemento de actualización de prevalidación para evitar que los usuarios ingresen **Unidades** y **Grupos de unidades** no válidos para los tipos de transacción.
 - El paso **Eliminar** no funciona para la importación de entrada de tiempo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

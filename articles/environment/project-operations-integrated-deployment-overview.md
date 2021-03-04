@@ -43,3 +43,6 @@ Esta implementación debe elegirse si las expectativas de Project Operations son
 - Requiere un motor de tipo de cambio e impuestos sobre las ventas de clase empresarial eficaz para generar facturas de proyectos para los clientes.
 - Un sistema de reconocimiento de ingresos y contabilidad de proyectos que cumple con las Normas Internacionales de Información Financiera (NIIF).
 - Aplicaciones Finance o Supply Chain Management e integración de transacciones basadas en proyectos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

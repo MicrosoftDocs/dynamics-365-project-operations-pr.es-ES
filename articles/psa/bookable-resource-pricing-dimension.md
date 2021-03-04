@@ -76,3 +76,6 @@ Esto abre la página **Nuevo nombre de campo de la dimensión de precios** para 
 5. Agregue **msdyn_projectteam** al campo **Nombre lógico de la entidad** y **msdyn_bookableresourceid** al campo **Nombre de campo**. Guarde el registro.
 
  ![Formulario de nuevo nombre de campo de la dimensión de precios](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

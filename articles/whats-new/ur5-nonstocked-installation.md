@@ -125,3 +125,6 @@ Las siguientes actualizaciones de los privilegios de seguridad para las entidade
  
  ![Sincronización de asignaciones de contabilidad](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -75,3 +75,6 @@ Una vez completadas las tareas anteriores, puede completar las siguientes tareas
 - Ejecute solicitudes de recursos.
 - Solicite un recurso con personal de una WBS.
 - Reserve recursos para un proyecto sin tener una solicitud de recursos con personal.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

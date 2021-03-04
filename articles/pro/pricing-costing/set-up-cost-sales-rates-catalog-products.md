@@ -26,3 +26,6 @@ La configuración de precios para artículos del catálogo de productos de Dynam
 En Project Operations, los productos no se pueden estimar ni usar en proyectos, por lo que no es necesario establecer los precios del catálogo de productos en las listas de precios de proyecto para ofertas y contratos.
 
 Use el campo **Precio del producto** de una oferta, un contrato o una cuenta para configurar los precios del catálogo de productos. No configure los precios de catálogo de productos en las listas de precios de proyecto. Las listas de precios del proyecto son exclusivas de Project Operations. La lógica empresarial específica de la aplicación copia las listas de precios de una oferta a un contrato. El resultado es una lista de precios de un proyecto específico del contrato. La operación de copia puede retrasar el proceso de obtención de cotización si la lista de precios del proyecto en la cotización es demasiado grande. Las listas de precios de productos no se copian para crear listas de precios personalizadas en los contratos. Como no se realiza una copia, el rendimiento del proceso de oferta no se ve afectado.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

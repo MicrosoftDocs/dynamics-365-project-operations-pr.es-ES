@@ -41,3 +41,6 @@ Este tema se aplica a los siguientes componentes y versiones de Dynamics 365 Pro
 | **Administración de oportunidades** | 2040713 | Se ha corregido el error de script que se produce al crear una factura a partir de un contrato con Field Service instalado. |
 | **Planificación y seguimiento de proyectos** | 2090202 | Se han marcado las reglas de negocio que ya no se utilizan como **En desuso**. |
 | **Tiempo y gasto** | 2091249 | Se han establecido controles más estrictos para que los usuarios no puedan cambiar la tarea en una entrada de tiempo enviada o aprobada. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

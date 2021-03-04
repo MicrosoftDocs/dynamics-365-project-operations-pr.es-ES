@@ -32,3 +32,6 @@ Si los gastos de un informe de gastos se cargan a una empresa que no sea la empr
 Para registrar un informe de gastos, en la página **Informes de gastos aprobados**, seleccione el informe de gastos y, a continuación, en el Panel de acciones, seleccione **Registrar**.
 
 También puede registrar todos los informes de gastos de la lista al mismo tiempo. Seleccione todos los informes de gastos y luego seleccione **Registrar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

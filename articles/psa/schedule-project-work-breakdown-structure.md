@@ -152,3 +152,6 @@ Usará los siguientes tipos de tareas al crear la estructura de descomposición 
   
 ### <a name="see-also"></a>Vea también  
  [Guía del jefe de proyecto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Para crear una programación de proyecto, cree una plantilla de calendario de pr
 8. En el cuadro de diálogo **Plantilla de trabajo**, introduzca un nombre para la plantilla de trabajo y, a continuación, seleccione **Aplicar**. 
 
 Ahora puede asociar la plantilla de trabajo con una plantilla de calendario de proyecto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

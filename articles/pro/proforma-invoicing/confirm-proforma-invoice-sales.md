@@ -273,3 +273,6 @@ Ventas facturadas reales para la línea de productos con la cantidad y el monto 
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

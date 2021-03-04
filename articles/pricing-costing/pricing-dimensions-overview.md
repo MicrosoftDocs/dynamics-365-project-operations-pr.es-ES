@@ -71,3 +71,6 @@ El siguiente ejemplo muestra las tasas de facturación que se configuran en func
 | ----------------|-------------|----------|----------:|----------|
 | Mi empresa_Banda1 | Contoso US  |Hour | 145|USD     |
 | Mi empresa_Banda2 | Contoso India |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

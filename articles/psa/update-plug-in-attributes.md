@@ -68,3 +68,6 @@ Los siguientes pasos le guían a través del proceso de registro de los compleme
 
 9. Cierre la herramienta de registro del complemento.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

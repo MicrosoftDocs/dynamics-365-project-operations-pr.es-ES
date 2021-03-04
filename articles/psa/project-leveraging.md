@@ -54,3 +54,6 @@ Puede definir el esfuerzo de trabajo y las estimaciones de programación mediant
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Importación de estimaciones de un proyecto a una oferta
 
 Después de definir las estimaciones del proyecto, puede importarlas en la línea de oferta. En la página **Detalles de línea de oferta**, seleccione **Importar desde estimaciones** en la cinta para resumir las estimaciones de proyecto por tipo de transacción, rol o nivel de tarea.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

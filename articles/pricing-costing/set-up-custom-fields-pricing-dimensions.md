@@ -96,3 +96,6 @@ Establecer la prioridad de dimensión ayuda a la fijación de precios incluso cu
 
 - **Prioridad de costes**: el valor de la prioridad de coste de una dimensión indicará el peso de esa dimensión cuando se compara con la configuración de precios de coste. El valor de **Prioridad de coste** debe ser único en todas las dimensiones con **Aplicable a costes**.
 - **Prioridad de ventas**: el valor de la prioridad de ventas de la dimensión indicará el peso de esa dimensión cuando se compara con la configuración de precios de venta o tasas de facturación. El valor de **Prioridad de ventas** debe ser único en todas las dimensiones con **Aplicable a ventas**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Deberá agregar las siguientes entidades de Project Service a su solución de c�
 > ![No incluya todos los componentes relacionados.](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

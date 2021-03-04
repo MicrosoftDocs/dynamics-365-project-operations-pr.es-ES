@@ -98,3 +98,6 @@ Los datos de seguimiento en las vistas **Seguimiento del esfuerzo** y **Seguimie
 El campo **Estado general del proyecto** es un campo editable que muestra el estado general del proyecto. Utiliza códigos de colores, como verde, amarillo y rojo, para indicar un riesgo creciente. El campo **Comentarios** permite al jefe de proyecto introducir comentarios específicos sobre el estado. El campo **Última actualización del estado el** no es editable y el valor es una marca de tiempo que indica cuándo se actualizó por última vez.
 
 Los campos **Rendimiento de programación** y **Rendimiento de coste** se establecen desde la fecha de seguimiento. Cuando la programación y la variación de costes para el nodo raíz en la vista **Seguimiento del esfuerzo** son positivas, puede establecer estos campos en **Adelantado**. Cuando la programación y la variación de coste para el nodo raíz sean negativas, puede establecerlas en **Retrasado**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

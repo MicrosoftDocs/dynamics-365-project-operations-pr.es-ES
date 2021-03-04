@@ -82,3 +82,6 @@ Esta es la experiencia más óptima para desasociar tareas de proyectos de líne
 4. En la página de diálogo que se abre, seleccione una línea de contrato en el menú desplegable.
 5. Seleccione la casilla de verificación para indicar si la asociación también deben eliminarse de las tareas secundarias de las tareas seleccionadas. Al marcar la casilla, también se desasociarán las tareas secundarias de las tareas seleccionadas de la línea del contrato.
 6. Seleccione **Aceptar**. Un mensaje de advertencia indica que la eliminación de esta asociación podría dar como resultado la reversión de los datos reales registrados previamente en la tarea. Seleccione **Aceptar** en el cuadro de diálogo de advertencia para eliminar la asociación entre la tarea y la línea de contrato basada en el proyecto.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ Molly Clark, desarrolladora empleada en GBPM, registra 10 horas de trabajo en un
     - Crédito: Proyecto - Ingresos acumulados 120 USD
 
     El sistema ahora está listo para crear una factura de cliente de empresas vinculadas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

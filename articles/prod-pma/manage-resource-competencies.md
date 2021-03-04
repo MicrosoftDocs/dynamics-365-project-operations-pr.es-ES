@@ -53,3 +53,6 @@ Para configurar las competencias de un trabajador, puede utilizar la página de 
 5. En el campo **Fecha del nivel** , seleccione **1-/14/2014**.
 6. En el campo **Años de experiencia** , escriba **10**.
 7. Seleccione **Guardar** y cierre la página.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

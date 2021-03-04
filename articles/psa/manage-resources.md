@@ -344,3 +344,6 @@ Si tiene asignaciones de tareas para un recurso pero no tiene reservas, en la p�
 ![Cuadro de diálogo Ampliar reservas.](media/Resource-Management-image58.png)
 
 El jefe de proyecto o el administrador de recursos pueden usar el Tablero de programación para administrar las situaciones de exceso de reserva de un recurso más allá de su capacidad.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

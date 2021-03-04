@@ -96,3 +96,6 @@ Haga clic en **Enviar** para enviar la hoja de horas al flujo de trabajo de apro
 ## <a name="review-timesheets"></a>Revisar las hojas de horas
 
 En el menú se encuentra disponible una lista de las hojas de horas que deben revisarse. Esta opción solo está disponible si ha sido designado como aprobador de flujo de trabajo. Se admiten tanto la aprobación de encabezado como de línea. La aprobación de nivel de línea ofrece la posibilidad de marcar una o más líneas para su aprobación. Después de revisar la información de la hoja de horas, haga clic en **Aprobar** , **Delegar** o **Regresar** para continuar con el flujo de trabajo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

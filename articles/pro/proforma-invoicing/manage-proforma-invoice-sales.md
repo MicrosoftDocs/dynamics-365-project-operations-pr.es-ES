@@ -144,3 +144,6 @@ Si tiene datos reales que llegaron después de que se creó la factura, puede in
 En Project Operations, puede crear líneas de factura para productos que no se aplican a ningún proyecto o para todos los proyectos junto con líneas de factura basadas en proyectos. Estas líneas de factura se crean como líneas de contrato basadas en productos y, una vez que se marcan como listas para facturar, se agregan como líneas de factura basadas en productos.
 
 Una vez que haya agregado líneas de factura basadas en productos, no se pueden cambiar. Sin embargo, pueden eliminarse del borrador de la factura proforma.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

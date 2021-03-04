@@ -34,3 +34,6 @@ Las oportunidades de proyectos se pueden copiar fácilmente para crear nuevas op
     | Copiar precios | Un valor Sí / No que indica si el precio de la oportunidad debe copiarse de la oportunidad de origen. | Si se selecciona **Sí**, las listas de precios se copian desde el origen a la oportunidad de destino. Si se selecciona **No**, las listas de precios se vuelven a predeterminar en función de las últimas listas de precios que se configuraron. |
 
 3. Seleccione **Aceptar**. El sistema crea una copia de la oportunidad de proyecto en función de los parámetros seleccionados y se abre la nueva oportunidad de proyecto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

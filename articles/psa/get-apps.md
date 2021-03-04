@@ -36,3 +36,6 @@ Si desea especificar el tiempo y gastos en su dispositivo móvil [Obtenga e inst
   
 ### <a name="see-also"></a>Vea también  
  [Guía de tiempo, gastos y colaboración](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

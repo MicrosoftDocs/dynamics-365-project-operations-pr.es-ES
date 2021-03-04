@@ -101,3 +101,6 @@ Si no ve uso imputable, estas son algunas cosas que puede comprobar:
   - El rol en la línea de contrato de proyecto que apoya el proyecto se ha establecido en no imputable.
   - El proyecto no tiene una línea de contrato asociada.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

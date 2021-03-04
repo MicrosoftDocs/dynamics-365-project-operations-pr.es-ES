@@ -36,3 +36,6 @@ Una vez resuelta una lista de precios de coste, los campos **Rol** y **Unidad de
 Las líneas de estimación para gasto se refieren a los detalles de la línea de cotización y contrato para gastos y las líneas de estimación de gastos de un proyecto.
 
 Una vez resuelta una lista de precios de coste, el sistema utiliza una combinación de los campos **Categoría** y **Unidad** en la línea de estimación de gasto para buscar una coincidencia en las líneas de **Precio de categoría** de la lista de precios resuelta. Si el sistema encuentra una línea de precio de categoría que tiene una tarifa de coste para la combinación de campos **Categoría** y **Unidad**, entonces esa tarifa de coste se establece por defecto. Si el sistema no encuentra coincidencias de los valores de **Categoría** y **Unidad**, o si encuentra una línea de precio de categoría coincidente pero el método de cálculo de precios no es **Precio unitario**, la tasa de coste predeterminada es cero (0).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

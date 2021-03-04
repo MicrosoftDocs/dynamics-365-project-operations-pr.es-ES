@@ -51,3 +51,6 @@ Cada entidad legal que usa Project Operations en Dynamics 365 Customer Engagemen
   - **Valores predeterminados del tipo de facturación**: Project Operations utiliza un conjunto fijo de valores predeterminados de tipo de facturación que deben asignarse a las propiedades de línea Finance. Cree un registro para cada tipo de facturación: **No especificado**, **Facturable**, **No facturable**, **Complementario** y **No disponible**.
   - **Valores predeterminados de categoría de proyecto**: seleccione las categorías de proyecto predeterminadas que se utilizarán para cada tipo de transacción. Estos valores predeterminados se utilizarán en el **Diario de integración de Project Operations** y en estimaciones donde no se especifica ninguna categoría de transacción para el proyecto real.
   - **Pronósticos**: seleccione el modelo de pronóstico que se utilizará para las estimaciones de tiempo y gastos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

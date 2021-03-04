@@ -33,3 +33,6 @@ Se puede ver una lista de todas las ofertas de proyecto en la página de lista *
 2. Utilice el **conmutador Ver** para seleccionar otras vistas filtradas de las cotizaciones. Con criterios de filtro personalizados, puede configurar sus propias vistas y opciones de navegación.
 
 Las ofertas se pueden crear o eliminar desde esta página de lista o páginas de detalles.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

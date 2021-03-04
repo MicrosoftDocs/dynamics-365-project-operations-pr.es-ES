@@ -200,3 +200,6 @@ Cuando se visualiza el tiempo a niveles más altos, las celdas de la pestaña **
 Si tiene asignaciones de tareas para un recurso pero no tiene reservas, en el formulario **Proyectos**, en la pestaña **Conciliación**, seleccione la escasez de reservas y luego seleccione **Ampliar reservas**. Aparecerá el cuadro de diálogo **Ampliar reservas** y mostrará la reserva necesaria para abordar la escasez de recursos. El cuadro de diálogo muestra las reservas existentes del recurso en todos los proyectos o en otras entidades que se pueden programar. Si se selecciona **Aceptar** para crear la para reservar del recurso independientemente de la disponibilidad del recurso, es posible que se produzca un problema de exceso de reserva.
 
 El administrador de proyecto o el administrador de recursos pueden usar el Tablero de programación para administrar las situaciones de exceso de reserva de un recurso más allá de su capacidad.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

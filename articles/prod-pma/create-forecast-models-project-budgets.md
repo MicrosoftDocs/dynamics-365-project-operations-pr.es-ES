@@ -57,3 +57,6 @@ Este tema describe cómo crear un modelo de previsión para los presupuestos res
 
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

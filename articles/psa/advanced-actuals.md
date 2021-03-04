@@ -34,3 +34,6 @@ ms.locfileid: "5145739"
 El sistema registra todas las transacciones financieras que se producen durante un proyecto. Estas transacciones se registran como **datos reales**. La siguiente tabla muestra los diferentes tipos de datos reales que se crean dependiendo de si el proyecto es un proyecto de tiempo y materiales, de precio fijo o interno, o bien de si se encuentra en fase de preventas.
 
 > ![Tabla que muestra cómo se registran los datos reales](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

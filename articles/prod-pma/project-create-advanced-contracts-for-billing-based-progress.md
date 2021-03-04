@@ -103,3 +103,6 @@ Las categorías de presupuesto calculan automáticamente los importes de la fact
 8. Opcional: asigne la regla de facturación a proyectos adicionales. En la ficha desplegable **Proyecto** , en la sección **Proyectos disponibles** , seleccione un proyecto y luego seleccione el botón de flecha derecha para agregar el proyecto a la sección **Proyectos seleccionados**.
 9. Opcional: calcule el porcentaje que el cliente retiene de los pagos de una factura. En la ficha desplegable **Condiciones de retención de pagos** , seleccione la fuente de financiación y, a continuación, en el campo **Porcentaje de retención** , introduzca el porcentaje de retención.
 10. Repita estos pasos para crear reglas de facturación adicionales para el contrato del proyecto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

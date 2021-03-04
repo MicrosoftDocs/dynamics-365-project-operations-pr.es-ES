@@ -71,3 +71,6 @@ Antes de comenzar este procedimiento, verifique que su rol de seguridad incluye 
 
 > [!IMPORTANT]
 >  No puede eliminar divisas que se encuentran en uso por otros registros; solo puede desactivarlas. Al desactivar los registros de divisa, no se quita la información de divisa almacenada en los registros existentes, como las oportunidades o los pedidos. Sin embargo, no podrá seleccionar la divisa desactivada para nuevas transacciones.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

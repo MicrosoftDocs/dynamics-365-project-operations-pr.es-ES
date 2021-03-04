@@ -257,3 +257,6 @@ El siguiente gráfico es de después de que se hayan creado listas de precios pe
 
 > [!NOTE]
 > Puede producirse un pequeño retraso entre cuando hace clic en **Crear precios personalizados** y cuando se crea la lista de precios personalizada. Recomendamos actualizar la cuadrícula en lugar de hacer clic varias veces. Se ha creado una lista de precios personalizada si el nombre de la lista de precios asociada tiene el nombre de oferta o el nombre del contrato del proyecto adjunto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

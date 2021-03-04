@@ -43,3 +43,6 @@ Con [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], puede colaborar
   
 ### <a name="see-also"></a>Vea también  
  [Guía de tiempo, gastos y colaboración](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

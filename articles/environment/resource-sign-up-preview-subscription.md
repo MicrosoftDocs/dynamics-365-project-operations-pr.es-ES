@@ -98,3 +98,6 @@ Siga las instrucciones del tema [Aprovisionar un nuevo entorno](resource-provisi
 
 Instale los datos de instalación y configuración de CDS como se describe en el tema [Configurar y aplicar datos de configuración en Common Data Service](resource-apply-pro-setup-config-data.md).
 Complete este paso solo después de que se implemente el entorno de demostración de Finanzas y los datos de demostración en FO estén listos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

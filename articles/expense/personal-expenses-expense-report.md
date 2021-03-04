@@ -28,3 +28,6 @@ Están disponibles dos métodos para trabajar con los gastos personales de un em
   - **Pagados por la empresa**: la organización paga la factura completa de la tarjeta de crédito corporativa y luego carga los gastos personales en la cuenta del empleado.
 
 Puede seleccionar el método que utiliza su organización en la página **Parámetros de gestión de gastos**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

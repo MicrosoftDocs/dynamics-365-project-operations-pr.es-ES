@@ -143,3 +143,6 @@ Para ver la factura antes de registrarla, desactive la casilla **Registro**. Se 
 Además de la página **Propuesta de factura**, las propuestas de factura también se pueden publicar ejecutando el trabajo periódico **Registrar propuestas de factura**. Para encontrar este trabajo, vaya a **Gestión de proyectos y contabilidad** > **Periódico** > **Facturas de proyecto** > **Registrar propuestas de factura**.
 
 Esta página muestra todas las propuestas de facturas que están listas para su registro. Puede seleccionar **Lote** para programar el registro de propuestas de facturas. Establezca el parámetro **Procesamiento por lotes** en **Sí** y seleccione **Periodicidad** para establecer la periodicidad del procesamiento por lotes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

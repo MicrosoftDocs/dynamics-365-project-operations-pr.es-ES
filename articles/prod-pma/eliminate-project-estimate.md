@@ -51,3 +51,6 @@ Para eliminar un proyecto de presupuesto, debe estar completo. Los siguientes pa
 5. Una vez completado el proceso de eliminación, el proyecto de estimación eliminado se muestra con un valor negativo. 
 
 Si no tenía la intención de eliminar una estimación, puede seleccionar la estimación eliminada y seleccionar **Eliminación inversa**.   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

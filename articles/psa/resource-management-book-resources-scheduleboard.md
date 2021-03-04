@@ -53,3 +53,6 @@ Para poder reservar desde el panel de programación, debe crear o generar requis
 El requisito se cumple mediante el recurso seleccionado. En el panel **Requisitos de reserva**, observe que se haya actualizado el requisito y que el recurso se muestre como reservado en el proyecto.
 
 ![Recurso reservado en el proyecto](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

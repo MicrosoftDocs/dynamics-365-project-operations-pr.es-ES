@@ -101,3 +101,6 @@ Una vez que se ha ejecutado la funcionalidad Ampliar reserva en cada recurso, la
 
 Sin embargo, examinando los detalles de las reservas más de cerca se muestran las diferencias en la hora de inicio de las reservas. Las reservas comenzarán no antes de la hora de inicio del contorno de la tarea y no antes de la hora de inicio disponible del recurso.
  ![Nuevas reservas de los recursos en el tablero de programación](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

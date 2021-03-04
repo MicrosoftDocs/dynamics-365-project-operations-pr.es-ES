@@ -41,3 +41,6 @@ A continuación se muestran las pestañas y los KPI disponibles en una oferta de
 | Análisis de rentabilidad | Pestaña de la oferta | La pestaña muestra las siguientes métricas:</br>- Coste imputable total</br></br>- Coste no imputable total</br>- Ingresos totales</br>- Ingresos totales (base)</br>- Margen bruto</br>- Margen bruto ajustado|
 | Comparación con las expectativas del cliente | Pestaña de la oferta | Esta pestaña muestra las siguientes métricas:</br>- Finalización estimada</br>- Finalización solicitada</br>- Presupuesto del cliente</br>- Valor de oferta |
 | Análisis de ofertas | Pestaña de la oferta | Esta pestaña resume los siguientes KPI principales de una oferta de proyecto</br>- Comparación con las expectativas del cliente en cuanto a presupuesto y programación</br>- Margen bruto</br>- Margen bruto ajustado |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

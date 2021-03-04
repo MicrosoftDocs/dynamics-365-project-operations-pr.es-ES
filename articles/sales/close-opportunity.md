@@ -24,3 +24,6 @@ Las oportunidades de proyectos se pueden cerrar como Ganadas o Perdidas. El cuad
 No se le permitirá cerrar la oportunidad si hay ofertas activas asociadas a ella. Puede cerrar todas las ofertas activas y en borrador asociadas a una oportunidad al mismo tiempo. Entonces se le permitirá cerrar la oportunidad.
 
 Para obtener más información general sobre el cierre de oportunidades, consulte [Cerrar oportunidades como ganadas o perdidas](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

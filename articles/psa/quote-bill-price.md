@@ -44,3 +44,6 @@ Los siguientes temas proporcionan más información sobre la funcionalidad de of
 - [Unidades y grupos de unidades](advanced-units.md)
 - [Divisa de varias unidades](advanced-currency.md)
 - [Registro de datos reales](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Para obtener más información, consulte este [blog](https://blogs.msdn.microsof
  [Guía del jefe de proyecto](../psa/project-manager-guide.md)   
  [Guía del administrador de recursos](../psa/resource-manager-guide.md)   
  [Guía de tiempo, gastos y colaboración](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

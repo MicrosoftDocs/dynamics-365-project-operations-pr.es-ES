@@ -134,3 +134,6 @@ Antes de comenzar a configurar los datos en Common Data Service (CDS), se deben 
 13. Seleccione **Guardar**. 
 
 ![Parámetros de proyecto actualizados](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

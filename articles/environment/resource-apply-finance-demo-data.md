@@ -79,3 +79,6 @@ Esto puede tardar un par de minutos en completarse. Debería recibir un mensaje 
 18. Cierre la sesión de escritorio remoto y use la página **Detalles del entorno** LCS para iniciar sesión en el entorno y confirmar que funciona como se esperaba.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

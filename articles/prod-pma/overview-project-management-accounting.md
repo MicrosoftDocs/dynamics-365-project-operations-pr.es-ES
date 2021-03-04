@@ -440,3 +440,6 @@ Una vez calculada la instrucción, puede ver la siguiente información en las di
 -   **Consumo** : información sobre el consumo de horas, artículos, gastos y transacciones de nómina.
 -   **Factura** : información sobre facturas y facturación a cuenta.
 -   **Tarifa por hora** : las tarifas por horas que se registran en las cuentas de ingresos y costes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

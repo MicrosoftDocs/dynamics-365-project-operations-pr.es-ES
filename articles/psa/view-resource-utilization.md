@@ -43,3 +43,6 @@ Puede comprobar el uso de recursos para determinar los niveles de uso de los rec
   
 ### <a name="see-also"></a>Vea también  
  [Guía del administrador de recursos](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

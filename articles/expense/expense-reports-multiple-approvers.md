@@ -41,3 +41,6 @@ Si decide requerir varios aprobadores de informes de gastos, puede agregar los e
 
     1. El gerente del empleado aprueba el informe de gastos.
     2. El propietario del presupuesto aprueba el informe de gastos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

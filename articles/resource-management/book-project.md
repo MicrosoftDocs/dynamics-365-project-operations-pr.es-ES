@@ -66,3 +66,6 @@ Como gerente de proyecto, es posible que deba reservar un recurso para un proyec
 
 > [!NOTE]
 > Este método no crea ninguna reserva para el recurso. En su lugar, agrega el recurso al equipo. Una vez que el miembro del equipo se ha agregado al proyecto, el administrador del proyecto puede usar el mantenimiento de reservas o la extensión de reservas para agregar las reservas necesarias al recurso.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

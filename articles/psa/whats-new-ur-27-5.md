@@ -42,3 +42,6 @@ En este tema se muestran las características y correcciones que son nuevas o qu
 Se han solucionado los siguientes problemas:
 
 - Programación de la degradación del rendimiento de la búsqueda de asistencia
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

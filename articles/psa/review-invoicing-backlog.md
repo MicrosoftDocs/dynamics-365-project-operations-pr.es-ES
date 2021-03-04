@@ -59,3 +59,6 @@ Las líneas de contrato de proyecto que tienen un método de facturación de pre
 Para revisar los hitos de facturación, vaya a **Ventas** \> **Facturación** \> **Hitos de precio fijo**. Seleccione los hitos que están listos para facturar y, a continuación seleccione **Listo para facturar**. El estado de facturación de estos hitos cambia a **Listo para facturar**.
 
 ![Hitos de precio fijo](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -144,3 +144,6 @@ Usar validaciones de complementos para cualquier validación que requiera más c
 
 ### <a name="copying-time-entries"></a>Copiar entradas de tiempo
 Use la vista **Copiar columnas de entrada de tiempo** para definir la lista de campos a copiar durante la entrada de tiempo. **Fecha** y **Duración** son campos obligatorios y no deben eliminarse de la vista.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

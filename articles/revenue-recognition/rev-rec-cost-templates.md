@@ -79,3 +79,6 @@ Para crear plantillas de costes, siga estos pasos:
 7. En la pestaña **Categorías**, seleccione las categorías de proyectos que se incluirán en la línea de la plantilla de coste.
 8. En la pestaña **General**, seleccione si esta línea se incluirá en el cálculo del porcentaje de finalización.
 9. Seleccione el método del coste de finalización que se utilizará al calcular el porcentaje de finalización.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

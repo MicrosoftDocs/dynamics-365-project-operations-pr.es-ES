@@ -116,3 +116,6 @@ El modo de tarea no tiene ningún efecto en las actualizaciones que se realizan 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Accesibilidad y métodos abreviados de teclado
 
 La cuadrícula **Programar** es totalmente accesible y se puede usar con lectores de pantalla como Narrator, JAWS o NVDA. Puede moverse por el área de la cuadrícula mediante las teclas de flecha (como en Microsoft Excel), puede usar el tabulador para avanzar a través de los elementos interactivos de la interfaz de usuario, y puede usar la tecla de flecha hacia abajo, la tecla Intro o la barra espaciadora para seleccionar y abrir los menús desplegables.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ En la siguiente tabla se muestran los tipos de flujos de trabajo que puede crear
 |      <strong>Solicitud de anticipo</strong>      |         Cree flujos de trabajo de aprobación para solicitudes de anticipo.          |
 |        <strong>Devolución de impuestos de IVA</strong>        | Cree flujos de trabajo de aprobación para la devolución del impuesto sobre el valor añadido (IVA).  |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

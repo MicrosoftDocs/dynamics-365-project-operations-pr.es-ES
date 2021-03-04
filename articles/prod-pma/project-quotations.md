@@ -41,3 +41,6 @@ Si el cliente aprueba el presupuesto del proyecto, puede copiar la información 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Puede utilizar cada una de esas listas de precios y actualizar los precios de ma
 En un contrato de proyecto, el precio del proyecto siempre se establece de forma predeterminada como una lista de precios personalizada con el nombre del contrato y el sello de fecha y hora creado adjunto al nombre. Esto es cierto si el contrato se creó cuando se ganó la cotización o si el contrato se creó desde cero. Si es necesario, puede eliminar esta asociación a la lista de precios personalizada y asociar una lista de precios estándar al contrato del proyecto.
 
 Cuando asocia una lista de precios estándar a las listas de precios del proyecto en la cotización o el contrato, cualquier cambio realizado en los precios en la lista de precios afectará a todas las cotizaciones y contratos que utilizan la lista de precios.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

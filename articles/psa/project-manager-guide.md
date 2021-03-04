@@ -95,3 +95,6 @@ Este manual proporciona la información que necesita para crear y administrar pr
  [Guía del administrador de recursos](../psa/resource-manager-guide.md)   
  [Guía de tiempo, gastos y colaboración](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

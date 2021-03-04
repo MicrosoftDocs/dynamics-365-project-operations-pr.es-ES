@@ -102,3 +102,6 @@ A continuación se ofrece una breve descripción general de los controles típic
 **Añadir columna**: permite al usuario definir las columnas visibles en la cuadrícula. Solo se pueden agregar columnas listas para usar a las cuadrículas en el formulario **Planificación de proyectos**.
 
 ![Agregar botón de columna](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

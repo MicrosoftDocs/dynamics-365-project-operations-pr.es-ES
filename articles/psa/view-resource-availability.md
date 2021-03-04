@@ -48,3 +48,6 @@ Puede comprobar la disponibilidad de recursos para obtener una visión general d
 
 ### <a name="see-also"></a>Vea también  
  [Guía del administrador de recursos](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

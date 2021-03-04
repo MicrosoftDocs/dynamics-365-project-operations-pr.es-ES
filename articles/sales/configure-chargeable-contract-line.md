@@ -58,3 +58,6 @@ Una estimación o real creada para los gastos solo se considerará imputable si 
 | No | Sí | No puede estar establecido | No facturable | Facturación a tiempo real: No disponible </br>Tipo de facturación en gastos actuales: No facturable |
 | Sí | No | Imputable | No puede estar establecido | Facturación a tiempo real: Facturable </br>Tipo de facturación un gasto actual: No disponible |
 | Sí | No | No facturable | No puede estar establecido | Facturación a tiempo real: No facturable </br> Tipo de facturación un gasto actual: No disponible |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

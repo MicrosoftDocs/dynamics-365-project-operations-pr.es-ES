@@ -198,3 +198,6 @@ Una venta facturada real por la cantidad del hito en el hito original en la lín
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

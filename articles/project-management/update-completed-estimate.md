@@ -36,3 +36,6 @@ Existen dos formas en las que un jefe de proyecto puede reproyectar el esfuerzo 
 - Anular el porcentaje de progreso predeterminado con una nueva estimación del progreso real de la tarea.
 
 Cada uno de estos enfoques genera un nuevo cálculo del ETC, la estimación al finalizar (EAF) y el porcentaje de progreso de la tarea, y la variación del esfuerzo proyectado en una tarea. El EAF, ETC y el porcentaje de progreso en las tareas de resumen se recalculan y producen una nueva proyección de la variación del esfuerzo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -28,3 +28,6 @@ ms.locfileid: "4960043"
 Una *dieta* es un subsidio que se paga a un trabajador que viaja por trabajo. En la gestión de gastos, puede crear reglas de dietas para diversas situaciones de viaje. Las tarifas de dietas pueden basarse en la época del año, el lugar de viaje o ambos. Cuando crea una regla de dietas, puede especificar que se retendrá un porcentaje de la tarifa de dieta si un trabajador recibe comidas o servicios gratuitos. También puede establecer un número mínimo y máximo de horas que la tarifa de dieta puede aplicar al viaje de un trabajador.
 
 El cálculo de una cantidad total de viáticos se basa en las fechas de inicio y finalización que puede establecer en la página **Dietas**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -104,3 +104,6 @@ La consulta de Lista de gastos de adjudicaciones federales incluye las siguiente
 - Catálogo de Asistencia Doméstica Federal
 - Recibos
 - Gastos
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

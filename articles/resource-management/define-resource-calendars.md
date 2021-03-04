@@ -43,3 +43,6 @@ Cada recurso reservable que trabaja en un proyecto debe tener un calendario de h
 2. En la vista de cuadrícula, seleccione hasta 25 **Recursos reservables** para actualizar.
 3. Seleccione **Establecer calendario** y un cuadro de diálogo le mostrará una lista de plantillas de horas de trabajo disponibles.
 4. Seleccione la plantilla que desee utilizar y seleccione **Aplicar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

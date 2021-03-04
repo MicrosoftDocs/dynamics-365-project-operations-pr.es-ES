@@ -28,3 +28,6 @@ Las líneas basadas en productos pueden ser artículos de catálogo o productos 
 
 Cuando el método de ingresos del Resumen de oportunidad es **Calculado por el sistema**, se resumen los valores del presupuesto del cliente en las líneas de oportunidad para calcular los ingresos previstos. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

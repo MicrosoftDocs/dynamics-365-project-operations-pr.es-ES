@@ -209,3 +209,6 @@ Si ha aplicado datos de demostración al entorno financiero, consulte [Configura
 
 
 Su entorno de Project Operations ya está aprovisionado y configurado. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

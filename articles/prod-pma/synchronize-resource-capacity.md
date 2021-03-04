@@ -49,3 +49,6 @@ Se recomienda usar un lote. Las opciones están disponibles durante la sincroniz
     | Fecha de finalización    | Especifique la fecha de finalización para el proceso de sincronización para las acumulaciones de capacidad de recursos. |
 
 [![Procreso de sincronización](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Seleccione este tipo de implementación para usar Dynamics 365 Project Operation
 - Un motor de tipo de cambio e impuestos sobre las ventas de clase empresarial para generar facturas de proyectos para los clientes.
 - Un sistema de reconocimiento de ingresos y contabilidad de proyectos que cumple con las Normas Internacionales de Información Financiera (NIIF).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

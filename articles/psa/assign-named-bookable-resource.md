@@ -68,3 +68,6 @@ Puede usar la capacidad de ampliación de reserva de la pestaña **Reconciliaci�
 ![Ampliación de la reserva de un miembro del equipo en la pestaña Conciliación de recursos](media/RM-how-to-7.png)
 
 Tras reservar un miembro de equipo en su proyecto, podrá mantener las reservas o utilizar el Tablero de programación directamente para administrar las reservas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

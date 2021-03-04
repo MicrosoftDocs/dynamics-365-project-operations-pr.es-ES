@@ -429,3 +429,6 @@ La entrada de una categoría de proyecto predeterminada en las entradas de la ho
 1. La aplicación intenta poner la categoría predeterminada desde recurso del proyecto. Esta categoría predeterminada se establece en los métodos **getCurrentUserResource** y **getDelegatedResourcesForCurrentUser** en la clase **TSTimesheetSettingsService**.
 2. Si la categoría predeterminada no se proporciona en el nivel de recursos del proyecto, la aplicación intenta extraerla de la actividad del proyecto. Esta categoría predeterminada se establece en el método **getActivitiesForProject** en la clase **TSTimesheetProjectService**.
 3. Si la categoría predeterminada no se proporciona en el nivel de actividad del proyecto, la categoría predeterminada se toma de los parámetros del proyecto. Esta categoría predeterminada se establece en el método **getProjectDetailsbyRule** en la clase **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

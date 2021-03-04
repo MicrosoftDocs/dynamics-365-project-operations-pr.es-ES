@@ -38,3 +38,6 @@ Los siguientes atributos se definen para cada elemento de línea de gastos:
 - **Precio de coste unitario**: precio unitario utilizado para calcular el coste del gasto.
 - **Precio de venta unitario**: precio unitario utilizado para calcular los precios de venta del gasto.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ El Asistente de programación aparece y se filtra por los requisitos. Seleccione
 > ![Recurso seleccionado](media/Resource-Management-image61.png)
 
 El miembro del equipo genérico se reemplaza por el recurso con nombre reservado manualmente en el equipo del proyecto y las asignaciones de tareas en la programación del proyecto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

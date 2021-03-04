@@ -47,3 +47,6 @@ Los proyectos de sus clientes requieren sin duda una variedad de diferentes cual
   
 ### <a name="see-also"></a>Vea también  
  [Configuración de recursos](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

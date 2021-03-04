@@ -39,3 +39,6 @@ Complete los siguientes pasos para facturar al cliente un anticipo.
     | **Estado de la factura** | Esta es una configuración de opción que indica si este anticipo se agrega a un borrador de factura para este cliente. Los valores posibles son:</br>- **No listo para facturar**</br>- **Listo para facturar** | Cuando un anticipo o prepago se marca como **Listo para facturar**, se agrega como un tiempo de línea en un borrador de factura. Solo se puede utilizar un anticipo facturado en su totalidad para conciliar los costos del proyecto para el próximo período de facturación. |
 
 4. Seleccione **Guardar y cerrar** en el cuadro de diálogo de creación rápida para registrar el anticipo o el prepago.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

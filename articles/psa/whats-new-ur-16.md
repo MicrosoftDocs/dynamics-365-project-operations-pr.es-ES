@@ -64,3 +64,6 @@ En este tema se muestran las características y correcciones que son nuevas o qu
 
     -   Corregido: cuando los usuarios actualizan de 2.X a 3.X, se permitirán proyectos con un valor NULO para el nombre del proyecto.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

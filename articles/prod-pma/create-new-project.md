@@ -104,3 +104,6 @@ Durante la reserva de recursos, los jefes de proyecto pueden filtrar los recurso
 
 3. Seleccione **Guardar** y cierre la página.
 4. En la pestaña **Competencias** , agregue la aptitud **ProjectMgmt** y el certificado **PMP**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

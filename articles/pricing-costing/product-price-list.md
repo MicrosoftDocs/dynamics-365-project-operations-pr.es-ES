@@ -58,3 +58,6 @@ Las entidades de Oportunidad, Oferta y Contrato de proyecto utilizan el siguient
 De manera predeterminada, el campo **Producto** en la línea de oferta enumera todos los productos activos en la lista de precios de productos de la oferta. Si un producto se ha desactivado, o si es un borrador de un producto, no está en la lista, incluso si está en la lista de precios. 
 
 Las líneas del catálogo de productos se agregan como líneas de factura en la primera factura que se crea para un contrato de proyecto. En un borrador de factura, esas líneas de factura se pueden eliminar. En ese caso, las líneas aparecerán en una factura posterior hasta que se facturen o hasta que la factura se envíe al cliente. No puede facturar una cantidad parcial de una línea de factura de producto. Cuando se facturan las líneas de producto del contrato del proyecto, se crean los datos reales. Sin embargo, esos datos reales no están vinculados a la entidad del proyecto relacionada. Es decir, las líneas de contrato de proyecto basadas en productos son independientes de cualquier uso basado en proyectos. No se realiza un seguimiento del consumo de material en los proyectos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ El siguiente proceso es un ejemplo del flujo de trabajo de gestión de gastos pa
 Una vez verificados estos requisitos, se contabiliza el informe de gastos.
 
 Una vez que se contabiliza el informe de gastos, se autoriza el pago del informe de gastos y se reembolsa al empleado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

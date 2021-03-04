@@ -60,3 +60,6 @@ Desde la cuadrícula de miembros del equipo, se pueden tomar las siguientes acci
 
 - **Nuevo**: además de agregar recursos directamente desde la programación, los gerentes de proyecto pueden agregar nuevos miembros del equipo con nombre o genéricos desde la cuadrícula de miembros del equipo.
 - **Eliminar**: al seleccionar uno o varios miembros del equipo, el gerente de proyecto puede eliminar los recursos que ya no participarán en el proyecto. Eliminar un miembro del equipo también eliminará todas las asignaciones de recursos asociados y cancelará todas las reservas existentes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

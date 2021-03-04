@@ -105,3 +105,6 @@ Dynamics 365 gestiona las acumulaciones de importes en diferentes divisas de for
 | Gasto           | Ventas sin facturar   | 17 jun | Antonio  | Alquiler de vehículos           | 1 ea     | 150 EUR      | 150 EUR     | 0,94          | 159,57 USD     |
 
 Para calcular el valor de ventas sin facturar total en el proyecto, puede crear un campo de acumulación para el campo **Importe** en todos los datos reales relacionados con las ventas sin facturar. El campo de acumulación es una construcción de Dynamics 365 que permite utilizar fórmulas rápidas en registros relacionados.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

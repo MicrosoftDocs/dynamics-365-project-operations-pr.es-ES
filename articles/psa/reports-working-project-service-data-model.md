@@ -123,3 +123,6 @@ Cuando trabaje con la entidad **Real**, es importante que comprenda qué transac
 La entidad **Origen de la transacción** registra el origen del registro **Real** y la entidad **Conexión de transacciones** registra los registros relacionados para el registro **Real**. Además, el registro **Real** contiene referencias del proyecto, el contrato del proyecto (pedido), el recurso que se puede reservar y el cliente.
 
 ![Diagrama que muestra la conexión de la transacción, el origen y las relaciones reales](media/PS-Reporting-image6.png "Diagrama que muestra la conexión de la transacción, el origen y las relaciones reales")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

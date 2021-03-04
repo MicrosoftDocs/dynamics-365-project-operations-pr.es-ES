@@ -52,3 +52,6 @@ Se puede crear, actualizar o eliminar un cliente de oferta desde la pestaña **C
 Puede editar los porcentajes de división de facturación utilizando la experiencia de edición de cuadrícula en línea. Cuando los porcentajes de división de facturación no suman el 100 %, se producirá un error. Después de actualizar los porcentajes de división de facturación, actualice la página para eliminar el error.
 
 También puede intentar seleccionar **Distribuir uniformemente** en la subcuadrícula del cliente de la oferta. Esta acción asigna divisiones de facturación a todos los clientes de oferta. Si hay algún factor de redondeo, se agregará al cliente de redondeo. Uno de los clientes de oferta siempre se etiqueta como cliente de redondeo. Esto significa que el registro del cliente de oferta tiene el indicador **Redondeo** establecido en **Sí**. Por lo general, este es el cliente principal de la oferta, pero eso se puede cambiar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Si una línea de contrato se basa en un catálogo de productos, puede reemplazar
 Si establece el campo **Precios** a **Reemplazar precio**, no se establece el precio predeterminado. Especifique el precio para el producto de línea de contrato. Si configura el campo en **Usar predeterminado**, se utiliza el precio de venta predeterminado y el campo no se puede editar.
 
 Después de instalar Project Operations, los precios de venta predeterminados se introducen en las líneas basadas en productos en un contrato. El campo **Precios** se establece en **Reemplazar precio** para que pueda editar el precio predeterminado en las líneas de contrato. Se trata de una invalidación específica de Project Operations para el comportamiento de las líneas basadas en productos en Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

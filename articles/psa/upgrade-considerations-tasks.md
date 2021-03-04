@@ -96,3 +96,6 @@ Para garantizar una actualización correcta, deben conservarse correctamente las
 
 - Todas las dependencias de tareas del proyecto deben estar relacionadas con el mismo proyecto.
 - Una tarea no puede tener la misma dependencia referenciada más de una vez.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

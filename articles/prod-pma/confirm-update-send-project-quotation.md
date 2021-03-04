@@ -57,3 +57,6 @@ Para modificar una cotización de proyecto existente, el estado de la cotizació
 
 > [!NOTE]
 > No puede modificar la cotización de un proyecto después de que el estado cambie a **Enviado**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Se han solucionado los siguientes problemas:
 - Al cerrar la cotización como ganada no se navega hasta el contrato creado si un BPF adjunto a la cotización se encuentra en la etapa final.
 - Al revertir las **Ventas no facturadas**, se vinculan al coste original cuando se recupera una entrada de tiempo.
 - Después de seleccionar el botón **Confirmar**, el estado de la factura no cambia a **Confirmado** a menos que se actualice la factura.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -149,3 +149,6 @@ La siguiente tabla muestra los registros de la entidad Conexión de transaccione
 | Corrección borrador de factura       | GUID de transacción de línea de factura | Reemplazo          | msdyn_invoicelinetransaction | GUID de ventas facturadas            | Original           | msdyn_actual       |
 | Confirmar corrección de factura     | GUID de reversión de ventas facturadas    | Reversión          | msdyn_actual                 | GUID de ventas facturadas            | Original           | msdyn_actual       |
 | GUID de datos reales de nuevas ventas sin facturar | Reemplazo                     | msdyn_actual       | GUID de ventas facturadas            | Original                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

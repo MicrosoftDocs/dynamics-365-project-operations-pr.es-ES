@@ -65,3 +65,6 @@ Antes de crear programaciones de proyecto, debe configurar un calendario del pro
   
 ### <a name="see-also"></a>Vea también  
  [Configuración de recursos](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

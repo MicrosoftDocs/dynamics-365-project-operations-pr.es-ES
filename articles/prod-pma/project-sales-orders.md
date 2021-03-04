@@ -41,3 +41,6 @@ Puede crear pedidos de cliente basados en proyectos de dos formas:
 - Vaya al propio proyecto. En el panel de acciones, seleccione **Administrar > Tareas de artículo > Pedido de venta**. La información del proyecto se establecerá de forma predeterminada en el pedido de venta del proyecto. Si el contrato del proyecto tiene más de una fuente de financiación, deberá seleccionar la fuente de financiación para configurar el cliente para el pedido de venta. Si solo hay una fuente de financiación para el proyecto, el cliente se configurará automáticamente.
 - Vaya la página de la lista **Todos los pedidos de venta** y cree un nuevo pedido de venta. Deberá seleccionar el proyecto para el pedido de venta. Después de seleccionar el proyecto, el cliente se establecerá a partir de la fuente de financiación o deberá seleccionar la fuente de financiación si el contrato del proyecto tiene varias fuentes de financiación.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

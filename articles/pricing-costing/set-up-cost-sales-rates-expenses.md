@@ -55,3 +55,6 @@ Cuando se selecciona este método de precios en la línea de precios de categor�
 
 ### <a name="markup-over-cost"></a>Margen de beneficio sobre el coste
 Cuando se selecciona este método de precios en la línea de precios de categoría que está vinculada a una lista de precios de venta, el precio predeterminado para la combinación de categoría y unidad es solo para un gasto real. Por ejemplo, datos reales de ventas no facturadas para la clase de transacción de gastos. Este precio unitario se establece sobre las ventas no facturadas reales a un valor calculado a partir del precio unitario sobre el costo real de ese gasto después de que se aplica el porcentaje de margen definido. El precio predeterminado basado en el costo no se realiza en las estimaciones del proyecto para los gastos o en los detalles de la línea de cotización y del contrato para los gastos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

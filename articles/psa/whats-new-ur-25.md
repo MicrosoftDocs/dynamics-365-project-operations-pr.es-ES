@@ -70,3 +70,6 @@ Se han solucionado los siguientes problemas:
 - Manejo de errores mejorado para abordar las excepciones de referencia nulas generadas **Copiar proyecto: Asistente de estimaciones Gestión de recursos**.
 - **No listo para facturar** en un **Backlog de facturación de tiempo y material** no borra el estado de facturación.
 - Corregidos los botones **Precios** mal etiquetados en la pestaña **Precio del rol** y **Artículos del catálogo**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

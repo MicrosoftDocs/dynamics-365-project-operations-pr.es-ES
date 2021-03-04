@@ -98,3 +98,6 @@ Determine el mejor modelo de implementación de Project Operations utilizando el
 
 Para esta implementación, consulte [Registrarse para suscripciones de vista previa](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/finance/toc.json) y [Aprovisionar un nuevo entorno](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/finance/toc.json). 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

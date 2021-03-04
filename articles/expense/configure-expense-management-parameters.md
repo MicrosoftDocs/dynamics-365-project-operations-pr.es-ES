@@ -83,3 +83,6 @@ Este tema describe los parámetros y el control del comportamiento general en la
 | Mostrar declaración anticorrupción   | Seleccione esta opción para mostrar el texto anticorrupción cuando se crea un informe de gastos. Luego, se pueden habilitar categorías de gastos específicas que requerirán que se seleccione la declaración anticorrupción en el informe de gastos. Por ejemplo, una categoría de obsequio relacionada con un gasto de funcionario público puede requerir que el empleado confirme que el gasto cumple con la política de la empresa relacionada con funcionarios gubernamentales. |
 | Mensaje anticorrupción para el remitente | Introduzca el texto que se debe mostrar a un empleado que está creando un informe de gastos. Para introducir texto específico del idioma que se mostrará, según el idioma del usuario, seleccione **Traducciones**. |
 | Mensaje anticorrupción para el aprobador  | Introduzca el texto que se debe mostrar al aprobador al crearse un informe de gastos. Para introducir texto específico del idioma que se mostrará, según el idioma del usuario, seleccione **Traducciones**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

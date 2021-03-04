@@ -242,3 +242,6 @@ En la siguiente tabla se describe cómo se sincronizan los datos de entidades de
 
 ### <a name="additional-resources"></a>Recursos adicionales
  [Guía del jefe de proyecto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

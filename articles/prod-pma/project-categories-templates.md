@@ -124,3 +124,6 @@ La siguiente ilustración muestra un ejemplo de la asignación de tareas de plan
 > La asignación muestra la información del campo que se sincronizará de Project Service Automation a Finance.
 
 [![Project Service Automation a asignación de plantilla de Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

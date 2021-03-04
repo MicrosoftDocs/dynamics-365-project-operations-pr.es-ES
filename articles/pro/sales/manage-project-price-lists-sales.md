@@ -67,3 +67,6 @@ Una vez que tenga listas de precios de proyectos predeterminadas de la organizac
 
 1. En **Oferta del proyecto**, en la pestaña **Lista de precios del proyecto**, verifique en la subcuadrícula que no se haya seleccionado ningún registro de lista de precios específico.
 2. Seleccione **Crear precios personalizados**. Esto hará copias de todas las listas de precios estándar actualmente asociadas a la oferta y asociará estas copias a la oferta. Se eliminarán las asociaciones existentes con las listas de precios estándar. El comercial puede entonces comenzar a editar los precios de estas copias. Estos precios modificados se aplicarán únicamente a la oferta de este proyecto.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

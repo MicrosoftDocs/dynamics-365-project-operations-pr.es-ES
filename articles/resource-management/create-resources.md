@@ -20,3 +20,6 @@ ms.locfileid: "4514590"
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
 Puede usar Dynamics 365 Field Service para crear recursos que se pueden reservar para usarlos en su entorno de Dynamics 365 Project Operations. Para crear estos recursos, consulte [Configurar recursos que se pueden reservar](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

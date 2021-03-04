@@ -26,3 +26,6 @@ A diferencia de las reservas, las asignaciones son el compromiso de recursos gen
 Normalmente, la suma de las reservas de un recurso será igual a la suma de las asignaciones del recurso en una o varias tareas. Sin embargo, Project Operations no obliga a que se cumpla este contrato. La vista **Conciliación** muestra los lugares de un jefe de proyecto donde las reservas y asignaciones de un recurso no coinciden.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

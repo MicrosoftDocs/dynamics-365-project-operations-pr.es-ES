@@ -55,3 +55,6 @@ Cada categoría de gastos puede tener su propia unidad de venta y unidad. Puede 
   
 ### <a name="see-also"></a>Vea también  
  [Configurar Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

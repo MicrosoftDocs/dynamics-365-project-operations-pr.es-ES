@@ -40,3 +40,6 @@ Un jefe de proyecto puede planificar los roles de recursos necesarios para un pr
 7. Seleccione un trabajador y, después, **Asignar**.
 8. Verifique que la línea para **Desarrollador de software 1** ha sido eliminada para el proyecto **Fase 2 del proyecto de la actualización XYZ**.
 9. En la pestaña **Equipo de proyecto y programación** , para el proyecto **Fase 2 de la actualización XYZ** , compruebe que el trabajador que seleccionó en el paso anterior se haya agregado como **Desarrollador de software**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

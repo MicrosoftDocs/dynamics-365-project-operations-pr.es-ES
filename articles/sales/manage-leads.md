@@ -80,3 +80,6 @@ El proceso de negocio de cliente potencial a oportunidad comprende las etapas si
 | Desarrollar | Oportunidad | Desarrolle la oportunidad de agregar más información sobre el trabajo involucrado, las partes interesadas clave y la competencia. |
 | Proponer | Oportunidad | Desarrolle la propuesta y obtenga la aprobación del equipo de revisión interno. |
 | Cerrada | Oportunidad | Gane la oportunidad de cerrar la oferta. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Este tema explica cómo configurar los costos estándar de mano de obra y gastos
 22. En el campo **Precio** , especifique un número. El precio de venta real, que se aplica cuando un trabajador especifica una transacción en el diario de gastos, es el precio de venta con el mayor nivel de detalle. Por ejemplo, si se configura tanto un precio de venta general como un precio de venta específico del trabajador, se utiliza el precio de venta específico del trabajador.  
 23. Seleccione **Guardar**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

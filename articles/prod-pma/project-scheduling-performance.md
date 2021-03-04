@@ -69,3 +69,6 @@ Para habilitar la mejora del rendimiento de la programación de recursos, comple
 
 > [!NOTE]
 > Esto distribuirá datos generales a la tabla **ResRollup** en todas las empresas de su entorno, por lo que el trabajo por lotes solo debe ejecutarse en una entidad legal. Este trabajo por lotes es necesario para todas las vistas **Disponibilidad de recursos**. Si este trabajo por lotes no se ejecuta, los datos de **ResRollup** se generarán sobre la marcha, lo que puede llevar tiempo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

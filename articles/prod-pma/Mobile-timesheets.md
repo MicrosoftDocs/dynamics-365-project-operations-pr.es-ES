@@ -62,3 +62,6 @@ Android será compatible con Platform update 16, cuando esté disponible.
 13. Opcional: Especifique las líneas adicionales de la hoja de horas.
 
 14. Una vez que haya terminado de especificar las líneas de la hoja de horas, seleccione la acción **Flujo de trabajo** \> **Enviar** para enviar su hoja de horas al proceso de aprobación del flujo de trabajo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Además, se debe asignar un rol predeterminado a cada recurso que se puede reser
 En la pestaña **Project Service** también puede establecer un uso objetivo individual para el recurso. El cálculo de uso utiliza después ese uso objetivo para evaluar el objetivo del recurso en lugar del objetivo del rol predeterminado del recurso.
 
 El uso solo se muestra para un recurso solo si ese recurso ha aprobado el tiempo imputable durante el período que se muestra en la cuadrícula.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

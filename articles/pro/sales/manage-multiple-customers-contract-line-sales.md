@@ -43,3 +43,6 @@ A continuación, se muestran los campos del registro de cliente de la línea de 
 Los porcentajes de división de facturación se pueden editar en la cuadrícula. Cuando los porcentajes de división de facturación no suman el 100 por ciento, se producirá un error. Después de editar los porcentajes de división de facturación, actualice la página para eliminar el error.
 
 También puede seleccionar **Distribuir uniformemente** en la subcuadrícula del cliente de la línea de contrato. Esta acción asigna de manera uniforme las divisiones de facturación a todos los clientes de la línea de contrato. Si hay algún factor de redondeo, se agregará al cliente de redondeo. Un cliente de línea de contrato siempre se etiqueta como el cliente de **Redondeo** con la marca **Redondeo** establecida en **Sí**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

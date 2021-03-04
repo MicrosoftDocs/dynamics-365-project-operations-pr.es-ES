@@ -135,3 +135,6 @@ Si tiene datos reales que llegaron después de que se creó la factura, puede in
 2. Abra el borrador de la factura proforma y, en la cinta **Comportamiento**, haga clic en **Actualizar transacciones de línea de factura**.
 
   Esto crea detalles de línea de factura para cualquier importe real que tenga fecha pasada y esté marcado como **Listo para facturar**; pero no está incluido en la factura.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -75,3 +75,6 @@ Para utilizar la solución de integración de Project Service Automation en Fina
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>Instale la solución de integración de Project Service Automation con Finance en su instancia de Project Service Automation
 
 Descargue la solución de integración de Project Service Automation con Finance de [Centro de descarga de Microsoft](https://www.microsoft.com/download/details.aspx?id=57016) y siga las instrucciones que se incluyen con la solución.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

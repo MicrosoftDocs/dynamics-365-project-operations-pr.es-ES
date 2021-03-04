@@ -45,3 +45,6 @@ Para rechazar la propuesta, haga clic en **Rechazar recurso**.
 ![Aceptar una propuesta de recursos](media/RM-how-to-20.png) 
 
 Al igual que ocurre cuando se cumple una solicitud de recursos genérica con un recurso con nombre, el recurso genérico se reemplazará y las tareas asignadas se actualizarán con el miembro del equipo con nombre.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

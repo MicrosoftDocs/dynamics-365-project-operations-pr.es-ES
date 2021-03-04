@@ -170,3 +170,6 @@ Las siguientes ilustraciones muestran ejemplos de asignaciones de tareas de plan
 [![Asignación de plantillas de transacciones de estimación de gastos](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Asignación de plantillas de transacciones de estimación](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

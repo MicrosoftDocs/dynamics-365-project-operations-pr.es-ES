@@ -316,3 +316,6 @@ Como alternativa, puede corregir los errores de programación individualmente ha
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Después de crear los términos de retención de proveedor para un proveedor, pu
 6. Si el proyecto también tiene términos de pago cuando se paga (PWP) configurados para el proveedor, introduzca el porcentaje de umbral para el proyecto en el campo **Porcentaje de umbral de PWP**.
 
 Los términos de retención de proveedores también se muestran en las órdenes de compra que crea para el proveedor.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

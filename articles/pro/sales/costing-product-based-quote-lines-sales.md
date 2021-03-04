@@ -33,3 +33,6 @@ Por ejemplo:
 Fabrikam Robotics está instalando brazos robóticos en las líneas de montaje de A Datum Corporation. Fabrikam proporciona servicios de instalación, pero los brazos robóticos se obtienen de Trey Robotics. Si la instalación de brazos robóticos en A Datum Corporation abre una nueva industria vertical para los brazos robóticos de Trey, Trey podría ofrecer un descuento especial para esta oferta a Fabrikam.
 
 En este caso, Fabrikam creará una línea de oferta basada en el producto para Robotic Arms e ingresará un coste unitario especial para esta oferta. Este coste es diferente del coste estándar de Trey Robotic Arms.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

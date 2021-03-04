@@ -32,3 +32,6 @@ Para los informes de gastos, puede explorar en profundidad de una transacción a
 Para explorar en profundidad al informe de gastos original en el que apareció una transacción, seleccione la transacción y luego seleccione **Documento original**.
 
 Cuando ve transacciones individuales, también puede ver cualquier dato adicional que esté adjunto a una transacción. Por ejemplo, para un gasto de hotel detallado, puede ver una lista detallada de gastos como acceso a Internet, llamadas telefónicas y servicio a la habitación.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

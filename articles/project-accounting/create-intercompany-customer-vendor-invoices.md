@@ -61,3 +61,6 @@ Puede crear varias facturas de empresas vinculadas al mismo tiempo para todas la
 ## <a name="post-the-intercompany-vendor-invoice"></a>Registrar la factura de proveedor de empresas vinculadas
 
 Un contable de proyecto en la entidad jurídica prestamista puede revisar facturas de proveedores pendientes de empresas vinculadas cuando se registra la factura de cliente de empresas vinculadas. En Finance, en la entidad jurídica prestataria, vaya a **Proveedores** > **Facturas** > **Factura de proveedor pendiente**. El número de factura pendiente coincidirá con el número de factura de cliente de empresas vinculadas. Compruebe que la factura sea correcta y luego registre la factura. El registro de la factura de proveedor de empresas vinculadas crea un libro auxiliar del proyecto y una transacción de contabilidad general que refleja los costes de transacción en la entidad jurídica prestataria.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

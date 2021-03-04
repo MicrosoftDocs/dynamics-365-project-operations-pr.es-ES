@@ -60,3 +60,6 @@ Puede analizar las ofertas y generar gráficos de expectativas del cliente acerc
 El análisis de las expectativas del cliente acerca de la programación se realiza comparando la última fecha de finalización del detalle de la línea de la oferta con la fecha de entrega solicitada de todas las líneas de la oferta.
 
 El análisis de las expectativas del cliente acerca del presupuesto se realiza comparando la suma del presupuesto del cliente total con el importe ofertado de todas las líneas de la oferta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

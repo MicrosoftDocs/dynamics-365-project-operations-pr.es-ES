@@ -39,3 +39,6 @@ Si la clave de gestión de funciones **Habilitar página de lista de delegados d
 Un delegado puede filtrar y buscar rápidamente los informes de gastos existentes que le han sido delegados. El delegado también puede crear rápidamente un nuevo informe de gastos para otros usuarios seleccionando **Nuevo informe de gastos**.
 
 Los delegados pueden crear y administrar informes de gastos para otros empleados yendo a **Administración de gastos** > **Mis gastos** > **Informes de gastos** y seleccionando **Abrir gastos de otros usuarios**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

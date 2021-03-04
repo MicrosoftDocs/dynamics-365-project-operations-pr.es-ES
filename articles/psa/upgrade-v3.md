@@ -110,3 +110,6 @@ Para las tareas que se asignan a un rol con una unidad organizativa distinta de 
  
 El cambio del valor predeterminado de las diferentes unidades organizativas de recursos en los miembros del equipo no generados es la razón por la que recomendamos que genere o vuelva a generar el equipo en cada proyecto que contenga recursos genéricos antes de la actualización de manera que las asignaciones de unidades organizativas no se pierdan.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

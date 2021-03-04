@@ -153,3 +153,6 @@ Las siguientes ilustraciones muestran ejemplos de asignaciones de tareas de plan
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Asignación de hitos de línea de contrato de proyecto en la plantilla de proyectos y contratos (PSA 3.x a Dynamics), v2:
 
 [![Asignación de hito de línea de contrato de proyecto con plantilla versión dos](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

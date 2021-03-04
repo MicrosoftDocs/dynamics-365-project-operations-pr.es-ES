@@ -71,3 +71,6 @@ En resumen, los siguientes métodos de asignación producen reserva excesiva si 
 - Horas distribuidas equitativamente
 
 Cuando se usa uno de estos tres métodos de asignación no se le notificará si el recurso se ha reservado en exceso. Para corregir el exceso de reserva, deberá usar al tablero Programación.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

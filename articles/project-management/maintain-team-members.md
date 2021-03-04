@@ -42,3 +42,6 @@ Al realizar una selección, el recurso se agrega al equipo del proyecto y se asi
 Puede usar la capacidad de ampliación de reserva de la pestaña **Reconciliación** o el **Tablero de programación** para reservar la capacidad del recurso para el proyecto.
 
 Tras reservar un miembro de equipo en su proyecto, podrá usar **Mantener reservas** o **Panel de programación** directamente para administrar las reservas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

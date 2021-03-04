@@ -37,3 +37,5 @@ Como gerente de proyecto, complete los siguientes pasos para editar los requisit
 ## <a name="edit-resource-assignment-contours"></a>Editar contornos de asignación de recursos
 
 Además de editar los detalles de los requisitos de recursos, un gerente de proyecto puede actualizar los contornos individuales de los requisitos de recursos utilizando la funcionalidad **Especificar patrón**. Cuando se selecciona **Especificar patrón**, se abre una página y puede ver los contornos en la escala de tiempo de día, semana o mes. Cada contorno se puede ajustar para la hora de inicio, la hora de finalización y el esfuerzo total en un período determinado.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

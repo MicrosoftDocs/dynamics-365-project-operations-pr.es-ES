@@ -55,3 +55,6 @@ Una vez que ha ganado un contrato de proyecto, deberá dotar de personal al proy
   
 ### <a name="see-also"></a>Vea también  
  [Guía del jefe de proyecto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

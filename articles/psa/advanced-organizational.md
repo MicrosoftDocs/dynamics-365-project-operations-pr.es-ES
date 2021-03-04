@@ -167,3 +167,6 @@ Si su compañía opera como una única unidad con una lista de precios de coste,
 Cuando se crea un proyecto por su cuenta, la unidad de contratación predeterminada del proyecto se basa en el usuario que lo crea. Dicho usuario es también el jefe de proyecto predeterminado. Si el proyecto se asigna a una entidad de ventas, como, por ejemplo, un contrato de proyecto u oferta, la unidad de contratación del proyecto se basa en la entidad de ventas en su lugar. En este caso, es posible que se vuelvan a calcular las estimaciones de proyecto, ya que la lista de precios de coste se usa para calcular los cambios de estimación de costes si se cambia la unidad de contratación. La lista de precios de ventas se usa para calcular las estimaciones de ventas que se cambiarán para mantenerlas sincronizadas con la lista de precios del proyecto de la oferta.
 
 Los campos **Unidad de contratación** y **Divisa** del proyecto están bloqueados y no se pueden editar porque deben estar sincronizados con los valores de la entidad de ventas (contrato de proyecto u oferta) a la que está asignado el proyecto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

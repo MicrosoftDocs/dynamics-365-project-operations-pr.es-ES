@@ -63,3 +63,6 @@ Puede usar el mismo método para cancelar una reserva manual o una reserva autom
 Para convertir un recurso reservado automáticamente en la pestaña **Equipo**, seleccione el recurso y, a continuación, seleccione **Confirmar**.
 
 ![Confirmación del comando](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -33,3 +33,6 @@ ms.locfileid: "5148979"
 
 Project Service Automation (PSA) no permite la eliminación de datos reales porque sirven de fuente de datos para las transacciones que tienen implicaciones financieras en los sistemas dependientes, como, por ejemplo, la contabilidad general. Si se pudiesen eliminar los datos reales, la integridad de las transacciones de informes financieros quedaría en entredicho. Para establecer una traza de auditoría, los clientes deben usar los diarios para crear transacciones de compensación.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

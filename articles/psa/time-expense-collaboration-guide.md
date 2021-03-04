@@ -73,3 +73,6 @@ Haga clic en el siguiente vínculo para obtener más información acerca de lo q
  [Guía de administrador de cuentas](../psa/account-manager-guide.md)   
  [Guía del jefe de proyecto](../psa/project-manager-guide.md)   
  [Guía del administrador de recursos](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

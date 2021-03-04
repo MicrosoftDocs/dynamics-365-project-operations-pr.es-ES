@@ -64,3 +64,6 @@ En este tema se muestran las características y correcciones que son nuevas o qu
      - Corregido: El precio de venta total no se calcula hasta que el usuario también introduce un precio de coste para las estimaciones de gastos en un proyecto.
      - Corregido: Se produce un error al cerrar una oferta como **Lograda** si el contrato del proyecto asociado no está en un estado **Borrador**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

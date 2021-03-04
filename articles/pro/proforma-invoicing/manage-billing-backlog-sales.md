@@ -60,3 +60,6 @@ Los datos reales de ventas no facturadas con un estado **No exceder** de **Error
 Si las líneas de contrato de varios clientes tienen un método de facturación de tiempo y material, cuando se aprueban el tiempo y los gastos, se crea un real de ventas no facturadas para cada cliente en la línea de contrato de acuerdo con la división porcentual de facturación definida para cada uno de los clientes. En la vista **Backlog de facturación de tiempo y material**, verá estos datos reales de ventas no facturadas específicos del cliente. Cada uno de estos registros de ventas reales sin facturar se puede marcar como **Listo para facturar** por separado de esta vista.
 
 Un valor real de ventas no facturado que está en un borrador de factura con un estado de facturación de **Factura de cliente creada**. Cuando se confirma el borrador de la factura, el estado de facturación en este registro se actualiza a **Factura de cliente contabilizada**. No actualice este valor de estado utilizando código personalizado. Project Operations no funciona correctamente cuando estos valores de estado se actualizan con código personalizado.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

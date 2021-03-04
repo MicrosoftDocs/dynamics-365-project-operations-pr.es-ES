@@ -79,3 +79,6 @@ Puede crear una concesión ingresando todos los detalles en un nuevo registro, o
 2. Seleccione la concesión para modificar.
 3. En el panel de acciones, en la pestaña **Concesión** en el grupo **Mantener** , seleccione **Editar**.
 4. Revise los detalles de la concesión y realice los cambios necesarios.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

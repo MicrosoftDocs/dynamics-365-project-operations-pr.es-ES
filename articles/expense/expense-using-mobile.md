@@ -236,3 +236,6 @@ Descargar e instalar la aplicación móvil Dynamics 365 Unified Ops:
 22. Seleccione **Enviar**.
 23. Introduzca cualquier comentario para el aprobador.
 24. Seleccione **Listo**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -26,3 +26,6 @@ Las herramientas de gestión de proyectos de Dynamics 365 Project Operations le 
 - Uso de estimaciones de proyecto durante el proceso de venta.
 - Previsión de los requisitos de recursos para proyectos que están en la canalización.
 - Entrega correcta de proyectos mediante el seguimiento del progreso y el consumo de costes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

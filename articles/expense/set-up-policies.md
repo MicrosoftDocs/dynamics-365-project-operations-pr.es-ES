@@ -53,3 +53,6 @@ A continuación, se incluyen algunas sugerencias que pueden ayudarle a crear nue
 ## <a name="when-to-evaluate-policies"></a>Cuándo evaluar las directivas
 
 En los parámetros de administración de gastos, puede seleccionar la opción de evaluar las directivas de administración de gastos cuando se guarda una línea o cuando se envía un informe de gastos. Si opta por evaluar cuándo se guarda una línea, los usuarios tendrán una visibilidad más temprana de lo que deben hacer para completar su informe de gastos de una vez. De lo contrario, puede retrasar la evaluación de la directiva y ahorrar tiempo validando al final, durante el envío al flujo de trabajo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

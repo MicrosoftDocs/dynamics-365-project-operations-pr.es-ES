@@ -91,3 +91,6 @@ Vista citas personales, reservas de trabajo de proyectos y asignaciones de orden
   
 ### <a name="see-also"></a>Vea también  
  [Guía de tiempo, gastos y colaboración](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

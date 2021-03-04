@@ -38,3 +38,6 @@ Datos reales de ventas no facturados que tienen un estado **Sin exceder** de **H
 En el caso de líneas de contrato de varios clientes que tienen un método de facturación de tiempo y material, cuando se aprueban el tiempo y los gastos, se crea una venta real no facturada para cada cliente en la línea de contrato de acuerdo con la división porcentual de facturación definida para cada cliente en el línea de contrato. En la vista **Trabajos pendientes de facturación de tiempo y material**, verá estos datos reales de ventas no facturados específicos del cliente. Cada uno de estos registros de ventas reales sin facturar se puede marcar como **Listo para facturar** por separado de esta vista.
 
 Una venta real sin facturar en un borrador de factura aparece en esta vista con un **Estado de facturación** de **Factura de cliente creada**. Cuando se confirma el borrador de la factura, el estado de facturación en este registro se actualiza a **Factura de cliente contabilizada**. No se recomienda actualizar este valor usando un código personalizado cuando está en este estado. Project Operations no funcionará correctamente cuando estos valores de estado se actualizan con código personalizado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

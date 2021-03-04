@@ -37,3 +37,6 @@ El anticipo en Project Operations no está disponible para su uso hasta que se f
 | --- | --- | --- |
 | Importe disponible | La cantidad que está disponible para ser utilizada en el anticipo o registro anticipado. | Hasta que se facture el anticipo o adelanto, no estará disponible para su uso, lo que significa que la cantidad disponible será cero. |
 | Importe usado | La cantidad que ya se ha usado en la retención o anticipo. | Un anticipo o retención puede conciliarse parcialmente en una factura con los costes reales que tendrán una parte marcada como ya utilizada o consumida. El resto del anticipo o adelanto está disponible para conciliar en una factura futura con los costos reales. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

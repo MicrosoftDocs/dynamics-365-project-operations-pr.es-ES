@@ -43,3 +43,6 @@ Si la oferta del proyecto que se cierra como Perdido tiene un proyecto referenci
 
 > [!NOTE]
 > En Project Operations, cerrar una oferta como Ganada o Perdida no afectará el estado de la Oportunidad, que permanecerá abierta hasta que se cierre manualmente.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

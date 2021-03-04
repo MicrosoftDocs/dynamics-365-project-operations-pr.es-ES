@@ -89,3 +89,6 @@ Complete los siguientes pasos para corregir una o más entradas de gastos.
 8. En la página del proyecto, en la pestaña **Datos reales**, revise la **Vista asociada de datos reales**. Se enumeran las entradas originales y las entradas corregidas. En el siguiente gráfico se muestran los importes de entrada de gastos originales y los importes de entrada de gastos corregidos correspondientes. 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

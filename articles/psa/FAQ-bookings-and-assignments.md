@@ -68,3 +68,6 @@ La vista **Conciliación** permite al jefe de proyecto ver las reservas y las as
 > [!NOTE]
 > Si mueve una tarea para la que usted mismo ha creado un perfil, estos perfiles no se mantienen. Los perfiles se vuelven a generar de acuerdo con el calendario de proyecto para responder a los cambios en horas laborables y las vacaciones. Esto se debe al diseño, ya que el sistema no conoce el propósito del perfil original y no puede determinar si conviene conservar el perfil en un nuevo período de tiempo. Puesto que las reservas y asignaciones están desconectadas, las reservas mantienen los perfiles de reserva originales. En este caso, deberá cancelar y volver a reservar el nuevo perfil de asignación.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

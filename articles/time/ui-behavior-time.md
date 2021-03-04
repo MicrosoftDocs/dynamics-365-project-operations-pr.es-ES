@@ -85,3 +85,6 @@ Después de que se hayan creado algunas entradas de tiempo, los usuarios pueden 
 
 ## <a name="import"></a>Importar
 Se utiliza el mismo proceso básico para importar desde reservas, asignaciones e intercambios. Puede especificar el rango de fechas desde el que se importan las reservas y luego seleccionar explícitamente las reservas que se deben copiar como entradas de tiempo de borrador. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

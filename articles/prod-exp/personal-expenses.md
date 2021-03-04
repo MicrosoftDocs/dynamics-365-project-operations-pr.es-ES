@@ -33,3 +33,6 @@ Hay dos métodos para gestionar los gastos personales de un trabajador:
 - **Pagado por empresa**: su organización paga la factura completa de la tarjeta de crédito corporativa y luego carga los gastos personales en la cuenta del trabajador.
 
 Puede seleccionar el método que utiliza su organización en la página **Parámetros de gestión de gastos**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Puede contratar personal para su proyecto con un equipo de recursos genéricos o
 - [Reservar recursos con nombre desde los requisitos de recursos](book-named-resource.md)
 - [Enviar una solicitud de recursos](submit-resource-request.md)
 - [Aceptar o rechazar un recurso de proyecto propuesto de una solicitud de recurso](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

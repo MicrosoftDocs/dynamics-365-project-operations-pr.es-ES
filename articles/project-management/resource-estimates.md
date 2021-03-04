@@ -34,3 +34,6 @@ Los precios de venta se aplican una vez por oferta. La jerarquía para la lista 
 1. Organización
 2. Cliente
 3. Oferta/contrato
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Puede ver una lista de los integrantes del equipo del proyecto, y desde ahí pue
   
 ### <a name="see-also"></a>Vea también  
  [Guía del jefe de proyecto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

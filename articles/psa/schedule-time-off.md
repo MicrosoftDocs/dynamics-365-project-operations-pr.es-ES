@@ -57,3 +57,6 @@ Programe el tiempo de vacaciones o la ausencia de la misma forma que especifica 
   
 ### <a name="see-also"></a>Vea también  
  [Guía de tiempo, gastos y colaboración](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

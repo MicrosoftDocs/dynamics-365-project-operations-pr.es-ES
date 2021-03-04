@@ -72,3 +72,6 @@ Si la configuración de precio para la categoría de gastos no es válida, ha ai
 Si aún no ve un precio válido en las ventas de gastos reales después de realizar las tres comprobaciones anteriores, registre un vale de soporte.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

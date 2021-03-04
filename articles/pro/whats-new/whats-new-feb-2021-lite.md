@@ -38,3 +38,6 @@ Este tema se aplica a los siguientes componentes y versiones de Dynamics 365 Pro
 | **Planificación y seguimiento de proyectos** | 2164035 | Se han corregido los problemas de la función **Copiar proyecto**. |
 | **Entrada de tiempo** | 2129161 | Se han aplicado restricciones más estrictas para garantizar que los usuarios no puedan cambiar ni actualizar una entrada de tiempo que se ha enviado o aprobado. |
 | **Entrada de tiempo** | 2103572 | La aprobación de tiempo para entradas de tiempo no relacionadas con proyectos no debe buscar el rol de aprobador de proyectos. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

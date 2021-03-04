@@ -87,3 +87,6 @@ Cuando esté listo para cambiar un recurso de miembro del equipo reservado autom
 2. Cuando se abre el tablero de programación, expanda el recurso para mostrar sus reservas. Verá la reserva marcada como Automática.
 3. Haga clic con el botón secundario en la reserva, en Cambiar estado, seleccione Reserva manual y después Manual. El estado de la reserva es ahora Manual.
 4. Después de cerrar el tablero de programación, verá que las horas para el recurso han cambiado de Automática a Manual en la cuadrícula de miembros del equipo. Ahora puede asignar el recurso a tareas (siempre que haya alineación entre las horas reservadas manualmente y las horas de esfuerzo de la tarea para asignación). Tenga en cuenta que si siguió los pasos de cumplimiento de recursos genéricos en el elemento #3 de arriba, cuando cambie el estado del recurso reservado automáticamente a manual, se quitará el integrante del equipo genérico del equipo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

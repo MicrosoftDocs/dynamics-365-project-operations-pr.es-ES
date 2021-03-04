@@ -56,3 +56,6 @@ Seleccione la solicitud de viaje que desea aprobar y luego seleccione **Flujo de
 
 > [!NOTE]
 > Cuando asigna un informe de gastos a una solicitud de viaje aprobada, el importe de la transacción no puede ser mayor que el importe autorizado. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

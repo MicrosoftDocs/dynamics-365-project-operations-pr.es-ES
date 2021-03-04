@@ -127,3 +127,6 @@ Para crear una nueva estructura de descomposición del trabajo con Microsoft Pro
 8.  Selecciona el **Calendario** que se va a utilizar para dotar de recursos.
 
 11. Haga clic en **Aceptar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

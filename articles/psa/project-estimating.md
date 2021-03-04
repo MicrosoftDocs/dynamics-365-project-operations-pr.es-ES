@@ -97,3 +97,6 @@ Tanto en la vista de cuadrícula como en la vista en fases de tiempo, puede sele
 ## <a name="expense-estimates"></a>Estimaciones de gastos
 
 El botón **Agregar una nueva estimación de gastos** de la vista de cuadrícula le permite registrar los gastos asumidos en el proyecto, pero que no están directamente relacionados con la mano de obra. Puede registrar las estimaciones de gastos para una tarea específica o para todo el proyecto. Seleccione las categorías de gastos y la fecha tentativa en la que espera realizar en el gasto. Si la lista de precios de coste y la lista de precios de venta asociadas tienen precios predeterminados (o si los porcentajes de incremento se definen para las categorías de gastos), se introducen automáticamente en la línea de estimación cuando se produce la asociación.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

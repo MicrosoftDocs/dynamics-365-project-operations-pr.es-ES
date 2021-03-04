@@ -53,3 +53,6 @@ La tabla siguiente es una lista completa de los formularios y las vistas estánd
 2. En la página **Parámetros**, en la pestaña **Dimensiones de precios basadas en el importe**, observe que la cuadrícula de la pestaña muestra los registros en la entidad **Dimensiones de precios**.
 3. Agregue **Categoría de transacciones** a esta lista y establezca los campos **Aplicable a costes** y **Aplicable a ventas** en **Sí**.
 4. En el campo **Tipo de dimensión**, seleccione **Basado en el importe** y, a continuación, seleccione la prioridad para **Categoría de transacción** relacionada con el coste y las ventas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

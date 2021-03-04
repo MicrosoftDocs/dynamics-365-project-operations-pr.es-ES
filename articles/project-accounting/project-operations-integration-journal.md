@@ -55,3 +55,6 @@ Solo los siguientes atributos contables se pueden actualizar en las líneas del 
 Las líneas del diario de integración se pueden eliminar; sin embargo, las líneas no publicadas se volverán a insertar en el diario después de volver a ejecutar el proceso periódico **Importar desde la puesta en escena**.
 
 Cuando contabiliza el diario de integración, se crean un libro auxiliar del proyecto y las transacciones del libro mayor. Estos se utilizan en la facturación de clientes posteriores, el reconocimiento de ingresos y los informes financieros.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

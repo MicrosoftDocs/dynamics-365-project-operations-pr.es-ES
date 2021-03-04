@@ -32,3 +32,6 @@ Su organización puede requerir que se envíe una solicitud de viaje antes de qu
 Las solicitudes y directivas de viajes se pueden utilizar para ayudar con el control de presupuesto. Por ejemplo, si su organización está trabajando en un proyecto de precio fijo que requiere viajes, los gastos de viaje de los miembros del equipo del proyecto deben ajustarse al presupuesto para el proyecto. Al requerir que los gastos de viaje sean aprobados antes de incurrir en ellos, la organización puede ayudar a asegurarse de que el proyecto se mantenga dentro del presupuesto.
 
 Puede configurar políticas para solicitudes de viaje desde la página **Solicitud de viaje**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ También puede configurar listas de precios de proyectos específicos para el cl
 ## <a name="custom-pricing-on-a-project-contract"></a>Precios personalizados en un contrato de proyecto
 
 Una vez que tenga listas de precios de proyectos predeterminadas organizativas y específicas del cliente, sus contratos de proyecto se crearán automáticamente con estas asociaciones de listas de precios de proyectos. Sin embargo, las listas de precios del proyecto en un contrato de proyecto siempre se copian con la fecha y el nombre del contrato adjuntos. Los gerentes de cuentas y proyectos pueden comenzar a editar los precios de estas copias. Estos precios modificados se aplicarán únicamente a este contrato de proyecto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

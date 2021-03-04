@@ -26,3 +26,5 @@ Los requisitos de recursos los define el administrador del proyecto para estable
 3.  En la pestaña **Miembro del equipo**, seleccione el miembro del equipo y después seleccione **Generar requisito**.
 
 Para obtener información sobre cómo modificar el requisito de recurso, consulte [Actualizar detalles de requisitos de recursos](define-resource-requirements.md) para modificar el requisito de recurso.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

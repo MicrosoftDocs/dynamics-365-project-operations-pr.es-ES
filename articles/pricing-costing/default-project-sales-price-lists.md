@@ -57,3 +57,6 @@ Las listas de precios de costo no tienen por defecto ninguna entidad en Project 
 5. Luego, el sistema analiza la fecha de vigencia de las listas de precios que coinciden con la fecha del presupuesto entrante o la línea real. 
 6. Si hay varias listas de precios vigentes para la fecha de la estimación entrante o real, se selecciona la lista de precios creada más recientemente.
 7. Si no hay listas de precios de coste adjuntas a los parámetros del proyecto que coincidan con la moneda y la fecha de vigencia, el sistema establece la tasa de coste por defecto en cero (0) en la estimación entrante o en la línea real.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

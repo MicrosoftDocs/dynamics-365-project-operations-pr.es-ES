@@ -64,3 +64,6 @@ Este tema muestra cómo configurar la facturación de proyectos entre dos empres
 32. En el campo **Precio** , especifique un número.
 33. Seleccione **Guardar**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

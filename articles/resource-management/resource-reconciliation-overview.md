@@ -48,3 +48,6 @@ Si tiene asignaciones de tareas para un recurso pero no tiene reservas, seleccio
 Las reservas que se crean a través de la acción **Ampliar reserva** están asociadas con el requisito principal del proyecto. Cuando se inicia una extensión, no se puede determinar el requisito específico que debe ampliarse, ya que el recurso puede estar asociado con más de un requisito para el proyecto.
 
 El jefe de proyecto o el administrador de recursos pueden usar el tablero de programación para administrar las situaciones de exceso de reservas de un recurso más allá de su capacidad.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

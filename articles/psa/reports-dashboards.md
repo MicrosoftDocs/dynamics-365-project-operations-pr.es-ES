@@ -40,3 +40,6 @@ El panel **Practice Manager** ofrece a los directores de prácticas una experien
 ## <a name="resource-manager"></a>Resource Manager 
 
 El panel **Resource Manager** ofrece a los administradores de recursos una experiencia gráfica del panel para supervisar las solicitudes de recursos y la petición y el uso de los recursos. También permite a los administradores de recursos segmentar la información supervisada en varias dimensiones.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -33,3 +33,6 @@ En la cuadrícula **Miembro del equipo**, un jefe de proyecto puede resaltar un 
 ## <a name="schedule-board"></a>Tablero de programación
 
 Desde el **Tablero de programación**, el administrador de recursos tiene una vista de cartera de todas las reservas de una organización. Desde esta vista, el administrador de recursos puede extender, acortar o mover reservas existentes, de manera similar a las capacidades ofrecidas en **Mantener reservas**. El administrador de recursos también puede sustituir los recursos existentes asignados a una reserva específica. Para ello, debe hacer clic con el botón secundario en la reserva y seleccionar **Sustituir recurso**. Además, los administradores de recursos también pueden editar los perfiles de las reservas existentes. Para ello, deben hacer clic con el botón secundario en la reserva y seleccionar **Editar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

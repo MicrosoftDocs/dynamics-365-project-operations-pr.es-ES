@@ -54,3 +54,6 @@ Después de reservar los recursos, seleccione **Mantener reservas** para realiza
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>¿Cuál es la diferencia entre una tarea y una reserva?
 
 Las asignaciones son la asignación de recursos a las tareas del proyecto en la programación del proyecto. Los recursos pueden ser recursos reales o genéricos. Las reservas son la asignación manual o automática de recursos a un proyecto. Las reservas manuales consumen la capacidad de un recurso. Idealmente, para los recursos reales, las reservas y asignaciones deben coincidir, porque no difieren. Sin embargo, PSA no obliga a que esto se cumpla. La vista Conciliación muestra los lugares de un jefe de proyecto donde las reservas y asignaciones de un recurso no coinciden.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

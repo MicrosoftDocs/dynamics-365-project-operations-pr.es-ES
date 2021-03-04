@@ -29,3 +29,6 @@ La sección **Estado** de la página **Entidad del proyecto** proporciona un res
 - El campo **Comentarios** permite al jefe de proyecto introducir comentarios específicos sobre el estado. 
 - El campo **Estado actualizado en fecha de** no se puede editar. El valor de este campo es una marca de tiempo que indica cuándo se actualizó por última vez el estado.
 - Los campos **Rendimiento de programación** y **Rendimiento de coste** se establecen desde la cuadrícula de seguimiento. Cuando la programación y la variación de costes para el nodo raíz en la vista **Seguimiento del esfuerzo** son positivas, estos campos se actualizan a **Adelantado**. Cuando la programación y la variación de coste para el nodo raíz son negativas, estos campos se establecen en **Retrasado**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -80,3 +80,6 @@ Cuando un proveedor completa su trabajo en un proyecto y le envía una factura, 
 2. En la página **Facturas de proveedores con pago al cobro** , en el campo de búsqueda, introduzca los valores para encontrar la factura del proveedor que desea revisar y luego seleccione **Buscar**.
 3. En la ficha desplegable **Líneas de factura de proveedor** , seleccione las líneas que desea cambiar.
 4. Si las condiciones de **Pago al cobro** se cumplen para la línea de factura, seleccione **Liberar el pago del proveedor**. La opción **Pago al cobro** se borra y el valor del campo **Listo para el pago** se cambia a **Sí**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

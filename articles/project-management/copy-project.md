@@ -61,3 +61,6 @@ Cuando un equipo de proyecto se copia desde el proyecto de origen, se copian los
 Cuando se copia el proyecto, las líneas de estimación de recursos y gastos se copian del proyecto de origen. 
 
 Para obtener información sobre cómo acceder mediante programación a Copiar proyecto, consulte [Desarrollar plantillas de proyectos con Copy Project](dev-copy-project.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

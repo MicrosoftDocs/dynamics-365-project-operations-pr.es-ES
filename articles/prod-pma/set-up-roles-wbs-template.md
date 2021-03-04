@@ -107,3 +107,6 @@ Se han agregado opciones adicionales en la WBS para utilizar mejor la funcionali
     > No recibe una advertencia de que el recurso especificado ahora es 2, porque la cantidad de recursos sigue siendo 1.
 
 14. En la página **Estructura de descomposición del trabajo** , valide la asignación de recursos en la WBS y luego seleccione **Guardar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

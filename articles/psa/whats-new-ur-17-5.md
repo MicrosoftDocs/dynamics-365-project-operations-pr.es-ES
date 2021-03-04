@@ -44,3 +44,6 @@ En este tema se muestran las características y correcciones que son nuevas o qu
 - Corregido: Se solucionó la imprecisión en la adición en plantillas de horas de trabajo de 24 horas de un día adicional a tareas.
 - Corregido: Se solucionó el cambio impreciso en plantillas de horas de trabajo de +13 GMT de tareas un día antes.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

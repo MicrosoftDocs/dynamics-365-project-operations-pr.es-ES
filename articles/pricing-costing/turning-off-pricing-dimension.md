@@ -45,3 +45,6 @@ Este mensaje de error indica que hay registros de precios que se configuraron pr
 
 
 Cuando desactive **Título estándar** como la dimensión de precios, y el motor de precios busque un precio, solo utilizará el valor de **Unidad organizativa** del contexto de entrada. Si la **Unidad organizativa** del contexto de entrada es "Contoso Estados Unidos", el resultado será no determinista porque ambas filas coincidirán. Para evitar este escenario, cuando cree registros **Precio de rol**, el sistema validará que la combinación de dimensiones sea única. Si la dimensión se desactiva después de que se creen los registros de **Precio de rol**, esta restricción se podrá infringir. Por lo tanto, es necesario que antes de desactivar una dimensión, elimine todas las filas de **Precio de rol** y **Incremento del precio de rol** que tienen ese valor de dimensión completo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

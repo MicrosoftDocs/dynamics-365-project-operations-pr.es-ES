@@ -90,3 +90,6 @@ La estimación cambia el estado a **Eliminado**.
 Utilice esta página para invertir todas las eliminaciones con una fecha estimada especificada y con un estado estimado de **Eliminado**. El estado de la transacción cambia después de seleccionar los campos correspondientes.
 
 Esto también cambia automáticamente el estado del proyecto a **En curso** si la fase del proyecto está establecida como finalizada. El estado de estimación del período del proyecto vuelve a cambiar a **Registrado**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

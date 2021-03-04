@@ -37,3 +37,6 @@ La siguiente tabla enumera las actualizaciones de Project Operations en la versi
 | Entrada de tiempo y gasto rápido | 2047499          | El botón **Nuevo** en la página de Entrada de tiempo abre la página **Nueva firma de correo electrónico**.                                                                                               |
 | Entrada de tiempo y gasto rápido | 2059859          | Se abre una ventana emergente inesperada al crear una entrada de gastos.                                                                                                                         |
 | Otros                        | 2044181          | [Desinstalación de pedido de compra]: al intentar desinstalar **msdyn_ProjectServiceCore_Patch** y las soluciones centrales del servicio msdyn Project, aparece el error "El registro no está disponible".        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

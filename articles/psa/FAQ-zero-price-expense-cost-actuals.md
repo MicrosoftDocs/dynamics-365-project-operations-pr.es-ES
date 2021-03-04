@@ -38,3 +38,6 @@ Estas preguntas más frecuentes se aplican a gastos reales donde la clase de tra
 Vaya a la entrada de gasto relacionada y asegúrese de que hay un importe en el campo de entrada de gasto. Si la entrada de gasto de origen no tenía el campo de importe relleno, ha aislado el problema.
  
 Para resolver este problema, vuelva a crear la entrada de gasto con un importe válido y apruébela.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

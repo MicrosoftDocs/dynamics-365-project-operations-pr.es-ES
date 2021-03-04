@@ -107,3 +107,6 @@ Siga estas instrucciones para crear su propio flujo de proceso de negocio para l
 
    ![Captura de pantalla de cómo modificar vistas en la entidad de proyecto](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

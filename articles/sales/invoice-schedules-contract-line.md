@@ -74,3 +74,6 @@ Puede generar hitos de precio fijo manualmente cuando no se dividen periódicame
 | Impuestos | Creación rápida | La cantidad del impuesto aplicado al hito. | Esto se lleva al hito de la línea del contrato del proyecto y la factura. |
 
 3. Seleccione **Guardar y cerrar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

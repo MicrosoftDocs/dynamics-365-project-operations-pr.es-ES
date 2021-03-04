@@ -40,3 +40,6 @@ Algunas veces puede que deba revisar las estimaciones originales en una tarea. L
   
 ### <a name="see-also"></a>Vea también  
  [Guía del jefe de proyecto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

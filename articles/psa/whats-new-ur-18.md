@@ -63,3 +63,6 @@ En este tema se muestran las características y correcciones que son nuevas o qu
 **Sales**
 
 - Corregido: cuando las entradas de tiempo se vuelven a aprobar (**Aprobar > Cancelar >**, aprobar nuevamente), se crea un duplicado real no imputable.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

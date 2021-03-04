@@ -42,3 +42,6 @@ Se han solucionado los siguientes problemas:
 
 - Programación de la degradación del rendimiento de la búsqueda de asistencia
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

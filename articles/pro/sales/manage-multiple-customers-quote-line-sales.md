@@ -43,3 +43,6 @@ La siguiente tabla muestra los campos del registro de cliente de línea de ofert
 Puede editar los porcentajes de división de facturación en línea. Cuando los porcentajes de división de facturación no suman el 100 %, se produce un error. Después de editar los porcentajes de división de facturación, actualice la página de la línea de oferta para eliminar el error.
 
 Utilice la acción de distribución uniforme en la subcuadrícula de clientes de la línea de oferta para asignar divisiones de facturación a todos los clientes de la línea de oferta. Si hay un factor de redondeo, se agregará al cliente de redondeo. Uno de los clientes de la línea de oferta siempre se etiqueta como el cliente de redondeo, lo que significa que el registro del cliente de la línea de oferta tiene el indicador de redondeo establecido en **Sí**. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

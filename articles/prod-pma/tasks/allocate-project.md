@@ -44,3 +44,6 @@ Una vez que se ha asignado un presupuesto o una revisión del presupuesto, puede
 10. Cuando la asignación está a su gusto, haga clic en Enviar en la página Presupuesto del proyecto para enviar el presupuesto o las revisiones del presupuesto al flujo de trabajo de aprobación.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

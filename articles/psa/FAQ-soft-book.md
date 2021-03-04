@@ -67,3 +67,6 @@ Cuando esté listo para cambiar un recurso de miembro del equipo reservado autom
 2. Haga clic con el botón secundario en la reserva y, en **Cambiar estado**, seleccione **Reserva manual** \> **Manual**. El estado de la reserva es ahora **Manual**.
 3. Después de cerrar el tablero Programación y volver al proyecto y abrir la pestaña **Equipo**, verá que las horas del recurso se han movido de la columna **Horas reservadas automáticamente** a la columna **Horas reservadas manualmente** en la pestaña **Equipo** en la vista **Miembros del equipo con nombre**. Si el recurso se asignó a tareas, ya no mostrarán un déficit de reserva en la pestaña **Conciliación**, pues sus reservas son manuales ahora.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

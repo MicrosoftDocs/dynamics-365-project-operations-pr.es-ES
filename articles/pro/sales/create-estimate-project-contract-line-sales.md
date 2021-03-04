@@ -68,3 +68,6 @@ Los cálculos de rentabilidad convierten los importes de los detalles de la lín
 
 > [!NOTE]
 > Pueden producirse errores de redondeo de divisas y márgenes modificados debido a la falta de tipos de cambio vigentes en la fecha. Utilice estos cálculos en los contratos de proyectos solo como aproximaciones y no para informes legales reales o de otro tipo que requieran una mayor precisión de redondeo y conocimiento de la vigencia de la fecha para los tipos de cambio.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Durante el proceso de ventas, puede realizar estimaciones de ventas partiendo de
   
 ### <a name="see-also"></a>Vea también  
  [Guía del jefe de proyecto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

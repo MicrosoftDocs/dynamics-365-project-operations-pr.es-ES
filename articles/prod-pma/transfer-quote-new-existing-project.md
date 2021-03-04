@@ -36,3 +36,6 @@ Para usar el asistente, siga estos pasos.
 1. Vaya a **Gestión de proyectos y contabilidad** > **Cotizaciones** > **Cotizaciones de proyecto**.
 2. Seleccione la cotización que desea transferir y en la pestaña **Seguimiento** , en el grupo **Modificar** , seleccione **Transferir al proyecto**.
 3. Siga el asistente **Transferir cotización a proyecto** para asociar y transferir la cotización a un proyecto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

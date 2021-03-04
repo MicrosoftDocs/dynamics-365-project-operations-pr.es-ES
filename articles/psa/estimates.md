@@ -106,3 +106,6 @@ Si ha agregado un campo personalizado al detalle de la línea de oferta y desea 
 
 8. Repita los pasos del 1 al 7 para el segundo complemento.
 9. Cierre PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

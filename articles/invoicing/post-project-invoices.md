@@ -30,3 +30,6 @@ El jefe de proyecto puede revisar las transacciones de ventas no facturadas medi
 Puede [crear manualmente una factura proforma](../proforma-invoicing/create-manual-proforma-invoice.md) o usar un [proceso periódico](../proforma-invoicing/configure-automated-invoice-creation.md). El jefe de proyecto puede [ajustar un borrador de factura proforma](../proforma-invoicing/manage-proforma-invoice.md) si es necesario, y confirmarlo a continuación.
 
 La factura proforma confirmada se envía al módulo **Gestión de proyectos y contabilidad** de Finance. El contable del proyecto formatea y actualiza la propuesta de factura del proyecto y después registra e imprime el documento. Las facturas de proyecto contabilizadas se registran en la contabilidad general, así como en los subdiarios del cliente y del proyecto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

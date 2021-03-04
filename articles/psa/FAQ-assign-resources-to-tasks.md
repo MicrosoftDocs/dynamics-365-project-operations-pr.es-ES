@@ -82,3 +82,6 @@ Los recursos asignados de esta manera se agregan al equipo sin ninguna reserva. 
 
 3. Seleccione el recurso que desee asignar a la tarea.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

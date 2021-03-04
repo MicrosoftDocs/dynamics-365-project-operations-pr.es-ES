@@ -52,3 +52,6 @@ Los siguientes temas proporcionan información que ayudará a los administradore
 - [Plantillas de proyecto](project-templates.md)
 - [Fases del proyecto](project-stages.md)
 - [Configuración del proyecto](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

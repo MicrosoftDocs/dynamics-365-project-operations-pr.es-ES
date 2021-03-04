@@ -77,3 +77,6 @@ Se han solucionado los siguientes problemas:
 - La lógica **Resolución de lista de precios de venta** maneja incorrectamente las zonas horarias, lo que resulta en una selección incorrecta de listas de precios.
 - El **Coste real total** de un proyecto puede quedar fuera por un importe fraccionario después de que se aprueba una sola entrada de tiempo.
 - La lógica de **Resolución de precios** no proporciona un mensaje de error descriptivo si el **Precio de rol recuperado** no tiene valores en los campos **Unidad principal** y **Precio en unidad principal**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

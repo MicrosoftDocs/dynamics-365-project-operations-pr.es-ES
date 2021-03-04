@@ -45,3 +45,6 @@ Estas notas del producto están diseñadas para proporcionar información detall
 
 ### <a name="see-also"></a>Vea también
  [Información general sobre Project Service](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

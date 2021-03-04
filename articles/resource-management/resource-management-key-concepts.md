@@ -35,3 +35,6 @@ Los recursos son el activo más importante de una organización basada en servic
 
 
 Puede contratar personal para su proyecto con un equipo de recursos genéricos en Project Operations. Puede usar varios métodos para agregar y asignar miembros del equipo y para administrar sus reservas y asignaciones. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

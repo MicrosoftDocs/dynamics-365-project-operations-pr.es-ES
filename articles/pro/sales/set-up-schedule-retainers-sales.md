@@ -32,3 +32,6 @@ Los horarios de los retenedores se configuran en la página **Contrato de proyec
 | Número de anticipos a crear | Cuando ingresa el número de retenedores para crear, el sistema usa la fecha de inicio y la frecuencia para crear el número en este campo. | Cuando este campo se actualiza manualmente, el sistema ignora el valor en el campo **Fin del programa de retención** y, en su lugar, crea el número específico de anticipos o avances. |
 | Frecuencia de facturación | Con qué frecuencia la aplicación creará retenciones y avances. | Este valor influye directamente en el número de anticipos y anticipos y las fechas de creación. |
 | Importe total | El monto total es el monto que se divide en el anticipo individual o los pagos por adelantado que se crearán. | No hay impacto posterior para este campo. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

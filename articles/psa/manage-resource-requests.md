@@ -51,3 +51,6 @@ Los administradores de cuentas y los jefes de proyecto solicitan regularmente re
   
 ### <a name="see-also"></a>Vea también  
  [Guía del administrador de recursos](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

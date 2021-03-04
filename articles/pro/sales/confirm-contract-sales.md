@@ -35,3 +35,6 @@ Si el contrato del proyecto que se cierra como perdido hace referencia a un proy
 
 > [!NOTE]
 > En Dynamics 365 Project Operations, cerrar un contrato de proyecto como perdido no afectará el estado de la oportunidad asociada. La oportunidad permanecerá abierta y deberá cerrarse manualmente.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -76,3 +76,6 @@ Puede utilizar uno de los siguientes métodos para crear un pedido de compra en 
 
 Para más información, consulte [Recibir artículos según el pedido de compra desde un requisito de artículo](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

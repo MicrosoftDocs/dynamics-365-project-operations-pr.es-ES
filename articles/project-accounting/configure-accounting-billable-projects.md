@@ -125,3 +125,6 @@ Precio fijo: porcentaje completado
 Las reglas del perfil de costes e ingresos del proyecto determinan el perfil de costes e ingresos del proyecto que se debe utilizar al procesar cualquier transacción facturable del proyecto. Defina las reglas yendo a **Gestión de proyectos y contabilidad** \> **Configuración** \> **Registro** \> **Reglas de perfil de costes e ingresos del proyecto**.
 
 Las reglas se pueden definir por contrato de proyecto, grupo de proyecto o para un proyecto específico. El sistema siempre elegirá primero la regla de granularidad más alta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

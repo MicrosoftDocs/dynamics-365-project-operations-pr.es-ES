@@ -67,3 +67,6 @@ Cuando el usuario selecciona resumir por clase de transacción, categoría y tar
 | Tarea A | Vuelos | 1/10/2020 | 4 | 400 | 1600 |
 | Tarea B | Hotel | 1/10/2020 | 4 | 200 | 800 |
 | Tarea C | Hotel | 1/11/2020 | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

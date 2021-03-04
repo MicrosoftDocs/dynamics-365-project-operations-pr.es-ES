@@ -52,3 +52,6 @@ Para obtener más información sobre cómo crear informes en PSA, consulte los s
 - [Trabajo con el modelo de datos de Project Service](reports-working-project-service-data-model.md)
 - [Paneles](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

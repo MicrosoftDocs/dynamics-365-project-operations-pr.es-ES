@@ -41,3 +41,6 @@ Los recursos son el activo más importante de una organización basada en servic
 - [Requisitos de reservas automáticas](resource-management-softbook-requirements.md)
 - [Modelos de habilidades y competencia](resource-management-skills-proficiency.md)
 - [P+F de administración de recursos](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

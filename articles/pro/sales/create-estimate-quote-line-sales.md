@@ -67,3 +67,6 @@ Moneda del detalle de la línea de oferta para los valores predeterminados de co
 Los cálculos de rentabilidad convierten el importe en los detalles de línea de oferta para costes y ventas en la divisa base del entorno, para informar del margen estimado general en la oferta.
 
 Esto podría producir errores de redondeo de moneda y márgenes cambiantes, debido a la falta de tipos de cambio vigentes en la fecha. Utilice estos cálculos en las ofertas de proyectos solo como aproximaciones y no como informes legales ni de otro tipo que requieran mayor precisión de redondeo y conocimiento de la fecha de vigencia de los tipos de cambio.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

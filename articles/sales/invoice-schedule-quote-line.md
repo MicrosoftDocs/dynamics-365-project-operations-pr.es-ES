@@ -68,3 +68,6 @@ Abra la línea de oferta de precio fijo para la que necesita crear un hito. En l
 | Estado de la factura | Creación rápida | Cuando se crea un hito, este estado siempre se establece en **No listo para facturación**. | Esto se propaga al hito de la línea del contrato del proyecto y a la factura. |
 | Importe de línea | Creación rápida | Importe o valor del hito que se facturará al cliente. | Esto se propaga al hito de la línea del contrato del proyecto y a la factura. |
 | Impuestos | Creación rápida | Importe del impuesto que se aplicará al hito. | Esto se propaga al hito de la línea del contrato del proyecto y a la factura. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

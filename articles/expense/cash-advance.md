@@ -63,3 +63,6 @@ Al crear y enviar un informe de gastos para el anticipo en efectivo que ya ha re
 ### <a name="example"></a>Ejemplo
 Planea viajar de Seattle a Nueva York para una conferencia. Crea una solicitud de anticipo en efectivo de 3000,00 dólares estadounidenses por el coste estimado de la entrada en la conferencia, vuelos, hotel, comidas y taxis. No se le pagará a menos que su supervisor apruebe esta solicitud. Una vez que su gerente la aprueba, el anticipo en efectivo solicitado se paga en forma de 3.000,00 USD en su cuenta bancaria. Luego asiste a la conferencia. Después de completar su viaje, descubre que el gasto total fue solo de 2.790,00 USD. Seleccione **Efectivo** en el campo **Método de pago** y envíe sus gastos por valor de 2790,00 dólares estadounidenses. El importe de su gasto enviado se ajusta automáticamente contra el anticipo en efectivo de 3.000,00 USD que se le prestó. Ahora debe un saldo de 210,00 dólares estadounidenses (3000,00 - 2790,00), que puede devolver a la empresa a través de la categoría de gastos **Devolución de efectivo**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

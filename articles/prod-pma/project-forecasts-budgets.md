@@ -81,3 +81,6 @@ Si utiliza la previsión de proyectos, puede identificar modelos como submodelos
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

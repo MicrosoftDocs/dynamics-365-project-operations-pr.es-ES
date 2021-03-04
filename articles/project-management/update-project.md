@@ -48,3 +48,6 @@ A continuación se muestra un resumen de los campos que se pueden actualizar en 
 - **Estado general del proyecto**: el estado general del proyecto proporcionado por el administrador del proyecto.
 - **Comentarios**: una narración sobre el estado actual del proyecto proporcionada por el administrador del proyecto.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

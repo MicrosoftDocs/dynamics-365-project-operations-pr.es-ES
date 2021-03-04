@@ -74,3 +74,6 @@ Cuando amplía la fila de ese registro de miembro del equipo, puede ver distinta
 Cuando navega a la cuadrícula **Estimaciones**, observará que ambas asignaciones para el mismo recurso tienen un precio diferente.
 Se asignan precios a la asignación para el recurso en la Tarea A mediante el valor de atributo **Rol** de **Jefe de consultoría**. Se asignan precios a la asignación para el mismo recurso en la Tarea B mediante el valor de atributo **Rol** de **Técnico de red**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

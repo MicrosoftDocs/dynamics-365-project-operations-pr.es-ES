@@ -37,3 +37,6 @@ Use este tipo de implementación si sus expectativas de Project Operations son p
 - Un sistema integrado que gestiona proyectos internos y facturables para cronogramas y finanzas desde la venta del proyecto hasta la facturación.
 - Planificación de recursos empresariales de terceros (ERP/sistema de contabilidad financiera) para integrar con Project Operations.
 - Un sistema de terceros para trabajar con impuestos sobre las ventas, tipos de cambio, reembolsos de gastos y gastos ajenos al proyecto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

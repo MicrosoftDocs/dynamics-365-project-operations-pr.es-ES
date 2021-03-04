@@ -35,3 +35,6 @@ Desplácese para proyectar datos reales y asegúrese de que el coste y las venta
   
 ### <a name="see-also"></a>Vea también  
  [Guía del jefe de proyecto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -84,3 +84,6 @@ A continuación se describen los recursos web que están en desuso:
 > Para obtener la lista completa de recursos en desuso, consulte [Recursos web en desuso en Project Service Automation v3.x](../developer-guides/web-resources-deprecated-v3.x.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

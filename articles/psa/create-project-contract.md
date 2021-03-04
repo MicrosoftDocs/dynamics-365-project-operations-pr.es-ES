@@ -47,3 +47,6 @@ Ahora que ha ganado la oferta para el proyecto, es momento de crear un contrato 
   
 ### <a name="see-also"></a>Vea también  
  [Guía de administrador de cuentas](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Antes de comenzar la configuración, debe tener un entorno de Common Data Servic
     -   Característica del recurso reservable
 
     ![Completar importación](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

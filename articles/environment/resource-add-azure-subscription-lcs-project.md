@@ -70,3 +70,6 @@ La autorización ya está completa.
 Ha conectado correctamente su suscripción de Azure. Ahora puede implementar entornos alojados en la nube de Dynamics 365 Finance.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

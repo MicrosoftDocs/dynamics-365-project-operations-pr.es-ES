@@ -55,3 +55,6 @@ Se han solucionado los siguientes problemas:
 - Se genera una excepción de referencia nula cuando se invoca el complemento **GetEstimatesForProject**.
 - La opción **Marcar como listo para facturar** de la cuadrícula de hitos solo actualiza parcialmente los atributos, con la excepción del atributo **InvoiceStatus**, que se actualiza.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Para revisar proyectos de estimaciones de ingresos a precio fijo, complete los s
 
   El coste del proyecto, el perfil de ingresos, la plantilla de costes y el código de período se pueden configurar manualmente. Si no se configuran manualmente, los valores predeterminados durante el primer cálculo estimado para el proyecto utilizando las reglas configuradas para los perfiles de costes e ingresos del proyecto.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

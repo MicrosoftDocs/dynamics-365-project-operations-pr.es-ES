@@ -32,3 +32,6 @@ A continuación, se muestran los campos de una línea de oportunidades basada en
 | Nombre | Pestaña General | Este es un campo de texto editable que se puede usar para dar una identidad corta del artículo de línea. | Este valor se transfiere a la línea de oferta cuando crea una oferta a partir de esta oportunidad. |
 | Presupuesto del cliente | Pestaña General | Este campo de moneda editable se puede utilizar para realizar un seguimiento de la cantidad que el cliente está dispuesto a gastar en esta línea de pedido. | Este valor se transfiere al campo correspondiente de la oferta cuando crea una oferta a partir de esta oportunidad. |
 | Método de facturación | Pestaña General | Este campo editable tiene los siguientes valores:</br>- Tiempo y material</br>- Precio fijo | Este valor se transfiere al campo correspondiente de la oferta cuando crea una oferta a partir de esta oportunidad. Una vez creada la línea de oferta, el campo se bloquea y no se puede cambiar. Asigne este valor de campo con la mayor precisión posible. Si necesita cambiar el valor de este campo en la línea de oferta, elimine y vuelva a crear la línea de oferta. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

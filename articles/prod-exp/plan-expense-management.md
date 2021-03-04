@@ -160,3 +160,6 @@ Al crear directivas de informes de gastos, puede ayudar a su organización a aho
 - ¿Cuándo vence la directiva?
 - ¿Qué es la regla de la directiva?
 - ¿Cuál es el resultado de la regla de la directiva?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -131,3 +131,6 @@ Para una línea de oferta de precio fijo, puede utilizar la cuadrícula **Progra
 - Para crear hitos de facturación divididos por igual, seleccione una frecuencia de facturación, escriba la fecha de inicio de facturación en la línea de oferta y seleccione **Fecha de finalización solicitada** para la oferta en la sección **Resumen** del encabezado de la oferta. A continuación seleccione **Generar hitos periódicos** para crear hitos divididos por igual según la frecuencia de factura seleccionada. 
 - Para crear un hito de facturación de suma total, cree un hito y después introduzca el valor de línea de oferta como importe de hito.
 - Para crear hitos de facturación basados en tareas específicas en el plan de proyecto, cree un hito y asígnelo al elemento de programación del proyecto en la interfaz de usuario del hito de facturación.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

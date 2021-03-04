@@ -48,3 +48,6 @@ En la siguiente tabla se definen los conceptos clave que se usan en la aplicaci�
 | Perfil                    | Tareas, requisitos u horas de asignación, ya que se dividen en una distribución diaria. Por ejemplo, para una tarea de cinco días y 40 horas se puede establecer un perfil de ocho horas al día durante cinco días. |
 | Vista de conciliación        | Una vista que muestra las reservas y asignaciones para cada miembro del equipo del proyecto. Esta vista permite al jefe de proyecto buscar cualquier desajuste entre las reservas y las asignaciones, y tomar medidas correctivas si hay alguno. |
 | Horas laborables                 | Una entidad que se utiliza para identificar la capacidad de los recursos y las horas laborables y no laborables. Esta entidad también se conoce como "calendario de recursos". |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

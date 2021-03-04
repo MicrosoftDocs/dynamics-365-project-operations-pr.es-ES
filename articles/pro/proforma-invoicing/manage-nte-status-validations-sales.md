@@ -73,3 +73,6 @@ Puede realizar una reevaluación masiva del estado de no exceder. La reevaluaci�
 Para reevaluar el estado de no exceder, seleccione uno o más datos reales de la vista **Backlog de facturación de tiempo y material** o **Reales** y luego seleccione **Reevaluar estado de no exceder**.
 
 Todos los datos reales seleccionados relevantes con un límite que no debe excederse se evaluarán contra la configuración del límite que no debe exceder. Los datos reales que son relevantes para la reevaluación del estado de no exceder son los datos reales de ventas no facturados que aún no se han facturado, no están en un borrador de factura y están marcados como cargables. Cualquier otro valor real seleccionado seleccionado.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

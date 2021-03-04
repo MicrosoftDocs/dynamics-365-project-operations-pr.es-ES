@@ -82,3 +82,6 @@ Las propiedades **Número de usuarios** y **Número de meses** se pueden marcar 
 
 > ![Marcado de Número de usuarios y Número de meses como factores de calidad](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

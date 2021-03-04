@@ -45,3 +45,6 @@ Para crear factores de cantidad a partir de las propiedades del producto, siga e
 6. Guardar y cerrar el formulario. Repita estos pasos para todas las propiedades que se utilizarán para calcular la cantidad de la línea de oferta basada en el producto.
 
 Cuando crea una línea de oferta basada en productos para un producto, la cantidad de la línea de oferta se bloqueará. La cantidad se calculará como un producto de los valores de propiedad que introduzca para esa línea de oferta.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

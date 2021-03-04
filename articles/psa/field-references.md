@@ -150,3 +150,6 @@ La tabla siguiente proporciona una lista completa de los formularios y las vista
 |  Real|• Información<br>• Datos reales activos|• Vista asociada de datos reales|
 
 Es posible que también tenga que agregar los campos personalizados a las reglas de negocio en función de lo que definió. Un ejemplo estándar es para la regla de negocio **Capacidad de edición de entradas de tiempo según estado**. Esta regla define los campos que se deben bloquear cuando la Entrada de tiempo tiene un estado no editable como, por ejemplo, **Aprobado**. Agregue los campos a esta regla de negocio para que los campos se bloqueen y no se puedan editar cuando la Entrada de tiempo tenga un estado distinto de **Borrador** o **Devuelto**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

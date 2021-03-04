@@ -48,3 +48,6 @@ Las habilidades para los recursos se clasifican según los modelos de competenci
 > ![Calificaciones mínimas y máximas definidas](media/Resource-Management-image85.png)
 
 Estos valores de calificación se muestran en los filtros **Requisitos de recursos**, **Tablero de programación** y **Asistente de programación**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

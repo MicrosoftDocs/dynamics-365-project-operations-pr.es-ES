@@ -35,3 +35,6 @@ Para que un trabajador pueda crear y enviar gastos de empresas vinculadas, hay q
 
 Para poder utilizar grupos de impuestos asociados con la entidad jurídica prestamista (origen) en lugar de la entidad jurídica prestataria (destino) en un informe de gastos, hay que habilitar la funcionalidad en la configuración de impuestos sobre las ventas de la contabilidad general. Si el parámetro **Entidad jurídica para registrar impuestos de empresas vinculadas** está establecido en **Origen** y el campo **Aplicar reglas de tributación de impuestos** está establecido en **No**, se utilizará la combinación de impuestos para la entidad jurídica prestamista. Cuando el mismo parámetro se establece en **Destino**, se utilizará la combinación de impuestos para la entidad jurídica prestataria. Para las entidades legales en los Estados Unidos, cuando el parámetro se establece en **Origen**, el campo **Impuesto sobre las ventas por cobrar** también debe configurarse en la nueva página **Grupos de contabilización del libro mayor**. El motor de contabilidad utilizará la información de este campo para la entrada contable relacionada con los impuestos.   
 El comportamiento es consistente para las líneas de gastos contabilizadas con o sin un proyecto.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

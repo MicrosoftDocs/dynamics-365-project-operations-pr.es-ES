@@ -55,3 +55,6 @@ Los siguientes temas proporcionan información sobre las tareas que deben comple
 - [Rendimiento de la programación de recursos del proyecto](project-scheduling-performance.md)
 - [Configurar roles en plantillas de estructura de descomposición del trabajo](set-up-roles-wbs-template.md)
 - [Ejecución de recursos para recursos planificados](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

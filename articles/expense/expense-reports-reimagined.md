@@ -78,3 +78,6 @@ Las siguientes funciones están presentes en la página existente, pero aún no 
 - Flujo de trabajo a nivel de línea
 - Soporte de aprobador interino
 - Desglose avanzado
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

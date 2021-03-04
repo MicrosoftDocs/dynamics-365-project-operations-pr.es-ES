@@ -63,3 +63,6 @@ En este tema se muestran las características y correcciones que son nuevas o qu
   - Corregido: Ya no aparece un mensaje de error en **Búsqueda de proyectos** en el formulario **Línea de oferta** cuando hay más de 1000 proyectos.
   - Corregido: La cuadrícula **Estimaciones** para estimaciones de mano de obra y estimaciones de gastos ahora muestra el símbolo de moneda correcto.
   - Corregido: Después de que una organización actualice PSA de la versión de actualización 14 a la versión de actualización 15, la pestaña **Programación** ya no aparece en blanco en el formulario **Proyecto**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

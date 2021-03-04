@@ -42,3 +42,6 @@ Puede usar el cuadro de búsqueda de **Selector de recursos** para buscar todos 
 1. Desde la cuadrícula de tareas, el panel o la escala de tiempo, navegue hasta la celda **Asignado a**.
 2. En el cuadro de búsqueda, comience a escribir un nombre. Los resultados de búsqueda del nombre se muestran en el **Selector de recursos** en **Otros recursos**.
 3. Seleccione el recurso que desea asignar a la tarea o seleccione el nombre del recurso en **Otros recursos del equipo**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

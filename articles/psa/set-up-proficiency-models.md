@@ -53,3 +53,6 @@ Ahora que ha agregado los conocimientos para los proyectos de sus clientes, nece
   
 ### <a name="see-also"></a>Vea también  
  [Configuración de recursos](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

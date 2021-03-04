@@ -57,3 +57,6 @@ Los siguientes KPI están disponibles en la pestaña **Rendimiento del contrato*
 | Coste incurrido | Líneas basadas en productos | La suma de todos los costos reales registrados para la línea de contrato basada en productos. |
 | Margen bruto | Líneas basadas en proyectos | Monto facturado: coste incurrido hasta la fecha / monto facturado |
 | Margen previsto | Líneas basadas en productos | (Valor de la línea del contrato - Costes estimados de la línea del contrato) / Valor de la línea del contrato |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

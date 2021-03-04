@@ -67,3 +67,6 @@ Se han solucionado los siguientes problemas:
 Se han solucionado los siguientes problemas:
 
 - Hacer doble clic en **Capturar todas las categorías de transacciones** crea varias líneas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

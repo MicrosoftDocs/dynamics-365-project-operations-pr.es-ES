@@ -57,3 +57,6 @@ Si no hay ninguna fila en la cuadrícula de precios de rol para las dimensiones 
 
 Si aún no ve un precio válido en tiempo real de ventas después de seguir las tres comprobaciones anteriores, registre un vale de soporte. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -34,3 +34,6 @@ La siguiente tabla incluye los campos de una oportunidad basada en proyectos que
 | Unidad de contratación | Pestaña General | La unidad organizativa responsable de la entrega del proyecto o los proyectos asociados a esta oferta. | La unidad de contratación es la división de la empresa que completará el proyecto o los proyectos una vez cerrada la oferta. Cada unidad de contratación tiene una moneda, y esta moneda se utiliza para informar los costes estimados y reales incurridos durante el proyecto. |
 
 Para todos los demás campos y secciones de la pestaña **Resumen** de la oportunidad, consulte [Crear o editar oportunidades (Ventas y Centro de ventas)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

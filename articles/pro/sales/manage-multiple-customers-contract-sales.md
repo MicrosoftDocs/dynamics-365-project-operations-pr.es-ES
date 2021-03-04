@@ -52,3 +52,6 @@ Un cliente por contrato puede crearse, actualizarse o eliminarse de la pestaña 
 Los porcentajes de división de facturación se pueden editar con la experiencia de edición de cuadrícula en línea. Cuando los porcentajes de división de facturación no suman el 100 por ciento, recibirá un error. Después de editar los porcentajes de división de facturación, actualice la página para omitir el error.
 
 También puede seleccionar **Distribuir uniformemente** sobre la subcuadrícula **Clientes contractuales** para asignar las divisiones de facturación de manera uniforme a todos los clientes del contrato. Si hay un factor de redondeo, se agregará al cliente de redondeo. Uno de los clientes del contrato siempre se etiqueta como el cliente de **redondeo**, lo que significa que el registro del cliente del contrato tiene el indicador de redondeo establecido en **Sí**. Normalmente, este es el cliente principal del contrato, pero también se puede cambiar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

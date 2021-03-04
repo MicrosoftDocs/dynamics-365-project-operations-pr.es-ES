@@ -20,3 +20,6 @@ ms.locfileid: "4514592"
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
 Puede utilizar la funcionalidad proporcionada en Dynamics 365 Field Service para definir los roles en su entorno de Dynamics 365 Project Operations. Para completar esta configuración, consulte [Configurar categorías de recursos que se pueden reservar](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

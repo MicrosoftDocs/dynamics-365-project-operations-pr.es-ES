@@ -44,3 +44,6 @@ Esta guía de tareas le muestra cómo ajustar una transacción en un proyecto. S
 13. En la lista, marque la fila seleccionada. 
 14. En el campo Precio de coste, introduzca un número. 
 15. Haga clic en Registrar. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

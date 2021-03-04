@@ -47,3 +47,6 @@ Mientras agregaba roles de recursos, probablemente ya les asoció algunas cualif
   
 ### <a name="see-also"></a>Vea también  
  [Configuración de recursos](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Cuando copie entre líneas de estimación de proyecto, se actualizarán las list
 ### <a name="copying-a-project-team"></a>Copia de un equipo de proyecto
 
 Cuando se copia un equipo de proyecto de una plantilla de proyecto a un proyecto, se copian los recursos genéricos, junto con las habilidades y competencias que se definen en la plantilla. Las asignaciones de recursos genéricos también se mantienen como si estuvieran en la plantilla de proyecto. Los recursos con nombre no son compatibles con las plantillas de proyecto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

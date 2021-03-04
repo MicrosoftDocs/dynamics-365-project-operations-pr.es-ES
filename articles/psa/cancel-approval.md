@@ -62,3 +62,6 @@ El proyecto también se ve afectado desde el punto de vista financiero cuando se
 A continuación, se crean movimientos de retrocesión en la tabla Datos reales. Para crear entradas de retrocesión, el sistema copia los valores de campo desde los datos reales originales. Los únicos valores que no se copian son los valores de cantidad. En su lugar, estos valores se revierten. A continuación, se crean datos reales revertidos para los datos reales **Coste** y **Ventas sin facturar**. El campo **Estado del ajuste** de los datos reales revertidos se establece en **No ajustable** y el estado de facturación se establece en **Cancelado**.
 
 Tras realizar estos cambios, el importe que se registra como gasto en el proyecto y la acumulación de ingresos del proyecto dejarán de representar los importes que representan esos datos reales.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

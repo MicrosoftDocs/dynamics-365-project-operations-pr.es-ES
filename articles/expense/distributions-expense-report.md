@@ -30,3 +30,6 @@ Debido a que Nancy trabajó en dos proyectos separados mientras estaba en Frankf
 | Tarifas ferroviarias   | DKK 578              | DKK 405                         | DKK 173                         |
 | Hotel        | 725 EUR              | 557 EUR                         | 168 EUR                         |
 | Comidas        | 346 EUR              | 284 EUR                         | 62 EUR                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

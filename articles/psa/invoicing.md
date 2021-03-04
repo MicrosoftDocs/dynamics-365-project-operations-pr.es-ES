@@ -117,3 +117,6 @@ Cuando se confirma una factura correctiva, el dato real de ventas facturadas ori
 
 - Un dato real de ventas facturadas por seis horas.
 - Un dato real de ventas sin facturar por las dos horas restantes. Esta transacción se puede facturar más adelante o se puede marcar como no imputable, en función de las negociaciones con el cliente.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

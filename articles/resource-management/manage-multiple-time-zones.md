@@ -68,3 +68,6 @@ Una vez que se ha utilizado la funcionalidad de extensión de reserva para cada 
 Observe que una mirada más detallada a los detalles de las reservas muestra diferencias en la hora de inicio de las reservas. Las reservas no comienzan antes de la hora de inicio del contorno de asignación ni antes de la hora de inicio disponible del recurso.
 
 ![Nuevas reservas de los recursos en el tablero de programación](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

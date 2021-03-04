@@ -149,3 +149,6 @@ De forma predeterminada, si una tarea de nodo hoja no tiene predecesores, su fec
 ### <a name="manual-scheduling"></a>Programación manual
 
 Si las reglas de la programación automática no cumplen con sus requisitos, puede establecer el modo de tarea para la tarea en **Programada manualmente**. Esta configuración impide que el motor de programación calcule los valores de otros atributos de programación. Independientemente del modo de tarea, si establece predecesores en las tareas, siempre afecta la fecha de inicio de la tarea dependiente.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

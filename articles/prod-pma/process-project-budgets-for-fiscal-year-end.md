@@ -98,3 +98,6 @@ Cuando procesa los importes restantes del presupuesto, puede crear transacciones
 5. Para cada proyecto que desee procesar, seleccione la opción al principio de la línea del proyecto. 
 6. Seleccione **Proceso** para transferir los importes restantes del presupuesto de los proyectos seleccionados al año fiscal seleccionado.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

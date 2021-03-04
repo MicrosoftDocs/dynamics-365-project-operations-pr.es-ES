@@ -120,3 +120,6 @@ Al igual que los índices de facturación, los índices de costes de recursos hu
     1. Lista de precios de coste adjunta a la unidad organizativa.
     2. La lista de precios de coste se adjunta a los parámetros de Project Operations. Puesto que las listas de precios de coste en diferentes divisas se pueden adjuntar a los parámetros, se completan coincidencias de divisa entre la divisa de la unidad organizativa de contratación del proyecto, el contrato o la oferta, y la divisa de la lista de precios de coste.
     3. Para los gastos, los métodos de cálculo de precios De coste e Incremento por encima del coste no se aplican a las listas de precios de coste. Aunque se utilicen estos métodos de cálculo de precios en las líneas de la lista de precios de coste para configurar los costes de categorías de transacciones, el sistema los omite y no se especifica ningún precio de coste predeterminado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

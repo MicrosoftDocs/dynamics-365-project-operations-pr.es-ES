@@ -46,3 +46,6 @@ Cuando una línea de oferta se basa en un catálogo de productos, puede reemplaz
 Si selecciona **Anular precios**, el precio predeterminado no está establecido. En su lugar, debe escribir un precio para el producto en la línea de oferta. Si selecciona **Uso por defecto**, se utiliza el precio de venta predeterminado y el campo se bloquea para su edición.
 
 Los precios de venta predeterminados se introducen en las líneas basadas en productos de una oferta. El campo **Precios** se establece en **Reemplazar precios** para que pueda editar el precio predeterminado en las líneas de oferta. Se trata de una invalidación específica de Project Operations para el comportamiento de las líneas basadas en productos en Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

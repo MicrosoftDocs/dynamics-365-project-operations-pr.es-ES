@@ -94,3 +94,6 @@ Actualmente, es compatible con Estados Unidos.
 Finance se pondrá en contacto con Cognitive Services para extraer los datos de campo. Cognitive Services conservará una copia de su recibo durante un máximo de 24 horas mientras se procesa. Una vez completado el procesamiento, Cognitive Services eliminará el recibo. Los recibos seguirán almacenándose en Finance.
 
 Para obtener más información, consulte [Habilitar el reconocimiento de recibos con la nueva capacidad de Form Recognizer](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

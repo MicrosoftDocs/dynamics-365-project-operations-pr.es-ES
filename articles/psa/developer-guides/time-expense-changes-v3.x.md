@@ -32,3 +32,6 @@ En la versión 3.0 de Dynamics 365 Project Service Automation, se han actualizad
 Anteriormente, las vistas de calendario y cuadrícula para Tiempo y Gastos se implementaron como controles DHTMLX. Los artefactos relacionados con esa implementación de las vistas de calendario y cuadrícula ahora están obsoletos (en desuso).
 
 Para obtener la lista completa de recursos en desuso, consulte [Recursos web en desuso en Project Service Automation 3.x](web-resources-deprecated-v3.x.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

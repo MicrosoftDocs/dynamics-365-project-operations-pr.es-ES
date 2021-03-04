@@ -45,3 +45,6 @@ Con las características de [!INCLUDE[pn_project_service_auto](../includes/pn-pr
   
 ### <a name="see-also"></a>Vea también  
  [Guía del jefe de proyecto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

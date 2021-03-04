@@ -42,3 +42,6 @@ El calendario no admite acciones en elementos de calendario individuales, y no p
 ## <a name="extensibility"></a>Extensibilidad
 
 En la página **Entradas de tiempo** que tiene la cuadrícula de entrada de tiempo, puede agregar campos personalizados, configurar campos de búsqueda y crear vistas personalizadas. También puede configurar una lógica empresarial personalizada que se base en los valores seleccionados o introducidos en los campos personalizados.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

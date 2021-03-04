@@ -113,3 +113,6 @@ Cuando la entidad jurídica prestamista, USSI, registra la factura del cliente d
 Para más información, vea [Configurar la facturación de proyectos de empresas vinculadas](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ La siguiente información no se copia del **Origen** al **Contrato de destino**:
   - Información del presupuesto del cliente
 
 Debido a que esta información es muy específica para cada contrato, estos campos y registros no se copian. Se copian las líneas de contrato para proyectos y productos, las estimaciones sobre los detalles de la línea de contrato y los valores que no deben excederse a nivel de contrato. Los valores predeterminados de precio y tasa de coste dependen de la selección en el campo **Copiar precios** en la página de diálogo **Copiar parámetros**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

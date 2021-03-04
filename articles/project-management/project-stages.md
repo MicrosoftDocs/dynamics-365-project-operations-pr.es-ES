@@ -63,3 +63,6 @@ Cuando se completa el trabajo para el proyecto, el administrador del proyecto pu
 
 Cuando se registran todas las transacciones para el proyecto, el administrador del proyecto puede actualizar la fase a **Cerrar**. A partir de ese momento, no se podrán registrar transacciones y el proyecto quedará configurado como de solo lectura.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

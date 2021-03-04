@@ -112,3 +112,6 @@ El ejemplo siguiente muestra cómo se llama a la acción personalizada **CopyPro
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

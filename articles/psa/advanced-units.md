@@ -112,3 +112,6 @@ Núm. Actualmente, la estimación de programación solo se puede hacer en horas 
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>¿Es posible editar, eliminar y agregar las unidades y las unidades de venta?
 Sí. A excepción de la unidad de venta **Tiempo** y la unidad **Hora**, todas las unidades se pueden eliminar o editar y también es posible agregar nuevas unidades. En PSA, la unidad de venta **Tiempo** y la unidad **Hora** no pueden eliminarse. Sin embargo, se pueden actualizar con un texto traducido para el campo **Nombre**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

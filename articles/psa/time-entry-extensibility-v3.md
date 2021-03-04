@@ -132,3 +132,6 @@ Debe usar validaciones de complementos para cualquier validación que requiera m
 
 > [!IMPORTANT] 
 > Actualmente, una incidencia conocida en las páginas TBX impide que los usuarios corrijan la información y vuelvan a seleccionar Listo cuando se produce un error en la actualización de la validación de un complemento. Como solución alternativa, configure validaciones de reglas de negocio para evitar esta situación en medida de lo posible.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
