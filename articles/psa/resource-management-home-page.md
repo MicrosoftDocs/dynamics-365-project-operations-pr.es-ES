@@ -18,24 +18,26 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f4289d838c087f81e221ef736cd8ff24846009fa
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 47d8fcc8b648921df43b9c03999ed27d85823a98
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124164"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147584"
 ---
-# <a name="resource-management-home-page"></a><span data-ttu-id="77515-103">Página principal de administración de recursos</span><span class="sxs-lookup"><span data-stu-id="77515-103">Resource management home page</span></span>
+# <a name="resource-management-home-page"></a><span data-ttu-id="664c9-103">Página principal de administración de recursos</span><span class="sxs-lookup"><span data-stu-id="664c9-103">Resource management home page</span></span>
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="77515-104">Los recursos son el activo más importante de una organización basada en servicios.</span><span class="sxs-lookup"><span data-stu-id="77515-104">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="77515-105">La capacidad para buscar y reservar los recursos correctos cuando los necesite y que se sigan utilizando uso ayuda a la organización a cumplir los objetivos de ingresos y de satisfacción del cliente.</span><span class="sxs-lookup"><span data-stu-id="77515-105">The ability to find and book the correct resources when you need them, and to keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="77515-106">Los siguientes temas se centran en las capacidades de administración de recursos de Dynamics 365 Project Service Automation:</span><span class="sxs-lookup"><span data-stu-id="77515-106">The following topics are focused on teh resource management capabilities of Dynamics 365 Project Service Automation:</span></span>
+<span data-ttu-id="664c9-104">Los recursos son el activo más importante de una organización basada en servicios.</span><span class="sxs-lookup"><span data-stu-id="664c9-104">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="664c9-105">La capacidad para buscar y reservar los recursos correctos cuando los necesite y que se sigan utilizando uso ayuda a la organización a cumplir los objetivos de ingresos y de satisfacción del cliente.</span><span class="sxs-lookup"><span data-stu-id="664c9-105">The ability to find and book the correct resources when you need them, and to keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="664c9-106">Los siguientes temas se centran en las capacidades de administración de recursos de Dynamics 365 Project Service Automation:</span><span class="sxs-lookup"><span data-stu-id="664c9-106">The following topics are focused on teh resource management capabilities of Dynamics 365 Project Service Automation:</span></span>
 
-- [<span data-ttu-id="77515-107">Administración de recursos</span><span class="sxs-lookup"><span data-stu-id="77515-107">Manage resources</span></span>](manage-resources.md)
-- [<span data-ttu-id="77515-108">Conceptos clave</span><span class="sxs-lookup"><span data-stu-id="77515-108">Key concepts</span></span>](reports-key-concepts.md)
-- [<span data-ttu-id="77515-109">Cumplimiento de solicitudes de recursos</span><span class="sxs-lookup"><span data-stu-id="77515-109">Fulfilling resource requests</span></span>](resource-management-fulfill-requests.md)
-- [<span data-ttu-id="77515-110">Propuesta de recursos</span><span class="sxs-lookup"><span data-stu-id="77515-110">Proposing resources</span></span>](resource-management-propose-resources.md)
-- [<span data-ttu-id="77515-111">Reserva de recursos</span><span class="sxs-lookup"><span data-stu-id="77515-111">Booking resources</span></span>](resource-management-book-resources-scheduleboard.md)
-- [<span data-ttu-id="77515-112">Requisitos de reservas automáticas</span><span class="sxs-lookup"><span data-stu-id="77515-112">Soft-book requirements</span></span>](resource-management-softbook-requirements.md)
-- [<span data-ttu-id="77515-113">Modelos de habilidades y competencia</span><span class="sxs-lookup"><span data-stu-id="77515-113">Skills and proficiency models</span></span>](resource-management-skills-proficiency.md)
-- [<span data-ttu-id="77515-114">P+F de administración de recursos</span><span class="sxs-lookup"><span data-stu-id="77515-114">Resource management FAQ</span></span>](resource-management-faq.md)
+- [<span data-ttu-id="664c9-107">Administración de recursos</span><span class="sxs-lookup"><span data-stu-id="664c9-107">Manage resources</span></span>](manage-resources.md)
+- [<span data-ttu-id="664c9-108">Conceptos clave</span><span class="sxs-lookup"><span data-stu-id="664c9-108">Key concepts</span></span>](reports-key-concepts.md)
+- [<span data-ttu-id="664c9-109">Cumplimiento de solicitudes de recursos</span><span class="sxs-lookup"><span data-stu-id="664c9-109">Fulfilling resource requests</span></span>](resource-management-fulfill-requests.md)
+- [<span data-ttu-id="664c9-110">Propuesta de recursos</span><span class="sxs-lookup"><span data-stu-id="664c9-110">Proposing resources</span></span>](resource-management-propose-resources.md)
+- [<span data-ttu-id="664c9-111">Reserva de recursos</span><span class="sxs-lookup"><span data-stu-id="664c9-111">Booking resources</span></span>](resource-management-book-resources-scheduleboard.md)
+- [<span data-ttu-id="664c9-112">Requisitos de reservas automáticas</span><span class="sxs-lookup"><span data-stu-id="664c9-112">Soft-book requirements</span></span>](resource-management-softbook-requirements.md)
+- [<span data-ttu-id="664c9-113">Modelos de habilidades y competencia</span><span class="sxs-lookup"><span data-stu-id="664c9-113">Skills and proficiency models</span></span>](resource-management-skills-proficiency.md)
+- [<span data-ttu-id="664c9-114">P+F de administración de recursos</span><span class="sxs-lookup"><span data-stu-id="664c9-114">Resource management FAQ</span></span>](resource-management-faq.md)
