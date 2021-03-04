@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a5c643745d8e10887965228da7abd8f56228006
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085247"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145019"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Utilizar un recurso que se puede reservar como dimensión de precios
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 En este tema se proporciona información sobre el uso de un recurso que se puede reservar como dimensión de precios. Antes de comenzar, si aún no ha creado una solución de dimensión de precios, deberá crear una nueva. Si ya tiene una solución de dimensión de precios, puede realizar los cambios en esa solución. Si no ha creado una nueva solución de dimensión de precios para su organización, complete los procedimientos en el tema [Creación de campos y entidades](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Agregar un recurso que se puede reservar a formularios y vistas
@@ -48,18 +51,18 @@ Abra el Explorador de soluciones de la solución de dimensión de precios y desp
 
 ## <a name="set-up-bookable-resource-as-a-pricing-dimension"></a>Configurar un recurso que se puede reservar como dimensión de precios
 
-1. En la interfaz web, vaya a **Project Service** > **Configuración** > **Parámetros**. En la página **Parámetro** , en la pestaña **Dimensiones de precios basadas en el importe** , observe que la cuadrícula de la pestaña muestra los registros en la entidad de dimensiones de precios. 
+1. En la interfaz web, vaya a **Project Service** > **Configuración** > **Parámetros**. En la página **Parámetro**, en la pestaña **Dimensiones de precios basadas en el importe**, observe que la cuadrícula de la pestaña muestra los registros en la entidad de dimensiones de precios. 
 2. Agregue el **Recurso que se puede reservar** a la lista de dimensiones de precios como **msdyn_bookableresource**. 
 3. Indique el contexto en el que el recurso que se puede reservar se usa como dimensión de precios y establezca los valores **Aplicable a costes** y valores **Aplicable a ventas**.
-4. En el campo **Tipo de dimensión** , seleccione **Basado en el importe**. 
-5. Seleccione el coste y la prioridad de ventas para el recurso que se puede reservar. Normalmente, cuando se incluye como dimensión de precios, un recurso que se puede reservar tiene la máxima prioridad. De este modo, si establece este valor en **1** (o **0** , en función de cómo se cuenta la prioridad), se asegurará de obtener este comportamiento.
+4. En el campo **Tipo de dimensión**, seleccione **Basado en el importe**. 
+5. Seleccione el coste y la prioridad de ventas para el recurso que se puede reservar. Normalmente, cuando se incluye como dimensión de precios, un recurso que se puede reservar tiene la máxima prioridad. De este modo, si establece este valor en **1** (o **0**, en función de cómo se cuenta la prioridad), se asegurará de obtener este comportamiento.
 
 ## <a name="set-up-pricing-dimension-field-names"></a>Configurar nombres de campo de dimensión de precios
 
 Cuando el nombre del campo de una dimensión de precios de la tabla **Precio de rol** es distinto del nombre de campo de cualquiera de las demás entidades en las que debe funcionar el establecimiento del precio predeterminado, el registro de la dimensión de cálculo de precios debe estar al tanto de los distintos nombres.    
-Para los recursos que se pueden reservar, la entidad **Miembros del equipo del proyecto** tiene un nombre de campo un poco diferente ( **msdyn_bookableresourceid** ) del de la entidad **Precio de rol** ( **msdyn_bookableresource** ). El registro de la dimensión de precios para **msydn_bookableresource** debe estar al tanto de ello. 
+Para los recursos que se pueden reservar, la entidad **Miembros del equipo del proyecto** tiene un nombre de campo un poco diferente (**msdyn_bookableresourceid**) del de la entidad **Precio de rol** (**msdyn_bookableresource**). El registro de la dimensión de precios para **msydn_bookableresource** debe estar al tanto de ello. 
 1. Para ello, haga doble clic en la fila de la cuadrícula **Dimensiones de precios** para abrir la página de la dimensión de **msdyn_bookableresource**.
-2. En la página de la dimensión, en la pestaña **Relacionado** , haga clic en **Nombres de campos de la dimensión de precios**.
+2. En la página de la dimensión, en la pestaña **Relacionado**, haga clic en **Nombres de campos de la dimensión de precios**.
 
  ![Pestaña de nombres de campo de la dimensión de precios](media/PD-fieldname.png)
 

@@ -3,6 +3,7 @@ title: Habilitar las características de la aplicación Project Finder Mobile
 description: Cómo habilitar las características de la aplicación Project Finder Mobile para Project Service
 author: JohnPBurrows
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,22 +19,24 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af267b5adc48b6edec57de196f91e338c058558c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132984"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144569"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Habilitar las características de la aplicación Project Finder Mobile (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Sus recursos pueden utilizar la aplicación Project Finder Mobile en su teléfono con [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] para buscar nuevos proyectos para trabajar y actualizar sus conjuntos de habilidades.  
+Sus recursos pueden utilizar la aplicación Project Finder Mobile en el teléfono con [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] para buscar nuevos proyectos en los que trabajar y actualizar sus conjuntos de aptitudes.  
   
  La aplicación está disponible para teléfonos [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)], [!INCLUDE[tn_android](../includes/tn-android.md)] y [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)].  
-  
- Debe configurar un par de opciones en los parámetros de su unidad organizativa para permitir que los usuarios vean los requisitos de recursos de los proyectos y actualicen sus cualificaciones.  
+    
+ Para permitir que los usuarios vean los requisitos de los recursos de proyecto y actualicen sus aptitudes hay que seleccionar opciones en la configuración de parámetros de la unidad organizativa.
   
 > [!NOTE]
 >  La aplicación Project Finder Mobile funciona únicamente con [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], no con instalaciones locales.  
@@ -57,8 +60,8 @@ Sus recursos pueden utilizar la aplicación Project Finder Mobile en su teléfon
   
 |Destinatario|Evento|  
 |---------------|-----------|  
-|Jefe de proyecto|-   Cuando un recurso se suscribe a un proyecto con la aplicación Project Finder Mobile.|  
-|Recurso|- Cuando el trabajo del proyecto que el recurso se ha registrado ya ha sido cumplido por otro recurso.<br />- Cuando se haya aprobado o rechazado su solicitud de aprobación de habilidad.<br />- Cuando se haya aprobado o rechazado su solicitud de suscripción al proyecto.|  
+|Director del proyecto|- Un recurso se suscribe a un proyecto con la aplicación Project Finder Mobile.|  
+|Recurso|- El trabajo del proyecto al que se ha suscrito el recurso ya lo ha realizado otro recurso.<br />- Se ha aprobado o rechazado la solicitud de aprobación de aptitud.<br />- Se ha aprobado o rechazado la solicitud de suscripción al proyecto.|  
   
 ## <a name="privacy-notice"></a>Aviso de privacidad  
  [!INCLUDE[cc_privacy_crm_project_finder_mobile_app](../includes/cc-privacy-crm-project-finder-mobile-app.md)]  

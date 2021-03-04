@@ -17,20 +17,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3e437fce5b9f1fb330a713788e24100a4fe02948
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085157"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144660"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Crear soluciones personalizadas para las dimensiones de precios
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!IMPORTANT]
 > Todos los cambios de dimensiones de precios personalizadas deben realizarse en una solución independiente. Esta importante práctica recomendada proporciona flexibilidad en el futuro para actualizar o quitar cambios según sea necesario. Esto le ayudará a reutilizar su trabajo y le facilitará el llevar estos cambios a otras instancias. Tras realizar los cambios necesarios, exporte esta solución como **Solución administrada** e impórtela en otras instancias para volver a utilizar la configuración de cálculo de precios.
 
 1. Seleccione **Configuración** > **Soluciones** y luego seleccione **Nuevo**. 
-2. Asigne un nombre a la solución, **dimensiones de precios de \<your organization name>** , especifique la información restante necesaria y después seleccione **Guardar**.
+2. Asigne un nombre a la solución, **dimensiones de precios de \<your organization name>**, especifique la información restante necesaria y después seleccione **Guardar**.
 
 > ![Creación de una solución personalizada para las dimensiones de precios](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
@@ -39,7 +41,7 @@ Deberá agregar las siguientes entidades de Project Service a su solución de c�
 
 1. Seleccione **Configuración** > **Soluciones** y luego haga doble clic en **dimensiones de precios de \<your organization name>**. 
 2. En el Explorador de soluciones, en el panel de navegación izquierdo, seleccione **Agregar existente** > **Entidades**.
-3. En el cuadro de diálogo **Componentes de la solución** , seleccione las siguientes entidades:
+3. En el cuadro de diálogo **Componentes de la solución**, seleccione las siguientes entidades:
 
 - Real
 - Recurso que se puede reservar
