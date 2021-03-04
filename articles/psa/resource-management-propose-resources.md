@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1fcb8d1d40286cf5cbb23338f93b072ae5bed70d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0a3eaa9929770c91523831d92744d5084aa28cb8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120204"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147539"
 ---
 # <a name="propose-project-resources"></a>Propuesta de recursos de proyecto
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Los administradores de recursos pueden proponer un recurso al administrador del proyecto mediante una solicitud de recurso.
 
@@ -52,10 +54,10 @@ El jefe de proyecto puede aceptar o rechazar la propuesta.
 
 Cuando los administradores de recursos procesan las solicitudes de recursos, pueden usar cualquiera de los siguientes enfoques:
 
-- Proponer varios recursos para satisfacer la petición si no hay un solo recurso disponible para cumplir con las horas necesarias. Las horas propuestas se dividen entre varios recursos que pueden satisfacer las horas necesarias. En este escenario, las horas no pueden superponerse.
-- Proponer menos recursos de los necesarios. En este escenario, la capacidad de recursos propuesta es menor que las horas requeridas que especificó el solicitante. Por lo tanto, cuando el solicitante acepta los recursos propuestos, se crea un requisito de recurso no cumplido para capturar la petición restante.
-- Reservar varios recursos para satisfacer la petición si no hay un solo recurso disponible para completar el trabajo.
-- Reservar menos recursos de los necesarios. En este escenario, las horas reservadas son menos que las horas necesarias. El sistema le guía para proponer recursos en lugar de reservas, de modo que el solicitante pueda verificar y realizar un seguimiento de la petición restante.
+- Proponer múltiples recursos para satisfacer la demanda si no hay un solo recurso disponible para cubrir las horas requeridas. Las horas propuestas se dividen entre varios recursos que pueden satisfacer las horas necesarias. En este escenario, las horas no pueden superponerse.
+- Proponer menos recursos de los necesarios. En este escenario, la capacidad de recursos propuesta es menor que las horas requeridas que especificó el solicitante. Por lo tanto, cuando el solicitante acepta los recursos propuestos, se crea un requisito de recursos sin cumplir para capturar la demanda restante.
+- Reservar múltiples recursos para satisfacer la demanda si no hay un solo recurso disponible para completar el trabajo.
+- Reservar menos recursos de los necesarios. En este escenario, las horas reservadas son menos que las necesarias. El sistema le guía para proponer recursos en lugar de reservas, de modo que el solicitante pueda verificar y realizar un seguimiento de la petición restante.
 
 ## <a name="billable-utilization"></a>Uso facturable
 

@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca49c29f079f04dad127cfe56f262577ea8cc4a1
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6d62baf0d5a535d118df507edaba3059d44fd4d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124074"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147449"
 ---
 # <a name="resourcing-projects-home-page"></a>Página principal de proyectos de recursos
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -36,9 +38,9 @@ Los recursos son el activo más importante de una organización basada en servic
 - Generar requisitos de recursos para miembros del equipo genérico a partir de sus asignaciones de tareas.
 - Hacer coincidir las habilidades identificando las habilidades definidas en la petición de recursos con las habilidades de recursos disponibles.
 - Sustituir recursos.
-- Alinear las asignaciones de programación del proyecto y las reservas de recursos.
-- Conciliar las diferencias en reservas y asignaciones.
-- Cambiar las reservas de recursos en respuesta al estado de fuera de la oficina.
+- Alinear las asignaciones de la programación del proyecto y las reservas de recursos.
+- Conciliar las diferencias en las reservas y las asignaciones.
+- Cambiar las reservas de recursos como respuesta al estado de fuera de la oficina.
 - Colaborar entre jefes de proyecto y administradores de recursos.
 - Visualizar el historial de utilización de recursos frente a un objetivo, incluido un desglose de cómo se utilizó el tiempo de los recursos.
 - Mantener un repositorio de habilidades y competencia.

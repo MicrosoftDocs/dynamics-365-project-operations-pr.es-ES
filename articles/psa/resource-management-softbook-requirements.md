@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 09f7acb95be014034cc03d7eed9d37363d430601
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124119"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147405"
 ---
 # <a name="soft-book-requirements"></a>Requisitos de reservas automáticas
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Se puede realizar una reserva manual de un requisito de recurso. Una reserva manual crea una propuesta que consume la capacidad de un recurso. La propuesta se envía después al solicitante para su aprobación. Una reserva automática agrega provisionalmente un recurso a un equipo del proyecto y tiene un estado diferente en el tablero de programación, pero no consume la capacidad del recurso. Para realizar una reserva automática de un recurso desde el tablero de programación, establezca el campo **Estado de reserva** en **Automática**.
 
