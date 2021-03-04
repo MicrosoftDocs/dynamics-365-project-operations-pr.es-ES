@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 515a2e2e518614884b414ca43702e8bfea2c6919
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085189"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151319"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Página principal de dimensiones de precios y costes
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Las dimensiones utilizadas para establecer el precio y el coste de la mano de obra en organizaciones basadas en proyectos dependen de los siguientes atributos:
 
@@ -33,12 +35,12 @@ Las dimensiones utilizadas para establecer el precio y el coste de la mano de ob
 
 Dada la naturaleza típica de estos atributos del trabajo y las personas necesarias para realizar el trabajo, existen dos tipos de valores de dimensión de precios disponibles en Project Service Automation: 
 
-- **Conjuntos de opciones** : atributos que son enumeraciones fijas para un conjunto de valores.
-- **Valores basados en entidades** : atributos que pueden tener un conjunto variado de valores que son finitos pero que pueden cambiar con el tiempo.
+- **Conjuntos de opciones**: atributos que son enumeraciones fijas para un conjunto de valores.
+- **Valores basados en entidades**: atributos que pueden tener un conjunto variado de valores que son finitos pero que pueden cambiar con el tiempo.
 
 ## <a name="pricing-dimensions"></a>Dimensiones de precios
 
-PSA se envía con un conjunto predeterminado de dimensiones de precios. Puede verlos yendo a **Project Service** > **Parámetros**. En el registro de parámetros, en la pestaña **Dimensión de precios basados en importes** , verifique que el rol **msdyn_resourcecategory** y la unidad organizativa de recursos **msdyn_organizationalunit** tenga los campos **Aplicable a ventas** y **Aplicable a costes** establecido en **Sí**. Esto le permitirá configurar el precio y el coste de cada combinación de roles y unidades organizativas.
+PSA se envía con un conjunto predeterminado de dimensiones de precios. Puede verlos yendo a **Project Service** > **Parámetros**. En el registro de parámetros, en la pestaña **Dimensión de precios basados en importes**, verifique que el rol **msdyn_resourcecategory** y la unidad organizativa de recursos **msdyn_organizationalunit** tenga los campos **Aplicable a ventas** y **Aplicable a costes** establecido en **Sí**. Esto le permitirá configurar el precio y el coste de cada combinación de roles y unidades organizativas.
 
 ![Captura de pantalla de los parámetros Project Service con la opción "Aplicable a ventas" resaltada](media/PS-OOB-parameters.png)
 
@@ -55,7 +57,7 @@ Si necesita fijar el precio o el coste de sus recursos mediante atributos adicio
 ## <a name="pricing-human-resource-time"></a>Precios del tiempo de recursos humanos
 La forma en que una organización establece el precio para el tiempo de los recursos humanos es a menudo una consideración estratégica importante que afecta directamente la rentabilidad de la organización. Trabaje con los equipos de finanzas y los directores de práctica cuando su organización esté lista para identificar cómo quiere establecer las tarifas y los costes del tiempo de recursos humanos.
 
-Otras consideraciones para los precios incluyen si se deben reutilizar campos o entidades que actualmente no son dimensiones de precios, pero que se aplican como una dimensión de precios para su organización. Los campos como **Categoría de transacción** ( **msdyn_transactioncategory** ) y **Recurso que se puede reservar** ( **bookableresource** ) son ejemplos de dimensiones candidatas. 
+Otras consideraciones para los precios incluyen si se deben reutilizar campos o entidades que actualmente no son dimensiones de precios, pero que se aplican como una dimensión de precios para su organización. Los campos como **Categoría de transacción** (**msdyn_transactioncategory**) y **Recurso que se puede reservar** (**bookableresource**) son ejemplos de dimensiones candidatas. 
 
 Considere si su dimensión de precios debe ser una tabla o un conjunto de opciones. Si prevé cambios en los valores de una dimensión que supere 10 o 12 y necesita atributos adicionales en estos valores, cree una entidad en lugar de un conjunto de opciones. Mantener un conjunto de opciones, como agregar o eliminar valores, requiere un administrador o desarrollador, mientras que la mayoría de los usuarios profesionales pueden agregar nuevas filas a una tabla.
 

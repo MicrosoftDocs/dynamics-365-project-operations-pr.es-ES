@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0019571a1d37d3b6a503e7221db3c3b51365c236
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085232"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150779"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Uso de la categoría de transacción como una dimensión de precios
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 En este tema se muestra cómo usar una categoría de transacción como dimensión de precios. Antes de comenzar, si aún no ha creado una solución de dimensión de precios, deberá crear una nueva. Si ya tiene una solución de dimensión de precios, puede realizar los cambios en esa solución. Si no ha creado una nueva solución de dimensión de precios para su organización, complete los procedimientos en el tema [Creación de campos y entidades](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Adición de la categoría de transacciones para formularios y vistas
@@ -47,6 +50,6 @@ La tabla siguiente es una lista completa de los formularios y las vistas estánd
 ## <a name="set-up-transaction-category-as-a-pricing-dimension"></a>Configuración de la categoría de transacción como una dimensión de precios
 
 1. En la interfaz web, vaya a **Project Service** > **Configuración** > **Parámetros**. 
-2. En la página **Parámetros** , en la pestaña **Dimensiones de precios basadas en el importe** , observe que la cuadrícula de la pestaña muestra los registros en la entidad **Dimensiones de precios**.
+2. En la página **Parámetros**, en la pestaña **Dimensiones de precios basadas en el importe**, observe que la cuadrícula de la pestaña muestra los registros en la entidad **Dimensiones de precios**.
 3. Agregue **Categoría de transacciones** a esta lista y establezca los campos **Aplicable a costes** y **Aplicable a ventas** en **Sí**.
-4. En el campo **Tipo de dimensión** , seleccione **Basado en el importe** y, a continuación, seleccione la prioridad para **Categoría de transacción** relacionada con el coste y las ventas.
+4. En el campo **Tipo de dimensión**, seleccione **Basado en el importe** y, a continuación, seleccione la prioridad para **Categoría de transacción** relacionada con el coste y las ventas.
