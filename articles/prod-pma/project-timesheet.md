@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db035bfd555d724f80156d0b50df7c0d0bfaff27
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085321"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288850"
 ---
 # <a name="project-timesheet-mobile-application"></a>Aplicación móvil Project Timesheet
 
@@ -60,23 +60,23 @@ Si existe una hoja de horas para la fecha actual, se mostrará. Si necesita crea
 
 Puede especificar la información del proyecto haciendo clic en la acción **Agregar tiempo** o la acción **Copiar tiempo desde**. La acción **Copiar tiempo desde** copiará la información de la línea del proyecto, pero no las horas. El menú **Copiar tiempo desde** incluye las siguientes opciones:
 
-- **Copiar desde la hoja de horas existente** : copia las líneas de la hoja de horas de una hoja de horas existente.
+- **Copiar desde la hoja de horas existente**: copia las líneas de la hoja de horas de una hoja de horas existente.
 
-- **Copiar desde favorito** : cree nuevas líneas de la hoja de horas utilizando la configuración de la hoja de horas que seleccionó como favorito.
+- **Copiar desde favorito**: cree nuevas líneas de la hoja de horas utilizando la configuración de la hoja de horas que seleccionó como favorito.
 
-- **Copiar desde la asignación** : crear nuevas líneas de horas trabajadas a partir de proyectos asignados.
+- **Copiar desde la asignación**: crear nuevas líneas de horas trabajadas a partir de proyectos asignados.
 
 La información del proyecto que se muestra depende de los parámetros móviles que definió en la página **Parámetros de gestión de proyectos y contabilidad**.
 
-En el campo **Entidad jurídica** , seleccione la entidad jurídica para la que realizó el trabajo del proyecto. El campo **Entidad jurídica** está disponible solo si se ha habilitado la compatibilidad con la hoja de horas de empresas vinculadas para su entidad jurídica.
+En el campo **Entidad jurídica**, seleccione la entidad jurídica para la que realizó el trabajo del proyecto. El campo **Entidad jurídica** está disponible solo si se ha habilitado la compatibilidad con la hoja de horas de empresas vinculadas para su entidad jurídica.
 
 Seleccione el cliente asociado con el proyecto para la hoja de horas. Para el lanzamiento inicial en Android, no se admiten entradas por parte del cliente, ya que primero debe seleccionar el proyecto. Si seleccionó el proyecto primero, el campo **Cliente** se completa automáticamente.
 
-En el campo **Proyecto** , seleccione el proyecto para el que está especificando tiempo. El campo **Cliente** se rellena automáticamente.
+En el campo **Proyecto**, seleccione el proyecto para el que está especificando tiempo. El campo **Cliente** se rellena automáticamente.
 
 Las búsquedas de clientes y proyectos permiten realizar búsquedas tanto en clientes como en proyectos.
 
-Seleccione información en los campos **Categoría** , **Actividad** , **Propiedad de línea** , **Grupo de impuestos** y **Grupo de impuestos de artículos** según sea necesario. Estos campos se pueden anular.
+Seleccione información en los campos **Categoría**, **Actividad**, **Propiedad de línea**, **Grupo de impuestos** y **Grupo de impuestos de artículos** según sea necesario. Estos campos se pueden anular.
 
 El campo **Propiedad de línea** se establecerá en un valor predeterminado, según los parámetros de contabilidad y gestión del proyecto. Cuando los parámetros de proyecto/categoría y categoría/recurso están habilitados, el valor **Propiedad de línea** se establecerá en el valor predeterminado que haya definido para esta validación. Cuando los parámetros de proyecto/categoría y categoría/recurso no están habilitados, el valor **Propiedad de línea** se establecerá en un valor predeterminado de acuerdo con el campo **Habilitar la propiedad de línea predeterminada** en la página **Parámetros contables y de gestión de proyectos**. El valor **Propiedad de línea** se puede anular.
 
@@ -95,7 +95,7 @@ Haga clic en **Enviar** para enviar la hoja de horas al flujo de trabajo de apro
 
 ## <a name="review-timesheets"></a>Revisar las hojas de horas
 
-En el menú se encuentra disponible una lista de las hojas de horas que deben revisarse. Esta opción solo está disponible si ha sido designado como aprobador de flujo de trabajo. Se admiten tanto la aprobación de encabezado como de línea. La aprobación de nivel de línea ofrece la posibilidad de marcar una o más líneas para su aprobación. Después de revisar la información de la hoja de horas, haga clic en **Aprobar** , **Delegar** o **Regresar** para continuar con el flujo de trabajo.
+En el menú se encuentra disponible una lista de las hojas de horas que deben revisarse. Esta opción solo está disponible si ha sido designado como aprobador de flujo de trabajo. Se admiten tanto la aprobación de encabezado como de línea. La aprobación de nivel de línea ofrece la posibilidad de marcar una o más líneas para su aprobación. Después de revisar la información de la hoja de horas, haga clic en **Aprobar**, **Delegar** o **Regresar** para continuar con el flujo de trabajo.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

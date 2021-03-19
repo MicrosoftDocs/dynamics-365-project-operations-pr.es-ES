@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c3752abd26e760d27320d2b86079d84a967d53cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122364"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287754"
 ---
 # <a name="manage-the-billing-backlog"></a>Administrar el trabajo pendiente de facturación
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Dynamics 365 Project Operations tiene dos vistas dedicadas para ayudarlo a trabajar y administrar la acumulación de facturación. Son **Hitos de precio fijo** y **Trabajo pendiente de facturación de tiempo y material** Para seleccionar una vista, en el área **Ventas** de Project Operations, en la página de navegación izquierda, seleccione **Facturación**. Los enlaces del trabajo pendiente de facturación se almacenan allí.
+Dynamics 365 Project Operations tiene dos vistas dedicadas para ayudarle a trabajar y a administrar la acumulación de facturación. Son **Hitos de precio fijo** y **Trabajo pendiente de facturación de tiempo y material** Para seleccionar una vista, en el área **Ventas** de Project Operations, en la página de navegación izquierda, seleccione **Facturación**. Los enlaces del trabajo pendiente de facturación se almacenan allí.
 
 ## <a name="fixed-price-milestones"></a>Hitos de precio fijo
 

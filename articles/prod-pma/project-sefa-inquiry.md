@@ -20,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70dff12c106723dda801668412cfd084c462db4b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085132"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288985"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Consulta sobre el programa de gastos de las adjudicaciones federales
 
@@ -52,20 +52,20 @@ Debe configurar los números de CFDA que se pueden agregar a las concesiones y s
 
 1. Vaya a **Gestión de proyectos y contabilidad \> Configuración \> Concesiones \> Catálogo de números de Asistencia Doméstica Federal**.
 2. Seleccione **Nuevo** para crear un número CFDA.
-3. En la columna **Número** , especifique el número CFDA.
+3. En la columna **Número**, especifique el número CFDA.
 4. Presione la tecla **Tabulador**.
-5. En la columna **Descripción** , introduzca el título CFDA.
+5. En la columna **Descripción**, introduzca el título CFDA.
 6. Presione la tecla **Tabulador**.
-7. Opcional: en el campo **Clúster de programas** , agregue el clúster CFDA apropiado.
+7. Opcional: en el campo **Clúster de programas**, agregue el clúster CFDA apropiado.
 8. Seleccione **Guardar** para guardar los cambios.
 
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Configurar subvenciones para informar para la consulta del Programa de gastos de las subvenciones federales
 
 1. Vaya a **Gestión de proyectos y contabilidad \> Concesiones \> Concesiones** y seleccione una concesión existente.
-2. En la ficha desplegable **Configuración** , en el campo **Catálogo de Asistencia Doméstica Federal** , asigne el número CFDA. El número de CFDA en la concesión determina el clúster de CFDA para informar.
-3. En la ficha desplegable **Información del contacto** , introduzca la información del otorgante siguiendo estos pasos:
+2. En la ficha desplegable **Configuración**, en el campo **Catálogo de Asistencia Doméstica Federal**, asigne el número CFDA. El número de CFDA en la concesión determina el clúster de CFDA para informar.
+3. En la ficha desplegable **Información del contacto**, introduzca la información del otorgante siguiendo estos pasos:
 
-    1. En el campo **Cliente de concesión** , introduzca el cliente responsable de la subvención. Para una subvención existente, es posible que esta información ya esté ingresada.
+    1. En el campo **Cliente de concesión**, introduzca el cliente responsable de la subvención. Para una subvención existente, es posible que esta información ya esté ingresada.
     2. Indique si el cliente de la concesión es el financiador. Si el cliente de la concesión es el financiador, deje la casilla de verificación **Pasar por** desactivada. Si otro cliente es el financiador y el cliente de la concesión es responsable de gastar y seguir el dinero, seleccione la casilla de verificación **Pasar por**.
 
 4. Si seleccionó la casilla de verificación **Pasar por** en el paso anterior, en el campo **Agencia otorgante** introduzca el cliente que proporcionó la concesión. La agencia otorgante y el cliente de la concesión no pueden ser el mismo cliente.
@@ -79,8 +79,8 @@ El gobierno federal financió un proyecto de infraestructura para un estado. El 
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Excluir las subvenciones de los informes SEFA según el tipo de subvención
 
-1. Vaya a **Gestión de proyectos y contabilidad \> Configurar \> Concesiones \> Tipos de concesiones**.
-2. En la ficha desplegable **Información predeterminada** , seleccione la casilla de verificación **Excluir de la Lista de gastos de las adjudicaciones federales**.
+1. Vaya a **Gestión de proyectos y contabilidad \> Configurar \> Concesiones \> Tipos de concesiones**.
+2. En la ficha desplegable **Información predeterminada**, seleccione la casilla de verificación **Excluir de la Lista de gastos de las adjudicaciones federales**.
 3. Seleccione **Guardar** para guardar los cambios.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Ejecute la consulta del programa de gastos de las adjudicaciones federales
@@ -88,7 +88,7 @@ El gobierno federal financió un proyecto de infraestructura para un estado. El 
 1. Vaya a **Gestión de proyectos y contabilidad \> Consultas e informes \> Solicitud de concesión \> Lista de gastos de las adjudicaciones federales**.
 2. En la sección **Parámetros** siga estos pasos:
 
-    1. En campo **Intervalo de fechas** , seleccione el código para el intervalo de fechas. Alternativamente, en los campos **Desde fecha** y **Hasta fecha** , defina el intervalo de fechas.
+    1. En campo **Intervalo de fechas**, seleccione el código para el intervalo de fechas. Alternativamente, en los campos **Desde fecha** y **Hasta fecha**, defina el intervalo de fechas.
     2. Opcional: para incluir solo las transacciones facturadas como ingresos en la consulta, establezca la opción **Incluir solo los ingresos facturados** a **Sí**.
 
 ## <a name="columns"></a>Columnas

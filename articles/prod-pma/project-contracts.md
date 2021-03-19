@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7d15523f1b22bb8813a47f9f822f12bc4162104
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b53eb6ff3f98e7efc3d6b997cd4d877025225936
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085279"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289570"
 ---
 # <a name="project-contracts"></a>Contratos de proyecto
 
@@ -252,15 +252,15 @@ Cuando negocia un contrato de proyecto con un cliente, define cómo y cuándo pu
 
 Puede configurar los siguientes tipos de reglas de facturación:
 
--   **Unidad de entrega** : facturar a un cliente cuando complete una unidad de entrega. Defina las unidades de entrega en el contrato.
--   **Progreso** : facturar a un cliente cuando complete un porcentaje específico del proyecto. Puede configurar una regla de facturación para calcular automáticamente el porcentaje de trabajo completado, o puede calcular manualmente el porcentaje de trabajo completado y la cantidad a facturar al cliente.
--   **Hito** : facturar a un cliente por el importe total de un hito de proyecto cuando se alcance el hito.
--   **Tarifa** : facturar a un cliente por sus servicios más una tarifa de administración, que generalmente es un porcentaje del coste de los servicios.
--   **Tiempo y material** : facturar a un cliente por el valor del tiempo y los materiales que se utilizan en un proyecto.
+-   **Unidad de entrega**: facturar a un cliente cuando complete una unidad de entrega. Defina las unidades de entrega en el contrato.
+-   **Progreso**: facturar a un cliente cuando complete un porcentaje específico del proyecto. Puede configurar una regla de facturación para calcular automáticamente el porcentaje de trabajo completado, o puede calcular manualmente el porcentaje de trabajo completado y la cantidad a facturar al cliente.
+-   **Hito**: facturar a un cliente por el importe total de un hito de proyecto cuando se alcance el hito.
+-   **Tarifa**: facturar a un cliente por sus servicios más una tarifa de administración, que generalmente es un porcentaje del coste de los servicios.
+-   **Tiempo y material**: facturar a un cliente por el valor del tiempo y los materiales que se utilizan en un proyecto.
 
 Para todos los tipos de reglas de facturación, puede especificar un porcentaje de retención que se deduce de las facturas de los clientes hasta que un proyecto alcance una fase acordada. El porcentaje de retención del pago se especifica en el contrato de proyecto. El importe se calcula y se resta del valor total de las líneas en una factura de cliente. 
 
-Para las reglas de facturación **Tiempo y material** y **Progreso** , puede asignar categorías imputables. Las categorías imputables indican las transacciones que deben incluirse en las facturas de los clientes. 
+Para las reglas de facturación **Tiempo y material** y **Progreso**, puede asignar categorías imputables. Las categorías imputables indican las transacciones que deben incluirse en las facturas de los clientes. 
 
 Cuando esté listo para facturar al cliente, el importe a facturar por el proyecto se calcula según las reglas de facturación y se genera una propuesta de factura del proyecto. 
 
@@ -289,8 +289,8 @@ Su organización, una empresa de consultoría de software, formaliza un acuerdo 
 
 Su organización, una empresa de desarrollo de software, acepta desarrollar un paquete de gestión de nóminas para un cliente por 30 000. El cliente acepta pagar a su organización en función del porcentaje de trabajo terminado. Calcula que los costes del proyecto son 20 000. El contrato del proyecto especifica las categorías de trabajo que utiliza en el proceso de facturación. Configura reglas de facturación que calculan automáticamente los importes de la factura para el porcentaje de trabajo completado para cada categoría. Establece un presupuesto para cada categoría:
 
--   **Desarrollo** : coste de 15 000 e ingresos de 20 000
--   **Instalación** : coste de 5000 e ingresos de 10 000
+-   **Desarrollo**: coste de 15 000 e ingresos de 20 000
+-   **Instalación**: coste de 5000 e ingresos de 10 000
 
 Cuando crea una factura de cliente por primera vez, el importe de la factura se calcula automáticamente en función de la siguiente información:
 

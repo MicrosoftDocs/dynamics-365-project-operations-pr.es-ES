@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 23a5a9f25cfdd6df74257b3500c7a035d711b5f6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7eae471cf42f02e64844a4682cc8ed02cbb14c34
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085129"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288895"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Espacio de trabajo móvil de entrada de tiempo del proyecto
 
@@ -34,13 +34,13 @@ En este tema se proporciona información sobre el espacio de trabajo móvil **En
 Este espacio de trabajo móvil está diseñado para utilizarse con la aplicación móvil de operaciones unificadas de Dynamics 365. 
 
 ## <a name="overview"></a>Información general
-Como parte de su trabajo diario, los recursos del proyecto a menudo se encuentran en el sitio o están en movimiento. El espacio de trabajo **Entrada de tiempo del proyecto** permite a los usuarios especificar su tiempo facturable o no facturable respecto a un proyecto en el dispositivo móvil de su elección. Por lo tanto, los recursos del proyecto pueden registrar entradas de tiempo en cualquier momento y lugar. También pueden ver las entradas de tiempo que ya se han registrado. 
+Como parte de su trabajo diario, los recursos del proyecto a menudo se encuentran en el sitio o están en movimiento. El espacio de trabajo móvil **Entrada de tiempo del proyecto** permite a los usuarios introducir su tiempo facturable o no facturable en un proyecto en el dispositivo móvil de su elección. Por lo tanto, los recursos del proyecto pueden registrar entradas de tiempo en cualquier momento y lugar. También pueden ver las entradas de tiempo que ya se han registrado. 
 
-Específicamente, en el espacio de trabajo móvil **Entrada de tiempo del proyecto** , los usuarios pueden realizar estas tareas:
+Concretamente, en el espacio de trabajo móvil **Entrada de tiempo del proyecto**, los usuarios pueden realizar estas tareas:
 
--   Para cualquier fecha seleccionada, especifique la cantidad de horas que dedicó a una tarea específica.
--   Busque por nombre de proyecto o cliente para encontrar el proyecto para el cual especificar el tiempo.
--   Especifique la categoría y la actividad para el tiempo que invirtió.
+-   Para cualquier fecha seleccionada, introducir el número de horas que dedicó a una tarea determinada.
+-   Buscar por nombre de proyecto o cliente para encontrar el proyecto en el que introducir el tiempo.
+-   Especificar la categoría y la actividad del tiempo que dedicó.
 -   Registre el tiempo como facturable o no facturable para el proyecto.
 -   Opcionalmente, especifique cualquier comentario externo o interno.
 

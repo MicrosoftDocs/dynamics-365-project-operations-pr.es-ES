@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34c31570778f9b64c23387112cf56fa1139cd0fd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085131"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289030"
 ---
 # <a name="project-resource-scheduling-performance"></a>Rendimiento de la programación de recursos del proyecto
 
@@ -34,7 +34,7 @@ ms.locfileid: "4085131"
 Los problemas de rendimiento relacionados con la programación de recursos pueden ocurrir cuando el número de proyectos llega a miles. Para mejorar el rendimiento de la programación de recursos, hay una función disponible que permite a los usuarios reducir el tiempo que lleva iniciar el formulario de disponibilidad de recursos. Específicamente, esto elimina el proceso de sincronización de acumulación de capacidad de recursos y utiliza la tabla **ResProjectResource** para acelerar la búsqueda de recursos. Tenga en cuenta que la tabla **ResRollup** ya no se utilizará.
 
 > [!IMPORTANT]
-> Si existe una dependencia del proceso de sincronización de acumulación de capacidad de recursos o de la tabla **ResProjectResource** , no utilice esta función.
+> Si existe una dependencia del proceso de sincronización de acumulación de capacidad de recursos o de la tabla **ResProjectResource**, no utilice esta función.
 
 ## <a name="enable-resource-scheduling-performance-enhancement"></a>Habilite la mejora del rendimiento de la programación de recursos
 Para habilitar la mejora del rendimiento de la programación de recursos, complete los siguientes pasos.
@@ -47,14 +47,14 @@ Para habilitar la mejora del rendimiento de la programación de recursos, comple
 
 3. Actualice su navegador y luego vaya a **Gestión de proyectos y contabilidad** > **Periódico** > **Recursos del proyecto** > **Sincronizar la capacidad de los calendarios de recursos en todas las empresas**.
 4. Establezca **Eliminar registros de capacidad existentes** a **Sí** para eliminar los datos anteriores. Si desea generar datos incrementales, configúrelo en **No**.
-5. En el campo **Código de período** , seleccione el período en el que se deben generar los datos. Si selecciona un código de período, no es necesario definir una fecha de inicio y finalización.
+5. En el campo **Código de período**, seleccione el período en el que se deben generar los datos. Si selecciona un código de período, no es necesario definir una fecha de inicio y finalización.
 6. Si deja el campo **Código de período** en blanco, seleccione fechas de inicio y finalización específicas para generar datos.
 7. Seleccione **Aceptar**.
 
  > [!NOTE]
  > Esto distribuirá datos generales a la tabla **ResCalendarCapacity** en todas las empresas de su entorno, por lo que el trabajo por lotes solo debe ejecutarse en una entidad legal. Los datos de este trabajo por lotes son necesarios para calcular la capacidad de recursos a través del calendario asociado.
 
-8. Vaya a **Gestión de proyectos y contabilidad** > **Periódico** > **Recursos del proyecto** > **Completar los recursos del proyecto en todas las empresas** y luego seleccione **Aceptar**. Este es el script de actualización de datos para datos generales en las tablas **ResProjectResource** , **ResCalendarDateTimeRange** y **ResEffectiveDateTimeRange**. Los valores para el campo **PSAPRojSchedRole.RootActivity** también se actualizan. Si no se ejecuta, recibirá una advertencia cuando intente ejecutar operaciones de programación de recursos.
+8. Vaya a **Gestión de proyectos y contabilidad** > **Periódico** > **Recursos del proyecto** > **Completar los recursos del proyecto en todas las empresas** y luego seleccione **Aceptar**. Este es el script de actualización de datos para datos generales en las tablas **ResProjectResource**, **ResCalendarDateTimeRange** y **ResEffectiveDateTimeRange**. Los valores para el campo **PSAPRojSchedRole.RootActivity** también se actualizan. Si no se ejecuta, recibirá una advertencia cuando intente ejecutar operaciones de programación de recursos.
  
 ## <a name="turn-off-resource-scheduling-performance-enhancement"></a>Desactive la mejora del rendimiento de la programación de recursos
 
@@ -62,8 +62,8 @@ Para habilitar la mejora del rendimiento de la programación de recursos, comple
 2. Seleccione la función y luego seleccione el botón **Deshabilitar**.
 3. Actualice el explorador.
 4. Vaya a **Gestión de proyectos y contabilidad** > **Periódico** > **Sincronización de capacidad** > **Sincronizar acumulaciones de capacidad de recurso**.
-5. En la página **Sincronización de acumulación de capacidad** , establezca **Eliminar registros de capacidad existentes** a **Sí** para eliminar los datos anteriores. Si desea generar datos incrementales, configúrelo en **No**.
-6. En el campo **Código de período** , seleccione el período en el que se deben generar los datos. Si selecciona un código de período, no es necesario definir una fecha de inicio y finalización.
+5. En la página **Sincronización de acumulación de capacidad**, establezca **Eliminar registros de capacidad existentes** a **Sí** para eliminar los datos anteriores. Si desea generar datos incrementales, configúrelo en **No**.
+6. En el campo **Código de período**, seleccione el período en el que se deben generar los datos. Si selecciona un código de período, no es necesario definir una fecha de inicio y finalización.
 7. Si deja el campo **Código de período** en blanco, seleccione fechas de inicio y finalización específicas para generar datos.
 8. Seleccione **Aceptar**.
 

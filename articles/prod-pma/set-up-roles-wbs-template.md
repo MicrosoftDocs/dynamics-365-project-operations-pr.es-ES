@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6a8363c1f94a974881df984869ee56bfc198ac5c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085128"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288670"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Configurar roles en plantillas de estructura de descomposición del trabajo
 
@@ -33,7 +33,7 @@ Los jefes de proyecto pueden configurar plantillas de estructura de descomposici
 
 1. Seleccione **Gestión de proyectos y contabilidad** > **Configuración** > **Proyectos** > **Plantillas de estructura de descomposición del trabajo**.
 2. Seleccione **Detalles** para una plantilla WBS seleccionada.
-3. Seleccione una tarea en la lista y luego, en el campo **Rol** , seleccione un rol para asignar a la tarea.
+3. Seleccione una tarea en la lista y luego, en el campo **Rol**, seleccione un rol para asignar a la tarea.
 
 ## <a name="work-with-a-wbs"></a>Trabajar con una WBS
 
@@ -79,7 +79,7 @@ Se han agregado opciones adicionales en la WBS para utilizar mejor la funcionali
 </tbody>
 </table>
 
-1. En la página **Todos los proyectos** , seleccione el proyecto **Fase 2 de la actualización XYZ**.
+1. En la página **Todos los proyectos**, seleccione el proyecto **Fase 2 de la actualización XYZ**.
 2. Seleccione **Plan** > **Actividades** > **Estructura de descomposición del trabajo**.
 3. Seleccione **Nuevo** para agregar las siguientes actividades de nivel uno a la WBS:
 
@@ -93,20 +93,20 @@ Se han agregado opciones adicionales en la WBS para utilizar mejor la funcionali
 
     [![Configuración de las fechas y el esfuerzo](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
-5. Seleccione la línea de tarea **Iniciando** y, luego, en el campo **Rol** , seleccione **Jefe de proyectos sénior**.
+5. Seleccione la línea de tarea **Iniciando** y, luego, en el campo **Rol**, seleccione **Jefe de proyectos sénior**.
 6. Seleccione **Publish**.
-7. En la misma línea, en el campo **Recurso** , seleccione **Daniel Goldschmidt** y luego seleccione **Aceptar**.
-8. Seleccione la línea de tarea **Planificación** y luego, en el campo **Rol** , seleccione **Analista de negocios**.
+7. En la misma línea, en el campo **Recurso**, seleccione **Daniel Goldschmidt** y luego seleccione **Aceptar**.
+8. Seleccione la línea de tarea **Planificación** y luego, en el campo **Rol**, seleccione **Analista de negocios**.
 9. Seleccione **Publicar** y luego seleccione **Equipo de generación automática**.
 10. En el cuadro mensaje que aparece, seleccione **Sí**.
-11. En el campo **Recurso** , verifique que el valor sea **Analista de negocios 1**.
-12. Para el recurso **Analista de negocios 1** , abra la búsqueda y seleccione **Lanzar asignaciones de recursos**. Luego seleccione un trabajador para la tarea.
+11. En el campo **Recurso**, verifique que el valor sea **Analista de negocios 1**.
+12. Para el recurso **Analista de negocios 1**, abra la búsqueda y seleccione **Lanzar asignaciones de recursos**. Luego seleccione un trabajador para la tarea.
 13. Seleccione **Asignación automática** &gt; **Capacidad completa**.
 
     > [!NOTE] 
     > No recibe una advertencia de que el recurso especificado ahora es 2, porque la cantidad de recursos sigue siendo 1.
 
-14. En la página **Estructura de descomposición del trabajo** , valide la asignación de recursos en la WBS y luego seleccione **Guardar**.
+14. En la página **Estructura de descomposición del trabajo**, valide la asignación de recursos en la WBS y luego seleccione **Guardar**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

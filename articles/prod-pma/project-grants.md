@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 89801696d6a2924d78c85f6e9b4281409222dbb0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: dfd91e859244cc03b9b358b057bded79eeea0182
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085329"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289390"
 ---
 # <a name="project-grants"></a>Concesiones de proyectos
 
@@ -42,29 +42,29 @@ Puede crear una concesión ingresando todos los detalles en un nuevo registro, o
 
 1. Vaya a **Gestión de proyectos y contabilidad** \> **Concesiones** \> **Concesiones**.
 2. Seleccione **Nueva** \> **Concesión**.
-3. En la página de detalles de la subvención, en la ficha desplegable **General** , en el campo **Identificador de concesión** , ingrese un identificador alfanumérico para la concesión.
-4. En el cuadro **Nombre de la concesión** , escriba un nombre para la concesión.
-5. En el campo **Descripción** , agregue detalles sobre la nueva concesión.
+3. En la página de detalles de la subvención, en la ficha desplegable **General**, en el campo **Identificador de concesión** , ingrese un identificador alfanumérico para la concesión.
+4. En el cuadro **Nombre de la concesión**, escriba un nombre para la concesión.
+5. En el campo **Descripción**, agregue detalles sobre la nueva concesión.
 
     La mayoría de los demás campos de la página son opcionales y puede ingresar tanta o poca información como desee.
 
     La siguiente lista describe la información que se especifica en cada ficha desplegable de la página de detalles de la concesión:
 
-    - **General** : introduzca el nombre de la concesión, el estado, la descripción, el propósito y la cantidad.
-    - **Información del contacto** : introduzca los detalles sobre los miembros del personal, el departamento que administra la concesión y el cliente de la subvención o la organización fuente de la concesión. También puede indicar si su organización es una entidad de transferencia que recibe la concesión y luego la pasa a otro destinatario. Seleccione **Agregar** para añadir la información de contacto, como números de teléfono y direcciones de correo electrónico, de la organización que proporciona la concesión.
-    - **Fechas y plazos** : introduzca fechas relacionadas con la concesión y la solicitud de concesión. Los ejemplos incluyen la fecha de vencimiento de la solicitud, la fecha de presentación y la fecha en que se aprueba o rechaza la concesión.
-    - **Proyectos asociados y contratos de proyectos** : puede ingresar información en esta ficha desplegable solo si el campo **Estado de la subvención** en la ficha desplegable **General** está establecida en **Activo** u **Otorgado**. Seleccione entre las siguientes opciones para completar la tarea relacionada:
+    - **General**: introduzca el nombre de la concesión, el estado, la descripción, el propósito y la cantidad.
+    - **Información del contacto**: introduzca los detalles sobre los miembros del personal, el departamento que administra la concesión y el cliente de la subvención o la organización fuente de la concesión. También puede indicar si su organización es una entidad de transferencia que recibe la concesión y luego la pasa a otro destinatario. Seleccione **Agregar** para añadir la información de contacto, como números de teléfono y direcciones de correo electrónico, de la organización que proporciona la concesión.
+    - **Fechas y plazos**: introduzca fechas relacionadas con la concesión y la solicitud de concesión. Los ejemplos incluyen la fecha de vencimiento de la solicitud, la fecha de presentación y la fecha en que se aprueba o rechaza la concesión.
+    - **Proyectos asociados y contratos de proyectos**: puede ingresar información en esta ficha desplegable solo si el campo **Estado de la subvención** en la ficha desplegable **General** está establecida en **Activo** u **Otorgado**. Seleccione entre las siguientes opciones para completar la tarea relacionada:
 
-        - **Agregar fuente de financiación** : agregar una nueva fuente de financiación para la concesión. Puede introducir todos los detalles ahora, o puede usar la información predeterminada y luego actualizarla más tarde.
-        - **Agregar contrato de proyecto** : agregar o actualizar la información del contrato del proyecto.
-        - **Agregar proyecto** : agregar o actualizar los detalles del proyecto.
+        - **Agregar fuente de financiación**: agregar una nueva fuente de financiación para la concesión. Puede introducir todos los detalles ahora, o puede usar la información predeterminada y luego actualizarla más tarde.
+        - **Agregar contrato de proyecto**: agregar o actualizar la información del contrato del proyecto.
+        - **Agregar proyecto**: agregar o actualizar los detalles del proyecto.
 
-    - **Configuración** : introduzca detalles sobre los fondos de contrapartida, si esta información es necesaria. Muchas organizaciones que otorgan concesiones requieren que los beneficiarios gasten una cantidad específica de su propio dinero o recursos, para igualar la cantidad que se otorga en la concesión. En el campo **Proyecto local o identificador de seguimiento** , puede ingresar un identificador que difiera del identificador del proyecto.
+    - **Configuración**: introduzca detalles sobre los fondos de contrapartida, si esta información es necesaria. Muchas organizaciones que otorgan concesiones requieren que los beneficiarios gasten una cantidad específica de su propio dinero o recursos, para igualar la cantidad que se otorga en la concesión. En el campo **Proyecto local o identificador de seguimiento**, puede ingresar un identificador que difiera del identificador del proyecto.
 
         > [!NOTE]
         > Si parte de la concesión se otorgará a otra organización, establezca la opción **Subconcesión** a **Sí**. Para las concesiones que se otorgan en los Estados Unidos, puede especificar si una concesión se otorgará en virtud de un mandato estatal o federal.
 
-    - **Detalles de la reducción** : agregar o actualizar información sobre la frecuencia con la que se pueden retirar, facturar o gastar los fondos de la concesión.
+    - **Detalles de la reducción**: agregar o actualizar información sobre la frecuencia con la que se pueden retirar, facturar o gastar los fondos de la concesión.
 
 ## <a name="create-a-new-grant-from-a-copy"></a>Crear una nueva concesión a partir de una copia
 
@@ -77,7 +77,7 @@ Puede crear una concesión ingresando todos los detalles en un nuevo registro, o
 
 1. Vaya a **Gestión de proyectos y contabilidad** \> **Concesiones** \> **Concesiones**.
 2. Seleccione la concesión para modificar.
-3. En el panel de acciones, en la pestaña **Concesión** en el grupo **Mantener** , seleccione **Editar**.
+3. En el panel de acciones, en la pestaña **Concesión** en el grupo **Mantener**, seleccione **Editar**.
 4. Revise los detalles de la concesión y realice los cambios necesarios.
 
 

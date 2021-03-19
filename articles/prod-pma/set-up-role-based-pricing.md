@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b36f671fb8d6c77446d66c41fc45837e1ee8e25
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c86043a79d119c00a64ba5336df5b5ad69006b11
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085317"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288715"
 ---
 # <a name="set-up-role-based-pricing"></a>Configurar los precios basados en roles
 
@@ -31,9 +31,9 @@ ms.locfileid: "4085317"
 
 Todos los costes, ventas y precios de transferencia se pueden configurar para roles. Complete los siguientes pasos para asociar los precios a un rol específico.
 
-1. En la página **Precio de venta (hora)** , seleccione **Nuevo** e indique una fecha de entrada en vigor.
-2. En la columna **Rol** , seleccione un rol.
-3. En la columna **Precios** , especifique un precio para el rol del recurso seleccionado.
+1. En la página **Precio de venta (hora)**, seleccione **Nuevo** e indique una fecha de entrada en vigor.
+2. En la columna **Rol**, seleccione un rol.
+3. En la columna **Precios**, especifique un precio para el rol del recurso seleccionado.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

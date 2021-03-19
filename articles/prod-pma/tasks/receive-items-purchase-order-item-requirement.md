@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a5b3622458da957ed150311f6ea75d5f1444d5f1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c2083516ff929113fd6db377acfe5aeb104666dd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085315"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288249"
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>Recibir artículos en el pedido de compra a partir del requisito de artículo
 
@@ -39,13 +39,13 @@ Esta tarea utiliza el conjunto de datos de USSI.
 4. Seleccione **Requisitos de artículo**.
 5. Seleccione **Nuevo**.
 6. En la nueva fila, indique o seleccione un valor en el campo **Número de artículo**.
-7. En el campo **Cantidad** , especifique un número.
+7. En el campo **Cantidad**, especifique un número.
 8. Seleccione **Guardar**.
 9. En el Panel de acciones, seleccione **Gestionar**.
 10. Seleccione **Funciones**.
 11. Seleccione **Crear pedido de compra**.
 12. Seleccione la casilla **Incluir todo**.
-13. En el campo **Cuenta de proveedor** , introduzca o seleccione un valor.
+13. En el campo **Cuenta de proveedor**, introduzca o seleccione un valor.
 14. Seleccione **Aceptar**.
 15. En el panel de navegación, vaya **Módulos > Proveedores > Pedidos de compra > Todos los pedidos de compra**.
 16. En la lista, seleccione el vínculo en la fila deseada.
@@ -53,7 +53,7 @@ Esta tarea utiliza el conjunto de datos de USSI.
 18. Seleccione **Confirmar**.
 19. En el panel de acciones, seleccione **Recibir**.
 20. Seleccione **Recepción de producto**.
-21. En el campo **Recepción de producto** , escriba un valor.
+21. En el campo **Recepción de producto**, escriba un valor.
 22. Seleccione **Aceptar**.
 
 

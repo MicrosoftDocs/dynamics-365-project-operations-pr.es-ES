@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7eec8ad5d78019219b2e04ca75eeaa5a3c8a748f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0bf146c3bfb2fd558c471d8a9e980834cb1b87df
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085320"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288760"
 ---
 # <a name="set-up-project-resources"></a>Configurar los recursos del proyecto
 
@@ -37,11 +37,11 @@ Los siguientes procedimientos explican cómo configurar un trabajador como recur
 
 ## <a name="set-up-a-worker-as-a-project-resource"></a>Configurar un trabajador como recurso de proyecto
 
-1. En la página **Trabajadores** , en lista **Trabajadores** , seleccione el trabajador que está agregando como recurso del proyecto y abra el registro del trabajador.
+1. En la página **Trabajadores**, en lista **Trabajadores**, seleccione el trabajador que está agregando como recurso del proyecto y abra el registro del trabajador.
 2. En el panel de acciones, seleccione **Proyecto** &gt; **Configurar** &gt; **Configuración del proyecto**.
 3. Seleccione un calendario y cierre la página.
 
-También puede especificar proyectos predeterminados para un recurso como un tipo de asignación previa. Las asignaciones previas se pueden usar cuando el administrador de recursos o el administrador de proyectos sepan con anticipación en qué proyectos trabajará el recurso. Las asignaciones previas también pueden basarse en la solicitud de un cliente o patrocinador del proyecto. Para asignar previamente un proyecto, en la página **Asignar proyectos** , en la pestaña **Proyectos** , en la lista **Proyectos restantes** , seleccione el proyecto apropiado.
+También puede especificar proyectos predeterminados para un recurso como un tipo de asignación previa. Las asignaciones previas se pueden usar cuando el administrador de recursos o el administrador de proyectos sepan con anticipación en qué proyectos trabajará el recurso. Las asignaciones previas también pueden basarse en la solicitud de un cliente o patrocinador del proyecto. Para asignar previamente un proyecto, en la página **Asignar proyectos**, en la pestaña **Proyectos**, en la lista **Proyectos restantes**, seleccione el proyecto apropiado.
 
 ## <a name="set-up-an-intercompany-resource"></a>Configurar un recurso de empresas vinculadas
 
@@ -50,16 +50,16 @@ Cuando configura un trabajador como recurso de empresas vinculadas, debe complet
 ### <a name="in-the-lending-company"></a>En la empresa prestamista
 
 1. En Finance, verifique que la empresa prestamista esté seleccionada y luego complete el procedimiento de la sección anterior, "Configurar un trabajador como recurso de proyecto".
-2. En la página **Contabilidad de empresas vinculadas** , seleccione **+Nuevo**.
-3. En el campo **Id. de entidad legal** , seleccione la empresa prestamista. Rellene los campos restantes como corresponda y seleccione **Guardar**.
-4. En la página **Transferir precios** , seleccione **Nuevo**.
-5. En el campo **Entidad legal prestataria** , seleccione la empresa apropiada.
-6. Para prestar a la empresa prestataria solo el recurso que creó al principio de esta sección, en el campo **Recurso** , seleccione el nombre del recurso que creó. Para que todos los recursos de la empresa prestamista estén disponibles para la empresa prestataria, deje el campo **Recurso** en blanco.
-7. En la página **Parámetros de gestión de proyectos y contabilidad** , en la pestaña **Empresas vinculadas** , establezca la opción **Habilitar la programación de recursos y las hojas de horas de empresas vinculadas** en **Sí**.
+2. En la página **Contabilidad de empresas vinculadas**, seleccione **+Nuevo**.
+3. En el campo **Id. de entidad legal**, seleccione la empresa prestamista. Rellene los campos restantes como corresponda y seleccione **Guardar**.
+4. En la página **Transferir precios**, seleccione **Nuevo**.
+5. En el campo **Entidad legal prestataria**, seleccione la empresa apropiada.
+6. Para prestar a la empresa prestataria solo el recurso que creó al principio de esta sección, en el campo **Recurso**, seleccione el nombre del recurso que creó. Para que todos los recursos de la empresa prestamista estén disponibles para la empresa prestataria, deje el campo **Recurso** en blanco.
+7. En la página **Parámetros de gestión de proyectos y contabilidad**, en la pestaña **Empresas vinculadas**, establezca la opción **Habilitar la programación de recursos y las hojas de horas de empresas vinculadas** en **Sí**.
 
 ### <a name="in-the-borrowing-company"></a>En la empresa prestataria
 
-- En la página **Lista de recursos** , en el filtro de búsqueda, especifique el nombre del recurso que creó para la empresa prestamista, para verificar que el nombre esté incluido en la lista de recursos para la empresa prestataria.
+- En la página **Lista de recursos**, en el filtro de búsqueda, especifique el nombre del recurso que creó para la empresa prestamista, para verificar que el nombre esté incluido en la lista de recursos para la empresa prestataria.
 
 ## <a name="request-project-resources"></a>Solicitar recursos del proyecto
 La funcionalidad para la programación de recursos del proyecto solo permite a los administradores de recursos distribuir los recursos del personal en compromisos o proyectos. Para habilitar esta funcionalidad, complete las siguientes tareas o verifique que se hayan completado:

@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b3eb6b1d4d75b095383689dd53a59a15fe9e884a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b16ed50584b2b4535d1c61fe7069708182a4820e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085205"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288355"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>Configurar costos estándar para mano de obra y gastos
 
@@ -32,26 +32,26 @@ Este tema explica cómo configurar los costos estándar de mano de obra y gastos
 
 1. En el panel de navegación, vaya a **Módulos > Gestión de proyectos y contabilidad > Configuración > Precios > Precio de coste (hora)**.
 2. Seleccione **Nuevo**.
-3. En el campo **Fecha de vigencia** , especifique una fecha.
-4. En el campo **Precio de coste** , introduzca un número. Puede configurar un precio de coste estándar para la categoría de proyecto, o puede configurar un precio de coste por número de trabajador, número de proyecto, categoría, fecha o cualquier combinación de estos. El precio de coste que se aplica es el precio de coste con el mayor nivel de detalle.  
+3. En el campo **Fecha de vigencia**, especifique una fecha.
+4. En el campo **Precio de coste**, introduzca un número. Puede configurar un precio de coste estándar para la categoría de proyecto, o puede configurar un precio de coste por número de trabajador, número de proyecto, categoría, fecha o cualquier combinación de estos. El precio de coste que se aplica es el precio de coste con el mayor nivel de detalle.  
 5. Seleccione **Guardar**.
 6. En el panel de navegación, vaya a **Módulos > Gestión de proyectos y contabilidad > Configuración > Precios > Precio de venta (hora)**.
 7. Seleccione **Nuevo**.
-8. En el campo **Fecha de vigencia** , especifique una fecha.
-9. En el campo **Válido para** , seleccione una opción.
-10. En el campo **Precio** , especifique un número. Puede configurar un precio de venta estándar para transacciones por hora o para una categoría de proyecto. También puede configurar los precios de venta por número de trabajador, número de proyecto, categoría, fecha de transacción o cualquier combinación de estos. El precio de venta real, que se aplica cuando un trabajador especifica una transacción en el diario de horas, es el precio de venta con el mayor nivel de detalle. Por ejemplo, si se configura tanto un precio de venta general como un precio de venta específico del trabajador, se utiliza el precio de venta específico del trabajador.  
+8. En el campo **Fecha de vigencia**, especifique una fecha.
+9. En el campo **Válido para**, seleccione una opción.
+10. En el campo **Precio**, especifique un número. Puede configurar un precio de venta estándar para transacciones por hora o para una categoría de proyecto. También puede configurar los precios de venta por número de trabajador, número de proyecto, categoría, fecha de transacción o cualquier combinación de estos. El precio de venta real, que se aplica cuando un trabajador especifica una transacción en el diario de horas, es el precio de venta con el mayor nivel de detalle. Por ejemplo, si se configura tanto un precio de venta general como un precio de venta específico del trabajador, se utiliza el precio de venta específico del trabajador.  
 11. Seleccione **Guardar**.
 12. Cierre la página.
 13. En el panel de navegación, vaya a **Módulos > Gestión de proyectos y contabilidad > Configuración > Precios > Precio de coste (gasto)**.
 14. Seleccione **Nuevo**.
-15. En el campo **Fecha de vigencia** , especifique una fecha.
-16. En el campo **Precio de coste** , introduzca un número. Se pueden completar varios campos, pero este es el mínimo necesario para guardar el registro.  
+15. En el campo **Fecha de vigencia**, especifique una fecha.
+16. En el campo **Precio de coste**, introduzca un número. Se pueden completar varios campos, pero este es el mínimo necesario para guardar el registro.  
 17. Seleccione **Guardar**.
 18. En el panel de navegación, vaya a **Módulos > Gestión de proyectos y contabilidad > Configuración > Precios > Precio de venta (gasto)**.
 19. Seleccione **Nuevo**.
-20. En el campo **Fecha de vigencia** , especifique una fecha.
-21. En el campo **Válido para** , seleccione una opción.
-22. En el campo **Precio** , especifique un número. El precio de venta real, que se aplica cuando un trabajador especifica una transacción en el diario de gastos, es el precio de venta con el mayor nivel de detalle. Por ejemplo, si se configura tanto un precio de venta general como un precio de venta específico del trabajador, se utiliza el precio de venta específico del trabajador.  
+20. En el campo **Fecha de vigencia**, especifique una fecha.
+21. En el campo **Válido para**, seleccione una opción.
+22. En el campo **Precio**, especifique un número. El precio de venta real, que se aplica cuando un trabajador especifica una transacción en el diario de gastos, es el precio de venta con el mayor nivel de detalle. Por ejemplo, si se configura tanto un precio de venta general como un precio de venta específico del trabajador, se utiliza el precio de venta específico del trabajador.  
 23. Seleccione **Guardar**.
 
 

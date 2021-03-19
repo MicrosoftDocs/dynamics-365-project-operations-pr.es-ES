@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: ed7ca3c85d3f99b7eefe10f4ddec822b9aeb1684
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4abb7fe6554825b97df4cc04ee1b02d731cb4af9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085287"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289660"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sincronizar las categorías de gastos del proyecto entre Finance and Operations y Project Service Automation
 
@@ -68,8 +68,8 @@ Para tener acceso a la plantilla, en el centro de administración de Microsoft P
 
 La siguiente plantilla y la tarea subyacentes se utilizan para sincronizar las categorías de gastos del proyecto de Finance a Project Service Automation:
 
-- **Nombre de la plantilla en Integración de datos** : categorías de transacción de gatos del proyecto (Fin and Ops a PSA).
-- **Nombre de la tarea en el proyecto** : sincronizar categorías a PSA.
+- **Nombre de la plantilla en Integración de datos**: categorías de transacción de gatos del proyecto (Fin and Ops a PSA).
+- **Nombre de la tarea en el proyecto**: sincronizar categorías a PSA.
 
 ### <a name="entity-set"></a>Conjunto de entidades
 
@@ -103,8 +103,8 @@ La siguiente ilustración muestra un ejemplo de la asignación de tareas de plan
 
 La siguiente plantilla y la tarea subyacentes se utilizan para sincronizar las categorías de gastos del proyecto de Project Service Automation a Finance:
 
-- **Nombre de la plantilla en Integración de datos** : categorías de transacción de gatos del proyecto (PSA A Fin and Ops).
-- **Nombre de la tarea en el proyecto** : sincronizar categorías a Fin and Ops.
+- **Nombre de la plantilla en Integración de datos**: categorías de transacción de gatos del proyecto (PSA A Fin and Ops).
+- **Nombre de la tarea en el proyecto**: sincronizar categorías a Fin and Ops.
 
 ### <a name="entity-set"></a>Conjunto de entidades
 

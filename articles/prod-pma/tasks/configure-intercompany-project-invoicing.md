@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1cb53cb63ee11082146455ec9f13790501dc3d1d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9df15cb3712356a164de3507f5dbc17a9ff9a652
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085207"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288400"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Configurar la facturación de proyectos de empresas vinculadas
 
@@ -31,12 +31,12 @@ ms.locfileid: "4085207"
 Este tema muestra cómo configurar la facturación de proyectos entre dos empresas de su organización. Esta tarea utiliza el conjunto de datos de USSI.
 
 1. En el panel de navegación, vaya a **Módulos > Proveedores > Proveedores > Todos los proveedores**.
-2. En la lista **Todos los proveedores** , busque y seleccione el registro deseado.
+2. En la lista **Todos los proveedores**, busque y seleccione el registro deseado.
 3. En el Panel de acciones, seleccione **General**.
 4. Seleccione **Empresas vinculadas**.
 5. Establezca **Activo** en **Sí** para permitir el comercio entre empresas vinculadas.
-6. En el campo **Empresa de cliente** , introduzca o seleccione un valor.
-7. En el campo **Mi cuenta** , introduzca o seleccione un valor.
+6. En el campo **Empresa de cliente**, introduzca o seleccione un valor.
+7. En el campo **Mi cuenta**, introduzca o seleccione un valor.
 8. Seleccione **Guardar**.
 9. Cierre las páginas para volver a la página de inicio.
 10. En el panel de navegación, vaya a **Módulos > Gestión de proyectos y contabilidad > Configuración > Gestión de proyectos y parámetros contables**.
@@ -44,24 +44,24 @@ Este tema muestra cómo configurar la facturación de proyectos entre dos empres
 12. Mueva el control deslizante a **Sí** para habilitar la programación de recursos y los partes de horas de empresas vinculadas.
 13. En la lista, marque la fila seleccionada.
 14. Seleccione **Nuevo**.
-15. En el campo **Tomar prestada entidad jurídica** , escriba o seleccione un valor.
+15. En el campo **Tomar prestada entidad jurídica**, escriba o seleccione un valor.
 16. Active la casilla **Acumular ingresos**.
-17. En el campo **Categoría de hoja de horas predeterminada** , escriba o seleccione un valor.
-18. En el campo **Categoría de gasto predeterminada** , escriba o seleccione un valor.
+17. En el campo **Categoría de hoja de horas predeterminada**, escriba o seleccione un valor.
+18. En el campo **Categoría de gasto predeterminada**, escriba o seleccione un valor.
 19. Seleccione **Guardar**.
 20. Cierre la página.
 21. En el panel de navegación, vaya a **Módulos > Gestión de proyectos y contabilidad > Configuración > Registro > Configuración de registro de libro mayor**.
-22. En el campo **Tipos de cuenta contable** , seleccione una opción.
+22. En el campo **Tipos de cuenta contable**, seleccione una opción.
 23. Seleccione **Nuevo**.
 24. En el campo **Cuenta principal** de la nueva fila, especifique los valores que desee.
 25. Seleccione **Guardar**.
 26. Cierre la página.
 27. En el panel de navegación, vaya a **Módulos > Gestión de proyectos y contabilidad > Configuración > Precios > Precio de transferencia**.
 28. Seleccione **Nuevo**.
-29. En el campo **Fecha de vigencia** , especifique una fecha.
-30. En el campo **Tomar prestada entidad jurídica** , escriba o seleccione un valor.
-31. En el campo **Modelo de precio de transferencia** , seleccione una opción.
-32. En el campo **Precio** , especifique un número.
+29. En el campo **Fecha de vigencia**, especifique una fecha.
+30. En el campo **Tomar prestada entidad jurídica**, escriba o seleccione un valor.
+31. En el campo **Modelo de precio de transferencia**, seleccione una opción.
+32. En el campo **Precio**, especifique un número.
 33. Seleccione **Guardar**.
 
 

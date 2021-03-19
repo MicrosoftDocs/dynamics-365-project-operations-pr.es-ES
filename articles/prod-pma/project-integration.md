@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085209"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289345"
 ---
 # <a name="microsoft-project-client-integration"></a>Integración Microsoft Project Client
 
@@ -42,7 +42,7 @@ Para habilitar la integración con Microsoft Project Client, es encesario instal
 • Haga clic en **Abrir** y luego en **Ejecutar** cuando se le solicite.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Abrir y editar una estructura de descomposición del trabajo en Microsoft Project Client
-Si un proyecto en Dynamics 365 Finance ya tiene una estructura de desglose de trabajo creada, la estructura de descomposición del trabajo se puede abrir en la aplicación Microsoft Project Client si la estructura de descomposición del trabajo está en un estado de borrador. Para abrir desde la página **Proyecto** , haga clic en el vínculo **Abrir en Microsoft Project** desde la pestaña **Plan**. Esta página también se puede abrir desde la aplicación Microsoft Project Client haciendo clic en **Abrir** en la pestaña **Microsoft Dynamics 365**. Seleccione **Entidad jurídica** y **Proyecto** desde la lista.
+Si un proyecto en Dynamics 365 Finance ya tiene una estructura de desglose de trabajo creada, la estructura de descomposición del trabajo se puede abrir en la aplicación Microsoft Project Client si la estructura de descomposición del trabajo está en un estado de borrador. Para abrir desde la página **Proyecto**, haga clic en el vínculo **Abrir en Microsoft Project** desde la pestaña **Plan**. Esta página también se puede abrir desde la aplicación Microsoft Project Client haciendo clic en **Abrir** en la pestaña **Microsoft Dynamics 365**. Seleccione **Entidad jurídica** y **Proyecto** desde la lista.
 
 > [!NOTE]
 > Si está usando Internet Explorer como su explorador, deberá hacer clic en **Guardar** para abrir manualmente desde la ubicación en la que se descargó el archivo. O haga clic en **Guardar y abrir** para abrir el archivo en Microsoft Project Client. No cambie el nombre del archivo al guardar.
@@ -82,7 +82,7 @@ Para crear una estructura de descomposición del trabajo nueva para un proyecto 
 
 1.  Abra Microsoft Project Client.
 
-2.  En la pestaña **Microsoft Dynamics 365** , haga clic en **Abrir**.
+2.  En la pestaña **Microsoft Dynamics 365**, haga clic en **Abrir**.
 
 3.  Seleccione la **Entidad jurídica** para el proyecto.
 
@@ -99,7 +99,7 @@ Para crear una nueva estructura de descomposición del trabajo con Microsoft Pro
 
 2.  Cree el programa en Microsoft Project Client.
 
-3.  En la pestaña **Microsoft Dynamics 365** , haga clic en **Guardar cambios** > **Reemplazar proyecto existente**.
+3.  En la pestaña **Microsoft Dynamics 365**, haga clic en **Guardar cambios** > **Reemplazar proyecto existente**.
 
 4.  Seleccione la **Entidad jurídica** para el proyecto.
 
@@ -114,15 +114,15 @@ Para crear una nueva estructura de descomposición del trabajo con Microsoft Pro
 
 2.  Cree el programa en Microsoft Project Client.
 
-3.  En la pestaña **Microsoft Dynamics 365** , haga clic en **Guardar cambios** > **Guardar en nuevo proyecto**.
+3.  En la pestaña **Microsoft Dynamics 365**, haga clic en **Guardar cambios** > **Guardar en nuevo proyecto**.
 
 4.  Seleccione la **Entidad jurídica** para el proyecto.
 
-5.  Especifique **Id. del proyecto** , si necesario.
+5.  Especifique **Id. del proyecto**, si necesario.
 
 6.  Especifique el **Nombre del proyecto**.
 
-7.  Seleccione **Tipo de proyecto** , **Grupo de proyecto** e **Id. del contrato del proyecto**. Alternativamente, puede crear un nuevo contrato de proyecto haciendo clic en **Nuevo**.
+7.  Seleccione **Tipo de proyecto**, **Grupo de proyecto** e **Id. del contrato del proyecto**. Alternativamente, puede crear un nuevo contrato de proyecto haciendo clic en **Nuevo**.
 
 8.  Selecciona el **Calendario** que se va a utilizar para dotar de recursos.
 

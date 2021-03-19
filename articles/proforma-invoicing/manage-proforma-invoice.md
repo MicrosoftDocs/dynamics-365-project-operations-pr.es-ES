@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f3aab57f159dbb522ebe5d24dc3693034f6f81f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 29e301062f8f3ba955a95953bc2e891f3acaf765
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181473"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287709"
 ---
 # <a name="manage-a-proforma-invoice"></a>Administrar una factura proforma
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
 
-En Dynamics 365 Project Operations, las facturas proforma se crean como una extensión de las facturas en Dynamics 365 Sales. Sin embargo, existen muchas diferencias en el proceso de facturación entre Sales y Project Operations cuando se trata de facturación. Por ejemplo, no es posible crear una nueva factura desde la página **Lista de facturas** en Project Operations, pero es posible hacerlo en Sales. Estas diferencias y extensiones están implementadas para respaldar los procesos de facturación para proyectos que son diferentes de una factura típica para un pedido de cliente.
+En Dynamics 365 Project Operations, las facturas proforma se crean como una extensión de las facturas de Dynamics 365 Sales. Sin embargo, existen muchas diferencias en el proceso de facturación entre Sales y Project Operations cuando se trata de facturación. Por ejemplo, no es posible crear una nueva factura desde la página **Lista de facturas** en Project Operations, pero es posible hacerlo en Sales. Estas diferencias y extensiones están implementadas para respaldar los procesos de facturación para proyectos que son diferentes de una factura típica para un pedido de cliente.
 
 > [!IMPORTANT]
 > Debido a las diferencias, no use las facturas en Sales y Project Operations de manera intercambiable.

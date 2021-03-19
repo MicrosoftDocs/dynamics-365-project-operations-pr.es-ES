@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085280"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289705"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronizar los datos reales del proyecto directamente desde Project Service Automation con el diario de integración del proyecto para su publicación en Finance and Operations
 
@@ -54,8 +54,8 @@ Para tener acceso a las plantillas disponibles, en el centro de administración 
 
 La siguiente plantilla y las tareas subyacentes se utilizan para sincronizar los datos reales del proyecto de Project Service Automation a Finance:
 
-- **Nombre de la plantilla en Integración de datos** : datos reales del proyecto (PSA a Fin and Ops)
-- **Nombre de las tareas en el proyecto** :
+- **Nombre de la plantilla en Integración de datos**: datos reales del proyecto (PSA a Fin and Ops)
+- **Nombre de las tareas en el proyecto**:
 
     - Datos reales
     - TransactionConnections
@@ -88,7 +88,7 @@ En la plantilla de datos reales del proyecto, debe usar Microsoft Power Query pa
 #### <a name="contract-organizational-unit"></a>Unidad organizativa del contrato
 Para actualizar la columna condicional insertada en la plantilla, haga clic en la flecha **Asignar** para abrir la asignación. Selecciona el vínculo **Consulta y filtrado avanzados** para abrir Power Query.
 
-- Si está utilizando la plantilla predeterminada de datos reales del proyecto (PSA a Fin and Ops), en Power Query, seleccione la última **Condición insertada** en la sección **Pasos aplicados**. En la entrada **Función** , sustituya **USSI** con el nombre de la entidad jurídica que se debe utilizar con la integración. Agregue condiciones adicionales a la entrada **Función** que necesite y actualice la condición **else** en **USMF** para la entidad jurídica correcta.
+- Si está utilizando la plantilla predeterminada de datos reales del proyecto (PSA a Fin and Ops), en Power Query, seleccione la última **Condición insertada** en la sección **Pasos aplicados**. En la entrada **Función**, sustituya **USSI** con el nombre de la entidad jurídica que se debe utilizar con la integración. Agregue condiciones adicionales a la entrada **Función** que necesite y actualice la condición **else** en **USMF** para la entidad jurídica correcta.
 - Si está creando una nueva plantilla, debe agregar la columna para admitir el tiempo y los gastos de empresas vinculadas. Seleccione **Agregar columna condicional** y especifique un nombre para la columna, como **EntidadJurídica**. Ingrese una condición para la columna, donde, si **msdyn\_contractorganizationalunitid.msdyn\_name** es \<organizational unit\>, luego \<enter the legal entity\>; más nulo.
 
 ### <a name="template-mapping-in-data-integration"></a>Asignación de plantillas en la integración de datos
@@ -109,8 +109,8 @@ El proceso periódico de importar desde la tabla de almacenamiento provisional d
 
 La siguiente plantilla y las tareas subyacentes se utilizan para sincronizar el número de comprobante y los impuestos para las transacciones del proyecto publicadas desde Finance a Project Service Automation:
 
-- **Nombre de la plantilla en Integración de datos** : actualización de los datos reales del proyecto (Fin and Ops a PSA).
-- **Nombre de las tareas en el proyecto** :
+- **Nombre de la plantilla en Integración de datos**: actualización de los datos reales del proyecto (Fin and Ops a PSA).
+- **Nombre de las tareas en el proyecto**:
 
     - Datos reales 
     - TransactionConnections

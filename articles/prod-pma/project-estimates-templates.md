@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 336de474c859d30d1ec07ae34bf0c3d578faeef1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58e204b2c1238e00ffb16533cc82dad69fbf77a9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085276"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289480"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizar las estimaciones del proyecto y los proyectos directamente desde Project Service Automation a Finance and Operations
 
@@ -50,8 +50,8 @@ Para tener acceso a las plantillas disponibles, en el centro de administración 
 
 La siguiente plantilla y las tareas subyacentes se utilizan para sincronizar las estimaciones de horas del proyecto de Project Service Automation a Finance:
 
-- **Nombre de la plantilla en Integración de datos** : estimaciones de horas del proyecto (PSA a Fin and Ops)
-- **Nombre de las tareas en el proyecto** :
+- **Nombre de la plantilla en Integración de datos**: estimaciones de horas del proyecto (PSA a Fin and Ops)
+- **Nombre de las tareas en el proyecto**:
 
     - Relaciones de transacción
     - Estimaciones de gastos
@@ -82,7 +82,7 @@ En la plantilla de estimaciones de horas del proyecto, debe usar Microsoft Power
 
 Para actualizar el identificador del modelo de previsión predeterminado en la plantilla, haga clic en la flecha **Asignar** para abrir la asignación. Después, seleccione el vínculo **Consulta y filtrado avanzados**.
 
-- Si está utilizando la plantilla predeterminada de estimaciones de horas del proyecto (PSA a Fin and Ops), seleccione la última **Condición insertada** en la lista **Pasos aplicados**. En la entrada **Función** , sustituya **O\_forecast** con el nombre del identificador del modelo de previsión que se debe utilizar con la integración. La plantilla predeterminada tiene un identificador del modelo de previsión de los datos de demostración.
+- Si está utilizando la plantilla predeterminada de estimaciones de horas del proyecto (PSA a Fin and Ops), seleccione la última **Condición insertada** en la lista **Pasos aplicados**. En la entrada **Función**, sustituya **O\_forecast** con el nombre del identificador del modelo de previsión que se debe utilizar con la integración. La plantilla predeterminada tiene un identificador del modelo de previsión de los datos de demostración.
 - Si está creando una nueva plantilla, debe agregar esta columna. En Power Query, seleccione **Agregar columna condicional** y especifique un nombre para la nueva columna, como **ModelID**. Introduzca la condición para la columna, donde, si tarea de proyecto no es nulo, entonces \<enter the forecast model ID\>; también es nulo.
 
 #### <a name="filter-out-resource-specific-records"></a>Filtrar registros específicos de recursos
@@ -105,8 +105,8 @@ La siguiente ilustración muestra un ejemplo de la asignación de tareas de plan
 
 La siguiente plantilla y las tareas subyacentes se utilizan para sincronizar las estimaciones de gastos del proyecto de Project Service Automation a Finance:
 
-- **Nombre de la plantilla en Integración de datos** : estimaciones de gastos del proyecto (PSA a Fin and Ops)
-- **Nombre de las tareas en el proyecto** :
+- **Nombre de la plantilla en Integración de datos**: estimaciones de gastos del proyecto (PSA a Fin and Ops)
+- **Nombre de las tareas en el proyecto**:
 
     - Relaciones de transacción 
     - Estimaciones de gastos
@@ -143,7 +143,7 @@ La plantilla de estimaciones de gastos del proyecto (PSA a Fin and Ops) tiene un
 
 Para actualizar el identificador del modelo de previsión predeterminado en la plantilla, seleccione la tarea **Estimaciones de gastos** y, luego, haga clic en la flecha **Asignar** para abrir la asignación. Seleccione el vínculo **Consulta y filtrado avanzados**.
 
-- Si está utilizando la plantilla predeterminada de estimaciones de gastos del proyecto (PSA a Fin and Ops), en Power Query, seleccione la primera **Condición insertada** en la sección **Pasos aplicados**. En la entrada **Función** , sustituya **O\_forecast** con el nombre del identificador del modelo de previsión que se debe utilizar con la integración. La plantilla predeterminada tiene un identificador del modelo de previsión de los datos de demostración.
+- Si está utilizando la plantilla predeterminada de estimaciones de gastos del proyecto (PSA a Fin and Ops), en Power Query, seleccione la primera **Condición insertada** en la sección **Pasos aplicados**. En la entrada **Función**, sustituya **O\_forecast** con el nombre del identificador del modelo de previsión que se debe utilizar con la integración. La plantilla predeterminada tiene un identificador del modelo de previsión de los datos de demostración.
 - Si está creando una nueva plantilla, debe agregar esta columna. En Power Query, seleccione **Agregar columna condicional** y especifique un nombre para la nueva columna, como **ModelID**. Introduzca la condición para la columna, donde, si la línea de identificación no es estimada no es nulo, entonces \<enter the forecast model ID\>; también es nulo.
 
 #### <a name="transform-the-billing-types"></a>Transformar los tipos de facturación
