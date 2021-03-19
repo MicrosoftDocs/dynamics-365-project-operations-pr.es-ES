@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cacf3913c3893dd09509cd02361c4a21bed59825
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121554"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280104"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Agregar miembros del equipo desde la cuadrícula Miembros del equipo
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Dynamics 365 Project Operations incluye un panel Administrador de recursos que proporciona información general visual de la utilización y la demanda de recursos en la organización. Puede usar los gráficos de este panel para visualizar la siguiente información:
+Dynamics 365 Project Operations incluye un panel de administrador de recursos que proporciona información general visual de la utilización y la demanda de recursos en la organización. Puede usar los gráficos de este panel para visualizar la siguiente información:
 
 - **Demanda de recursos**: el gráfico **Solicitudes de recursos activas** muestra los recursos que se han enviado. Los recursos se agregan por rol o por proyecto.
 - **Demanda de recursos no enviada**: el gráfico **Demanda de recursos sin asignar** muestra todos los requisitos de recursos que no se han enviado. Este gráfico ayuda a los administradores de recursos a ver la demanda que no es firme y que se puede enviar con una solicitud de recursos.
@@ -42,7 +42,7 @@ Para agregar un miembro del equipo directamente a un proyecto, en el formulario 
 
 ### <a name="book-a-team-member-to-fulfill-resource-requirements-for-a-generic-resource"></a>Reservar un miembro del equipo para cumplir los requisitos de recursos de un recurso genérico
 
-En Operaciones de proyecto, puede reservar un recurso genérico en un equipo de proyecto. También puede especificar el rol, la capacidad requerida y cómo se distribuye esa capacidad. Para el requisito del recurso, puede especificar los atributos asociados al recurso genérico. Estos atributos incluyen los conocimientos necesarios, la unidad organizativa preferida y los recursos preferidos.
+En Operaciones de proyecto, puede reservar un recurso genérico en un equipo de proyecto. También puede especificar el rol, la capacidad requerida y cómo se distribuye esa capacidad. Para el requisito de recursos, puede especificar atributos que estén asociados al recurso genérico. Estos atributos incluyen los conocimientos necesarios, la unidad organizativa preferida y los recursos preferidos.
 
 Complete estos pasos para especificar las habilidades necesarias en un recurso genérico para un desarrollador.
 
@@ -75,7 +75,7 @@ Complete estos pasos para especificar las habilidades necesarias en un recurso g
 
 ## <a name="assign-generic-resources-to-tasks-and-generate-resource-requirements"></a>Asignar recursos genéricos a varias tareas y generar requisitos de recurso
 
-En Project Operations, puede crear tareas y asignarles después recursos genéricos. Entonces, se puede representar la demanda de recursos con marcadores de posición mientras realiza una estimación de su programación y de sus finanzas. De este modo, puede generar requisitos de recursos para los recursos genéricos y cumplirlos.
+En Project Operations, puede crear tareas y asignarles después recursos genéricos. Después, la demanda de recursos se puede representar mediante marcadores de posición mientras se calculan la programación y las cifras financieras. De este modo, puede generar requisitos de recursos para los recursos genéricos y cumplirlos.
 
 1. En el formulario **Proyectos**, en la pestaña **Programación**, seleccione **Agregar** para crear una tarea.
 2. En el campo **Recursos**, seleccione el símbolo de **Selector de recursos**. Aparecerá el selector de recursos para mostrar los miembros del equipo existentes para el proyecto.
@@ -191,7 +191,7 @@ La pestaña también muestra un total neto del proyecto, junto con una columna t
 Para cada recurso, la pestaña calcula la diferencia entre las reservas de un miembro del equipo y un resumen de las asignaciones de tareas del miembro del equipo. Idealmente, esta diferencia debería ser 0 (cero). Es decir, no debería haber diferencia entre las reservas y las asignaciones. Las diferencias se muestran en color y sombreadas para llamar la atención en torno a dos condiciones:
 
 - **Escasez de reservas**: ocurre cuando un recurso tiene más asignaciones que reservas. Puesto que esta capacidad no se ha reservado, puede que el administrador de proyecto desee corregir esa condición extendiendo las reservas del recurso para cubrir el déficit.
-- **Reservas en exceso**: ocurre cuando se ha reservado un recurso para el proyecto, pero no se ha asignado a tareas. Esta condición podría ser aceptable en los casos en los que el recurso se reservó para el proyecto antes de que se produjera la asignación de tareas. Sin embargo, en otros casos, el recurso no está planificado para la asignarse a las tareas. En estos casos, el administrador de proyecto debería considerar cancelar las reservas del recurso de modo que la capacidad pueda utilizarse para otro proyecto.
+- **Reservas en exceso**: ocurre cuando se ha reservado un recurso para el proyecto, pero no se ha asignado a tareas. Esta condición puede ser aceptable en los casos en los que el recurso se reservó en el proyecto antes de que se produjera la asignación de tareas. Sin embargo, en otros casos, el recurso no está planificado para la asignarse a las tareas. En estos casos, el administrador de proyecto debería considerar cancelar las reservas del recurso de modo que la capacidad pueda utilizarse para otro proyecto.
 
 En algunos casos, cuando se visualiza el tiempo a un nivel superior al nivel de días (por ejemplo, al nivel de meses), puede ver una diferencia neta de cero para un recurso. En otras palabras, reservas = asignaciones. Sin embargo, si visualiza el tiempo en el nivel de semana, puede ver que hay asignaciones de cero horas y reservas de 40 horas en la primera semana, y asignaciones de 40 horas y reservas de cero horas en la segunda semana. En general, las reservas y las asignaciones se concilian, pero hay diferencias de una semana a la siguiente.
 
