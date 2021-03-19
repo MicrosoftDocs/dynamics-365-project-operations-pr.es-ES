@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ea54d83b1e26d1ee3520dbfab9ba56ffd1191dc9
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e61a9fbf357123884397b930662d11f22bfdeaa0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181878"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277809"
 ---
 # <a name="project-based-quote-lines-overview"></a>Información general sobre líneas de ofertas basadas en proyectos
 
@@ -34,7 +34,7 @@ La siguiente tabla proporciona información sobre los campos de la pestaña **Ge
 | **Campo** | **Descripción** | **Impacto posterior** |
 | --- | --- | --- |
 | Nombre | El nombre de la línea de oferta que debería ayudarle a identificar el componente discreto de la oferta que se está estimando. | Se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta. |
-| Método de facturación | En una oferta creada a partir de una oportunidad, este valor se copia del campo correspondiente en la línea de oportunidad. Este campo incluye los dos modelos de contratación principales admitidos por Dynamics 365 Project Operations:</br>- Precio fijo</br>- Tiempo y material.| Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta. |
+| Método de facturación | En una oferta creada a partir de una oportunidad, este valor se copia del campo correspondiente en la línea de oportunidad. Este campo incluye los dos principales modelos de contratación soportados por Dynamics 365 Project Operations:</br>- Precio fijo</br>- Tiempo y material.| Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta. |
 | Project | Utilice este campo opcional para identificar el proyecto que se utilizará para entregar el trabajo en este compromiso. Cuando un proyecto se asigna a una línea de oferta, ayuda a configurar las tareas facturables y también a traer una estimación basada en el proyecto a la línea de oferta como detalles de la línea de oferta. Cuando un proyecto no está asignado a una línea de oferta basada en proyecto, la estimación debe crearse manualmente creando cada detalle de línea de oferta. | Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta. |
 | Incluir tiempo | Un indicador **Sí**/**No** indica si las transacciones de tiempo o los costes laborales del proyecto seleccionado se incluirán en la estimación de esta línea de oferta. Un valor **No** indica que las transacciones de tiempo o los costes laborales no se incluirán en la estimación de esta línea de oferta. Un valor **Sí** indica que las transacciones de tiempo o los costes laborales se incluirán en la estimación de esta línea de oferta. | Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta. |
 | Incluir gasto | Un indicador **Sí**/**No** indica si los costes de gastos del proyecto seleccionado se incluirán en la estimación de esta línea de oferta. Un valor **No** indica que el coste de gastos no se incluirá en la estimación de esta línea de oferta. Un valor **Sí** indica que el coste de gastos se incluirá en la estimación de esta línea de oferta. | Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta. |

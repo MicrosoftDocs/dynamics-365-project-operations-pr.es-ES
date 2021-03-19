@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8b85464dbb68523b122116225a604f67e7236f3e
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 4d66b5fc642ef53adf1169ce891a7a5fa26b07d6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401397"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279339"
 ---
 # <a name="resource-utilization-overview"></a>Información general de utilización de recursos
 
@@ -23,10 +23,10 @@ Los recursos pueden tener un uso facturable objetivo. Este uso objetivo se defin
 
 Se utilizan las siguientes fórmulas para calcular el uso:
 
-  - Uso facturable = Horas reales imputables ÷ Capacidad de recursos
-  - Uso no facturable = Tiempo real con Id. de tipo de facturación = No imputable, Complementario o No disponible ÷ Capacidad de recursos
-  - Interno = Tiempo real sin contrato de venta ÷ Capacidad de recursos
-  - Capacidad de recursos = Horas de trabajo de recursos - Fuera de la oficina - Días no laborables
+  - Uso facturable = Horas reales facturables ÷ Capacidad del recurso
+  - Uso no facturable = Tiempo real con id. de tipo de facturación = No imputable, complementario o no disponible ÷ Capacidad del recurso
+  - Interno = Tiempo real sin contrato de venta ÷ Capacidad del recurso
+  - Capacidad del recurso = Horas de trabajo del recurso – Fuera de la oficina – Días festivos
 
 Puede encontrar la vista **Uso de recursos** en el panel **Recursos**.
 

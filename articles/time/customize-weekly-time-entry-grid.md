@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f446e24f3a61914a46a552fdc38b986d8b924747
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124659"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277179"
 ---
 # <a name="extending-time-entries"></a>Extensión de entradas de tiempo
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Dynamics 365 Project Operations incluye un control personalizado de entrada de tiempo ampliable. Este control incluye las siguientes características:
+Dynamics 365 Project Operations incluye un control personalizado de entrada de tiempo extensible. Este control incluye las siguientes características:
 
 - Introduzca el tiempo horizontalmente durante una semana
 - Totales por día, fila o semana

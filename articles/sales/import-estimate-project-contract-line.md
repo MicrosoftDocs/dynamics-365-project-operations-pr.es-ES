@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde924c24dcffe2a8fb690e6eb429e4c3d9fb28
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d51eb890a4744051ddd7268e1f1f11b15a23b609
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126414"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278394"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Importar una estimación a una línea de contrato basada en proyecto
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
 
-En Dynamics 365 Project Operations, puede importar estimaciones de un proyecto a una línea de contrato basada en proyecto.
+En Dynamics 365 Project Operations puede importar estimaciones de un proyecto a una línea de contrato basada en proyecto.
 
 1. Verifique que el campo **Proyecto** en la línea de contrato basada en proyecto se ha rellenado.
 2. En la pestaña **Detalles de línea de contrato**, en la subcuadrícula, seleccione **Importar desde estimación de proyecto**. Se abre una página de diálogo con opciones de resumen. Las opciones de resumen disponibles son **Clase de transacción**, **Categoría**, **Rol** y **Tarea de proyecto**. Según la selección para resumir, se copia la estimación del proyecto para todas las clases de transacciones incluidas en esta línea de contrato. 

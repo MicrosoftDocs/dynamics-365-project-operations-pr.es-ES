@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4182013"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277899"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Administrar varios clientes en una oferta de proyecto
 
@@ -23,7 +23,7 @@ Las ofertas del proyecto respaldan el escenario en el que la propuesta involucra
 
 Todos los clientes de oferta de la pestaña **Clientes** de la oferta del proyecto sirven de forma predeterminada como clientes de línea de oferta en cualquier **nueva** línea de oferta basada en el proyecto creada para la oferta. Las líneas de oferta existentes basadas en proyectos no heredarán los nuevos registros de clientes de oferta creados después de ellas.
 
-Los clientes de oferta y los clientes de línea de oferta se pueden agregar, actualizar o eliminar en cualquier momento antes de ganar la oferta. Un cliente válido de la oferta debe configurarse como cliente en la empresa propietaria o entidad legal en la página **Clientes**. Las entidades jurídicas están constituidas en el módulo **Gestión de proyectos y contabilidad** de Dynamics 365 Project Operations y están disponibles como empresas en los módulos **Venta y entrega de proyectos** de Project Operations.
+Los clientes de oferta y los clientes de línea de oferta se pueden agregar, actualizar o eliminar en cualquier momento antes de ganar la oferta. Un cliente válido de la oferta debe configurarse como cliente en la empresa propietaria o entidad legal en la página **Clientes**. Las entidades jurídicas están configuradas en el módulo **Gestión de proyectos y contabilidad** de Dynamics 365 Project Operations y están disponibles como empresas en los módulos **Ventas de proyectos y Entrega** de Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Concepto de cliente principal
 

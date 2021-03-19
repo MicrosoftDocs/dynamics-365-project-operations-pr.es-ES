@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 899279b33f4fe8780d110d7c18a097407bd8d839
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121329"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277539"
 ---
 # <a name="quotes---key-concepts"></a>Ofertas: conceptos clave
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-En Dynamics 365 Project Operations, hay dos tipos de ofertas, proyectos y ventas. A continuación se indican las diferencias entre estos dos tipos de ofertas:
+En Dynamics 365 Project Operations, hay dos tipos de ofertas, proyecto y ventas. A continuación se indican las diferencias entre estos dos tipos de ofertas:
 
 - **Cuadrículas para elementos de línea**: En una oferta de ventas, solo hay una cuadrícula para los elementos de línea. En una oferta de proyecto, hay dos cuadrículas para elementos de línea. Una cuadrícula es para líneas de proyecto y la otra es para líneas de producto.
 - **Activación y revisiones**: Las ofertas de ventas respaldan la activación y las revisiones. Estos procesos no son compatibles con una oferta de proyecto.

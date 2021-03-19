@@ -1,6 +1,6 @@
 ---
 title: Información general sobre los modos de administración de recursos
-description: Este tema proporciona información sobre la funcionalidad de gestión de recursos en las Dynamics 365 Project Operations.
+description: En este tema se proporciona información sobre la función de administración de proyecto en Dynamics 365 Project Operations.
 author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 73ba6190e2e366f22372102d14d26f6d71ba0bc1
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118539"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279474"
 ---
 # <a name="resource-management-modes-overview"></a>Información general sobre los modos de administración de recursos
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
 
-Dynamics 365 Project Operations admite dos modos para poder ejecutar el flujo de reserva general. El modo de gestión se define como un parámetro del proyecto y se puede modificar si sus necesidades comerciales cambian.    
+Dynamics 365 Project Operations admite dos modos para ejecutar el flujo de las reservas en general. El modo de gestión se define como un parámetro del proyecto y se puede modificar si sus necesidades comerciales cambian.    
 
 ## <a name="central-mode"></a>Modo central
 Para las organizaciones que centralizan la asignación de recursos a los proyectos, el modo Central proporciona una forma de garantizar que los gerentes de proyecto puedan definir los requisitos de recursos a nivel de proyecto. El cumplimiento de los requisitos de recursos se delega a un administrador de recursos. Los administradores de proyecto pueden aceptar o rechazar los recursos propuestos por el administrador de recursos.

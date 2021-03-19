@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5a8bfea5540432a62d7075443cf237571bfa4de
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118494"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277854"
 ---
 # <a name="manage-project-based-opportunities"></a>Administrar oportunidades basadas en proyectos
 
@@ -45,12 +45,12 @@ El proceso de negocio de cliente potencial a oportunidad comprende las etapas si
 | Fase | Entidad mapeada | Funcionalidad |
 | --- | --- | --- |
 | Calificar | Cliente potencial | Calificar el cliente potencial para crear una cuenta, un contacto y una oportunidad. |
-| Desarrollar | Oportunidad | Desarrolle la oportunidad de agregar más información sobre el trabajo involucrado, las partes interesadas clave y la competencia. |
+| Desarrollar | Oportunidad | Desarrolle la oportunidad para agregar más información sobre el trabajo involucrado, las partes interesadas clave y la competencia. |
 | Proponer | Oportunidad | Desarrolle la propuesta y obtenga la aprobación del equipo de revisión interno. |
-| Cerrada | Oportunidad | Gane la oportunidad de cerrar la oferta. |
+| Cerrada | Oportunidad | Gane la oportunidad para cerrar la oferta. |
 
 ### <a name="opportunity-sales-process"></a>Proceso de venta de la oportunidad
-El proceso de ventas de Oportunidades en Project Operations es una extensión del flujo de negocios del proceso de ventas de Oportunidades en la aplicación Sales. Este proceso comercial está diseñado de manera inmediata para respaldar las siguientes etapas en una oportunidad basada en proyectos.
+El proceso de venta de la oportunidad en Project Operations es una extensión del flujo de proceso de negocio de venta de oportunidad en Dynamics 365 Sales. Este proceso de negocio está diseñado de manera inmediata para respaldar las siguientes etapas de una oportunidad basada en proyectos.
 
 | Fase | Entidad mapeada | Funcionalidad |
 | --- | --- | --- |

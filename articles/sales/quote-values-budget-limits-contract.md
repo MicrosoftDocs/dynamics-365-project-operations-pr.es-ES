@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 7be5f0824bfc4a58f3caabdde70a0b5b11c6f14c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180258"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277584"
 ---
 # <a name="project-quote-settings"></a>Configuración de oferta de proyecto
 
@@ -22,7 +22,7 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no en e
 
 Este artículo explica la información que se aplica a una oferta de proyecto. Esto incluye la configuración que afecta a todas las líneas de oferta e información sobre la oferta que se resume en todas las líneas de pedido para impulsar los KPI de la oferta del proyecto.
 
-La siguiente tabla enumera los campos de información de resumen de una oferta de proyecto que son exclusivos de Dynamics 365 Project Operations o tienen algunos cambios importantes en el comportamiento de las ofertas de Dynamics 365 Sales.
+La siguiente tabla enumera los campos de información de resumen en una oferta de proyecto que son exclusivos de Dynamics 365 Project Operations o tiene algunos cambios importantes en el comportamiento de los presupuesots de Dynamics 365 Sales.
 
 | **Campo** | **Ubicación** | **Descripción** | **Impacto posterior** |
 | --- | --- | --- | --- |

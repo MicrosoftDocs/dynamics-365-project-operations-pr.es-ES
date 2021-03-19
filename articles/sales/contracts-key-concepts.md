@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fa00bd5b4a1179f38d5dfb63a47b39eec69c6ecf
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 43ee08d5dd9d7ea956bcec5302d4788059a8f617
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642159"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278664"
 ---
 # <a name="project-contracts---key-concepts"></a>Contratos de proyectos: conceptos clave
 
@@ -29,17 +29,17 @@ La empresa propietaria es la entidad legal del módulo **Gestión de proyectos y
 
 ## <a name="contracting-unit"></a>Unidad de contratación
 
-La unidad contratante representa la división o práctica propietaria de la entrega del proyecto. Puede configurar costes de recursos para cada unidad de contratación. Cuando especifica el coste del recurso para un recurso, también podrá configurar diferentes tasas de coste para los recursos. Esta unidad contratante toma prestados estos recursos de otras divisiones o prácticas dentro de la empresa. Las tasas de coste para los recursos se conocen como precios de transferencia, préstamos de recursos o precios de cambio. Cuando configura las tasas de coste para pedir prestados recursos de otras divisiones, usa la moneda de la división que presta.
+La unidad contratante representa la división o práctica propietaria de la entrega del proyecto. Puede configurar los costes de recursos de cada unidad de contratación. Cuando especifica el coste de un recurso, también puede configurar diferentes tarifas de costes para los recursos. Esta unidad contratante toma prestados estos recursos de otras divisiones o prácticas dentro de la empresa. Las tasas de coste para los recursos se conocen como precios de transferencia, préstamos de recursos o precios de cambio. Cuando configura las tasas de coste para pedir prestados recursos de otras divisiones, usa la moneda de la división que presta.
 
 ## <a name="cost-currency"></a>Moneda de coste
 
-La moneda de coste es la divisa en la que se informan los costes en pantalla. Esta moneda se deriva de la moneda adjunta al campo **Unidad de contratación** del contrato y el proyecto. Los costes se pueden registrar en cualquier moneda contra un proyecto. Sin embargo, existe una conversión de moneda de la moneda en que se registraron los costes a la moneda de coste del proyecto cuando aparecen en la pantalla.
+La moneda de coste es la divisa en la que se informan los costes en pantalla. Esta moneda se deriva de la moneda adjunta al campo **Unidad de contratación** del contrato y el proyecto. Los costes se pueden registrar en cualquier divisa para un proyecto. Sin embargo, existe una conversión de moneda de la moneda en que se registraron los costes a la moneda de coste del proyecto cuando aparecen en la pantalla.
 
 Debido a que las tasas de cambio en la plataforma Common Data Service (CDS) no pueden tener vigencia en una fecha determinada, los totales en pantalla del coste pueden cambiar con el tiempo si actualiza las tasas de cambio de moneda. Sin embargo, los costes registrados en la base de datos permanecen sin cambios porque los importes se almacenan en la moneda en la que se incurrieron.
 
 ## <a name="sales-currency"></a>Divisa de venta
 
-La moneda de ventas en Project Operations es la moneda en la que se registran y muestran los importes de ventas estimados y reales. La moneda de ventas también es la moneda en la que se factura al cliente la transacción. En un contrato de proyecto, la moneda de venta se establece por defecto en el registro de cuenta o cliente y se puede cambiar cuando se crea la cotización. Cuando se crea un contrato al cerrar una cotización como ganado, la divisa del contrato se establece por defecto con respecto a la divisa de la cotización.
+La moneda de ventas en Project Operations es la moneda en la que se registran y muestran los importes de ventas estimados y reales. La divisa de ventas es también la divisa en la que se factura la transacción al cliente. En un contrato de proyecto, la moneda de venta se establece por defecto en el registro de cuenta o cliente y se puede cambiar cuando se crea la cotización. Cuando se crea un contrato al cerrar una cotización como ganado, la divisa del contrato se establece por defecto con respecto a la divisa de la cotización.
 
 Cuando crea un contrato de proyecto desde cero, el campo **Moneda de venta** no se puede editar. Las listas de precios de productos y proyectos están predeterminadas según esta moneda en el contrato.
 
@@ -71,7 +71,7 @@ Los valores de costes y ventas se pueden estimar e incurrir en Tiempo, Gastos y 
 
 ## <a name="work-entities-and-billing-entities"></a>Entidades de trabajo y entidades de facturación
 
-Las entidades que representan el trabajo son proyectos y tareas. Las entidades que representan aspectos de facturación son líneas de contrato. Puede vincular diferentes entidades de trabajo a opciones de facturación asociándolas a otras líneas de contrato.
+Las entidades que representan el trabajo son proyectos y tareas. Las entidades que representan aspectos de facturación son líneas de contrato. Puede vincular diferentes entidades de trabajo a opciones de facturación al asociarlas a las líneas del contrato.
 
 ## <a name="multi-customer-deals"></a>Ofertas para varios clientes
 
@@ -83,7 +83,7 @@ Los acuerdos con varios clientes deben tener más de un cliente para facturar un
 
 ## <a name="invoice-schedules"></a>Programar facturas
 
-Los programas de facturación son específicos para cada línea de contrato y son necesarios para que funcione la facturación automática. Los programas de facturación se crean en función de determinadas fechas de inicio y finalización y la frecuencia de facturación. Los programas de facturación se utilizan en la etapa de contrato cuando se configura el proceso de creación automática de facturas. Cuando un contrato de proyecto se crea a partir de una oferta, la factura está programada para copiarse al contrato de proyecto desde la oferta.
+Los programas de facturación son específicos para cada línea de contrato y son necesarios para que funcione la facturación automática. Los programas de facturas se crean en función de determinadas fechas de inicio y finalización, así como la frecuencia de facturación. Las programaciones se utilizan en la etapa de contrato cuando se configura el proceso de creación automática de facturas. Cuando un contrato de proyecto se crea a partir de una oferta, la factura está programada para copiarse al contrato de proyecto desde la oferta.
 
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Cambios desde una oferta de Dynamics 365 Sales Orders
 
