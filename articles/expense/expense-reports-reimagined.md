@@ -1,9 +1,9 @@
 ---
-title: Informes de gastos reinventados
-description: Este tema proporciona información sobre la experiencia rediseñada y reinventada para la entrada del informe de gastos.
+title: Informes de gastos repensados
+description: Este tema explica la experiencia rediseñada y reinventada para la entrada del informe de gastos.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122826"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499737"
 ---
 # <a name="expense-reports-reimagined"></a>Informes de gastos reinventados
 
@@ -59,25 +59,22 @@ El vídeo [Experiencia de gasto en Dynamics 365 for Finance and Operations](http
 | Reducción de mensajes en la barra de mensajes| Se ha reducido el número de mensajes de Infolog y se ha hecho un esfuerzo para evitar que aparezcan mensajes duplicados en muchos casos. |
 | Acciones comunes agrupadas | La interfaz se limpió con la adición de un nuevo botón de acciones para la mayoría de las acciones comunes a nivel de línea y la adición de un botón de puntos suspensivos (...) para el encabezado y otras acciones menos frecuentes. |
 | Nuevo área de trabajo para aumentar la visibilidad | Un nuevo área de trabajo unifica funciones y vínculos que permiten a los usuarios moverse a diferentes áreas. |
-| Agregar los gastos y recibos existentes durante la creación de gastos | Cuando crea informes de gastos, puede agregar todos los gastos y recibos, o los seleccionados. |
+| Agregar los gastos y recibos existentes durante la creación de gastos | Cuando crea informes de gastos, puede agregar todos los gastos o seleccionar gastos no adjuntos. Los gastos no adjuntos son los gastos que se importaron de la fuente de la tarjeta de crédito corporativa o los gastos que el usuario creó manualmente pero que no se adjuntaron a un informe de gastos.|
 | Calculadora de tipos de cambio | Se agrega una calculadora de tipo de cambio que permite calcular el tipo de cambio para transacciones de desembolso directo en múltiples monedas. |
 | Guardar y agregar nuevas líneas de gastos | Los botones **Guardar** y **Nuevo** están disponibles cuando se ingresan nuevos gastos, para ayudar a introducir rápidamente líneas de gastos. |
 | Mejor visibilidad en líneas divididas y detalladas | Las líneas detalladas y divididas se agregan directamente a la lista de gastos para aumentar la visibilidad y ayudarle a determinar fácilmente si hay algún error. |
 | Mostrar recibos durante el desglose | Los recibos pueden mostrarse durante el desglose. |
+| Selección de anticipo de efectivo | Seleccione uno o más adelantos en efectivo para realizar una sola transacción de gastos. |
+| Saldo de anticipo de efectivo | Revise el saldo de anticipos en efectivo en tiempo real cuando cree una entrada de gastos contra anticipos en efectivo aprobados y pagados. |
 
 La versión inicial se centra en escenarios de entrada de gastos. Cualquier escenario de revisión o aprobación de informe de gastos seguirá utilizando la página de entrada de gastos existente.
 
-Las siguientes funciones están presentes en la página existente, pero aún no están presentes en la nueva página. Estas características se volverán a introducir en las próximas versiones:
+Las siguientes funciones no son compatibles con el espacio de trabajo de gastos reinventado:
 
-- Aprobaciones
-- Aprobaciones de proveedores y capacidad de editar la contabilidad
-- Múltiples puntos de entrada
 - Integración de solicitudes de viaje
-- Entidad de datos para la visibilidad del campo de gastos
-- Entrada para gastos de dietas
-- Flujo de trabajo a nivel de línea
+- Entrada de gastos por día
 - Soporte de aprobador interino
-- Desglose avanzado
+- Capacidad para ver el historial del flujo de trabajo
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

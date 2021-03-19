@@ -3,17 +3,17 @@ title: Comportamiento de la interfaz de usuario de entrada de tiempo
 description: En este tema se proporciona información sobre el comportamiento de la interfaz de usuario de entrada de tiempo.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124524"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499635"
 ---
 # <a name="time-entry-ui-behavior"></a>Comportamiento de la interfaz de usuario de entrada de tiempo
 
@@ -21,6 +21,19 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no mant
 
 
 La cuadrícula **Entrada de tiempo semanal** es un control personalizado que tiene dos secciones principales, **Dimensiones** y **Duración**.
+
+## <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
+| Acción        | Acceso directo                  |
+|------------   |------------------------   |
+| Nueva           | Alt + Mayús + n           |
+| Copiar fila      | Alt + Mayús + c           |
+| Editar entrada    | Alt + Mayús + e           |
+| Editar fila      | Alt + Mayús + Ctrl + e    |
+| Abrir entrada    | Alt + Mayús + o           |
+| Enviar        | Alt + Mayús + s           |
+| Recuperar        | Alt + Mayús + r           |
+| Delete        | Alt + Mayús + d           |
+| Copiar semana     | Alt + Mayús + w           |
 
 ## <a name="dimensions"></a>Dimensiones
 La sección **Dimensiones** muestra las dimensiones en las se puede introducir el tiempo. Las siguientes dimensiones son compatibles y están listas para usar:
@@ -40,7 +53,7 @@ La sección Duración muestra los días de la semana como encabezados de columna
 
 1. En la cuadrícula de entrada de tiempo, seleccione **Nuevo**. 
 2. En el cuadro de diálogo **Creación rápida de entrada de tiempo**, seleccione la fecha de entrada de tiempo.
-3. Introduzca datos para las dimensiones **Proyecto**, **Tarea de proyecto**, **Rol** y **Duración**. Esta información debe agregarse en minutos, horas o días, escribiendo **h**, **m** o **d**, junto con el número. 
+3. Introduzca datos para las dimensiones **Proyecto**, **Tarea de proyecto**, **Rol** y **Duración**. Esta información debe agregarse en minutos, horas o días escribiendo **h**, **m** o **d**, junto con el número. 
 4. Introduzca una descripción para la entrada y cualquier comentario que se pueda compartir externamente en relación con la entrada de tiempo. 
 
 Cuando guarda la entrada, los valores ingresados aparecen en la sección **Dimensiones**. La información introducida en el campo **Duración** aparece en la fecha para la que se creó la entrada de tiempo.
