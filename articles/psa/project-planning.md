@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1439cc1543adbd304d984cdc268d3e5623adc309
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 6544381f611a6caa24e4d470a659ca0b869f3e63
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148259"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283839"
 ---
 # <a name="project-planning-home-page"></a>Página principal de planificación del proyecto
 
@@ -40,7 +40,7 @@ Las herramientas de gestión de proyectos en PSA le ayudan a ejecutar proyectos 
 - Planificación de proyectos mediante una programación de trabajo y estimaciones.
 - Estimación y rastreo de los costes e ingresos del proyecto.
 - Utilizar las estimaciones del proyecto durante el proceso de ventas.
-- Previsión de los requisitos de recursos para proyectos que están en la canalización.
+- Pronosticar los requisitos de recursos para los proyectos que están en trámite.
 - Entrega correcta de proyectos mediante el seguimiento del progreso y el consumo de costes.
 
 Los siguientes temas proporcionan información que ayudará a los administradores de proyecto a estimar el trabajo, estimar los costes del proyecto y pronosticar los requisitos de recursos mediante el uso de las herramientas compatibles con PSA:
