@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db3529597c662a326730cf6a0b855ae865f0dce5
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 74a8435464c8573ca831b7886f00c2695fd29827
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960358"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271374"
 ---
 # <a name="configure-expense-management"></a>Configurar la gestión de gastos
 
@@ -43,7 +43,7 @@ La gestión de gastos está estrechamente integrada con la gestión financiera d
 
 ### <a name="per-diems"></a>Dietas
 
-Debe definir las dietas de los empleados que proporciona su organización. Debido a que las dietas se utilizan normalmente para cubrir gastos como comidas, alojamiento y otros gastos incidentales, puede crear reglas para las dietas que ofrece su organización. las tarifas de dietas pueden basarse en la época del año, el lugar de viaje o ambos. Cuando define una regla de dietas, puede especificar que se retendrá un porcentaje de la tarifa de dieta si un trabajador recibe comidas o servicios gratuitos. También puede definir niveles de tarifas de dietas para establecer el mínimo y máximo de horas que la tarifa de dieta puede aplicarse al viaje de un trabajador.
+Debe definir las dietas de los empleados que proporciona su organización. Dado que las dietas se usan generalmente para cubrir gastos como comidas, alojamiento y otros gastos ocasionales, puede crear reglas para la concesión de dietas que ofrece su organización. Las prestaciones de dietas pueden basarse en la época del año, la ubicación del viaje o ambas. Cuando define una regla de dieta, puede especificar que se retendrá un porcentaje de la tarifa de dietas si un trabajador recibe comidas o servicios de cortesía. También puede definir niveles de tarifas de dietas para establecer el mínimo y máximo de horas que la tarifa de dieta puede aplicarse al viaje de un trabajador.
 
 **Decisiones:**
 
@@ -56,7 +56,7 @@ Debe definir las dietas de los empleados que proporciona su organización. Debid
 
 - Reglas de dietas predeterminadas:
 
-    - ¿Existe una reducción porcentual en la asignación de dietas para cada comida si, por ejemplo, la comida es gratuita? Si hay una reducción, ¿cuál es el porcentaje de la reducción para cada comida?
+    - ¿Existe una reducción porcentual en la asignación de las dietas para cada comida si, por ejemplo, la comida es gratuita? Si hay una reducción, ¿cuál es el porcentaje de la reducción para cada comida?
     - ¿Se calcula la reducción de comida por día, por viaje o por el número de comidas por día?
     - ¿Deben redondearse las cantidades de las dietas de la manera habitual o redondearlas hacia arriba?
     - ¿Se calculan las dietas en un período de 24 horas o en un día calendario?
@@ -82,7 +82,7 @@ La gestión de gastos requiere que utilice varios diarios y cuentas. Debe decidi
 
 ### <a name="payment-methods"></a>Métodos de pago
 
-Cuando permite que los empleados incurran en gastos en nombre de su empresa, debe definir los métodos de pago que los empleados pueden utilizar. Por ejemplo, puede permitir que los empleados usen efectivo o una tarjeta de crédito corporativa. También puede permitir que los empleados usen tarjetas de crédito personales y luego reembolsar a los empleados. Debe tomar las siguientes decisiones para cada método de pago que permita.
+Cuando permite que los empleados incurran en gastos en nombre de su empresa, debe definir los métodos de pago que los empleados pueden utilizar. Por ejemplo, puede permitir que los empleados usen efectivo o una tarjeta de crédito corporativa. También puede permitir que los empleados usen tarjetas de crédito personales y luego reembolsarles el importe. Debe tomar las siguientes decisiones para cada método de pago que permita.
 
 **Decisiones:**
 

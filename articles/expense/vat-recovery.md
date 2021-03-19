@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: c52d5ccef681ef9d9ff767c99af6f2fd0fd6da52
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1c7bd2cb3b200ef3be735484d4e831a7a5793d58
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126144"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275964"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Recuperación del IVA en la gestión de gastos
 
@@ -24,7 +24,7 @@ Para recibir reembolsos en transacciones elegibles de impuesto al valor añadido
 Para recuperar el IVA en el módulo **Administración de gastos**, se deben completar los siguientes requisitos previos:
 
 - Se deben crear códigos de impuestos para países/regiones que se asignan a categorías de gastos.
-- Se debe crear un grupo de impuestos sobre las ventas para cada código de impuestos.
+- Se debe crear un grupo de impuestos para cada código de impuestos.
 - Se debe crear un código de impuestos sobre las ventas de elemento para cada grupo de impuestos sobre las ventas.
 
 Una vez que se completan los requisitos previos, se deben completar los siguientes pasos para solicitar reembolsos por transacciones de IVA.

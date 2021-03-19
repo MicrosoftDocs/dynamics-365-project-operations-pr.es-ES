@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7fce84c9cc1f9c1beda73f403c052f779d10559f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2b6a34e6c744e4b8ad9400f05844fefa005536a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120834"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275919"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
-Microsoft Dynamics 365 Project Operations conecta los equipos de ventas, recursos, gestión de proyectos y finanzas en una sola aplicación para ganar más ofertas, acelerar la entrega de proyectos y maximizar la rentabilidad.
+Microsoft Dynamics 365 Project Operations conecta los equipos de ventas, recursos humanos, gestión de proyectos y finanzas en una sola aplicación para ganar más ofertas, acelerar la entrega de proyectos y maximizar la rentabilidad.
 
 -   **Los líderes obtienen información empresarial** para aumentar la visibilidad en todos los equipos, datos y procesos, además de capacidades de IA para tomar decisiones comerciales mejores y más rápidas.
 -   **Ventas habilitadas** para ganar más ofertas y acelerar el ciclo de ventas con ofertas rápidas y precisas, precios flexibles y transiciones fluidas desde estimaciones a ejecución.
@@ -40,7 +40,7 @@ Project Operations es potente de por sí, pero pueden expandirlo nuestros client
 Para obtener más información, consulte:
 
 - [Información general de operaciones de proyecto](https://dynamics.microsoft.com/en-us/project-operations/overview/)
-- [Descripción general de la oleada 1 de versiones de 2020 de Dynamics 365 Project Operations](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
+- [Visión general de Dynamics 365 Project Operations 2020 Lanzamiento de versión 1](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
 
 

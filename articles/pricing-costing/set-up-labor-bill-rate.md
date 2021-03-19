@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180735"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274839"
 ---
 # <a name="set-up-labor-bill-rates"></a>Configurar tarifas de facturas de mano de obra
 
 **Se aplica a**: Project Operations para escenarios basados en recursos/no mantenidos en existencias
 
-Cada lista de precios tiene un conjunto de precios o tarifas laborales que son efectivas para el contexto y fecha de vigencia incluida en el encabezado de la lista de precios. Las tarifas de facturación por tiempo en Dynamics 365 Project Operations se pueden configurar en una sola moneda, que es la moneda del encabezado de la lista de precios.
+Cada lista de precios tiene un conjunto de precios o tarifas laborales que son efectivas para el contexto y fecha de vigencia incluida en el encabezado de la lista de precios. Facturar tarifas por tiempo en Dynamics 365 Project Operations se puede configurar en una sola moneda, que es la moneda del encabezado de la lista de precios.
 
 1. Para configurar tarifas de mano de obra para una lista de precios de venta, cree una lista de precios basada en el encabezado de la lista de precios. 
 2. En la pestaña **Precios de rol** en la subcuadrícula seleccione **+ Nuevo precio de rol**. 

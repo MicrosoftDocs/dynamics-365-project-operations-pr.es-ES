@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 967e2170aac72de629ebb930e485b8cd6560b6ca
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180978"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272454"
 ---
 # <a name="summary-information-on-a-project-quote---lite"></a>Información de resumen sobre una oferta de proyecto (lite)
 
@@ -21,7 +21,7 @@ _**Se aplica a:** implementación simplificada: de oferta a facturación proform
 
 Este artículo explica la información que se aplica a una oferta de proyecto. Esto incluye la configuración que afecta a todas las líneas de oferta e información sobre la oferta que se resume en todas las líneas de pedido para impulsar los KPI de la oferta del proyecto.
 
-La siguiente tabla enumera los campos de información de resumen de una oferta de proyecto que son exclusivos de Dynamics 365 Project Operations o tienen algunos cambios importantes en el comportamiento de las ofertas de Dynamics 365 Sales.
+La siguiente tabla enumera los campos de información de resumen en una oferta de proyecto que son exclusivos de Dynamics 365 Project Operations o tiene algunos cambios importantes en el comportamiento de los presupuesots de Dynamics 365 Sales.
 
 | **Campo** | **Ubicación** | **Descripción** | **Impacto posterior** |
 | --- | --- | --- | --- |

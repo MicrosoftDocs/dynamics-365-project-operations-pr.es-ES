@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.openlocfilehash: ff675823d84c6e2b83be1e313f881bd672e53981
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650233"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275424"
 ---
 # <a name="pricing-dimensions-overview"></a>Información general de dimensiones de precios
 
@@ -43,8 +43,8 @@ Si necesita fijar el precio o el coste de sus recursos mediante atributos adicio
 
 1. [Crear una solución para dimensiones de precios personalizadas](../sales/create-solution-custompd.md)
 2. [Crear campos y entidades personalizados](create-custom-fields-entities-pricing-dimensions.md)
-3. [Agregar de campos personalizados a la configuración de precios y entidades transaccionales](add-custom-fields-price-setup-transactional-entities.md)
-4. [Configurar campos personalizados como dimensiones de precios](set-up-custom-fields-pricing-dimensions.md)
+3. [Agregar de campos personalizados a la configuración de precios y entidades transaccionales ](add-custom-fields-price-setup-transactional-entities.md)
+4. [Configurar campos personalizados como dimensiones de precios ](set-up-custom-fields-pricing-dimensions.md)
 5. [Actualización de atributos de complemento para incluir nuevas dimensiones de precios](update-plugin-attributes-pd.md)
 
 

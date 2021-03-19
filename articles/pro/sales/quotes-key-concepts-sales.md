@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 63d9fc56f47c3bb7c5477af8f3bfa1be11a09a45
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4178027"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272409"
 ---
 # <a name="quotes---key-concepts---lite"></a>Ofertas: conceptos clave (lite)
 
 _**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
 
 
-Los siguientes son conceptos clave que debe tener en cuenta antes de comenzar a usar ofertas de proyectos en Dynamics 365 Project Operations:
+Los siguientes son conceptos clave que debe conocer antes de comenzar a usar los contratos de proyecto en Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Unidad de contratación
 
@@ -32,7 +32,7 @@ La divisa de coste en Project Operations es la divisa en la que se informan los 
 
 Debido a que las tasas de cambio en la plataforma CDS no pueden tener vigencia en una fecha determinada, los totales en pantalla del coste pueden cambiar con el tiempo si actualiza las tasas de cambio de moneda. Sin embargo, los costes registrados en la base de datos permanecen sin cambios porque los importes se almacenan en la moneda en la que se incurrieron.
 
-## <a name="sales-currency"></a>Divisa de venta
+## <a name="sales-currency"></a>Divisa de ventas
 
 La moneda de ventas en Project Operations es la moneda en la que se registran y muestran los importes de ventas estimados y reales. También es la moneda en la que se factura al cliente la transacción. En una oferta de proyecto, la moneda de venta se establece por defecto en el registro de cuenta o cliente y se puede cambiar cuando se crea la oferta. Una vez guardada la oferta, no se puede cambiar la moneda de ventas. Las listas de precios de productos y proyectos están predeterminadas en función de la moneda de venta de la oferta.
 

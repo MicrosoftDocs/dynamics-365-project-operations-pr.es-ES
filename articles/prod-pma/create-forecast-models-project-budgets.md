@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 32a436d240f5535ff15f8bc3b8ba9be2d1d4da17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a3b9d3c154a85b50536a67ae0eb45d9b4f25f15
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085284"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271059"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Crear modelos de pronóstico para presupuestos de proyectos 
 
@@ -39,11 +39,11 @@ Este tema describe cómo crear un modelo de previsión para los presupuestos res
 3. Establezca la opción **Detenido** a **Sí** para evitar cambios en las líneas de pronóstico del modelo de pronóstico. 
 4. Si las líneas de pronóstico con las que está asociado el modelo deben generar pronósticos de flujo de efectivo en el libro mayor, establezca **Incluir en las previsiones de flujo de caja** a **Sí.** 
 5. Para usar la fecha del proyecto como la fecha de la factura, establezca **Fecha de la factura prevista** a **Sí**. 
-6. En el campo **Tipo de presupuesto** , seleccione uno de los siguientes tipos de modelo:
+6. En el campo **Tipo de presupuesto**, seleccione uno de los siguientes tipos de modelo:
 
-   - **Presupuesto original** : utilice los importes del presupuesto original que se comprometen cuando se crea y aprueba el presupuesto inicial.
-   - **Presupuesto restante** : utilice los importes restantes del presupuesto durante la vida del proyecto. Los saldos en este modelo de pronóstico se reducen por transacciones reales y aumentan o disminuyen por revisiones presupuestarias.
-   - **Transferir** : use los importes del presupuesto transferidos para el proyecto. Transferir es un proceso opcional que se puede ejecutar para transferir los importes presupuestarios no utilizados de un año fiscal a otro.
+   - **Presupuesto original**: utilice los importes del presupuesto original que se comprometen cuando se crea y aprueba el presupuesto inicial.
+   - **Presupuesto restante**: utilice los importes restantes del presupuesto durante la vida del proyecto. Los saldos en este modelo de pronóstico se reducen por transacciones reales y aumentan o disminuyen por revisiones presupuestarias.
+   - **Transferir**: use los importes del presupuesto transferidos para el proyecto. Transferir es un proceso opcional que se puede ejecutar para transferir los importes presupuestarios no utilizados de un año fiscal a otro.
 
 7. Establezca las siguientes opciones según sea necesario:
 

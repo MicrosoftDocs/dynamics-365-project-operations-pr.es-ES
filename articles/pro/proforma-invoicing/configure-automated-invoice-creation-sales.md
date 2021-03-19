@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176587"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274344"
 ---
 # <a name="configure-automatic-invoice-creation---lite"></a>Configurar la creación automática de facturas (lite)
  
 _**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
 
-Puede configurar la creación automática de facturas en Dynamics 365 Project Operations. El sistema crea un borrador de factura proforma basada en la programación de facturas para cada contrato de proyecto y línea de contrato. Los programas de facturación se configuran a nivel de línea de contrato. Cada línea de un contrato puede tener una programación de facturas distinta, o se puede incluir la misma programación de facturas en cada línea del contrato.
+Puede configurar la creación automática de facturas en Dynamics 365 Project Operations. El sistema crea un borrador de factura proforma basado en la programación de facturas de cada contrato de proyecto y línea de contrato. Las programaciones de facturas se configuran en el nivel de línea de contrato. Cada línea de un contrato puede tener una programación de facturas distinta, o se puede incluir la misma programación de facturas en cada línea del contrato.
 
 Cuando crea una factura, el sistema siempre crea al menos una factura por contrato de proyecto. En algunos casos, puede haber varias facturas creadas.
 
@@ -71,7 +71,7 @@ Complete estos pasos para configurar la ejecución automática de facturas.
 1. En **Operaciones de proyecto**, vaya a **Configuración** > **Configuración de facturas recurrentes**.
 2. Cree un trabajo por lotes y asígnele el nombre **Creación de facturas de Project Operations**. El nombre del trabajo por lotes debe incluir las palabras "creación de facturas".
 3. En el campo **Tipo de trabajo**, seleccione **Ninguno**. De forma predeterminada, laos campos **Frecuencia diaria** y **Está activo** están configuradas con el valor **Sí**.
-4. Seleccione **Ejecutar flujo de trabajo**. En el cuadro de diálogo **Buscar registros**, se mostrarán tres flujos de trabajo:
+4. Seleccione **Ejecutar flujo de trabajo**. En el cuadro de diálogo **Buscar registro**, aparecerán tres flujos de trabajo:
 
 - ProcessRunCaller
 - ProcessRunner

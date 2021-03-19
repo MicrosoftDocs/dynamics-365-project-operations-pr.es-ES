@@ -1,6 +1,6 @@
 ---
 title: Informes de gastos rediseñados
-description: Este tema proporciona información sobre la experiencia rediseñada y reinventada para la entrada del informe de gastos en Microsoft Dynamics 365 Finance. La nueva experiencia simplifica el proceso de completar los informes de gastos y reduce el tiempo necesario.
+description: Este tema proporciona información sobre la experiencia rediseñada y reinventada para la entrada del informe de gastos.
 author: ryansandness
 manager: AnnBe
 ms.date: 06/14/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 7533f8aca317bd8d72e437592b5251fd3a866ba6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960268"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272004"
 ---
 # <a name="redesigned-expense-reports"></a>Informes de gastos rediseñados
 
@@ -40,12 +40,6 @@ Para activar la nueva experiencia, use el espacio de trabajo **Gestión de funci
 - Se agrega un nuevo elemento de menú para la visibilidad del campo de gastos.
 - No se eliminan los elementos de menú existentes para los informes de gastos (la página existente) ni los campos del informe de gastos.
 - Los flujos de trabajo y las aprobaciones aún le llevan a la página de informes de gastos existente.
-
-## <a name="getting-started-video-for-new-users"></a>Vídeo de introducción para nuevos usuarios
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-El vídeo [Experiencia de gasto en Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (mostrado anteriorment) está incluido en la [lista de reproducción Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), disponible en YouTube.
 
 ## <a name="new-features"></a>Nuevas características
 

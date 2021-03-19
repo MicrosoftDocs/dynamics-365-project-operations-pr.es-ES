@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d21ab159294cac66ffeb8abcf0943b4babd7b360
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c08ac3b0f24dda19489bad6e667a50b67b8ce3ec
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118949"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273669"
 ---
 # <a name="costing-product-based-quote-lines"></a>Líneas de ofertas basadas en productos de gestión de costes
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
 
-Las líneas de oferta basadas en productos en Dynamics 365 Project Operations también tienen un campo **Precio de coste**. Este campo se usa para seguir el precio de coste del producto en la línea de oferta y para los cálculos de rentabilidad posteriores.
+Líneas de cotización basadas en productos en Dynamics 365 Project Operations también tengo un campo **Precio de coste** campo. Este campo se usa para seguir el precio de coste del producto en la línea de oferta y para los cálculos de rentabilidad posteriores.
 
 Cuando se crea una línea de oferta basada en productos para un producto de catálogo, el coste de la línea de oferta basada en producto se toma de forma predeterminada del campo **Coste estándar** del catálogo de productos. El campo de coste estándar del catálogo de productos se configura en la divisa base de la organización. El coste unitario predeterminado en la línea de oferta basada en producto se convierte a la moneda de venta en la oferta.
 

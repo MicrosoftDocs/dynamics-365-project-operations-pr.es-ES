@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 1a0cee090e0ecb306aa3bda62c79a57dfade93c0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b8faba1d799e360e58d47a02dc8b46e09fa0d393
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085288"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270924"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Parámetros de la integración de Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-En la página **Parámetros de integración de Project Service Automation** , puede configurar cómo se especifican los datos predeterminados cuando integra Dynamics 365 Project Service Automation con Dynamics 365 Finance. Para que los proyectos se sincronicen correctamente de Project Service Automation a Finance, debe configurar los siguientes campos.
+En la página **Parámetros de integración de Project Service Automation**, puede configurar cómo se especifican los datos predeterminados cuando integra Dynamics 365 Project Service Automation con Dynamics 365 Finance. Para que los proyectos se sincronicen correctamente de Project Service Automation a Finance, debe configurar los siguientes campos.
 
-Para abrir la página **Parámetros de integración de Project Service Automation** , vaya a **Gestión de proyectos y contabilidad** \> **Configurar** \> **Parámetros de integración de Dynamics 365 for Project Service Automation**. 
+Para abrir la página **Parámetros de integración de Project Service Automation**, vaya a **Gestión de proyectos y contabilidad** \> **Configurar** \> **Parámetros de integración de Dynamics 365 for Project Service Automation**. 
 
 > [!NOTE]
 > - La integración de tareas del proyecto, las categorías de transacciones de gastos, las estimaciones de horas, las estimaciones de gastos y el bloqueo de funciones están disponibles en la versión 8.0.

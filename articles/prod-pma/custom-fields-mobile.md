@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085202"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271014"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementar campos personalizados para la aplicación móvil Microsoft Dynamics 365 Project Timesheet en iOS y Android
 
@@ -44,8 +44,8 @@ Este tema está dirigido a desarrolladores que integran sus campos personalizado
 
 La clase **TSTimesheetCustomField** es la clase de contrato de datos X++ que representa información sobre un campo personalizado para la funcionalidad de la hoja de horas. Se pasan listas de los objetos de campo personalizados tanto al contrato de datos TSTimesheetDetails como al contrato de datos TSTimesheetEntry para mostrar campos personalizados en la aplicación móvil.
 
-- **TSTimesheetDetails** : el contrato de encabezado de la hoja de horas.
-- **TSTimesheetEntry** : el contrato de transacción de la hoja de horas. Los grupos de estos objetos que tienen la misma información de proyecto y el valor **timesheetLineRecId** constituyen una línea.
+- **TSTimesheetDetails**: el contrato de encabezado de la hoja de horas.
+- **TSTimesheetEntry**: el contrato de transacción de la hoja de horas. Los grupos de estos objetos que tienen la misma información de proyecto y el valor **timesheetLineRecId** constituyen una línea.
 
 ### <a name="fieldbasetype-types"></a>fieldBaseType (tipos)
 
@@ -61,11 +61,11 @@ La propiedad **FieldBaseType** en el objeto **TsTimesheetCustom** determina el t
 | 15          | GUID              | |
 | 16          | Int64             | |
 
-- Si la propiedad **stringOptions** no se proporciona en el objeto **TSTimesheetCustomField** , se proporciona al usuario un campo de texto libre.
+- Si la propiedad **stringOptions** no se proporciona en el objeto **TSTimesheetCustomField**, se proporciona al usuario un campo de texto libre.
 
     La propiedad **stringLength** se puede usar para establecer la longitud máxima de cadena que los usuarios pueden especificar.
 
-- Si la propiedad **stringOptions** se proporciona en el objeto **TSTimesheetCustomField** , esos elementos de la lista son los únicos valores que los usuarios pueden seleccionar mediante los botones de opción (botones de opción).
+- Si la propiedad **stringOptions** se proporciona en el objeto **TSTimesheetCustomField**, esos elementos de la lista son los únicos valores que los usuarios pueden seleccionar mediante los botones de opción (botones de opción).
 
     En este caso, el campo de cadena puede actuar como un valor de enumeración con el propósito de que el usuario pueda indicar datos. Para guardar el valor en la base de datos como una enumeración, asigne manualmente el valor de la cadena de nuevo al valor de la enumeración antes de guardar en la base de datos mediante la cadena de comando (consulte "Usar cadena de comando en la clase TSTimesheetEntryService para guardar una entrada de la hoja de horas la aplicación desde la aplicación de nuevo a la base de datos" más adelante en este tema para ver un ejemplo).
 
@@ -73,8 +73,8 @@ La propiedad **FieldBaseType** en el objeto **TsTimesheetCustom** determina el t
 
 Puede utilizar esta propiedad para dar formato a valores reales como divisa. Este enfoque es aplicable solo cuando el valor **fieldBaseType** es **Real**.
 
-- **TSCustomFieldExtendedType:None** : no se aplica ningún formato.
-- **TSCustomFieldExtendedType::Currency** : da formato al valor como divisa.
+- **TSCustomFieldExtendedType:None**: no se aplica ningún formato.
+- **TSCustomFieldExtendedType::Currency**: da formato al valor como divisa.
 
     Cuando el formato de divisa está activo, el campo **stringValue** se puede usar para pasar el código de moneda que debe mostrarse en la aplicación. El valor es un valor de solo lectura.
 
@@ -84,8 +84,8 @@ Puede utilizar esta propiedad para dar formato a valores reales como divisa. Est
 
 Puede usar esta propiedad para especificar dónde debe aparecer el campo personalizado en la aplicación.
 
-- **TSCustomFieldSection ::Header** : el campo aparecerá en la sección **Ver más detalles** en la aplicación. Estos campos son siempre de solo lectura.
-- **TSCustomFieldSection::Line** : el campo aparecerá después de todos los campos de línea predefinidos en las entradas de la hoja de horas. Estos campos pueden ser editables o de solo lectura.
+- **TSCustomFieldSection ::Header**: el campo aparecerá en la sección **Ver más detalles** en la aplicación. Estos campos son siempre de solo lectura.
+- **TSCustomFieldSection::Line**: el campo aparecerá después de todos los campos de línea predefinidos en las entradas de la hoja de horas. Estos campos pueden ser editables o de solo lectura.
 
 ### <a name="fieldname-fieldnameshort"></a>fieldName (FieldNameShort)
 
@@ -125,31 +125,31 @@ Esta propiedad controla el orden en el que se muestran los campos personalizados
 
 ### <a name="booleanvalue-boolean"></a>booleanValue (booleano)
 
-Para los campos de tipo **Booleano** , esta propiedad pasa el valor booleano del campo entre el servidor y la aplicación.
+Para los campos de tipo **Booleano**, esta propiedad pasa el valor booleano del campo entre el servidor y la aplicación.
 
 ### <a name="guidvalue-guid"></a>guidValue (guid)
 
-Para los campos de tipo **GUID** , esta propiedad pasa el identificador único global (GUID) entre el servidor y la aplicación.
+Para los campos de tipo **GUID**, esta propiedad pasa el identificador único global (GUID) entre el servidor y la aplicación.
 
 ### <a name="int64value-int64"></a>int64Value (int64)
 
-Para los campos de tipo **Int64** , esta propiedad pasa el valor Int64 del campo entre el servidor y la aplicación.
+Para los campos de tipo **Int64**, esta propiedad pasa el valor Int64 del campo entre el servidor y la aplicación.
 
 ### <a name="intvalue-int"></a>intValue (int)
 
-Para los campos de tipo **Int** , esta propiedad pasa el valor int del campo entre el servidor y la aplicación.
+Para los campos de tipo **Int**, esta propiedad pasa el valor int del campo entre el servidor y la aplicación.
 
 ### <a name="realvalue-real"></a>realValue (real)
 
-Para los campos de tipo **Real** , esta propiedad pasa el valor real del campo entre el servidor y la aplicación.
+Para los campos de tipo **Real**, esta propiedad pasa el valor real del campo entre el servidor y la aplicación.
 
 ### <a name="stringvalue-str"></a>stringValue (str)
 
-Para los campos de tipo **Cadena** , esta propiedad pasa el valor de la cadena del campo entre el servidor y la aplicación. También se utiliza para campos del tipo **Real** que tienen el formato de divisa. Para esos campos, la propiedad se usa para pasar el código de divisa a la aplicación.
+Para los campos de tipo **Cadena**, esta propiedad pasa el valor de la cadena del campo entre el servidor y la aplicación. También se utiliza para campos del tipo **Real** que tienen el formato de divisa. Para esos campos, la propiedad se usa para pasar el código de divisa a la aplicación.
 
 ### <a name="datevalue-date"></a>dateValue (date)
 
-Para los campos de tipo **Fecha** , esta propiedad pasa el valor de la fecha del campo entre el servidor y la aplicación.
+Para los campos de tipo **Fecha**, esta propiedad pasa el valor de la fecha del campo entre el servidor y la aplicación.
 
 ## <a name="show-and-save-a-custom-field-in-the-timesheet-entry-section"></a>Mostrar y guardar un campo personalizado en la sección de entrada de la hoja de horas
 
@@ -179,9 +179,9 @@ A continuación se muestra una captura de pantalla de Visual Studio del árbol d
 
 Este código controla la configuración de visualización para el campo en la aplicación. Por ejemplo, controla el tipo de campo, la etiqueta, si el campo es obligatorio y en qué sección aparece el campo.
 
-El siguiente ejemplo muestra un campo de cadena en entradas de tiempo. Este campo tiene dos opciones, **Primera opción** y **Segunda opción** , que están disponibles mediante botones de opción. El campo de la aplicación está asociado con el campo **TestLineString** que se agrega a la tabla TSTimesheetLine.
+El siguiente ejemplo muestra un campo de cadena en entradas de tiempo. Este campo tiene dos opciones, **Primera opción** y **Segunda opción**, que están disponibles mediante botones de opción. El campo de la aplicación está asociado con el campo **TestLineString** que se agrega a la tabla TSTimesheetLine.
 
-Tenga en cuenta el uso del método **TSTimesheetCustomField::newFromMetatdata()** para simplificar la inicialización de las propiedades del campo personalizado: **fieldBaseType** , **tableName** , **fieldname** , **label** , **isEditable** , **isMandatory** , **stringLength** y **numberOfDecimals**. También puede configurar estos parámetros manualmente, como prefiera.
+Tenga en cuenta el uso del método **TSTimesheetCustomField::newFromMetatdata()** para simplificar la inicialización de las propiedades del campo personalizado: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** y **numberOfDecimals**. También puede configurar estos parámetros manualmente, como prefiera.
 
 ```xpp
 ...
@@ -248,7 +248,7 @@ Para guardar un campo personalizado en la base de datos con un uso típico, debe
 - El método **populateTimesheetWeekFromEntry** se puede extender si el campo personalizado que se asigna al objeto **TSTimesheetEntry** se debe volver a escribir en la tabla de base de datos TSTimesheetLineweek.
 
 > [!NOTE]
-> El siguiente ejemplo guarda el valor **firstOption** o **secondOption** que el usuario selecciona en la base de datos como valor de cadena sin formato. Si el campo de la base de datos es un campo del tipo **Enum** , esos valores se pueden asignar manualmente a un valor de enumeración y luego se pueden guardar en un campo de enumeración en la tabla de la base de datos.
+> El siguiente ejemplo guarda el valor **firstOption** o **secondOption** que el usuario selecciona en la base de datos como valor de cadena sin formato. Si el campo de la base de datos es un campo del tipo **Enum**, esos valores se pueden asignar manualmente a un valor de enumeración y luego se pueden guardar en un campo de enumeración en la tabla de la base de datos.
 
 ```xpp
 ...
@@ -410,7 +410,7 @@ La lógica existente para la funcionalidad de la hoja de horas en la base de dat
 
 - Si **validateWrite** en la tabla TSTimesheetLine devuelve **False** durante una operación de guardado para una línea de la hoja de horas, se muestra un mensaje de error en la aplicación móvil.
 - Si **validateSubmit** en la tabla TSTimesheetTable devuelve **False** durante un envío de la hoja de horas en la aplicación, se muestra un mensaje de error al usuario.
-- La lógica que rellena campos (por ejemplo, **Propiedad de línea** ) durante el método **insert** en la tabla TSTimesheetLine aún se ejecutará.
+- La lógica que rellena campos (por ejemplo, **Propiedad de línea**) durante el método **insert** en la tabla TSTimesheetLine aún se ejecutará.
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>Ocultar y marcar campos listos para usar como de solo lectura a través de la configuración
 

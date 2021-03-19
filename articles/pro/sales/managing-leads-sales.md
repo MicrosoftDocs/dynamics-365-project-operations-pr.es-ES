@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: 1d3a54a9fcb0b0cef9461219e22305afbf5266e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4513810"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272859"
 ---
 # <a name="manage-leads---lite"></a>Administrar clientes potenciales (lite)
 
@@ -69,7 +69,7 @@ El proceso de negocio de cliente potencial a oportunidad comprende las etapas si
 | Nombre de la fase | Entidad mapeada | Funcionalidad |
 | --- | --- | --- |
 | Calificar | Cliente potencial | Calificar el cliente potencial para crear una cuenta, un contacto y una oportunidad. |
-| Desarrollar | Oportunidad | Desarrolle la oportunidad de agregar más información sobre el trabajo involucrado, las partes interesadas clave y la competencia. |
+| Desarrollar | Oportunidad | Desarrolle la oportunidad para agregar más información sobre el trabajo involucrado, las partes interesadas clave y la competencia. |
 | Proponer | Oportunidad | Desarrolle la propuesta y obtenga la aprobación del equipo de revisión interno. |
 | Cerrada | Oportunidad | Gane la oportunidad de cerrar la oferta. |
 

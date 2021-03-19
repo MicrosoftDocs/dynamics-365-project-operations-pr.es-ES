@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180303"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274929"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Configurar tarifas de costes y ventas para gastos
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Puede configurar costes y precios de venta para categorías de transacciones en Dynamics 365 Project Operations. Debido a que los precios de coste y venta están diseñados para Gastos, cada categoría de transacción que los incluya también debe configurarse como una categoría de gastos. Esta configuración garantiza la precisión en la funcionalidad posterior. Los precios de coste y venta para las categorías de transacciones solo se pueden enumerar en una moneda, que debe ser la moneda en el encabezado de la lista de precios.
+Puede configurar el costo y los precios de venta para las categorías de transacciones en Dynamics 365 Project Operations. Debido a que los precios de coste y venta están diseñados para Gastos, cada categoría de transacción que los incluya también debe configurarse como una categoría de gastos. Esta configuración garantiza la precisión en la funcionalidad posterior. Los precios de coste y venta para las categorías de transacciones solo se pueden enumerar en una moneda, que debe ser la moneda en el encabezado de la lista de precios.
 
 Para configurar las tarifas de costes y ventas para las categorías de transacciones, complete los siguientes pasos. 
 

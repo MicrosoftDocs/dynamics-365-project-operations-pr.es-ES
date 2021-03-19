@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 870a583a4f7c9ed461207f65f267b529580cf02b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180946"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272499"
 ---
 # <a name="project-contract-settings---lite"></a>Configuración de contrato de proyecto (lite)
 
@@ -21,7 +21,7 @@ _**Se aplica a:** implementación simplificada: de oferta a facturación proform
 
 Este tema proporciona información sobre los campos que se aplican a todo el contrato del proyecto, incluida la configuración que afecta a todas las líneas del contrato. También se incluye información sobre el contrato que se resume en todos los elementos de línea para impulsar los KPI del contrato del proyecto.
 
-La siguiente tabla enumera los campos de información en un proyecto de contrato que son exclusivos de Dynamics 365 Project Operations o tienen algunos cambios importantes en el comportamiento de los pedidos de ventas de Dynamics 365 Sales.
+La siguiente tabla enumera los campos de un contrato de proyecto que son exclusivos de Dynamics 365 Project Operations o tiene algunos cambios importantes en el comportamiento de los pedidos de ventas en Dynamics 365 Sales.
 
 | Campo | Ubicación | Descripción | Impacto posterior |
 | --- | --- | --- | --- |

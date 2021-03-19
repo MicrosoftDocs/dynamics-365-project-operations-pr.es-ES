@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d807d3631f40a93ec7dbd918b64c287fd4875c79
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128305"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273849"
 ---
 # <a name="confirm-a-project-contract"></a>Conformar un contrato de proyecto
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Un contrato de proyecto en Dynamics 365 Project Operations puede estar activo con una razón de **Confirmado**, o cerrado con razón de **Perdido**. Cuando confirma un contrato de proyecto, el estado se actualiza desde **Borrador** a **Activo** y la razón para el estado es **Confirmado**. Un contrato activo o cerrado no se puede editar ni volver a abrir. 
+Un contrato de proyecto en Dynamics 365 Project Operations puede estar activo con una razón de **Confirmado**, o cerrado con un motivo de **Perdido**. Cuando confirma un contrato de proyecto, el estado se actualiza desde **Borrador** a **Activo** y la razón para el estado es **Confirmado**. Un contrato activo o cerrado no se puede editar ni volver a abrir. 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>Impacto financiero de confirmar un contrato de proyecto
 

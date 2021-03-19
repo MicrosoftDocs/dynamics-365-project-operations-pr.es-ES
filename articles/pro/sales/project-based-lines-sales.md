@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: cac6125abc7269ee95667ae589d5a748b3d4190c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181041"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272544"
 ---
 # <a name="project-based-opportunity-lines---lite"></a>Líneas de oportunidad basadas en proyectos (lite)
 
@@ -27,7 +27,7 @@ A continuación, se muestran los campos de una línea de oportunidades basada en
 
 | **Campo** | **Ubicación** | **Descripción** | **Impacto posterior** |
 | --- | --- | --- | --- |
-| Tipo de producto | Pestaña General (oculta) | Puede seleccionar una de las siguientes opciones:</br>- Servicio basado en proyectos (disponible solo cuando está instalado Dynamics 365 Project Operations)</br>- Producto (disponible solo cuando están instalados Project Operations y Dynamics 365 Sales) | El valor de este campo se establece en **Servicio basado en proyectos** cuando crea una línea de oportunidad basada en el proyecto a partir de la cuadrícula de líneas basadas en el proyecto en la oportunidad. <br> Si cambia o anula este valor, la funcionalidad del proyecto no se habilitará en sus líneas de pedido basadas en proyectos. |
+| Tipo de producto | Pestaña General (oculta) | Puede seleccionar una de las siguientes opciones:</br>- Servicio basado en proyectos (disponible solo cuando Dynamics 365 Project Operations está instalado)</br>- Producto (disponible solo cuando están instalados Project Operations y Dynamics 365 Sales) | El valor de este campo se establece en **Servicio basado en proyectos** cuando crea una línea de oportunidad basada en el proyecto a partir de la cuadrícula de líneas basadas en el proyecto en la oportunidad. <br> Si cambia o anula este valor, la funcionalidad del proyecto no se habilitará en sus líneas de pedido basadas en proyectos. |
 | Oportunidad | Pestaña General | Este campo es de solo lectura y hace referencia al registro de oportunidad principal al que pertenece este artículo de línea. | No hay impacto posterior a partir de este campo. |
 | Nombre | Pestaña General | Este es un campo de texto editable que se puede usar para dar una identidad corta del artículo de línea. | Este valor se transfiere a la línea de oferta cuando crea una oferta a partir de esta oportunidad. |
 | Presupuesto del cliente | Pestaña General | Este campo de moneda editable se puede utilizar para realizar un seguimiento de la cantidad que el cliente está dispuesto a gastar en esta línea de pedido. | Este valor se transfiere al campo correspondiente de la oferta cuando crea una oferta a partir de esta oportunidad. |

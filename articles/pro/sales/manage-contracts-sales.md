@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 441fbc378a423334f45bc65658811ef238515393
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 5a4357d5cf184a3c6ada3ae33631694c31bb5b00
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177352"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273233"
 ---
 # <a name="manage-project-contracts"></a>Administrar contratos de proyecto
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Los contratos de proyecto en Dynamics 365 Project Operations capturan y administran los compromisos acordados contractualmente y los detalles de facturación de un proyecto. La estructura de un contrato de proyecto en Project Operations se adapta al trabajo basado en proyectos con los siguientes componentes:
+Los contratos de proyectos en Dynamics 365 Project Operations capturan y administran los compromisos acordados contractualmente y los detalles de facturación de un proyecto. La estructura de un contrato de proyecto en Project Operations se adapta al trabajo basado en proyectos con los siguientes componentes:
 
 - Líneas de contrato que identifican los componentes discretos del trabajo que se presentarán como componentes de alto nivel en una factura de proyecto.
 - Detalles de la línea de contrato que identifican y estiman el trabajo para cada componente de alto nivel o línea de contrato. El presupuesto incluye el cronograma y los aspectos económicos de la obra vinculada a la línea de contrato.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4604708dbd7c835c8df1cf48f67e645952f49774
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085174"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270789"
 ---
 # <a name="intercompany-invoicing"></a>Facturación de empresas vinculadas
 
@@ -31,7 +31,7 @@ ms.locfileid: "4085174"
 
 Este artículo proporciona información y ejemplos sobre la facturación de empresas vinculadas para proyectos.
 
-Su organización puede tener varias divisiones, subsidiarias y otras entidades jurídicas que se transfieren productos y servicios entre sí para proyectos. La entidad jurídica que proporciona el servicio o producto se denomina *entidad jurídica prestamista* , y la entidad legal que recibe el servicio o producto se llama *entidad jurídica prestataria*. 
+Su organización puede tener varias divisiones, subsidiarias y otras entidades jurídicas que se transfieren productos y servicios entre sí para proyectos. La entidad jurídica que proporciona el servicio o producto se denomina *entidad jurídica prestamista*, y la entidad legal que recibe el servicio o producto se llama *entidad jurídica prestataria*. 
 
 La siguiente ilustración muestra un escenario típico donde dos entidades jurídicas, SI FR (la entidad jurídica prestataria) y SI USA (la entidad jurídica prestamista) comparten recursos para entregar un proyecto al cliente A. Para este escenario, SI FR está contratada para entregar el trabajo al cliente A. 
 
@@ -44,12 +44,12 @@ El objetivo es hacer que el control de costos, el reconocimiento de ingresos, lo
 -   Diferir el reconocimiento de ingresos en una entidad jurídica prestamista y cuando una entidad legal prestataria debería reconocer el coste.
 -   Acumular ingresos de trabajo en proceso (WIP) en la entidad jurídica prestamista.
 -   Establecer precios de transferencia que puedan basarse en varios modelos de precios. Estos son algunos ejemplos:
-    -   **Cantidad** : la cantidad que ingresa en el campo **Precios** es el cose real por cantidad o unidad.
-    -   **Importe de los cargos** : el precio o coste por transacción más el importe de los cargos que se especifica en el campo **Precios**.
-    -   **Porcentaje de cargos** : el precio de transferencia es el precio o coste por transacción multiplicado por el porcentaje de cargos que se especifican en el campo **Precios**.
-    -   **Porcentaje del precio de venta** : el porcentaje del precio de venta que se transfiere a la entidad jurídica prestamista.
-    -   **Importe por debajo del precio de venta** : el importe que la entidad jurídica prestataria retiene de los precios de venta antes de transferirlo a la entidad jurídica prestamista.
-    -   **Proporción de contribución** : el número que especifica en el campo **Precios** es la proporción de contribución, que se expresa como un porcentaje del precio de venta.
+    -   **Cantidad**: la cantidad que ingresa en el campo **Precios** es el cose real por cantidad o unidad.
+    -   **Importe de los cargos**: el precio o coste por transacción más el importe de los cargos que se especifica en el campo **Precios**.
+    -   **Porcentaje de cargos**: el precio de transferencia es el precio o coste por transacción multiplicado por el porcentaje de cargos que se especifican en el campo **Precios**.
+    -   **Porcentaje del precio de venta**: el porcentaje del precio de venta que se transfiere a la entidad jurídica prestamista.
+    -   **Importe por debajo del precio de venta**: el importe que la entidad jurídica prestataria retiene de los precios de venta antes de transferirlo a la entidad jurídica prestamista.
+    -   **Proporción de contribución**: el número que especifica en el campo **Precios** es la proporción de contribución, que se expresa como un porcentaje del precio de venta.
 
 ## <a name="example-1-set-up-parameters-for-intercompany-invoicing"></a>Ejemplo 1: configurar parámetros para la facturación de empresas vinculadas
 En este ejemplo, USSI es una entidad jurídica prestamista, y sus empleados están notificando tiempo a atribuir a la entidad jurídica prestataria, FRSI, que es propietaria del contrato con el cliente final. Las horas y los gastos que informan los empleados de USSI se pueden incluir en la factura del proyecto que genera FRSI. Además, existe un tercer origen de transacciones que pueden originarse en la entidad jurídica prestamista (USSI en este ejemplo) cuando brinda servicios de proveedores compartidos a subsidiarias (como FRSI) y luego transfiere esos costes a proyectos dentro de esas subsidiarias. Todos los documentos correspondientes a facturas y los cálculos de impuestos los tramita Finance. 
@@ -78,7 +78,7 @@ USSI, la entidad legal prestamista, debe crear y publicar la hoja de horas para 
 
 | Paso | Punto de entrada                                                                       | Descripción                                                                                                                                                                                       |
 |------|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| E    | **Gestión de proyectos y contabilidad** &gt; **Proyectos** &gt; **Todas las hojas de horas** | Cree una nueva hoja de horas. En la línea de la hoja de horas, en el campo **Entidad jurídica** , seleccione **FRSI**. En el campo **Id. de proyecto** , seleccione el proyecto en FRSI. Especifique las horas para cada día de la semana. |
+| E    | **Gestión de proyectos y contabilidad** &gt; **Proyectos** &gt; **Todas las hojas de horas** | Cree una nueva hoja de horas. En la línea de la hoja de horas, en el campo **Entidad jurídica**, seleccione **FRSI**. En el campo **Id. de proyecto**, seleccione el proyecto en FRSI. Especifique las horas para cada día de la semana. |
 | B    | Página **Hoja de horas**                                                                | Después de que se ejecute el flujo de trabajo, publique la hoja de horas y anote el número de comprobante.                                                                                                               |
 
 ## <a name="example-3-create-and-post-an-intercompany-vendor-invoice"></a>Ejemplo 3: Crear y publicar una factura de proveedor de empresas vinculadas
@@ -87,7 +87,7 @@ USSI, la entidad legal prestamista, debe crear y publicar la factura de proveedo
 | Paso | Punto de entrada                                                                                      | Descripción                                                                                                                                                                                                                                                                          |
 |------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | E    | **Proveedores** &gt; **Facturas** &gt; **Facturas de proveedor abiertas** &gt; **Nueva factura de proveedor** | Cree una nueva factura de proveedor y especifique los servicios que se produjeron en nombre del proyecto de FRSI.                                                                                                                                                                                  |
-| B    | La página **Factura de proveedor**                                                                      | Especifique las líneas que representen los servicios subcontratados en nombre de FRSI. En la ficha desplegable **Detalles de la línea** , en la pestaña **Proyecto** para la línea de factura, en el campo **Empresa de proyecto** , especifique **FRSI**. Especifique el proyecto y la información correspondiente. Posteriormente, registre la factura del proveedor. |
+| B    | La página **Factura de proveedor**                                                                      | Especifique las líneas que representen los servicios subcontratados en nombre de FRSI. En la ficha desplegable **Detalles de la línea**, en la pestaña **Proyecto** para la línea de factura, en el campo **Empresa de proyecto**, especifique **FRSI**. Especifique el proyecto y la información correspondiente. Posteriormente, registre la factura del proveedor. |
 
 ## <a name="example-4-create-and-post-the-intercompany-invoice"></a>Ejemplo 4: Crear y publicar la factura de empresas vinculadas
 USSI, la entidad legal prestamista, debe crear y registrar la factura entre empresas vinculadas. Hay dos puntos de entrada para los pasos necesarios para esta tarea.
@@ -95,7 +95,7 @@ USSI, la entidad legal prestamista, debe crear y registrar la factura entre empr
 | Paso | Punto de entrada                                                                                             | Descripción                                                                                                                                      |
 |------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | E    | **Gestión de proyectos y contabilidad** &gt; **Facturas del proyecto** &gt; **Factura de cliente de empresas vinculadas**  | Haga clic en **Nuevo** para abrir la página **Crear factura de empresas vinculadas**.                                                                                  |
-| B    | **Gestión de proyectos y contabilidad** &gt; **Facturas del proyecto** &gt; **Factura de cliente de empresas vinculadas** | En la página **Crear factura de empresas vinculadas** , especifique la entidad legal y la transacción que debe incluirse, y luego haga clic en **Buscar**. |
+| B    | **Gestión de proyectos y contabilidad** &gt; **Facturas del proyecto** &gt; **Factura de cliente de empresas vinculadas** | En la página **Crear factura de empresas vinculadas**, especifique la entidad legal y la transacción que debe incluirse, y luego haga clic en **Buscar**. |
 | C    | **Gestión de proyectos y contabilidad** &gt; **Facturas del proyecto** &gt; **Factura de cliente de empresas vinculadas** | Seleccione las transacciones a facturar o haga clic en **Seleccionar todo** para facturar todas las transacciones de la lista y luego haga clic en **Okay**.                  |
 | E    | La página **Factura de empresas vinculadas**                                                                       | Se muestra la propuesta de factura de cliente de empresas vinculadas.                                                                                             |
 | E    | La página **Factura de empresas vinculadas**                                                                       | Haga clic en **Registrar**.                                                                                                                                  |

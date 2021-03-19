@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 34ee7bb157426507ec7ca8c031f5cb552e85099b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180213"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275514"
 ---
 # <a name="set-up-price-lists"></a>Configurar listas de precios
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Las listas de precios en Dynamics 365 Project Operations representan un catálogo de tarifas. Las tarifas expresan costos, ventas y tarifas de facturación. Dependiendo de si la lista de precios expresa tarifas de costo o tarifas de ventas y facturación, el contexto de la lista de precios es **Ventas** o **Coste**.
+Listas de precios en Dynamics 365 Project Operations representan un catálogo de tarifas. Las tarifas expresan costos, ventas y tarifas de facturación. Dependiendo de si la lista de precios expresa tarifas de costo o tarifas de ventas y facturación, el contexto de la lista de precios es **Ventas** o **Coste**.
 
 Las siguientes extensiones son específicas de Project Operations y se aplican a las listas de precios de Dynamics 365 Sales.
 
