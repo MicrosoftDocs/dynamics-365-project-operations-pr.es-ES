@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ffe3373184c8cd776bf3705fd674bedf221d9b77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133451"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287259"
 ---
 # <a name="integration-journal-in-project-operations"></a>Diario de integración en Project Operations
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
 
-Las entradas de tiempo y gastos crean transacciones **reales** que representan la vista operativa del trabajo completado en un proyecto. Dynamics 365 Project Operations proporciona a los contables una herramienta para revisar transacciones y ajustar los atributos de contabilidad según sea necesario. Una vez que se completan la revisión y los ajustes, las transacciones se registran en el libro mayor auxiliar y en el libro mayor general del proyecto. Un contador puede realizar estas actividades utilizando el diario **Integración de Project Operations** (**Dynamics 365 Finance** > **Gestión de proyectos y contabilidad** > **Diarios** > diario **Integración de Project Operations**.
+Las entradas de tiempo y gastos crean transacciones **reales** que representan la vista operativa del trabajo completado en un proyecto. Dynamics 365 Project Operations proporciona a los contables una herramienta para revisar transacciones y ajustar los atributos contables según sea necesario. Una vez que se completan la revisión y los ajustes, las transacciones se registran en el libro mayor auxiliar y en el libro mayor general del proyecto. Un contador puede realizar estas actividades utilizando el diario **Integración de Project Operations** (**Dynamics 365 Finance** > **Gestión de proyectos y contabilidad** > **Diarios** > diario **Integración de Project Operations**.
 
 ![Flujo del diario de integración](./media/IntegrationJournal.png)
 
@@ -30,7 +30,7 @@ Los registros en el diario de integración de Project Operations se crean median
 Cuando se ejecuta el proceso periódico, se encuentran los datos reales que aún no se han agregado al diario de integración de Project Operations. Se crea una línea de diario para cada transacción real.
 El sistema agrupa las líneas del diario en diarios separados según el valor seleccionado en el campo **Unidad de período en el diario de integración de Project Operations** (**Finanzas** > **Gestión de proyectos y contabilidad** > **Preparar** > **Parámetros contables y de gestión de proyectos**, pestaña **Project Operations en Dynamics 365 Customer Engagement**). Los posibles valores para este campo incluyen:
 
-  - _*Días**: los datos reales se agrupan por fecha de transacción. Se crea un diario independiente para cada día.
+  - **Días**: los datos reales se agrupan por fecha de transacción. Se crea un diario independiente para cada día.
   - **Meses**: los datos reales se agrupan por mes calendario. Se crea un diario independiente para cada mes.
   - **Años**: los datos reales se agrupan por año de calendario. Se crea un diario independiente para cada año.
   - **Todas**: todas las transacciones reales se incluyen en el mismo diario de integración. Si el diario no está disponible cuando se ejecuta el proceso periódico, por ejemplo, si el diario está en proceso de contabilizar transacciones, se crea un nuevo diario.

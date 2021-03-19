@@ -8,20 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131994"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287664"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Configurar la contabilidad para proyectos facturables
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Dynamics 365 Project Operations admite diversas opciones de contabilidad para proyectos facturables que incluyen transacciones de tiempo y material y precio fijo.
+Dynamics 365 Project Operations admite varias opciones de contabilidad para proyectos facturables que incluyen transacciones de tiempo y material y de precio fijo.
 
-- **Transacciones de tiempo y material**: estas transacciones se facturan a medida que avanza el trabajo en función del consumo de horas, gastos, elementos o tarifas del proyecto. Estos costes de transacción se pueden confrontar con los ingresos de cada transacción y el proyecto se factura a medida que avanza el trabajo. Los ingresos del proyecto también se pueden acumular en el momento en que se produce la transacción. Durante la facturación, se reconocen los ingresos y, si corresponde, se revierten los ingresos acumulados.
+- **Transacciones de tiempo y material**: estas transacciones se facturan a medida que avanza el trabajo en función del consumo de horas, gastos, elementos o tarifas del proyecto. Estos costes de la transacción se pueden combinar con los ingresos de cada transacción, y el proyecto se factura a medida que avanza el trabajo. Los ingresos del proyecto también se pueden acumular en el momento en que se produce la transacción. Durante la facturación, se reconocen los ingresos y, si corresponde, se revierten los ingresos acumulados.
 - **Transacciones de precio fijo**: estas transacciones se facturan de acuerdo con un programa de facturación que se basa en un contrato de proyecto. Los ingresos por transacciones de precio fijo pueden reconocerse en la facturación o calcularse y contabilizarse periódicamente, de acuerdo con los métodos **Contrato completado** o **Porcentaje completado**.
 
 Un proyecto se considera facturable cuando está asociado con una o más líneas de contrato. Una línea de contrato de proyecto define por sí misma qué método de facturación y tipos de transacciones están permitidos.

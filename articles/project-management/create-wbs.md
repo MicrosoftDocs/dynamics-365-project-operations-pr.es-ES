@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 695bbc2ae1ba1e762472b5f5fa853c89017d2f52
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841406"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287034"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Crear una estructura de descomposición del trabajo
 
@@ -92,6 +92,8 @@ La tabla siguiente muestra atributos de programación adicionales.
 | Principio | Fecha y hora de inicio. |
 | Nombre | Nombre de la tarea. |
 | Identificador | Id. de la tarea en la estructura de descomposición del trabajo. |
+
+Como Administrador, puede definir campos personalizados en la entidad de la tarea. Sin embargo, los campos no se pueden mostrar en la cuadrícula de programación. Para ver sus campos personalizados, agréguelos a la página de detalles **Tarea de proyecto**.
 
 ## <a name="staffing-attributes"></a>Atributos de personal
 

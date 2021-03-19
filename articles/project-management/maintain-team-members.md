@@ -8,20 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 60b6788d881518502d314e9ee5daf6bbc0ae8764
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131544"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286854"
 ---
 # <a name="maintain-team-members"></a>Mantener miembros del equipo
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Puede agregar un recurso con nombre a su equipo de proyecto reservándolo directamente para el equipo.
+Puede agregar un recurso designado a su equipo de proyecto, reservándolo directamente para el equipo.
 
-1. En Dynamics 365 Project Operations, vaya a **Proyectos** y seleccione el proyecto abierto para el que desea reservar.
+1. En Dynamics 365 Project Operations, vaya a **Proyectos** y seleccione el proyecto abierto para el que desea realizar la reserva.
 2. En la página **Proyecto**, en la pestaña **Equipo**, seleccione **Nuevo**. 
 3. En el cuadro de diálogo **Creación rápida: Miembro del equipo del proyecto**, seleccione el recurso reservable. El campo **Rol** se completará con el rol predeterminado del recurso si tiene alguno asignado. Puede cambiar el rol. 
 4. Seleccione las fechas de inicio y finalización en que será necesario el recurso y seleccione el método de asignación de capacidad del recurso. 
