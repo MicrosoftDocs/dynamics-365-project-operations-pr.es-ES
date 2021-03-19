@@ -8,119 +8,119 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ea54d83b1e26d1ee3520dbfab9ba56ffd1191dc9
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e61a9fbf357123884397b930662d11f22bfdeaa0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181878"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277809"
 ---
-# <a name="project-based-quote-lines-overview"></a><span data-ttu-id="4be76-103">Información general sobre líneas de ofertas basadas en proyectos</span><span class="sxs-lookup"><span data-stu-id="4be76-103">Project-based quote lines overview</span></span>
+# <a name="project-based-quote-lines-overview"></a><span data-ttu-id="77cbf-103">Información general sobre líneas de ofertas basadas en proyectos</span><span class="sxs-lookup"><span data-stu-id="77cbf-103">Project-based quote lines overview</span></span>
 
-<span data-ttu-id="4be76-104">_**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_</span><span class="sxs-lookup"><span data-stu-id="4be76-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+<span data-ttu-id="77cbf-104">_**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_</span><span class="sxs-lookup"><span data-stu-id="77cbf-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
-<span data-ttu-id="4be76-105">Las líneas de oferta basadas en proyectos están diseñadas para ayudar a estimar el trabajo del proyecto en un compromiso.</span><span class="sxs-lookup"><span data-stu-id="4be76-105">Project-based quote lines are designed to help estimate the project work on an engagement.</span></span> <span data-ttu-id="4be76-106">La estructura de una línea de oferta basada en proyectos se amplía para las estimaciones de proyectos con los siguientes conceptos:</span><span class="sxs-lookup"><span data-stu-id="4be76-106">The structure of a project-based quote line is extended for project estimates with the following concepts:</span></span>
+<span data-ttu-id="77cbf-105">Las líneas de oferta basadas en proyectos están diseñadas para ayudar a estimar el trabajo del proyecto en un compromiso.</span><span class="sxs-lookup"><span data-stu-id="77cbf-105">Project-based quote lines are designed to help estimate the project work on an engagement.</span></span> <span data-ttu-id="77cbf-106">La estructura de una línea de oferta basada en proyectos se amplía para las estimaciones de proyectos con los siguientes conceptos:</span><span class="sxs-lookup"><span data-stu-id="77cbf-106">The structure of a project-based quote line is extended for project estimates with the following concepts:</span></span>
 
-- <span data-ttu-id="4be76-107">Método de facturación</span><span class="sxs-lookup"><span data-stu-id="4be76-107">Billing Method</span></span>
-- <span data-ttu-id="4be76-108">Asignación de proyectos</span><span class="sxs-lookup"><span data-stu-id="4be76-108">Project Mapping</span></span>
-- <span data-ttu-id="4be76-109">Clases de transacciones incluidas</span><span class="sxs-lookup"><span data-stu-id="4be76-109">Included Transaction classes</span></span>
-- <span data-ttu-id="4be76-110">Límite a no exceder</span><span class="sxs-lookup"><span data-stu-id="4be76-110">Not-to-Exceed Limit</span></span>
-- <span data-ttu-id="4be76-111">Configuración de imputabilidad</span><span class="sxs-lookup"><span data-stu-id="4be76-111">Chargeability setup</span></span>
-- <span data-ttu-id="4be76-112">Estimación utilizando los detalles de la línea de oferta</span><span class="sxs-lookup"><span data-stu-id="4be76-112">Estimation using Quote Line Details</span></span>
-- <span data-ttu-id="4be76-113">Clientes de línea de oferta</span><span class="sxs-lookup"><span data-stu-id="4be76-113">Quote line Customers</span></span>
+- <span data-ttu-id="77cbf-107">Método de facturación</span><span class="sxs-lookup"><span data-stu-id="77cbf-107">Billing Method</span></span>
+- <span data-ttu-id="77cbf-108">Asignación de proyectos</span><span class="sxs-lookup"><span data-stu-id="77cbf-108">Project Mapping</span></span>
+- <span data-ttu-id="77cbf-109">Clases de transacciones incluidas</span><span class="sxs-lookup"><span data-stu-id="77cbf-109">Included Transaction classes</span></span>
+- <span data-ttu-id="77cbf-110">Límite a no exceder</span><span class="sxs-lookup"><span data-stu-id="77cbf-110">Not-to-Exceed Limit</span></span>
+- <span data-ttu-id="77cbf-111">Configuración de imputabilidad</span><span class="sxs-lookup"><span data-stu-id="77cbf-111">Chargeability setup</span></span>
+- <span data-ttu-id="77cbf-112">Estimación utilizando los detalles de la línea de oferta</span><span class="sxs-lookup"><span data-stu-id="77cbf-112">Estimation using Quote Line Details</span></span>
+- <span data-ttu-id="77cbf-113">Clientes de línea de oferta</span><span class="sxs-lookup"><span data-stu-id="77cbf-113">Quote line Customers</span></span>
 
-<span data-ttu-id="4be76-114">La siguiente tabla proporciona información sobre los campos de la pestaña **General** de la línea de oferta basada en proyecto.</span><span class="sxs-lookup"><span data-stu-id="4be76-114">The following table provides information about the fields on the **General** tab of project-based quote line.</span></span> <span data-ttu-id="4be76-115">Estos campos ayudan a establecer la base para una estimación detallada y desde cero para el trabajo del proyecto.</span><span class="sxs-lookup"><span data-stu-id="4be76-115">These fields help set up the basis for a detailed, ground-up estimation for project work.</span></span>
+<span data-ttu-id="77cbf-114">La siguiente tabla proporciona información sobre los campos de la pestaña **General** de la línea de oferta basada en proyecto.</span><span class="sxs-lookup"><span data-stu-id="77cbf-114">The following table provides information about the fields on the **General** tab of project-based quote line.</span></span> <span data-ttu-id="77cbf-115">Estos campos ayudan a establecer la base para una estimación detallada y desde cero para el trabajo del proyecto.</span><span class="sxs-lookup"><span data-stu-id="77cbf-115">These fields help set up the basis for a detailed, ground-up estimation for project work.</span></span>
 
-| <span data-ttu-id="4be76-116">**Campo**</span><span class="sxs-lookup"><span data-stu-id="4be76-116">**Field**</span></span> | <span data-ttu-id="4be76-117">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="4be76-117">**Description**</span></span> | <span data-ttu-id="4be76-118">**Impacto posterior**</span><span class="sxs-lookup"><span data-stu-id="4be76-118">**Downstream impact**</span></span> |
+| <span data-ttu-id="77cbf-116">**Campo**</span><span class="sxs-lookup"><span data-stu-id="77cbf-116">**Field**</span></span> | <span data-ttu-id="77cbf-117">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="77cbf-117">**Description**</span></span> | <span data-ttu-id="77cbf-118">**Impacto posterior**</span><span class="sxs-lookup"><span data-stu-id="77cbf-118">**Downstream impact**</span></span> |
 | --- | --- | --- |
-| <span data-ttu-id="4be76-119">Nombre</span><span class="sxs-lookup"><span data-stu-id="4be76-119">Name</span></span> | <span data-ttu-id="4be76-120">El nombre de la línea de oferta que debería ayudarle a identificar el componente discreto de la oferta que se está estimando.</span><span class="sxs-lookup"><span data-stu-id="4be76-120">The name of quote line which should help you identify the discrete component of the quote that is being estimated.</span></span> | <span data-ttu-id="4be76-121">Se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta.</span><span class="sxs-lookup"><span data-stu-id="4be76-121">Copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="4be76-122">Método de facturación</span><span class="sxs-lookup"><span data-stu-id="4be76-122">Billing Method</span></span> | <span data-ttu-id="4be76-123">En una oferta creada a partir de una oportunidad, este valor se copia del campo correspondiente en la línea de oportunidad.</span><span class="sxs-lookup"><span data-stu-id="4be76-123">On a quote created from an opportunity, this value is copied from the corresponding field on the opportunity line.</span></span> <span data-ttu-id="4be76-124">Este campo incluye los dos modelos de contratación principales admitidos por Dynamics 365 Project Operations:</span><span class="sxs-lookup"><span data-stu-id="4be76-124">This field includes the two main contracting models supported by Dynamics 365 Project Operations:</span></span></br><span data-ttu-id="4be76-125">- Precio fijo</span><span class="sxs-lookup"><span data-stu-id="4be76-125">- Fixed price</span></span></br><span data-ttu-id="4be76-126">- Tiempo y material.</span><span class="sxs-lookup"><span data-stu-id="4be76-126">- Time and material.</span></span>| <span data-ttu-id="4be76-127">Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta.</span><span class="sxs-lookup"><span data-stu-id="4be76-127">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="4be76-128">Project</span><span class="sxs-lookup"><span data-stu-id="4be76-128">Project</span></span> | <span data-ttu-id="4be76-129">Utilice este campo opcional para identificar el proyecto que se utilizará para entregar el trabajo en este compromiso.</span><span class="sxs-lookup"><span data-stu-id="4be76-129">Use this optional field to identify the project that will be used to deliver the work on this engagement.</span></span> <span data-ttu-id="4be76-130">Cuando un proyecto se asigna a una línea de oferta, ayuda a configurar las tareas facturables y también a traer una estimación basada en el proyecto a la línea de oferta como detalles de la línea de oferta.</span><span class="sxs-lookup"><span data-stu-id="4be76-130">When a project is mapped to a quote line, it helps with setting up chargeable tasks and also with bringing in a project-based estimate to the quote line as quote line details.</span></span> <span data-ttu-id="4be76-131">Cuando un proyecto no está asignado a una línea de oferta basada en proyecto, la estimación debe crearse manualmente creando cada detalle de línea de oferta.</span><span class="sxs-lookup"><span data-stu-id="4be76-131">When a project is not mapped to a project-based quote line, the estimate should be created manually by creating each quote line detail.</span></span> | <span data-ttu-id="4be76-132">Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta.</span><span class="sxs-lookup"><span data-stu-id="4be76-132">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="4be76-133">Incluir tiempo</span><span class="sxs-lookup"><span data-stu-id="4be76-133">Include Time</span></span> | <span data-ttu-id="4be76-134">Un indicador **Sí**/**No** indica si las transacciones de tiempo o los costes laborales del proyecto seleccionado se incluirán en la estimación de esta línea de oferta.</span><span class="sxs-lookup"><span data-stu-id="4be76-134">A **Yes**/**No** flag indicates if time transactions or labor costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="4be76-135">Un valor **No** indica que las transacciones de tiempo o los costes laborales no se incluirán en la estimación de esta línea de oferta.</span><span class="sxs-lookup"><span data-stu-id="4be76-135">A **No** value indicates that the time transactions or labor cost will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="4be76-136">Un valor **Sí** indica que las transacciones de tiempo o los costes laborales se incluirán en la estimación de esta línea de oferta.</span><span class="sxs-lookup"><span data-stu-id="4be76-136">A **Yes** value indicates that the time transactions or labor cost will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="4be76-137">Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta.</span><span class="sxs-lookup"><span data-stu-id="4be76-137">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="4be76-138">Incluir gasto</span><span class="sxs-lookup"><span data-stu-id="4be76-138">Include Expense</span></span> | <span data-ttu-id="4be76-139">Un indicador **Sí**/**No** indica si los costes de gastos del proyecto seleccionado se incluirán en la estimación de esta línea de oferta.</span><span class="sxs-lookup"><span data-stu-id="4be76-139">A **Yes**/**No** flag indicates if expense costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="4be76-140">Un valor **No** indica que el coste de gastos no se incluirá en la estimación de esta línea de oferta.</span><span class="sxs-lookup"><span data-stu-id="4be76-140">A **No** value indicates that the expense cost will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="4be76-141">Un valor **Sí** indica que el coste de gastos se incluirá en la estimación de esta línea de oferta.</span><span class="sxs-lookup"><span data-stu-id="4be76-141">A **Yes** value indicates that the expense cost will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="4be76-142">Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta.</span><span class="sxs-lookup"><span data-stu-id="4be76-142">This field value is copied over to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="4be76-143">Incluir tarifa</span><span class="sxs-lookup"><span data-stu-id="4be76-143">Include Fee</span></span> | <span data-ttu-id="4be76-144">Un indicador **Sí**/**No** indica si las tarifas del proyecto seleccionado se incluirán en la estimación de esta línea de oferta.</span><span class="sxs-lookup"><span data-stu-id="4be76-144">A **Yes**/**No** flag indicates if fees on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="4be76-145">Un valor **No** indica que las tarifas no se incluirán en la estimación de esta línea de oferta.</span><span class="sxs-lookup"><span data-stu-id="4be76-145">A **No** value indicates that the Fees will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="4be76-146">Un valor **No** indica que las tarifas se incluirán en la estimación de esta línea de oferta.</span><span class="sxs-lookup"><span data-stu-id="4be76-146">A **Yes** value indicates that the Fees will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="4be76-147">Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta.</span><span class="sxs-lookup"><span data-stu-id="4be76-147">This field value is copied to the Project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="4be76-148">Importe de la oferta</span><span class="sxs-lookup"><span data-stu-id="4be76-148">Quoted Amount</span></span> | <span data-ttu-id="4be76-149">Esta es la cantidad que se ofertará al cliente por todo el trabajo previsto en esta línea de oferta basada en el proyecto.</span><span class="sxs-lookup"><span data-stu-id="4be76-149">This is amount that will be quoted to the customer for all the work forecasted on this project-based quote line.</span></span> <span data-ttu-id="4be76-150">En una oferta creada a partir de una oportunidad, este valor se copia del campo **Presupuesto del cliente** correspondiente en la línea de oportunidad.</span><span class="sxs-lookup"><span data-stu-id="4be76-150">On a quote created from an opportunity, this value is copied from the **Customer Budget** field on the opportunity line.</span></span> <span data-ttu-id="4be76-151">Cuando la línea de oferta basada en el proyecto tiene detalles de línea, este campo se bloquea para su edición y se resume a partir del importe de los detalles de la línea de oferta.</span><span class="sxs-lookup"><span data-stu-id="4be76-151">When the project-based quote line has line details, this field is locked for editing and is summarized from the amount on the quote line details.</span></span> | <span data-ttu-id="4be76-152">Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta.</span><span class="sxs-lookup"><span data-stu-id="4be76-152">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="4be76-153">Impuesto estimado</span><span class="sxs-lookup"><span data-stu-id="4be76-153">Estimated Tax</span></span> | <span data-ttu-id="4be76-154">Este es un campo editable para que el usuario agregue el importe del impuesto estimado en la línea de oferta.</span><span class="sxs-lookup"><span data-stu-id="4be76-154">This is an editable field for the user to add the estimated tax amount on the quote line.</span></span> <span data-ttu-id="4be76-155">Cuando la línea de oferta basada en el proyecto tiene detalles de línea, este campo se bloquea para su edición y se resume a partir del importe de los impuestos de los detalles de la línea de oferta.</span><span class="sxs-lookup"><span data-stu-id="4be76-155">When a project-based quote line has line details, this field is locked for editing and is summarized from the tax amount on the quote line details.</span></span> | <span data-ttu-id="4be76-156">Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta.</span><span class="sxs-lookup"><span data-stu-id="4be76-156">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="4be76-157">Importe ofertado después de impuestos</span><span class="sxs-lookup"><span data-stu-id="4be76-157">Quoted Amount after Tax</span></span> | <span data-ttu-id="4be76-158">Este campo es el importe de la línea de oferta después de impuestos y es de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="4be76-158">This field is the quote line amount after tax and is read-only.</span></span> <span data-ttu-id="4be76-159">La cantidad de este campo se calcula como *Importe ofertado + Impuestos*.</span><span class="sxs-lookup"><span data-stu-id="4be76-159">The amount in this field is calculated as *Quoted Amount + Tax*.</span></span> | <span data-ttu-id="4be76-160">Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta.</span><span class="sxs-lookup"><span data-stu-id="4be76-160">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="4be76-161">Límite de No exceder</span><span class="sxs-lookup"><span data-stu-id="4be76-161">Not-to-exceed Limit</span></span> | <span data-ttu-id="4be76-162">Este campo es editable y solo está disponible en líneas de oferta basadas en proyectos que tienen un método de facturación **Tiempo y material**.</span><span class="sxs-lookup"><span data-stu-id="4be76-162">This field is editable and is only available on project-based quote lines that have a **Time and Material** billing method.</span></span> | <span data-ttu-id="4be76-163">Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta.</span><span class="sxs-lookup"><span data-stu-id="4be76-163">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="4be76-164">Presupuesto del cliente</span><span class="sxs-lookup"><span data-stu-id="4be76-164">Customer Budget</span></span> | <span data-ttu-id="4be76-165">Este campo es editable y se copia a partir del campo correspondiente de la línea de oportunidad si la oferta se creo a partir de una oportunidad.</span><span class="sxs-lookup"><span data-stu-id="4be76-165">This field is editable and is copied from the corresponding field on the opportunity line if the quote was created from an opportunity.</span></span> | <span data-ttu-id="4be76-166">Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta.</span><span class="sxs-lookup"><span data-stu-id="4be76-166">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="77cbf-119">Nombre</span><span class="sxs-lookup"><span data-stu-id="77cbf-119">Name</span></span> | <span data-ttu-id="77cbf-120">El nombre de la línea de oferta que debería ayudarle a identificar el componente discreto de la oferta que se está estimando.</span><span class="sxs-lookup"><span data-stu-id="77cbf-120">The name of quote line which should help you identify the discrete component of the quote that is being estimated.</span></span> | <span data-ttu-id="77cbf-121">Se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta.</span><span class="sxs-lookup"><span data-stu-id="77cbf-121">Copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="77cbf-122">Método de facturación</span><span class="sxs-lookup"><span data-stu-id="77cbf-122">Billing Method</span></span> | <span data-ttu-id="77cbf-123">En una oferta creada a partir de una oportunidad, este valor se copia del campo correspondiente en la línea de oportunidad.</span><span class="sxs-lookup"><span data-stu-id="77cbf-123">On a quote created from an opportunity, this value is copied from the corresponding field on the opportunity line.</span></span> <span data-ttu-id="77cbf-124">Este campo incluye los dos principales modelos de contratación soportados por Dynamics 365 Project Operations:</span><span class="sxs-lookup"><span data-stu-id="77cbf-124">This field includes the two main contracting models supported by Dynamics 365 Project Operations:</span></span></br><span data-ttu-id="77cbf-125">- Precio fijo</span><span class="sxs-lookup"><span data-stu-id="77cbf-125">- Fixed price</span></span></br><span data-ttu-id="77cbf-126">- Tiempo y material.</span><span class="sxs-lookup"><span data-stu-id="77cbf-126">- Time and material.</span></span>| <span data-ttu-id="77cbf-127">Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta.</span><span class="sxs-lookup"><span data-stu-id="77cbf-127">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="77cbf-128">Project</span><span class="sxs-lookup"><span data-stu-id="77cbf-128">Project</span></span> | <span data-ttu-id="77cbf-129">Utilice este campo opcional para identificar el proyecto que se utilizará para entregar el trabajo en este compromiso.</span><span class="sxs-lookup"><span data-stu-id="77cbf-129">Use this optional field to identify the project that will be used to deliver the work on this engagement.</span></span> <span data-ttu-id="77cbf-130">Cuando un proyecto se asigna a una línea de oferta, ayuda a configurar las tareas facturables y también a traer una estimación basada en el proyecto a la línea de oferta como detalles de la línea de oferta.</span><span class="sxs-lookup"><span data-stu-id="77cbf-130">When a project is mapped to a quote line, it helps with setting up chargeable tasks and also with bringing in a project-based estimate to the quote line as quote line details.</span></span> <span data-ttu-id="77cbf-131">Cuando un proyecto no está asignado a una línea de oferta basada en proyecto, la estimación debe crearse manualmente creando cada detalle de línea de oferta.</span><span class="sxs-lookup"><span data-stu-id="77cbf-131">When a project is not mapped to a project-based quote line, the estimate should be created manually by creating each quote line detail.</span></span> | <span data-ttu-id="77cbf-132">Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta.</span><span class="sxs-lookup"><span data-stu-id="77cbf-132">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="77cbf-133">Incluir tiempo</span><span class="sxs-lookup"><span data-stu-id="77cbf-133">Include Time</span></span> | <span data-ttu-id="77cbf-134">Un indicador **Sí**/**No** indica si las transacciones de tiempo o los costes laborales del proyecto seleccionado se incluirán en la estimación de esta línea de oferta.</span><span class="sxs-lookup"><span data-stu-id="77cbf-134">A **Yes**/**No** flag indicates if time transactions or labor costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="77cbf-135">Un valor **No** indica que las transacciones de tiempo o los costes laborales no se incluirán en la estimación de esta línea de oferta.</span><span class="sxs-lookup"><span data-stu-id="77cbf-135">A **No** value indicates that the time transactions or labor cost will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="77cbf-136">Un valor **Sí** indica que las transacciones de tiempo o los costes laborales se incluirán en la estimación de esta línea de oferta.</span><span class="sxs-lookup"><span data-stu-id="77cbf-136">A **Yes** value indicates that the time transactions or labor cost will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="77cbf-137">Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta.</span><span class="sxs-lookup"><span data-stu-id="77cbf-137">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="77cbf-138">Incluir gasto</span><span class="sxs-lookup"><span data-stu-id="77cbf-138">Include Expense</span></span> | <span data-ttu-id="77cbf-139">Un indicador **Sí**/**No** indica si los costes de gastos del proyecto seleccionado se incluirán en la estimación de esta línea de oferta.</span><span class="sxs-lookup"><span data-stu-id="77cbf-139">A **Yes**/**No** flag indicates if expense costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="77cbf-140">Un valor **No** indica que el coste de gastos no se incluirá en la estimación de esta línea de oferta.</span><span class="sxs-lookup"><span data-stu-id="77cbf-140">A **No** value indicates that the expense cost will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="77cbf-141">Un valor **Sí** indica que el coste de gastos se incluirá en la estimación de esta línea de oferta.</span><span class="sxs-lookup"><span data-stu-id="77cbf-141">A **Yes** value indicates that the expense cost will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="77cbf-142">Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta.</span><span class="sxs-lookup"><span data-stu-id="77cbf-142">This field value is copied over to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="77cbf-143">Incluir tarifa</span><span class="sxs-lookup"><span data-stu-id="77cbf-143">Include Fee</span></span> | <span data-ttu-id="77cbf-144">Un indicador **Sí**/**No** indica si las tarifas del proyecto seleccionado se incluirán en la estimación de esta línea de oferta.</span><span class="sxs-lookup"><span data-stu-id="77cbf-144">A **Yes**/**No** flag indicates if fees on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="77cbf-145">Un valor **No** indica que las tarifas no se incluirán en la estimación de esta línea de oferta.</span><span class="sxs-lookup"><span data-stu-id="77cbf-145">A **No** value indicates that the Fees will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="77cbf-146">Un valor **No** indica que las tarifas se incluirán en la estimación de esta línea de oferta.</span><span class="sxs-lookup"><span data-stu-id="77cbf-146">A **Yes** value indicates that the Fees will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="77cbf-147">Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta.</span><span class="sxs-lookup"><span data-stu-id="77cbf-147">This field value is copied to the Project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="77cbf-148">Importe de la oferta</span><span class="sxs-lookup"><span data-stu-id="77cbf-148">Quoted Amount</span></span> | <span data-ttu-id="77cbf-149">Esta es la cantidad que se ofertará al cliente por todo el trabajo previsto en esta línea de oferta basada en el proyecto.</span><span class="sxs-lookup"><span data-stu-id="77cbf-149">This is amount that will be quoted to the customer for all the work forecasted on this project-based quote line.</span></span> <span data-ttu-id="77cbf-150">En una oferta creada a partir de una oportunidad, este valor se copia del campo **Presupuesto del cliente** correspondiente en la línea de oportunidad.</span><span class="sxs-lookup"><span data-stu-id="77cbf-150">On a quote created from an opportunity, this value is copied from the **Customer Budget** field on the opportunity line.</span></span> <span data-ttu-id="77cbf-151">Cuando la línea de oferta basada en el proyecto tiene detalles de línea, este campo se bloquea para su edición y se resume a partir del importe de los detalles de la línea de oferta.</span><span class="sxs-lookup"><span data-stu-id="77cbf-151">When the project-based quote line has line details, this field is locked for editing and is summarized from the amount on the quote line details.</span></span> | <span data-ttu-id="77cbf-152">Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta.</span><span class="sxs-lookup"><span data-stu-id="77cbf-152">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="77cbf-153">Impuesto estimado</span><span class="sxs-lookup"><span data-stu-id="77cbf-153">Estimated Tax</span></span> | <span data-ttu-id="77cbf-154">Este es un campo editable para que el usuario agregue el importe del impuesto estimado en la línea de oferta.</span><span class="sxs-lookup"><span data-stu-id="77cbf-154">This is an editable field for the user to add the estimated tax amount on the quote line.</span></span> <span data-ttu-id="77cbf-155">Cuando la línea de oferta basada en el proyecto tiene detalles de línea, este campo se bloquea para su edición y se resume a partir del importe de los impuestos de los detalles de la línea de oferta.</span><span class="sxs-lookup"><span data-stu-id="77cbf-155">When a project-based quote line has line details, this field is locked for editing and is summarized from the tax amount on the quote line details.</span></span> | <span data-ttu-id="77cbf-156">Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta.</span><span class="sxs-lookup"><span data-stu-id="77cbf-156">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="77cbf-157">Importe ofertado después de impuestos</span><span class="sxs-lookup"><span data-stu-id="77cbf-157">Quoted Amount after Tax</span></span> | <span data-ttu-id="77cbf-158">Este campo es el importe de la línea de oferta después de impuestos y es de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="77cbf-158">This field is the quote line amount after tax and is read-only.</span></span> <span data-ttu-id="77cbf-159">La cantidad de este campo se calcula como *Importe ofertado + Impuestos*.</span><span class="sxs-lookup"><span data-stu-id="77cbf-159">The amount in this field is calculated as *Quoted Amount + Tax*.</span></span> | <span data-ttu-id="77cbf-160">Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta.</span><span class="sxs-lookup"><span data-stu-id="77cbf-160">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="77cbf-161">Límite de No exceder</span><span class="sxs-lookup"><span data-stu-id="77cbf-161">Not-to-exceed Limit</span></span> | <span data-ttu-id="77cbf-162">Este campo es editable y solo está disponible en líneas de oferta basadas en proyectos que tienen un método de facturación **Tiempo y material**.</span><span class="sxs-lookup"><span data-stu-id="77cbf-162">This field is editable and is only available on project-based quote lines that have a **Time and Material** billing method.</span></span> | <span data-ttu-id="77cbf-163">Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta.</span><span class="sxs-lookup"><span data-stu-id="77cbf-163">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="77cbf-164">Presupuesto del cliente</span><span class="sxs-lookup"><span data-stu-id="77cbf-164">Customer Budget</span></span> | <span data-ttu-id="77cbf-165">Este campo es editable y se copia a partir del campo correspondiente de la línea de oportunidad si la oferta se creo a partir de una oportunidad.</span><span class="sxs-lookup"><span data-stu-id="77cbf-165">This field is editable and is copied from the corresponding field on the opportunity line if the quote was created from an opportunity.</span></span> | <span data-ttu-id="77cbf-166">Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta.</span><span class="sxs-lookup"><span data-stu-id="77cbf-166">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
 
-## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a><span data-ttu-id="4be76-167">Reglas de validación para campos en la pestaña General de líneas de oferta basadas en proyectos</span><span class="sxs-lookup"><span data-stu-id="4be76-167">Validation rules for fields on the General tab of project-based quote lines</span></span>
+## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a><span data-ttu-id="77cbf-167">Reglas de validación para campos en la pestaña General de líneas de oferta basadas en proyectos</span><span class="sxs-lookup"><span data-stu-id="77cbf-167">Validation rules for fields on the General tab of project-based quote lines</span></span>
 
-<span data-ttu-id="4be76-168">**Regla 1**: una determinada clase de transacción en el proyecto seleccionado solo se puede incluir en una línea de oferta basada en el proyecto de una oferta.</span><span class="sxs-lookup"><span data-stu-id="4be76-168">**Rule 1**: A certain transaction class on the selected project can only be included on one project-based quote line of a quote.</span></span>
+<span data-ttu-id="77cbf-168">**Regla 1**: una determinada clase de transacción en el proyecto seleccionado solo se puede incluir en una línea de oferta basada en el proyecto de una oferta.</span><span class="sxs-lookup"><span data-stu-id="77cbf-168">**Rule 1**: A certain transaction class on the selected project can only be included on one project-based quote line of a quote.</span></span>
 
-<span data-ttu-id="4be76-169">**Regla 2**: si una oportunidad tiene varias ofertas, puede haber líneas de oferta de ofertas diferentes que hagan referencia al mismo proyecto e incluyan la misma clase de transacción.</span><span class="sxs-lookup"><span data-stu-id="4be76-169">**Rule 2**: If an opportunity has multiple quotes, there can be quote lines from different quotes that all reference the same project and include the same transaction class.</span></span>
+<span data-ttu-id="77cbf-169">**Regla 2**: si una oportunidad tiene varias ofertas, puede haber líneas de oferta de ofertas diferentes que hagan referencia al mismo proyecto e incluyan la misma clase de transacción.</span><span class="sxs-lookup"><span data-stu-id="77cbf-169">**Rule 2**: If an opportunity has multiple quotes, there can be quote lines from different quotes that all reference the same project and include the same transaction class.</span></span>
 
-<span data-ttu-id="4be76-170">**Regla 3**: si las ofertas no pertenecen a la misma oportunidad, no pueden incluir el mismo proyecto y clase de transacción.</span><span class="sxs-lookup"><span data-stu-id="4be76-170">**Rule 3**: If the quotes do not belong to the same opportunity, they can't include the same project and transaction class.</span></span>
+<span data-ttu-id="77cbf-170">**Regla 3**: si las ofertas no pertenecen a la misma oportunidad, no pueden incluir el mismo proyecto y clase de transacción.</span><span class="sxs-lookup"><span data-stu-id="77cbf-170">**Rule 3**: If the quotes do not belong to the same opportunity, they can't include the same project and transaction class.</span></span>
 
 <table border="1" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
             <td width="61" valign="top">
-                <p><span data-ttu-id="4be76-171">
+                <p><span data-ttu-id="77cbf-171">
                     <strong>Oportunidad</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="4be76-171">
+                </span><span class="sxs-lookup"><span data-stu-id="77cbf-171">
                     <strong>Opportunity</strong>
                 </span></span></p>
             </td>
             <td width="41" valign="top">
-                <p><span data-ttu-id="4be76-172">
+                <p><span data-ttu-id="77cbf-172">
                     <strong>Oferta</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="4be76-172">
+                </span><span class="sxs-lookup"><span data-stu-id="77cbf-172">
                     <strong>Quote</strong>
                 </span></span></p>
             </td>
             <td width="42" valign="top">
-                <p><span data-ttu-id="4be76-173">
+                <p><span data-ttu-id="77cbf-173">
                     <strong>Línea de oferta</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="4be76-173">
+                </span><span class="sxs-lookup"><span data-stu-id="77cbf-173">
                     <strong>Quote line</strong>
                 </span></span></p>
             </td>
             <td width="42" valign="top">
-                <p><span data-ttu-id="4be76-174">
+                <p><span data-ttu-id="77cbf-174">
                     <strong>Project</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="4be76-174">
+                </span><span class="sxs-lookup"><span data-stu-id="77cbf-174">
                     <strong>Project</strong>
                 </span></span></p>
             </td>
             <td width="48" valign="top">
-                <p><span data-ttu-id="4be76-175">
+                <p><span data-ttu-id="77cbf-175">
                     <strong>Incluir tiempo</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="4be76-175">
+                </span><span class="sxs-lookup"><span data-stu-id="77cbf-175">
                     <strong>Include time</strong>
                 </span></span></p>
             </td>
             <td width="48" valign="top">
-                <p><span data-ttu-id="4be76-176">
+                <p><span data-ttu-id="77cbf-176">
                     <strong>Incluir gasto</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="4be76-176">
+                </span><span class="sxs-lookup"><span data-stu-id="77cbf-176">
                     <strong>Include expense</strong>
                 </span></span></p>
             </td>
             <td width="42" valign="top">
-                <p><span data-ttu-id="4be76-177">
+                <p><span data-ttu-id="77cbf-177">
                     <strong>Incluir</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="4be76-177">
+                </span><span class="sxs-lookup"><span data-stu-id="77cbf-177">
                     <strong>Include</strong>
                 </span></span></p>
-                <p><span data-ttu-id="4be76-178">
+                <p><span data-ttu-id="77cbf-178">
                     <strong>tarifa</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="4be76-178">
+                </span><span class="sxs-lookup"><span data-stu-id="77cbf-178">
                     <strong>fee</strong>
                 </span></span></p>
             </td>
             <td width="54" valign="top">
-                <p><span data-ttu-id="4be76-179">
+                <p><span data-ttu-id="77cbf-179">
                     <strong>Válido/no válido</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="4be76-179">
+                </span><span class="sxs-lookup"><span data-stu-id="77cbf-179">
                     <strong>Valid/ Not valid</strong>
                 </span></span></p>
             </td>
             <td width="308" valign="top">
-                <p><span data-ttu-id="4be76-180">
+                <p><span data-ttu-id="77cbf-180">
                     <strong>Razón</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="4be76-180">
+                </span><span class="sxs-lookup"><span data-stu-id="77cbf-180">
                     <strong>Reason</strong>
                 </span></span></p>
             </td>
@@ -128,70 +128,70 @@ ms.locfileid: "4181878"
         <tr>
             <td width="61" valign="top">
                 <p>
-<span data-ttu-id="4be76-181">O1</span><span class="sxs-lookup"><span data-stu-id="4be76-181">O1</span></span> </p>
+<span data-ttu-id="77cbf-181">O1</span><span class="sxs-lookup"><span data-stu-id="77cbf-181">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4be76-182">T1</span><span class="sxs-lookup"><span data-stu-id="4be76-182">Q1</span></span> </p>
+<span data-ttu-id="77cbf-182">T1</span><span class="sxs-lookup"><span data-stu-id="77cbf-182">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-183">QL1</span><span class="sxs-lookup"><span data-stu-id="4be76-183">QL1</span></span> </p>
+<span data-ttu-id="77cbf-183">QL1</span><span class="sxs-lookup"><span data-stu-id="77cbf-183">QL1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-184">P1</span><span class="sxs-lookup"><span data-stu-id="4be76-184">P1</span></span> </p>
+<span data-ttu-id="77cbf-184">P1</span><span class="sxs-lookup"><span data-stu-id="77cbf-184">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-<span data-ttu-id="4be76-185">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-185">Yes</span></span> </p>
+<span data-ttu-id="77cbf-185">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-185">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-<span data-ttu-id="4be76-186">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-186">Yes</span></span> </p>
+<span data-ttu-id="77cbf-186">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-186">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-187">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-187">Yes</span></span> </p>
+<span data-ttu-id="77cbf-187">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-187">Yes</span></span> </p>
             </td>
             <td width="54" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="4be76-188">No válido</span><span class="sxs-lookup"><span data-stu-id="4be76-188">Not valid</span></span> </p>
+<span data-ttu-id="77cbf-188">No válido</span><span class="sxs-lookup"><span data-stu-id="77cbf-188">Not valid</span></span> </p>
             </td>
             <td width="308" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="4be76-189">Infracción de la regla n.º 1.</span><span class="sxs-lookup"><span data-stu-id="4be76-189">Violation of Rule #1.</span></span> <span data-ttu-id="4be76-190">El tiempo, los gastos y las tarifas del proyecto P1 se incluyen en ambas líneas de oferta, QL1 y QL2.</span><span class="sxs-lookup"><span data-stu-id="4be76-190">Time, Expense, and Fees on P1 project are included on both quote lines, QL1 and QL2.</span></span>
+<span data-ttu-id="77cbf-189">Infracción de la regla n.º 1.</span><span class="sxs-lookup"><span data-stu-id="77cbf-189">Violation of Rule #1.</span></span> <span data-ttu-id="77cbf-190">El tiempo, los gastos y las tarifas del proyecto P1 se incluyen en ambas líneas de oferta, QL1 y QL2.</span><span class="sxs-lookup"><span data-stu-id="77cbf-190">Time, Expense, and Fees on P1 project are included on both quote lines, QL1 and QL2.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="61" valign="top">
                 <p>
-<span data-ttu-id="4be76-191">O1</span><span class="sxs-lookup"><span data-stu-id="4be76-191">O1</span></span> </p>
+<span data-ttu-id="77cbf-191">O1</span><span class="sxs-lookup"><span data-stu-id="77cbf-191">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4be76-192">T1</span><span class="sxs-lookup"><span data-stu-id="4be76-192">Q1</span></span> </p>
+<span data-ttu-id="77cbf-192">T1</span><span class="sxs-lookup"><span data-stu-id="77cbf-192">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-193">QL2</span><span class="sxs-lookup"><span data-stu-id="4be76-193">QL2</span></span> </p>
+<span data-ttu-id="77cbf-193">QL2</span><span class="sxs-lookup"><span data-stu-id="77cbf-193">QL2</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-194">P1</span><span class="sxs-lookup"><span data-stu-id="4be76-194">P1</span></span> </p>
+<span data-ttu-id="77cbf-194">P1</span><span class="sxs-lookup"><span data-stu-id="77cbf-194">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-<span data-ttu-id="4be76-195">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-195">Yes</span></span> </p>
+<span data-ttu-id="77cbf-195">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-195">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-<span data-ttu-id="4be76-196">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-196">Yes</span></span> </p>
+<span data-ttu-id="77cbf-196">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-196">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-197">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-197">Yes</span></span> </p>
+<span data-ttu-id="77cbf-197">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-197">Yes</span></span> </p>
             </td>
         </tr>
         <tr>
@@ -217,70 +217,70 @@ ms.locfileid: "4181878"
         <tr>
             <td width="61" valign="top">
                 <p>
-<span data-ttu-id="4be76-198">O1</span><span class="sxs-lookup"><span data-stu-id="4be76-198">O1</span></span> </p>
+<span data-ttu-id="77cbf-198">O1</span><span class="sxs-lookup"><span data-stu-id="77cbf-198">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4be76-199">T1</span><span class="sxs-lookup"><span data-stu-id="4be76-199">Q1</span></span> </p>
+<span data-ttu-id="77cbf-199">T1</span><span class="sxs-lookup"><span data-stu-id="77cbf-199">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-200">QL1</span><span class="sxs-lookup"><span data-stu-id="4be76-200">QL1</span></span> </p>
+<span data-ttu-id="77cbf-200">QL1</span><span class="sxs-lookup"><span data-stu-id="77cbf-200">QL1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-201">P1</span><span class="sxs-lookup"><span data-stu-id="4be76-201">P1</span></span> </p>
+<span data-ttu-id="77cbf-201">P1</span><span class="sxs-lookup"><span data-stu-id="77cbf-201">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-<span data-ttu-id="4be76-202">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-202">Yes</span></span> </p>
+<span data-ttu-id="77cbf-202">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-202">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-<span data-ttu-id="4be76-203">No</span><span class="sxs-lookup"><span data-stu-id="4be76-203">No</span></span> </p>
+<span data-ttu-id="77cbf-203">No</span><span class="sxs-lookup"><span data-stu-id="77cbf-203">No</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-204">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-204">Yes</span></span> </p>
+<span data-ttu-id="77cbf-204">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-204">Yes</span></span> </p>
             </td>
             <td width="54" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="4be76-205">No válido</span><span class="sxs-lookup"><span data-stu-id="4be76-205">Not valid</span></span> </p>
+<span data-ttu-id="77cbf-205">No válido</span><span class="sxs-lookup"><span data-stu-id="77cbf-205">Not valid</span></span> </p>
             </td>
             <td width="308" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="4be76-206">Infracción de la regla n.º 1.</span><span class="sxs-lookup"><span data-stu-id="4be76-206">Violation of Rule #1.</span></span> <span data-ttu-id="4be76-207">El tiempo, los gastos y las tarifas del proyecto P1 se incluyen en ambas líneas de oferta, QL1 y QL2.</span><span class="sxs-lookup"><span data-stu-id="4be76-207">Time and Fees on P1 project are included on both quote lines, QL1 and QL2.</span></span>
+<span data-ttu-id="77cbf-206">Infracción de la regla n.º 1.</span><span class="sxs-lookup"><span data-stu-id="77cbf-206">Violation of Rule #1.</span></span> <span data-ttu-id="77cbf-207">El tiempo, los gastos y las tarifas del proyecto P1 se incluyen en ambas líneas de oferta, QL1 y QL2.</span><span class="sxs-lookup"><span data-stu-id="77cbf-207">Time and Fees on P1 project are included on both quote lines, QL1 and QL2.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="61" valign="top">
                 <p>
-<span data-ttu-id="4be76-208">O1</span><span class="sxs-lookup"><span data-stu-id="4be76-208">O1</span></span> </p>
+<span data-ttu-id="77cbf-208">O1</span><span class="sxs-lookup"><span data-stu-id="77cbf-208">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4be76-209">T1</span><span class="sxs-lookup"><span data-stu-id="4be76-209">Q1</span></span> </p>
+<span data-ttu-id="77cbf-209">T1</span><span class="sxs-lookup"><span data-stu-id="77cbf-209">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-210">QL2</span><span class="sxs-lookup"><span data-stu-id="4be76-210">QL2</span></span> </p>
+<span data-ttu-id="77cbf-210">QL2</span><span class="sxs-lookup"><span data-stu-id="77cbf-210">QL2</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-211">P1</span><span class="sxs-lookup"><span data-stu-id="4be76-211">P1</span></span> </p>
+<span data-ttu-id="77cbf-211">P1</span><span class="sxs-lookup"><span data-stu-id="77cbf-211">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-<span data-ttu-id="4be76-212">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-212">Yes</span></span> </p>
+<span data-ttu-id="77cbf-212">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-212">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-<span data-ttu-id="4be76-213">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-213">Yes</span></span> </p>
+<span data-ttu-id="77cbf-213">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-213">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-214">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-214">Yes</span></span> </p>
+<span data-ttu-id="77cbf-214">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-214">Yes</span></span> </p>
             </td>
         </tr>
         <tr>
@@ -306,72 +306,72 @@ ms.locfileid: "4181878"
         <tr>
             <td width="61" valign="top">
                 <p>
-<span data-ttu-id="4be76-215">O1</span><span class="sxs-lookup"><span data-stu-id="4be76-215">O1</span></span> </p>
+<span data-ttu-id="77cbf-215">O1</span><span class="sxs-lookup"><span data-stu-id="77cbf-215">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4be76-216">T1</span><span class="sxs-lookup"><span data-stu-id="4be76-216">Q1</span></span> </p>
+<span data-ttu-id="77cbf-216">T1</span><span class="sxs-lookup"><span data-stu-id="77cbf-216">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-217">QL1</span><span class="sxs-lookup"><span data-stu-id="4be76-217">QL1</span></span> </p>
+<span data-ttu-id="77cbf-217">QL1</span><span class="sxs-lookup"><span data-stu-id="77cbf-217">QL1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-218">P1</span><span class="sxs-lookup"><span data-stu-id="4be76-218">P1</span></span> </p>
+<span data-ttu-id="77cbf-218">P1</span><span class="sxs-lookup"><span data-stu-id="77cbf-218">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-<span data-ttu-id="4be76-219">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-219">Yes</span></span> </p>
+<span data-ttu-id="77cbf-219">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-219">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-<span data-ttu-id="4be76-220">No</span><span class="sxs-lookup"><span data-stu-id="4be76-220">No</span></span> </p>
+<span data-ttu-id="77cbf-220">No</span><span class="sxs-lookup"><span data-stu-id="77cbf-220">No</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-221">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-221">Yes</span></span> </p>
+<span data-ttu-id="77cbf-221">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-221">Yes</span></span> </p>
             </td>
             <td width="54" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="4be76-222">Válido</span><span class="sxs-lookup"><span data-stu-id="4be76-222">Valid</span></span> </p>
+<span data-ttu-id="77cbf-222">Válido</span><span class="sxs-lookup"><span data-stu-id="77cbf-222">Valid</span></span> </p>
             </td>
             <td width="308" rowspan="2" valign="top">
                  <p>
-<span data-ttu-id="4be76-223">El tiempo y las tarifas del proyecto P1 se incluyen en QL1.</span><span class="sxs-lookup"><span data-stu-id="4be76-223">Time and fees on P1 project are included on QL1.</span></span>
-<span data-ttu-id="4be76-224">El gasto del proyecto P1 se incluyen en QL2.</span><span class="sxs-lookup"><span data-stu-id="4be76-224">Expense on P1 project is included on QL2.</span></span>
-<span data-ttu-id="4be76-225">No hay superposición en lo que se incluye en cada línea de oferta, por lo que es válido.</span><span class="sxs-lookup"><span data-stu-id="4be76-225">There is no overlap in what is being included on each quote line so it is valid.</span></span>
+<span data-ttu-id="77cbf-223">El tiempo y las tarifas del proyecto P1 se incluyen en QL1.</span><span class="sxs-lookup"><span data-stu-id="77cbf-223">Time and fees on P1 project are included on QL1.</span></span>
+<span data-ttu-id="77cbf-224">El gasto del proyecto P1 se incluyen en QL2.</span><span class="sxs-lookup"><span data-stu-id="77cbf-224">Expense on P1 project is included on QL2.</span></span>
+<span data-ttu-id="77cbf-225">No hay superposición en lo que se incluye en cada línea de oferta, por lo que es válido.</span><span class="sxs-lookup"><span data-stu-id="77cbf-225">There is no overlap in what is being included on each quote line so it is valid.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="61" valign="top">
                 <p>
-<span data-ttu-id="4be76-226">O1</span><span class="sxs-lookup"><span data-stu-id="4be76-226">O1</span></span> </p>
+<span data-ttu-id="77cbf-226">O1</span><span class="sxs-lookup"><span data-stu-id="77cbf-226">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4be76-227">T1</span><span class="sxs-lookup"><span data-stu-id="4be76-227">Q1</span></span> </p>
+<span data-ttu-id="77cbf-227">T1</span><span class="sxs-lookup"><span data-stu-id="77cbf-227">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-228">QL2</span><span class="sxs-lookup"><span data-stu-id="4be76-228">QL2</span></span> </p>
+<span data-ttu-id="77cbf-228">QL2</span><span class="sxs-lookup"><span data-stu-id="77cbf-228">QL2</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-229">P1</span><span class="sxs-lookup"><span data-stu-id="4be76-229">P1</span></span> </p>
+<span data-ttu-id="77cbf-229">P1</span><span class="sxs-lookup"><span data-stu-id="77cbf-229">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-<span data-ttu-id="4be76-230">No</span><span class="sxs-lookup"><span data-stu-id="4be76-230">No</span></span> </p>
+<span data-ttu-id="77cbf-230">No</span><span class="sxs-lookup"><span data-stu-id="77cbf-230">No</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-<span data-ttu-id="4be76-231">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-231">Yes</span></span> </p>
+<span data-ttu-id="77cbf-231">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-231">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-232">No</span><span class="sxs-lookup"><span data-stu-id="4be76-232">No</span></span> </p>
+<span data-ttu-id="77cbf-232">No</span><span class="sxs-lookup"><span data-stu-id="77cbf-232">No</span></span> </p>
             </td>
         </tr>
         <tr>
@@ -397,75 +397,75 @@ ms.locfileid: "4181878"
         <tr>
             <td width="61" valign="top">
                 <p>
-<span data-ttu-id="4be76-233">O1</span><span class="sxs-lookup"><span data-stu-id="4be76-233">O1</span></span> </p>
+<span data-ttu-id="77cbf-233">O1</span><span class="sxs-lookup"><span data-stu-id="77cbf-233">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4be76-234">T1</span><span class="sxs-lookup"><span data-stu-id="4be76-234">Q1</span></span> </p>
+<span data-ttu-id="77cbf-234">T1</span><span class="sxs-lookup"><span data-stu-id="77cbf-234">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-235">QL1</span><span class="sxs-lookup"><span data-stu-id="4be76-235">QL1</span></span> </p>
+<span data-ttu-id="77cbf-235">QL1</span><span class="sxs-lookup"><span data-stu-id="77cbf-235">QL1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-236">P1</span><span class="sxs-lookup"><span data-stu-id="4be76-236">P1</span></span> </p>
+<span data-ttu-id="77cbf-236">P1</span><span class="sxs-lookup"><span data-stu-id="77cbf-236">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-<span data-ttu-id="4be76-237">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-237">Yes</span></span> </p>
+<span data-ttu-id="77cbf-237">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-237">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-<span data-ttu-id="4be76-238">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-238">Yes</span></span> </p>
+<span data-ttu-id="77cbf-238">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-238">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-239">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-239">Yes</span></span> </p>
+<span data-ttu-id="77cbf-239">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-239">Yes</span></span> </p>
             </td>
             <td width="54" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="4be76-240">No válido</span><span class="sxs-lookup"><span data-stu-id="4be76-240">Not valid</span></span> </p>
+<span data-ttu-id="77cbf-240">No válido</span><span class="sxs-lookup"><span data-stu-id="77cbf-240">Not valid</span></span> </p>
             </td>
             <td width="308" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="4be76-241">Infracción de la regla n.º 1 anterior</span><span class="sxs-lookup"><span data-stu-id="4be76-241">Violation of Rule #1 above</span></span> </p>
+<span data-ttu-id="77cbf-241">Infracción de la regla n.º 1 anterior</span><span class="sxs-lookup"><span data-stu-id="77cbf-241">Violation of Rule #1 above</span></span> </p>
                 <p>
-<span data-ttu-id="4be76-242">Q1 incluye tiempo, gastos y tarifas para todo el proyecto P1.</span><span class="sxs-lookup"><span data-stu-id="4be76-242">Q1 includes Time, Expenses, and Fees for the whole project P1.</span></span>
+<span data-ttu-id="77cbf-242">Q1 incluye tiempo, gastos y tarifas para todo el proyecto P1.</span><span class="sxs-lookup"><span data-stu-id="77cbf-242">Q1 includes Time, Expenses, and Fees for the whole project P1.</span></span>
                 </p>
                 <p>
-<span data-ttu-id="4be76-243">QL2 incluye tiempo, gastos y tarifas para todo el proyecto P1 y se superpone con lo que se incluye en Q1.</span><span class="sxs-lookup"><span data-stu-id="4be76-243">QL2 includes Time, Expenses, and Fees for the whole project P1 and overlaps with what is included on Q1.</span></span>
+<span data-ttu-id="77cbf-243">QL2 incluye tiempo, gastos y tarifas para todo el proyecto P1 y se superpone con lo que se incluye en Q1.</span><span class="sxs-lookup"><span data-stu-id="77cbf-243">QL2 includes Time, Expenses, and Fees for the whole project P1 and overlaps with what is included on Q1.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="61" valign="top">
                 <p>
-<span data-ttu-id="4be76-244">O1</span><span class="sxs-lookup"><span data-stu-id="4be76-244">O1</span></span> </p>
+<span data-ttu-id="77cbf-244">O1</span><span class="sxs-lookup"><span data-stu-id="77cbf-244">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4be76-245">T1</span><span class="sxs-lookup"><span data-stu-id="4be76-245">Q1</span></span> </p>
+<span data-ttu-id="77cbf-245">T1</span><span class="sxs-lookup"><span data-stu-id="77cbf-245">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-246">QL2</span><span class="sxs-lookup"><span data-stu-id="4be76-246">QL2</span></span> </p>
+<span data-ttu-id="77cbf-246">QL2</span><span class="sxs-lookup"><span data-stu-id="77cbf-246">QL2</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-247">P1</span><span class="sxs-lookup"><span data-stu-id="4be76-247">P1</span></span> </p>
+<span data-ttu-id="77cbf-247">P1</span><span class="sxs-lookup"><span data-stu-id="77cbf-247">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-<span data-ttu-id="4be76-248">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-248">Yes</span></span> </p>
+<span data-ttu-id="77cbf-248">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-248">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-<span data-ttu-id="4be76-249">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-249">Yes</span></span> </p>
+<span data-ttu-id="77cbf-249">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-249">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-250">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-250">Yes</span></span> </p>
+<span data-ttu-id="77cbf-250">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-250">Yes</span></span> </p>
             </td>
         </tr>
         <tr>
@@ -491,70 +491,70 @@ ms.locfileid: "4181878"
         <tr>
             <td width="61" valign="top">
                 <p>
-<span data-ttu-id="4be76-251">O1</span><span class="sxs-lookup"><span data-stu-id="4be76-251">O1</span></span> </p>
+<span data-ttu-id="77cbf-251">O1</span><span class="sxs-lookup"><span data-stu-id="77cbf-251">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4be76-252">T1</span><span class="sxs-lookup"><span data-stu-id="4be76-252">Q1</span></span> </p>
+<span data-ttu-id="77cbf-252">T1</span><span class="sxs-lookup"><span data-stu-id="77cbf-252">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-253">QL1</span><span class="sxs-lookup"><span data-stu-id="4be76-253">QL1</span></span> </p>
+<span data-ttu-id="77cbf-253">QL1</span><span class="sxs-lookup"><span data-stu-id="77cbf-253">QL1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-254">P1</span><span class="sxs-lookup"><span data-stu-id="4be76-254">P1</span></span> </p>
+<span data-ttu-id="77cbf-254">P1</span><span class="sxs-lookup"><span data-stu-id="77cbf-254">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-<span data-ttu-id="4be76-255">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-255">Yes</span></span> </p>
+<span data-ttu-id="77cbf-255">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-255">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-<span data-ttu-id="4be76-256">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-256">Yes</span></span> </p>
+<span data-ttu-id="77cbf-256">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-256">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-257">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-257">Yes</span></span> </p>
+<span data-ttu-id="77cbf-257">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-257">Yes</span></span> </p>
             </td>
             <td width="54" valign="top">
                 <p>
-<span data-ttu-id="4be76-258">Válido</span><span class="sxs-lookup"><span data-stu-id="4be76-258">Valid</span></span> </p>
+<span data-ttu-id="77cbf-258">Válido</span><span class="sxs-lookup"><span data-stu-id="77cbf-258">Valid</span></span> </p>
             </td>
             <td width="308" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="4be76-259">Según la Regla n.° 2, Q1 y Q2 son dos ofertas de la misma oportunidad, por lo que ambas pueden estimar los mismos componentes de un proyecto.</span><span class="sxs-lookup"><span data-stu-id="4be76-259">Based on Rule #2, Q1 and Q2 are two quotes on the same opportunity, so they can both estimate for the same components of a project.</span></span>
+<span data-ttu-id="77cbf-259">Según la Regla n.° 2, Q1 y Q2 son dos ofertas de la misma oportunidad, por lo que ambas pueden estimar los mismos componentes de un proyecto.</span><span class="sxs-lookup"><span data-stu-id="77cbf-259">Based on Rule #2, Q1 and Q2 are two quotes on the same opportunity, so they can both estimate for the same components of a project.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="61" valign="top">
                 <p>
-<span data-ttu-id="4be76-260">O1</span><span class="sxs-lookup"><span data-stu-id="4be76-260">O1</span></span> </p>
+<span data-ttu-id="77cbf-260">O1</span><span class="sxs-lookup"><span data-stu-id="77cbf-260">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4be76-261">T2</span><span class="sxs-lookup"><span data-stu-id="4be76-261">Q2</span></span> </p>
+<span data-ttu-id="77cbf-261">T2</span><span class="sxs-lookup"><span data-stu-id="77cbf-261">Q2</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-262">QL1 en Q2</span><span class="sxs-lookup"><span data-stu-id="4be76-262">QL1 on Q2</span></span> </p>
+<span data-ttu-id="77cbf-262">QL1 en Q2</span><span class="sxs-lookup"><span data-stu-id="77cbf-262">QL1 on Q2</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-263">P1</span><span class="sxs-lookup"><span data-stu-id="4be76-263">P1</span></span> </p>
+<span data-ttu-id="77cbf-263">P1</span><span class="sxs-lookup"><span data-stu-id="77cbf-263">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-<span data-ttu-id="4be76-264">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-264">Yes</span></span> </p>
+<span data-ttu-id="77cbf-264">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-264">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-<span data-ttu-id="4be76-265">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-265">Yes</span></span> </p>
+<span data-ttu-id="77cbf-265">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-265">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-266">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-266">Yes</span></span> </p>
+<span data-ttu-id="77cbf-266">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-266">Yes</span></span> </p>
             </td>
             <td width="54" valign="top">
             </td>
@@ -582,76 +582,79 @@ ms.locfileid: "4181878"
         <tr>
             <td width="61" valign="top">
                 <p>
-<span data-ttu-id="4be76-267">O1</span><span class="sxs-lookup"><span data-stu-id="4be76-267">O1</span></span> </p>
+<span data-ttu-id="77cbf-267">O1</span><span class="sxs-lookup"><span data-stu-id="77cbf-267">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4be76-268">T1</span><span class="sxs-lookup"><span data-stu-id="4be76-268">Q1</span></span> </p>
+<span data-ttu-id="77cbf-268">T1</span><span class="sxs-lookup"><span data-stu-id="77cbf-268">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-269">QL1</span><span class="sxs-lookup"><span data-stu-id="4be76-269">QL1</span></span> </p>
+<span data-ttu-id="77cbf-269">QL1</span><span class="sxs-lookup"><span data-stu-id="77cbf-269">QL1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-270">P1</span><span class="sxs-lookup"><span data-stu-id="4be76-270">P1</span></span> </p>
+<span data-ttu-id="77cbf-270">P1</span><span class="sxs-lookup"><span data-stu-id="77cbf-270">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-<span data-ttu-id="4be76-271">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-271">Yes</span></span> </p>
+<span data-ttu-id="77cbf-271">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-271">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-<span data-ttu-id="4be76-272">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-272">Yes</span></span> </p>
+<span data-ttu-id="77cbf-272">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-272">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-273">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-273">Yes</span></span> </p>
+<span data-ttu-id="77cbf-273">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-273">Yes</span></span> </p>
             </td>
             <td width="54" valign="top">
                 <p>
-<span data-ttu-id="4be76-274">Válido</span><span class="sxs-lookup"><span data-stu-id="4be76-274">Valid</span></span> </p>
+<span data-ttu-id="77cbf-274">Válido</span><span class="sxs-lookup"><span data-stu-id="77cbf-274">Valid</span></span> </p>
             </td>
             <td width="308" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="4be76-275">Según la Regla n.° 3, Q1 y Q2 son dos ofertas de diferentes oportunidades, por lo que no pueden estimar los mismos componentes del mismo proyecto.</span><span class="sxs-lookup"><span data-stu-id="4be76-275">Based on Rule #3, Q1 and Q2 are two quotes on different opportunities, so they can't estimate for the same components of the same project.</span></span>
+<span data-ttu-id="77cbf-275">Según la Regla n.° 3, Q1 y Q2 son dos ofertas de diferentes oportunidades, por lo que no pueden estimar los mismos componentes del mismo proyecto.</span><span class="sxs-lookup"><span data-stu-id="77cbf-275">Based on Rule #3, Q1 and Q2 are two quotes on different opportunities, so they can't estimate for the same components of the same project.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="61" valign="top">
                 <p>
-<span data-ttu-id="4be76-276">O2</span><span class="sxs-lookup"><span data-stu-id="4be76-276">O2</span></span> </p>
+<span data-ttu-id="77cbf-276">O2</span><span class="sxs-lookup"><span data-stu-id="77cbf-276">O2</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4be76-277">T1</span><span class="sxs-lookup"><span data-stu-id="4be76-277">Q1</span></span> </p>
+<span data-ttu-id="77cbf-277">T1</span><span class="sxs-lookup"><span data-stu-id="77cbf-277">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-278">QL1</span><span class="sxs-lookup"><span data-stu-id="4be76-278">QL1</span></span> </p>
+<span data-ttu-id="77cbf-278">QL1</span><span class="sxs-lookup"><span data-stu-id="77cbf-278">QL1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-279">P1</span><span class="sxs-lookup"><span data-stu-id="4be76-279">P1</span></span> </p>
+<span data-ttu-id="77cbf-279">P1</span><span class="sxs-lookup"><span data-stu-id="77cbf-279">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-<span data-ttu-id="4be76-280">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-280">Yes</span></span> </p>
+<span data-ttu-id="77cbf-280">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-280">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-<span data-ttu-id="4be76-281">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-281">Yes</span></span> </p>
+<span data-ttu-id="77cbf-281">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-281">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-<span data-ttu-id="4be76-282">Sí</span><span class="sxs-lookup"><span data-stu-id="4be76-282">Yes</span></span> </p>
+<span data-ttu-id="77cbf-282">Sí</span><span class="sxs-lookup"><span data-stu-id="77cbf-282">Yes</span></span> </p>
             </td>
             <td width="54" valign="top">
                 <p>
-<span data-ttu-id="4be76-283">No válido</span><span class="sxs-lookup"><span data-stu-id="4be76-283">Not Valid</span></span> </p>
+<span data-ttu-id="77cbf-283">No válido</span><span class="sxs-lookup"><span data-stu-id="77cbf-283">Not Valid</span></span> </p>
             </td>
         </tr>
     </tbody>
 </table>
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
