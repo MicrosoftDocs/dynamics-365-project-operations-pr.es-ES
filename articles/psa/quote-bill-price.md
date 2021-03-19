@@ -18,29 +18,32 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 35fa9440a6f58a08092bcc3cc57a9097dce01e33
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: ee6ed766595773aa8af65e8e3e5aa816de4e6117
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147898"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283524"
 ---
-# <a name="quoting-pricing-and-billing-home-page"></a><span data-ttu-id="6f4ae-103">Página de inicio de ofertas, precios y facturación</span><span class="sxs-lookup"><span data-stu-id="6f4ae-103">Quoting, pricing, and billing home page</span></span>
+# <a name="quoting-pricing-and-billing-home-page"></a><span data-ttu-id="ec3cb-103">Página de inicio de ofertas, precios y facturación</span><span class="sxs-lookup"><span data-stu-id="ec3cb-103">Quoting, pricing, and billing home page</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="6f4ae-104">Las ofertas, los precios y la facturación son características que utilizan tanto las organizaciones pequeñas como grandes.</span><span class="sxs-lookup"><span data-stu-id="6f4ae-104">Quoting, pricing, and billing are features that are used by both small and large organizations.</span></span> <span data-ttu-id="6f4ae-105">Al comprender cómo funcionan estas características en la aplicación, las organizaciones pueden personalizar más fácilmente las configuraciones.</span><span class="sxs-lookup"><span data-stu-id="6f4ae-105">By understanding how these features work in the application, organizations can more easily customize configurations.</span></span>
+<span data-ttu-id="ec3cb-104">Las ofertas, los precios y la facturación son características que utilizan tanto las organizaciones pequeñas como grandes.</span><span class="sxs-lookup"><span data-stu-id="ec3cb-104">Quoting, pricing, and billing are features that are used by both small and large organizations.</span></span> <span data-ttu-id="ec3cb-105">Al comprender cómo funcionan estas características en la aplicación, las organizaciones pueden personalizar más fácilmente las configuraciones.</span><span class="sxs-lookup"><span data-stu-id="ec3cb-105">By understanding how these features work in the application, organizations can more easily customize configurations.</span></span>
 
-<span data-ttu-id="6f4ae-106">Los siguientes temas proporcionan más información sobre la funcionalidad de oferta, los precios y la facturación en PSA:</span><span class="sxs-lookup"><span data-stu-id="6f4ae-106">The following topics provide more information about the quoting, pricing, and billing functionality in PSA:</span></span>
+<span data-ttu-id="ec3cb-106">Los siguientes temas proporcionan más información sobre la funcionalidad de oferta, los precios y la facturación en PSA:</span><span class="sxs-lookup"><span data-stu-id="ec3cb-106">The following topics provide more information about the quoting, pricing, and billing functionality in PSA:</span></span>
 
-- [<span data-ttu-id="6f4ae-107">Proceso de venta</span><span class="sxs-lookup"><span data-stu-id="6f4ae-107">Sales process</span></span>](basic-sales-process.md)
-- [<span data-ttu-id="6f4ae-108">Líneas de oferta</span><span class="sxs-lookup"><span data-stu-id="6f4ae-108">Quote lines</span></span>](basic-quote-lines.md)
-- [<span data-ttu-id="6f4ae-109">Precios</span><span class="sxs-lookup"><span data-stu-id="6f4ae-109">Pricing</span></span>](basic-pricing.md)
-- [<span data-ttu-id="6f4ae-110">Transacciones comerciales</span><span class="sxs-lookup"><span data-stu-id="6f4ae-110">Business transactions</span></span>](basic-business-transactions.md)
-- [<span data-ttu-id="6f4ae-111">Análisis de ofertas de proyecto</span><span class="sxs-lookup"><span data-stu-id="6f4ae-111">Analyzing project quotes</span></span>](basic-analyzing-quotes.md)
-- [<span data-ttu-id="6f4ae-112">Unidades organizativas</span><span class="sxs-lookup"><span data-stu-id="6f4ae-112">Organizational units</span></span>](advanced-organizational.md)
-- [<span data-ttu-id="6f4ae-113">Unidades y grupos de unidades</span><span class="sxs-lookup"><span data-stu-id="6f4ae-113">Unit groups and units</span></span>](advanced-units.md)
-- [<span data-ttu-id="6f4ae-114">Divisa de varias unidades</span><span class="sxs-lookup"><span data-stu-id="6f4ae-114">Multi-unit currency</span></span>](advanced-currency.md)
-- [<span data-ttu-id="6f4ae-115">Registro de datos reales</span><span class="sxs-lookup"><span data-stu-id="6f4ae-115">Recording actuals</span></span>](advanced-actuals.md)
+- [<span data-ttu-id="ec3cb-107">Proceso de venta</span><span class="sxs-lookup"><span data-stu-id="ec3cb-107">Sales process</span></span>](basic-sales-process.md)
+- [<span data-ttu-id="ec3cb-108">Líneas de oferta</span><span class="sxs-lookup"><span data-stu-id="ec3cb-108">Quote lines</span></span>](basic-quote-lines.md)
+- [<span data-ttu-id="ec3cb-109">Precios</span><span class="sxs-lookup"><span data-stu-id="ec3cb-109">Pricing</span></span>](basic-pricing.md)
+- [<span data-ttu-id="ec3cb-110">Transacciones comerciales</span><span class="sxs-lookup"><span data-stu-id="ec3cb-110">Business transactions</span></span>](basic-business-transactions.md)
+- [<span data-ttu-id="ec3cb-111">Análisis de ofertas de proyecto</span><span class="sxs-lookup"><span data-stu-id="ec3cb-111">Analyzing project quotes</span></span>](basic-analyzing-quotes.md)
+- [<span data-ttu-id="ec3cb-112">Unidades organizativas</span><span class="sxs-lookup"><span data-stu-id="ec3cb-112">Organizational units</span></span>](advanced-organizational.md)
+- [<span data-ttu-id="ec3cb-113">Unidades y grupos de unidades</span><span class="sxs-lookup"><span data-stu-id="ec3cb-113">Unit groups and units</span></span>](advanced-units.md)
+- [<span data-ttu-id="ec3cb-114">Divisa de varias unidades</span><span class="sxs-lookup"><span data-stu-id="ec3cb-114">Multi-unit currency</span></span>](advanced-currency.md)
+- [<span data-ttu-id="ec3cb-115">Registro de datos reales</span><span class="sxs-lookup"><span data-stu-id="ec3cb-115">Recording actuals</span></span>](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
