@@ -16,12 +16,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126342"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291820"
 ---
 # <a name="actuals"></a>Datos reales 
 
@@ -70,7 +70,7 @@ La entrada según categoría de los precios unitarios predeterminados en las ent
 Puede usar diarios de movimientos para registrar costes o ingresos en materiales, precios, tiempo, gastos o clases de transacciones de impuestos. Los diarios se pueden usar para los siguientes propósitos:
 
 - Registrar el coste real de materiales y ventas de un proyecto.
-- Mover datos reales de transacciones de otro sistema a Microsoft Dynamics 365 Project Operations.
+- Mueva datos reales de transacciones de otro sistema a Microsoft Dynamics 365 Project Operations.
 - Registrar cotes que ocurrieron en otro sistema. Estos costes pueden incluir costes de adquisición o subcontratación.
 
 > [!IMPORTANT]
