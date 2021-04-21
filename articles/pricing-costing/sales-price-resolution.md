@@ -3,17 +3,17 @@ title: Resolver precios de venta para estimaciones y datos reales
 description: Este tema proporciona información sobre cómo se resuelven las tarifas de ventas en estimaciones y reales.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ce095723e8ac300caf7d11ae37b5c721b57795
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274974"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877466"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Resolver precios de venta para estimaciones y datos reales
 
@@ -54,6 +54,17 @@ Después de que se resuelve una lista de precios para las ventas, el sistema com
     | &nbsp; | Margen de beneficio sobre el coste | Al aplicar un margen según lo definido por la línea de precio de categoría en la tasa de coste unitario del costo real relacionado |
 
 4. Si el sistema no puede emparejar los valores de los campos **Categoría** y **Unidad**, la tasa de ventas predeterminada es cero (0).
+
+## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Resolver las tasas de coste en líneas de datos reales y estimados para materiales
+
+En Project Operations, las líneas de estimación de material se utilizan para denotar los detalles de la línea de cotización y la línea de contrato para materiales y las líneas de estimación de material en el proyecto.
+
+Después de que se resuelve una lista de precios para las ventas, el sistema completa los siguientes pasos para establecer el precio de venta por unidad.
+
+1. El sistema utiliza la combinación de los campos **Producto** y **Unidad** en la línea de estimación para que el material coincida con las líneas de elemento de lista de precios en la lista de precios que se resolvió.
+2. Si el sistema encuentra elemento de lista de precios que tiene una tasa de venta para la combinación de campos **Producto** y **Unidad** y el método de fijación de precios es **Importe de divisa**, se utiliza el precio de venta que se especifica en la línea de lista de precios.
+3. Si los valores de los campos **Producto** y **Unidad** no se corresponden, la tasa de ventas pasa al valor predeterminado de cero.
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

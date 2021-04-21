@@ -1,21 +1,21 @@
 ---
-title: Información general del seguimiento de proyectos
-description: En este tema se proporciona información sobre cómo realizar un seguimiento del progreso y los costes del proyecto.
+title: Seguimiento del esfuerzo del proyecto
+description: En este tema se proporciona información sobre cómo realizar un seguimiento de esfuerzo en el progreso y el progreso del trabajo.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 14094d603be2834dc66abff2ff1faf5e940b1ffa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ead8821c8861ded1e7afd5c192af414f758edef9
+ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286629"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "5710961"
 ---
-# <a name="project-tracking-overview"></a>Información general del seguimiento de proyectos
+# <a name="project-effort-tracking"></a>Seguimiento del esfuerzo del proyecto
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
@@ -26,50 +26,28 @@ La necesidad de realizar un seguimiento del progreso de acuerdo con una programa
 La vista **Seguimiento del esfuerzo** realiza un seguimiento del progreso de las tareas de la programación comparando las horas de esfuerzo reales dedicadas a una tarea con las horas de esfuerzo planificadas de la tarea. Dynamics 365 Project Operations utiliza las siguientes fórmulas para calcular las métricas de seguimiento:
 
 - **Porcentaje de progreso**: Esfuerzo real realizado hasta la fecha ÷ Estimación al finalizar (EAF) 
-- **Estimación de finalización (ETC)**: Esfuerzo planificado - Esfuerzo real realizado hasta la fecha 
+- **Esfuerzo restante**: Esfuerzo estimado al finalizar - Esfuerzo real invertido hasta la fecha 
 - **EAF**: Esfuerzo restante + Esfuerzo real realizado hasta la fecha 
 - **Variación del esfuerzo proyectado**: Esfuerzo planificado - EAF
 
 Project Operations muestra una proyección de la variación del esfuerzo en la tarea. Si el EAF es superior al esfuerzo planificado, se prevé que la tarea tardará más tiempo del planificado originalmente y va por detrás de la programación. Si el EAF es inferior al esfuerzo planificado, se prevé que la tarea tardará menos tiempo del planificado originalmente y va adelantada a la programación.
 
-## <a name="reprojecting-effort"></a>Reproyección de esfuerzo
+## <a name="reprojecting-effort-on-leaf-node-tasks"></a>Reproyección de esfuerzo en tareas de nodo hoja
 
-Es frecuente que los administradores de proyecto revisen las estimaciones originales de una tarea. Las reproyecciones de proyectos son la percepción de las estimaciones de un administrador de proyecto según estado actual de un proyecto. Sin embargo, no recomendamos que los gerentes de proyecto cambien los números de línea de base. Esto se debe que la línea de base del proyecto representa la fuente de verdad establecida para la programación y la estimación de costes del proyecto, y todos los interesados en el proyecto la han aceptado.
+Es frecuente que los administradores de proyecto revisen las estimaciones originales de una tarea. Las reproyecciones de proyectos son la percepción de las estimaciones de un administrador de proyecto según estado actual de un proyecto. Sin embargo, no recomendamos que los directores de proyectos cambien las cifras de esfuerzo planificado. Esto se debe a que el esfuerzo planificado del proyecto representa el origen de la verdad establecido para la estimación de costes y el programa del proyecto y las partes interesadas del proyecto han dado su acuerdo.
 
-Existen dos formas en las que un jefe de proyecto puede reproyectar el esfuerzo en las tareas:
-
-- Anular el ETC predeterminado con una nueva estimación del esfuerzo restante real en la tarea. 
-- Anular el porcentaje de progreso predeterminado con una nueva estimación del progreso real de la tarea.
-
-Cada enfoque genera un nuevo cálculo del ETC, EAF y el porcentaje de progreso de la tarea, y la variación del esfuerzo proyectado en una tarea. El EAF, ETC y el porcentaje de progreso en las tareas de resumen también se recalculan y producen una nueva proyección de la variación del esfuerzo.
+Un director de proyectos puede reproyectar el esfuerzo en las tareas actualizando el valor predeterminado de **Esfuerzo distante** con una nueva estimación de la tarea. Esta actualización provoca un nuevo cálculo de la estimación de la tarea al finalizar (EEF), el porcentaje de progreso y la variación del esfuerzo proyectado en una tarea. El EAF, ETC y el porcentaje de progreso en las tareas de resumen también se recalculan y producen una nueva proyección de la variación del esfuerzo.
 
 ## <a name="reprojection-of-effort-on-summary-tasks"></a>Reproyección de esfuerzo en tareas de resumen
 
-El esfuerzo en tareas de resumen o tareas de contenedor se puede reproyectar. Independientemente de si el usuario efectúa la reproyección mediante el esfuerzo restante o el porcentaje de progreso en las tareas de resumen, se inicia el siguiente conjunto de cálculos:
+El esfuerzo en tareas de resumen o tareas de contenedor se puede reproyectar. Los directores de proyecto pueden actualizar el esfuerzo restante en las tareas de resumen. La actualización del esfuerzo restante desencadena el siguiente conjunto de cálculos en la aplicación:
 
-- Se calculan el EAF, el ETC y el porcentaje de progreso en la tarea.
+- El CEF y el porcentaje de progreso en la tarea se calculan.
 - El nuevo EAF se distribuye a las tareas secundarias en la misma proporción que el EAF original de la tarea.
 - Se calcula el nuevo EAF en cada una de las tareas individuales hasta las tareas del nodo hoja. 
-- Las tareas secundarias afectadas hasta los nodos hoja tienen su ETC y su porcentaje de progreso recalculado en función del valor de EAF. Esto da como resultado una nueva proyección para la variación de esfuerzo de la tarea. 
+- Las tareas secundarias afectadas hasta los nodos hoja tienen su esfuerzo restante y su porcentaje de progreso recalculado en función del valor de EAF. Esto da como resultado una nueva proyección para la variación de esfuerzo de la tarea. 
 - Se vuelven a calcular los EAF de las tareas de resumen hasta el nodo raíz.
 
-### <a name="cost-tracking-view"></a>Vista de seguimiento de costes 
-
-La vista **Seguimiento de costes** compara el coste real que se gastó en una tarea con el coste planificado en una tarea. 
-
-> [!NOTE]
-> Esta vista muestra solo los costes laborales y no incluye los costes de las estimaciones de gastos. Project Operations utiliza las siguientes fórmulas para calcular las métricas de seguimiento:
-
-- **Porcentaje del coste consumido**: Coste real gastado hasta la fecha ÷ Coste estimado al finalizar
-- **Coste de finalización (CTC)**: Coste planificado - Coste real gastado hasta la fecha
-- **EAF**: Coste restante + Coste real gastado hasta la fecha
-- **Variación del coste proyectado**: Coste planificado - EAF
-
-Se muestra una proyección de la variación de coste en la tarea. Si el EAF es superior al coste planificado, se prevé que la tarea costará más de lo planificado originalmente. Por lo tanto, la tendencia es que se supere el presupuesto. Si el EAF es inferior al coste planificado, se prevé que la tarea costará menos de lo planificado originalmente. Por lo tanto, la tendencia es que no se supere el presupuesto.
-
-## <a name="project-managers-reprojection-of-cost"></a>Reproyección del coste del jefe de proyecto
-
-Cuando se reproyecta el esfuerzo, el CTC, el EAF, el porcentaje de coste consumido y la variación del coste proyectado se recalculan en la vista **Seguimiento de costes**.
 
 ## <a name="project-status-summary"></a>Resumen del estado del proyecto
 

@@ -1,21 +1,21 @@
 ---
-title: Administrar una factura proforma (lite)
-description: En este tema se proporciona información acerca de cómo trabajar con las facturas proforma.
+title: Administrar una factura de proyecto proforma
+description: Este tema proporciona información sobre cómo trabajar con facturas proforma del proyecto.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ca6c2cc8855cfed592057ca129b436450104af99
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2146e62bddc4a6286fa303ff2cc2c5622ea3133c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274074"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866927"
 ---
-# <a name="manage-a-proforma-invoice---lite"></a>Administrar una factura proforma (lite)
+# <a name="manage-a-proforma-project-invoice"></a>Administrar una factura de proyecto proforma 
 
 _**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
 
@@ -69,9 +69,9 @@ En Project Operations, siempre hay una línea de factura para cada línea de con
 
 Cada línea de factura en una factura de proyecto incluye detalles de la línea de factura. Estos detalles de línea están relacionados con los datos reales de ventas no facturadas y los hitos que se relacionan con la línea de contrato a la que hace referencia la línea de factura. Todas estas transacciones están marcadas **Listo para facturar**.
 
-Para la línea **Factura de tiempo y material**, los detalles de la línea de factura se agrupan en **Cobrable**, **No imputable** y **Complementario** en la página **Línea de factura**. Los detalles de **Línea de factura con cargo** se suman al total de la línea de factura. **Complementario** y **Datos reales no imputables** no se suman al total de la línea de la factura.
+Para una línea **Factura de tiempo y material**, los detalles de la línea de factura se agrupan en **Imputable**, **No imputable**, y **Complementario** en la página **Línea de factura**. Los detalles de **Línea de factura con cargo** se suman al total de la línea de factura. **Complementario** y **Datos reales no imputables** no se suman en el total de la línea de la factura.
 
-Para la línea **Factura de precio fijo**, los detalles de la línea de factura se crean a partir de hitos que están marcados como **Listo para facturar** en la línea de contrato relacionada. Una vez que se crea el detalle de la línea de factura a partir de un hito, el estado de facturación en el hito se actualiza a **Factura de cliente creada**.
+Para una línea **Factura de precio fijo**, los detalles de la línea de factura se crean a partir de hitos que están marcados como **Listo para facturar** en la línea de contrato relacionada. Una vez que se crea el detalle de la línea de factura a partir de un hito, el estado de facturación en el hito se actualiza a **Factura de cliente creada**.
 
 ### <a name="edit-invoice-line-details"></a>Editar detalles de línea de factura
 
@@ -98,8 +98,12 @@ Los siguientes campos están disponibles en el detalle de una línea de factura 
 | **Impuesto** | Establecido por defecto a partir de la fuente actual. El campo puede ser editado por el usuario | El usuario puede editar el campo al crear un nuevo detalle de línea de factura sin un respaldo real. |
 | **Importe ampliado** | Un campo calculado, calculado como **Importe + Impuestos**. Un campo de solo lectura que no puede editarse. | &nbsp; |
 | **Tipo de facturación** | Establecido por defecto a partir de la fuente actual. El campo puede ser editado por el usuario. | Al seleccionar **Cobrable**, se suma la línea al total de la línea de la factura. **Complementario** y **No imputable** lo excluirán del total de la línea de factura. |
+| **Seleccionar producto** | Establecido de forma predeterminada a partir de los datos reales del origen, este es un campo de solo lectura. | Cuando crea un nuevo detalle de línea de factura sin un respaldo real, este campo se puede editar. |
+| **Producto** | Establecido de forma predeterminada a partir de los datos reales del origen, este es un campo de solo lectura. | Cuando crea un nuevo detalle de línea de factura sin un respaldo real, este campo se puede editar si el campo **Seleccionar producto** está establecido en **Producto existente**. |
+| **Nombre del producto** | Establecido de forma predeterminada a partir de los datos reales del origen, este es un campo de solo lectura. | En un nuevo detalle de línea de factura, donde se selecciona el identificador de producto del catálogo, este campo se establece en el nombre del producto. Para un producto fuera de catálogo, el campo se establece en el nombre asignado al concepto de fuera de catálogo. |
+| **Descripción de fuera de catálogo** | Establecido de forma predeterminada a partir de los datos reales del origen, este es un campo de solo lectura. | Cuando crea un nuevo detalle de línea de factura sin un respaldo real, puede agregar una descripción para "fuera de catálogo" del producto. |
 | **Tipo de transacción** | Establecido por defecto a partir de la fuente actual. Un campo de solo lectura que no puede editarse. | Establecido de forma predeterminada en **Ventas facturadas** y bloqueado al crear un nuevo **Detalle de la línea de la factura** sin respaldo real.  |
-| **Clase de transacción** | Establecido por defecto a partir de la fuente actual. Un campo de solo lectura que no puede editarse. | Establecido de forma predeterminada en función de si el usuario elige crear un detalle de línea de factura de **Hora**, **Gastos** o **Cuota** al mismo tiempo que crea un nuevo **Detalle de la línea de la factura** sin un respaldo real. Bloqueado para edición. |
+| **Clase de transacción** | Establecido por defecto a partir de la fuente actual. Un campo de solo lectura que no puede editarse. | Se establece de forma predeterminada en función de si el usuario elige crear un detalle de línea de factura por **Hora**, **Gastos**, **Material**, o **Tarifa** al mismo tiempo que crea un nuevo **Detalle de línea de factura** sin un respaldo real. Bloqueado para edición. |
 
 Los siguientes campos están disponibles en un detalle de la línea de factura que está respaldado por un hito:
 

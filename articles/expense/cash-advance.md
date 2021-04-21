@@ -3,19 +3,19 @@ title: Anticipo de efectivo
 description: En este tema se proporciona información sobre adelantos de efectivo.
 author: suvaidya
 manager: AnnBe
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6da50ac5611fcbd54aef8d8591ee112200468177
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
+ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276729"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5715581"
 ---
 # <a name="cash-advance"></a>Anticipo de efectivo
 
@@ -60,7 +60,22 @@ El siguiente procedimiento generalmente lo completa un contable o un usuario con
 
 Al crear y enviar un informe de gastos para el anticipo en efectivo que ya ha recibido, los gastos se ajustarán automáticamente con ese anticipo. Si su anticipo en efectivo es mayor que el importe registrado como gasto, debe devolver el saldo a la empresa utilizando la categoría de gastos **Devolver efectivo**. Si el anticipo en efectivo pagado por la empresa es menor que la cantidad que gastada, la empresa deberá reembolsarle el saldo. 
 
-### <a name="example"></a>Ejemplo
+### <a name="select-cash-advances-that-apply-to-your-expenses"></a>Seleccione los adelantos en efectivo que se aplican a sus gastos
+Antes de enviar un informe de gastos, puede seleccionar el anticipo en efectivo que se corresponde con las transacciones de gastos del informe. Para utilizar esta funcionalidad, las siguientes dos características deben estar habilitadas en el área de trabajo **Administración de características**:
+
+  - Informes de gastos reinventados
+  - Capacidad para asignar anticipos de efectivo a líneas de gastos
+ 
+ Cuando estas características están habilitadas:
+ 
+  - Puede agregar uno o más anticipos en efectivo para cada línea de gastos.
+  - El saldo disponible de un anticipo en efectivo es visible en tiempo real cuando se guarda un informe de gastos. Esto le permite procesar transacciones de gastos y devolver transacciones en efectivo al mismo tiempo.
+  - Puede seleccionar varios anticipos en efectivo para cada una transacción de gastos.
+  - Los datos de reconciliación de anticipos en efectivo están disponibles mediante consulta. 
+ 
+Si no utiliza estas características, la funcionalidad seguirá siendo la misma, y los adelantos en efectivo existentes se reducirán automáticamente después de que se envíe un gasto.
+
+### <a name="example"></a>Ejemplo 
 Planea viajar de Seattle a Nueva York para una conferencia. Crea una solicitud de anticipo en efectivo de 3000,00 dólares estadounidenses por el coste estimado de la entrada en la conferencia, vuelos, hotel, comidas y taxis. No se le pagará a menos que su supervisor apruebe esta solicitud. Una vez que su gerente la aprueba, el anticipo en efectivo solicitado se paga en forma de 3.000,00 USD en su cuenta bancaria. Luego asiste a la conferencia. Después de completar su viaje, descubre que el gasto total fue solo de 2.790,00 USD. Seleccione **Efectivo** en el campo **Método de pago** y envíe sus gastos por valor de 2790,00 dólares estadounidenses. El importe de su gasto enviado se ajusta automáticamente contra el anticipo en efectivo de 3.000,00 USD que se le prestó. Ahora debe un saldo de 210,00 dólares estadounidenses (3000,00 - 2790,00), que puede devolver a la empresa a través de la categoría de gastos **Devolución de efectivo**.
 
 

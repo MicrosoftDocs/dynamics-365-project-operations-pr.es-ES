@@ -3,17 +3,17 @@ title: Configurar tarifas de facturas laborales
 description: Este tema proporciona información sobre cómo configurar tarifas de facturación de la mano de obra en Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/16/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f0267fce673bbd0080022a8abf2dd0020cc8b662
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274839"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877421"
 ---
 # <a name="set-up-labor-bill-rates"></a>Configurar tarifas de facturas de mano de obra
 
@@ -21,8 +21,8 @@ ms.locfileid: "5274839"
 
 Cada lista de precios tiene un conjunto de precios o tarifas laborales que son efectivas para el contexto y fecha de vigencia incluida en el encabezado de la lista de precios. Facturar tarifas por tiempo en Dynamics 365 Project Operations se puede configurar en una sola moneda, que es la moneda del encabezado de la lista de precios.
 
-1. Para configurar tarifas de mano de obra para una lista de precios de venta, cree una lista de precios basada en el encabezado de la lista de precios. 
-2. En la pestaña **Precios de rol** en la subcuadrícula seleccione **+ Nuevo precio de rol**. 
+1. Para configurar tarifas de facturación por mano de obra para una lista de precios de venta, vaya a **Ventas** > **Clientes** > **Listas de precios** y seleccione **Nuevo** para crear una nueva lista de precios. 
+2. En la pestaña **Precios de rol** en la subcuadrícula seleccione **Nuevo precio de rol**. 
 3. En el panel **Creación rápida**, introduzca la combinación de rol y unidad organizativa para la que necesita configurar la tarifa de facturación.
 
    La siguiente tabla incluye los campos en la pestaña **General** y el panel **Creación rápida** de una línea de precio de función que debe tener en cuenta al crear precios de función en una lista de precios de venta:

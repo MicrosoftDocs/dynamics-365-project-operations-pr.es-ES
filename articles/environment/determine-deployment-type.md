@@ -3,17 +3,17 @@ title: Determinar el tipo de implementación
 description: Este tema proporciona información para ayudarle a determinar el tipo de implementación correcto de las operaciones de proyecto para su empresa.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479585"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663615"
 ---
 # <a name="determine-your-deployment-type"></a>Determinar el tipo de implementación
 
@@ -44,19 +44,19 @@ Nuestro [Cuestionario de implementación](https://aka.ms/provisionprojectoperati
 - [Project Operations para escenarios de recursos/no mantenidos en existencias](#integrated)
 - [Project Operations para escenarios mantenidos en existencias/orden de producción](#pma)
 
-Project Operations admite escenarios de pedidos de existencias/producción y escenarios de no existencias/basados en recursos en el mismo entorno a través de configuraciones a nivel de entidad legal. Por ejemplo, Contoso puede usar las capacidades de pedidos de stock / producción en sus instalaciones de fabricación de EE. UU. (Entidad legal = Contoso Manufacturing United States). Contoso puede usar las capacidades no almacenadas / basadas en recursos en su instalación de servicio Contoso Robotics Arms en el Reino Unido (entidad legal = Contoso Robotics Reino Unido).
+Project Operations admite escenarios de pedidos de existencias/producción y escenarios de no existencias/basados en recursos en el mismo entorno a través de configuraciones a nivel de entidad legal. Por ejemplo, Contoso puede utilizar las funcionalidades de pedido de producción/existencias en sus instalaciones de fabricación de EE. UU. (Entidad legal = Contoso Manufacturing United States). Contoso puede utilizar las funcionalidades basadas en no mantenido/recursos en su instalación de mantenimiento Contoso Robotics Arms en el Reino Unido (entidad legal = Contoso Robotics United Kingdom).
 
-### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Implementación lite: del acuerdo a la facturación proforma
+### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Implementación simplificada: del acuerdo a la facturación proforma
 
 La implementación simplificada incluye las siguientes capacidades:
 
 - Proceso de ventas para proyectos que amplía las experiencias de la aplicación Dynamics 365 Sales
 - Planificación de proyectos con Microsoft Project para la Web
 - Precios multidimensionales
-- Administración de recursos unificada
-- Seguimiento en el tiempo
+- Gestión de recursos unificada
+- Seguimiento del tiempo
 - Gasto básico
-- Facturación proforma y de cara al cliente 
+- Facturación proforma para revisión y ediciones del administrador de proyectos 
 
 #### <a name="deployment-steps"></a>Pasos de implementación
 Determine el mejor modelo de implementación de Project Operations utilizando el [Cuestionario de implementación](https://aka.ms/provisionprojectoperations).
@@ -88,13 +88,13 @@ Para esta implementación, consulte [Registrarse para suscripciones de vista pre
 
 - Planificación del proyecto usando WBS
 - Administración de recursos
-- Seguimiento en el tiempo
+- Seguimiento del tiempo
 - Gasto completo
-- OCR de recibos
+- OCR de recepción
 - Facturación completa
 - Reconocimiento de ingresos
-- Órdenes de producción
-- Soporte de materiales
+- Pedidos de producción
+- Compatibilidad con materiales mantenidos en existencias con inventario
 
 #### <a name="deployment-steps"></a>Pasos de implementación
 Determine el mejor modelo de implementación de Project Operations utilizando el [Cuestionario de implementación](https://aka.ms/provisionprojectoperations).

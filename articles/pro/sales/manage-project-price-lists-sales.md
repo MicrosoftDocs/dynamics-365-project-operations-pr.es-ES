@@ -1,27 +1,27 @@
 ---
-title: Administrar listas de precios de proyectos en ofertas de proyectos (lite)
-description: En este tema se proporciona información sobre el trabajo con listas de precios de proyectos en ofertas. (Sales)
+title: Administrar listas de precios de proyectos en ofertas de proyectos
+description: En este tema se proporciona información sobre el trabajo con listas de precios de proyectos en ofertas.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273039"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858629"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Administrar listas de precios de proyectos en ofertas de proyectos (lite)
+# <a name="manage-project-price-lists-on-project-quotes"></a>Administrar listas de precios de proyectos en ofertas de proyectos 
 
 _**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
 
 Las ofertas de proyectos están diseñadas para admitir listas de precios de venta vigentes en varias fechas. Con Dynamics 365 Project Operations, una nueva entidad asociada llamada **Listas de precios de proyectos** se ha añadido. Esta entidad tiene una relación de 1 a muchos con la oferta de un proyecto.
 
-Las listas de precios de proyectos se utilizan para fijar el precio de las transacciones de tiempo y gastos en un proyecto. Cuando una oferta tiene una o más listas de precios de proyectos, estas listas de precios se utilizan para valorar las estimaciones de tiempo y gastos y los datos reales de los proyectos asociados a la oferta a través de la línea de oferta.
+Las listas de precios de proyectos se utiliza para valorar el tiempo, el material y las transacciones de gastos de un proyecto. Cuando una cotización tiene una o varias listas de precios de proyectos, estas listas de precios se utilizan para fijar precios para el tiempo, material, estimaciones de gastos y datos reales en proyectos que están asociados a la cotización a través de la línea de cotización.
 
 Cuando no haya listas de precios de proyectos en una oferta de proyecto, recibirá un mensaje de advertencia. El mensaje indica que, debido a que no hay listas de precios del proyecto, no se fijarán los precios de su trabajo y gastos estimados y reales del proyecto. En cambio, tendrán un precio cero (0) para los valores de venta.
 

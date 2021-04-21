@@ -3,17 +3,17 @@ title: Administrar listas de precios de proyectos en contratos de proyectos
 description: Este tema proporciona información sobre cómo administrar listas de precios de proyectos en contratos de proyectos.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ffc48782394995781535ae56142dc76afeb9a040
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278619"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858584"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Administrar listas de precios de proyectos en contratos de proyectos
 
@@ -21,13 +21,13 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no mant
 
 Los contratos de proyecto en Dynamics 365 Project Operations están diseñados para admitir varias listas de precios de venta de fecha efectiva en un contrato. En Project Operations, hay una nueva entidad asociada llamada **Listas de precios de proyectos**. Esta entidad tiene una relación de uno a varios con un contrato de proyecto.
 
-Las listas de precios de proyectos se utilizan para fijar el precio de las transacciones de tiempo y gastos en un proyecto. Cuando un contrato tiene una o más listas de precios de proyectos, estas listas de precios se utilizan para calcular el precio de las estimaciones de tiempo y gastos y los datos reales de los proyectos que están asociados al contrato a través de la línea de contrato.
+Las listas de precios de proyectos se utiliza para valorar el tiempo, el material y las transacciones de gastos de un proyecto. Cuando un contrato tiene una o varias listas de precios de proyectos, estas listas de precios se utilizan para fijar precios para el tiempo, material, estimaciones de gastos y datos reales en proyectos que están asociados al contrato a través de la línea de contrato.
 
-Cuando no hay listas de precios del proyecto en un contrato de proyecto, verá un mensaje de advertencia que indica que no hay listas de precios del proyecto y que sus estimaciones, el trabajo real del proyecto y los gastos no tendrán precio. No habrá precio para los valores de venta.
+Cuando no hay listas de precios del proyecto en un contrato de proyecto, verá un mensaje de advertencia que indica que no hay listas de precios del proyecto y que no se asignará un precio a sus estimaciones, el trabajo real del proyecto, el material y los gastos registrados. No habrá precio para los valores de venta.
 
 ## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>Asociar o desasociar una lista de precios de proyecto en un contrato de proyecto
 
-### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>Cree o asocie una lista de precios específica para estimar el trabajo y los gastos basados en el proyecto
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-material-and-expenses"></a>Crear o asociar una lista de precios específica para estimar el trabajo, el material y los gastos basados en el proyecto
 
 1. En el contrato del proyecto, seleccione la pestaña **Listas de precios de proyectos**.
 2. En la subcuadrícula, seleccione **+ Agregar nueva lista de precios del proyecto**.
@@ -52,7 +52,7 @@ Cuando no hay listas de precios del proyecto en un contrato de proyecto, verá u
 
 ## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>Configurar el incumplimiento automático de las listas de precios del proyecto en un contrato
 
-Se puede configurar una lista de precios del proyecto como lista predeterminada en un contrato de proyecto. Esta configuración puede ayudar a garantizar que todos los contratos de su organización siempre comiencen con una lista de precios estándar para ese período de precios.
+Se puede configurar una lista de precios del proyecto como lista de precios del proyecto predeterminada. Esta configuración garantiza que todos los contratos de su organización siempre comiencen con una lista de precios de proyecto estándar para ese período de precios.
 
 ### <a name="set-up-the-organizational-default-for-project-price-lists"></a>Configurar el valor predeterminado organizativo para listas de precios de proyectos
 

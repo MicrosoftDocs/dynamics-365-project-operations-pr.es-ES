@@ -1,31 +1,41 @@
 ---
-title: Información general de estimación de proyectos
-description: En este tema se proporciona información sobre las estimaciones de Dynamics 365 Project Operations.
-author: ruhercul
+title: Conceptos de estimación financiera
+description: Este tema proporciona información sobre la estimación financiera de proyectos en Project Operations.
+author: rumant
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: a251be995abddba04cee689714d0a8f4e9d9e7d7
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286899"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701757"
 ---
-# <a name="estimate-projects-overview"></a>Información general de estimación de proyectos
+# <a name="financial-estimation-concepts"></a>Conceptos de estimación financiera
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
+En Dynamics 365 Project Operations, puede estimar financieramente sus proyectos en dos etapas: 
+1. Durante la etapa de preventa antes de que se cierre el trato. 
+2. Durante la etapa de ejecución posterior a la creación del contrato del proyecto. 
+
+Puede crear una estimación financiera para el trabajo basado en proyectos utilizando cualquiera de las siguientes 3 páginas:
+- La página **Línea de cotización**, utilizando los detalles de la línea de cotización.  
+- La página **Línea de contrato del proyecto**, utilizando los detalles de la línea de contrato. 
+- La página **Proyecto**, usando las páginas de las pestañas **Tareas** o **Estimaciones de gastos**.
+
+## <a name="use-a-project-quote-to-create-an-estimate"></a>Utilizar una cotización de proyecto para crear una estimación
 En una oferta basada en proyecto, puede usar la entidad **Detalle de línea de oferta** para estimar el trabajo que se necesita para entregar un proyecto. A continuación, podrá compartir dicha estimación con el cliente.
 
 Las líneas de oferta basadas en proyecto pueden tener de cero a muchos detalles de línea de oferta. Los detalles de línea de oferta se usan para estimar el tiempo, los gastos o las cuotas. Microsoft Dynamics 365 Project Operations no permite las estimaciones de materiales en los detalles de línea de oferta. Estas se denominan clases de transacción. Los importes de Impuestos estimados también se pueden introducir en una clase de transacción.
 
 Además de clases de transacciones, los detalles de línea de oferta tienen un tipo de transacción. Se admite dos tipos de transacciones para los detalles de línea de oferta: **Coste** y **Contrato de proyecto**.
 
-## <a name="estimate-by-using-a-contract"></a>Estimación mediante un contrato
+## <a name="use-a-project-contract-to-create-an-estimate"></a>Utilizar un contrato de proyecto para crear una estimación
 
 Si utilizó una oferta cuando creó un contrato basado en proyecto, la estimación que hizo para cada línea de oferta de la oferta se copiará al contrato de proyecto. La estructura de un contrato de proyecto es como la estructura de la oferta del proyecto que tiene líneas, detalles de línea y programaciones de factura.
 
@@ -35,23 +45,17 @@ Los detalles de línea de contrato se pueden usar para estimar el tiempo, los ga
 
 No se permite estimaciones de materiales en los detalles de línea de contrato.
 
-Los procesos que se admiten en un contrato de proyecto son la confirmación y la creación de factura. La creación de factura crea un borrador de una factura basada en proyecto que incluye todos los datos reales de ventas sin facturar hasta la fecha actual.
+## <a name="use-a-project-to-create-an-estimate"></a>Utilizar un proyecto para crear una estimación 
 
-Confirmación hace que el contrato sea de solo lectura y cambia su estado de **Borrador** a **Confirmado**. Tras realizar esta acción, no se puede deshacer. Como esta acción es permanente, se recomienda, como práctica recomendada, conservar el contrato con el estado **Borrador**.
-
-Las únicas diferencias entre los contratos borrador y confirmados son los estados y el hecho de que los contratos borrador se pueden editar, mientras que los contratos confirmados no. La creación de facturas y el seguimiento de datos reales se puede realizar tanto en contratos borrador como en contratos confirmados.
-
-Project Operations no permite cambiar los pedidos de contratos o proyectos.
-
-## <a name="estimating-projects"></a>Estimación de proyectos
-
-Puede estimar el tiempo y los gastos en los proyectos. Project Operations no permite realizar estimaciones de materiales o cuotas en los proyectos.
+Puede estimar el tiempo y los gastos en los proyectos. Project Operations no admite estimaciones de materiales o tarifas de proyectos.
 
 Las estimaciones de tiempo se generan cuando se crea una tarea y se identifican los atributos de un recurso genérico necesario para realizar la tarea. Las estimaciones de tiempo se generan a partir de tareas de programación. Las estimaciones de tiempo no se generan si crea los miembros del equipo genéricos fuera del contexto de la programación.
 
-Las estimaciones de gastos se introducen en la cuadrícula de la página **Estimaciones**.
+Las estimaciones de gastos se introducen en la cuadrícula de la página **Estimaciones de gastos**.
 
-## <a name="understanding-estimation"></a>Concepto de estimación
+La creación de una estimación para un proyecto se considera una mejor práctica porque puede generar estimaciones detalladas de abajo a arriba para la mano de obra o el tiempo y los gastos en cada tarea en el plan del proyecto. Luego, puede utilizar esta estimación detallada para crear estimaciones para cada línea de cotización y crear una cotización más creíble para el cliente. Cuando importa o crea una estimación detallada en la línea de cotización utilizando el plan del proyecto, Project Operations importa los valores de ventas y los valores de coste de estas estimaciones. Después de la importación, puede ver la rentabilidad, los márgenes y las métricas de viabilidad en la cotización del proyecto.
+
+## <a name="understanding-estimates"></a>Concepto de estimación
 
 Use la siguiente tabla como guía para comprender la lógica de negocios de la fase de estimación.
 

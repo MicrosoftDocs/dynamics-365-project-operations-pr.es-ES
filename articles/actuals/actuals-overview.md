@@ -3,7 +3,7 @@ title: Datos reales
 description: Este tema proporciona información sobre cómo trabajar con datos reales en Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/16/2020
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -16,18 +16,18 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 304c51a4e502ad6ecec1fd821e98d6604ddd59ba
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291820"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852565"
 ---
 # <a name="actuals"></a>Datos reales 
 
-_**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos en existencias_
+_**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Los datos reales son la cantidad de trabajo que se ha completado en un proyecto. Se crean como resultado de movimientos de tiempo y gastos, movimientos de diario y facturas.
+Los datos reales representan el progreso financiero y de la programación revisado y aprobado en un proyecto. Se crean como resultado de la aprobación del plazo, gastos, movimientos de uso de material y movimientos de diario y facturas.
 
 ## <a name="journal-lines-and-time-submission"></a>Envío de líneas de diario y tiempo
 
@@ -45,7 +45,7 @@ Cuando se envía una entrada de tiempo vinculada a un proyecto que está asignad
 
 La lógica para crear precios predeterminados se encuentra en la línea del diario. Los valores de campo de la entrada de tiempo se copian a la línea del diario. Estos valores incluyen la fecha de la transacción, la línea de contrato a la que está asignado el proyecto y el resultado de la divisa en la lista de precios correspondiente.
 
-Los campos que afectan a los precios predeterminados, como **Rol** y **Unidad organizativa**, se usan para determinar el precio adecuado en la línea del diario. Puede agregar un campo personalizado en la entrada de tiempo. Si quiere que el valor de campo se propague a los datos reales, cree el campo en la entidad Datos reales y utilice las asignaciones de campos para copiar el campo de la entrada de teiempo a los datos reales.
+Los campos que afectan a los precios predeterminados, como, por ejemplo, **Rol** y **Unidad de dotación de recursos**, se utilizan para determinar el precio adecuado en la línea de diario. Puede agregar un campo personalizado en la entrada de tiempo. Si desea que el valor del campo se propague a los valores reales, cree el campo en las tablas **Datos reales** y **Línea de diario**. Utilice código personalizado para propagar el valor del campo seleccionado desde Entrada de tiempo a Datos reales a través de la línea del diario utilizando los orígenes de la transacción. Para obtener más información sobre los orígenes de las transacciones y las conexiones, consulte [Vinculación de datos reales a los registros originales](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Envío de líneas de diario y gastos básicos
 
@@ -57,24 +57,42 @@ Cuando una entrada de gasto básico enviada está vinculada a un proyecto asigna
 
 ### <a name="fixed-price"></a>Precio fijo
 
-Cuando una entrada de gasto básico enviada está vinculada a un proyecto asignado a una línea de contrato de precio fijo, el sistema crea una línea de diario para el coste.
+Cuando una entrada de gastos básicos enviada se vincula a un proyecto que está asignado a una línea de contrato de precio fijo, el sistema crea una línea de diario para el coste.
 
 ### <a name="default-pricing"></a>Precios predeterminados
 
-La lógica para introducir precios predeterminados para gastos se basa en la categoría de gastos. La fecha de transacción, la línea de contrato a la que está asignado el proyecto y la divisa se utilizan para determinar la lista de precios adecuada. Sin embargo, de forma predeteerminada, el importe que se especifica para el propio precio se establece directamente en las líneas de diario de gastos de costes y ventas.
+La lógica para introducir precios predeterminados para gastos se basa en la categoría de gastos. La fecha de transacción, la línea de contrato a la que está asignado el proyecto y la divisa se utilizan para determinar la lista de precios adecuada. Los campos que afectan a los precios predeterminados, como, por ejemplo, **Categoría de transacción** y **Unidad**, se utilizan para determinar el precio adecuado en la línea de diario. Sin embargo, esto solo funciona cuando el método de fijación de precios en la lista de precios es **Precio por unidad**. Si el método de fijación de precios es **De coste** o **Incremento por encima del coste**, el precio indicado cuando se crea la entrada de gastos se usa para el coste y el precio en la línea del diario de ventas se calcula según el método de fijación de precios. 
 
-La entrada según categoría de los precios unitarios predeterminados en las entradas de gastos no está disponible.
+Puede agregar un campo personalizado en la entrada de gastos. Si desea que el valor del campo se propague a los valores reales, cree el campo en las tablas **Datos reales** y **Línea de diario**. Utilice código personalizado para propagar el valor del campo seleccionado desde Entrada de tiempo a Datos reales a través de la línea del diario utilizando los orígenes de la transacción. Para obtener más información sobre los orígenes de las transacciones y las conexiones, consulte [Vinculación de datos reales a los registros originales](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
+
+## <a name="journal-lines-and-material-usage-log-submission"></a>Envío de registro de líneas del diario y uso de material
+
+Para obtener más información sobre la entrada de gasto, consulte [ Registro de uso de material](../material/material-usage-log.md).
+
+### <a name="time-and-materials"></a>Tiempo y materiales
+
+Cuando una entrada de registro de uso de material enviada se vincula a un proyecto que se asigna a una línea de contrato de tiempo y materiales, el sistema crea dos líneas de diario, una para el coste y otra para las ventas no facturadas.
+
+### <a name="fixed-price"></a>Precio fijo
+
+Cuando una entrada de registro de uso de material se vincula a un proyecto que está asignado a una línea de contrato de precio fijo, el sistema crea una línea de diario para el coste.
+
+### <a name="default-pricing"></a>Precios predeterminados
+
+La lógica para indicar precios predeterminados para el material se basa en la combinación de productos y unidades. La fecha de transacción, la línea de contrato a la que está asignado el proyecto y la divisa se utilizan para determinar la lista de precios adecuada. Los campos que afectan a los precios predeterminados, como, por ejemplo, **Id. del producto** y **Unidad**, se utilizan para determinar el precio adecuado en la línea de diario. Sin embargo, esto solo funciona para productos de catálogo. Para los productos de escritura, el precio indicado cuando se crea la entrada del registro de uso de material se usa para el coste y el precio de venta en las líneas del diario. 
+
+Puede agregar un campo personalizado en la entrada **Registro de uso de materiales**. Si desea que el valor del campo se propague a los valores reales, cree el campo en las tablas **Datos reales** y **Línea de diario**. Utilice código personalizado para propagar el valor del campo seleccionado desde Entrada de tiempo a Datos reales a través de la línea del diario utilizando los orígenes de la transacción. Para obtener más información sobre los orígenes de las transacciones y las conexiones, consulte [Vinculación de datos reales a los registros originales](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="use-entry-journals-to-record-costs"></a>Utilizar diarios de movimientos para registrar costes
 
 Puede usar diarios de movimientos para registrar costes o ingresos en materiales, precios, tiempo, gastos o clases de transacciones de impuestos. Los diarios se pueden usar para los siguientes propósitos:
 
-- Registrar el coste real de materiales y ventas de un proyecto.
 - Mueva datos reales de transacciones de otro sistema a Microsoft Dynamics 365 Project Operations.
 - Registrar cotes que ocurrieron en otro sistema. Estos costes pueden incluir costes de adquisición o subcontratación.
 
 > [!IMPORTANT]
 > La aplicación no valida el tipo de línea del diario ni el precio relacionado que se introduce en la línea del diario. Por lo tanto, solo un usuario que sea plenamente consciente del impacto contable que tienen los datos reales en el proyecto debe utilizar los diarios de movimientos para crear los datos reales. Debido al impacto de este tipo de diario, debe elegir cuidadosamente quién tiene acceso a crear diarios de movimientos.
+
 ## <a name="record-actuals-based-on-project-events"></a>Registrar datos reales basados en eventos de proyecto
 
 Project Operations registra las transacciones financieras que se producen durante un proyecto. Estas transacciones se registran como datos reales. Las siguientes tablas muestran los diferentes tipos de datos reales que se crean dependiendo de si el proyecto es un proyecto de tiempo y materiales o de precio fijo, de si se encuentra en fase de preventas o de si se trata de un proyecto interno.

@@ -3,7 +3,7 @@ title: Informes de gastos repensados
 description: Este tema explica la experiencia rediseñada y reinventada para la entrada del informe de gastos.
 author: suvaidya
 manager: AnnBe
-ms.date: 03/01/2021
+ms.date: 03/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 79e6a407689813f8c87fdffba0cda84df10d3b83
+ms.sourcegitcommit: 46726e5c8c994735c1e570e08d6ed8f9c9341319
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499737"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5717716"
 ---
 # <a name="expense-reports-reimagined"></a>Informes de gastos reinventados
 
@@ -41,11 +41,7 @@ Para activar la nueva experiencia, use el área de trabajo **Gestión de funcion
 - No se eliminan los elementos de menú existentes para los informes de gastos (la página existente) ni los campos del informe de gastos.
 - Los flujos de trabajo y las aprobaciones aún le llevan a la página de informes de gastos existente.
 
-## <a name="getting-started-video-for-new-users"></a>Vídeo de introducción para nuevos usuarios
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-El vídeo [Experiencia de gasto en Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (mostrado anteriorment) está incluido en la [lista de reproducción Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), disponible en YouTube.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IQFM]
 
 ## <a name="new-features"></a>Nuevas características
 

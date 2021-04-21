@@ -1,23 +1,23 @@
 ---
-title: Información general sobre líneas de ofertas basadas en proyectos (lite)
-description: Este tema proporciona información sobre el uso de líneas de oferta basadas en proyectos para trabajo de proyecto. (Pro)
+title: Información general sobre líneas de ofertas basadas en proyectos
+description: Este tema proporciona información sobre el uso de líneas de oferta basadas en proyectos para trabajo de proyecto.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4865c06691fba09eacf5fe6449adfaf542444520
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cfe98fc89130c93dd0a36af8583881fdcb4550c0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272994"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858719"
 ---
-# <a name="project-based-quote-lines-overview---lite"></a>Información general sobre líneas de ofertas basadas en proyectos (lite)
+# <a name="project-based-quote-lines-overview"></a>Información general sobre líneas de ofertas basadas en proyectos 
 
-_**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
+_**Se aplica a:** Implementación lite: acuerdo para factura proforma, Project Operations para escenarios basados en recursos/no mantenidos_
 
 Las líneas de oferta basadas en proyectos están diseñadas para ayudar a estimar el trabajo del proyecto en un compromiso. La estructura de una línea de oferta basada en proyectos se amplía para las estimaciones de proyectos con los siguientes conceptos:
 
@@ -33,18 +33,19 @@ La siguiente tabla proporciona información sobre los campos de la pestaña **Ge
 
 | **Campo** | **Descripción** | **Impacto posterior** |
 | --- | --- | --- |
-| Nombre | El nombre de la línea de oferta que debería ayudarle a identificar el componente discreto de la oferta que se está estimando. | Se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta. |
-| Método de facturación | En una oferta creada a partir de una oportunidad, este valor se copia del campo correspondiente en la línea de oportunidad. Este campo incluye los dos principales modelos de contratación soportados por Dynamics 365 Project Operations:</br>- Precio fijo</br>- Tiempo y material.| Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta. |
-| Project | Utilice este campo opcional para identificar el proyecto que se utilizará para entregar el trabajo en este compromiso. Cuando un proyecto se asigna a una línea de oferta, ayuda a configurar las tareas facturables y también a traer una estimación basada en el proyecto a la línea de oferta como detalles de la línea de oferta. Cuando un proyecto no está asignado a una línea de oferta basada en proyecto, la estimación debe crearse manualmente creando cada detalle de línea de oferta. | Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta.|
-| Tareas incluidas | Indica si esta línea de oferta se utiliza para todas o algunas de las tareas del proyecto para el proyecto seleccionado. Este campo tiene los siguientes posibles valores:</br>- Todas las tareas de proyecto</br>- Solo tareas de proyecto seleccionadas</br>Un valor en blanco en este campo es equivalente a la opción **Todas las tareas del proyecto**. | Cuando se selecciona **Solo tareas de proyecto seleccionadas** en la página del proyecto, la pestaña **Configuración de facturación de tareas** le permite seleccionar tareas específicas para asociarlas a esta línea de oferta. Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta. |
-| Incluir tiempo | Un indicador **Sí**/**No** indica si las transacciones de tiempo o los costes laborales del proyecto seleccionado se incluirán en la estimación de esta línea de oferta. Un valor **No** indica que las transacciones de tiempo o los costes laborales no se incluirán en la estimación de esta línea de oferta. Un valor **Sí** indica que las transacciones de tiempo o los costes laborales se incluirán en la estimación de esta línea de oferta. | Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta. |
-| Incluir gasto | Un indicador **Sí**/**No** indica si los costes de gastos del proyecto seleccionado se incluirán en la estimación de esta línea de oferta. Un valor **No** indica que el coste de gastos no se incluirá en la estimación de esta línea de oferta. Un valor **Sí** indica que el coste de gastos se incluirá en la estimación de esta línea de oferta. | Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta. |
-| Incluir tarifa | Un indicador **Sí**/**No** indica si las tarifas del proyecto seleccionado se incluirán en la estimación de esta línea de oferta. Un valor **No** indica que las tarifas no se incluirán en la estimación de esta línea de oferta. Un valor **No** indica que las tarifas se incluirán en la estimación de esta línea de oferta. | Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta. |
-| Importe de la oferta | Esta es la cantidad que se ofertará al cliente por todo el trabajo previsto en esta línea de oferta basada en el proyecto. En una oferta creada a partir de una oportunidad, este valor se copia del campo **Presupuesto del cliente** correspondiente en la línea de oportunidad. Cuando la línea de oferta basada en el proyecto tiene detalles de línea, este campo se bloquea para su edición y se resume a partir del importe de los detalles de la línea de oferta. | Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta. |
-| Impuesto estimado | Este es un campo editable para que el usuario agregue el importe del impuesto estimado en la línea de oferta. Cuando la línea de oferta basada en el proyecto tiene detalles de línea, este campo se bloquea para su edición y se resume a partir del importe de los impuestos de los detalles de la línea de oferta. | Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta. |
-| Importe ofertado después de impuestos | Este campo es el importe de la línea de oferta después de impuestos y es de solo lectura. La cantidad de este campo se calcula como *Importe ofertado + Impuestos*. | Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta. |
-| Límite de No exceder | Este campo es editable y solo está disponible en líneas de oferta basadas en proyectos que tienen un método de facturación **Tiempo y material**. | Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta. |
-| Presupuesto del cliente | Este campo es editable y se copia a partir del campo correspondiente de la línea de oportunidad si la oferta se creo a partir de una oportunidad. | Este valor de campo se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta. |
+| Nombre | El nombre de la línea de cotización que le ayuda a identificar el componente discreto de la cotización que se está estimando. | Se copia en la línea de contrato del proyecto que se crea a partir de esta línea de oferta cuando se gana la oferta. |
+| Método de facturación | En una oferta creada a partir de una oportunidad, este valor se copia del campo correspondiente en la línea de oportunidad. Este campo incluye los dos principales modelos de contratación soportados por Dynamics 365 Project Operations:</br>- Precio fijo</br>- Tiempo y material.| Este valor se copia en la línea de contrato del proyecto que se crea a partir de esta línea de cotización cuando aceptan la cotización. |
+| Project | Utilice este campo opcional para identificar el proyecto que se utilizará para entregar el trabajo en este compromiso. Cuando un proyecto se asigna a una línea de oferta, ayuda a configurar las tareas facturables y también a traer una estimación basada en el proyecto a la línea de oferta como detalles de la línea de oferta. Cuando un proyecto no está asignado a una línea de oferta basada en proyecto, la estimación debe crearse manualmente creando cada detalle de línea de oferta. | Este valor se copia en la línea de contrato del proyecto que se crea a partir de esta línea de cotización cuando aceptan la cotización.|
+| Tareas incluidas | Indica si esta línea de oferta se utiliza para todas o algunas de las tareas del proyecto para el proyecto seleccionado. Este campo tiene los siguientes posibles valores:</br>- Todas las tareas de proyecto</br>- Solo tareas de proyecto seleccionadas</br>Un valor en blanco en este campo es equivalente a la opción **Todas las tareas del proyecto**. | Cuando se selecciona **Solo tareas de proyecto seleccionadas** en la página del proyecto, la pestaña **Configuración de facturación de tareas** le permite seleccionar tareas específicas para asociarlas a esta línea de cotización. Este valor se copia en la línea de contrato del proyecto que se crea a partir de esta línea de cotización cuando aceptan la cotización. |
+| Incluir tiempo | Un valor **Sí**/**No** indica si las transacciones de tiempo o los costes de mano de obra en el proyecto seleccionado se incluirán en la estimación de esta línea de cotización. Un valor **No** indica que las transacciones de tiempo o los costes laborales no se incluirán en la estimación de esta línea de oferta. Un valor **Sí** indica que las transacciones de tiempo o los costes laborales se incluirán en la estimación de esta línea de oferta. | Este valor se copia en la línea de contrato del proyecto que se crea a partir de esta línea de cotización cuando aceptan la cotización. |
+| Incluir gasto | Un valor **Sí**/**No** indica si los costes de gastos en el proyecto seleccionado se incluirán en la estimación de esta línea de cotización. Un valor **No** indica que el coste de gastos no se incluirá en la estimación de esta línea de oferta. Un valor **Sí** indica que el coste de gastos se incluirá en la estimación de esta línea de oferta. | Este valor se copia en la línea de contrato del proyecto que se crea a partir de esta línea de cotización cuando aceptan la cotización. |
+| Incluir material | Un valor **Sí**/**No** indica si los costes de material en el proyecto seleccionado se incluirán en la estimación de esta línea de cotización. Un valor **No** indica que los costes por material no se incluirán en la estimación de esta línea de cotización. Un valor **Sí** indica que los costes por material se incluirán en la estimación de esta línea de cotización. | Este valor se copia en la línea de contrato del proyecto que se crea a partir de esta línea de cotización cuando aceptan la cotización. |
+| Incluir tarifa | Un valor **Sí**/**No** indica si las tarifas en el proyecto seleccionado se incluirán en la estimación de esta línea de cotización. Un valor **No** indica que las tarifas no se incluirán en la estimación de esta línea de oferta. Un valor **No** indica que las tarifas se incluirán en la estimación de esta línea de oferta. | Este valor se copia en la línea de contrato del proyecto que se crea a partir de esta línea de cotización cuando aceptan la cotización. |
+| Importe de la oferta | Esta es la cantidad que se cotizará al cliente por todo el trabajo previsto en esta línea de cotización basada en el proyecto. En una oferta creada a partir de una oportunidad, este valor se copia del campo **Presupuesto del cliente** correspondiente en la línea de oportunidad. Cuando la línea de oferta basada en el proyecto tiene detalles de línea, este campo se bloquea para su edición y se resume a partir del importe de los detalles de la línea de oferta. | Este valor se copia en la línea de contrato del proyecto que se crea a partir de esta línea de cotización cuando aceptan la cotización. |
+| Impuesto estimado | Este es un campo editable para que el usuario agregue el importe del impuesto estimado en la línea de oferta. Cuando la línea de oferta basada en el proyecto tiene detalles de línea, este campo se bloquea para su edición y se resume a partir del importe de los impuestos de los detalles de la línea de oferta. | Este valor se copia en la línea de contrato del proyecto que se crea a partir de esta línea de cotización cuando aceptan la cotización. |
+| Importe ofertado después de impuestos | Este campo es el importe de la línea de oferta después de impuestos y es de solo lectura. La cantidad de este campo se calcula como *Importe ofertado + Impuestos*. | Este valor se copia en la línea de contrato del proyecto que se crea a partir de esta línea de cotización cuando aceptan la cotización. |
+| Límite de No exceder | Este campo es editable y solo está disponible en líneas de oferta basadas en proyectos que tienen un método de facturación **Tiempo y material**. | Este valor se copia en la línea de contrato del proyecto que se crea a partir de esta línea de cotización cuando aceptan la cotización. |
+| Presupuesto del cliente | Este campo es editable y se copia a partir del campo correspondiente de la línea de oportunidad si la oferta se creo a partir de una oportunidad. | Este valor se copia en la línea de contrato del proyecto que se crea a partir de esta línea de cotización cuando aceptan la cotización. |
 
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Reglas de validación para campos en la pestaña General de líneas de oferta basadas en proyectos
@@ -62,42 +63,47 @@ La siguiente tabla proporciona información sobre los campos de la pestaña **Ge
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
                     <strong>Oportunidad</strong>
                 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
                     <strong>Oferta</strong>
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
                     <strong>Línea de oferta</strong>
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
                     <strong>Project</strong>
                 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
                     <strong>Tareas incluidas</strong>
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
                     <strong>Incluir tiempo</strong>
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
                     <strong>Incluir gasto</strong>
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
+                <p>
+                    <strong>Incluir material</strong>
+                </p>
+            </td>
+            <td width="41" valign="top">
                 <p>
                     <strong>Incluir</strong>
                 </p>
@@ -105,712 +111,770 @@ La siguiente tabla proporciona información sobre los campos de la pestaña **Ge
                     <strong>Tarifa</strong>
                 </p>
             </td>
-            <td width="54" valign="top">
+            <td width="49" valign="top">
                 <p>
                     <strong>Válido/no válido</strong>
                 </p>
             </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
                 <p>
                     <strong>Razón</strong>
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 T1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
-Blanco </p>
+En blanco </p>
             </td>
-            <td width="48" valign="top">
-                <p>
-Sí </p>
-            </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="42" valign="top">
+            <td width="46" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="43" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
 No válido </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-Infracción de la regla n.º 2. El tiempo, los gastos y las tarifas del proyecto P1 se incluyen en las líneas de oferta QL1 y QL2.
-                </p>
+Infracción de la regla n.º 2. El tiempo, los gastos y las tarifas del proyecto P1 se incluyen en las líneas de oferta QL1 y QL2 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 T1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL2 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
-Blanco </p>
+En blanco </p>
             </td>
-            <td width="48" valign="top">
-                <p>
-Sí </p>
-            </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="42" valign="top">
+            <td width="46" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="41" valign="top">
                 <p>
 Sí </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 T1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
-Blanco </p>
+En blanco </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 No </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="41" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
 No válido </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-Infracción de la regla n.º 2. El tiempo y las tarifas del proyecto P1 se incluyen en las líneas de oferta QL1 y QL2.
-                </p>
+Infracción de la regla n.º 2. El tiempo, el material y las tarifas del proyecto P1 se incluyen en las líneas de oferta QL1 y QL2 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 T1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL2 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
-Blanco </p>
+En blanco </p>
             </td>
-            <td width="48" valign="top">
-                <p>
-Sí </p>
-            </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="42" valign="top">
+            <td width="46" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="41" valign="top">
                 <p>
 Sí </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="108" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 T1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
-Blanco </p>
+En blanco </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 No </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="41" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
 Válido </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
-                  <p>
-El tiempo y las tarifas del proyecto P1 se incluyen en QL1.
-El gasto del proyecto P1 se incluyen en QL2.
-No hay superposición en lo que se incluye en cada línea de oferta y es válido.
+            <td width="200" rowspan="2" valign="top">
+                <p>
+El tiempo, el material y las tarifas del proyecto P1 se incluyen en QL1 <br>
+El gasto del proyecto P1 se incluyen en QL2 <br>
+No hay superposición en lo que se incluye en cada línea de cotización y, por lo tanto, es válido.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 T1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL2 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
-Blanco </p>
+En blanco </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 No </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
+                <p>
+No </p>
+            </td>
+            <td width="41" valign="top">
                 <p>
 No </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 T1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Solo tareas seleccionadas </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="41" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
 No válido </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-Infracción de la regla n.º 2 anterior </p>
+Infracción de la regla n.º 2 </p>
                 <p>
-Q1 incluye tiempo, gastos y tarifas en un subconjunto de tareas en el proyecto P1.
-                </p>
+Q1 incluye tiempo, material, gastos y tarifas en un subconjunto de tareas en el proyecto P1. </p>
                 <p>
-QL2 incluye tiempo, gastos y tarifas para todo el proyecto P1 y se superpone con lo que se incluye en Q1.
+QL2 incluye tiempo, gastos y tarifas para todo el proyecto P1 y, por lo tanto, se superpone con lo que se incluye en Q1.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 T1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL2 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
-Blanco </p>
+En blanco </p>
             </td>
-            <td width="48" valign="top">
-                <p>
-Sí </p>
-            </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="42" valign="top">
+            <td width="46" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="41" valign="top">
                 <p>
 Sí </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="108" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 T1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Solo tareas seleccionadas </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="41" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
 Válido </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-Según la regla n.° 3 anterior, </p>
+Según la regla n.° 3 </p>
                 <p>
-Q1 incluye tiempo, gastos y tarifas en un subconjunto de tareas en el proyecto P1.
+Q1 incluye tiempo, material, gastos y tarifas en un subconjunto de tareas en el proyecto P1.
                 </p>
                 <p>
-QL2 incluye tiempo, gastos y tarifas para un subconjunto de tareas en el proyecto P1.
+QL2 incluye tiempo, material, gastos y tarifas para un subconjunto de tareas en el proyecto P1.
                 </p>
                 <p>
-La única validación adicional es alrededor del subconjunto de tareas de QL1 que son diferentes del subconjunto de tareas de QL2. Esto asegura que no haya superposiciones. Esto lo hace el sistema cuando se asocian tareas.
+La única validación adicional se refiere al subconjunto de tareas en QL1 que es diferente del subconjunto de tareas en QL2 para garantizar que no haya superposiciones. Esto lo hace el sistema cuando se asocian tareas.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 T1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL2 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Solo tareas seleccionadas </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="41" valign="top">
                 <p>
 Sí </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 T1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Todas las tareas del proyecto o en blanco </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="54" valign="top">
+            <td width="41" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
 Válido </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-Según la Regla n.° 5, Q1 y Q2 son dos ofertas de la misma oportunidad, por lo que ambas pueden estimar los mismos componentes de un proyecto.
+Según la Regla n.° 5, Q1 y Q2 son dos cotizaciones en la misma oportunidad, por lo que ambas pueden estimar los mismos componentes de un proyecto.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 T2 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Todas las tareas del proyecto o en blanco </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="54" valign="top">
+            <td width="41" valign="top">
+                <p>
+Sí </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 T1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Todas las tareas del proyecto o en blanco </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="54" valign="top">
+            <td width="41" valign="top">
                 <p>
-Válido </p>
+Sí </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="49" rowspan="2" valign="top">
                 <p>
-Según la Regla n.° 4, Q1 y Q2 son dos ofertas de diferentes oportunidades, por lo que no pueden estimar los mismos componentes del mismo proyecto.
+No válido </p>
+            </td>
+            <td width="200" rowspan="2" valign="top">
+                <p>
+Según la Regla n.° 4, Q1 y Q2 son dos cotizaciones en diferentes oportunidades, por lo que ambas pueden estimar los mismos componentes de un proyecto.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
 O2 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
 T1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
 Todas las tareas del proyecto o en blanco </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
 Sí </p>
             </td>
-            <td width="54" valign="top">
+            <td width="41" valign="top">
                 <p>
-No válido </p>
+Sí </p>
             </td>
         </tr>
     </tbody>
 </table>
-
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

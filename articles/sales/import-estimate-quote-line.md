@@ -1,6 +1,6 @@
 ---
-title: Importar estimaciones de un proyecto a una línea de oferta basada en proyecto
-description: En este tema se proporciona información sobre cómo importar estimaciones de un proyecto a una línea de presupuesto.
+title: Importar estimaciones de un proyecto a una línea de cotización de proyecto
+description: Este tema proporciona información sobre cómo importar estimaciones de un proyecto a una línea de cotización de proyecto.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b32ac22188922a56fa13ea67e0ead77b9b045d9f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 40facf002ca8aa77cbd7f1cfa29dab24842fd932
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278349"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858764"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Importar estimaciones de un proyecto a una línea de oferta basada en proyecto
+# <a name="import-estimates-for-a-project-to-a-project-quote-line"></a>Importar estimaciones de un proyecto a una línea de cotización de proyecto
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
 

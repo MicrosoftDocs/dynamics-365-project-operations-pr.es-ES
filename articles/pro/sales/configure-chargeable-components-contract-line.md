@@ -1,5 +1,5 @@
 ---
-title: Configurar componentes facturables de una línea de contrato basada en proyectos (lite)
+title: Configurar componentes facturables de una línea de contrato basada en proyectos
 description: Este tema proporciona información sobre cómo agregar componentes facturables a las líneas de contrato en Project Operations.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf3f2a28fc992d6444b35d6ffa0c3f6cadcf16ea
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ddada2cb412ba7370fb0a750325a84772937d8d0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273939"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858494"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Configurar componentes facturables de una línea de contrato basada en proyectos (lite)
+# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Configurar componentes facturables de una línea de contrato basada en proyectos
 
-_**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
+_**Se aplica a:** Implementación lite: acuerdo para factura proforma, Project Operations para escenarios basados en recursos/no mantenidos_
 
 Una línea de contrato basada en proyectos tiene *incluido* componentes y componentes *facturables*.
 
@@ -62,23 +62,582 @@ El tipo de facturación de una transacción se puede configurar en la pestaña *
 
 ### <a name="resolve-chargeability"></a>Resolver imputabilidad
 
-Una estimación o real creada para el tiempo solo se considerará imputable si **Tiempo** está incluido en la línea del contrato, y si **Tarea** y **Rol** están configurados como facturables en la línea de contrato.
+Un cálculo o dato real creado para el tiempo solo se considera imputable si:
 
-Una estimación o real creada para los gastos solo se considerará imputable si **Gastos** está incluido en la línea del contrato, y si las categorías **Tarea** y **Transacción** están configuradas como facturables en la línea de contrato.
+   - El **Tiempo** se incluye en la línea de contrato.
+   - El **Rol** está configurado como imputable en la línea de contrato.
+   - Las **Tareas incluidas** se establecen en **Tareas seleccionadas** en la línea de contrato.
+ 
+ Si estas tres cosas son ciertas, la tarea se configura como imputable. 
+
+Un cálculo o dato real creado para el gasto solo se considera imputable si:
+
+   - El **Gasto** se incluye en la línea de contrato.
+   - La **Categoría de transacción** está configurada como imputable en la línea de contrato.
+   - Las **Tareas incluidas** se establecen en **Tarea seleccionada** en la línea de contrato.
+  
+ Si estas tres cosas son ciertas, la **Tarea** se configura como imputable. 
+
+Un cálculo o dato real creado para el material solo se considera imputable si:
+
+   - Los **Materiales** se incluye en la línea de contrato.
+   - Las **Tareas incluidas** se establecen en **Tareas seleccionadas** en la línea de contrato.
+
+Si estas dos cosas son ciertas, la **Tarea** se configura como imputable. 
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Incluye tiempo</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Incluye gasto</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Incluye materiales</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>Tareas incluidas</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Rol</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Categoría</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Tarea</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>Impacto de imputabilidad</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Proyecto entero </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Imputable </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Imputable </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+No puede estar establecido </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturación a tiempo real: <strong>Imputable</strong>
+                </p>
+                <p>
+Tipo de facturación en gastos reales: <strong>Imputable</strong>
+                </p>
+                <p>
+Tipo de facturación en material real: <strong>Imputable</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Solo tareas seleccionadas </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Imputable </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Imputable </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Imputable </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturación a tiempo real: <strong>Imputable</strong>
+                </p>
+                <p>
+Tipo de facturación en gastos reales: <strong>Imputable</strong>
+                </p>
+                <p>
+Tipo de facturación en material real: <strong>Imputable</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Solo tareas seleccionadas </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>No imputable</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Imputable </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Imputable </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturación a tiempo real: <strong>No imputable</strong>
+                </p>
+                <p>
+Tipo de facturación en gastos actuales: Facturable </p>
+                <p>
+Tipo de facturación en material real: Imputable </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Solo tareas seleccionadas </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Imputable </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Imputable </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>No imputable</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturación a tiempo real: <strong>No imputable</strong>
+                </p>
+                <p>
+Tipo de facturación en gastos reales: <strong>No imputable</strong>
+                </p>
+                <p>
+Tipo de facturación en material real: <strong>No imputable</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Solo tareas seleccionadas </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>No imputable</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Imputable </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>No imputable</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturación a tiempo real: <strong>No imputable</strong>
+                </p>
+                <p>
+Tipo de facturación en gastos reales: <strong>No imputable</strong>
+                </p>
+                <p>
+Tipo de facturación en material real: <strong>No imputable</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Solo tareas seleccionadas </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>No imputable</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No imputable</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Imputable </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturación a tiempo real: <strong>No imputable</strong>
+                </p>
+                <p>
+Tipo de facturación en gastos reales: <strong>No imputable</strong>
+                </p>
+                <p>
+Tipo de facturación en material real: Imputable </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Proyecto entero </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+No puede estar establecido </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Imputable</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+No puede estar establecido </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturación a tiempo real: <strong>No disponible</strong>
+                </p>
+                <p>
+Tipo de facturación en gastos actuales: Facturable </p>
+                <p>
+Tipo de facturación en material real: Imputable </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Proyecto entero </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+No puede estar establecido </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No imputable</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+No puede estar establecido </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturación a tiempo real: <strong>No disponible</strong>
+                </p>
+                <p>
+Tipo de facturación en gastos reales: <strong>No imputable</strong>
+                </p>
+                <p>
+Tipo de facturación en material real: Imputable </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Proyecto entero </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Imputable </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+No puede estar establecido </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+No puede estar establecido </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturación a tiempo real: Facturable </p>
+                <p>
+Tipo de facturación en gastos reales: <strong>No disponible</strong>
+                </p>
+                <p>
+Tipo de facturación en material real: Imputable </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Proyecto entero </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>No imputable</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+No puede estar establecido </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+No puede estar establecido </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturación a tiempo real: <strong>No imputable</strong>
+                </p>
+                <p>
+Tipo de facturación en gastos reales: <strong>No disponible</strong>
+                </p>
+                <p>
+Tipo de facturación en material real: Imputable </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Proyecto entero </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Imputable </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Imputable </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+No puede estar establecido </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturación a tiempo real: Facturable </p>
+                <p>
+Tipo de facturación en gastos actuales: Facturable </p>
+                <p>
+Tipo de facturación en material real: <strong>No disponible</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sí </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Proyecto entero </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>No imputable</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No facturable</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+No puede estar establecido </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturación a tiempo real: <strong>No imputable</strong>
+                </p>
+                <p>
+Tipo de facturación en gastos reales: <strong>No imputable</strong>
+                </p>
+                <p>
+Tipo de facturación en material real: <strong>No disponible</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
-| Incluye tiempo | Incluye gasto | Incluye tareas | Rol           | Categoría       | Tarea                                                                                                      |
-|---------------|------------------|----------------|----------------|----------------|-----------------------------------------------------------------------------------------------------------|
-| Sí           | Sí              | Proyecto entero | Imputable     | Imputable     | Facturación a tiempo real: **Facturable** </br> Tipo de facturación en Gastos actuales: **Facturable**           |
-| Sí           | Sí              | Tareas seleccionadas | Imputable     | Imputable     | Facturación a tiempo real: **Facturable** </br> Tipo de facturación en Gastos actuales: **Facturable**           |
-| Sí           | Sí              | Tareas seleccionadas | No facturable | Imputable     | Facturación a tiempo real: **No facturable** </br> Tipo de facturación en Gastos actuales: **Facturable**       |
-| Sí           | Sí              | Tareas seleccionadas | Imputable     | Imputable     | Facturación a tiempo real: **No facturable** </br> Tipo de facturación en Gastos actuales: **No facturable** |
-| Sí           | Sí              | Tareas seleccionadas | No facturable | Imputable     | Facturación a tiempo real: **No facturable** </br> Tipo de facturación en Gastos actuales: **No facturable** |
-| Sí           | Sí              | Tareas seleccionadas | No facturable | No facturable | Facturación a tiempo real: **No facturable** </br> Tipo de facturación en Gastos actuales: **No facturable** |
-| No            | Sí              | Proyecto entero | No puede estar establecido   | Imputable     | Facturación a tiempo real: **No disponible**</br>Tipo de facturación en Gastos actuales: **Facturable**          |
-| No            | Sí              | Proyecto entero | No puede estar establecido   | No facturable | Facturación a tiempo real: **No disponible**</br> Tipo de facturación en Gastos actuales: **No facturable**     |
-| Sí           | No               | Proyecto entero | Imputable     | No puede estar establecido   | Facturación a tiempo real: **Facturable** </br> Tipo de facturación en Gastos actuales: **No disponible**        |
-| Sí           | No               | Proyecto entero | No facturable | No puede estar establecido   | Facturación a tiempo real: **No facturable** </br>Tipo de facturación en Gastos actuales: **No disponible**   |
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

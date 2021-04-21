@@ -1,28 +1,24 @@
 ---
-title: Estimaciones de gastos
+title: Estimaciones financieras de gastos en proyectos
 description: Este tema proporciona información sobre cómo definir o estimar los gastos basados en proyectos.
-author: ruhercul
+author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/19/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: ad4901b1264289f1da881154bc147fc3f8da698f
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287079"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701803"
 ---
-# <a name="expense-estimates"></a>Estimaciones de gastos
+# <a name="financial-estimates-for-expenses-on-projects"></a>Estimaciones financieras de gastos en proyectos
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Junto con la definición de estimaciones basadas en recursos, Dynamics 365 Project Operations permite a los gerentes de proyecto definir los gastos basados en proyectos para cada proyecto. Cada elemento de gasto se puede asociar con una tarea de proyecto o categoría de gasto específica. Las categorías de gastos se definen normalmente a nivel organizativo. El precio de cada categoría de gastos se define normalmente en la siguiente jerarquía:
-
-- Organización
-- Cliente
-- Oferta/contrato
+Dynamics 365 Project Operations permite a los gerentes de proyecto definir los gastos basados en proyectos para cada proyecto o tarea. Cada elemento de gasto se puede asociar con una tarea de proyecto específica. Los gastos se clasifican en diferentes categorías de gastos, que se definen a nivel organizativo. El precio y el coste de cada categoría de gastos se definen en la lista de precios. 
 
 Complete los siguientes pasos para ver, agregar o eliminar un gasto del proyecto.
 
@@ -30,14 +26,20 @@ Complete los siguientes pasos para ver, agregar o eliminar un gasto del proyecto
 2. Seleccione la pestaña **Estimaciones de proyecto** y vea la lista de gastos del proyecto.
 3. Seleccione **Nuevo gasto** para agregar un gasto. O bien, seleccione un gasto a eliminar y luego seleccione **Eliminar gasto**.
 
-Los siguientes atributos se definen para cada elemento de línea de gastos:
+La siguiente tabla proporciona información sobre los campos de **Línea de estimación de gastos** en un proyecto. 
 
-- **Categoría**: las agrupaciones comunes que se utilizan para describir todos los gastos incurridos en un proyecto.
-- **Fecha de inicio**: la fecha en la que se prevé que se incurrirá en el gasto.
-- **Cantidad**: el número estimado de elementos de gastos para una categoría específica.
-- **Precio de coste unitario**: precio unitario utilizado para calcular el coste del gasto.
-- **Precio de venta unitario**: precio unitario utilizado para calcular los precios de venta del gasto.
-
+| **Campo** | **Descripción** | **Impacto posterior** |
+| --- | --- | --- |
+| Tarea | Lista de tareas en el proyecto. Esto incluye tareas de resumen y de nodo hoja. | La selección de una tarea para una línea de estimación de gastos afectará al coste de los gastos estimados y las ventas de gastos estimados para una tarea. Si este campo se deja vacío, se realiza un seguimiento de la estimación de los gastos y se resume solo a nivel de proyecto. |
+| Categoría | Una lista de categorías de transacciones que tienen categorías de gastos vinculadas en la aplicación. | La selección de una categoría determina los precios y los costes en la línea de estimación de gastos. |
+| Fecha de inicio | La fecha prevista en la que se producirá el gasto. | No hay impacto posterior para este campo. |
+| Unidad de venta | El valor predeterminado en este campo proviene del grupo de unidades que está configurado como valor predeterminado en la categoría seleccionada. Puede actualizar este campo para seleccionar otro grupo de unidades. | No hay impacto posterior para este campo. |
+| Unidad | El valor de este campo toma como valor predeterminado la unidad predeterminada de la categoría seleccionada. Puede actualizar este campo para seleccionar otra unidad. | Cambiar la unidad da como resultado un precio y un coste unitarios predeterminados diferentes. |
+| Cantidad | La cantidad del gasto estimado en el que incurrirá. | No hay impacto posterior para este campo. |
+| Coste unitario | El coste de la categoría seleccionada y la combinación de unidades según lo establecido en la lista de precios de coste aplicable. | El coste unitario siempre se muestra en la divisa de coste del proyecto. |
+| Precio por unidad | El precio de la categoría seleccionada y la combinación de unidades según lo establecido en la lista de precios de ventas aplicable. | El precio unitario siempre se muestra en la divisa de ventas del proyecto. |
+| Coste total | El importe del coste que se calcula como cantidad \* coste unitario.| El importe de coste siempre se muestra en la divisa de coste del proyecto. |
+| Total ventas | El importe de ventas que se calcula como cantidad \* precio unitario. | El importe de ventas siempre se muestra en la divisa de ventas del proyecto. |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

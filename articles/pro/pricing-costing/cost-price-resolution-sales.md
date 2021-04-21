@@ -1,22 +1,22 @@
 ---
-title: Resolver precios de coste en estimaciones y datos reales (lite)
-description: Este tema proporciona información sobre cómo se resuelven los precios de venta en estimaciones y reales.
+title: Resolver precios de coste en estimaciones y datos reales de proyectos
+description: Este tema proporciona información sobre cómo se resuelven los precios de coste en las estimaciones y los datos reales del proyecto.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274570"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877286"
 ---
-# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Resolver precios de coste en estimaciones y datos reales (lite)
+# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Resolver precios de coste en estimaciones y datos reales de proyectos 
 
 _**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
 
@@ -36,6 +36,12 @@ Una vez resuelta una lista de precios de coste, los campos **Rol** y **Unidad de
 Las líneas de estimación para gasto se refieren a los detalles de la línea de cotización y contrato para gastos y las líneas de estimación de gastos de un proyecto.
 
 Una vez resuelta una lista de precios de coste, el sistema utiliza una combinación de los campos **Categoría** y **Unidad** en la línea de estimación de gasto para buscar una coincidencia en las líneas de **Precio de categoría** de la lista de precios resuelta. Si el sistema encuentra una línea de precio de categoría que tiene una tarifa de coste para la combinación de campos **Categoría** y **Unidad**, entonces esa tarifa de coste se establece por defecto. Si el sistema no encuentra coincidencias de los valores de **Categoría** y **Unidad**, o si encuentra una línea de precio de categoría coincidente pero el método de cálculo de precios no es **Precio unitario**, la tasa de coste predeterminada es cero (0).
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Resolución de tasas de coste en líneas de datos reales y estimados para materiales
+
+Las líneas de estimación de material se refieren a los detalles de la línea de cotización y contrato para materiales y las líneas de estimación de material en un proyecto.
+
+Una vez resuelta una lista de precios de coste, el sistema utiliza una combinación de los campos **Producto** y **Unidad** en la línea de estimación para que una estimación de material coincida con las líneas **Elementos de lista de precios** en la lista de precios resuelta. Si el sistema encuentra una línea de precio de producto que tiene una tasa de coste para la combinación de los campos **Producto** y **Unidad**, la tasa de coste es toma los valores predeterminados. Si el sistema no puede hacer coincidir los valores **Producto** y **Unidad** o si puede encontrar una un elemento de lista de precios coincidente pero el método de fijación de precios se basa en el coste estándar o el coste actual y ninguno está definido en el producto, el coste unitario tomar el valor predeterminado de cero.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -3,17 +3,17 @@ title: Configurar la contabilidad para proyectos facturables
 description: Este tema proporciona información sobre las opciones de contabilidad para proyectos facturables.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287664"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858674"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Configurar la contabilidad para proyectos facturables
 
@@ -58,13 +58,25 @@ Complete los siguientes pasos para crear un nuevo perfil de costes e ingresos de
 
          - **Saldo**: al registrar el diario de integración de Operaciones del proyecto, el coste de la transacción de gastos se cargará en el tipo de cuenta del Libro mayor *WIP: valor de coste* como se define en la pestaña **Coste** de la página **Configuración de registro contable** y se abona en la cuenta de compensación en la línea del diario. Las cuentas de compensación predeterminadas para gastos se definen en **Gestión de proyectos y contabilidad** > **Configuración** \> **Registro** \> **Cuenta de compensación predeterminada para gastos**. El contable utilizará la función **Registrar costes** para mover este coste desde la cuenta de saldo a la cuenta de pérdidas y ganancias de forma periódica.
         - **Pérdidas y ganancias**: al registrar el diario de integración de Operaciones del proyecto, el coste de la transacción de gastos se cargará en el tipo de cuenta del Libro mayor *WIP: valor de coste* como se define en la pestaña **Coste** de la página **Configuración de registro contable** y se abona en la cuenta de compensación en la línea del diario. Las cuentas de compensación predeterminadas para gastos se definen en **Gestión de proyectos y contabilidad** \> **Configuración** \> **Registro** \> **Cuenta de compensación predeterminada para gastos**.
+      
+    - **Registrar costes - elemento**:
+
+         - **Saldo**: al contabilizar el diario de integración de Project Operations, el coste de la transacción del elemento se cargará a la cuenta contable tipo *Trabajo en curso - Valor de coste - artículo* como se define en la pestaña **Coste** en la página **Configuración de registro contable** y con abono a lo siguiente:
+    
+              - Para el uso del tipo de documento: cuenta **Coste - elemento** en la **Configuración de registro contable**.  
+              - Para el documento de tipo compra: **Cuenta de integración de adquisiciones** en **Administración de proyectos y parámetros contables**.
+           El contable utilizará la función **Registrar costes** para mover este coste desde la cuenta de saldo a la cuenta de pérdidas y ganancias de forma periódica.
+        - **Pérdidas y ganancias**: al contabilizar el diario de integración de Project Operations, el coste de la transacción del elemento se cargará a la cuenta contable tipo *Coste* como se define en la pestaña **Coste** en la página **Configuración de registro** y con abono a lo siguiente:
+         
+             - Para el uso del tipo de documento: cuenta **Coste - elemento** en la **Configuración de registro contable**.  
+             - Para el documento de tipo compra: **Cuenta de integración de adquisiciones** en **Administración de proyectos y parámetros contables**.
        
     - **Facturación en cuenta**:
 
         - **Saldo**: al publicar la propuesta de factura del proyecto, se abonará una transacción en cuenta (hito de facturación) en el tipo de cuenta de Libro mayor *WIP facturado, en cuenta* como se define en la pestaña **Ingresos** de la página **Configuración de registro contable** y se carga en la cuenta de saldo del cliente.
          - **Pérdidas y ganancias**: al publicar la propuesta de factura del proyecto, se abonará una transacción en cuenta (hito de facturación) en el tipo de cuenta de Libro mayor *Ingreso facturado, en cuenta* como se define en la pestaña **Ingresos** de la página **Configuración de registro contable** y se carga en la cuenta de saldo del cliente. Las cuentas de saldo de clientes se definen en **Clientes** \> **Configuración** \> **Perfiles de registro de clientes**.
 
-   Cuando define los perfiles de contabilización para los métodos de facturación de tiempo y material, tiene la opción de acumular ingresos por tipo de transacción (hora, gasto y tarifa). Si la opción **Acumular ingresos** está configurada en **Sí**, las transacciones de ventas no facturadas del diario de Integración de Operaciones del Proyecto se registrarán en el libro mayor. El valor de las ventas se carga a **WIP: cuenta de valor de ventas** y se abona a la cuenta **Ingresos acumulados: valor de ventas** que se configuró en la página **Configuración de registro contable**, en la pestaña **Ingresos**. 
+   Cuando define los perfiles de contabilización para los métodos de facturación de tiempo y material, tiene la opción de acumular ingresos por tipo de transacción (hora, gasto, artículo y tarifa). Si la opción **Acumular ingresos** está configurada en **Sí**, las transacciones de ventas no facturadas del diario de Integración de Operaciones del Proyecto se registrarán en el libro mayor. El valor de las ventas se carga a **Trabajo en curso - cuenta de valor de ventas** y se abona a la cuenta **Ingresos acumulados - valor de ventas** que se configuró en la página **Configuración de registro contable**, en la pestaña **Ingresos**. 
   
   > [!NOTE]
   > La opción **Acumular ingresos** está disponible solo cuando el tipo de transacción respectivo **Coste** se contabiliza en la cuenta de pérdidas y ganancias.

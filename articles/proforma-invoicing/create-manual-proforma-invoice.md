@@ -1,42 +1,27 @@
 ---
-title: Crear una factura proforma manual
-description: En este tema se proporciona información sobre cómo crear una factura proforma.
+title: Facturas proforma
+description: Este tema proporciona información sobre las facturas proforma en Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3289b8bcaddaebe1a3657b5902c1d324f9e0fd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: b143ba286f25ecb23fea09a85bca06543f7f55ff
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287799"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866882"
 ---
-# <a name="create-a-manual-proforma-invoice"></a>Crear una factura proforma manual
+# <a name="proforma-invoices"></a>Facturas proforma
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
 
-La facturación proporciona a los jefes de proyecto un segundo nivel de aprobación antes de crear las facturas para los clientes. El primer nivel de aprobación se completa cuando se aprueban las entradas de tiempo y gastos que envían los miembros del proyecto.
+La facturación proforma proporciona a los jefes de proyecto un segundo nivel de aprobación antes de crear las facturas para los clientes. El primer nivel de aprobación se completa cuando se aprueban las entradas de tiempo, gastos y material que envían los miembros del proyecto. Las facturas proforma confirmadas están disponibles en el módulo Contabilidad de proyectos de Project Operations. Los contables de proyectos pueden realizar actualizaciones adicionales, como impuestos sobre las ventas, contabilidad y diseño de facturas.
 
-Dynamics 365 Project Operations no está diseñado para generar facturas de cara al cliente por las siguientes razones:
-
-- No contiene información fiscal.
-- No puede convertir otras divisas a la divisa de facturación con tipos de cambio configurados correctamente.
-- No puede dar el formato correcto a las facturas para que se puedan imprimir.
-
-En su lugar, puede usar un sistema de contabilidad financiero para crear facturas de cara al cliente que utilicen la información de las propuestas de factura generadas.
 
 ## <a name="creating-project-invoices"></a>Creación de facturas de proyecto
 
@@ -50,7 +35,7 @@ Siga este paso para crear una factura para un contrato de proyecto específico.
 
 - En la página de lista **Contratos de proyecto**, abra un contrato de proyecto y después seleccione **Crear factura**.
 
-    El sistema genera una factura para todas las transacciones del contrato de proyecto seleccionado que tienen el estado **Listo para facturar**. Estas transacciones incluyen datos de tiempo, gastos, hitos y líneas de contrato basadas en producto.
+    El sistema genera una factura para todas las transacciones del contrato de proyecto seleccionado que tienen el estado **Listo para facturar**. Estas transacciones incluyen tiempo, gastos, materiales, hitos y otras líneas del diario de ventas no facturadas.
 
 Siga estos pasos para crear facturas de forma masiva.
 
@@ -60,7 +45,7 @@ Siga estos pasos para crear facturas de forma masiva.
 
 2. Seleccione **Aceptar** para cerrar el cuadro del mensaje.
 
-    El sistema genera una factura para todas las transacciones de una línea de contrato con el estado **Listo para facturar**. Estas transacciones incluyen datos de tiempo, gastos, hitos y líneas de contrato basadas en producto.
+    El sistema genera una factura para todas las transacciones de una línea de contrato con el estado **Listo para facturar**. Estas transacciones incluyen tiempo, gastos, materiales, hitos y otras líneas del diario de ventas no facturadas.
 
 3. Para ver las facturas que se generan, vaya a **Ventas** \> **Facturación** \> **Facturas**. Se mostrará una factura para cada contrato de proyecto.
 
@@ -93,11 +78,10 @@ El trabajo del proceso por lotes para la creación de facturas es un trabajo rec
  
 ### <a name="edit-a-draft-invoice"></a>Editar un borrador de factura
 
-Cuando se crea un borrador de factura de proyecto, todas las transacciones de venta sin facturar que se crearon cuando se aprobaron las entradas de tiempo y gastos se incluyen en la factura. Puede realizar los siguientes ajustes mientras facturación aún está en fase de borrador:
+Cuando se crea un borrador de factura de proyecto, todas las transacciones de venta sin facturar que se crearon cuando se aprobaron las entradas de tiempo, gastos y utilización de material se incluyen en la factura. Puede realizar los siguientes ajustes mientras facturación aún está en fase de borrador:
 
 - Eliminar o editar los detalles de la línea de factura.
 - Editar y ajustar la cantidad y el tipo de facturación.
-- Agregar directamente a la factura el tiempo, los gastos y las tarifas como transacciones. Puede usar esta característica si la línea de la factura se asigna a una línea de contrato que permita estas clases de transacciones.
 
 Seleccione **Confirmar** para confirmar una factura. La acción Confirmar es una acción unidireccional. Cuando se selecciona **Confirmar**, el sistema convierte la factura en factura de solo lectura y crea datos reales de ventas facturadas de todos los detalles de cada línea de factura. Si el detalle de la línea de factura hace referencia a un dato real de ventas sin facturar, el sistema también revierte el dato real de ventas sin facturar. (Los detalles de línea de factura que se crearon a partir de una entrada de tiempo o gasto harán referencia a un dato real de ventas sin facturar.) Los sistemas de integración de contabilidad general pueden usar esta reversión para revertir trabajo de un proyecto en proceso (WIP) con propósitos de contabilidad.
 
