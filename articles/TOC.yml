@@ -34,6 +34,22 @@
               href: environment/security-model.md
             - name: Configurar la integración de Project Operations por entidad jurídica
               href: environment/resource-configure-integration-per-legal-entity.md
+        - name: Configurar la integración de doble escritura
+          items:
+            - name: Información general de la integración de doble escritura
+              href: environment/resource-dual-write-overview.md
+            - name: Versiones de asignación de doble escritura de Project Operations
+              href: environment/resource-dual-write-maps.md
+            - name: Integración de datos de instalación y configuración de Project Operations
+              href: environment/resource-dual-write-setup-integration.md
+            - name: Estimaciones de proyecto e integración de datos reales
+              href: environment/resource-dual-write-estimates-actuals.md
+            - name: Integración de factura de proyecto
+              href: environment/resource-dual-write-project-invoice.md
+            - name: Integración de gestión de gastos
+              href: environment/resource-dual-write-expense.md
+            - name: Integración de factura de proveedor
+              href: environment/resource-dual-write-vendor-invoice.md
     - name: Novedades
       items:
         - name: 'Abril de 2021: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
@@ -216,6 +232,8 @@
           href: project-management/understand-project-status.md
         - name: Definir calendarios de proyectos
           href: project-management/define-project-calendars.md
+        - name: Modos de programación
+          href: project-management/scheduling-modes.md
         - name: Actualizar un proyecto
           href: project-management/update-project.md
         - name: Copiar un proyecto
@@ -404,6 +422,12 @@
           items:
             - name: Crear y confirmar diarios de corrección
               href: actuals/create-confirm-correction-journals.md
+    - name: Adquisición
+      items:
+        - name: Configurar materiales no mantenidos en existencias y facturas de proveedor pendientes
+          href: procurement/configure-materials-nonstocked.md
+        - name: Adquirir materiales no mantenidos en existencias para proyectos usando facturas de proveedor pendientes
+          href: procurement/pending-vendor-invoices.md
     - name: Facturación
       items:
         - name: Información general del proceso de facturación
@@ -428,6 +452,8 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Configurar la automatización de facturas basadas en proyecto
               href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Administrar propuestas de factura de proyecto
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: Contabilidad de proyecto
       items:
         - name: Valores predeterminados de dimensiones financieras
@@ -682,6 +708,8 @@
           href: project-management/understand-project-status.md
         - name: Definir calendarios de proyectos
           href: project-management/define-project-calendars.md
+        - name: Modos de programación
+          hreF: project-management/scheduling-modes.md
         - name: Actualizar un proyecto
           href: project-management/update-project.md
         - name: Copiar un proyecto
@@ -848,6 +876,8 @@
   items:
     - name: Novedades
       items:
+        - name: 'Novedades de abril de 2021: Project Operations para escenarios basados en existencias/producción'
+          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: 'Novedades de marzo de 2021: Project Operations para escenarios basados en existencias/producción'
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: 'Novedades de enero de 2021: Project Operations para escenarios basados en existencias/producción'
@@ -871,9 +901,9 @@
     - name: Configurar y utilizar pagos de proveedores de pago al cobrar
       href: prod-pma/setup-manage-vendor-payments.md
     - name: Acumulación de costes del proyecto en los recibos de compra
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
+      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
     - name: Facturación de proyectos
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+      href: /dynamics365/finance/accounts-payable/project-invoicing
     - name: Rendimiento de propuesta de factura de proyecto
       href: prod-pma/project-invoice-proposal-performance.md
     - name: Contratos de proyectos
@@ -998,6 +1028,8 @@
       items:
         - name: Programación de lanzamiento de actualizaciones para Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novedades y cambios de la versión de actualización 31, V3'
+          href: psa/whats-new-ur-31.md
         - name: 'Novedades y cambios de la versión de actualización 30, V3'
           href: psa/whats-new-ur-30.md
         - name: 'Novedades y cambios de la revisión 29.5 de la versión de actualización, V3'
@@ -1327,7 +1359,7 @@
             - name: Ver utilización de recursos
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
-              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
+              href: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
         - name: Guía para administradores de proyectos
           items:
             - name: Guía para administradores de proyectos (Project Service)
