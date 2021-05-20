@@ -24,12 +24,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bae7acf2abf174b6e59d159521ffd1f465e311a0
-ms.sourcegitcommit: 3c60ac7543cc05d93a5d4ce87a3c7854fb9a203b
+ms.openlocfilehash: 05111b51d482493a8c8a1d9c9da44d6cd95fc8d2
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "5854406"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981404"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Calendario de lanzamiento de actualizaciones para Project Service 3.x
 
@@ -39,36 +39,36 @@ ms.locfileid: "5854406"
 
 | Solución  | Versión más reciente |
 |-------|----|
-| Project Service Automation    | 3.10.51.61 |
+| Project Service Automation    | 3.10.52.77 |
 | Complemento de escritorio Project Service Automation                | 3.15          |
 
-Para obtener información sobre actualizaciones de Project Service, consulte los [Planes de lanzamiento de Dynamics 365](https://docs.microsoft.com/dynamics365/release-plans/). 
+Para obtener información sobre actualizaciones de Project Service, consulte los [Planes de lanzamiento de Dynamics 365](/dynamics365/release-plans/). 
 
 | Estación  | Región | Versión actual | Próxima versión |  Fecha programada
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Estación 1</strong> | |  |  | |
-| | <i>Primer lanzamiento</i> | [3.10.51.61](whats-new-ur-30.md) | Por determinar | 23 de abril de 2021
+| | <i>Primer lanzamiento</i> | [3.10.52.77](whats-new-ur-31.md) | Por determinar | 28 de mayo de 2021
 |<strong>Estación 2</strong> | |  |  | |
-| | <i>Sudamérica</i> | [3.10.51.61](whats-new-ur-30.md) | Por determinar | 30 de abril de 2021
-| | <i>Canadá</i> | [3.10.51.61](whats-new-ur-30.md) | Por determinar | 30 de abril de 2021
-| | <i>India</i> | [3.10.51.61](whats-new-ur-30.md) | Por determinar | 30 de abril de 2021
-| | <i>Francia</i> | [3.10.51.61](whats-new-ur-30.md) | Por determinar | 30 de abril de 2021
-| | <i>Emiratos Árabes Unidos</i> | [3.10.51.61](whats-new-ur-30.md) | Por determinar | 30 de abril de 2021
-| | <i>Sudáfrica</i> | [3.10.51.61](whats-new-ur-30.md) | Por determinar | 30 de abril de 2021
-| | <i>Alemania</i> | [3.10.51.61](whats-new-ur-30.md) | Por determinar | 30 de abril de 2021
-| | <i>Suiza</i> | [3.10.51.61](whats-new-ur-30.md) | Por determinar | 30 de abril de 2021
+| | <i>Sudamérica</i> | [3.10.52.77](whats-new-ur-31.md) | Por determinar | 4 de Junio de 2021
+| | <i>Canadá</i> | [3.10.52.77](whats-new-ur-31.md) | Por determinar | 4 de Junio de 2021
+| | <i>India</i> | [3.10.52.77](whats-new-ur-31.md) | Por determinar | 4 de Junio de 2021
+| | <i>Francia</i> | [3.10.52.77](whats-new-ur-31.md) | Por determinar | 4 de Junio de 2021
+| | <i>Emiratos Árabes Unidos</i> | [3.10.52.77](whats-new-ur-31.md) | Por determinar | 4 de Junio de 2021
+| | <i>Sudáfrica</i> | [3.10.52.77](whats-new-ur-31.md) | Por determinar | 4 de Junio de 2021
+| | <i>Alemania</i> | [3.10.52.77](whats-new-ur-31.md) | Por determinar | 4 de Junio de 2021
+| | <i>Suiza</i> | [3.10.52.77](whats-new-ur-31.md) | Por determinar | 4 de Junio de 2021
 |<strong>Estación 3</strong> | |  |  | |
-| | <i>Japón</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 9 de abril de 2021
-| | <i>Asia Pacífico</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 9 de abril de 2021
-| | <i>Gran Bretaña</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 9 de abril de 2021
-| | <i>Oceanía</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 9 de abril de 2021
+| | <i>Japón</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 07 de mayo de 2021
+| | <i>Asia Pacífico</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 07 de mayo de 2021
+| | <i>Gran Bretaña</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 07 de mayo de 2021
+| | <i>Oceanía</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 07 de mayo de 2021
 |<strong>Estación 4</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 16 de abril de 2021
+| | <i>Europa</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 14 de mayo de 2021
 |<strong>Estación 5</strong> | |  |  | |
-| | <i>Norteamérica</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 23 de abril de 2021
+| | <i>Norteamérica</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 21 de mayo de 2021
 |<strong>Estación 6</strong> | |  |  | |
-| | <i>Nube de la comunidad de la Administración Pública</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 30 de abril de 2021
-| | <i>Grupos de escalado dedicados</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 30 de abril de 2021
+| | <i>Nube de la comunidad de la Administración Pública</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 21 de mayo de 2021
+| | <i>Grupos de escalado dedicados</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 28 de mayo de 2021
 
 >[!Note]
 > - Las fechas de todas las regiones, excepto la nube de la comunidad gubernamental (GCC), indican el momento de la próxima actualización automática. Las fechas en GCC indican la disponibilidad de la versión; en este momento, no hay una actualización automática para estas regiones.

@@ -1,9 +1,9 @@
 ---
 title: Definir calendarios de proyectos
-description: En este tema se proporciona información sobre el uso de un calendario de proyecto para realizar un seguimiento de la programación del proyecto.
+description: Este tema proporciona información sobre cómo aplicar una plantilla de calendario a un proyecto para realizar un seguimiento de la programación del proyecto.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,38 +17,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286989"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981321"
 ---
 # <a name="define-project-calendars"></a>Definir calendarios de proyectos
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Para crear una programación de proyecto, cree una plantilla de calendario de proyecto que defina la cantidad de horas de trabajo por día y los cierres de negocios. Para crear una plantilla de calendario de proyecto, asocie una plantilla de trabajo con el campo **Plantilla de calendario** para el proyecto. Siga estos pasos para crear una plantilla de trabajo.
+Para crear y administrar un proyecto, debe aplicar una plantilla de calendario al proyecto. La plantilla de calendario define los siguientes atributos del proyecto:
 
-1. En el panel de navegación izquierdo, seleccione **Recursos**. 
-2. En la página de la lista **Recursos**, abra un registro de usuario y, a continuación, seleccione **Mostrar horas laborables**.
+- Horas laborables, incluida la hora de inicio y finalización
+- Días laborables
+- Excepciones de calendario, como días no laborables
 
-  > [!NOTE]
-  > Asegúrese de permitir ventanas emergentes en la página del explorador. Esto le permitirá ver las horas de trabajo establecidas para el recurso.
-  
-3. En la pestaña **Vista mensual** , seleccione **Configurar**. Aparecerá una lista con tres opciones: 
+La plantilla de calendario que se aplica a un proyecto es una copia de la plantilla de calendario definida en la configuración de su organización.
 
-  - Nueva programación semanal
-  - Programación de trabajo para un día
-  - Indisponibilidad
+> [!NOTE]
+> Si cambia la plantilla del calendario, esos cambios no se propagan a las horas laborables del proyecto. Para cambiar las horas laborables del proyecto se debe aplicar una nueva plantilla.
 
-4. Seleccione **Nueva programación semanal** y, a continuación, establezca las opciones para esta programación del recurso. Puede establecer una programación semanal recurrente, parámetros de horas diarias, cierres comerciales, etc.
-5. Establezca el rango de fechas, seleccione **Guardar** y, a continuación, seleccione **Cerrar**. 
-6. Vuelva a la página de lista **Recursos** y seleccione el recurso para el que estableció las horas de trabajo. 
-7. Seleccione **Establecer calendario como** para establecer la plantilla de trabajo. 
-8. En el cuadro de diálogo **Plantilla de trabajo**, introduzca un nombre para la plantilla de trabajo y, a continuación, seleccione **Aplicar**. 
+Para crear una plantilla de calendario para su organización, existen dos requisitos clave:
+
+- Defina las horas laborables deseadas de la plantilla utilizando un recurso que se puede reservar nuevo o existente.
+- Cree una nueva plantilla de calendario y asóciela con el recurso que se puede reservar.
+
+**Defina las horas laborables de la plantilla**
+
+1. Vaya a **Recursos** \> **Recursos**.
+2. Cree un nuevo recurso al que hacer referencia en la plantilla de calendario o seleccione un recurso existente.
+3. Seleccione la pestaña **Horas laborables** del recurso y complete las instrucciones de [Establecer horas laborables para un recurso](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) para configurar las reglas del calendario.
+
+**Cree una nueva plantilla de calendario**
+
+1. Vaya a **Configuración** \> **Plantilla de calendario**.
+2. Seleccione **Nuevo** e ingrese un nombre, una descripción y un recurso de plantilla.
+
+> [!NOTE]
+> Cuando se hace referencia a un recurso en una plantilla de calendario, se asocia una copia del calendario del recurso con la plantilla de calendario. Si cambian las horas laborables de la plantilla copiada, esos cambios no se propagarán a la plantilla del calendario.
 
 Ahora puede asociar la plantilla de trabajo con una plantilla de calendario de proyecto.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
