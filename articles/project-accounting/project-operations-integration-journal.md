@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287259"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948351"
 ---
 # <a name="integration-journal-in-project-operations"></a>Diario de integración en Project Operations
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
 
-Las entradas de tiempo y gastos crean transacciones **reales** que representan la vista operativa del trabajo completado en un proyecto. Dynamics 365 Project Operations proporciona a los contables una herramienta para revisar transacciones y ajustar los atributos contables según sea necesario. Una vez que se completan la revisión y los ajustes, las transacciones se registran en el libro mayor auxiliar y en el libro mayor general del proyecto. Un contador puede realizar estas actividades utilizando el diario **Integración de Project Operations** (**Dynamics 365 Finance** > **Gestión de proyectos y contabilidad** > **Diarios** > diario **Integración de Project Operations**.
+Las entradas de tiempo y gastos crean transacciones **reales** que representan la vista operativa del trabajo completado en un proyecto. Dynamics 365 Project Operations proporciona a los contables una herramienta para revisar transacciones y ajustar los atributos contables según sea necesario. Una vez que se completan la revisión y los ajustes, las transacciones se registran en la contabilidad general y la subcontabilidad del proyecto. Un contador puede realizar estas actividades utilizando el diario **Integración de Project Operations** (**Dynamics 365 Finance** > **Gestión de proyectos y contabilidad** > **Diarios** > diario **Integración de Project Operations**.
 
 ![Flujo del diario de integración](./media/IntegrationJournal.png)
 
@@ -27,7 +27,7 @@ Las entradas de tiempo y gastos crean transacciones **reales** que representan l
 
 Los registros en el diario de integración de Project Operations se crean mediante un proceso periódico, **Importar desde la tabla de preparación**. Puede ejecutar este proceso yendo a **Dynamics 365 Finance** > **Gestión de proyectos y contabilidad** > **Periódico** > **Integración de Project Operations** > **Importar desde la tabla de preparación**. Puede ejecutar el proceso de forma interactiva o configurar el proceso para que se ejecute en segundo plano según sea necesario.
 
-Cuando se ejecuta el proceso periódico, se encuentran los datos reales que aún no se han agregado al diario de integración de Project Operations. Se crea una línea de diario para cada transacción real.
+Cuando se ejecuta el proceso periódico, se encuentran los datos reales que aún no se han agregado al diario de integración de Project Operations. Se crea una línea de diario por cada transacción real.
 El sistema agrupa las líneas del diario en diarios separados según el valor seleccionado en el campo **Unidad de período en el diario de integración de Project Operations** (**Finanzas** > **Gestión de proyectos y contabilidad** > **Preparar** > **Parámetros contables y de gestión de proyectos**, pestaña **Project Operations en Dynamics 365 Customer Engagement**). Los posibles valores para este campo incluyen:
 
   - **Días**: los datos reales se agrupan por fecha de transacción. Se crea un diario independiente para cada día.
@@ -38,7 +38,7 @@ El sistema agrupa las líneas del diario en diarios separados según el valor se
 Las líneas de diario se crean según los datos reales del proyecto. La siguiente lista incluye algunas de las reglas predeterminadas y de transformación más notables:
 
   - Cada transacción real del proyecto tiene una línea en el diario de integración de Project Operations. Las transacciones de ventas de costo y no facturadas por tipo de facturación de tiempo y material se muestran en líneas separadas.
-  - El campo **Fecha** representa la fecha de la transacción. El campo **Fecha de contabilidad** representa la fecha en que la transacción se registra en el libro mayor. Si la fecha contable está en un [período financiero cerrado](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) y el parámetro **Establecer automáticamente la fecha de contabilidad para abrir el período del libro mayor** se establece en la pestaña **Financiero** de la página **Parámetros contables y de gestión de proyectos**, el sistema ajustará la fecha contable de la transacción a la primera fecha en el próximo período del libro mayor abierto.
+  - El campo **Fecha** representa la fecha de la transacción. El campo **Fecha de contabilidad** representa la fecha en que la transacción se registra en el libro mayor. Si la fecha contable está en un [período financiero cerrado](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) y el parámetro **Establecer automáticamente la fecha de contabilidad para abrir el período del libro mayor** se establece en la pestaña **Financiero** de la página **Parámetros contables y de gestión de proyectos**, el sistema ajustará la fecha contable de la transacción a la primera fecha en el próximo período del libro mayor abierto.
   - El campo **Vale** muestra el número de comprobante de cada transacción real. La secuencia del número de cupón se define en la pestaña **Secuencias numéricas**, en la página **Parámetros contables y de gestión de proyectos**. A cada línea se le asigna un número nuevo. Después de contabilizar el comprobante, puede ver cómo se relacionan el costo y la transacción de ventas no facturadas seleccionando **Vales relacionados** en la página **Transacción de cupón**.
   - El campo **Categoría** representa una transacción de proyecto y valores predeterminados basados en la categoría de transacción para el proyecto relacionado real.
     - Si **Categoría de transacción** se establece en el proyecto real y existe una **Categoría de proyecto** relacionada en una entidad jurídica determinada, la categoría predeterminada es esta categoría de proyecto.

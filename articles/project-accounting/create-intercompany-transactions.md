@@ -3,17 +3,17 @@ title: Crear transacciones de empresas vinculadas
 description: Este tema proporciona información sobre cómo crear transacciones de empresas vinculadas.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287439"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880469"
 ---
 # <a name="create-intercompany-transactions"></a>Crear transacciones de empresas vinculadas
 
@@ -62,7 +62,7 @@ Molly Clark, desarrolladora empleada en GBPM, registra 10 horas de trabajo en un
     4. Establezca la divisa en **USD**.
     5. Guarde el registro.
 3. Vaya a **Ventas** > **Contratos de proyecto** y cree un nuevo contrato de proyecto para Adventure Works.
-    1. Establezca la empresa propietaria en **USPM** y la unidad contratante en **Contoso Robotics US**.
+    1. Establezca la empresa propietaria como **USPM** y la unidad contratante como **Contoso Robotics US**.
     2. Seleccione Adventure Works como cliente.
     3. Seleccione una lista de precios de productos y guarde el registro.
     4. En la pestaña **Líneas de contrato**, cree una nueva línea de contrato. Establezca cualquier nombre y seleccione **Tiempo y materiales** como método de facturación.
@@ -94,7 +94,7 @@ Molly Clark, desarrolladora empleada en GBPM, registra 10 horas de trabajo en un
     Esta venta sin facturar ya está lista para su facturación. La factura del cliente Adventure Works se puede registrar financieramente cuando sea necesario.
 
 10. Inicie sesión como contable de **GBPM**. Abra la instancia de Finance de Project Operations y abra la empresa, **GBPM**. 
-11. Vaya a **Gestión de proyectos y contabilidad** > **Periódico** > **Project Operations en Customer Engagement** > **Importar desde la puesta en escena** y ejecute el proceso periódico para llenar el diario de integración de Project Operations.
+11. Vaya a **Administración y contabilidad de proyectos** > **Periódicos** > **Integración de Project Operations** > **Importar desde tabla de almacenamiento provisional** y ejecute el proceso periódico para completar el diario de Integración de Project Operations.
 12. Vaya a **Gestión de proyectos y contabilidad** > **Diarios** > **Diario de integración de Project Operations** y revise las líneas. El sistema crea las siguientes líneas.
 
     | **Tipo de transacción** | **Precio** | **Divisa de la transacción** | **Importe** |

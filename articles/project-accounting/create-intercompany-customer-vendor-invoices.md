@@ -3,17 +3,17 @@ title: Crear facturas de proveedores y clientes de empresas vinculadas
 description: En este tema se ofrece información acerca de cómo crear facturas de proveedor y cliente de empresas vinculadas.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd9aa1a4d167d556206a487e79983090b3f4592a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 92d08537fe0c2a1deba486974db53e7ebe1ff2d8
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287484"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948416"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Crear facturas de proveedores y clientes de empresas vinculadas
 
@@ -25,7 +25,9 @@ El contable de proyecto de la entidad jurídica prestamista puede configurar un 
 
 ## <a name="manually-create-an-intercompany-customer-invoice-for-project-transactions"></a>Crear manualmente una factura de cliente de empresas vinculadas para transacciones de proyecto 
 
-Use este procedimiento para crear manualmente una factura de cliente de empresas vinculadas para transacciones de proyecto. Busque las horas registradas por los trabajadores en proyectos de las entidades jurídicas prestatarias y los gastos en los que incurrió su entidad jurídica en nombre de las entidades jurídicas prestatarias. Puede buscar por nombre de entidad jurídica, número de contrato de proyecto, número de proyecto, rango de fechas o cualquier combinación de estas opciones. En los resultados de la búsqueda, seleccione las transacciones para agregar a una factura de empresas vinculadas.
+Use este procedimiento para crear manualmente una factura de cliente de empresas vinculadas para transacciones de proyecto. Busque las horas registradas por los trabajadores en proyectos de las entidades jurídicas prestatarias y los gastos en los que incurrió su entidad jurídica en nombre de las entidades jurídicas prestatarias. Puede buscar por nombre de entidad jurídica, número de contrato de proyecto, número de proyecto, rango de fechas o cualquier combinación de estas opciones. En los resultados de la búsqueda, seleccione las transacciones para agregar a una factura de empresas vinculadas. 
+
+Los siguientes pasos deben realizarse en la entidad legal prestamista. 
 
 1. En Dynamics 365 Finance, vaya a **Gestión de proyectos y contabilidad** > **Facturas de proyecto** > **Facturas de clientes de empresas vinculadas**. En la página de lista **Facturas de clientes de empresas vinculadas**, en el Panel de acciones, seleccione **Nuevo**.
 2. En la página **Crear factura de empresas vinculadas**, en el campo **Entidad jurídica**, seleccione una entidad jurídica prestataria.
@@ -35,9 +37,9 @@ Use este procedimiento para crear manualmente una factura de cliente de empresas
 6. En los resultados de la búsqueda, seleccione las transacciones que se incluirán en la propuesta de factura de empresas vinculadas y, a continuación, seleccione **Aceptar**.
 7. En la página **Factura de cliente de empresas vinculadas**, se muestran las transacciones de proyectos de empresas vinculadas que haya seleccionado de los resultados de búsqueda. Para modificar las transacciones antes de enviar la factura a la entidad jurídica prestataria, haga lo siguiente:
   
-    1. Abre la página **Crear propuesta de factura**. Seleccione transacciones de empresas vinculadas adicionales para la factura actual y, a continuación, **Agregar línea**.
+    1. En la página **Factura de cliente de empresas vinculadas**, abra los detalles de la factura y luego seleccione **Agregar línea**.
     2. Para quitar una línea, selecciónela y, a continuación, haga clic en **Quitar**.
-    3. Vea comentarios, motivos, dimensiones financieras y otra información sobre una línea seleccionada en la ficha desplegable **Líneas de factura**.
+    3. Vea comentarios, motivos, dimensiones financieras y otra información sobre una línea seleccionada en los detalles de la línea de factura.
     
 8. Para registrar la factura de cliente de empresas vinculadas, en el Panel de acciones, seleccione **Registrar**.
 
@@ -52,7 +54,7 @@ Puede crear varias facturas de empresas vinculadas al mismo tiempo para todas la
 2. En la página **Crear facturas de clientes de empresas vinculadas**, en el campo **Empresa**, seleccione una entidad jurídica para facturar. Si no selecciona una empresa, todas las transacciones que cumplen con los criterios de búsqueda se muestran para todas las entidades jurídicas prestatarias.
 3. En **Crear una factura por**, seleccione si desea crear una factura para transacciones de empresas vinculadas en función de un proyecto o de una entidad jurídica prestataria.
 4. Opcional: Para seleccionar un proyecto específico y un contrato de proyecto para el que crear facturas de empresas vinculadas, haga clic en **Seleccionar**. En la página **Consulta**, en el campo **Criterios**, seleccione el contrato del proyecto, el número de proyecto o ambos, y luego seleccione **Aceptar**.
-5. En la pestaña **Lote**, configure un proceso por lotes para crear facturas de empresas vinculadas de forma periódica. Para más información, consulte [Enviar un trabajo de procesamiento por lotes desde un formulario](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
+5. En la pestaña **Lote**, configure un proceso por lotes para crear facturas de empresas vinculadas de forma periódica. Para más información, consulte [Enviar un trabajo de procesamiento por lotes desde un formulario](/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
 6. Para registrar las facturas de empresas vinculadas, en el Panel de acciones, seleccione **Registrar**.
 
 > [!NOTE]

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 526f2ab1fd186877f32a2d11bd92ee8c26a19139
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 31613936d48f785eeba4ec7c066761c8f69924cf
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278079"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947900"
 ---
 # <a name="manage-leads"></a>Administrar clientes potenciales
 
@@ -25,11 +25,11 @@ Los clientes potenciales basados en proyectos se pueden gestionar y calificar en
 
 En la sección **Ventas**, en el panel de navegación izquierdo, abra la página de lista **Clientes potenciales** para ver una lista de todos los registros de clientes potenciales del sistema. La lista de clientes potenciales que se muestra están basados en el trabajo y otros tipos de clientes potenciales que se pueden crear si también tiene Dynamics 365 Sales o aplicaciones de Dynamics 365 Field Service.
 
-Puede crear un vista filtrada para ver solo clientes potenciales basados en proyectos creando un filtro en el valor **Tipo**. Por ejemplo, puede seleccionar mostrar solo los clientes potenciales basados en el trabajo.
+Puede crear una vista filtrada para ver solo los clientes potenciales basados en proyectos creando un filtro en el valor **Tipo**. Por ejemplo, puede seleccionar mostrar solo los clientes potenciales basados en el trabajo.
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>Cree un nuevo cliente potencial para una oferta basada en proyecto
+## <a name="create-a-new-lead-for-a-project-based-deal"></a>Crear un cliente potencial nuevo para una oferta basada en un proyecto
 
-Cuando se califica un cliente potencial basado en un proyecto, se crean una oportunidad y una cuenta. Una oportunidad basada en proyecto es el punto de partida para las actividades de búsqueda de ventas en la fase de oportunidad. Las oportunidades basadas en proyectos tienen capacidades únicas que se requieren para vender el trabajo del proyecto. Entre estas capacidades se incluyen:
+Cuando se califica un cliente potencial basado en un proyecto, se crean una oportunidad y una cuenta. Una oportunidad basada en proyectos es el punto de partida para las actividades de búsqueda de ventas en la fase Oportunidad. Las oportunidades basadas en proyectos tienen capacidades únicas que se requieren para vender el trabajo del proyecto. Entre estas capacidades se incluyen:
 
 - Métodos de facturación de tiempo y material y precio fijo
 - Listas de precios de múltiples fechas efectivas para recursos humanos, gastos y material incurrido en proyectos
@@ -55,7 +55,7 @@ Los clientes potenciales con el valor **Tipo** establecido en **Basado en el tra
 - Un registro de contacto asociado a la cuenta basado en los valores de los campos **Nombre de pila** y **Apellido** del cliente potencial.
 - Una oportunidad basada en proyectos que tiene el campo **Tipo** establecido en **Basado en trabajo**.
 
-Para obtener información más detallada sobre los clientes potenciales calificados, consulte [Calificar o convertir clientes potenciales](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Para obtener información más detallada sobre los clientes potenciales calificados, consulte [Calificar o convertir clientes potenciales](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="lead-qualification-and-legal-entity-information"></a>Calificación de cliente potencial e información de la entidad legal 
 

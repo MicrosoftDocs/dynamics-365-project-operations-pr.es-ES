@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5a1ab3b506ae94bba3a6ca96b164437d3fd3a035
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: 6f7feb8c84441f97ad52016371284eb91b37478a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877556"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948260"
 ---
 # <a name="project-operations-updates"></a>Actualizaciones de Project Operations
 
@@ -49,23 +49,23 @@ Cada mes están disponibles actualizaciones de Project Operations en el entorno 
 | Estación   | Región        | Versión actual | Próxima versión | Generalmente disponible |
 |-----------|---------------|-----------------|--------------|---------------------|
 | Estación 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Primer lanzamiento |  4.9.0.221       | Por determinar     | 23-Abr-21           |
+|   &nbsp;  | Primer lanzamiento |  4.9.0.221       | Por determinar     | 30-Abr-21           |
 | Estación 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Sudamérica |  4.9.0.221       | Por determinar     | 23-Abr-21           |
-|    &nbsp; | Canadá        |  4.9.0.221       | Por determinar     | 23-Abr-21           |
-|   &nbsp;  | India         |  4.9.0.221       | Por determinar     | 23-Abr-21           |
-|   &nbsp;  | Francia         |  4.9.0.221       | Por determinar     | 23-Abr-21           |
-|   &nbsp;  | Emiratos Árabes Unidos         |  4.9.0.221       | Por determinar     | 23-Abr-21           |
-|   &nbsp;  | Sudáfrica         |  4.9.0.221       | Por determinar     | 23-Abr-21           |
+|   &nbsp;  | Sudamérica |  4.9.0.221       | Por determinar     | 30-Abr-21           |
+|    &nbsp; | Canadá        |  4.9.0.221       | Por determinar     | 30-Abr-21           |
+|   &nbsp;  | India         |  4.9.0.221       | Por determinar     | 30-Abr-21           |
+|   &nbsp;  | Francia         |  4.9.0.221       | Por determinar     | 30-Abr-21           |
+|   &nbsp;  | Emiratos Árabes Unidos         |  4.9.0.221       | Por determinar     | 30-Abr-21           |
+|   &nbsp;  | Sudáfrica         |  4.9.0.221       | Por determinar     | 30-Abr-21           |
 | Estación 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japón         |  4.9.0.221       | Por determinar     | 30-Abr-21           |
-|   &nbsp;  | Asia Pacífico  |  4.9.0.221       | Por determinar     | 30-Abr-21           |
-|   &nbsp;  | Gran Bretaña |  4.9.0.221       | Por determinar     | 30-Abr-21           |
-|   &nbsp;  | Oceanía       |  4.9.0.221       | Por determinar     | 30-Abr-21           |
+|   &nbsp;  | Japón         |  4.9.0.221       | Por determinar     | 07-May-21           |
+|   &nbsp;  | Asia Pacífico  |  4.9.0.221       | Por determinar     | 07-May-21           |
+|   &nbsp;  | Gran Bretaña |  4.9.0.221       | Por determinar     | 07-May-21           |
+|   &nbsp;  | Oceanía       |  4.9.0.221       | Por determinar     | 07-May-21           |
 | Estación 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Europa        |  4.8.0.92       | 4.9.0.221     | 16-Abr-21           |
+|   &nbsp;  | Europa        |  4.9.0.221       | Por determinar     | 14-May-21           |
 | Estación 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Norteamérica |  4.8.0.92       | 4.9.0.221     | 23-Abr-21           |
+|   &nbsp;  | Norteamérica |  4.9.0.221       | Por determinar     | 21-May-21           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Calendario de lanzamiento para la gestión de proyectos y la contabilidad en el entorno de aplicaciones de Finance and Operations
 
@@ -73,15 +73,15 @@ Las actualizaciones para la gestión de proyectos y la contabilidad se publican 
 
 | Versión compatible | Generalmente disponible (actualización automática) |
 | --- | --- |
+| 10.0.18 | 16 de abril de 2021 |
 | 10.0.17 | 19 de marzo de 2021 |
 | 10.0.16 | 22 de enero de 2021 |
 
 
-Las fechas de lanzamiento específicas están sujetas a cambios. Para obtener más información, consulte [Disponibilidad de actualizaciones del servicio](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/finance/toc.json).
+Las fechas de lanzamiento específicas están sujetas a cambios. Para obtener más información, consulte [Disponibilidad de actualizaciones del servicio](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 | Fecha de publicación de destino | Generalmente disponible (actualización automática) |
 | --- | --- |
-| 10.0.18 | 16 de abril de 2021 |
 | 10.0.19 | 18 de Junio de 2021 |
 | 10.0.20 | 16 de Julio de 2021 |
 
