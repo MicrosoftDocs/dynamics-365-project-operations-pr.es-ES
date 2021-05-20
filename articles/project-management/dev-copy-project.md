@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 27847575e2d6ec9af77d24f756b13d3aeb0efea7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cc17df0c73b276048f7c4b04bd9dc6644e828dc0
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286944"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949835"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Desarrollar plantillas de proyectos con Copiar proyecto
 
@@ -44,7 +44,7 @@ Hay tres parámetros de entrada:
 - **{"clearTeamsAndAssignments":true}**: el comportamiento predeterminado de Project for the Web y eliminará todas las asignaciones y miembros del equipo.
 - **{"removeNamedResources":true}** El comportamiento predeterminado de Project Operations y revertirá las asignaciones a recursos genéricos.
 
-Para obtener más información sobre las acciones predeterminadas, consulte [Usar acciones de la API web](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+Para obtener más información sobre las acciones predeterminadas, consulte [Usar acciones de la API web](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
 ## <a name="specify-fields-to-copy"></a>Especifique los campos para copiar 
 Cuando se llama a la acción, **Copiar proyecto** mirará la vista del proyecto **Copiar columnas de proyecto** para determinar qué campos copiar cuando se copia el proyecto.

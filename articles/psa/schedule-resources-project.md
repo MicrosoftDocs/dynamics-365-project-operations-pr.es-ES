@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f0a234f96419bac58cd932a082010da672e7dcb5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 329923e6d47fd36881aea8db8eba41a868829220
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282669"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951455"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Programar recursos para un proyecto (Project Service)
 
@@ -35,7 +35,7 @@ Puede comprobar la disponibilidad de recursos para obtener una visión general d
   
 El tablero de programación muestra una lista de recursos y su disponibilidad. Seleccione un modo de vista para mostrar disponibilidad por **Horas**, **Día**, **Semana** o **Mes**.  
   
-Antes de usar al tablero de programación, es importante configurarlo. Para obtener más información, consulte [Configurar la tabla de programación (Field Service o Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+Antes de usar al tablero de programación, es importante configurarlo. Para obtener más información, consulte [Configurar la tabla de programación (Field Service o Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
   
 Si usa una versión anterior, para disponibilidad de recursos, consulte [Ver disponibilidad de recursos](../psa/view-resource-availability.md).  
 

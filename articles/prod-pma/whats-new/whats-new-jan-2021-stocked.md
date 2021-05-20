@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 82787d13c6c2e662841a4f8eebe5638933f0958d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 43816d1dbcbea608eb675b037f8956cd44e8a063
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288069"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950915"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Novedades o cambios de enero de 2021: Project Operations para escenarios basados en existencias/producción
 
@@ -144,7 +144,7 @@ Este tema se aplica a los siguientes componentes y versiones de Dynamics 365 Pro
 | Viajes y gastos                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | En Project Operations, no se puede crear ni aprobar tiempo con tareas de empresas vinculadas en Dataverse.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>Actualizaciones regulatorias
-Para obtener información sobre actualizaciones normativas para aplicaciones de Finance and Operations, vea [Actualizaciones regulatorias](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). También puede iniciar sesión en LCS y ver las actualizaciones normativas planificadas mediante la herramienta de búsqueda de problemas. La búsqueda de problemas le permite buscar por país, tipo de función y lanzamiento.
+Para obtener información sobre actualizaciones normativas para aplicaciones de Finance and Operations, vea [Actualizaciones regulatorias](/dynamics365/finance/localizations/regulatory-updates). También puede iniciar sesión en LCS y ver las actualizaciones normativas planificadas mediante la herramienta de búsqueda de problemas. La búsqueda de problemas le permite buscar por país, tipo de función y lanzamiento.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

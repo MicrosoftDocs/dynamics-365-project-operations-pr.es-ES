@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 50e623d3716c9dd03ce34ec293ba57b5d966d39e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9ee9e4c31d1972e3a75ad214071b31527f0ca826
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276909"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950555"
 ---
 # <a name="provision-a-new-environment"></a>Aprovisionar un entorno nuevo
 
@@ -36,7 +36,7 @@ Utilice los siguientes pasos para habilitar el flujo de aprovisionamiento automa
 
 ## <a name="provision-a-project-operations-environment"></a>Aprovisionar un entorno de Project Operations
 
-1. Abra un nuevo despliegue de Dynamics 365 Finance de [entorno de demostración](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) o [entorno de espacio aislado/producción](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Abra un nuevo despliegue de Dynamics 365 Finance de [entorno de demostración](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) o [entorno de espacio aislado/producción](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Siga el asistente de **Aprovisionamiento de entornos**. 
 
 > [!IMPORTANT]

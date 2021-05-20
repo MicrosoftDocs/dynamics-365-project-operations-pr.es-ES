@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a067521410f0fe0d8f5d4c510a35f2a3b018dce3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d31ca60b267063e9cadf544468ece501353950fa
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281769"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951365"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Consideraciones de actualización para la estructura de descomposición del trabajo
 
@@ -34,20 +34,20 @@ En este tema se proporciona información sobre cómo actualizar la estructura de
 ## <a name="key-entities"></a>Entidades clave
 Para una estructura de descomposición del trabajo precisa que ya esté cargada de recursos, se requieren las siguientes entidades:
 
-- [Proyecto](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [Equipo del proyecto](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Tarea de proyecto](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [Asignaciones de recursos](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [Dependencia de tareas de proyecto](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [Recursos que se pueden reservar](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [Proyecto](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Equipo del proyecto](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Tarea de proyecto](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Asignaciones de recursos](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Dependencia de tareas de proyecto](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Recursos que se pueden reservar](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 Para definir una estructura de descomposición del trabajo cargada de recursos, debe completar los siguientes pasos:
 
-1. Crear un nuevo proyecto. Para obtener más información sobre cómo crear un nuevo proyecto, consulte [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. Crear una o varias tareas. Para obtener más información sobre cómo crear una tarea, consulte [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. Definir las dependencias entre tareas. Para obtener más información, consulte [Dependencia de tareas de proyecto](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. Asignar miembros del equipo de proyecto al proyecto. Para obtener más información, consulte [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. Asignar miembros del equipo de proyecto a las tareas. Para obtener más información, consulte [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. Crear un nuevo proyecto. Para obtener más información sobre cómo crear un nuevo proyecto, consulte [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. Crear una o varias tareas. Para obtener más información sobre cómo crear una tarea, consulte [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. Definir las dependencias entre tareas. Para obtener más información, consulte [Dependencia de tareas de proyecto](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. Asignar miembros del equipo de proyecto al proyecto. Para obtener más información, consulte [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. Asignar miembros del equipo de proyecto a las tareas. Para obtener más información, consulte [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## <a name="project-team-relationships"></a>Relaciones del equipo del proyecto
 
