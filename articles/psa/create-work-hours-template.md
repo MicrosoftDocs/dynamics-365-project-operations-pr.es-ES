@@ -1,6 +1,6 @@
 ---
-title: Crear una plantilla de horas laborables
-description: Cómo crear una plantilla de horas laborables en Project Service
+title: Crear una plantilla de horas de trabajo
+description: Este tema explica cómo crear una plantilla de horas laborables en Project Service.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -18,53 +18,53 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285054"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981276"
 ---
-# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="b9cb2-103">Crear una plantilla de horas laborables (Project Service)</span><span class="sxs-lookup"><span data-stu-id="b9cb2-103">Create a work hours template (Project Service)</span></span>
+# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="66d88-103">Crear una plantilla de horas laborables (Project Service)</span><span class="sxs-lookup"><span data-stu-id="66d88-103">Create a work hours template (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="b9cb2-104">Antes de crear programaciones de proyecto, debe configurar un calendario del proyecto que defina el número de horas laborables que tendrá un día en la programación y los cierres de la empresa.</span><span class="sxs-lookup"><span data-stu-id="b9cb2-104">Before you can create project schedules, you need to set up a project calendar that defines the number of working hours to accommodate per day in the schedule and any business closures.</span></span> <span data-ttu-id="b9cb2-105">Esto se realiza con una plantilla de horas laborables, que contiene detalles de horas laborables por día, días libres y otros cierres de la empresa.</span><span class="sxs-lookup"><span data-stu-id="b9cb2-105">You do this with a work hours template, which contains details about work hours per day, days off, and any other business closures.</span></span>  
-  
- <span data-ttu-id="b9cb2-106">Cuando cree un proyecto, asocie una plantilla de trabajo al calendario del proyecto para aplicar la programación para el proyecto.</span><span class="sxs-lookup"><span data-stu-id="b9cb2-106">When you’re creating a project, you associate a work template to the project calendar to apply the schedule for the project.</span></span>  
-  
- <span data-ttu-id="b9cb2-107">Hay dos formas de crear una plantilla de horas laborables:</span><span class="sxs-lookup"><span data-stu-id="b9cb2-107">There are two ways you can create a work hours template:</span></span>  
-  
--   <span data-ttu-id="b9cb2-108">Cree una plantilla de horas laborables basada en el calendario de un recurso.</span><span class="sxs-lookup"><span data-stu-id="b9cb2-108">Create a work hours template based on a resource’s calendar.</span></span>  
-  
--   <span data-ttu-id="b9cb2-109">Cree una nueva plantilla de horas laborables.</span><span class="sxs-lookup"><span data-stu-id="b9cb2-109">Create a new work hours template.</span></span>  
-  
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a><span data-ttu-id="b9cb2-110">Para crear una plantilla de horas laborables basada en el calendario de un recurso</span><span class="sxs-lookup"><span data-stu-id="b9cb2-110">To create a work hours template based on a resource’s calendar</span></span>  
-  
-1.  <span data-ttu-id="b9cb2-111">Vaya a **Project Service > Recursos**.</span><span class="sxs-lookup"><span data-stu-id="b9cb2-111">Go to **Project Service > Resources**.</span></span>  
-  
-2.  <span data-ttu-id="b9cb2-112">Seleccione el recurso en el que desea basar las horas laborables.</span><span class="sxs-lookup"><span data-stu-id="b9cb2-112">Select the resource you want to base your work hours on.</span></span>  
-  
-3.  <span data-ttu-id="b9cb2-113">Haga clic en **Guardar calendario como**, escriba un nombre para la plantilla de horas laborables y, a continuación haga clic en **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="b9cb2-113">Click **Save Calendar As**, enter a name for the work hours template, and then click **Save**.</span></span>  
-  
-4.  <span data-ttu-id="b9cb2-114">Cuando termine de cambiar opciones, haga clic **Guardar y cerrar**.</span><span class="sxs-lookup"><span data-stu-id="b9cb2-114">When you’re done changing options, click **Save and Close**.</span></span>  
-  
-5.  <span data-ttu-id="b9cb2-115">Haga clic en el botón **Guardar** en la esquina inferior derecha de la pantalla.</span><span class="sxs-lookup"><span data-stu-id="b9cb2-115">Click the **Save** button at the bottom right corner of the screen.</span></span>  
-  
-#### <a name="to-create-a-new-work-hours-template"></a><span data-ttu-id="b9cb2-116">Para crear una nueva plantilla de horas laborables</span><span class="sxs-lookup"><span data-stu-id="b9cb2-116">To create a new work hours template</span></span>  
-  
-1.  <span data-ttu-id="b9cb2-117">Vaya a **Project Service > Plantillas de horas laborables**.</span><span class="sxs-lookup"><span data-stu-id="b9cb2-117">Go to **Project Service > Work Hours Templates**.</span></span>  
-  
-2.  <span data-ttu-id="b9cb2-118">Haga clic en **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="b9cb2-118">Click **New**.</span></span>  
-  
-3.  <span data-ttu-id="b9cb2-119">Escriba un nombre para la plantilla de horas laborables.</span><span class="sxs-lookup"><span data-stu-id="b9cb2-119">Enter a name for the work hours template.</span></span>  
-  
-4.  <span data-ttu-id="b9cb2-120">Seleccione un recurso en el que basar las horas laborables y después haga clic en **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="b9cb2-120">Select a resource to base the work hours on, and then click **Save**.</span></span>  
-  
-### <a name="see-also"></a><span data-ttu-id="b9cb2-121">Vea también</span><span class="sxs-lookup"><span data-stu-id="b9cb2-121">See Also</span></span>  
- [<span data-ttu-id="b9cb2-122">Configuración de recursos</span><span class="sxs-lookup"><span data-stu-id="b9cb2-122">Set up resources</span></span>](../psa/set-up-resources.md)
+<span data-ttu-id="66d88-104">Para crear y administrar un proyecto, debe aplicar una plantilla de calendario al proyecto.</span><span class="sxs-lookup"><span data-stu-id="66d88-104">To create and manage a project, you must apply a calendar template to the project.</span></span> <span data-ttu-id="66d88-105">La plantilla de calendario define los siguientes atributos del proyecto:</span><span class="sxs-lookup"><span data-stu-id="66d88-105">The calendar template defines the following project attributes:</span></span>
+
+- <span data-ttu-id="66d88-106">Horas laborables, incluida la hora de inicio y finalización</span><span class="sxs-lookup"><span data-stu-id="66d88-106">Working hours, including start and end time</span></span>
+- <span data-ttu-id="66d88-107">Días laborables</span><span class="sxs-lookup"><span data-stu-id="66d88-107">Working days</span></span>
+- <span data-ttu-id="66d88-108">Excepciones de calendario, como días no laborables</span><span class="sxs-lookup"><span data-stu-id="66d88-108">Calendar exceptions such as non-working days</span></span>
+
+<span data-ttu-id="66d88-109">La plantilla de calendario que se aplica a un proyecto es una copia de la plantilla de calendario definida en la configuración de su organización.</span><span class="sxs-lookup"><span data-stu-id="66d88-109">The calendar template that's applied to a project is a copy of the calendar template defined in your organization’s settings.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="66d88-110">Si cambia la plantilla del calendario, esos cambios no se propagan a las horas laborables del proyecto.</span><span class="sxs-lookup"><span data-stu-id="66d88-110">If you change the calendar template, those changes don't propagate to the working hours of the project.</span></span> <span data-ttu-id="66d88-111">Para cambiar las horas laborables del proyecto se debe aplicar una nueva plantilla.</span><span class="sxs-lookup"><span data-stu-id="66d88-111">To change the working hours of the project, a new template must be applied.</span></span>
+
+<span data-ttu-id="66d88-112">Para crear una plantilla de calendario para su organización, existen dos requisitos clave:</span><span class="sxs-lookup"><span data-stu-id="66d88-112">To create a calendar template for your organization, there are two key requirements:</span></span>
+
+- <span data-ttu-id="66d88-113">Defina las horas laborables deseadas de la plantilla utilizando un recurso que se puede reservar nuevo o existente.</span><span class="sxs-lookup"><span data-stu-id="66d88-113">Define the desired working hours of the template using a new or existing bookable resource.</span></span>
+- <span data-ttu-id="66d88-114">Cree una nueva plantilla de calendario y asóciela con el recurso que se puede reservar.</span><span class="sxs-lookup"><span data-stu-id="66d88-114">Create a new calendar template and associate the template with the bookable resource.</span></span>
+
+<span data-ttu-id="66d88-115">**Defina las horas laborables de la plantilla**</span><span class="sxs-lookup"><span data-stu-id="66d88-115">**Define the working hours of the template**</span></span>
+
+1. <span data-ttu-id="66d88-116">Vaya a **Recursos** \> **Recursos**.</span><span class="sxs-lookup"><span data-stu-id="66d88-116">Go to **Resources** \> **Resources**.</span></span>
+2. <span data-ttu-id="66d88-117">Cree un nuevo recurso al que hacer referencia en la plantilla de calendario o seleccione un recurso existente.</span><span class="sxs-lookup"><span data-stu-id="66d88-117">Create a new resource to reference in the calendar template, or select an existing resource.</span></span>
+3. <span data-ttu-id="66d88-118">Seleccione la pestaña **Horas laborables** del recurso y complete las instrucciones de [Establecer horas laborables para un recurso](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) para configurar las reglas del calendario.</span><span class="sxs-lookup"><span data-stu-id="66d88-118">Select the **Work Hours** tab of the resource and complete the instructions in [Set work hours for a resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.</span></span>
+
+<span data-ttu-id="66d88-119">**Cree una nueva plantilla de calendario**</span><span class="sxs-lookup"><span data-stu-id="66d88-119">**Create a new calendar template**</span></span>
+
+1. <span data-ttu-id="66d88-120">Vaya a **Configuración** \> **Plantilla de calendario**.</span><span class="sxs-lookup"><span data-stu-id="66d88-120">Go to **Settings** \> **Calendar Template**.</span></span>
+2. <span data-ttu-id="66d88-121">Seleccione **Nuevo** e ingrese un nombre, una descripción y un recurso de plantilla.</span><span class="sxs-lookup"><span data-stu-id="66d88-121">Select **New**, and enter a name, description, and template resource.</span></span>
+
+
+> [!NOTE]
+> <span data-ttu-id="66d88-122">Cuando se hace referencia a un recurso en una plantilla de calendario, se asocia una copia del calendario del recurso con la plantilla de calendario.</span><span class="sxs-lookup"><span data-stu-id="66d88-122">When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template.</span></span> <span data-ttu-id="66d88-123">Si cambian las horas laborables de la plantilla copiada, esos cambios no se propagarán a la plantilla del calendario.</span><span class="sxs-lookup"><span data-stu-id="66d88-123">If the working hours of the copied template change, those changes will not propagate to the calendar template.</span></span>
+
+
+### <a name="see-also"></a><span data-ttu-id="66d88-124">Vea también</span><span class="sxs-lookup"><span data-stu-id="66d88-124">See Also</span></span>  
+ [<span data-ttu-id="66d88-125">Configuración de recursos</span><span class="sxs-lookup"><span data-stu-id="66d88-125">Set up resources</span></span>](../psa/set-up-resources.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
