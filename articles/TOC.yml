@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Novedades
       items:
+        - name: 'Mayo de 2021: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: 'Abril de 2021: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: 'Marzo de 2021: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: Configurar categorías de gasto
               href: expense/set-up-expense-categories.md
+            - name: Configurar el kilometraje utilizando niveles de tarifas por kilometraje
+              href: expense/set-up-mileage.md
         - name: Gastos personales
           href: expense/personal-expenses-expense-report.md
         - name: Gastos de empresas vinculadas
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: Novedades
       items:
+        - name: 'Novedades de mayo de 2021: implementación simplificada'
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: 'Novedades de abril de 2021: implementación simplificada'
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: 'Novedades de marzo de 2021: implementación simplificada'
@@ -1028,6 +1034,8 @@
       items:
         - name: Programación de lanzamiento de actualizaciones para Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novedades y cambios de la versión de actualización 32, V3'
+          href: psa/whats-new-ur-32.md
         - name: 'Novedades y cambios de la versión de actualización 31, V3'
           href: psa/whats-new-ur-31.md
         - name: 'Novedades y cambios de la versión de actualización 30, V3'
@@ -1266,6 +1274,8 @@
               href: psa/time-entry-calendar.md
             - name: Personalizar la entrada de tiempo semanal
               href: psa/time-entry-extensibility-v3.md
+            - name: Conjuntos de aprobaciones
+              href: psa/approval-set.md
     - name: Preguntas frecuentes y solución de problemas (3.x)
       items:
         - name: ¿Por qué el precio se establece de forma predeterminada en cero en los datos reales de costes de gastos?
