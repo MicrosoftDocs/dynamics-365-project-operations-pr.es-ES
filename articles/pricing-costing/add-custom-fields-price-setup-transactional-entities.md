@@ -2,11 +2,9 @@
 title: Agregar campos personalizados requeridos a la configuración de precios y entidades transaccionales
 description: En este tema se proporciona información sobre cómo agregar referencias de campos personalizados requeridos a entidades, formularios y vistas.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 66cd638a3726cb68c0e92d3b0b54de28ff94b2a5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a7268eb33c80f5e35d2ef21a8f4c7ed7ba322e27
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275784"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000592"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Agregar campos personalizados requeridos a la configuración de precios y entidades transaccionales
 

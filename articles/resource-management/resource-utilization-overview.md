@@ -2,24 +2,22 @@
 title: Información general de utilización de recursos
 description: En este tema se proporciona información acerca de la vista de uso de recursos en Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4d66b5fc642ef53adf1169ce891a7a5fa26b07d6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a683931bcd6a357c5feec9198b190b948ad17a40
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279339"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000817"
 ---
 # <a name="resource-utilization-overview"></a>Información general de utilización de recursos
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Los recursos pueden tener un uso facturable objetivo. Este uso objetivo se define como un atributo en el rol predeterminado de un recurso o se establece en el registro del recurso individual que se puede reservar. Los cálculos de uso se basan en las horas reales informadas por los recursos mediante entradas de tiempo aprobadas.
+Los recursos pueden tener un uso facturable objetivo. Este uso objetivo se define como un atributo en el rol predeterminado de un recurso o se establece en el registro del recurso individual que se puede reservar. Los cálculos de uso se basan en las horas reales que los recursos han notificado mediante entradas de tiempo aprobadas.
 
 Se utilizan las siguientes fórmulas para calcular el uso:
 

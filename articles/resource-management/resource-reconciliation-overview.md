@@ -2,11 +2,9 @@
 title: Información general de conciliación de recursos
 description: Este tema proporciona información que le ayudará a asegurarse de que las reservas de recursos y las asignaciones para proyectos estén coordinadas.
 author: ruhercul
-manager: AnnBe
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 0416e93944e7b6686a0e4da1d633188dd51e590b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: be171063c21318f517a37f3088e3f577fd4b6715
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279384"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000862"
 ---
 # <a name="resource-reconciliation-overview"></a>Información general de conciliación de recursos
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Para los miembros del equipo, las reservas y las asignaciones están emparejadas, pero no de manera vinculante. Es decir, los recursos pueden tener asignaciones sin tener reservas, o bien pueden tener reservas sin tener asignaciones. Idealmente, las reservas y las asignaciones deben estar alineadas para que los recursos tengan la capacidad comprometida para realizar las tareas asignadas. Sin embargo, las reservas pueden estar basadas en la disponibilidad y el control de tiempo de las tareas puede cambiar a medida que avanza el proyecto. Por lo tanto, el emparejamiento no vinculante de las reservas y las asignaciones proporciona flexibilidad.
+Para los miembros del equipo, las reservas y las asignaciones están emparejadas, pero no de manera vinculante. Es decir, los recursos pueden tener asignaciones sin tener reservas, o bien pueden tener reservas sin tener asignaciones. Idealmente, las reservas y las asignaciones deben estar alineadas para que los recursos tengan la capacidad comprometida para realizar las tareas asignadas. No obstante, las reservas pueden basarse en la disponibilidad y los tiempos de las tareas pueden cambiar a medida que continúa el proyecto. Por lo tanto, el emparejamiento no vinculante de las reservas y las asignaciones proporciona flexibilidad.
 
 La pestaña **Conciliación** de la página **Proyectos** permite a los jefes de proyecto conciliar las reservas y las asignaciones de los miembros de sus equipos de proyecto.
 

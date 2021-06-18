@@ -2,19 +2,17 @@
 title: Integración de datos de instalación y configuración de Project Operations
 description: Este tema proporciona información sobre cómo instalar y configurar asignaciones de doble escritura de Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d5fe81dca30039f99d5d7b9bb459214e540db945
-ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
+ms.openlocfilehash: 1e9ca9407404274648f359be42d350137775ae55
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5939051"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001087"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Integración de datos de instalación y configuración de Project Operations
 

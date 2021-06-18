@@ -2,18 +2,16 @@
 title: Agregar miembros del equipo desde la cuadrícula Miembros del equipo
 description: En este tema se proporciona información sobre cómo puede administrar los recursos de miembros del equipo.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: cacf3913c3893dd09509cd02361c4a21bed59825
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 95f9e1d836e49672cfb51ace59aa77ea9da65b35
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5280104"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998882"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Agregar miembros del equipo desde la cuadrícula Miembros del equipo
 
@@ -36,8 +34,8 @@ Los administradores de proyecto pueden usar el panel Administrador de recursos p
 
 Para agregar un miembro del equipo directamente a un proyecto, en el formulario **Proyectos**, en la pestaña **Equipo**, seleccione **Nuevo**. Aparecerá el cuadro de diálogo **Creación rápida: Miembro del equipo del proyecto**. En este cuadro de diálogo, podrá realizar las tareas siguientes:
 
-- **Reservar un recurso con nombre**: en el campo **Recurso reservable**, seleccione el nombre del recurso. Después, seleccione el rol, defina el período y seleccione un método de asignación. El recurso con nombre seleccionado se agrega al proyecto mediante el método de asignación seleccionado y el calendario de recursos.
-- **Agregar un recurso genérico**: deje el campo **Recurso reservable** en blanco y después seleccione el rol, defina el período y seleccione el método de asignación preferido. Se agrega un recurso genérico al equipo como marcador de posición. El marcador de posición contiene el patrón de demanda que se usa para reservar recursos con nombre en el equipo. El requisito se crea según el calendario del proyecto.
+- **Reservar un recurso con nombre**: en el campo **Recurso reservable**, seleccione el nombre del recurso. A continuación, seleccione el rol, establezca el periodo y seleccione un método de asignación. El recurso con nombre seleccionado se agrega al proyecto mediante el método de asignación seleccionado y el calendario de recursos.
+- **Agregar un recurso genérico**: deje el campo **Recurso reservable** en blanco y después seleccione el rol, defina el período y seleccione el método de asignación preferido. Se agrega un recurso genérico al equipo como marcador de posición. El marcador de posición contiene el patrón de demanda que se usa para reservar recursos con nombre en el equipo. El requerimiento se realiza de acuerdo con el calendario del proyecto.
 - **Agregar un recurso con nombre al equipo sin consumir capacidad del recurso**: en el campo **Recurso reservable**, seleccione un recurso. Seleccione el período y luego **Ninguno** como método de asignación. El recurso se agrega al equipo, pero no se consume la capacidad del recurso con la reserva.
 
 ### <a name="book-a-team-member-to-fulfill-resource-requirements-for-a-generic-resource"></a>Reservar un miembro del equipo para cumplir los requisitos de recursos de un recurso genérico
@@ -180,7 +178,7 @@ O bien. Si necesita buscar un recurso, complete los siguientes pasos.
 
 ## <a name="reconcile-team-member-bookings-and-assignments"></a>Conciliar las asignaciones y las reservas de un miembro del equipo.
 
-Para los miembros del equipo, las reservas y las asignaciones están emparejadas, pero no de manera vinculante. En otras palabras, los recursos pueden tener asignaciones pero no tener reservas, o bien pueden tener reservas pero no tener asignaciones. Idealmente, las reservas y las asignaciones deben estar alineadas para que los recursos tengan la capacidad comprometida para realizar las tareas asignadas. Sin embargo, las reservas pueden estar basadas en la disponibilidad y el control de tiempo de las tareas puede cambiar a medida que avanza el proyecto. Por lo tanto, el emparejamiento no vinculante de las reservas y las asignaciones proporciona flexibilidad.
+Para los miembros del equipo, las reservas y las asignaciones están emparejadas, pero no de manera vinculante. En otras palabras, los recursos pueden tener asignaciones pero no tener reservas, o bien pueden tener reservas pero no tener asignaciones. Idealmente, las reservas y las asignaciones deben estar alineadas para que los recursos tengan la capacidad comprometida para realizar las tareas asignadas. No obstante, las reservas pueden basarse en la disponibilidad y los tiempos de las tareas pueden cambiar a medida que continúa el proyecto. Por lo tanto, el emparejamiento no vinculante de las reservas y las asignaciones proporciona flexibilidad.
 
 Project Operations dispone de la pestaña **Conciliación** que permite a los administradores de proyecto conciliar las reservas y las asignaciones de los miembros de sus equipos de proyecto.
 

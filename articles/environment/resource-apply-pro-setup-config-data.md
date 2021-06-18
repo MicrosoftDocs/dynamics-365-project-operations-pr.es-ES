@@ -2,18 +2,16 @@
 title: Configurar y aplicar datos de configuración en Common Data Service
 description: Este tema proporciona información sobre cómo instalar y aplicar los datos de configuración en Project Operations.
 author: sigitac
-manager: Annbe
-ms.date: 11/04/2020
+ms.date: 05/10/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1651d3b3b85d3dc581bf61976fada249bafd6b7b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289840"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001312"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Configurar y aplicar datos de configuración en Common Data Service 
 
@@ -33,7 +31,7 @@ Antes de comenzar a configurar los datos en Common Data Service (CDS), se deben 
 
 ## <a name="install-setup-and-configuration-data"></a>Instalar la configuración y los datos de configuración
 
-1. Descargue, desbloquee y descomprima el [Paquete de instalación y datos de configuración](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
+1. Descargue, desbloquee y descomprima el [Paquete de instalación y datos de configuración](https://download.microsoft.com/download/e/2/d/e2da6c98-d5dd-450c-aabe-fd6bf2ba374b/ProjOpsSampleSetupData-%20Integrated%20Latest.zip).
 2. Navegue a la carpeta descomprimida y ejecute el archivo ejecutable *DataMigrationUtility*.
 3. En la página 1 del Asistente de migración de configuración (CMT) de Common Data Service, seleccione **Importar datos** y luego seleccione **Continuar**.
 
@@ -57,13 +55,20 @@ Antes de comenzar a configurar los datos en Common Data Service (CDS), se deben 
 ![Importar datos](./media/5ImportData.png)
 
 10. La importación se ejecutará durante aproximadamente de dos a diez minutos, según la velocidad de su red. Una vez finalizada la importación, salga del asistente de CMT. 
-11. Compruebe si su organización dispone de datos en las siguientes 19 entidades:
+11. Compruebe si su organización dispone de datos en las siguientes 26 entidades:
 
-  - Divisa
+  - Moneda
+  - Plan de cuentas
+  - Calendario fiscal
+  - Tipos de cambio de divisas
+  - Día de pago
+  - Multivencimientos
+  - Condiciones de pago
   - Unidad organizativa
   - CONTACTO
   - Grupo fiscal
   - Grupo de clientes
+  - Grupo de proveedores
   - Unidad
   - Unidad de venta
   - Lista de precios
