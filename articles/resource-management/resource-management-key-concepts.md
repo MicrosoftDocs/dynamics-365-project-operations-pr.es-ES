@@ -2,39 +2,37 @@
 title: Conceptos clave de la gestión de recursos
 description: Este tema proporciona información sobre las capacidades de gestión de recursos en las operaciones de proyectos de Microsoft Dynamics.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: bcdfc7296ec09421668673d8502e7103c887d667
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6362daab7e2e01c7b7b2c2b801fe7e258b21ef16
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279519"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000997"
 ---
-# <a name="resource-management-key-concepts"></a><span data-ttu-id="43906-103">Conceptos clave de la gestión de recursos</span><span class="sxs-lookup"><span data-stu-id="43906-103">Resource management key concepts</span></span>
+# <a name="resource-management-key-concepts"></a><span data-ttu-id="aeb60-103">Conceptos clave de la gestión de recursos</span><span class="sxs-lookup"><span data-stu-id="aeb60-103">Resource management key concepts</span></span>
 
-<span data-ttu-id="43906-104">_**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_</span><span class="sxs-lookup"><span data-stu-id="43906-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="aeb60-104">_**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_</span><span class="sxs-lookup"><span data-stu-id="aeb60-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="43906-105">Los recursos son el activo más importante de una organización basada en servicios.</span><span class="sxs-lookup"><span data-stu-id="43906-105">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="43906-106">La capacidad para buscar los recursos adecuados en el momento oportuno, de reservar dichos recursos en proyectos y de mantenerlos en uso ayuda a la organización a cumplir los objetivos de ingresos y de satisfacción del cliente.</span><span class="sxs-lookup"><span data-stu-id="43906-106">The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="43906-107">Puede utilizar la función de recursos del proyecto en Dynamics 365 Project Operations para realizar las siguientes tareas:</span><span class="sxs-lookup"><span data-stu-id="43906-107">You can use the project resourcing functionality in Dynamics 365 Project Operations to do the following tasks:</span></span>
+<span data-ttu-id="aeb60-105">Los recursos son el activo más importante de una organización basada en servicios.</span><span class="sxs-lookup"><span data-stu-id="aeb60-105">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="aeb60-106">La capacidad para buscar los recursos adecuados en el momento oportuno, de reservar dichos recursos en proyectos y de mantenerlos en uso ayuda a la organización a cumplir los objetivos de ingresos y de satisfacción del cliente.</span><span class="sxs-lookup"><span data-stu-id="aeb60-106">The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="aeb60-107">Puede utilizar la función de recursos del proyecto en Dynamics 365 Project Operations para realizar las siguientes tareas:</span><span class="sxs-lookup"><span data-stu-id="aeb60-107">You can use the project resourcing functionality in Dynamics 365 Project Operations to do the following tasks:</span></span>
 
-- <span data-ttu-id="43906-108">Formar equipos de proyecto reservando recursos disponibles y cualificados.</span><span class="sxs-lookup"><span data-stu-id="43906-108">Form project teams by booking available and qualified resources.</span></span>
-- <span data-ttu-id="43906-109">Crear registros de miembros del equipo genérico y definir sus roles y la unidad de organización de recursos.</span><span class="sxs-lookup"><span data-stu-id="43906-109">Create generic team member records and define their roles and resource organization unit.</span></span>
-- <span data-ttu-id="43906-110">Generar requisitos de recursos para miembros del equipo genérico a partir de sus asignaciones de tareas.</span><span class="sxs-lookup"><span data-stu-id="43906-110">Generate resource requirements for generic team members from their task assignments.</span></span>
-- <span data-ttu-id="43906-111">Hacer coincidir las habilidades identificando las habilidades definidas en la petición de recursos con las habilidades de recursos disponibles.</span><span class="sxs-lookup"><span data-stu-id="43906-111">Match skills by identifying the skills defined on the resource demand against available resource skills.</span></span>
-- <span data-ttu-id="43906-112">Sustituir recursos.</span><span class="sxs-lookup"><span data-stu-id="43906-112">Substitute resources.</span></span>
-- <span data-ttu-id="43906-113">Alinear las asignaciones de la programación del proyecto y las reservas de recursos.</span><span class="sxs-lookup"><span data-stu-id="43906-113">Align project schedule assignments and resource bookings.</span></span>
-- <span data-ttu-id="43906-114">Conciliar las diferencias en las reservas y las asignaciones.</span><span class="sxs-lookup"><span data-stu-id="43906-114">Reconcile differences in bookings and assignments.</span></span>
-- <span data-ttu-id="43906-115">Cambiar las reservas de recursos como respuesta al estado de fuera de la oficina.</span><span class="sxs-lookup"><span data-stu-id="43906-115">Change resource bookings in response to out-of-office status.</span></span>
-- <span data-ttu-id="43906-116">Colaborar entre jefes de proyecto y administradores de recursos.</span><span class="sxs-lookup"><span data-stu-id="43906-116">Collaborate between project managers and resource managers.</span></span>
-- <span data-ttu-id="43906-117">Visualizar el historial de utilización de recursos frente a un objetivo, incluido un desglose de cómo se utilizó el tiempo de los recursos.</span><span class="sxs-lookup"><span data-stu-id="43906-117">View the history of resource utilization against a target, including a breakdown of how the resources' time was utilized.</span></span>
-- <span data-ttu-id="43906-118">Mantener un repositorio de habilidades y competencia.</span><span class="sxs-lookup"><span data-stu-id="43906-118">Maintain a skills and proficiency repository.</span></span>
+- <span data-ttu-id="aeb60-108">Formar equipos de proyecto reservando recursos disponibles y cualificados.</span><span class="sxs-lookup"><span data-stu-id="aeb60-108">Form project teams by booking available and qualified resources.</span></span>
+- <span data-ttu-id="aeb60-109">Crear registros de miembros del equipo genérico y definir sus roles y la unidad de organización de recursos.</span><span class="sxs-lookup"><span data-stu-id="aeb60-109">Create generic team member records and define their roles and resource organization unit.</span></span>
+- <span data-ttu-id="aeb60-110">Generar requisitos de recursos para miembros del equipo genérico a partir de sus asignaciones de tareas.</span><span class="sxs-lookup"><span data-stu-id="aeb60-110">Generate resource requirements for generic team members from their task assignments.</span></span>
+- <span data-ttu-id="aeb60-111">Hacer coincidir las habilidades identificando las habilidades definidas en la petición de recursos con las habilidades de recursos disponibles.</span><span class="sxs-lookup"><span data-stu-id="aeb60-111">Match skills by identifying the skills defined on the resource demand against available resource skills.</span></span>
+- <span data-ttu-id="aeb60-112">Sustituir recursos.</span><span class="sxs-lookup"><span data-stu-id="aeb60-112">Substitute resources.</span></span>
+- <span data-ttu-id="aeb60-113">Alinear las asignaciones de la programación del proyecto y las reservas de recursos.</span><span class="sxs-lookup"><span data-stu-id="aeb60-113">Align project schedule assignments and resource bookings.</span></span>
+- <span data-ttu-id="aeb60-114">Conciliar las diferencias en las reservas y las asignaciones.</span><span class="sxs-lookup"><span data-stu-id="aeb60-114">Reconcile differences in bookings and assignments.</span></span>
+- <span data-ttu-id="aeb60-115">Cambiar las reservas de recursos como respuesta al estado de fuera de la oficina.</span><span class="sxs-lookup"><span data-stu-id="aeb60-115">Change resource bookings in response to out-of-office status.</span></span>
+- <span data-ttu-id="aeb60-116">Colaborar entre jefes de proyecto y administradores de recursos.</span><span class="sxs-lookup"><span data-stu-id="aeb60-116">Collaborate between project managers and resource managers.</span></span>
+- <span data-ttu-id="aeb60-117">Visualizar el historial de utilización de recursos frente a un objetivo, incluido un desglose de cómo se utilizó el tiempo de los recursos.</span><span class="sxs-lookup"><span data-stu-id="aeb60-117">View the history of resource utilization against a target, including a breakdown of how the resources' time was utilized.</span></span>
+- <span data-ttu-id="aeb60-118">Mantener un repositorio de habilidades y competencia.</span><span class="sxs-lookup"><span data-stu-id="aeb60-118">Maintain a skills and proficiency repository.</span></span>
 
 
-<span data-ttu-id="43906-119">Puede contratar personal para su proyecto con un equipo de recursos genéricos en Project Operations.</span><span class="sxs-lookup"><span data-stu-id="43906-119">You can staff your project with a team of generic or named resources in Project Operations.</span></span> <span data-ttu-id="43906-120">Puede usar varios métodos para agregar y asignar miembros del equipo y para administrar sus reservas y asignaciones.</span><span class="sxs-lookup"><span data-stu-id="43906-120">You can use various methods to add and assign team members and to manage their bookings and assignments.</span></span> 
+<span data-ttu-id="aeb60-119">Puede contratar personal para su proyecto con un equipo de recursos genéricos en Project Operations.</span><span class="sxs-lookup"><span data-stu-id="aeb60-119">You can staff your project with a team of generic or named resources in Project Operations.</span></span> <span data-ttu-id="aeb60-120">Puede usar varios métodos para agregar y asignar miembros del equipo y para administrar sus reservas y asignaciones.</span><span class="sxs-lookup"><span data-stu-id="aeb60-120">You can use various methods to add and assign team members and to manage their bookings and assignments.</span></span> 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
