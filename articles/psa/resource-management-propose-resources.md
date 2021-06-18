@@ -2,8 +2,6 @@
 title: Propuesta de recursos de proyecto
 description: En este tema se proporciona información sobre proponer recursos de proyecto.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2003f6f06912b0c47eb942aae17e509b00e19487
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 02e47338e34a37e05455e2bc6e6a175210ed6bc7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283029"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997982"
 ---
 # <a name="propose-project-resources"></a>Propuesta de recursos de proyecto
 
@@ -61,7 +59,7 @@ Cuando los administradores de recursos procesan las solicitudes de recursos, pue
 
 ## <a name="billable-utilization"></a>Uso facturable
 
-Los recursos pueden tener un uso facturable objetivo. Este uso objetivo se define como un atributo en el rol predeterminado de un recurso o se establece en el registro del recurso individual que se puede reservar. Los cálculos de uso se basan en las horas reales informadas por los recursos mediante entradas de tiempo aprobadas.
+Los recursos pueden tener un uso facturable objetivo. Este uso objetivo se define como un atributo en el rol predeterminado de un recurso o se establece en el registro del recurso individual que se puede reservar. Los cálculos de uso se basan en las horas reales que los recursos han notificado mediante entradas de tiempo aprobadas.
 
 Se utilizan las siguientes fórmulas para calcular el uso:
 

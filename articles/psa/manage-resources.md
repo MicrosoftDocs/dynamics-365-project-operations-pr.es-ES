@@ -2,8 +2,6 @@
 title: Administrar recursos
 description: En este tema se proporciona información sobre cómo puede administrar los recursos.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d47be6c11ced70b94b7497dfbc0c67d1a3f631b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b067f900fa49bba04536b49600dbe80a2167f707
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275019"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997847"
 ---
 # <a name="manage-resources"></a>Administrar recursos
 
@@ -48,8 +46,8 @@ Los jefes de proyecto pueden usar el panel de administrador de recursos para adm
 
 Para agregar un miembro del equipo directamente a un proyecto, en la página **Proyectos**, en la pestaña **Equipo**, seleccione **Nuevo**. Aparecerá el cuadro de diálogo **Creación rápida: Miembro del equipo del proyecto**. En este cuadro de diálogo, podrá realizar las tareas siguientes:
 
-- **Reservar un recurso con nombre**: en el campo **Recurso que se puede reservar**, seleccione el nombre del recurso. Después, seleccione el rol, defina el período y seleccione un método de asignación. El recurso con nombre seleccionado se agrega al proyecto mediante el método de asignación seleccionado y el calendario de recursos.
-- **Agregar un recurso genérico**: deje el campo **Recurso que se puede reservar** en blanco y después seleccione el rol, defina el período y seleccione el método de asignación preferido. Se agregará al equipo un recurso genérico como marcador de posición para conservar el patrón de demanda que se utiliza para reservar recursos con nombre en el equipo. El requisito se crea según el calendario del proyecto.
+- **Reservar un recurso con nombre**: en el campo **Recurso que se puede reservar**, seleccione el nombre del recurso. A continuación, seleccione el rol, establezca el periodo y seleccione un método de asignación. El recurso con nombre seleccionado se agrega al proyecto mediante el método de asignación seleccionado y el calendario de recursos.
+- **Agregar un recurso genérico**: deje el campo **Recurso que se puede reservar** en blanco y después seleccione el rol, defina el período y seleccione el método de asignación preferido. Se agregará al equipo un recurso genérico como marcador de posición para conservar el patrón de demanda que se utiliza para reservar recursos con nombre en el equipo. El requerimiento se realiza de acuerdo con el calendario del proyecto.
 - **Agregar un recurso con nombre al equipo sin consumir capacidad del recurso**: en el campo **Recurso que se puede reservar**, seleccione un recurso. Después, seleccione el período y seleccione **Ninguno** como método de asignación. El recurso se agrega al equipo, pero no se consume la capacidad del recurso con la reserva.
 
 ### <a name="book-a-team-member-to-fulfill-resource-requirements-for-a-generic-resource"></a>Reservar un miembro del equipo para cumplir los requisitos de recursos de un recurso genérico
@@ -318,7 +316,7 @@ A veces, el jefe del proyecto debe sustituir un miembro del equipo reservado de 
 
 ## <a name="reconcile-team-member-bookings-and-assignments"></a>Conciliar las asignaciones y las reservas de un miembro del equipo.
 
-Para los miembros del equipo, las reservas y las asignaciones están emparejadas, pero no de manera vinculante. En otras palabras, los recursos pueden tener asignaciones pero no tener reservas, o bien pueden tener reservas pero no tener asignaciones. Idealmente, las reservas y las asignaciones deben estar alineadas para que los recursos tengan la capacidad comprometida para realizar las tareas asignadas. Sin embargo, las reservas pueden estar basadas en la disponibilidad y el control de tiempo de las tareas puede cambiar a medida que avanza el proyecto. Por lo tanto, el emparejamiento no vinculante de las reservas y las asignaciones proporciona flexibilidad.
+Para los miembros del equipo, las reservas y las asignaciones están emparejadas, pero no de manera vinculante. En otras palabras, los recursos pueden tener asignaciones pero no tener reservas, o bien pueden tener reservas pero no tener asignaciones. Idealmente, las reservas y las asignaciones deben estar alineadas para que los recursos tengan la capacidad comprometida para realizar las tareas asignadas. No obstante, las reservas pueden basarse en la disponibilidad y los tiempos de las tareas pueden cambiar a medida que continúa el proyecto. Por lo tanto, el emparejamiento no vinculante de las reservas y las asignaciones proporciona flexibilidad.
 
 PSA dispone de la pestaña **Conciliación** que permite a los jefes de proyecto conciliar las reservas y las asignaciones de los miembros de sus equipos de proyecto.
 
@@ -330,8 +328,8 @@ La pestaña también muestra un total neto del proyecto, junto con una columna t
 
 Para cada recurso, la pestaña calcula la diferencia entre las reservas de un miembro del equipo y un resumen de las asignaciones de tareas del miembro del equipo. Idealmente, esta diferencia debería ser 0 (cero). Es decir, no debería haber diferencia entre las reservas y las asignaciones. Las diferencias se muestran en color y sombreadas para llamar la atención en torno a dos condiciones:
 
-- **Escasez de reservas**: la escasez de reservas se produce cuando un recurso tiene más asignaciones que reservas. Puesto que esta capacidad no se ha reservado, puede que el jefe de proyecto desee corregir esa condición extendiendo las reservas del recurso para cubrir el déficit.
-- **Reservas en exceso**: las reservas en exceso se producen cuando se ha reservado un recurso para el proyecto, pero no se ha asignado a tareas. Esta condición puede ser aceptable en los casos en los que el recurso se reservó en el proyecto antes de que se produjera la asignación de tareas. Sin embargo, en otros casos, no está previsto que el recurso se asigne a tareas. En estos casos, el jefe de proyecto debería considerar cancelar las reservas del recurso de modo que la capacidad pueda utilizarse para otro proyecto.
+- **Escasez de reservas**: la escasez de reservas ocurre cuando un recurso tiene más asignaciones que reservas. Puesto que esta capacidad no se ha reservado, puede que un jefe de proyecto quiera corregir esta condición ampliando las reservas del recurso para cubrir el déficit.
+- **Reservas en exceso**: el exceso de reservas ocurre cuando un recurso se ha reservado para el proyecto pero no se ha asignado a tareas. Esta condición puede ser aceptable en los casos en los que el recurso se reservó en el proyecto antes de que se produjera la asignación de tareas. Sin embargo, en otros casos, no está previsto que el recurso se asigne a tareas. En estos casos, el jefe de proyecto debería considerar cancelar las reservas del recurso de modo que la capacidad pueda utilizarse para otro proyecto.
 
 En algunos casos, cuando se visualiza el tiempo a un nivel superior que el nivel de días (por ejemplo, el nivel de meses), puede ver una diferencia neta de cero para un recurso (es decir, reservas = asignaciones). Sin embargo, si visualiza el tiempo en el nivel de semana, puede ver que hay asignaciones de cero horas y reservas de 40 horas en la primera semana, y asignaciones de 40 horas y reservas de cero horas en la segunda semana. En general, las reservas y las asignaciones se concilian, pero hay diferencias de una semana a la siguiente.
 

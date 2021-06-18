@@ -2,19 +2,17 @@
 title: Novedades o cambios de marzo de 2021 en Project Operations para escenarios basados en existencias/producción
 description: Este tema proporciona información sobre las actualizaciones de calidad disponibles en la versión de marzo de 2021 de Project Operations para escenarios basados en existencias/producción.
 author: andchoi
-manager: tfehr
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 804b5d1cc3392349fb6bcc81a91d69d0d9dc51da
-ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
+ms.openlocfilehash: d1a4658c8eec23f6816b58de42d785d769050b07
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "5701977"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997037"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Novedades o cambios de marzo de 2021 en Project Operations para escenarios basados en existencias/producción
 
@@ -123,7 +121,7 @@ En esta versión se incluyen las siguientes características:
 | Gestión de proyectos y contabilidad | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | El método de clase de estructura de descomposición del trabajo heredado (WBS), **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** está en desuso.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Actualizaciones regulatorias
-Para obtener información sobre actualizaciones normativas para aplicaciones de Finance and Operations, vea [Actualizaciones regulatorias](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). También puede iniciar sesión en LCS y ver las actualizaciones normativas planificadas mediante la herramienta de búsqueda de problemas. La búsqueda de problemas le permite buscar por país, tipo de función y lanzamiento.
+Para obtener información sobre actualizaciones normativas para aplicaciones de Finance and Operations, vea [Actualizaciones regulatorias](/dynamics365/finance/localizations/regulatory-updates.md). También puede iniciar sesión en LCS y ver las actualizaciones normativas planificadas mediante la herramienta de búsqueda de problemas. La búsqueda de problemas le permite buscar por país, tipo de función y lanzamiento.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
