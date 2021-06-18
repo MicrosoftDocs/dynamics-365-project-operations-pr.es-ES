@@ -2,11 +2,9 @@
 title: Administrar delegación
 description: Este tema proporciona información sobre cómo un delegado de gastos puede crear y administrar informes de gastos para otro empleado.
 author: suvaidya
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ee00b3c6a683aa8daf2823331a1a9638828dad03
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34b190f9a458c9e2706c5b8c9fdbceea1fbe2621
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276414"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995327"
 ---
 # <a name="manage-delegation"></a>Administrar delegación
 Un delegado de gastos puede crear y administrar informes de gastos para otro empleado.
@@ -36,7 +34,7 @@ Para configurar un usuario como delegado de gastos, complete los siguientes paso
 
 Si la clave de gestión de funciones **Habilitar página de lista de delegados de gastos** está habilitada, estará disponible la página e lista **Gastos delegados en mi**. Vaya a **Administración de gastos** > **Mis gastos** > **Gastos delegados en mi**.
 
-Un delegado puede filtrar y buscar rápidamente los informes de gastos existentes que le han sido delegados. El delegado también puede crear rápidamente un nuevo informe de gastos para otros usuarios seleccionando **Nuevo informe de gastos**.
+Un delegado puede filtrar y buscar rápidamente los informes de gastos existentes que le han sido delegados. El delegado también puede crear rápidamente un informe de gastos nuevo para otros usuarios seleccionando **Nuevo informe de gastos**.
 
 Los delegados pueden crear y administrar informes de gastos para otros empleados yendo a **Administración de gastos** > **Mis gastos** > **Informes de gastos** y seleccionando **Abrir gastos de otros usuarios**.
 

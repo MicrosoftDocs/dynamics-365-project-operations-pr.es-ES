@@ -2,11 +2,9 @@
 title: Crear una nota de crédito en las facturas del proyecto
 description: Este proceso muestra cómo crear una nota de crédito en las facturas del proyecto que se han registrado.
 author: Yowelle
-manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03f74d1bf08eb98b7724a6225b6399ef255224ff
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f2342ef572c3ff50472393dde764f528f745ece
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288490"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993482"
 ---
 # <a name="create-a-credit-note-on-project-invoices"></a>Crear una nota de crédito en las facturas del proyecto
 

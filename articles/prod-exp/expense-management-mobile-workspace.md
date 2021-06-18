@@ -2,12 +2,8 @@
 title: Área de trabajo móvil de gestión de gastos
 description: En este tema se proporciona información sobre el área de trabajo móvil Administración de gastos. Este área de trabajo permite a los usuarios capturar y cargar un recibo para luego adjuntarlo a un informe de gastos. Los usuarios también pueden crear rápidamente una línea de gastos mediante un recibo adjunto y crear y administrar sus informes de gastos.
 author: suvaidya
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
@@ -17,12 +13,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: cc19297131937949fe6f7eed00ee66fb5e3bff13
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 7eccf5cd234df6ca4fc4c83b581f6c4c22b3396f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950500"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993662"
 ---
 # <a name="expense-management-mobile-workspace"></a>Área de trabajo móvil de gestión de gastos
 

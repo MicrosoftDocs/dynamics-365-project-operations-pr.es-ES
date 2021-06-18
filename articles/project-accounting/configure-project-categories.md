@@ -2,34 +2,32 @@
 title: Configurar categorías de proyectos
 description: En este tema se proporciona información sobre la configuración de categorías de proyecto.
 author: sigitac
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b7adf61a82714a0148d9c8b1d2b2b37fd611c1cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d82302f12ba75a92f2de0e9746ad7e61ce0cdc6b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287529"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995192"
 ---
 # <a name="configure-project-categories"></a>Configurar categorías de proyectos
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
 
-Project Operations ofrece capacidades sólidas para categorizar ingresos y gastos en proyectos. Las categorías brindan la capacidad de informar y analizar las transacciones del proyecto e impulsar la contabilización en el libro mayor.
+Project Operations ofrece capacidades sólidas para categorizar ingresos y gastos en proyectos. Las categorías brindan la capacidad de informar y analizar las transacciones del proyecto y de impulsar el registro en la contabilidad general.
 
 El siguiente diagrama ilustra la correlación entre categorías de transacciones, categorías compartidas y categorías de proyectos. 
 
-Las categorías de transacciones son la agrupación básica para las transacciones de proyectos. Dentro de esa agrupación, hay un conjunto de categorías compartidas que se pueden compartir entre aplicaciones y módulos. Entrando aún más en los detalles, las categorías de proyectos son el nivel más granular de las categorías. Las categorías de proyectos son específicas de la entidad jurídica, el módulo y la aplicación.
+Las categorías de transacciones son la agrupación básica para las transacciones de proyectos. Dentro de dicha agrupación hay un conjunto de categorías compartidas que se pueden compartir entre aplicaciones y módulos. Si profundizamos aún más en los detalles, las categorías de proyectos son el nivel de categorías más preciso. Las categorías de proyectos son específicas de la entidad jurídica, el módulo y la aplicación.
 
 ![Correlación entre categorías de transacciones, categorías compartidas y categorías de proyectos](media/project-categories.png)
 
 ## <a name="transaction-categories"></a>Categorías de transacciones
 
-Las categorías de transacciones representan la agrupación básica para las transacciones de proyecto y no son específicas de la empresa ni del tipo de transacción. Por ejemplo, Contoso Robotics usa las categorías Diseño, Viaje, Instalación y Transacción de servicio para agrupar transacciones de proyecto.
+Las categorías de transacciones representan la agrupación básica para las transacciones de proyecto y no son específicas de la empresa ni del tipo de transacción. Por ejemplo, Contoso Robotics usa las categorías Diseño, Viajes, Instalación y Transacción de servicio para agrupar transacciones del proyecto.
 
 Las categorías de transacciones se definen en el módulo Operaciones de proyecto. 
 1. Vaya a **Configuración** \> **Categorías de transacciones** para abrir el formulario. 
@@ -45,12 +43,12 @@ Las categorías de proyectos representan el nivel más granular de configuració
 
 1. Vaya a **Gestión de proyectos y contabilidad** \> **Configuración** \> **Categorías** \> **Categorías de proyectos**.
 2. Seleccione **Nuevo**.
-3. Seleccione el **Id. de categoria** de la categoría compartida que creó en la sección anterior. Las operaciones de proyecto permiten usar solo las categorías compartidas que están asociadas con las categorías de transacciones.
+3. Seleccione el **Id. de categoria** de la categoría compartida que creó en la sección anterior. Project Operations permite usar solo las categorías compartidas que están asociadas a las categorías de transacciones.
 4. Seleccione un grupo de categorías.
 
 ## <a name="category-groups"></a>Grupos de categorías
 
-Los grupos de categorías se utilizan para compartir propiedades, principalmente perfiles de registro, entre categorías de proyectos relacionadas. Debe haber al menos un grupo de categorías para cada tipo de transacción y a cada categoría de proyecto se le asigna un grupo.
+Los grupos de categorías se utilizan para compartir propiedades, principalmente registrar perfiles, entre categorías de proyectos relacionados. Debe haber al menos un grupo de categorías por cada tipo de transacción y a cada categoría de proyecto se le asigna un grupo.
 
 Las especificaciones de contabilización de las operaciones de proyecto se definen mediante las reglas del perfil de costes e ingresos del proyecto, las categorías de proyectos y los grupos de categorías. Puede configurar grupos de categorías yendo a **Gestión de proyectos y contabilidad** \> **Configuración** \> **Categorías** \> **Grupos de categorías**.
 

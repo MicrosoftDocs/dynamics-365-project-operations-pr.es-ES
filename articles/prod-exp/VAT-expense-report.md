@@ -2,11 +2,9 @@
 title: Recuperación de IVA
 description: Este tema explica cómo recuperar reembolsos en transacciones con impuesto al valor añadido (IVA).
 author: saraschi2
-manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 187532281f6aba3cc3fb03428d93c8ebc4cf4a3d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 20e29a47d73d28c0bf8dbb3495ad301481c529cd
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271958"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993617"
 ---
 # <a name="vat-recovery"></a>Recuperación de IVA 
 
@@ -39,27 +37,27 @@ Una vez que se completan los requisitos previos, los empleados siguen los siguie
 2. Verifique que toda la información fiscal esté completa y luego registre el informe de gastos.
 3. Gastos de proceso que son elegibles para la recuperación del IVA internacional.
 4. Envíe los datos de recuperación del IVA al proveedor externo para presentar declaraciones de recuperación internacionales.
-5. Gastos de proceso para la recuperación del IVA nacional.
+5. Procesa los gastos para la devolución del IVA nacional.
 
 Las siguientes secciones proporcionan ejemplos que muestran cómo los empleados de Contoso completan cada paso.
 
 ## <a name="on-an-expense-report-enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>En un informe de gastos, introduzca información fiscal sobre transacciones con tarjeta de crédito para identificar reembolsos de IVA elegibles
 
-Nancy, una representante de ventas de Contoso que reside en los Estados Unidos, regresó recientemente de un viaje de ventas al Reino Unido. Durante el viaje, incurrió en algunos gastos de tarjetas de crédito personales para las comidas. Nancy ahora debe crear un informe de gastos para conciliar sus gastos.
+Marta, una representante de ventas de Contoso con sede en los Estados Unidos, regresó recientemente de un viaje de ventas al Reino Unido. Durante el viaje, incurrió en algunos gastos de tarjetas de crédito personales para las comidas. Nancy ahora debe crear un informe de gastos para conciliar sus gastos.
 
 Cuando Nancy ingresa información en su informe de gastos, selecciona **Reino Unido** en el campo **País/región** de la página **Editar informe de gastos**. A continuación, se filtra la lista de grupos de impuestos sobre las ventas para que solo muestre los grupos que se aplican al Reino Unido. Nancy selecciona el grupo de impuestos sobre las ventas **Reino Unido 001** y luego selecciona el grupo de impuestos sobre las ventas de artículos **Comidas**. A continuación, ella agrega una nueva transacción de su alojamiento. Debido a que solo hay un grupo de impuestos sobre las ventas y un grupo de impuestos sobre las ventas de elementos para alojamiento en el Reino Unido, esta información se completa automáticamente en el informe de gastos de Nancy.
 
-Según la directiva de Contoso, todos los gastos deben tener un recibo correspondiente. Por lo tanto, cuando Nancy guarda su informe de gastos, recibe un mensaje que indica que debe adjuntar un recibo por cada transacción que anotó en su informe de gastos. Nancy verifica que haya adjuntado una imagen digital de cada recibo de transacción a su informe de gastos y luego envía su informe para su aprobación. Luego envía los recibos en papel al equipo de procesamiento administrativo. Este equipo enviará los datos de recuperación del IVA al proveedor externo que presente las declaraciones internacionales de recuperación del IVA para Contoso.
+Según la directiva de Contoso, todos los gastos deben tener un recibo correspondiente. Por lo tanto, cuando Nancy guarda su informe de gastos, recibe un mensaje que indica que debe adjuntar un recibo por cada transacción que anotó en su informe de gastos. Nancy verifica que haya adjuntado una imagen digital de cada recibo de transacción a su informe de gastos y luego envía su informe para su aprobación. Luego envía los recibos en papel al equipo de procesamiento administrativo. Este equipo enviará los datos de recuperación del IVA al proveedor externo que presenta las declaraciones internacionales de recuperación del IVA de Contoso.
 
 ## <a name="make-sure-that-all-tax-information-is-complete-and-then-post-the-expense-report"></a>Verifique que toda la información fiscal esté completa y luego registre el informe de gastos
 
-April, la coordinadora de proveedores de Contoso puede debe introducir cualquier información fiscal que falte de un informe de gastos antes de poder publicar el informe. Ella abre la página **Detalles del informe de gastos** y ve el informe de gastos aprobado de Nancy. April luego abre el informe de gastos para ver los detalles de las transacciones. Ella ve que Nancy no introdujo a un grupo de impuestos sobre las ventas de artículos para una de las transacciones. Debido a que no se proporciona esta información, April no puede registrar el informe de gastos. Por lo tanto, April mira en la página **Configuraciones de impuestos** en Gestión de gastos y busca el grupo de impuestos sobre las ventas de artículos adecuado para el país/región y el tipo de transacción. April ahora puede contabilizar el informe de gastos en el libro mayor.
+Abril, la coordinadora de proveedores de Contoso, debe introducir la información fiscal que falte de un informe de gastos antes de publicar el informe. Ella abre la página **Detalles del informe de gastos** y ve el informe de gastos aprobado de Nancy. April luego abre el informe de gastos para ver los detalles de las transacciones. Ella ve que Nancy no introdujo a un grupo de impuestos sobre las ventas de artículos para una de las transacciones. Debido a que no se proporciona esta información, April no puede registrar el informe de gastos. Por lo tanto, April mira en la página **Configuraciones de impuestos** en Gestión de gastos y busca el grupo de impuestos sobre las ventas de artículos adecuado para el país/región y el tipo de transacción. April ahora puede contabilizar el informe de gastos en el libro mayor.
 
 Cuando April registra el informe de gastos, se crea un elemento de trabajo recuperable de IVA. Este elemento de trabajo se asigna a un miembro del equipo de procesamiento de administración. April recibe un mensaje que confirma que la contabilización se realizó correctamente. Este mensaje también enumera el número de transacciones de IVA que se identificaron para su recuperación.
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>Gastos de proceso que son elegibles para la recuperación del IVA internacional
 
-Arnie, miembro del equipo de administración de Contoso, es responsable de confirmar que toda la información requerida para la recuperación del IVA esté incluida en los informes de gastos. Abre la página **Recuperación de impuestos sobre gastos** y selecciona el informe de gastos que presentó Nancy. Arnie verifica que todos los recibos requeridos estén adjuntos y que se ingresaron el grupo de impuestos sobre las ventas y los códigos de impuestos sobre las ventas del artículo correctos.
+Arnie, miembro del equipo de procesamiento de administrativo de Contoso, es responsable de verificar que toda la información requerida para la recuperación del IVA esté incluida en los informes de gastos. Abre la página **Recuperación de impuestos sobre gastos** y selecciona el informe de gastos que presentó Nancy. Arnie verifica que todos los recibos requeridos estén adjuntos y que se ingresaron el grupo de impuestos sobre las ventas y los códigos de impuestos sobre las ventas del artículo correctos.
 
 Cuando Arnie recibe los recibos en papel de Nancy, verifica los recibos en papel contra los recibos digitales y luego cambia el estado del informe de gastos a **Listo para recuperación**.
 

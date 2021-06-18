@@ -2,19 +2,17 @@
 title: Configurar materiales no mantenidos en existencias y facturas de proveedor pendientes
 description: Este tema explica cómo habilitar materiales no mantenidos en existencias y facturas de proveedor pendientes.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a84245a246f49ab69466aba0fec332f0489eec6c
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880689"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993932"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Configurar materiales no mantenidos en existencias y facturas de proveedor pendientes
 
@@ -61,11 +59,11 @@ Si está utilizando datos de demostración estándar, es posible que también de
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Activar el flujo de trabajo para crear cuentas basadas en la entidad del proveedor
 
-La solución de orquestación de doble escritura proporciona [Integración maestra de proveedores](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Como requisito previo para esta característica, deben crearse datos del proveedor en la entidad **Cuentas**. Active un proceso de flujo de trabajo de plantilla para crear proveedores en la tabla **Cuentas** como se describe en [Cambiar entre diseños de proveedores](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+La solución de orquestación de doble escritura proporciona [Integración maestra de proveedores](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Como requisito previo para esta característica, deben crearse datos del proveedor en la entidad **Cuentas**. Active un proceso de flujo de trabajo de plantilla para crear proveedores en la tabla **Cuentas** como se describe en [Cambiar entre diseños de proveedores](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
 
 ### <a name="set-products-to-be-created-as-active"></a>Establecer productos que se crearán como activos
 
-Los materiales no mantenidos en existencias deben configurarse como **Productos emitidos** en Finance. La solución de orquestación de doble escritura proporciona una [Integración predefinida de productos emitidos al Catalogo de productos de Dataverse](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). De forma predeterminada, los productos de Finance se sincronizan con Dataverse en estado de borrador. Para sincronizar el producto con un estado activo para que pueda usarse directamente en documentos de uso de material o facturas de proveedor pendientes, vaya a **Sistema** > **Administración** > **Administración del sistema** > **Configuración del sistema**, y en la pestaña **Ventas**, establezca **Crear productos en estado activo** como **Sí**.
+Los materiales no mantenidos en existencias deben configurarse como **Productos emitidos** en Finance. La solución de orquestación de doble escritura proporciona una [Integración predefinida de productos emitidos al Catalogo de productos de Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). De forma predeterminada, los productos de Finance se sincronizan con Dataverse en estado de borrador. Para sincronizar el producto con un estado activo para que pueda usarse directamente en documentos de uso de material o facturas de proveedor pendientes, vaya a **Sistema** > **Administración** > **Administración del sistema** > **Configuración del sistema**, y en la pestaña **Ventas**, establezca **Crear productos en estado activo** como **Sí**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Configurar requisitos previos en Finance
 
