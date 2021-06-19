@@ -2,8 +2,6 @@
 title: Cancelar entradas de gastos y tiempo aprobadas anteriormente
 description: En este tema se proporciona información sobre cómo cancelar una transacción de gastos y tiempo de proyecto aprobada.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 40ac37c1070e1c4da01e96bbc4248977b2b6d284
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: bf3d146d2b07723b4d2e6e85eafd6f1b23b8b83f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290875"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014767"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Cancelar entradas de gastos o tiempo aprobadas anteriormente
 

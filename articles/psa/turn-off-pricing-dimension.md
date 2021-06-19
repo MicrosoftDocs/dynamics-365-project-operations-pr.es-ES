@@ -2,12 +2,10 @@
 title: Desactivación de una dimensión de precios
 description: En este tema se muestra cómo configurar dimensiones de precios en la solución de Project Service.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/06/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6e4b80b9c4b1b0f57d04079c9d2f84051b451d29
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: da8615fa147838d9088c639039d5a2534e662e82
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281859"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014317"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>Desactivación de una dimensión de precios
 
@@ -39,10 +37,10 @@ Sin embargo, cuando realice este procedimiento, es posible que reciba el siguien
 
 Este mensaje de error indica que hay registros de precios que se configuraron previamente para la dimensión que se está desactivando. Todos los registros **Precio de rol** e **Incremento del precio de rol** que hacen referencia a una dimensión deben eliminarse antes de que la aplicabilidad de la dimensión pueda fijarse en **No**. Esta regla se aplica tanto a las dimensiones de precios listas para usar como a las dimensiones de precios personalizadas que pueda haber creado. La razón de esta validación se debe a que Project Service tiene la restricción de que cada registro **Precio de rol** debe tener una combinación única de dimensiones. Por ejemplo, en una lista de precios llamada **Tasas de costes de Estados Unidos en 2018**, tendrá las siguientes filas **Precio de rol**. 
 
-| Título estándar         | Unidad organizativa    |Unidad   |Precio  |Divisa  |
+| Título estándar         | Unidad organizativa    |Unidad   |Precio  |Moneda  |
 | -----------------------|-------------|-------|-------|----------|
-| Ingeniero de sistemas|Contoso US|Hour| 100|USD|
-| Ingeniero de sistemas sénior|Contoso US|Hour| 150| USD|
+| Ingeniero de sistemas|Contoso EE. UU.|Hora| 100|USD|
+| Ingeniero de sistemas sénior|Contoso EE. UU.|Hora| 150| USD|
 
 
 Cuando desactive **Título estándar** como la dimensión de precios, y el motor de precios de Project Service busque un precio, solo utilizará el valor de **Unidad organizativa** del contexto de entrada. Si la **Unidad organizativa** del contexto de entrada es "Contoso Estados Unidos", el resultado será no determinista porque ambas filas coincidirán. Para evitar este escenario, cuando cree registros **Precio de rol**, Project Service validará que la combinación de dimensiones sea única. Si la dimensión se desactiva después de que se creen los registros de **Precio de rol**, esta restricción se podrá infringir. Por lo tanto, es necesario que antes de desactivar una dimensión, elimine todas las filas de **Precio de rol** y **Incremento del precio de rol** que tienen ese valor de dimensión completo.

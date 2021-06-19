@@ -2,12 +2,10 @@
 title: Uso de la categoría de transacción como una dimensión de precios
 description: En este tema se proporciona información sobre el uso de una categoría de transacción como dimensión de precios.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ce878665384b75fc44bba2d413217857e0ee467c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: db1d9ec0c99531344aed2e935441b43993f1e102
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281904"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014362"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Uso de la categoría de transacción como una dimensión de precios
 

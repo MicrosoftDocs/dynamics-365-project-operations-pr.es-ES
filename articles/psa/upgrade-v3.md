@@ -1,9 +1,7 @@
 ---
 title: 'Consideraciones sobre actualizaciones: Microsoft Dynamics 365 Project Service Automation versión 2.x o 1.x a versión 3'
 description: En este tema se proporciona información sobre las consideraciones que debe tomar cuando actualiza de la versión 2.xo 1.x a la versión 3 de Project Service Automation.
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -18,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ff0777705c6d0e2c0d8aa4ed191f4ae6b1786100
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281679"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014915"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Consideraciones de actualización: De la versión 2.x o 1.x a la versión 3.x
 
@@ -106,7 +104,7 @@ Puede ver la unidad organizativa en la vista de estimaciones.
  
 Cuando se completa la actualización, la unidad de organización en la tarea de línea que corresponde al miembro del equipo genérico se agrega al miembro del equipo genérico y se elimina la tarea de línea. Por eso, recomendamos que antes de actualizar, genere o vuelva a generar el equipo en cada proyecto que contenga recursos genéricos.
 
-Para las tareas que se asignan a un rol con una unidad organizativa distinta de la unidad organizativa del proyecto contratante, y sin un equipo, generado la actualización creará un miembro genérico del equipo para el rol, pero utilizará la unidad contratante del proyecto para la unidad organizativa del miembro del equipo. Volviendo al ejemplo con el Proyecto Z, la unidad organizativa contratante Contoso Estados Unidos, y las tareas de prueba del plan del proyecto dentro de la fase de implementación tienen asignado el rol de Consultor técnico con la unidad organizativa asignada a Contoso India. La tarea de prueba de integración que se completa después de la fase de implementación se ha asignado al rol de Consultor técnico. La unidad organizativa es Contoso Estados Unidos y no se ha generado un equipo. La actualización creará un miembro genérico del equipo, un consultor técnico que tendrá las horas asignadas de las tres tareas y una unidad organizativa de Contoso Estados Unidos, la unidad organizativa contratante del proyecto.   
+Para las tareas que se asignan a un rol con una unidad organizativa distinta de la unidad organizativa del proyecto contratante, y sin un equipo, generado la actualización creará un miembro genérico del equipo para el rol, pero utilizará la unidad contratante del proyecto para la unidad organizativa del miembro del equipo. Volviendo al ejemplo con el Proyecto Z, esto significa que la unidad organizativa contratante Contoso Estados Unidos, y las tareas de prueba del plan del proyecto dentro de la fase de implementación tienen asignado el rol de Consultor técnico con la unidad organizativa asignada a Contoso India. La tarea de prueba de integración que se completa después de la fase de implementación se ha asignado al rol de Consultor técnico. La unidad organizativa es Contoso Estados Unidos y no se ha generado un equipo. La actualización creará un miembro genérico del equipo, un consultor técnico que tendrá las horas asignadas de las tres tareas y una unidad organizativa de Contoso Estados Unidos, la unidad organizativa contratante del proyecto.   
  
 El cambio del valor predeterminado de las diferentes unidades organizativas de recursos en los miembros del equipo no generados es la razón por la que recomendamos que genere o vuelva a generar el equipo en cada proyecto que contenga recursos genéricos antes de la actualización de manera que las asignaciones de unidades organizativas no se pierdan.
 
