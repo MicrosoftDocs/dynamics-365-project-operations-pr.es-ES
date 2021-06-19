@@ -2,8 +2,6 @@
 title: Ver uso de los recursos
 description: Cómo ver la utilización de recursos en Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,31 +16,31 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8024d99441136e4ca28caf5bf4c81743e3a4dc71
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 06d6807d63207a0dedbc98b6bd7a874a684bd5ac
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281319"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002572"
 ---
-# <a name="view-resource-utilization-project-service"></a><span data-ttu-id="36d2a-103">Ver la utilización de recursos (Project Service)</span><span class="sxs-lookup"><span data-stu-id="36d2a-103">View resource utilization (Project Service)</span></span>
+# <a name="view-resource-utilization-project-service"></a><span data-ttu-id="1444a-103">Ver la utilización de recursos (Project Service)</span><span class="sxs-lookup"><span data-stu-id="1444a-103">View resource utilization (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="36d2a-104">Puede comprobar el uso de recursos para determinar los niveles de uso de los recursos y ayudar a tomar decisiones sobre cómo aprovechar al máximo el tiempo de los recursos.</span><span class="sxs-lookup"><span data-stu-id="36d2a-104">You can check resource utilization to determine utilization levels for your resources and help you make decisions about how to fully take advantage of your resources’ time.</span></span>  
+<span data-ttu-id="1444a-104">Puede comprobar el uso de recursos para determinar los niveles de uso de los recursos y ayudar a tomar decisiones sobre cómo aprovechar al máximo el tiempo de los recursos.</span><span class="sxs-lookup"><span data-stu-id="1444a-104">You can check resource utilization to determine utilization levels for your resources and help you make decisions about how to fully take advantage of your resources’ time.</span></span>  
   
-1. <span data-ttu-id="36d2a-105">Vaya a **Project Service > Uso de recursos**.</span><span class="sxs-lookup"><span data-stu-id="36d2a-105">Go to **Project Service > Resource Utilization**.</span></span> 
+1. <span data-ttu-id="1444a-105">Vaya a **Project Service > Uso de recursos**.</span><span class="sxs-lookup"><span data-stu-id="1444a-105">Go to **Project Service > Resource Utilization**.</span></span> 
 
-     <span data-ttu-id="36d2a-106">Esto muestra una vista de calendario de todos los recursos y su disponibilidad.</span><span class="sxs-lookup"><span data-stu-id="36d2a-106">This shows a calendar view of all resources and their availability.</span></span> <span data-ttu-id="36d2a-107">Seleccione una vista o un criterio de ordenación en la parte superior de la pantalla.</span><span class="sxs-lookup"><span data-stu-id="36d2a-107">Select a view or sort order from the top of the screen.</span></span> <span data-ttu-id="36d2a-108">También puede seleccionar si mostrar la disponibilidad para **Día**, **Semana**, **Mes** y usar las flechas para ver el período de tiempo anterior o siguiente.</span><span class="sxs-lookup"><span data-stu-id="36d2a-108">You can also select whether to show availability for the **Day**, **Week**, or **Month**, and use the arrows to view the previous or next time period.</span></span> <span data-ttu-id="36d2a-109">Use el cuadro de búsqueda para encontrar un recurso específico.</span><span class="sxs-lookup"><span data-stu-id="36d2a-109">Use the search box to find a specific resource.</span></span>      
+     <span data-ttu-id="1444a-106">Esto muestra una vista de calendario de todos los recursos y su disponibilidad.</span><span class="sxs-lookup"><span data-stu-id="1444a-106">This shows a calendar view of all resources and their availability.</span></span> <span data-ttu-id="1444a-107">Seleccione una vista o un criterio de ordenación en la parte superior de la pantalla.</span><span class="sxs-lookup"><span data-stu-id="1444a-107">Select a view or sort order from the top of the screen.</span></span> <span data-ttu-id="1444a-108">También puede seleccionar si mostrar la disponibilidad para **Día**, **Semana**, **Mes** y usar las flechas para ver el período de tiempo anterior o siguiente.</span><span class="sxs-lookup"><span data-stu-id="1444a-108">You can also select whether to show availability for the **Day**, **Week**, or **Month**, and use the arrows to view the previous or next time period.</span></span> <span data-ttu-id="1444a-109">Use el cuadro de búsqueda para encontrar un recurso específico.</span><span class="sxs-lookup"><span data-stu-id="1444a-109">Use the search box to find a specific resource.</span></span>      
   
-2. <span data-ttu-id="36d2a-110">Haga clic en **Opciones** para cambiar qué se muestra.</span><span class="sxs-lookup"><span data-stu-id="36d2a-110">Click **Options** to change what displays.</span></span> <span data-ttu-id="36d2a-111">Por ejemplo, puede mostrar una leyenda que muestre la combinación de colores para distintos tipos de reservaciones, o bien puede elegir mostrar sólo un tipo determinado de reserva (por ejemplo, reserva manual o reserva automática).</span><span class="sxs-lookup"><span data-stu-id="36d2a-111">For example, you can show a legend that shows the color scheme for the different types of bookings, or you can choose to show only a certain type of booking (for example, hard booking or soft booking).</span></span>  
+2. <span data-ttu-id="1444a-110">Haga clic en **Opciones** para cambiar qué se muestra.</span><span class="sxs-lookup"><span data-stu-id="1444a-110">Click **Options** to change what displays.</span></span> <span data-ttu-id="1444a-111">Por ejemplo, puede mostrar una leyenda que muestre la combinación de colores para distintos tipos de reservaciones, o bien puede elegir mostrar sólo un tipo determinado de reserva (por ejemplo, reserva manual o reserva automática).</span><span class="sxs-lookup"><span data-stu-id="1444a-111">For example, you can show a legend that shows the color scheme for the different types of bookings, or you can choose to show only a certain type of booking (for example, hard booking or soft booking).</span></span>  
 
-3. <span data-ttu-id="36d2a-112">Haga clic en **Filtrar** para mostrar el panel **Filtrar**, que permite filtrar los resultados por unidad organizativa, rol, habilidad, u otros atributos.</span><span class="sxs-lookup"><span data-stu-id="36d2a-112">Click **Filter** to display the **Filter** pane, which lets you filter your results by organizational unit, role, skill, or other attributes.</span></span>  
+3. <span data-ttu-id="1444a-112">Haga clic en **Filtrar** para mostrar el panel **Filtrar**, que permite filtrar los resultados por unidad organizativa, rol, habilidad, u otros atributos.</span><span class="sxs-lookup"><span data-stu-id="1444a-112">Click **Filter** to display the **Filter** pane, which lets you filter your results by organizational unit, role, skill, or other attributes.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="36d2a-113">Vea también</span><span class="sxs-lookup"><span data-stu-id="36d2a-113">See Also</span></span>  
- [<span data-ttu-id="36d2a-114">Guía del administrador de recursos</span><span class="sxs-lookup"><span data-stu-id="36d2a-114">Resource Manager Guide</span></span>](../psa/resource-manager-guide.md)
+### <a name="see-also"></a><span data-ttu-id="1444a-113">Vea también</span><span class="sxs-lookup"><span data-stu-id="1444a-113">See Also</span></span>  
+ [<span data-ttu-id="1444a-114">Guía del administrador de recursos</span><span class="sxs-lookup"><span data-stu-id="1444a-114">Resource Manager Guide</span></span>](../psa/resource-manager-guide.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
