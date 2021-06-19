@@ -2,11 +2,9 @@
 title: Crear un proyecto
 description: En este tema se proporciona información sobre cómo crear un proyecto nuevo.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270744"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006262"
 ---
 # <a name="create-a-new-project"></a>Crear un proyecto
 
@@ -55,7 +53,7 @@ Un jefe de proyecto puede utilizar la funcionalidad de dotación de recursos de 
 
 [![Ejemplo de un rol](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Escenario**: Contoso fue contratado para completar un proyecto de tiempo y material que tiene un estado de proyecto aprobado. El jefe de proyecto junior aún está completando el alcance del proyecto. El administrador de recursos actualmente está identificando recursos específicos que se reservarán para trabajar en el nuevo proyecto. Debido a la naturaleza crítica del proyecto, el patrocinador del proyecto solicitó jefe de proyecto senior como uno de los roles. El administrador de recursos debe adquirir el nuevo recurso y definir el rol en el sistema en caso de que el jefe de proyectos junior requiera la información de recursos durante la planificación del proyecto.
+**Escenario:** Contoso fue contratado para completar un proyecto de tiempo y material que tiene un estatuto de proyecto aprobado. El jefe de proyecto junior aún está completando el alcance del proyecto. El administrador de recursos actualmente está identificando recursos específicos que se reservarán para trabajar en el nuevo proyecto. Debido a la naturaleza crítica del proyecto, el patrocinador del proyecto solicitó jefe de proyecto senior como uno de los roles. El administrador de recursos debe adquirir el nuevo recurso y definir el rol en el sistema en caso de que el jefe de proyectos junior requiera la información de recursos durante la planificación del proyecto.
 
 Los siguientes pasos muestran cómo el administrador de recursos puede configurar el rol de jefe de proyectos senior y asociar características de recursos con él. Posteriormente, el rol se puede utilizar para buscar recursos disponibles que coincidan con las competencias de recursos requeridas.
 
