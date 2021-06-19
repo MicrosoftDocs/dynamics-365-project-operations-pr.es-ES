@@ -2,8 +2,6 @@
 title: Personalización de entrada de tiempo semanal
 description: En este tema se proporciona información sobre cómo implementar reglas de negocio personalizadas que respalden las prácticas de una organización.
 author: stsporen
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f1c8e150500334e87b25a1c8d04cf28c7b7beaeb
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c117e06e7a5c57c7f9b70d1380f450c0ea97cd12
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282084"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013057"
 ---
 # <a name="customize-weekly-time-entry"></a>Personalizar la entrada de tiempo semanal 
 
@@ -55,7 +53,7 @@ La sección Duración muestra los días de la semana como encabezados de columna
 ## <a name="create-a-new-time-entry"></a>Creación de una nueva entrada de tiempo
 Para crear una nueva entrada de tiempo en la cuadrícula de entrada de tiempo, seleccione **Nuevo**. Aparecerá el cuadro de diálogo **Creación rápida de entrada de tiempo**. En este cuadro de diálogo, los usuarios pueden seleccionar la fecha de entrada de tiempo y, a continuación, escribir los datos para las dimensiones **Proyecto**, **Tarea de proyecto**, **Rol** y **Duración** en minutos, horas, días o escribiendo, **h**, **m** o **d** junto con el número. Los usuarios también pueden introducir una descripción y comentarios que se pueden compartir externamente para la entrada de tiempo. Cuando los usuarios guardan sus cambios, los valores que introdujeron en las dimensiones aparecen en la sección **Dimensiones**. La información de duración que introdujeron en el campo **Duración** aparece en la fecha para la que se creó la entrada de tiempo.
 
-Los campos de búsqueda están respaldados por vistas del sistema. Por ejemplo, después de que un usuario introduzca un proyecto, el campo **Tarea de proyecto** se establece en la vista **Copiar** de forma predeterminada. Para crear entradas de tiempo para tareas que no están asignadas a un usuario, seleccione **Cambiar vista** en el cuadro de diálogo de búsqueda y, a continuación, seleccione la vista **Todas las tareas de proyecto activas**.
+Los campos de búsqueda tienen el respaldo de las vistas del sistema. Por ejemplo, después de que un usuario introduzca un proyecto, el campo **Tarea de proyecto** se establece en la vista **Copiar** de forma predeterminada. Para crear entradas de tiempo para tareas que no están asignadas a un usuario, seleccione **Cambiar vista** en el cuadro de diálogo de búsqueda y, a continuación, seleccione la vista **Todas las tareas de proyecto activas**.
 
 ## <a name="edit-a-time-entry"></a>Edición de una entrada de tiempo
 Los detalles de algunos campos en la página de entrada de hora, como **Descripción** y **Comentarios externos**, no se muestran en la cuadrícula de entrada de hora semanal. En cambio, aparece un pequeño indicador triangular en las celdas de duración que tienen estos detalles adicionales. Seleccione la celda y, a continuación, elija **Editar detalles** para ver los datos en el panel **Edición rápida**. Para editar o actualizar los detalles de una entrada de tiempo específica que no forma parte de la cuadrícula de entrada de tiempo semanal, los usuarios deben abrir el panel **Edición rápida**.
