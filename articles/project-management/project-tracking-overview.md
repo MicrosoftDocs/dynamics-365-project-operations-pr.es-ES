@@ -2,18 +2,16 @@
 title: Seguimiento del esfuerzo del proyecto
 description: En este tema se proporciona información sobre cómo realizar un seguimiento de esfuerzo en el progreso y el progreso del trabajo.
 author: ruhercul
-manager: AnnBe
 ms.date: 03/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: ead8821c8861ded1e7afd5c192af414f758edef9
-ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
+ms.openlocfilehash: 3fdf7787f0144dace84852a0442406085bdc1639
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "5710961"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010897"
 ---
 # <a name="project-effort-tracking"></a>Seguimiento del esfuerzo del proyecto
 
@@ -28,17 +26,17 @@ La vista **Seguimiento del esfuerzo** realiza un seguimiento del progreso de las
 - **Porcentaje de progreso**: Esfuerzo real realizado hasta la fecha ÷ Estimación al finalizar (EAF) 
 - **Esfuerzo restante**: Esfuerzo estimado al finalizar - Esfuerzo real invertido hasta la fecha 
 - **EAF**: Esfuerzo restante + Esfuerzo real realizado hasta la fecha 
-- **Variación del esfuerzo proyectado**: Esfuerzo planificado - EAF
+- **Desviación del esfuerzo proyectado**: Esfuerzo planificado - EAC
 
-Project Operations muestra una proyección de la variación del esfuerzo en la tarea. Si el EAF es superior al esfuerzo planificado, se prevé que la tarea tardará más tiempo del planificado originalmente y va por detrás de la programación. Si el EAF es inferior al esfuerzo planificado, se prevé que la tarea tardará menos tiempo del planificado originalmente y va adelantada a la programación.
+Project Operations muestra una proyección de la desviación del esfuerzo en la tarea. Si la EAC es superior al esfuerzo planificado, se proyecta que la tarea tardará más tiempo del planificado originalmente y está retrasada. Si el EAF es inferior al esfuerzo planificado, se prevé que la tarea tardará menos tiempo del planificado originalmente y va adelantada a la programación.
 
 ## <a name="reprojecting-effort-on-leaf-node-tasks"></a>Reproyección de esfuerzo en tareas de nodo hoja
 
-Es frecuente que los administradores de proyecto revisen las estimaciones originales de una tarea. Las reproyecciones de proyectos son la percepción de las estimaciones de un administrador de proyecto según estado actual de un proyecto. Sin embargo, no recomendamos que los directores de proyectos cambien las cifras de esfuerzo planificado. Esto se debe a que el esfuerzo planificado del proyecto representa el origen de la verdad establecido para la estimación de costes y el programa del proyecto y las partes interesadas del proyecto han dado su acuerdo.
+Es frecuente que los administradores de proyecto revisen las estimaciones originales de una tarea. Las reproyecciones de proyectos son la percepción que tiene un jefe de proyecto de las estimaciones, dado el estado actual de un proyecto. Sin embargo, no recomendamos que los directores de proyectos cambien las cifras de esfuerzo planificado. Esto se debe a que el esfuerzo planificado del proyecto representa el origen de la verdad establecido para la estimación de costes y el programa del proyecto y las partes interesadas del proyecto han dado su acuerdo.
 
-Un director de proyectos puede reproyectar el esfuerzo en las tareas actualizando el valor predeterminado de **Esfuerzo distante** con una nueva estimación de la tarea. Esta actualización provoca un nuevo cálculo de la estimación de la tarea al finalizar (EEF), el porcentaje de progreso y la variación del esfuerzo proyectado en una tarea. El EAF, ETC y el porcentaje de progreso en las tareas de resumen también se recalculan y producen una nueva proyección de la variación del esfuerzo.
+Un director de proyectos puede reproyectar el esfuerzo en las tareas actualizando el valor predeterminado de **Esfuerzo distante** con una nueva estimación de la tarea. Esta actualización provoca un nuevo cálculo de la estimación de la tarea al finalizar (EEF), el porcentaje de progreso y la variación del esfuerzo proyectado en una tarea. La EAC, la ETC y el porcentaje de progreso en las tareas de resumen también se recalculan y producen una nueva proyección de la desviación del esfuerzo.
 
-## <a name="reprojection-of-effort-on-summary-tasks"></a>Reproyección de esfuerzo en tareas de resumen
+## <a name="reprojection-of-effort-on-summary-tasks"></a>Reproyección del esfuerzo en tareas de resumen
 
 El esfuerzo en tareas de resumen o tareas de contenedor se puede reproyectar. Los directores de proyecto pueden actualizar el esfuerzo restante en las tareas de resumen. La actualización del esfuerzo restante desencadena el siguiente conjunto de cálculos en la aplicación:
 
@@ -57,7 +55,7 @@ Los datos de seguimiento en las vistas **Seguimiento del esfuerzo** y **Seguimie
 
 El campo **Estado general del proyecto** es un campo editable que muestra el estado general del proyecto. Utiliza códigos de colores, como verde, amarillo y rojo, para indicar un riesgo creciente. El campo **Comentarios** permite al jefe de proyecto introducir comentarios específicos sobre el estado. El campo **Última actualización del estado el** no es editable y el valor es una marca de tiempo que indica cuándo se actualizó por última vez.
 
-Los campos **Rendimiento de programación** y **Rendimiento de coste** se establecen desde la fecha de seguimiento. Cuando la programación y la variación de costes para el nodo raíz en la vista **Seguimiento del esfuerzo** son positivas, puede establecer estos campos en **Adelantado**. Cuando la programación y la variación de coste para el nodo raíz sean negativas, puede establecerlas en **Retrasado**.
+Los campos **Rendimiento de programación** y **Rendimiento de coste** se establecen desde la fecha de seguimiento. Cuando la programación y la variación de costes para el nodo raíz en la vista **Seguimiento del esfuerzo** son positivas, puede establecer estos campos en **Adelantado**. Cuando la programación y la desviación de coste para el nodo raíz son negativos, puede establecerlos en **Retrasado**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

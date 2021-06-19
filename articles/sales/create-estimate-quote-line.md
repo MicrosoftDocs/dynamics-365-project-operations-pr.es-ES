@@ -2,11 +2,9 @@
 title: Crear estimaciones sobre una línea de oferta
 description: En este tema se proporciona información sobre cómo crear una estimación en una línea de presupuesto para un proyecto.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d525bd86621178761346221306dfc83e13e720d2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f4010f7599b66c9ad9e49943c1c0d7d165493d60
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278484"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010312"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Crear estimaciones sobre una línea de oferta
 
@@ -38,15 +36,15 @@ Además de clases de transacciones, los detalles de línea de oferta tienen un t
 
 Si utilizó una oferta de Project Operations cuando creó un contrato basado en proyecto, la estimación que hizo para cada línea de oferta de la oferta se copiará al contrato de proyecto. La estructura de un contrato de proyecto es como la estructura de la oferta del proyecto que tiene líneas, detalles de línea y programaciones de factura.
 
-Las estimaciones se pueden realizar directamente en un contrato de proyecto como en una oferta de proyecto. Para una oferta del proyecto, la estimación se realiza mediante líneas de contrato y detalles de línea de contrato. Los detalles de línea de contrato también se pueden generar a partir de un plan de proyecto que se creó utilizando el enfoque de estimación de abajo a arriba.
+Las estimaciones se pueden realizar directamente en un contrato de proyecto como en una oferta de proyecto. Para una oferta del proyecto, la estimación se realiza mediante líneas de contrato y detalles de línea de contrato. Los detalles de líneas de contrato también se pueden generar a partir de un plan de proyecto que se haya creado utilizando el enfoque de estimación ascendente.
 
-Los detalles de línea de contrato se pueden usar para estimar el tiempo, los gastos o las cuotas. Los importes de impuestos estimados también se pueden introducir en un detalle de línea de contrato.
+Los detalles de línea de contrato se pueden utilizar para estimar el tiempo, los gastos o las tarifas. Los importes de impuestos estimados también se pueden introducir en un detalle de línea de contrato.
 
-No se permite estimaciones de materiales en los detalles de línea de contrato.
+No se permiten estimaciones de material en los detalles de línea de contrato.
 
 Los procesos que se admiten en un contrato de proyecto son la confirmación y la creación de factura. La creación de factura crea un borrador de una factura basada en proyecto que incluye todos los datos reales de ventas sin facturar hasta la fecha actual.
 
-Confirmación hace que el contrato sea de solo lectura y cambia su estado de **Borrador** a **Confirmado**. Tras realizar esta acción, no se puede deshacer. Como esta acción es permanente, se recomienda, como práctica recomendada, conservar el contrato con el estado **Borrador**.
+La confirmación hace que el contrato sea de solo lectura y cambia su estado de **Borrador** a **Confirmado**. Tras realizar esta acción, no se puede deshacer. Como esta acción es permanente, se recomienda, como práctica recomendada, conservar el contrato con el estado **Borrador**.
 
 Las únicas diferencias entre los contratos borrador y confirmados son los estados y el hecho de que los contratos borrador se pueden editar, mientras que los contratos confirmados no. La creación de facturas y el seguimiento de datos reales se puede realizar tanto en contratos borrador como en contratos confirmados.
 
@@ -56,7 +54,7 @@ No se permite cambiar pedidos en contratos o proyectos.
 
 Puede estimar el tiempo y los gastos de los proyectos, pero no materiales ni cuotas.
 
-Las estimaciones de tiempo se generan cuando se crea una tarea y se identifican los atributos de un recurso genérico necesario para realizar la tarea. Las estimaciones de tiempo se generan a partir de tareas de programación. Las estimaciones de tiempo no se generan si crea los miembros del equipo genéricos fuera del contexto de la programación.
+Las estimaciones de tiempo se generan cuando se crea una tarea y se identifican los atributos de un recurso genérico necesario para realizar la tarea. Las estimaciones de tiempo se generan a partir de tareas programadas. Las estimaciones de tiempo no se crean si crea miembros de equipo genéricos fuera del contexto de la programación.
 
 Las estimaciones de gastos se introducen en la cuadrícula de la página **Estimaciones**.
 

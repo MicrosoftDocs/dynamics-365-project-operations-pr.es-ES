@@ -2,18 +2,16 @@
 title: Crear un programa de factura en una línea de contrato basada en un proyecto
 description: Este tema proporciona información sobre cómo crear programaciones e hitos de facturas en líneas de contrato.
 author: rumant
-manager: Annbe
 ms.date: 10/17/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b0da3b3f8f14ecf9a4c4f057cd26c0ca9eb5ec2f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3f84d9935eec13666e3eaaa675908e9bc3d2097c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278259"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010132"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Crear un programa de factura en una línea de contrato basada en un proyecto 
 
@@ -21,15 +19,15 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no en e
 
 Puede crear un programa de factura a una línea de contrato basada en un proyecto. La facturación solo se permite después de que se gana el contrato y usted está creando un contrato de proyecto. Un programa de facturas permite crear automáticamente borradores de facturas para una línea de contrato basada en proyecto. Sin embargo, si solo crea facturas manualmente, puede omitir la creación de programas de facturas en las líneas de contrato.
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-contract-line"></a>Cree una programación de facturación de tiempo y material para una línea de contrato
+## <a name="create-a-time-and-material-invoice-schedule-for-a-contract-line"></a>Crear una programación de facturación de tiempo y material para una línea de contrato
 
-Cuando una línea de contrato basada en un en proyecto tiene un método de facturación basado en tiempo y materiales, puede crear un calendario de facturación basado en la fecha. Para generar automáticamente un programa de facturación basado en fecha, complete los siguientes pasos.
+Cuando una línea de contrato basada en un proyecto tiene un método de facturación de tiempo y material, puede crear una programación de facturas basada en la fecha. Para generar automáticamente un programa de facturación basado en fecha, complete los siguientes pasos.
 
 1. Vaya a **Configuración** > **Frecuencias de facturación** y configure una frecuencia de facturación.
 2. Vaya al registro del contrato del proyecto y en la pestaña **Resumen**, en el campo **Fecha de entrega requerida**, seleccione una fecha.
-3. Abra la línea de contrato **Tiempo y material** para la que está creando el programa de facturación basado en fecha. 
-4. En la pestaña **Programación de facturas**, seleccione la fecha de inicio de facturación y la frecuencia de la facturación.
-5. En la subcuadrícula, seleccione **Generación de programa de facturas**. La programación de facturas se genera con los campos **Fecha de emisión de la factura**, **Fecha de cierre de la transacción** y **Estado de ejecución** de la siguiente manera:
+3. Abra la línea de contrato **Tiempo y material** para la que prepara la programación de facturas basada en la fecha. 
+4. En la pestaña **Programación de facturas**, seleccione la fecha de inicio de facturación y la frecuencia de facturación.
+5. En la subcuadrícula, seleccione **Generar programación de facturas**. La programación de facturas se genera con los campos **Fecha de emisión de la factura**, **Fecha de cierre de la transacción** y **Estado de ejecución** de la siguiente manera:
 
     - **Fecha de emisión de la factura**: esta fecha se establece según la frecuencia de facturación.
     - **Fecha de cierre de la transacción**: el día anterior a la fecha de ejecución de la factura.
@@ -46,7 +44,7 @@ Complete los siguientes pasos para generar un programa de facturación basado en
 
 1. Vaya a **Configuración** > **Frecuencias de facturación** y configure una frecuencia de facturación.
 2. Vaya al registro del contrato del proyecto y en la pestaña **Resumen**, en el campo **Fecha de entrega requerida**, seleccione una fecha.
-3. Abra la línea de contrato **Precio fijo** que esta creando para el programa de hitos. En la pestaña **Facturación de hitos**, seleccione la fecha de inicio de facturación y la frecuencia de la facturación. 
+3. Abra la línea de contrato **Precio fijo** para la que está creando la programación de hitos. En la pestaña **Hitos de facturación**, seleccione la fecha de inicio de facturación y la frecuencia de facturación. 
 4. En la subcuadrícula, seleccione **Generar hitos periódicos**. La programación de la factura se genera con los campos **Nombre del hito**, **Fecha del hito** e **Importe del hito** campos configurados de la siguiente manera:
 
     - **Nombre del hito**: este nombre viene impuesto por la frecuencia de factura.

@@ -2,18 +2,16 @@
 title: Crear ofertas de proyectos a partir de oportunidades
 description: En este tema se proporciona información sobre la creación de ofertas de proyecto desde una oportunidad.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f0327a2823490081b3718caf6530461dadf20bf4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d678fce7a6b52522500a77daecc46353ff17fbf2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278214"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009817"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Crear ofertas de proyectos a partir de oportunidades
 

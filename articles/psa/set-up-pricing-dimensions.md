@@ -2,12 +2,10 @@
 title: Configurar campos personalizados como dimensiones de precios
 description: En este tema se proporciona información sobre cómo configurar dimensiones de precios personalizadas.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 81f926e0aa209dd83f9b850c2342bd35a4f236c3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282489"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008332"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Configurar campos personalizados como dimensiones de precios 
 
@@ -75,7 +73,7 @@ Existen dos tipos de dimensiones de precios:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|In situ            |                    |Horas extra                 |15     |
 |             | Contoso India|Local             |                    |Horas extra                 |10     |
-|             | Contoso US   |Local             |                    |Horas extra                 |20     |
+|             | Contoso EE. UU.   |Local             |                    |Horas extra                 |20     |
 
 
 Si un recurso de Contoso India cuya tasa base es de 100 USD está funcionando in situ, y registran 8 horas de tiempo regular y 2 horas extra en la entrada de tiempo, el motor de precios de Project Service usará la tasa base de 100 para las 8 horas para registrar 800 USD. Para las 2 horas extra, se aplicará un incremento del 15 % a la tasa base de 100 para obtener un precio unitario de 115 USD y se registrará un coste total de 230 USD.

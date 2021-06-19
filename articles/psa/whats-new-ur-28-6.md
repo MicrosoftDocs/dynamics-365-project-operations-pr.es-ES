@@ -2,8 +2,6 @@
 title: Novedades o cambios en la versión de actualización 28.6, revisión V3, de Project Service Automation
 description: En este tema se muestran las características y correcciones disponibles en Project Service Automation, versión de actualización 28.6, revisión V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/22/2021
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9f6eba5e50f167ef96268c7c99798e248b48ff0f
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 09111967b61bde476b1ad45f3f2a532adf13b5bb
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948639"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010582"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-286-v3"></a>Novedades o cambios en la versión de actualización 28.6, V3, de Project Service Automation
 
