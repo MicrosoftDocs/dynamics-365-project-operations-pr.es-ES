@@ -2,8 +2,6 @@
 title: Guía del administrador de recursos
 description: En este tema se proporcionan vínculos a información sobre la administración de recursos en Project Service Automation.
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,32 +16,32 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: da7371a050ae6962d7081ff7bd28e2c3ae6f623a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f4c320e666696d3ff065a4431790d39c4f4e549b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275154"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007342"
 ---
-# <a name="resource-management-guide"></a><span data-ttu-id="d7d39-103">Guía del administrador de recursos</span><span class="sxs-lookup"><span data-stu-id="d7d39-103">Resource management guide</span></span>
+# <a name="resource-management-guide"></a><span data-ttu-id="56f9c-103">Guía del administrador de recursos</span><span class="sxs-lookup"><span data-stu-id="56f9c-103">Resource management guide</span></span>
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="d7d39-104">El vínculo al archivo PDF que se proporcionaba antes en este tema se ha quitado y se ha movido el contenido a los temas siguientes:</span><span class="sxs-lookup"><span data-stu-id="d7d39-104">The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:</span></span>
+<span data-ttu-id="56f9c-104">El vínculo al archivo PDF que se proporcionaba antes en este tema se ha quitado y se ha movido el contenido a los temas siguientes:</span><span class="sxs-lookup"><span data-stu-id="56f9c-104">The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:</span></span>
 
-- [<span data-ttu-id="d7d39-105">Página principal de administración de recursos</span><span class="sxs-lookup"><span data-stu-id="d7d39-105">Resource management home page</span></span>](../resource-management-home-page.md)
-- [<span data-ttu-id="d7d39-106">Conceptos clave</span><span class="sxs-lookup"><span data-stu-id="d7d39-106">Key concepts</span></span>](../reports-key-concepts.md)
-- [<span data-ttu-id="d7d39-107">Cumplimiento de solicitudes de recursos</span><span class="sxs-lookup"><span data-stu-id="d7d39-107">Fulfilling resource requests</span></span>](../resource-management-fulfill-requests.md)
-- [<span data-ttu-id="d7d39-108">Propuesta de recursos</span><span class="sxs-lookup"><span data-stu-id="d7d39-108">Proposing resources</span></span>](../resource-management-propose-resources.md)
-- [<span data-ttu-id="d7d39-109">Reserva de recursos</span><span class="sxs-lookup"><span data-stu-id="d7d39-109">Booking resources</span></span>](../resource-management-book-resources-scheduleboard.md)
-- [<span data-ttu-id="d7d39-110">Requisitos de reservas automáticas</span><span class="sxs-lookup"><span data-stu-id="d7d39-110">Soft-book requirements</span></span>](../resource-management-softbook-requirements.md)
-- [<span data-ttu-id="d7d39-111">Modelos de habilidades y competencia</span><span class="sxs-lookup"><span data-stu-id="d7d39-111">Skills and proficiency models</span></span>](../resource-management-skills-proficiency.md)
-- [<span data-ttu-id="d7d39-112">P+F de administración de recursos</span><span class="sxs-lookup"><span data-stu-id="d7d39-112">Resource management FAQ</span></span>](../resource-management-faq.md)
+- [<span data-ttu-id="56f9c-105">Página principal de administración de recursos</span><span class="sxs-lookup"><span data-stu-id="56f9c-105">Resource management home page</span></span>](../resource-management-home-page.md)
+- [<span data-ttu-id="56f9c-106">Conceptos clave</span><span class="sxs-lookup"><span data-stu-id="56f9c-106">Key concepts</span></span>](../reports-key-concepts.md)
+- [<span data-ttu-id="56f9c-107">Cumplimiento de solicitudes de recursos</span><span class="sxs-lookup"><span data-stu-id="56f9c-107">Fulfilling resource requests</span></span>](../resource-management-fulfill-requests.md)
+- [<span data-ttu-id="56f9c-108">Propuesta de recursos</span><span class="sxs-lookup"><span data-stu-id="56f9c-108">Proposing resources</span></span>](../resource-management-propose-resources.md)
+- [<span data-ttu-id="56f9c-109">Reserva de recursos</span><span class="sxs-lookup"><span data-stu-id="56f9c-109">Booking resources</span></span>](../resource-management-book-resources-scheduleboard.md)
+- [<span data-ttu-id="56f9c-110">Requisitos de reservas automáticas</span><span class="sxs-lookup"><span data-stu-id="56f9c-110">Soft-book requirements</span></span>](../resource-management-softbook-requirements.md)
+- [<span data-ttu-id="56f9c-111">Modelos de habilidades y competencia</span><span class="sxs-lookup"><span data-stu-id="56f9c-111">Skills and proficiency models</span></span>](../resource-management-skills-proficiency.md)
+- [<span data-ttu-id="56f9c-112">P+F de administración de recursos</span><span class="sxs-lookup"><span data-stu-id="56f9c-112">Resource management FAQ</span></span>](../resource-management-faq.md)
 
 > [!NOTE]
-> <span data-ttu-id="d7d39-113">Este tema se quitará en una próxima actualización de la documentación.</span><span class="sxs-lookup"><span data-stu-id="d7d39-113">This topic will be removed in a future documentation update.</span></span> 
+> <span data-ttu-id="56f9c-113">Este tema se quitará en una próxima actualización de la documentación.</span><span class="sxs-lookup"><span data-stu-id="56f9c-113">This topic will be removed in a future documentation update.</span></span> 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
