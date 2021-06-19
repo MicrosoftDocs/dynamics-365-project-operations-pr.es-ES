@@ -2,18 +2,16 @@
 title: Entrada de gastos (simplificados)
 description: Este tema proporciona información sobre cómo trabajar con la entrada de gastos en una implementación simplificada.
 author: stsporen
-manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 539d0ba6be6f49a6f0509595a0776ef67135496d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e75a61c25be06a9db121e8165e8ccd25d4719d08
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276774"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002212"
 ---
 # <a name="expense-entry-lite"></a>Entrada de gastos (simplificados)
 
@@ -34,7 +32,7 @@ Puede capturar sus gastos para enviarlos al aprobador.
 
 Una vez que haya terminado de capturar todos sus gastos y esté listo para que se aprueben, debe enviarlos.
 
-1. Vaya a **Gastos** y seleccione un gasto. O bien, seleccione todos los gastos usando la casilla de verificación del encabezado.
+1. Vaya a **Gastos** y seleccione un gasto. O bien, seleccione todos los gastos usando la casilla del encabezado.
 2. Seleccione **Enviar**. El sistema procesa las entradas seleccionadas y luego crea solicitudes de aprobación de gastos.
 
 ## <a name="add-an-attachment"></a>Agregar datos adjuntos
@@ -43,10 +41,10 @@ Es posible que deba proporcionar al aprobador documentación adicional acerca de
 
 ## <a name="recall-a-basic-expense"></a>Recuperar un gasto básico
 
-Cuando envía un gasto por error, puede recuperarlo. El tiempo necesario para recuperar una entrada de gastos depende de su etapa de aprobación.  Si el aprobador aún no ha aprobado la entrada, la recuperación puede ocurrir de inmediato. Sin embargo, si la entrada ya se ha aprobado, se le pide al aprobador que apruebe la recuperación y revierta las transacciones.
+Cuando envía un gasto por error, puede recuperarlo. El tiempo necesario para recuperar una entrada de gasto depende de la fase de aprobación en que se encuentre.  Si el aprobador todavía no ha aprobado la entrada, la recuperación puede ser inmediata. Sin embargo, si ya se ha aprobado la entrada, hay que pedir al aprobador que apruebe la recuperación y revierta las transacciones.
 
-1. Vaya a **Gastos** y luego, en la lista de gastos, seleccione el gasto que desea recuperar.
-2. Seleccione **Recuperar**. Si la entrada de gastos aún no se ha aprobado, el sistema la recupera inmediatamente. Si la entrada de gastos ya se aprobó, se crea una solicitud de recuperación para notificar al aprobador que desea revertir el gasto. El aprobador luego confirmará que se puede realizar la reversión y se devolverá la entrada.
+1. Vaya a **Gastos** y, en la lista de gastos, seleccione el gasto que quiera recuperar.
+2. Seleccione **Recuperar**. Si todavía no se ha aprobado la entrada de gasto, el sistema la recuperará de inmediato. Si, por el contrario, la entrada de gasto ya se ha aprobado, se crea una solicitud de recuperación para notificar al aprobador que usted quiere revertir el gasto. El aprobador luego confirmará que se puede realizar la reversión y se devolverá la entrada.
 
 ## <a name="delete-a-basic-expense"></a>Eliminar un gasto básico
 

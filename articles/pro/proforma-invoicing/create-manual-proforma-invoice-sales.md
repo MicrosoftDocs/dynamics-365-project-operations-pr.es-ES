@@ -2,19 +2,17 @@
 title: Facturas de proyecto proforma
 description: Este tema proporciona información sobre las facturas proforma del proyecto en Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 04/06/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d08e2b0422a991aa4c98ae5d1e0f60aa0eb9daa6
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 1b839c3e40ddcfe1f07b0330a78c42851140d4bf
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867197"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004057"
 ---
 # <a name="proforma-project-pnvoices"></a>Facturas de proyecto proforma
 
@@ -45,7 +43,7 @@ En la página lista **Contratos de proyecto**, podrá crear facturas de proyecto
 Para crear facturas de forma masiva:
 
 1. En la página de lista **Contratos de proyecto**, seleccione uno o varios contratos de proyecto para crear una factura y después seleccione **Crear facturas de proyecto**.
-2. Un mensaje de advertencia le informará de que es posible que haya un retraso antes de que se creen las facturas. También se muestra el proceso. Seleccione **Aceptar** para cerrar el cuadro del mensaje.
+2. Un mensaje de advertencia le indicará que puede haber una demora antes de que se creen las facturas. También se muestra el proceso. Seleccione **Aceptar** para cerrar el cuadro de mensaje.
 
    El sistema genera una factura para todas las transacciones de una línea de contrato con el estado **Listo para facturar**. Estas transacciones incluyen tiempo, gastos, materiales, hitos, líneas de contrato basadas en productos y otras líneas del diario de ventas no facturadas que pueden haber sido confirmadas.
 
@@ -64,16 +62,16 @@ Siga estos pasos para configurar la ejecución automática de facturas.
     - ProcessRunner
     - UpdateRoleUtilization
 
-5. Seleccione **ProcessRunCaller** y después seleccione **Agregar**.
-6. En el siguiente cuadro de diálogo, seleccione **Aceptar**. El flujo de trabajo **Reposo** va seguido de un flujo de trabajo **Proceso**.
+5. Seleccione **ProcessRunCaller** y luego elija **Agregar**.
+6. En el siguiente cuadro de diálogo, seleccione **Aceptar**. Al flujo de trabajo **Suspensión** le sigue el flujo de trabajo **Proceso**.
 
     También puede seleccionar **ProcessRunner** en el paso 5. A continuación, cuando se selecciona **Aceptar**, el flujo de trabajo **Proceso** va seguido del flujo de trabajo **Reposo**.
 
 Los flujos de trabajo **ProcessRunCaller** y **ProcessRunner** crean facturas. **ProcessRunCaller** llama a **ProcessRunner**. **ProcessRunner** es el flujo de trabajo que crea las facturas. Este flujo de trabajo pasa por todas las líneas de contrato para las que se deben crear facturas y crea las facturas. Para determinar las líneas de contrato para las que se deben crear facturas, el flujo de trabajo busca fechas de ejecución de facturas para las líneas de contrato. Si hay líneas de contrato que pertenecen a un contrato que tiene la misma fecha de ejecución de factura, las transacciones se combinarán en una factura con dos líneas de factura. Si no hay transacciones para crear facturas, no se crean facturas.
 
-Cuando finaliza la ejecución de **ProcessRunner**, se llama al flujo de trabajo **ProcessRunCaller**, que proporciona la hora de finalización y después se cierra. A continuación, **ProcessRunCaller** pone en marcha un temporizador que se ejecuta durante 24 horas desde la hora de finalización especificada. Cuando se agota el tiempo del temporizador, el flujo de trabajo **ProcessRunCaller** se cierra.
+Cuando finaliza la ejecución de **ProcessRunner**, se llama al flujo de trabajo **ProcessRunCaller**, que proporciona la hora de finalización y después se cierra. **ProcessRunCaller**, a su vez, inicia un temporizador que se ejecuta durante 24 horas a partir de la hora de finalización especificada. Cuando el temporizador marque el final, **ProcessRunCaller** se cerrará.
 
-El trabajo del proceso por lotes para la creación de facturas es un trabajo recurrente. Si este proceso por lotes se ejecuta muchas veces, se crean varias instancias del trabajo y pueden producirse errores. Para solucionar este problema, inicie el proceso por lotes solo una vez y reinícielo solo si se detiene su ejecución.
+El trabajo de proceso por lotes de creación de facturas es periódico. Si este proceso por lotes se ejecuta muchas veces, se crean varias instancias del trabajo y pueden producirse errores. Para solucionar este problema, inicie el proceso por lotes solo una vez y reinícielo solo si se detiene su ejecución.
 
 > [!NOTE]
 > La facturación por lotes solo se ejecuta para las líneas de contrato del proyecto que se configuran mediante programas de facturación. Una línea de contrato con un método de facturación de precio fijo debe tener hitos configurados. Una línea de contrato de proyecto con un método de facturación de tiempo y material necesitará una programación de facturación basada en fecha. Lo mismo se aplica a una línea de contrato basada en proyectos.      

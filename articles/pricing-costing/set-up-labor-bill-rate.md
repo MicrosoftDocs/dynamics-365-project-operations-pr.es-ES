@@ -2,18 +2,16 @@
 title: Configurar tarifas de facturas laborales
 description: Este tema proporciona información sobre cómo configurar tarifas de facturación de la mano de obra en Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 04/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f0267fce673bbd0080022a8abf2dd0020cc8b662
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: 7d2dd7b6001ddb475d381d35a4863dcc4b322214
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877421"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004687"
 ---
 # <a name="set-up-labor-bill-rates"></a>Configurar tarifas de facturas de mano de obra
 

@@ -2,27 +2,25 @@
 title: Información general de líneas de contrato basadas en proyectos
 description: En este tema se proporciona información sobre el trabajo con líneas de contrato basadas en proyecto.
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 824fdd54d7b513b49afd1a6d76d3387df81418e2
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: 8af32b0475650db9c5862ea23d185588a631ade6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858179"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003157"
 ---
 # <a name="project-based-contract-lines-overview"></a>Información general de líneas de contrato basadas en proyectos
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Las líneas de contrato basadas en proyectos en Dynamics 365 Project Operations están diseñadas para contener los acuerdos de estimación y facturación para componentes específicos del trabajo del proyecto en un compromiso. La estructura de una línea de contrato basada en proyectos se amplía para estimaciones de proyectos y escenarios de facturación con los siguientes conceptos:
+Las líneas de contrato basadas en proyectos en Dynamics 365 Project Operations están diseñadas para contener los acuerdos de estimación y facturación para componentes específicos del trabajo del proyecto en un compromiso. La estructura de una línea de contrato basada en un proyecto se extiende para los escenarios de estimaciones y facturación de proyectos con los siguientes conceptos:
 
 - Método de facturación
-- Asignación de proyectos y tareas
+- Asignación de proyecto y tareas
 - Clases de transacciones incluidas
 - Límite a no exceder
 - Configuración de imputabilidad

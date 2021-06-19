@@ -2,18 +2,16 @@
 title: Conformar un contrato de proyecto
 description: Este tema proporciona información sobre confirmar un contrato en Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d807d3631f40a93ec7dbd918b64c287fd4875c79
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b5eabcad028a8282f552f3571b170d9b933a7b88
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273849"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003697"
 ---
 # <a name="confirm-a-project-contract"></a>Conformar un contrato de proyecto
 
@@ -21,9 +19,9 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no mant
 
 Un contrato de proyecto en Dynamics 365 Project Operations puede estar activo con una razón de **Confirmado**, o cerrado con un motivo de **Perdido**. Cuando confirma un contrato de proyecto, el estado se actualiza desde **Borrador** a **Activo** y la razón para el estado es **Confirmado**. Un contrato activo o cerrado no se puede editar ni volver a abrir. 
 
-### <a name="financial-impact-of-confirming-a-project-contract"></a>Impacto financiero de confirmar un contrato de proyecto
+### <a name="financial-impact-of-confirming-a-project-contract"></a>Repercusión financiera de confirmar un contrato de proyecto
 
-Una vez que un contrato de proyecto se confirma, la aplicación recalcula los costos al revertir los costos reales más antiguos y a crear nuevos costos reales. Los nuevos costes reales se procesarán según el método de facturación de la línea de contrato del proyecto asociado. Si los datos reales de costes hacen referencia a una línea de contrato de tiempo y material, la aplicación vuelve a crear automáticamente los datos reales de ventas no facturados correspondientes. Si los costos reales hacen referencia a una línea de contrato de precio fijo, la aplicación deja de procesar los costos reales.
+Una vez que el contrato de proyecto esté confirmado, la aplicación volverá a calcular los costes; para ello, revertirá los datos reales de coste más antiguos y creará nuevos datos reales de coste. A continuación, estos datos reales de costes nuevos se procesarán de acuerdo con el método de facturación de la línea de contrato de proyecto asociada. Si los datos reales de costes hacen referencia a una línea de contrato de tiempo y material, la aplicación vuelve a crear automáticamente los datos reales de ventas no facturados correspondientes. Si los costos reales hacen referencia a una línea de contrato de precio fijo, la aplicación deja de procesar los costos reales.
 
 Los límites que no deben excederse, la configuración de la valoración y el precio y el coste de los datos reales se evalúan y luego se actualizan como parte del proceso de confirmaciones.
 

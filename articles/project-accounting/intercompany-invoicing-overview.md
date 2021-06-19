@@ -2,18 +2,16 @@
 title: Información general de facturación con empresas vinculadas
 description: En este tema se proporciona información y ejemplos sobre la facturación con empresas vinculadas para proyectos.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287349"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002662"
 ---
 # <a name="intercompany-invoicing-overview"></a>Información general de facturación con empresas vinculadas
 
@@ -21,7 +19,7 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no en e
 
 Su organización puede tener varias divisiones, subsidiarias y otras entidades jurídicas que se transfieren productos y servicios entre sí para proyectos. La entidad jurídica que proporciona el servicio o producto se denomina *entidad jurídica prestamista*. La entidad jurídica que recibe el servicio o producto se denomina *entidad jurídica prestataria*.
 
-La siguiente ilustración muestra un escenario típico en el que dos entidades jurídicas, Contoso Robotics USA (la entidad jurídica prestataria) y Contoso Robotics UK (la entidad jurídica prestamista) comparten recursos para entregar un proyecto para el cliente, Adventure Works. Para este escenario, se ha contratado a Contoso Robotics USA para entregar el trabajo a Adventure Works.
+La siguiente ilustración muestra un escenario típico donde dos entidades jurídicas, Contoso Robotics USA (la entidad jurídica prestataria) y Contoso Robotics UK (la entidad jurídica prestamista) comparten recursos para entregar un proyecto al cliente, Adventure Works. Para este escenario, Contoso Robotics USA está contratado para entregar el trabajo a Adventure Works.
 
 ![Facturación con empresas vinculadas](./media/IntercompanyScenario.png) 
 

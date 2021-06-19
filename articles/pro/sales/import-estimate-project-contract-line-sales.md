@@ -2,18 +2,16 @@
 title: Importar una estimación a una línea de contrato basada en proyecto (lite)
 description: En este tema se proporciona información sobre cómo importar estimaciones financieras de un proyecto a una línea de contrato.
 author: rumant
-manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b6b017177e718110969363844d5db4c393949d28
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cbd1745f9b6a59a4a03c456cbbc3b7d0b427a2d3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273489"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003361"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Importar una estimación a una línea de contrato basada en proyecto (lite)
 

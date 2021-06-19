@@ -2,24 +2,22 @@
 title: Administrar una factura de proyecto proforma
 description: Este tema proporciona información sobre cómo trabajar con facturas proforma del proyecto.
 author: rumant
-manager: Annbe
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2146e62bddc4a6286fa303ff2cc2c5622ea3133c
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: dc069d7007bdc58140a33c7a2ebae7ef9d1e84ff
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866927"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003877"
 ---
 # <a name="manage-a-proforma-project-invoice"></a>Administrar una factura de proyecto proforma 
 
 _**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
 
-En Dynamics 365 Project Operations, las facturas proforma se crean como una extensión de las facturas de Dynamics 365 Sales. Sin embargo, existen muchas diferencias en el proceso de facturación entre Sales y Project Operations cuando se trata de facturación. Por ejemplo, no es posible crear una nueva factura desde la página **Lista de facturas** en Project Operations, pero es posible hacerlo en Sales. Estas diferencias y extensiones están implementadas para respaldar los procesos de facturación para proyectos que son diferentes de una factura típica para un pedido de cliente.
+En Dynamics 365 Project Operations, las facturas proforma se crean como una extensión de las facturas de Dynamics 365 Sales. Sin embargo, en lo relativo al proceso de facturación, hay muchas diferencias entre Sales y Project Operations. Por ejemplo, no es posible crear una factura nueva desde la página **Lista de facturas** de Project Operations, pero sí es posible hacerlo en Sales. Estas diferencias y extensiones existen para dar soporte a los procesos de facturación de proyectos que necesiten una factura que no sea la factura típica de un pedido de ventas.
 
 > [!IMPORTANT]
 > Debido a las diferencias, no use las facturas en Sales y Project Operations de manera intercambiable.
