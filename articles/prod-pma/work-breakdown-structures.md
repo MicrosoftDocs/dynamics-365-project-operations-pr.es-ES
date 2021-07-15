@@ -10,18 +10,18 @@ ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 23861
+ms.custom: intro-internal
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 713e38f4218b980c4256e433e90c12adccd70e11
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: eddaf8a868845bde11c8bb7bc04f63777d628cf4
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012247"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369442"
 ---
 # <a name="work-breakdown-structures-overview"></a>Información general sobre estructuras de descomposición del trabajo
 
@@ -100,8 +100,8 @@ Actualmente, no puede personalizar la numeración de la WBS.
 
 ### <a name="schedule-estimation"></a>Estimación de la programación
 
-La estimación de la programación suele ser el segundo paso en la creación de una WBS. Se recomienda completar la estimación de la programación después de crear las tareas. La página **Estructura de descomposición del trabajo** de Finance tiene dos secciones. El panel superior está destinado a la estimación de los horarios, y el panel inferior incluye una pestaña **Costes e ingresos estimados** que puede utilizar para la estimación de costes. 
-**Dependencias de tareas**: en una WBS, puede crear una relación predecesora entre tareas. Cuando asigna tareas predecesoras a una tarea, esta solo puede iniciarse tras completar todas las tareas predecesoras. La fecha de inicio planificada de la tarea se establece automáticamente en la última fecha de todos sus predecesores. 
+La estimación de la programación suele ser el segundo paso en la creación de una WBS. Se recomienda completar la estimación de la programación después de crear las tareas. La página **Estructura de descomposición del trabajo** de Finance tiene dos secciones. El panel superior está destinado a la estimación de la programación y el panel inferior incluye la pestaña **Costes e ingresos estimados**, que puede utilizar para la estimación de costes. 
+**Dependencias de tareas**: en una WBS, puede crear una relación predecesora entre tareas. Cuando asigna tareas predecesoras a una tarea, esta solo puede iniciarse tras completar todas las tareas predecesoras. La fecha de inicio planificada de la tarea se establece automáticamente en la última fecha de todas sus predecesoras. 
 
 **Programación de tareas**: los siguientes factores determinan la programación de las tareas del nodo hoja:
 
@@ -155,7 +155,7 @@ Un tipo de transacción **En cuenta** se utiliza para registrar el valor de las 
 
 Cuando calcula los costes de mano de obra, materiales y gastos de cada tarea, debe asignar una categoría de proyecto al coste estimado. 
 
-**Estimación de costes laborales**: para cada tarea de nodo hoja, asigna un esfuerzo de trabajo en horas y una categoría predeterminada. Por lo tanto, al configurar el programa de una tarea, la estimación del coste laboral de dicha tarea se agrega automáticamente a la categoría predeterminada de mano de obra. Esta estimación de coste aparece en la pestaña **Costes e ingresos estimados** de la cuadrícula **Detalles de línea** de dicha tarea. Si necesita más estimaciones de costes laborales, puede agregarlas en esta pestaña. Si aumentan o disminuyen las horas en la estimación del coste de mano de obra, la programación de la tarea se vuelve a calcular automáticamente. 
+**Estimación de costes laborales**: para cada tarea de nodo hoja, asigna un esfuerzo de trabajo en horas y una categoría predeterminada. Por lo tanto, al configurar el programa de una tarea, la estimación del coste laboral de dicha tarea se agrega automáticamente a la categoría predeterminada de mano de obra. Esta estimación de coste aparece en la pestaña **Costes e ingresos estimados** de la cuadrícula **Detalles de línea** de dicha tarea. Si necesita más estimaciones de costes laborales, puede agregarlas en esta pestaña. Si aumenta o disminuye las horas en la estimación del coste laboral, la programación de la tarea se vuelve a calcular automáticamente. 
 
 **Estimación de gastos y costes de materiales**: la pestaña **Costes e ingresos estimados** también le permite estimar los gastos y los costes de materiales para una tarea, si necesita estimaciones. 
 

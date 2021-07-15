@@ -2,7 +2,7 @@
 title: Integración Microsoft Project Client
 description: La planificación y el mantenimiento del programa de un proyecto pueden ser complejos, por lo que los jefes de proyectos deben usar herramientas que les ayuden a administrar esta tarea. La integración con Microsoft Project Client brinda soporte para abrir y administrar una estructura de desglose del trabajo del proyecto.
 author: Yowelle
-ms.date: 12/11/2017
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 032d726bb6206c563b573f30d13fe2697a13c949
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b312ec5b1f4e6a98a2cbf1667b2f55b758b2d613
+ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999467"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6269856"
 ---
 # <a name="microsoft-project-client-integration"></a>Integración Microsoft Project Client
 
@@ -126,5 +126,12 @@ Para crear una nueva estructura de descomposición del trabajo con Microsoft Pro
 
 11. Haga clic en **Aceptar**.
 
+> [!NOTE]
+> El complemento Project Client no admite los siguientes caracteres en el formato de Id. del proyecto:
+> 
+>   - Subrayado
+>   - Punto
+>   - Espacio
+>   - Barra oblicua
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

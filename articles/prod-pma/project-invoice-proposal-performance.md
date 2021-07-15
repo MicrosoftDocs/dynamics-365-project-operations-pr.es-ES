@@ -2,7 +2,7 @@
 title: Rendimiento de propuesta de factura de proyecto
 description: Este tema proporciona información sobre las mejoras de rendimiento de las propuestas de factura del proyecto.
 author: Yowelle
-ms.date: 04/20/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0e7a9eedc80a88e80b7788be4fe4b2f969be8ba1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5a14acf51d277b16896d64c4b12ee00bfb326910
+ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999512"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6269811"
 ---
 # <a name="project-invoice-proposal-performance"></a>Rendimiento de propuesta de factura de proyecto
 
@@ -44,4 +44,6 @@ Complete los siguientes pasos para deshabilitar la característica de mejora del
 3.  Actualice el explorador.
 
 > [!NOTE]
-> El rendimiento de la propuesta de factura no se puede aplicar cuando las reglas de facturación están habilitadas o los procesos por lotes se están ejecutando.
+> El rendimiento de la propuesta de factura no se puede aplicar cuando las reglas de facturación están habilitadas.
+> 
+> Durante el proceso por lotes para crear propuestas de facturas, el número de subtareas dividirá las tareas en un número máximo en función del número de contratos con transacciones facturables, independientemente de lo que haya introducido. Por ejemplo, si introduce **3** para el número de subtareas para la creación de propuestas de factura en lote y solo hay dos contratos con transacciones facturables, solo se crean dos subtareas.
