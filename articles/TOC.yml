@@ -28,6 +28,8 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Implementar entornos
           items:
+            - name: Implementar manualmente la aplicación Project Operations Dataverse con doble escritura
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Aprovisionar un nuevo entorno
               href: environment/resource-provision-new-environment.md
             - name: Modelo de seguridad
@@ -52,6 +54,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Novedades
       items:
+        - name: 'Julio de 2021: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: 'Junio de 2021: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: 'Mayo de 2021: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: 'Abril de 2021: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
@@ -282,7 +288,7 @@
           items:
             - name: Desarrollar plantillas de proyectos con Copiar proyecto
               href: project-management/dev-copy-project.md
-            - name: Usar API de programación (versión preliminar pública)
+            - name: Usar API de programación de proyectos (versión preliminar pública)
               href: project-management/schedule-api-preview.md
     - name: Administración de recursos
       items:
@@ -436,8 +442,6 @@
       items:
         - name: Información general del proceso de facturación
           href: invoicing/post-project-invoices.md
-        - name: Administrar propuestas de factura de proyecto
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: Facturación proforma
           items:
             - name: Administrar el trabajo pendiente de facturación basado en proyectos
@@ -456,8 +460,22 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Configurar la automatización de facturas basadas en proyecto
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Administrar propuestas de factura de proyecto
-          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Facturación del cliente
+          items:
+            - name: Administrar propuestas de factura de proyecto
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Contabilidad correcta en borradores de la factura del proyecto
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: Facturación con empresas vinculadas
+          items:
+            - name: Información general de facturación con empresas vinculadas
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Configurar la facturación con empresas vinculadas
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Crear transacciones de empresas vinculadas
+              href: project-accounting/create-intercompany-transactions.md
+            - name: Crear facturas de proveedores y clientes de empresas vinculadas
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Contabilidad de proyecto
       items:
         - name: Valores predeterminados de dimensiones financieras
@@ -470,16 +488,6 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Diario de integración en Project Operations
           href: project-accounting/project-operations-integration-journal.md
-        - name: Facturación con empresas vinculadas
-          items:
-            - name: Información general de facturación con empresas vinculadas
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: Configurar la facturación con empresas vinculadas
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Crear transacciones de empresas vinculadas
-              href: project-accounting/create-intercompany-transactions.md
-            - name: Crear facturas de proveedores y clientes de empresas vinculadas
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Reconocimiento de ingresos
       items:
         - name: Introducción al reconocimiento de ingresos
@@ -512,6 +520,10 @@
           href: environment/security-model.md
     - name: Novedades
       items:
+        - name: 'Novedades de julio de 2021: implementación simplificada'
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: 'Novedades de junio de 2021: implementación simplificada'
+          href: pro/whats-new/whats-new-june-2021-lite.md
         - name: 'Novedades de mayo de 2021: implementación simplificada'
           href: pro/whats-new/whats-new-may-2021-lite.md
         - name: 'Novedades de abril de 2021: implementación simplificada'
@@ -762,7 +774,7 @@
           items:
             - name: Desarrollar plantillas de proyectos con Copiar proyecto
               href: project-management/dev-copy-project.md
-            - name: Usar API de programación (versión preliminar pública)
+            - name: Usar API de programación de proyectos (versión preliminar pública)
               href: project-management/schedule-api-preview.md
     - name: Administración de recursos
       items:
@@ -882,6 +894,10 @@
   items:
     - name: Novedades
       items:
+        - name: 'Novedades de julio de 2021: Project Operations para escenarios basados en existencias/producción'
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: 'Novedades de mayo de 2021: Project Operations para escenarios basados en existencias/producción'
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: 'Novedades de abril de 2021: Project Operations para escenarios basados en existencias/producción'
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: 'Novedades de marzo de 2021: Project Operations para escenarios basados en existencias/producción'
@@ -1034,6 +1050,10 @@
       items:
         - name: Programación de lanzamiento de actualizaciones para Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novedades y cambios de la versión de actualización 33, V3'
+          href: psa/whats-new-ur-33.md
+        - name: 'Novedades y cambios de la versión de actualización 32.5, V3'
+          href: psa/whats-new-ur-32-5.md
         - name: 'Novedades y cambios de la versión de actualización 32, V3'
           href: psa/whats-new-ur-32.md
         - name: 'Novedades y cambios de la versión de actualización 31, V3'
