@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bedcbc76d932a81e0c78bb58ce6a161446a26dde
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998297"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002532"
 ---
 # <a name="project-templates"></a>Plantillas de proyecto 
 
@@ -47,7 +47,7 @@ Existen varias formas de crear un proyecto a partir de una plantilla de proyecto
 
 - Cuando cree un proyecto a partir de una oferta, puede seleccionar una plantilla de proyecto en el cuadro de diálogo **Creación rápida: Proyecto**.
 
-> ![Cuadro de diálogo Creación rápida: Proyecto](media/project-11.png)
+> ![Creación rápida: cuadro de diálogo del proyecto.](media/project-11.png)
 
 - Cuando cree un proyecto seleccionando **Nuevo proyecto**, la página **Proyecto** aparecerá antes de guardar el registro. En el campo **Elegir una plantilla**, seleccione una de las plantillas de proyecto predefinidas en la organización.
 - Use **Crear proyecto desde una plantilla** en la página **Entidad de plantilla**.

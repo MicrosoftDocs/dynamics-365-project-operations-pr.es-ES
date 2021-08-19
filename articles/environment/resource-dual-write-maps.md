@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025795"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003837"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versiones de asignaciones de doble escritura para Project Operations
 
@@ -32,7 +32,7 @@ Las siguientes asignaciones son requisitos previos necesarios para la solución 
 
 1. En la lista de mapas, seleccione la asignación Contabilidad **(msdyn\_ledgers)** con todos los requisitos previos y active la casilla **Sincronización inicial**. En el campo **Maestro para sincronización inicial**, seleccione **aplicaciones de Finance and Operations** tanto para la asignación de contabilidad como para todas las asignaciones de requisitos previos. Seleccione **Ejecutar**.
 
-![Sincronización de asignaciones de contabilidad](media/DW6.png)
+![Sincronización de asignaciones de contabilidad.](media/DW6.png)
 
 2. Siga los mismos pasos para todas las asignaciones de tabla restantes enumeradas en la tabla anterior. No seleccione la casilla **Sincronización inicial** al ejecutar esas asignaciones.
 
@@ -65,7 +65,7 @@ Complete los siguientes pasos para ejecutar las asignaciones enumeradas.
 
 1. Habilite los roles de recursos del proyecto para la asignación de tabla **todas las empresas (bookableresourcecategories)** ya que esta asignación requiere la sincronización inicial. En el campo **Maestro para sincronización inicial**, seleccione **Common Data Service**. 
 
- ![Sincronización de asignación de tabla de roles de recursos](media/6ResourceInitialSync.jpg)
+ ![Sincronización de asignaciones de tabla de roles de recursos.](media/6ResourceInitialSync.jpg)
 
  Espere hasta que el estado de la asignación sea **Ejecutando** antes de pasar al siguiente paso.
 

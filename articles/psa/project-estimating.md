@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009187"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002577"
 ---
 # <a name="project-costs-and-revenue"></a>Costes e ingresos del proyecto
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009187"
 
 Las estimaciones del proyecto proporcionan la vista financiera del trabajo estimado y programado en la programación del proyecto. La pestaña **Estimaciones** en la página **Proyectos** muestra el impacto en los costes y los ingresos del trabajo que está planeando. También proporciona información sobre muchas dimensiones predefinidas. 
 
-> ![Pestaña Estimaciones](media/project-5.png)
+> ![Pestaña Estimaciones.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Valores de costes y de ventas del proyecto
 
@@ -66,13 +66,13 @@ Si el sistema no detecta un precio para el rol, el precio de venta en la línea 
 
 La pestaña **Estimaciones** tiene una vista de cuadrícula que muestra líneas de estimación. La cuadrícula incluye columnas para la unidad, el precio de coste total y el precio de venta total, como se muestra en la siguiente ilustración. 
 
-> ![Vista de cuadrícula en la pestaña Estimaciones](media/project-6.png)
+> ![Vista de cuadrícula en la pestaña Estimaciones.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Vista con fases temporales de estimaciones de proyecto
 
 La vista en fases temporales de las estimaciones del proyecto muestra los datos estimados de la vista de cuadrícula en la escala de tiempo, en una escala de tiempo que seleccione. De forma predeterminada, los datos estimados se dinamizan en la dimensión **Rol**.
 
-> ![Vista con fases temporales de estimaciones de proyecto](media/project-7.png)
+> ![Vista con fases temporales de estimaciones de proyecto.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Asignación de esfuerzo estimado en función del modo de tarea
 

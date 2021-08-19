@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d40a80f80bd766bfc19e831ea805a4043baf0030
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6004732"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003612"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configurar campos personalizados como dimensiones de precios
 
@@ -42,11 +42,11 @@ Para que un campo se convierta en una dimensión de precios, debe:
 
 - Crearse como una fila en la tabla **Dimensión de precios**. Por ejemplo, agregue filas de dimensión de precios como se muestra en el siguiente gráfico. 
 
-![Importe: basado en las filas de dimensión de precios](media/Amt-based-PD.png)
+![Importe: basado en las filas de dimensión de precios.](media/Amt-based-PD.png)
 
 Horas de trabajo del recurso (**msdyn_resourceworkhours**) se agrega como dimensión basada en el incremento y que se ha agregado a la cuadrícula en la pestaña **Dimensión de precios basada en el incremento**.
 
-![Incremento: basado en las filas de dimensión de precios](media/Markup-based-PD.png)
+![Incremento: basado en las filas de dimensión de precios.](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]

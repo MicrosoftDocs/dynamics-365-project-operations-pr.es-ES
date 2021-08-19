@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009637"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005097"
 ---
 # <a name="organizational-units"></a>Unidades organizativas 
 
@@ -53,7 +53,7 @@ La unidad organizativa desempeña dos roles en PSA:
 - **Unidad de contratación**: unidad organizativa que representa el grupo o la división de la compañía responsable de lograr la venta y administrar la entrega del trabajo y los servicios al cliente. La unidad de contratación se identifica con el campo **Unidad de contratación** en la sección del encabezado de las páginas **Oportunidad**, **Oferta**, **Contrato del proyecto** y **Proyecto**.
 - **Unidad de dotación de recursos**: unidad organizativa a la que pertenece o está asignado un recurso. Esta unidad organizativa puede ofrecer sus recursos para determinados roles en declaraciones del trabajo (SOW) y proyectos que son propiedad de la unidad de contratación.
 
-> ![Unidades de contratación y unidades de dotación de recursos](media/advanced-1.png)
+> ![Unidades de contratación y unidades de dotación de recursos.](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Preguntas más frecuentes acerca de las unidades organizativas
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: c1dcf642f79ce64cb83285ac6dc6d7eaf815145c
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369397"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005412"
 ---
 # <a name="intercompany-invoicing-overview"></a>Información general de facturación con empresas vinculadas
 
@@ -22,7 +22,7 @@ Su organización puede tener varias divisiones, subsidiarias y otras entidades j
 
 La siguiente ilustración muestra un escenario típico donde dos entidades jurídicas, Contoso Robotics USA (la entidad jurídica prestataria) y Contoso Robotics UK (la entidad jurídica prestamista) comparten recursos para entregar un proyecto al cliente, Adventure Works. Para este escenario, Contoso Robotics USA está contratado para entregar el trabajo a Adventure Works.
 
-![Facturación con empresas vinculadas](./media/IntercompanyScenario.png) 
+![Facturación entre empresas vinculadas.](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations utiliza el siguiente flujo para procesar transacciones entre empresas vinculadas:
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Operations utiliza el siguiente flujo para procesar transac
 
 El siguiente diagrama muestra la facturación de empresas vinculadas en relación con los eventos contables y los registros previstos en la contabilidad general.
 
-![Flujo de empresas vinculadas](./media/IntercompanyFlow.png)
+![Flujo de empresas vinculadas.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

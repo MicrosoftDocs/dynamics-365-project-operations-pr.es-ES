@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 2f5fa0143c903f08b3937426805cb43d5d6109e3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999827"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001092"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sincronizar los contratos de proyecto y los proyectos directamente desde Project Service Automation a Finance 
 
@@ -42,7 +42,7 @@ La solución de integración de Project Service Automation con Finance utiliza l
 
 La siguiente ilustración muestra cómo se sincronizan los datos entre Project Service Automation y Finance.
 
-[![Flujo de datos para la integración de Project Service Automation con Finance](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Flujo de datos para la integración de Project Service Automation con Finance.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Plantillas y tareas
 
@@ -140,17 +140,17 @@ Si debe usar Power Query, siga estas pautas:
 
 Las siguientes ilustraciones muestran ejemplos de asignaciones de tareas de plantilla en Integración de datos. La asignación muestra la información del campo que se sincronizará de Project Service Automation a Finance.
 
-[![Asignación de plantilla de contrato de proyecto](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Asignación de plantilla de contrato de proyecto.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Asignación de plantilla de proyecto](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Asignación de plantilla de proyecto.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Asignación de plantilla de líneas contrato de proyecto](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Asignación de plantilla de líneas de contrato de proyecto.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Asignación de plantilla de líneas de hito contrato de proyecto](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Asignación de plantilla de líneas de hito de contrato de proyecto.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Asignación de hitos de línea de contrato de proyecto en la plantilla de proyectos y contratos (PSA 3.x a Dynamics), v2:
 
-[![Asignación de hito de línea de contrato de proyecto con plantilla versión dos](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+[![Asignación de hito de línea de contrato de proyecto con plantilla versión dos.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

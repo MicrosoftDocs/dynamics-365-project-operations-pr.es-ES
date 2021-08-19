@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008332"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002352"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Configurar campos personalizados como dimensiones de precios 
 
@@ -41,11 +41,11 @@ Para que un campo se convierta en una dimensión de precios, debe:
 - Crearse como campo en las entidades **Precio de rol** y **Incrementos del precio de rol**. Para obtener más información sobre cómo hacer esto, consulte. [Adición de campos personalizados a la configuración de precios y entidades transaccionales](field-references.md).
 - Crearse como una fila en la tabla **Dimensión de precios**. Por ejemplo, agregue filas de dimensión de precios como se muestra en el siguiente gráfico. 
 
-![Importe: basado en las filas de dimensión de precios](media/Amt-based-PD.png)
+![Importe: basado en las filas de dimensión de precios.](media/Amt-based-PD.png)
 
 Tenga en cuenta que Horas de trabajo del recurso (**msdyn_resourceworkhours**) se ha agregado como dimensión basada en el incremento y que se ha agregado a la cuadrícula en la pestaña **Dimensión de precios basada en el incremento**.
 
-![Incremento: basado en las filas de dimensión de precios](media/Markup-based-PD.png)
+![Incremento: basado en las filas de dimensión de precios.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Cualquier cambio en los datos de dimensión de precios en esta tabla, existente o nuevo, se propaga a la lógica comercial de precios de Project Service solo después de que se actualice la memoria caché. El tiempo de actualización de la memoria caché puede ser de hasta 10 minutos. Deje que transcurra ese período para ver los cambios en la lógica de incumplimiento de precios que deben generarse a partir de los cambios en los datos de dimensión de precios.
