@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014915"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000102"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Consideraciones de actualización: De la versión 2.x o 1.x a la versión 3.x
 
@@ -35,7 +35,7 @@ Tanto Dynamics 365 Project Service Automation como Dynamics 365 Field Service us
 ## <a name="resource-assignments"></a>Asignaciones de recursos
 En las versiones 2 y 1 de Project Service Automation, las asignaciones de tareas se almacenaron como tareas secundarias (también llamadas tareas de línea) en la entidad **Entidad de tarea** e indirectamente relacionadas con la entidad **Asignación de recursos**. La tarea de línea era visible en la ventana emergente de asignación en la estructura de descomposición del trabajo (WBS).
 
-![Tareas de línea en la WBS en Project Service Automation versión 2 y versión 1](media/upgrade-line-task-01.png)
+![Tareas de línea en la WBS en Project Service Automation versión 2 y versión 1.](media/upgrade-line-task-01.png)
 
 En la versión 3 de Project Service Automation, ha cambiado el esquema subyacente de asignación de recursos reservables a tareas. . La tarea de línea ha quedado en desuso y existe una relación directa 1:1 entre la tarea en la entidad **Tarea** y el miembro del equipo en la entidad **Asignación de recursos**. Las tareas que se asignan a un miembro del equipo del proyecto ahora se almacenan directamente en la entidad Asignación de recursos.  
 
@@ -46,26 +46,26 @@ Mediante la entidad de tarea subyacente, las tareas en la versión 2 y la versi�
 
 Si ha asignado un recurso a una tarea fuera de su rol predeterminado en la versión 2 y la versión 1, cuando actualice, el recurso con nombre tendrá asignado el rol predeterminado para todas las asignaciones de tareas, independientemente de la asignación de roles en la versión 2. Esta asignación generará diferencias en las estimaciones calculadas de la versión 2 o la versión 1 a la versión 3, ya que las estimaciones se calculan en función del rol del recurso y no de la asignación de tareas de línea. Por ejemplo, en la versión 2, se han asignado dos tareas a Carmen Linares. El rol en la tarea de línea para la tarea 1 es Desarrollador y, para la tarea 2, Administrador de programas. Carmen Linares tiene el rol predeterminado de Administrador del programa.
 
-![Varios roles asignados a un recurso](media/upgrade-multiple-roles-02.png)
+![Varios roles asignados a un recurso.](media/upgrade-multiple-roles-02.png)
 
 Debido a que los roles de Desarrollador y Administrador del programa son diferentes, las estimaciones de costes y ventas son las siguientes:
 
-![Estimaciones de costes para roles de recursos](media/upggrade-cost-estimates-03.png)
+![Estimaciones de costes para roles de recursos.](media/upggrade-cost-estimates-03.png)
 
-![Estimaciones de ventas para roles de recursos](media/upgrade-sales-estimates-04.png)
+![Estimaciones de ventas para roles de recursos.](media/upgrade-sales-estimates-04.png)
 
 Cuando actualiza a la versión 3, las tareas de línea se reemplazan por asignaciones de recursos en la tarea del miembro del equipo de recursos que se puede reservar. La asignación utilizará el rol predeterminado del recurso que se puede reservar. En el siguiente gráfico, Carmen Linares, que tiene un rol de Administrador del programa, es el recurso.
 
-![Asignaciones de recursos](media/resource-assignment-v2-05.png)
+![Asignaciones de recursos.](media/resource-assignment-v2-05.png)
 
 Debido a que las estimaciones se basan en el rol predeterminado del recurso, las estimaciones de ventas y costes pueden cambiar. En el siguiente gráfico ya no verá el rol **Desarrollador**, ya que ahora el rol se toma del rol predeterminado del recurso que se puede reservar.
 
 ![Estimaciones de costes para roles predeterminados.](media/resource-assignment-cost-estimate-06.png)
-![Estimación de ventas para roles predeterminados](media/resource-assignment-sales-estimate-07.png)
+![Estimación de ventas para roles predeterminados.](media/resource-assignment-sales-estimate-07.png)
 
 Una vez completada la actualización, puede editar el rol de un miembro del equipo para que sea distinto del predeterminado asignado. Sin embargo, si cambia el rol de un miembro del equipo, se cambiará en todas sus tareas asignadas, ya que en la versión 3 ya no se pueden asignar varios roles a miembros de equipo.
 
-![Actualización de un rol de recurso](media/resource-role-assignment-08.png)
+![Actualización de un rol de recurso.](media/resource-role-assignment-08.png)
 
 Esto también se cumple con las tareas de línea que se asignaron a recursos con nombre cuando cambia la unidad organizativa del recurso de la predeterminada a otra unidad organizativa. Una vez completada la actualización de la versión 3, la asignación utilizará la unidad organizativa predeterminada del recurso en lugar de la establecida en la tarea de línea.
 
@@ -83,24 +83,24 @@ Para las tareas asignadas a los miembros genéricos del equipo que se generaron 
 
 Por ejemplo, en el proyecto Project Z, la unidad organizativa contratante es Contoso Estados Unidos. En el plan del proyecto, a las tareas de prueba dentro de la fase de Implementación se les ha asignado el rol de Consultor técnico y la unidad organizativa asignada es Contoso India.
 
-![Asignación de la organización de la fase de implementación](media/org-unit-assignment-09.png)
+![Asignación de la organización de la fase de implementación.](media/org-unit-assignment-09.png)
 
 Después de la fase de implementación, la tarea de prueba de integración se asigna al rol de Consultor técnico, pero la organización se establece en Contoso Estados Unidos.  
 
-![Asignación de organización de tarea de prueba de integración](media/org-unit-generate-team-10.png)
+![Asignación de organización de tarea de prueba de integración.](media/org-unit-generate-team-10.png)
 
 Cuando genere un equipo para el proyecto, se crearán dos miembros genéricos del equipo debido a las diferentes unidades organizativas en las tareas. El consultor técnico 1 tendrá asignadas las tareas de Contoso India y el consultor técnico 2 tendrá las tareas de Contoso Estados Unidos.  
 
-![Miembros del equipo genéricos generados](media/org-unit-assignments-multiple-resources-11.png)
+![Miembros del equipo genéricos generados.](media/org-unit-assignments-multiple-resources-11.png)
 
 > [!NOTE]
 > En la versión 2 y 1 de Project Service Automation, el miembro del equipo no posee la unidad organizativa, que se mantiene en la tarea de línea.
 
-![Tareas de línea de versión 2 y 1 en Project Service Automation](media/line-tasks-12.png)
+![Tareas de línea de versión 2 y 1 en Project Service Automation.](media/line-tasks-12.png)
 
 Puede ver la unidad organizativa en la vista de estimaciones. 
 
-![Estimaciones de unidad organizativa](media/org-unit-estimates-view-13.png)
+![Estimaciones de unidad organizativa.](media/org-unit-estimates-view-13.png)
  
 Cuando se completa la actualización, la unidad de organización en la tarea de línea que corresponde al miembro del equipo genérico se agrega al miembro del equipo genérico y se elimina la tarea de línea. Por eso, recomendamos que antes de actualizar, genere o vuelva a generar el equipo en cada proyecto que contenga recursos genéricos.
 

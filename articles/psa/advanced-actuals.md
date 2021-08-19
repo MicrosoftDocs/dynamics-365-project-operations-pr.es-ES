@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7d9ebc0b283731356e0b9b26f2d665a12183519f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 28dc05d50850fed5241c5360ccbeaeb1f4d9d7fc3916bd2a3cd1bb6f43457dd1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014857"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000777"
 ---
 # <a name="recording-actuals"></a>Registro de datos reales 
 
@@ -31,7 +31,7 @@ ms.locfileid: "6014857"
 
 El sistema registra todas las transacciones financieras que se producen durante un proyecto. Estas transacciones se registran como **datos reales**. La siguiente tabla muestra los diferentes tipos de datos reales que se crean dependiendo de si el proyecto es un proyecto de tiempo y materiales, de precio fijo o interno, o bien de si se encuentra en fase de preventas.
 
-> ![Tabla que muestra cómo se registran los datos reales](media/advanced-table2.png)
+> ![Tabla que muestra cómo se registran los datos reales.](media/advanced-table2.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f7f116877340e9efec1aa7b3af875920f38fcdce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014992"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000597"
 ---
 # <a name="project-pricing"></a>Precios del proyecto 
 
@@ -46,7 +46,7 @@ La entidad Lista de precios dispone de tres tablas para almacenar precios:
   - **Precio de categoría de transacciones**: esta tabla almacena precios por categoría de transacciones y se usa para configurar precios de categoría de gastos.
   - **Elementos de lista de precios**: esta tabla almacena los precios de los productos del catálogo.
 
-> ![Configuración de precios mediante una lista de precios](media/basic-guide-12.png)
+> ![Configuración de precios mediante una lista de precios.](media/basic-guide-12.png)
  
 La lista de precios es una lista de tarifas. Las listas de tarifas son una combinación de la entidad Lista de precios y las filas relacionadas de las tablas Precio de rol, Precio de categoría de transacciones y Elementos de lista de precios.
 
@@ -58,7 +58,7 @@ El tiempo de recursos humanos se suele ofertar en función del rol que desempeñ
 
 La unidad de venta **Tiempo** se crea al instalar PSA. Tiene la unidad predeterminada **Hora**. No puede eliminar, cambiar el nombre ni editar los atributos de la unidad de venta **Tiempo** o de la unidad **Hora**. No obstante, puede agregar otras unidades a la unidad de venta **Tiempo**. Si intenta eliminar la unidad de venta **Tiempo** o la unidad **Hora**, es posible que se produzcan errores en la lógica de negocios de PSA.
 
-> ![Configuración de precios por rol](media/basic-guide-13.png)
+> ![Configuración de precios por rol.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Categorías de transacción y categorías de gastos
 
@@ -68,7 +68,7 @@ Los viajes y los demás gastos en los que incurren los consultores de proyectos 
 - **Porcentaje de incremento**: el porcentaje sobre el coste real se factura al cliente. 
 - **Precio por unidad**: se establece un precio de facturación para cada unidad de la categoría de gastos. El importe que se factura al cliente se calcula en función del número de unidades de gasto de las que informa el consultor. El kilometraje usa el método de cálculo de precios Precio unitario. Por ejemplo, la categoría de gasto de kilometraje se puede configurar para a 30 dólares estadounidenses (USD) por día o a 2 USD por milla. Cuando un consultor informa de kilometraje en un proyecto, el importe para facturar se calcula en función del número de millas de las que informa el consultor.
 
-> ![Configuración del cálculo de precios para las categorías de gastos](media/basic-guide-14.png)
+> ![Configuración del cálculo de precios para las categorías de gastos.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Cálculo de precios de ventas de proyecto y reemplazos
 
@@ -114,7 +114,7 @@ Sin embargo, en una oferta, puede usar una lista de precios principal. Como alte
 
 Al crear una lista de precios de proyecto personalizada, solo se copian los componentes del proyecto de la lista de precios. Es decir, se crea una nueva lista de precios como copia de la lista de precios de proyecto existente adjunta a la oferta. Dicha nueva lista de precios solo incluye precios de rol relacionados y precios de categoría de transacciones.
 
-> ![Visualización y configuración de precios personalizados para un contrato de proyecto](media/basic-guide-15.png)
+> ![Visualización y configuración de precios personalizados para un contrato de proyecto.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Seguimiento de costes
 

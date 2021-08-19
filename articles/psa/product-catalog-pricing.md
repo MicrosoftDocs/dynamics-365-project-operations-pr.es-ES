@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 148f52f74ee64c2ee218dda3b09e1188e70217b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009232"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000192"
 ---
 # <a name="product-catalog-pricing"></a>Precios del catálogo de productos 
 
@@ -44,7 +44,7 @@ Puede agregar productos de un catálogo de productos a diferentes listas de prec
 
 PSA admite varias opciones de redondeo cuando los precios se configuran en función del precio de lista, el coste estándar o el coste actual. Además de aprovechar los múltiples métodos de precios y las opciones de redondeo, puede asociar las listas de descuentos con los elementos de la lista de precios. 
 
-> ![Adición de productos desde un catálogo a diferentes listas de precios](media/basic-guide-16.png)
+> ![Adición de productos de un catálogo a diferentes listas de precios.](media/basic-guide-16.png)
 
 Cuando crea una nueva lista de precios personalizada para una oferta seleccionando **Crear precios personalizados** en la página **Oferta de proyecto**, PSA realiza una copia de la lista de precios y el campo **Entidad** en el encabezado de la nueva lista de precios se establece en **Entidad de ventas**. El nombre de la nueva lista de precios se adjunta con el nombre de la oferta y una marca de tiempo. También puede usar el nombre de la nueva lista de precios y el nombre de la oferta en los flujos de trabajo personalizados para activar revisiones y aprobaciones adicionales de ofertas que utilizan precios personalizados.
 

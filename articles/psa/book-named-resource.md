@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2f97107de938975491770ab4e2ed18a3145d0e3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e929a5fb4c307d3b64d0f7f70203fe20bc6dd4f99e89e039fae0ce8276c69c52
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013417"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000507"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Reservar recursos con nombre desde los requisitos de recursos
 
@@ -35,12 +35,12 @@ Puede para reservar un recurso con nombre para reemplazar el recurso genérico q
 2. Seleccione el recurso genérico que tiene algún requisito de recursos de la lista y después haga clic en **Reservar**. O bien, abra el requisito del recurso y después haga clic en **Reservar**.
 
 
-![Reserva de un miembro del equipo genérico](media/RM-how-to-14.png)
+![Reserva de un miembro del equipo genérico.](media/RM-how-to-14.png)
 
 
 3. En la página **Asistente de programación**, seleccione el recurso con nombre que desee reservar para su equipo de proyecto y después haga clic en **Reservar**.
 
-![Reserva de un miembro de equipo genérico con el asistente de programación](media/RM-how-to-15.png)
+![Reserva de un miembro de equipo genérico con el asistente de programación.](media/RM-how-to-15.png)
 
 Cuando se completa la reserva y se cumple con un recurso con nombre, el recurso genérico se reemplaza por el recurso con nombre.
 
@@ -57,11 +57,11 @@ Cumplir un requisito de recurso genérico con varios recursos con nombre es simi
 
 El requisito es de 120 horas de ingeniería robótica durante cinco días, lo que equivale a 24 horas al día.
 
-![Requisito por día](media/RM-how-to-22.png)
+![Requisito por día.](media/RM-how-to-22.png)
 
 Este es un ejemplo de situación en la que se necesitan varios recursos con nombre para cumplir una solicitud de recursos genéricos. Deberá para reservar varios recursos para cumplir el requisito.
 
-![Reserva de varios recursos para cumplir el requisito](media/RM-how-to-23.png)
+![Reserva de varios recursos para cumplir el requisito.](media/RM-how-to-23.png)
 
 La diferencia principal en este escenario es que el recurso genérico permanece en el equipo asignado a la tarea y los miembros del equipo de recursos con nombre reservados no se asignan como parte de la posición. El jefe del proyecto puede asignar el trabajo según sea necesario a los recursos con nombre. La vista **Conciliación** puede ayudar a un jefe de proyecto a dividir las reservas de distintos recursos en asignaciones de tarea. Esto no se realiza automáticamente porque en escenarios más complejos que el descrito anteriormente, como, por ejemplo, cuando el requisito se compone de una agrupación de tareas, el sistema tiene que suponer la intención con la que el jefe de proyecto desea realizar la asignación. Dado que el sistema no puede comprender la intención, es posible que las suposiciones sean distintas de las reales y que, por lo tanto, se obtenga un resultado incorrecto o imprevisible. El resultado previsible es que el recurso genérico permanecerá asignado hasta que el jefe de proyecto cree asignaciones de manera intencionada con la ayuda de la vista **Conciliación**.
 
