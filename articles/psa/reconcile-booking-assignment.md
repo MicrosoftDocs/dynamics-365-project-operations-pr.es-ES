@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 73cbc89ae4350cbd568f1bb978825ff53da07afb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 264271a5be63cb2e51f175595a48bef5fbff0a42a37795c85dd5b4725deec35e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008917"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995152"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Conciliación de reservas y asignaciones
 
@@ -51,11 +51,11 @@ En algunos casos, cuando el campo **Escala temporal** se establece en un nivel s
 
 Cuando vea niveles de tiempo más altos, la pestaña **Conciliación** mostrará un indicador de celda para notificarle que hay diferencias en los niveles de tiempo más bajos. Por ejemplo, en la siguiente ilustración, aparece un indicador de celda en la celda para el mes de octubre de 2018 para el recurso denominado Lidia Valladares. Por lo tanto, puede ver que, a pesar de que las reservas y asignaciones del recurso son iguales cuando se agregan a nivel de **Mes**, no coinciden en niveles inferiores.
 
-![Reservas y asignaciones no coincidentes a nivel mensual](media/reconcile-assignments-01.JPG)
+![Reservas y asignaciones no coincidentes a nivel mensual.](media/reconcile-assignments-01.JPG)
 
 Haga doble clic en una celda para acercar el siguiente nivel inferior y ver la diferencia. Por ejemplo, si hace doble clic en la diferencia de octubre de 2018 para Lidia Valladares, explorará en profundidad hasta el nivel **Semana**. Luego podrá ver que el recurso tiene reservas de 16 horas, pero no asignaciones en las primeras dos semanas de octubre, y 16 horas de asignaciones pero no reservas en la tercera semana de octubre.
 
-![Reservas y asignaciones no coincidentes a nivel semanal](media/reconcile-assignments-02.JPG)
+![Reservas y asignaciones no coincidentes a nivel semanal.](media/reconcile-assignments-02.JPG)
 
 Puede hacer clic con el botón derecho en una celda para alejar el siguiente nivel superior. Puede, además, apagar el indicador de celda seleccionando el botón **Configuración**. 
 
@@ -68,13 +68,13 @@ Para garantizar resultados precisos y predecibles al usar Ampliar reserva, hay d
 
 - El usuario debe configurar la zona horaria de su dispositivo para que coincida con la zona horaria definida en la Configuración de personalización de su sistema.
  
-  ![Configuración de zona horaria en Windows 10](media/reconcile-assignments-03.png)
+  ![Configuración de zona horaria en Windows 10.](media/reconcile-assignments-03.png)
 
-  ![Configuración de la zona horaria en la configuración de personalización](media/reconcile-assignments-04.png)
+  ![Configuración de la zona horaria en la configuración de personalización.](media/reconcile-assignments-04.png)
  
 - El Recurso que se puede reservar debe tener al menos un minuto de tiempo de trabajo que se superponga con los contornos que se utilizan para definir la extensión solicitada. Por ejemplo, en el siguiente ejemplo se muestran recursos de revisión con horas de trabajo que se encuentran entre las 9 de la mañana y las 7 de la tarde. 
 
-  ![Comparación de contornos de recursos](media/reconcile-assignments-05.png)
+  ![Comparación de contornos de recursos.](media/reconcile-assignments-05.png)
 
 En la tabla siguiente se muestra:
 
@@ -83,22 +83,22 @@ En la tabla siguiente se muestra:
 - Recursos B: Este recurso se encuentra en una zona horaria diferente de la del proyecto y, por tanto, comienza a las 7 de la mañana en su zona horaria. Sin embargo, las reservas comenzarán a las 9 de la mañana, ya que es la primera hora de inicio del contorno de la tarea.
 - Recursos C y D: los recursos también se encuentran en diferentes zonas horarias, tanto diferentes entre sí como del proyecto, y sus reservas comienzan no antes de sus respectivas horas de inicio disponibles.
 
-|Entidad  |Calendario  |
+|Entity  |Calendario  |
 |-|-|
-|Plantilla de calendario de proyecto   | ![calendario de proyecto](media/reconcile-assignments-06.png) |
-|Recurso A  | ![Calendario de recurso A](media/reconcile-assignments-06.png) |
-|Recurso B  |  ![Calendario de recurso B](media/reconcile-assignments-07.png) |
-|Recurso C  |  ![Calendario de recurso C](media/reconcile-assignments-08.png) |
-|Recurso D  | ![Calendario de recurso D](media/reconcile-assignments-09.png)  |
+|Plantilla de calendario de proyecto   | ![calendario de proyecto.](media/reconcile-assignments-06.png) |
+|Recurso A  | ![Calendario de recurso A.](media/reconcile-assignments-06.png) |
+|Recurso B  |  ![Calendario de recurso B.](media/reconcile-assignments-07.png) |
+|Recurso C  |  ![Calendario de recurso C.](media/reconcile-assignments-08.png) |
+|Recurso D  | ![Calendario de recurso D.](media/reconcile-assignments-09.png)  |
  
 Cuando navegue hasta la vista de conciliación, se mostrarán las asignaciones de recursos y la escasez de reserva asociada.
- ![Vista de conciliación antes de la extensión](media/reconcile-assignments-10.png)
+ ![Vista de conciliación antes de la extensión.](media/reconcile-assignments-10.png)
 
 Una vez que se ha ejecutado la funcionalidad Ampliar reserva en cada recurso, las reservas se amplían correctamente para cada recurso. Esto se debe a la superposición de las horas de trabajo de cada recurso con los contornos de la escasez.
- ![Vista de conciliación después de la ampliación de reserva](media/reconcile-assignments-11.png) 
+ ![Vista de conciliación después de la ampliación de reserva.](media/reconcile-assignments-11.png) 
 
 Sin embargo, examinando los detalles de las reservas más de cerca se muestran las diferencias en la hora de inicio de las reservas. Las reservas comenzarán no antes de la hora de inicio del contorno de la tarea y no antes de la hora de inicio disponible del recurso.
- ![Nuevas reservas de los recursos en el tablero de programación](media/reconcile-assignments-12.png)
+ ![Nuevas reservas de los recursos en el tablero de programación.](media/reconcile-assignments-12.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

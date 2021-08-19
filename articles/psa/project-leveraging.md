@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49d109be3d55e7f208edb2698e420f40bb7843df
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998432"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995197"
 ---
 # <a name="sales-estimates-and-projects"></a>Estimaciones de ventas y proyectos
 
@@ -35,11 +35,11 @@ Durante el proceso de venta, puede crear estimaciones de ventas vinculando un pr
 
 Cuando cree una línea de oferta basada en un proyecto, podrá crear un nuevo proyecto o asociar un proyecto existente en la página **Línea de oferta**. 
 
-> ![Formulario de línea de oferta](media/project-8.png)
+> ![Formulario de línea de oferta.](media/project-8.png)
  
 Cuando cree un proyecto nuevo a partir de los detalles de la línea de oferta, puede aprovechar las plantillas de proyecto. Las plantillas de proyecto son proyectos modelo que representan planes de proyecto estándar y estimaciones financieras que son típicas en una organización. También pueden representar copias de planes de proyectos y estimaciones de proyectos pasados.
 
-> ![Detalles de línea de oferta](media/project-9.png)
+> ![Detalles de línea de oferta.](media/project-9.png)
   
 Al crear el proyecto desde la oferta, el proyecto se asociará automáticamente con la línea de la oferta.
 

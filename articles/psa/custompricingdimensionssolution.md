@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae7f22b9cb092e956d0f1eaf1f1997c8e97392f4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012337"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995287"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Crear soluciones personalizadas para las dimensiones de precios
 
@@ -32,7 +32,7 @@ ms.locfileid: "6012337"
 1. Seleccione **Configuración** > **Soluciones** y luego seleccione **Nuevo**. 
 2. Asigne un nombre a la solución, **dimensiones de precios de \<your organization name>**, especifique la información restante necesaria y después seleccione **Guardar**.
 
-> ![Creación de una solución personalizada para las dimensiones de precios](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Creación de una solución personalizada para las dimensiones de precios.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Agregue todas las entidades necesarias y los componentes relacionados a la solución de dimensión de precios
 Deberá agregar las siguientes entidades de Project Service a su solución de cálculo de precios. Complete los pasos de este procedimiento para realizar cambios de esquema importantes en la solución de cálculo de precios para que las entidades estén al tanto de las nuevas dimensiones de precios.
@@ -54,9 +54,9 @@ Deberá agregar las siguientes entidades de Project Service a su solución de c�
 - Precio de rol 
 - Entrada de tiempo 
 
-> ![Agregar entidades existentes a la solución de dimensiones de precios](media/Existing-entities-to-PD-solution.png)
+> ![Agregar entidades existentes a la solución de dimensiones de precios.](media/Existing-entities-to-PD-solution.png)
 
-> ![Seleccionar componentes de la solución](media/Dimension-Components.png)
+> ![Seleccionar componentes de la solución.](media/Dimension-Components.png)
 
 > [!NOTE]
 > Asegúrese de incluir todos los formularios y las vistas de cada una de las entidades seleccionadas.
