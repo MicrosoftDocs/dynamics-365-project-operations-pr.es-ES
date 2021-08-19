@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24032a77834005c444972f8d234d3acb33d19135
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998342"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996952"
 ---
 # <a name="project-settings"></a>Configuración del proyecto
 
@@ -45,9 +45,9 @@ Para crear una programación de proyecto, cree una plantilla de calendario de pr
 
   - Nueva programación semanal
   - Programación de trabajo para un día
-  - Tiempo libre
+  - Indisponibilidad
 
-> ![Opciones de configuración](media/project-13.png)
+> ![Configuración de opciones.](media/project-13.png)
 
 4. Seleccione **Nueva programación semanal** y, a continuación, establezca las opciones para esta programación del recurso. Puede establecer una programación semanal recurrente, parámetros de horas diarias, cierres comerciales, etc.
 5. Establezca el rango de fechas, seleccione **Guardar** y, a continuación, haga clic en **Cerrar**. 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bbd6e8c711f6c15221143514efdd43a388ef4e7f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5e4516d13a30ddfb5763fe600b0c1fc675ba6cf980730912e1795cc3d6f4991f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998072"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998257"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>Uso del panel de programación para reservar recursos de proyecto
 
@@ -34,23 +34,23 @@ Para poder reservar desde el panel de programación, debe crear o generar requis
 1. Si el panel **Requisitos de reserva** de la parte inferior de la página está contraído, seleccione el control de expansión para ampliarlo.
 2. En el panel **Requisitos de reserva**, en la pestaña **Proyecto**, seleccione el requisito para reservar.
 
-    ![Requisito seleccionado en la pestaña Proyecto](media/Resource-Management-image73.png)
+    ![Requisito seleccionado en la pestaña Proyecto.](media/Resource-Management-image73.png)
 
 3. Seleccione **Buscar disponibilidad** para filtrar los recursos que se pueden reservar y ver los recursos disponibles. 
 4. Seleccione uno o más recursos del panel de programación. 
 5. En el panel **Crear reserva de recursos** a la derecha de la página, introduzca la información de la reserva y, a continuación, seleccione **Reservar y salir**.
 
-    ![Panel Crear reserva de recursos para el recurso que se puede reservar seleccionado](media/Resource-Management-image74.png)
+    ![Panel Crear reserva de recursos para el recurso que se puede reservar seleccionado.](media/Resource-Management-image74.png)
 
 6. Mientras el requisito esté seleccionado en el panel **Crear reserva de recursos**, seleccione una o más celdas de un recurso para crear la reserva.
 
-    ![Varias celdas seleccionadas para un recurso](media/Resource-Management-image75.png)
+    ![Varias celdas seleccionadas para un recurso.](media/Resource-Management-image75.png)
 
 7. Seleccione **Reservar**.
 
 El requisito se cumple mediante el recurso seleccionado. En el panel **Requisitos de reserva**, observe que se haya actualizado el requisito y que el recurso se muestre como reservado en el proyecto.
 
-![Recurso reservado en el proyecto](media/Resource-Management-image76.png)
+![Recurso reservado en el proyecto.](media/Resource-Management-image76.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

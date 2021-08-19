@@ -2,7 +2,7 @@
 title: Informes de gastos repensados
 description: Este tema explica la experiencia rediseñada y reinventada para la entrada del informe de gastos.
 author: suvaidya
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
-ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6251025"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997852"
 ---
 # <a name="expense-reports-reimagined"></a>Informes de gastos reinventados
 
@@ -57,12 +57,13 @@ Para activar la nueva experiencia, use el área de trabajo **Administración de 
 | Calculadora de tipos de cambio | Se agrega una calculadora de tipo de cambio que permite calcular el tipo de cambio para transacciones de desembolso directo en múltiples monedas. |
 | Guardar y agregar nuevas líneas de gastos | Los botones **Guardar** y **Nuevo** están disponibles cuando se ingresan nuevos gastos, para ayudar a introducir rápidamente líneas de gastos. |
 | Mejor visibilidad en líneas divididas y detalladas | Las líneas detalladas y divididas se agregan directamente a la lista de gastos para aumentar la visibilidad y ayudarle a determinar fácilmente si hay algún error. |
-| Ver detalles de subcategorías en líneas detalladas | Las líneas detalladas de un gasto principal muestran las etiquetas de subcategoría en el informe de gastos, lo que le ayuda a revisar los detalles granulares de un vistazo.|
+| Ver detalles de subcategorías en líneas detalladas | Las líneas desglosadas de un gasto primario muestran las etiquetas de subcategoría en el informe de gastos. El desglose le permite revisar los detalles granulares de un vistazo.|
 | Mostrar recibos durante el desglose | Los recibos pueden mostrarse durante el desglose. |
 | Selección de anticipo de efectivo | Seleccione uno o más adelantos en efectivo para realizar una sola transacción de gastos. |
 | Saldo de anticipo de efectivo | Revise el saldo de anticipos en efectivo en tiempo real cuando cree una entrada de gastos contra anticipos en efectivo aprobados y pagados. |
 
 La versión inicial se centra en escenarios de entrada de gastos. Cualquier escenario de revisión o aprobación de informe de gastos seguirá utilizando la página de entrada de gastos existente.
+
 
 Las siguientes características no son compatibles con el área de trabajo de informes de gastos reinventados, pero están previstas para versiones futuras: 
 
