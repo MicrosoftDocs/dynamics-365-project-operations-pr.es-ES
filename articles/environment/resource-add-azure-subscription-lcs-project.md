@@ -6,12 +6,12 @@ ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6daa86d453ec5022cdd75dff0394c8818292406c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000637"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986692"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Agregar una suscripción de Azure a un proyecto LCS
 
@@ -23,35 +23,35 @@ Los entornos alojados en la nube deben implementarse mediante una suscripción d
 
 1. En su proyecto LCS, en la sección **Ambientes**, seleccione **Configuración de Microsoft Azure**.
 
-![Configuración de Microsoft Azure](./media/1MicrosoftAzureSettings.png)
+![Configuración de Microsoft Azure.](./media/1MicrosoftAzureSettings.png)
 
 2. En la página **Configuración del proyecto**, en la pestaña **Conectores de Azure**, seleccione **Autorizar**. Esto permite implementar entornos en este proyecto.
 
-![Conectores de Azure](./media/2AzureConnectors.png)
+![Conectores de Azure.](./media/2AzureConnectors.png)
 
 3. Seleccione **Autorizar** nuevamente para conceder el consentimiento del administrador.
 
-![Conceder consentimiento del administrador](./media/3GrantAdminConsent.png)
+![Conceder consentimiento del administrador.](./media/3GrantAdminConsent.png)
 
 4. Acepta la solicitud de permisos.
 
-![Aceptar solicitud de permiso](./media/4AcceptPermissionRequest.png)
+![Aceptar solicitud de permiso.](./media/4AcceptPermissionRequest.png)
 
 La autorización ya está completa. 
 
-![Autorización corrrecta](./media/5AuthorizationComplete.png)
+![Autorización corrrecta.](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>Proporcionar acceso a Dynamics Deployment Services a su suscripción de Azure
 
 1. Vaya a [Facturación de Microsoft Azure](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) y seleccione su suscripción. Dynamics Deployment Services necesita acceder a esta suscripción para poder implementar entornos.
 
-![Detalles de suscripción a Azure](./media/6AzureSubscription.png)
+![Detalles de la suscripción a Azure.](./media/6AzureSubscription.png)
 
 2. Seleccione **Control de acceso (IAM)** en el panel de navegación y luego seleccione **Agregar asignación de roles**.
 3. En el control deslizante del lado derecho, seleccione **Rol de colaborador** y, en la lista provista, busque y seleccione **Dynamics Deployment Services**. 
 4. Seleccione **Guardar**.
 
-![Acceso a suscripción](./media/7SubscriptionAccess.png)
+![Acceso a la suscripción.](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Agregar un conector de suscripcióna un proyecto LCS
 

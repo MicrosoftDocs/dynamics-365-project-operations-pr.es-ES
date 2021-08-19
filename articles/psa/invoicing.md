@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0dc911bb0ca72af547262a5716ef1091ea81c81
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015082"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985522"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Facturación en Project Service Automation
 
@@ -50,17 +50,17 @@ Siga este paso para crear una factura para un contrato de proyecto específico.
 
 - En la página de lista **Contratos de proyecto**, abra un contrato de proyecto y después seleccione **Crear factura**.
 
-    ![Creación de facturas de proyecto para un contrato de proyecto específico](media/CreateProjectInvoicesOneByOne.png)
+    ![Creación de facturas de proyecto para un contrato de proyecto específico.](media/CreateProjectInvoicesOneByOne.png)
 
-    El sistema genera una factura para todas las transacciones del contrato de proyecto seleccionado que tienen el estado **Listo para facturar**. Dichas transacciones incluyen las líneas de contrato basadas en el tiempo, los gastos, los hitos y el producto.
+    Se generará una factura para todas las transacciones del contrato de proyecto seleccionado, cuyo estado sea **Listo para facturar**. Dichas transacciones incluyen las líneas de contrato basadas en el tiempo, los gastos, los hitos y el producto.
 
 Siga estos pasos para crear facturas de forma masiva.
 
-1. En la página de lista **Contratos de proyecto**, seleccione uno o varios contratos de proyecto para los que desee crear una factura y después seleccione **Crear facturas de proyecto**.
+1. En la página de lista **Contratos de proyecto**, seleccione uno o varios contratos de proyecto para los que deba crear una factura, y luego elija **Crear facturas de proyecto**.
 
-    ![Creación de facturas de proyecto de forma masiva](media/CreateProjectInvoicesBulk.png)
+    ![Creación de facturas de proyecto de forma masiva.](media/CreateProjectInvoicesBulk.png)
 
-    Un mensaje de advertencia le informará de que es posible que haya un retraso antes de que se creen las facturas. También se muestra el proceso.
+    Un mensaje de advertencia le indicará que puede haber una demora antes de que se creen las facturas. También se muestra el proceso.
 
 2. Seleccione **Aceptar** para cerrar el cuadro de mensaje.
 

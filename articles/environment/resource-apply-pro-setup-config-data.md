@@ -6,12 +6,12 @@ ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001312"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986647"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Configurar y aplicar datos de configuración en Common Data Service 
 
@@ -35,24 +35,24 @@ Antes de comenzar a configurar los datos en Common Data Service (CDS), se deben 
 2. Navegue a la carpeta descomprimida y ejecute el archivo ejecutable *DataMigrationUtility*.
 3. En la página 1 del Asistente de migración de configuración (CMT) de Common Data Service, seleccione **Importar datos** y luego seleccione **Continuar**.
 
-![Migración de la configuración](./media/1ConfigurationMigration.png)
+![Migración de la configuración.](./media/1ConfigurationMigration.png)
 
 4. En la página 2 del asistente CMT, seleccione **Microsoft 365** como **Tipo de implementación**.
 5. Seleccione las casillas **Mostrar una lista de organizaciones disponibles** y **Mostrar avanzadas**.
 6. Seleccione la región de su inquilino, introduzca sus credenciales y luego seleccione **Iniciar sesión**.
 
-![Inicio de sesión de configuración](./media/2ConfigurationSignin.png)
+![Inicio de sesión de la configuración.](./media/2ConfigurationSignin.png)
 
 7. En la página 3, en la lista de organizaciones del inquilino, seleccione la organización a la que desea importar los datos de demostración y seleccione **Iniciar sesión**.
 8. En la página 4, seleccione el archivo zip *SampleSetupAndConfigData* en la carpeta descomprimida.
 
-![Selección de archivo zip](./media/3ZipFile.png)
+![Selección de archivo zip.](./media/3ZipFile.png)
 
-![Seleccione un archivo](./media/4SelectAFile.png)
+![Seleccionar un archivo.](./media/4SelectAFile.png)
 
 9. Después de seleccionar el archivo zip, seleccione **Importar datos**.
 
-![Importar datos](./media/5ImportData.png)
+![Importar datos.](./media/5ImportData.png)
 
 10. La importación se ejecutará durante aproximadamente de dos a diez minutos, según la velocidad de su red. Una vez finalizada la importación, salga del asistente de CMT. 
 11. Compruebe si su organización dispone de datos en las siguientes 26 entidades:
@@ -82,52 +82,52 @@ Antes de comenzar a configurar los datos en Common Data Service (CDS), se deben 
   - Característica
   - Recurso reservable
   - Asociación de categoría de recurso reservable
-  - Característica del recurso reservable
+  - Característica del recurso que se puede reservar
 
-![Completar importación](./media/6CompleteImport.png)
+![Completar importación.](./media/6CompleteImport.png)
 
 ## <a name="update-project-operations-configurations"></a>Actualizar configuraciones de operaciones de proyecto
 
 1. Vaya al entorno CE. Puede encontrarlo abriendo el [Centro de administración de Power Platform](https://admin.powerplatform.microsoft.com/environments), seleccionando el entorno y luego seleccionando **Abrir entorno**. 
 
-![Abrir entorno](./media/7OpenEnvironment.png)
+![Abrir entorno.](./media/7OpenEnvironment.png)
 
 2. Vaya a **Proyectos** > **Recursos** y luego seleccione **Nuevo** para crear un recurso que se pueda reservar para su usuario.
 
-![Recursos que se pueden reservar](./media/8BookableResources.png)
+![Recursos que se pueden reservar.](./media/8BookableResources.png)
 
 3. En la pestaña **General**, seleccione su usuario administrador. Verifique que la zona horaria coincida con la que se encuentra. 
 
-![Nuevo recurso reservable](./media/9NewBookableResource.png)
+![Nuevo recurso reservable.](./media/9NewBookableResource.png)
 
 4. En la pestaña **Planificación** del campo **Empresa**, elija la empresa **USPM** y luego seleccione **Guardar**. 
 
-![Pestaña de programación](./media/10SchedulingTab.png)
+![Pestaña de programación.](./media/10SchedulingTab.png)
 
 5. Seleccione la pestaña **Horas de trabajo**.  
 
-![Horas laborables](./media/11WorkHours.png)
+![Horas laborables.](./media/11WorkHours.png)
 
 6. Haga doble clic en cualquier valor del calendario y seleccione **Editar** > **Todos los eventos de la serie**. 
 
-![Calendario de trabajo](./media/12WorkCalendar.png)
+![Calendario de trabajo.](./media/12WorkCalendar.png)
 
 7. Cambie el horario laboral a un día laborable de ocho (8) horas, marque los fines de semana como días no laborables y asegúrese de que la zona horaria coincida con la suya. 
 8. Seleccione **Guardar y cerrar**.
 
-![Actualizar calendario](./media/13UpdateCalendar.png)
+![Actualizar calendario.](./media/13UpdateCalendar.png)
 
 9. Vaya a **Configuración** > **Plantillas de calendario** y seleccione **Nueva**.
  
- ![Plantillas de calendario](./media/14CalendarTemplates.png)
+ ![Plantillas de calendario.](./media/14CalendarTemplates.png)
  
  10. Introduzca un nombre, seleccione el recurso de plantilla que creó y luego seleccione **Guardar**. 
  
- ![Guardar plantilla de calendario](./media/15SaveCalendarTemplate.png)
+ ![Guardar plantilla de calendario.](./media/15SaveCalendarTemplate.png)
  
  11. Vaya a **Parámetros** y haga doble clic en el registro. 
  
- ![Parámetros de proyecto](./media/16ProjectParameters.png)
+ ![Parámetros de proyecto.](./media/16ProjectParameters.png)
  
 12. Actualice los siguientes campos:
 
@@ -138,7 +138,7 @@ Antes de comenzar a configurar los datos en Common Data Service (CDS), se deben 
 
 13. Seleccione **Guardar**. 
 
-![Parámetros de proyecto actualizados](./media/17UpdatedProjectParameters.png)
+![Parámetros de proyecto actualizados.](./media/17UpdatedProjectParameters.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

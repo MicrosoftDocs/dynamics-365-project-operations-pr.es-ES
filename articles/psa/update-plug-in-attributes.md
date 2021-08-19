@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b0d50733340f277453f4ef5b52bdd3ee089449cd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012832"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988807"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Actualización de atributos de complemento para incluir nuevas dimensiones de precios
 
@@ -42,25 +42,25 @@ Los siguientes pasos le guían a través del proceso de registro de los compleme
 1. Abra **PluginRegistrationTool** y conéctese a su instancia en línea.
 2. Haga clic en **Buscar** y busque el complemento que se va a actualizar.
 
- ![Captura de pantalla del árbol de búsqueda](media/PRT-1.png)
+ ![Captura de pantalla del árbol de búsqueda.](media/PRT-1.png)
 
 3. Después de que se encuentre el complemento, selecciónelo y, a continuación, haga clic en **Seleccionar en el formulario principal**.
 
 4. Seleccione el paso del complemento que se va a actualizar, haga clic con el botón secundario y, a continuación, seleccione **Actualizar**.
 
- ![Captura de pantalla del complemento que se va a actualizar](media/PRT-2.png)
+ ![Captura de pantalla del complemento que se va a actualizar.](media/PRT-2.png)
  
 5. En la ventana de actualización, haga clic en los tres puntos (**...**) en los atributos de filtrado.
 
- ![Captura de pantalla de la información de configuración del paso existente de actualización](media/PRT-3.png)
+ ![Captura de pantalla de la información de configuración del paso existente de actualización.](media/PRT-3.png)
  
 6. Seleccione las casillas de atributos de precios.
 
- ![Captura de pantalla con la selección de la casilla para los atributos de precios](media/PRT-4.png)
+ ![Captura de pantalla con la selección de la casilla para los atributos de precios.](media/PRT-4.png)
 
 7. Haga clic en **Aceptar** para cerrar la página y, a continuación, seleccione **Actualizar paso**.
 
- ![Captura de pantalla con el botón "Actualizar paso"](media/PRT-5.png)
+ ![Captura de pantalla con el botón "Actualizar paso".](media/PRT-5.png)
  
 8. Repita este proceso para el segundo complemento, **PreOperationQuoteLineDetail: actualización de msdyn_quotelinetransaction**.
 

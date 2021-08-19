@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ffbb1f7aa25e723c7842259f1c0127b3d2e26d6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012112"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988987"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Utilizar un recurso que se puede reservar como dimensión de precios
 
@@ -62,18 +62,18 @@ Para los recursos que se pueden reservar, la entidad **Miembros del equipo del p
 1. Para ello, haga doble clic en la fila de la cuadrícula **Dimensiones de precios** para abrir la página de la dimensión de **msdyn_bookableresource**.
 2. En la página de la dimensión, en la pestaña **Relacionado**, haga clic en **Nombres de campos de la dimensión de precios**.
 
- ![Pestaña de nombres de campo de la dimensión de precios](media/PD-fieldname.png)
+ ![Pestaña de nombres del campo de la dimensión de precios.](media/PD-fieldname.png)
 
 4. En la vista asociada que se abre, haga clic en **Agregar nuevo nombre del campo de la dimensión de precios**.
 
- ![Agregar nuevos nombres de campo de la dimensión de precios](media/Add-NewPD-fieldname.png)
+ ![Agregar nuevos nombres del campo de la dimensión de precios.](media/Add-NewPD-fieldname.png)
 
 
 Esto abre la página **Nuevo nombre de campo de la dimensión de precios** para **msdyn_bookableresource**. 
 
 5. Agregue **msdyn_projectteam** al campo **Nombre lógico de la entidad** y **msdyn_bookableresourceid** al campo **Nombre de campo**. Guarde el registro.
 
- ![Formulario de nuevo nombre de campo de la dimensión de precios](media/PD-fieldname-Added.png)
+ ![Formulario de nuevo nombre del campo de la dimensión de precios.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: db63413456e4b91d308af9c1103000d5cdc693f7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999917"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988132"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronizar los datos reales del proyecto directamente desde Project Service Automation con el diario de integración del proyecto para su publicación en Finance and Operations
 
@@ -42,7 +42,7 @@ La solución de integración de Project Service Automation con Finance utiliza l
 
 La siguiente ilustración muestra cómo se sincronizan los datos entre Project Service Automation y Finance.
 
-[![Flujo de datos para la integración de Project Service Automation con Finance and Operations](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Flujo de datos para la integración de Project Service Automation con Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Datos reales de proyecto desde Project Service Automation
 
@@ -93,9 +93,9 @@ Para actualizar la columna condicional insertada en la plantilla, haga clic en l
 
 Las siguientes ilustraciones muestran un ejemplo de la asignación de tareas de plantilla en Integración de datos. La asignación muestra la información del campo que se sincronizará de Project Service Automation a Finance.
 
-[![Asignación de plantillas: datos reales](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![Asignación de plantillas: datos reales.](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![Asignación de plantillas: conexiones de transacciones](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![Asignación de plantillas: conexiones de transacciones.](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>Importar desde la tabla de almacenamiento provisional después de la integración desde Project Service Automation
 
@@ -135,9 +135,9 @@ En la plantilla de actualización de datos reales del proyecto, debe usar Power 
 
 Las siguientes ilustraciones muestran ejemplos de asignaciones de tareas de plantilla en Integración de datos. La asignación muestra la información del campo que se sincronizará de Finance a Project Service Automation.
 
-[![Asignación de plantillas: actualización de reales](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![Asignación de plantillas: actualización de reales.](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![Asignación de plantillas: actualización de transacción](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+[![Asignación de plantillas: actualización de transacción.](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

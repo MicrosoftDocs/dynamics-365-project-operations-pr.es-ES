@@ -6,12 +6,12 @@ ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1480d68105be1041e791de567b180178b330d71e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d3fc0453e3038839107a98c4179e6bd4aede95cf4a5fcfe2d52f823b83029485
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997757"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988717"
 ---
 # <a name="manage-time-zones"></a>Administrar zonas horarias
 
@@ -32,13 +32,13 @@ Para obtener resultados precisos y predecibles al usar **Ampliar reserva**, hay 
 
 - El usuario debe configurar la zona horaria de su dispositivo para que coincida con la zona horaria definida en la **Configuración de personalización** del sistema.
  
-  ![Configuración de zona horaria en Windows 10](media/reconcile-assignments-03.png)
+  ![Configuración de zona horaria en Windows 10.](media/reconcile-assignments-03.png)
 
-  ![Configuración de la zona horaria en la configuración de personalización](media/reconcile-assignments-04.png)
+  ![Configuración de la zona horaria en la configuración de personalización.](media/reconcile-assignments-04.png)
  
 - El recurso reservable debe tener al menos un minuto de tiempo de trabajo que se superponga con los contornos que se utilizan para definir la extensión solicitada. Por ejemplo, los siguientes recursos con horas de trabajo comprendidas entre las 9:00 a. m. y las 7:00 p. m. 
 
-  ![Comparación de contornos de recursos](media/reconcile-assignments-05.png)
+  ![Comparación de contornos de recursos.](media/reconcile-assignments-05.png)
 
 En la tabla siguiente se muestra:
 
@@ -47,25 +47,25 @@ En la tabla siguiente se muestra:
 - Recurso B: este recurso se encuentra en una zona horaria diferente a la del proyecto y comienza a las 7:00 a.m. en su zona horaria. Sin embargo, las reservas comenzarán a las 9 de la mañana, ya que es la primera hora de inicio del contorno de la tarea.
 - Recursos C y D: los recursos están ubicados en diferentes zonas horarias, ambas diferentes entre sí y del proyecto, y sus reservas no comienzan antes de sus respectivas horas de inicio disponibles.
 
-|Entidad  |Calendario  |
+|Entity  |Calendario  |
 |-|-|
-|Plantilla de calendario de proyecto   | ![calendario de proyecto](media/reconcile-assignments-06.png) |
-|Recurso A  | ![Calendario de recurso A](media/reconcile-assignments-06.png) |
-|Recurso B  |  ![Calendario de recurso B](media/reconcile-assignments-07.png) |
-|Recurso C  |  ![Calendario de recurso C](media/reconcile-assignments-08.png) |
-|Recurso D  | ![Calendario de recurso D](media/reconcile-assignments-09.png)  |
+|Plantilla de calendario de proyecto   | ![calendario de proyecto.](media/reconcile-assignments-06.png) |
+|Recurso A  | ![Calendario de recurso A.](media/reconcile-assignments-06.png) |
+|Recurso B  |  ![Calendario de recurso B.](media/reconcile-assignments-07.png) |
+|Recurso C  |  ![Calendario de recurso C.](media/reconcile-assignments-08.png) |
+|Recurso D  | ![Calendario de recurso D.](media/reconcile-assignments-09.png)  |
  
 Cuando navega a la vista **Conciliación**, se muestran las asignaciones de recursos y la escasez de reservas asociada.
 
-![Vista de conciliación antes de la extensión](media/reconcile-assignments-10.png)
+![Vista de conciliación antes de la extensión.](media/reconcile-assignments-10.png)
 
 Una vez que se ha utilizado la funcionalidad de extensión de reserva para cada recurso, las reservas se extienden con éxito para cada recurso porque las horas de trabajo de cada recurso se superponen con los contornos de la escasez.
 
-![Vista de conciliación después de la ampliación de reserva](media/reconcile-assignments-11.png) 
+![Vista de conciliación después de la ampliación de reserva.](media/reconcile-assignments-11.png) 
 
 Observe que una mirada más detallada a los detalles de las reservas muestra diferencias en la hora de inicio de las reservas. Las reservas no comienzan antes de la hora de inicio del contorno de asignación ni antes de la hora de inicio disponible del recurso.
 
-![Nuevas reservas de los recursos en el tablero de programación](media/reconcile-assignments-12.png)
+![Nuevas reservas de los recursos en el tablero de programación.](media/reconcile-assignments-12.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

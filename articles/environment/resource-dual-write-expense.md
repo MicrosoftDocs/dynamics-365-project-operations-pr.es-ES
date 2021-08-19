@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7fff69f062bf09fe7ceca61d951b535d2e010bfd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000007"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986602"
 ---
 # <a name="expense-management-integration"></a>Integración de gestión de gastos
 
@@ -28,7 +28,7 @@ En una implementación de gasto completo, las categorías de gastos se crean y m
 2. En Finance, vaya a **Administración de gastos** > **Configuración** > **Categorías compartidas** y seleccione una categoría compartida con una clase de transacción **Gasto**. Establezca el parámetro **Se puede utilizar en Gastos** como **True** y defina el tipo de gasto a utilizar.
 3. Con este registro de categoría compartida, cree una nueva categoría de gastos yendo a **Administración de gastos** > **Configuración** > **Categorías de gasto** y seleccionando **Nuevo**. Cuando se guarda el registro, la doble escritura usa la asignación de tabla, **Entidad de exportación de categorías de gastos de proyecto de integración de Project Operations (msdyn\_expensecategories)** para sincronizar este registro con Dataverse.
 
-  ![Integración de categorías de gastos](./media/DW6ExpenseCategories.png)
+  ![Integración de categorías de gastos.](./media/DW6ExpenseCategories.png)
 
 Las categorías de gastos en las aplicaciones de Finance and Operations son específicas de la empresa o entidad legal. Hay registros específicos de entidad legal correspondientes separados en Dataverse. Cuando un jefe de proyecto estima gastos, no puede seleccionar categorías de gastos que se crearon para un proyecto que es propiedad de una empresa diferente a la empresa propietaria del proyecto en el que está trabajando. 
 
@@ -40,7 +40,7 @@ Los informes de gastos se crean y aprueban en aplicaciones de Finance and Operat
   - La doble escritura se sincroniza con Dataverse utilizando la asignación de tabla **Entidad de exportación de gastos de proyecto de integración de Project Operations (msdyn\_expenses)** mapa de la mesa.
   - La subcontabilidad de impuestos, la subcontabilidad de proveedores y otras contabilizaciones financieras se registran según corresponda en el momento de registrar el informe de gastos.
 
-  ![Integración de informes de gastos](./media/DW6ExpenseReports.png)
+  ![Integración de informes de gastos.](./media/DW6ExpenseReports.png)
 
 Cuando se escribe un registro en la entidad **Gastos** en Dataverse, el sistema desencadena el proceso de aprobación automatizado del registro. Si es necesario, el estado del proceso de aprobación automatizado se puede revisar en Dataverse yendo a **Configuración avanzada** > **Sistema** > **Trabajos del sistema**. Una vez completada la aprobación, se crean registros de clases de transacciones de gastos en la entidad **Datos reales**.
 

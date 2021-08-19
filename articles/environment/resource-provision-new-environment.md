@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d0712d9d5dfc6c35ccd07142ff5948f50e6a254c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd98ec360cbd89c9fb7e49bfa11cfffeffca541441e641c973a23c141c922cd2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995507"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988582"
 ---
 # <a name="provision-a-new-environment"></a>Aprovisionar un entorno nuevo
 
@@ -52,12 +52,12 @@ Utilice los siguientes pasos para habilitar el flujo de aprovisionamiento automa
 
 6. Seleccione el tipo de entorno de su implementación. Una prueba basada en suscripción le permitirá implementar un entorno CDS durante 30 días. 
 
-![Configuración de implementación](./media/1DeploymentSettings.png)
+![Configuración de implementación.](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
 > Seleccione **Aceptar** para reconocer los términos de servicio y luego seleccione **Listo** para volver a la configuración de implementación.
 
-![Consentimiento de implementación](./media/2DeploymentConsent.png)
+![Consentimiento de implementación.](./media/2DeploymentConsent.png)
 
 7. Opcional: Aplicar datos de demostración al entorno. Vaya a **Configuración avanzada**, seleccione **Personalizar configuración de base de datos SQL**, y establezca **Especificar un conjunto de datos para base de datos de aplicación** en **Demostración**.
 
@@ -67,7 +67,7 @@ Utilice los siguientes pasos para habilitar el flujo de aprovisionamiento automa
 
 9. Para confirmar que el entorno se ha implementado correctamente, seleccione **Iniciar sesión** e inicie sesión en el entorno.
 
-![Detalles del entorno de](./media/3EnvironmentDetails.png)
+![Detalles del entorno.](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Aplique actualizaciones al entorno de Finance
 
@@ -77,19 +77,19 @@ Es posible que deba aplicar actualizaciones de calidad a su entorno de Finance p
 
 1. En LCS, en la página **Detalles del entorno**, en la sección **Actualizaciones disponibles**, seleccione **Ver actualización**.
 
-![Ver actualizaciones](./media/5ViewUpdates.png)
+![Ver actualizaciones.](./media/5ViewUpdates.png)
 
 2. En la página **Actualizaciones binarias**, seleccione **Guardar paquete.**
 
-![Guardar paquete](./media/6SavePackage.png)
+![Guardar paquete.](./media/6SavePackage.png)
 
 3. Haga clic en **Seleccionar todo** y luego en **Guardar paquete**.
 
-![Revisar y guardar actualizaciones](./media/7ReviewAndSaveUpdates.png)
+![Revisar y guardar actualizaciones.](./media/7ReviewAndSaveUpdates.png)
 
 4. Introduzca un nombre y una descripción del paquete y luego seleccione **Guardar**. Dependiendo de la conexión a Internet, este proceso puede llevar algún tiempo.
 
-![Cargar paquete a la biblioteca de activos](./media/8UploadPackageToAssetsLibrary.png)
+![Cargar paquete a la biblioteca de activos.](./media/8UploadPackageToAssetsLibrary.png)
 
 5. Una vez guardado el paquete, seleccione **Hecho** y guarde este paquete en la biblioteca de activos de su proyecto LCS.
 
@@ -97,15 +97,15 @@ Guardar y validar el paquete puede tardar unos 15 minutos.
 
 6. Para aplicar la actualización, vaya a la página **Detalles del entorno** en LCS y seleccione **Mantener** > **Aplicar actualizaciones**.
 
-![Mantener entornos](./media/9MaintainEnvironment.png)
+![Mantener entornos.](./media/9MaintainEnvironment.png)
 
 7. En la lista de actualizaciones, seleccione el paquete que creó y seleccione **Aplicar**.
 
-![Aplicar actualizaciones](./media/10ApplyUpdates.png)
+![Aplicar actualizaciones.](./media/10ApplyUpdates.png)
 
 El mantenimiento del entorno llevará algún tiempo. Una vez que se haya completado, el entorno volverá a un estado implementado.
 
-![Entorno implementado](./media/11EnvironmentDeployed.png)
+![Entorno implementado.](./media/11EnvironmentDeployed.png)
 
 ## <a name="establish-a-dual-write-connection"></a>Establecer una conexión de escritura dual 
 
@@ -113,41 +113,41 @@ El mantenimiento del entorno llevará algún tiempo. Una vez que se haya complet
 2. En **Información de entorno de Common Data Service**, seleccione **Vincular a CDS para aplicaciones**.
 3. Una vez completado el vínculo, seleccione **Vincular a CDS para aplicaciones** otra vez. Se le redirigirá a Escritura dual en Finance.
 
-![Vincular con CDS](./media/12LinktoCDS.png)
+![Vincular con CDS.](./media/12LinktoCDS.png)
 
 4. Seleccione **Aplicar solución** para acceder a las entidades que se asignarán en la integración.
 
-![Aplicar soluciones](./media/13ApplySolutions.png)
+![Aplicar soluciones.](./media/13ApplySolutions.png)
 
 5. Seleccione ambas soluciones, **Asignación de tablas de doble escritura de Dynamics 365 Finance and Operations** y **Asignación de tablas de doble escritura de Dynamics 365 Project Operations** y luego seleccione **Aplicar**.
 
-![Confirmar soluciones](./media/14ConfirmSolutions.png)
+![Confirmar soluciones.](./media/14ConfirmSolutions.png)
 
 Una vez aplicadas las soluciones, las entidades de escritura dual se aplican al entorno.
 
-![Aplicación de soluciones](./media/15ApplyingSolutions.png)
+![Aplicación de soluciones.](./media/15ApplyingSolutions.png)
 
 Una vez aplicadas las entidades, todas las asignaciones disponibles se enumeran en el entorno.
 
-![Mapas de doble escritura](./media/15DWMappings.png)
+![Mapas de doble escritura.](./media/15DWMappings.png)
 
 ## <a name="refresh-the-data-entities-after-the-update"></a>Actualizar las entidades de datos después de la actualización
 
 1. En Finance, vaya al área de trabajo **Administración de datos**.
 
-![Espacio de trabajo de administración de datos](./media/16DataManagement.png)
+![Área de trabajo de administración de datos.](./media/16DataManagement.png)
 
 2. Seleccione el icono **Parámetros del marco**.
 
-![Parámetros del marco](./media/17FrameworkParameters.png)
+![Parámetros del marco.](./media/17FrameworkParameters.png)
 
 3. En la página **Configuración de entidad**, seleccione **Refrescar lista de entidades**.
 
-![Actualizar lista de entidades](./media/18RefreshEntityList.png)
+![Actualizar lista de entidades.](./media/18RefreshEntityList.png)
 
 La actualización tomará aproximadamente 20 minutos. Recibirá una alerta cuando termine.
 
-![Confirmación de actualización](./media/19RefreshConfirmation.png)
+![Confirmación de actualización.](./media/19RefreshConfirmation.png)
 
 ## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Actualizar la configuración de seguridad de Project Operations en Dataverse
 
@@ -188,17 +188,17 @@ La actualización tomará aproximadamente 20 minutos. Recibirá una alerta cuand
 4. Para actualizar la entidad, seleccione el nombre del mapa y luego seleccione **Actualizar entidades**. 
 
 
-![Actualizar Mapa](./media/20RefreshMapping.png)
+![Actualizar Mapa.](./media/20RefreshMapping.png)
 
 5. Tras completar la actualización, ejecute el mapa. Antes de habilitar el siguiente mapa, verifique que el mapa de la tabla esté en un estado de **Ejecución**. La ejecución de mapas con una mayor cantidad de requisitos previos puede llevar algún tiempo.
 
 Para ejecutar un mapa con requisitos previos, habilite la alternancia **Mostrar mapas de entidades relacionadas**. Si la tabla indica que **Sincronización inicial de requisitos previos** tiene el valor **No**, verifique que el indicador **Sincronización inicial** esté en **Desactivado** en todos los mapas de requisitos previos antes de ejecutarlo.
 
-![Ejecutar mapa](./media/21RunMap.png)
+![Ejecutar mapa.](./media/21RunMap.png)
 
 6. Valide que todos los mapas relacionados con el proyecto estén en estado de ejecución.
 
-![Todos los mapas en ejecución](./media/22AllMapsRunning.png)
+![Todos los mapas en ejecución.](./media/22AllMapsRunning.png)
 
 
 ## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Aplicar datos de configuración en CDS para Project Operations (opcional)

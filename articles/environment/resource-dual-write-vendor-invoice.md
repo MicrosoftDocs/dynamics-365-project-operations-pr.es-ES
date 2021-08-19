@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d4f1b0ad94b71dc4adc5b2b3423340c5fdb171eb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002301"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986512"
 ---
 # <a name="vendor-invoice-integration"></a>Integración de facturas de proveedores
 
@@ -36,7 +36,7 @@ En Project Operations, las facturas de proveedores relacionadas con el proyecto 
 
 La subcontabilidad de impuestos, la subcontabilidad de proveedores y otras contabilizaciones financieras se registran según corresponda en Dynamics 365 Finance cuando se contabiliza la factura del proveedor.
 
-![Integración de facturas de proveedores](media/DW7VendorInvoice.png)
+![Integración de facturas de proveedores.](media/DW7VendorInvoice.png)
 
 Cuando los registros se escriben en una entidad **Factura del proveedor** en Dataverse, comienza un proceso de aprobación automatizado de los registros. Si es necesario, el estado del proceso de aprobación automatizado se puede revisar en Dataverse yendo a **Configuración avanzada** > **Sistema** > **Trabajos del sistema**. Una vez completada la aprobación, el sistema crea registros de clases de transacciones de material en la entidad **Datos reales**.
 

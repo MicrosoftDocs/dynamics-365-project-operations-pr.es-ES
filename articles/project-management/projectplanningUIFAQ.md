@@ -2,17 +2,17 @@
 title: Solucionar problemas de trabajo en la cuadrícula de tareas
 description: Este tema proporciona la información necesaria para solucionar problemas al trabajar en la cuadrícula de tareas.
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213421"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989122"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Solucionar problemas de trabajo en la cuadrícula de tareas 
 
@@ -24,7 +24,7 @@ Este tema describe cómo solucionar los problemas que pueden surgir al trabajar 
 
 Project Operations requiere que las cookies de terceros estén habilitadas para representar la estructura de descomposición del trabajo. Si las cookies de terceros no están habilitadas, en lugar de ver tareas, verá una página en blanco al seleccionar la pestaña **Tareas** en la página **Proyecto**.
 
-![Pestaña en blanco cuando las cookies de terceros no están habilitadas](media/blankschedule.png)
+![Pestaña en blanco cuando las cookies de terceros no están habilitadas.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>Solución alternativa
@@ -52,11 +52,22 @@ Para los exploradores Microsoft Edge o Google Chrome, los siguientes procedimien
 Project Operations requiere que un parámetro del proyecto haga referencia al extremo de PEX. Este extremo es necesario para comunicarse con el servicio utilizado para representar la estructura de descomposición del trabajo. Si el parámetro no está habilitado, recibirá el error "El parámetro del proyecto no es válido". 
 
 ### <a name="workaround"></a>Solución alternativa
- ![El campo Extremo de PEX en el parámetro del proyecto](media/projectparameter.png)
 
 1. Agregue el campo **Extremo de PEX** a la página **Parámetros del proyecto**.
-2. Actualice el campo con el siguiente valor: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
-3. Quite el campo de la página **Parámetros del proyecto**.
+2. Identifique el tipo de producto que está utilizando. Este valor se usa cuando se establece el extremo de PEX. Tras la recuperación, el tipo de producto ya está definido en el extremo de PEX. Mantenga ese valor. 
+   
+    ![Campo Extremo de PEX en el parámetro del proyecto.](media/pex-endpoint.png)
+
+3. Actualice el campo con el siguiente valor: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | Tipo de producto                         | Tipo de parámetro |
+   |--------------------------------------|----------------|
+   | Project for the Web en organización predeterminada   | type=0         |
+   | Project for the Web en organización denominada CDS | type=1         |
+   | Project Operations                   | type=2         |
+   
+4. Quite el campo de la página **Parámetros del proyecto**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Privilegios de Project para web
 
@@ -67,7 +78,7 @@ Project Operations se basa en un servicio de programación externo. El servicio 
 
 1. Vaya a **Configuración > Seguridad > Usuarios > Usuarios de la aplicación**.  
 
-   ![Lector de aplicación](media/applicationuser.jpg)
+   ![Lector de aplicación.](media/applicationuser.jpg)
    
 2. Haga doble clic en el registro de usuario de la aplicación para comprobar lo siguiente:
 
@@ -76,7 +87,7 @@ Project Operations se basa en un servicio de programación externo. El servicio 
  
 3. Si este usuario no existe, puede crear un registro de usuario nuevo. Seleccione **Nuevos usuarios**. Cambie el formulario de entrada a **Usuario de la aplicación** y agregue el **Id. de aplicación**.
 
-   ![Detalles del usuario de la aplicación](media/applicationuserdetails.jpg)
+   ![Detalles del usuario de la aplicación.](media/applicationuserdetails.jpg)
 
 4. Compruebe que al usuario se le haya asignado la licencia correcta y que el servicio esté habilitado en los detalles de los planes de servicio de la licencia.
 5. Compruebe que el usuario pueda abrir project.microsoft.com.

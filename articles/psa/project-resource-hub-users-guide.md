@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f4f93ee0c0bdb9fc6a9a3c6a75f6c3d178766d0b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009097"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987277"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Manual de usuario para Project Resource Hub
 
@@ -52,28 +52,28 @@ Antes de comenzar a usar la aplicación del centro de recursos de proyecto, debe
 1.  Al iniciar sesión en la aplicación móvil verá la página MyApps con una lista de aplicaciones a las que tiene acceso. 
 2.  Seleccione **Centro de recursos de proyecto**.
 
-![Elegir una aplicación](media/chooseApp_1.png "Elegir una aplicación")
+![Elija una aplicación.](media/chooseApp_1.png "Elegir una aplicación")
 
 **La barra de navegación**
 
-Use la barra de navegación para llegar a su área de trabajo, crear un nuevo registro, buscar o realizar otras tareas. Para obtener acceso a más comandos, pulse el ![botón Más](media/MoreButton.png "Botón Más")
+Use la barra de navegación para llegar a su área de trabajo, crear un nuevo registro, buscar o realizar otras tareas. Para obtener acceso a más comandos, pulse el ![botón Más.](media/MoreButton.png "Botón Más")
 
-![Barra de navegación](media/NavBar_2.png "Barra de navegación")
+![Barra de navegación.](media/NavBar_2.png "Barra de navegación")
 
 **Favoritos y registros usados recientemente**
 
 Las secciones Favoritos y Usados recientemente proporcionan acceso rápido a sus registros, vistas y paneles. 
 
-- Para acceder a estas secciones, pulse el botón **Menú** ![botón Menú](media/MenuButton.png "Botón de menú") en la barra de navegación y después pulse el botón **Favoritos y recientes** ![botón de Favoritos](media/FavButton.png "Botón Favoritos").
+- Para acceder a estas secciones, pulse el **Menú** ![botón Menú.](media/MenuButton.png "Botón de menú") en la barra de navegación y luego pulse el botón **Favoritos y recientes** ![botón Fav](media/FavButton.png "Botón Favoritos").
 
 - Para anclar un elemento como favorito, en la lista de elementos **Usados recientemente**, pulse la chincheta. Esto anclará y mover el elemento a Favoritos.
 
-  ![Favoritos y elementos recientes](media/Favs_3.png "Favoritos y elementos recientes")
+  ![Favoritos y elementos recientes.](media/Favs_3.png "Favoritos y elementos recientes")
  
-## <a name="enter-time"></a>Especificar hora
+## <a name="enter-time"></a>Especificar tiempo
 Especifique sus horas al menos semanalmente —o con la frecuencia solicitada por sus jefes— para garantizar que se factura a los clientes y a usted se le abona correctamente.
 
-1. Seleccione el botón del menú ![botón del menú](media/MenuButton.png "Botón de menú") y **Entradas de tiempo**. Esto activa el calendario.
+1. Pulse el botón del menú ![botón Menú.](media/MenuButton.png "Botón de menú") y luego pulse **Entradas de tiempo**. Esto activa el calendario.
 
 2. Seleccione el botón **Anterior** o **Siguiente** para ver el calendario de la semana anterior o la próxima. Pulse **Hoy** para volver a la semana actual.
 

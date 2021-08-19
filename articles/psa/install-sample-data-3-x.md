@@ -10,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 19fae15bf309936cab415c2a71a414ab37837fce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007297"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985567"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instalación de datos de ejemplo para la aplicación Project Service
 
@@ -86,7 +86,7 @@ Debe planificar para que el equipo permanezca conectado a una red, y para que la
 El equipo debe tener la función de protector de pantalla desactivada. De lo contrario, las credenciales de sesión para la instalación se pueden perder cuando se active el protector de pantalla (a menos que mantenga la sesión activa todo el tiempo).
 
 > [!div class="mx-imgBorder"]
-> ![Captura de pantalla de la configuración del protector de pantalla con el protector de pantalla desactivado](media/sample-data-1.png)
+> ![Captura de pantalla de la configuración del protector de pantalla con el protector de pantalla desactivado.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Descargar y desempaquetar
 
@@ -142,7 +142,7 @@ El paquete de datos de demostración requiere seis usuarios. Para que el paquete
 3. Abra **PkgFolder** y, a continuación, busque y abra **ImportUserMapFile.xml**. Actualice los campos **Nuevo=** a las direcciones de correo electrónico de los usuarios correspondientes en el sistema.
 
    > [!div class="mx-imgBorder"]
-   > ![Captura de pantalla de UserMapFile](media/sample-data-7.png)
+   > ![Captura de pantalla de UserMapFile.](media/sample-data-7.png)
 
 4. Si el usuario de nombre completo "Spencer Low" tiene otra id. de usuario que **“spencerl”**, necesita actualizar un archivo adicional. Abra **DemoDataPreImportConfig.xml** y busque la etiqueta **userstocreateandconfigure**. Actualice la etiqueta **\<login\>** con el loginId (sensible a mayúsculas y minúsculas). 
 
@@ -172,7 +172,7 @@ El paquete de datos de demostración requiere seis usuarios. Para que el paquete
 5. Seleccione **Siguiente** hasta que vea el diálogo **Configurar datos de demostración**.
 
    > [!div class="mx-imgBorder"]
-   > ![Captura de pantalla de la ventana de estado del instalador de los datos de demostración](media/sample-data-3.png)
+   > ![Captura de pantalla de la ventana de estado del instalador de los datos de demostración.](media/sample-data-3.png)
 
 6. Antes de continuar, tenga en cuenta que instalar datos de ejemplo puede tardar hasta una hora (normalmente ~10 minutos). Deberá asegurarse de que el equipo permanecerá encendido y conectado a una red durante todo el proceso de instalación, y que la sesión permanece activa.   
 
@@ -191,10 +191,10 @@ Una vez que los datos de ejemplo se carguen completamente, inicie sesión como e
 - Si la aplicación Field Service está instalada, vaya a **Project Service** > **Configuración** > **Listas de precios**. Confirme que existen tasas de facturación y las tasas de coste. Vaya a **Field Service** > **Configuración** > **Listas de precios** y compruebe que hay tasas de facturación y tasas de coste, con la divisa adecuada para cada país o región en el conjunto de datos.
 
   > [!div class="mx-imgBorder"]
-  > ![Captura de pantalla de listas de precios activos](media/sample-data-4.png)
+  > ![Captura de pantalla de listas de precios activos.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Captura de pantalla de unidades organizativas activas](media/sample-data-5.png)
+  > ![Captura de pantalla de unidades organizativas activas.](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Notas técnicas
 
@@ -295,7 +295,7 @@ Si necesita cambiar las horas laborables de los recursos reservables de ejemplo,
 Seleccione un usuario (por ejemplo, Spencer Low) y cambie las horas laborables de Spencer por las horas que desea aplicar a varios usuarios. Vaya a **Universal Resource Scheduling** > **Configuración** > **Plantilla de horas laborables** y edite el registro **Plantilla de trabajo predeterminada**. En el campo **Recurso de plantilla**, seleccione un usuario con las horas laborables que desea aplicar a otros recursos. Vaya **Universal Resource Scheduling** > **Programación** > **Recursos** > .**Recursos reservables activos** Seleccione los recursos que desee cambiar y, a continuación seleccione **Establecer calendario**. En la lista desplegable **Plantilla de trabajo** , seleccione la plantilla **Hora laborable predeterminada** u otra plantilla con el recurso de plantilla correcto. Cuando vuelva al tablero de programación, verá que los recursos ahora tienen horas laborables actualizadas.
 
 > [!div class="mx-imgBorder"]
-> ![Captura de pantalla de recursos reservables activos](media/sample-data-6.png)
+> ![Captura de pantalla de recursos reservables activos.](media/sample-data-6.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
