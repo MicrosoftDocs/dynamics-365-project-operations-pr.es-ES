@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.custom: intro-internal
-ms.openlocfilehash: 41265534661e51565bf31105ef69cec9b3b181c3
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 5c0f98a6f08129ebef9b6d3fed1cc85969aa347c815a643d3c8dd639b42c0e8c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6367912"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008247"
 ---
 # <a name="resource-management-modes-overview"></a>Información general sobre los modos de administración de recursos
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations admite dos modos para ejecutar el flujo de las r
 ## <a name="central-mode"></a>Modo central
 Para las organizaciones que centralizan la asignación de recursos a los proyectos, el modo Central proporciona una forma de garantizar que los gerentes de proyecto puedan definir los requisitos de recursos a nivel de proyecto. El cumplimiento de los requisitos de recursos se delega a un administrador de recursos. Los administradores de proyecto pueden aceptar o rechazar los recursos propuestos por el administrador de recursos.
 
-![Modo Central](./media/resource-management-central.png)
+![Modo central.](./media/resource-management-central.png)
 
 Para administrar recursos con el modo Central, consulte:
 
@@ -37,7 +37,7 @@ Para administrar recursos con el modo Central, consulte:
 ## <a name="hybrid-mode"></a>Modo Híbrido
 Para las organizaciones que requieren flexibilidad en la asignación de recursos, el modo híbrido permite tanto a los administradores de proyectos como a los administradores de recursos la capacidad de reservar recursos.
 
-![Modo Híbrido](./media/resource-management-hybrid.png)
+![Modo híbrido.](./media/resource-management-hybrid.png)
 
 Además del proceso del modo Central admitido, consulte los siguientes temas para administrar todos los demás flujos de reserva admitidos en modo Híbrido:
 

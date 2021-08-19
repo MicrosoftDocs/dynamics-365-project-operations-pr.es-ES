@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c756caec6cd7eda8f891446d3e8309aca3b2482
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 551d511fda83857459a0488cfb48a9c7829171d2e4bd526ab27b4ee74b21910d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369640"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005907"
 ---
 # <a name="project-service-automation-overview"></a>Información general de Project Service Automation
 
@@ -56,7 +56,7 @@ La siguiente ilustración muestra cómo se sincronizan los datos como parte de l
 > [!NOTE]
 > No todas las plantillas están disponibles actualmente. Las plantillas se publicarán a medida que se completen.
 
-[![Integración de Project Service Automation con Finance](./media/PSA-integration.png)](./media/PSA-integration.png)
+[![Integración de Project Service Automation con Finance.](./media/PSA-integration.png)](./media/PSA-integration.png)
 
 ## <a name="system-requirements-for-finance"></a>Requisitos del sistema para Finance
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 579a07e117cf00727813385da28d47f7e42f0127
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369487"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007347"
 ---
 # <a name="project-resourcing-home-page"></a>Página principal de recursos de proyectos
 
@@ -36,11 +36,11 @@ Un desafío para los jefes de proyectos y los administradores de recursos durant
 - Estimar costes y determinar un presupuesto inicial, basado en roles y recursos asignados para un proyecto.
 - Usar roles para estimar el número de reservas de recursos necesarios para cada interacción.
 - Estimar el número de recursos necesarios para todo el ciclo de vida de un proyecto.
-- Hacer un borrador de una estructura de descomposición del trabajo (WBS) utilizando las asignaciones de recursos iniciales.
+- Elaborar un borrador de estructura de descomposición del trabajo (WBS) mediante el uso de las asignaciones de recursos iniciales.
 
-[![Ciclo de vida del proyecto](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
+[![Ciclo de vida del proyecto.](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
 
-A medida que avanza la planificación del proyecto, los recursos planificados se pueden reemplazar con recursos de personal. El jefe de proyectos también puede volver atrás y actualizar las reservas de dotación de recursos durante cualquier etapa del proyecto.
+A medida que avanza la planificación del proyecto, los recursos planificados se pueden reemplazar por recursos de personal. El jefe de proyectos también puede volver atrás y actualizar las reservas de dotación de recursos durante cualquier etapa del proyecto.
 
 Los siguientes temas proporcionan información sobre las tareas que deben completarse cuando trabaja en proyectos de dotación de recursos.
 

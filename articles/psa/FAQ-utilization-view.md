@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992855"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007167"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Ver el uso imputable de los recursos
 
@@ -29,7 +29,7 @@ ms.locfileid: "5992855"
  
 La vista **Uso** de la página **Uso de recursos** de Project Service muestra el uso imputable de cada recurso que se puede reservar. Puesto que la vista se basa en el tablero de programación, encontrará muchas funciones iguales.
 
-> ![Captura de Vista de uso](media/FAQ-utilization-1.png)
+> ![Captura de Vista de uso.](media/FAQ-utilization-1.png)
  
 
 El cálculo de uso imputable funciona de la siguiente manera:
@@ -48,7 +48,7 @@ El uso objetivo se puede establecer en cualquier rol predeterminado del recurso 
 2. Seleccione un recurso para abrir el registro. 
 3. En la pestaña **Project Service**, puede establecer el uso objetivo de un recurso.
 
-> ![Captura de pantalla de uso de la pestaña Project Service para establecer uso de destino](media/FAQ-utilization-2.png)
+> ![Captura de pantalla de uso de la pestaña Project Service para establecer uso de destino.](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Definir un uso objetivo en un rol
 
@@ -56,7 +56,7 @@ El uso objetivo se puede establecer en cualquier rol predeterminado del recurso 
 2. Seleccione un rol y abra el registro. 
 3. Establezca el uso de destino para el rol.
 
-> ![Captura de pantalla de uso de Roles de recursos para establecer el uso de destino](media/FAQ-utilization-3.png)
+> ![Captura de pantalla de uso de Roles de recursos para establecer el uso de destino.](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Calcular el uso imputable para un recurso
 

@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 23b002559dcbb9118ccb2b36d70707ccb37b19ad
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003066"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005772"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementar campos personalizados para la aplicación móvil Microsoft Dynamics 365 Project Timesheet en iOS y Android
 
@@ -153,13 +153,13 @@ Para los campos de tipo **Fecha**, esta propiedad pasa el valor de la fecha del 
 
 A continuación se muestra una captura de pantalla de la aplicación móvil de la creación de una entrada de hoja de horas. Muestra los campos listos para usar y un campo personalizado en la sección "Entrada de tiempo" denominada "Cadena de prueba" con un valor de enumeración de "Segunda opción" ya establecido.
 
-![Campo personalizado de cadena de prueba en la aplicación](media/timesheet-entry.jpg)
+![Campo personalizado de cadena de prueba en la aplicación.](media/timesheet-entry.jpg)
 
 
 
 A continuación se muestra una captura de pantalla de la aplicación móvil del usuario que selecciona una de las opciones de enumeración disponibles para el campo personalizado "Cadena de prueba".  Las dos opciones son "Primera opción" y "Segunda opción" que se muestran como botones de opción. La segunda opción está actualmente seleccionada.
 
-![Botones de opción para el campo personalizado Cadena de prueba](media/enum-option.jpg)
+![Botones de opción para el campo personalizado Cadena de prueba.](media/enum-option.jpg)
 
 
 
@@ -171,7 +171,7 @@ Tenga en cuenta que los campos personalizados no tienen que tener ningún regist
 
 A continuación se muestra una captura de pantalla de Visual Studio del árbol de objetos de la aplicación. Muestra una extensión de la tabla TSTimesheetLine con el campo TestLineString agregado como un campo personalizado.
 
-![Cadena de líneas](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Cadena de líneas.](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Usar la cadena de comando en el método buildCustomFieldList de la clase TSTimesheetSettings para mostrar un campo en la sección de entrada de la hoja de horas
 
@@ -317,11 +317,11 @@ final class TSTimesheetEntryService_Extension
 
 A continuación se muestra una captura de pantalla de la aplicación móvil de un usuario que ve una hoja de horas. Se ha seleccionado el botón "Más información" en la esquina superior derecha para mostrar la opción "Ver más detalles".  
 
-![Comando Ver más detalles](media/show-more.png)
+![Comando Ver más detalles.](media/show-more.png)
 
 A continuación se muestra una captura de pantalla de la aplicación móvil que muestra la sección "Más" de una hoja de horas. Se ha agregado un campo personalizado llamado "Índice de uso de esta hoja de horas (campo personalizado calculado)" a la sección de encabezado de la hoja de horas. Se establece un valor de solo lectura de "0,667" en el campo personalizado.
 
-![Sección Más](media/more-section.jpg)
+![Sección Más.](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Extienda la tabla TSTimesheetTable para que tenga un campo personalizado
 
@@ -414,7 +414,7 @@ La lógica existente para la funcionalidad de la hoja de horas en la base de dat
 
 Desde los parámetros del proyecto, puede hacer que los campos predefinidos sean de solo lectura u que estén ocultos en la aplicación móvil. Configure las opciones en la sección **Hojas de horas móviles** en la pestaña **Hoja de horas** de la página **Parámetros de gestión de proyectos y contabilidad**.
 
-![Parámetros de proyecto](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Parámetros de proyecto.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Cambiar las actividades que están disponibles para su selección mediante extensiones
 

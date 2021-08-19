@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7d8a198b3bfd71ae08bc338d17896519b5ffd6b8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000187"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009687"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Aplicar datos de demostración a un entorno de Finance hospedado en la nube
 
@@ -22,40 +22,40 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no en e
 
 1. En su proyecto LCS, abra la página **Detalles del entorno**. Tenga en cuenta que incluye los detalles necesarios para conectarse al entorno mediante el Protocolo de escritorio remoto (RDP).
 
-![Detalles del entorno de](./media/1EnvironmentDetails.png)
+![Detalles del entorno.](./media/1EnvironmentDetails.png)
 
 El primer conjunto de credenciales resaltadas son las credenciales de la cuenta local y contienen un hipervínculo a la conexión de escritorio remoto. Las credenciales incluyen el nombre de usuario y la contraseña del administrador del entorno. El segundo conjunto de credenciales se utiliza para iniciar sesión en SQL Server en este entorno.
 
 2. Conéctese remotamente con el entorno mediante el hipervínculo de **Cuentas locales** y use las **Credenciales de cuenta local** para autenticar.
 3. Vaya a **Servicios de Información de Internet** > **Grupos de aplicaciones** > **AOSService** y detenga el servicio. Está deteniendo el servicio en este punto para poder continuar reemplazando la base de datos SQL.
 
-![Detener AOS](./media/2StopAOS.png)
+![Detener AOS.](./media/2StopAOS.png)
 
 4. Vaya a **Servicios** y detenga los siguientes dos elementos:
 
 - Microsoft Dynamics 365 Unified Operations: Servicio de gestión de lotes
 - Microsoft Dynamics 365 Unified Operations: marco de importación y exportación de datos
 
-![Detener servicios](./media/3StopServices.png)
+![Detener servicios.](./media/3StopServices.png)
 
 5. Abrir Microsoft SQL Server Management Studio. Inicie sesión con las credenciales del servidor SQL y use el usuario axdbadmin y la contraseña de la página **Detalles de entornos** LCS.
 
-![SQL Server Management Studio](./media/4SSMS.png)
+![SQL Server Management Studio.](./media/4SSMS.png)
 
 6. En el Explorador de objetos, **Bases de datos** y localice **AXDB**. Reemplazará la base de datos con una nueva base de datos que se encuentra en el [Centro de descargas](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
 7. Copie el archivo zip en la VM a la que está conectado de forma remota y extraiga el contenido del zip.
 8. En SQL Server Management Studio, haga clic con el botón derecho en **AxDB** y luego seleccione **Tareas** > **Restaurar** > **Base de datos**.
 
-![Restaurar base de datos](./media/5RestoreDatabase.png)
+![Restaurar base de datos.](./media/5RestoreDatabase.png)
 
 9. Seleccione **Dispositivo de origen** y navegue hasta el archivo extraído del zip que copió.
 
-![Dispositivos de origen](./media/6SourceDevice.png)
+![Dispositivos de origen.](./media/6SourceDevice.png)
 
 10. Seleccione **Opciones** y luego seleccione **Sobrescribir la base de datos existente** y **Cerrar las conexiones existentes a la base de datos de destino**. 
 11. Seleccione **Aceptar**.
 
-![Restaurar configuracion](./media/7RestoreSetting.png)
+![Restaurar configuracion.](./media/7RestoreSetting.png)
 
 Recibirá la confirmación de que la restauración de AXDB se realizó correctamente. Después de recibir esta confirmación, puede cerrar SQL Services Management Studio.
 
@@ -66,17 +66,17 @@ Recibirá la confirmación de que la restauración de AXDB se realizó correctam
 15. Ejecute el archivo .ext con su dirección de usuario en el campo **Dirección de correo electrónico**. 
 16. Seleccione **Enviar**.
 
-![Aprovisionamiento de usuarios administradores](./media/8AdminUserProvisioning.png)
+![Aprovisionamiento de usuarios administradores.](./media/8AdminUserProvisioning.png)
 
 Esto puede tardar un par de minutos en completarse. Debería recibir un mensaje de confirmación de que el usuario administrador se actualizó correctamente.
 
 17. Por último, ejecute el símbolo del sistema como administrador y realice iisreset
 
-![Restablecimiento de IIS](./media/9IISReset.png)
+![Restablecer IIS.](./media/9IISReset.png)
 
 18. Cierre la sesión de escritorio remoto y use la página **Detalles del entorno** LCS para iniciar sesión en el entorno y confirmar que funciona como se esperaba.
 
-![Finance and Operations](./media/10FinanceAndOperations.png)
+![Finance and Operations.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

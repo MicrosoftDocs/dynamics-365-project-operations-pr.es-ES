@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da7add25634cd1d7ff36c7a9b57b1efa6ad765d7
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369712"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007527"
 ---
 # <a name="project-management-and-accounting-overview"></a>Información general sobre la gestión de proyectos y contabilidad
 
@@ -34,14 +34,14 @@ Un proyecto es un grupo de actividades que está diseñado para proporcionar un 
 ## <a name="projects-across-industries"></a>Proyectos en todos los sectores
 La administración de proyectos y la funcionalidad de contabilidad se pueden usar en múltiples industrias, como se muestra en la siguiente ilustración.
 
-[![Proyectos en todos los sectores](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Proyectos en todos los sectores.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 En un centro de llamadas, se puede usar un vale para describir el conjunto de acciones necesarias para resolver una llamada. Las empresas de consultoría, como las organizaciones de consultoría técnica o administrativa o las agencias de publicidad, se refieren a sus actividades como proyectos. En marketing, una campaña representa un conjunto de trabajos que debe entregarse. En la fabricación basada en proyectos, un pedido de producción se refiere a diversos trabajos que se deben hacer para producir algunos productos terminados. Cualquiera sea el nombre que se use para ellos, estos proyectos involucran recursos, programaciones y costes, y la gestión de proyectos y la funcionalidad de contabilidad pueden ayudar con la planificación, ejecución y análisis de estos proyectos.
 
 ## <a name="project-phases"></a>Fases del proyecto
 Aunque el siguiente flujo de proceso está dirigido a proyectos externos o proyectos que se completan para uno o más clientes, la funcionalidad también se aplica a proyectos internos de solo coste. 
 
-![3 fases de un proyecto](./media/3-stages-of-a-project.png) 
+![3 fases de un proyecto.](./media/3-stages-of-a-project.png) 
 
 Como se muestra en la ilustración anterior, la gestión de proyectos y la contabilidad se pueden dividir en tres fases:
 
@@ -50,11 +50,11 @@ Como se muestra en la ilustración anterior, la gestión de proyectos y la conta
 3.  Analizar
 
 ## <a name="initiate-the-project"></a>Iniciar el proyecto
-Durante el inicio del proyecto, ocurren varios procesos clave. Puede utilizar una cotización de proyecto para comunicar al cliente la mano de obra, los gastos y los materiales estimados. Puede registrar los términos de facturación, los límites y los acuerdos en un contrato de proyecto. Puede utilizar una estructura de descomposición del trabajo (WBS) para planificar y estimar el trabajo. Puede configurar previsiones y presupuestos para guiar la ejecución del proyecto. La siguiente ilustración muestra la estructura de un proyecto.[![estructura del proyecto](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Durante el inicio del proyecto, ocurren varios procesos clave. Puede utilizar una cotización de proyecto para comunicar al cliente la mano de obra, los gastos y los materiales estimados. Puede registrar los términos de facturación, los límites y los acuerdos en un contrato de proyecto. Puede utilizar una estructura de descomposición del trabajo (WBS) para planificar y estimar el trabajo. Puede configurar previsiones y presupuestos para guiar la ejecución del proyecto. La siguiente ilustración muestra la estructura de un proyecto.[![estructura del proyecto.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Crear presupuestos de proyecto
 
-En la fase inicial de ventas de un proyecto, una cotización de proyecto le permite ofrecer a un cliente una oferta sin compromiso. Un presupuesto puede incluir elementos como los artículos y servicios que se presupuestan, información de contacto básica, acuerdos comerciales especiales y descuentos, y posibles impuestos y recargos.
+En la fase inicial de ventas de un proyecto, un presupuesto de proyecto le permite ofrecer a un cliente una oferta no vinculante. Un presupuesto puede incluir elementos como los artículos y servicios que se presupuestan, información de contacto básica, acuerdos comerciales especiales y descuentos, y posibles impuestos y recargos.
 
 También puede emitir una carta de garantía para una transacción de presupuesto de proyecto entre su organización y el cliente. Una vez creado el presupuesto del proyecto, puede crear la solicitud de carta de garantía para el cliente y enviarla al banco. Una vez que el banco haya aprobado la solicitud, se emite la carta de garantía al cliente. 
 
