@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ccca2f387ce3abef3b24cb96fdbcc69f3c0c075b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002282"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991507"
 ---
 # <a name="security-model"></a>Modelo de seguridad
 
@@ -58,7 +58,7 @@ Project Operations no crea un grupo a través de una acción implícita y solo l
 
 La búsqueda de miembros del grupo en el diálogo **Administración de grupos** se limita a aquellos que están configurados como parte del grupo de seguridad del entorno. Para obtener más información, consulte [Controlar el acceso de usuario a entornos: grupos de seguridad y licencias](/power-platform/admin/control-user-access).
 
-![Modo de grupo](./media/groupsmode.png)
+![Modo de grupo.](./media/groupsmode.png)
 
 1. El proyecto lo crea y posee el usuario que lo crea.
 2. El propietario del proyecto se actualiza en el equipo.

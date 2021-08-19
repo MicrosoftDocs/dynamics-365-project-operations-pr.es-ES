@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d348515f8bd64df8aaab3a8a6dbee09237973f11
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 425cd38c204a67cda9ce03bdc96b728e03499c87aeddd6f62924b57e16b21167
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995597"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989977"
 ---
 # <a name="start-a-new-lcs-project"></a>Iniciar un proyecto de LCS nuevo
 
@@ -24,13 +24,13 @@ Use Lifecycle Services (LCS) para administrar entornos Dynamics 365 Project Oper
 3. Seleccione el signo más ( **+** ) para crear un nuevo proyecto.
 4. Para obtener una vista previa, seleccione el tipo de proyecto **Migrar, crear soluciones y aprender**.
 
-  ![Elegir el tipo de proyecto LCS](./media/create-lcs-1.png)
+  ![Elija el tipo de proyecto LCS.](./media/create-lcs-1.png)
 
 5. Dé nombre al proyecto. 
 6. Seleccione **Finance and Operations** como nombre del producto y seleccione el sector y la metodología. 
 7. Seleccione **Crear**.
 
-![Crear proyecto LCS](./media/create-lcs-2.png)
+![Cree un proyecto LCS.](./media/create-lcs-2.png)
 
 Utilice este proyecto LCS para implementar su entorno de Project Operations.
 

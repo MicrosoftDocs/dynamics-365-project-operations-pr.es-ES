@@ -6,12 +6,12 @@ ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 413c9821f251fa37f5cfa082281be662d6be670a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cbc6bcbfa527486df4c740c52cec8c4be1dabe0478783fb7d2e71a65f18c050f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012607"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991057"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Configurar la contabilidad para proyectos facturables
 
@@ -47,15 +47,15 @@ Complete los siguientes pasos para crear un nuevo perfil de costes e ingresos de
 
     - **Costes de registro, hora**:
 
-       - *Sin libro mayor*: el coste de las transacciones de tiempo no se contabilizará en el Libro mayor cuando se registre el diario de integración de Operaciones del proyecto. Sin embargo, el contable puede registrar costes utilizando la función Registrar costes en un momento posterior.
+       - *Sin libro mayor*: el coste de las transacciones de tiempo no se contabilizará en el Libro mayor cuando se registre el diario de integración de Project Operations. Sin embargo, el contable puede registrar costes utilizando la función Registrar costes en un momento posterior.
        - **Saldo**: el coste de las transacciones de tiempo se cargará al tipo de cuenta del Libro mayor, *WIP: valor de costo* y se abonará a la *Cuenta de asignación de nómina* en la configuración de registro del Libro mayor. El contable utilizará la función Registrar costes para mover este coste de una cuenta de saldo a una cuenta de pérdidas y ganancias de forma periódica.
-       - **Pérdidas y ganancias**: al registrar el diario de integración de Operaciones del proyecto, el coste de la transacción de tiempo se cargará al tipo de cuenta del Libro mayor *Coste*, y se abonará a la *Cuenta de asignación de nómina* definida en la pestaña **Coste** de la página **Configuración de registro contable** (**Gestión de proyectos y contabilidad** \> **Configuración** \> **Registro** \> **Configuración de registro contable**). Esta es la configuración más común para transacciones de tiempo y material.
+       - **Pérdidas y ganancias**: al registrar el diario de integración de Project Operations, el coste de la transacción de tiempo se cargará al tipo de cuenta del Libro mayor *Coste*, y se abonará a la *Cuenta de asignación de nómina* definida en la pestaña **Coste** de la página **Configuración de registro contable** (**Gestión de proyectos y contabilidad** \> **Configuración** \> **Registro** \> **Configuración de registro contable**). Esta es la configuración más común para transacciones de tiempo y material.
         - *Nunca al Libro mayor*: el coste de las transacciones de tiempo nunca se contabilizará en el Libro mayor.
 
     - **Registro de costes, gasto**:
 
-         - **Saldo**: al registrar el diario de integración de Operaciones del proyecto, el coste de la transacción de gastos se cargará en el tipo de cuenta del Libro mayor *WIP: valor de coste* como se define en la pestaña **Coste** de la página **Configuración de registro contable** y se abona en la cuenta de compensación en la línea del diario. Las cuentas de compensación predeterminadas para gastos se definen en **Gestión de proyectos y contabilidad** > **Configuración** \> **Registro** \> **Cuenta de compensación predeterminada para gastos**. El contable utilizará la función **Registrar costes** para mover este coste desde la cuenta de saldo a la cuenta de pérdidas y ganancias de forma periódica.
-        - **Pérdidas y ganancias**: al registrar el diario de integración de Operaciones del proyecto, el coste de la transacción de gastos se cargará en el tipo de cuenta del Libro mayor *WIP: valor de coste* como se define en la pestaña **Coste** de la página **Configuración de registro contable** y se abona en la cuenta de compensación en la línea del diario. Las cuentas de compensación predeterminadas para gastos se definen en **Gestión de proyectos y contabilidad** \> **Configuración** \> **Registro** \> **Cuenta de compensación predeterminada para gastos**.
+         - **Saldo**: al registrar el diario de integración de Project Operations, el coste de la transacción de gastos se cargará en el tipo de cuenta del Libro mayor *WIP: valor de coste* como se define en la pestaña **Coste** de la página **Configuración de registro contable** y se abona en la cuenta de compensación en la línea del diario. Las cuentas de compensación predeterminadas para gastos se definen en **Gestión de proyectos y contabilidad** > **Configuración** \> **Registro** \> **Cuenta de compensación predeterminada para gastos**. El contable utilizará la función **Registrar costes** para mover este coste desde la cuenta de saldo a la cuenta de pérdidas y ganancias de forma periódica.
+        - **Pérdidas y ganancias**: al registrar el diario de integración de Project Operations, el coste de la transacción de gastos se cargará en el tipo de cuenta del Libro mayor *WIP: valor de coste* como se define en la pestaña **Coste** de la página **Configuración de registro contable** y se abona en la cuenta de compensación en la línea del diario. Las cuentas de compensación predeterminadas para gastos se definen en **Gestión de proyectos y contabilidad** \> **Configuración** \> **Registro** \> **Cuenta de compensación predeterminada para gastos**.
       
     - **Registrar costes - elemento**:
 
@@ -74,7 +74,7 @@ Complete los siguientes pasos para crear un nuevo perfil de costes e ingresos de
         - **Saldo**: al publicar la propuesta de factura del proyecto, se abonará una transacción en cuenta (hito de facturación) en el tipo de cuenta de Libro mayor *WIP facturado, en cuenta* como se define en la pestaña **Ingresos** de la página **Configuración de registro contable** y se carga en la cuenta de saldo del cliente.
          - **Pérdidas y ganancias**: al publicar la propuesta de factura del proyecto, se abonará una transacción en cuenta (hito de facturación) en el tipo de cuenta de Libro mayor *Ingreso facturado, en cuenta* como se define en la pestaña **Ingresos** de la página **Configuración de registro contable** y se carga en la cuenta de saldo del cliente. Las cuentas de saldo de clientes se definen en **Clientes** \> **Configuración** \> **Perfiles de registro de clientes**.
 
-   Cuando define los perfiles de contabilización para los métodos de facturación de tiempo y material, tiene la opción de acumular ingresos por tipo de transacción (hora, gasto, artículo y tarifa). Si la opción **Acumular ingresos** está configurada en **Sí**, las transacciones de ventas no facturadas del diario de Integración de Operaciones del Proyecto se registrarán en el libro mayor. El valor de las ventas se carga a **Trabajo en curso - cuenta de valor de ventas** y se abona a la cuenta **Ingresos acumulados - valor de ventas** que se configuró en la página **Configuración de registro contable**, en la pestaña **Ingresos**. 
+   Cuando define los perfiles de contabilización para los métodos de facturación de tiempo y material, tiene la opción de acumular ingresos por tipo de transacción (hora, gasto, artículo y tarifa). Si la opción **Acumular ingresos** está configurada en **Sí**, las transacciones de ventas no facturadas del diario de Integración de Project Operations se registrarán en el libro mayor. El valor de las ventas se carga a **Trabajo en curso - cuenta de valor de ventas** y se abona a la cuenta **Ingresos acumulados - valor de ventas** que se configuró en la página **Configuración de registro contable**, en la pestaña **Ingresos**. 
   
   > [!NOTE]
   > La opción **Acumular ingresos** está disponible solo cuando el tipo de transacción respectivo **Coste** se contabiliza en la cuenta de pérdidas y ganancias.
@@ -101,23 +101,23 @@ Complete los siguientes pasos para crear un nuevo perfil de costes e ingresos de
 
 Tiempo y materiales: no WIP
 
-![Perfil de costes e ingresos, tiempo y materiales: sin WIP](media/time-material-no-wip.png)
+![Perfil de costes e ingresos, tiempo y materiales: sin WIP.](media/time-material-no-wip.png)
 
 Tiempo y materiales: WIP (ingresos)
 
-![Perfil de costes e ingresos, tiempo y materiales: WIP](media/time-material-with-wip.png)
+![Perfil de costes e ingresos, tiempo y materiales: WIP.](media/time-material-with-wip.png)
 
 Precio fijo: sin WIP
 
-![Perfil de costes e ingresos, precio fijo: sin WIP](media/fixed-price-no-wip.png)
+![Perfil de costes e ingresos, precio fijo: sin WIP.](media/fixed-price-no-wip.png)
 
 Precio fijo: contrato completado
 
-![Perfil de costes e ingresos, precio fijo: contrato completado](media/fixed-price-completed-contract.png)
+![Perfil de costes e ingresos, precio fijo: contrato completado.](media/fixed-price-completed-contract.png)
 
 Precio fijo: porcentaje completado
 
-![Perfil de costes e ingresos, precio fijo: porcentaje completado](media/fixed-price-completed-percentage.png)
+![Perfil de costes e ingresos, precio fijo: porcentaje completado.](media/fixed-price-completed-percentage.png)
 
 
 ## <a name="accounting-event-examples-for-sample-project-cost-and-revenue-profiles"></a>Ejemplos de eventos contables de perfiles de costes e ingresos del proyecto de muestra.

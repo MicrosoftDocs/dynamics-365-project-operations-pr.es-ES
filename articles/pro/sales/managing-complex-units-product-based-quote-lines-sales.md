@@ -6,12 +6,12 @@ ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 78bdb64d901cf68ce02c168987c2386e1416f6ee
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d53dde1d3b2705c5b0283f989d0e2eebfdcb5a0eb5f91cf4bf48e9c07aba79d1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5994787"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989797"
 ---
 # <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>Administración de unidades complejas, como por usuario, por mes para líneas de ofertas basadas en productos (lite)
 
@@ -35,7 +35,7 @@ Puede marcar las propiedades **Número de usuarios** y **Número de meses** como
 
 Para crear factores de cantidad a partir de las propiedades del producto, siga estos pasos:
 
-1. En el panel de navegación izquierdo Operaciones del proyecto, vaya a **Ventas** > **Productos**.
+1. En el panel de navegación izquierdo Project Operations, vaya a **Ventas** > **Productos**.
 2. Abra el producto para el que necesita configurar factores de cantidad. Asegúrese de que el producto ya tenga las propiedades configuradas.
 3. En la página **Información del proyecto** del producto, seleccione la pestaña **Factores de cantidad**.
 4. En la subcuadrícula, seleccione **+ Cálculo de nuevo campo**.

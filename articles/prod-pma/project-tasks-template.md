@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 16cd38f2f190414d7be9c93e8ab90d55006f47e1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009997"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992812"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizar las tareas del proyecto y los proyectos directamente desde Project Service Automation a Finance and Operations
 
@@ -39,7 +39,7 @@ La solución de integración de Project Service Automation con Finance utiliza l
 
 La siguiente ilustración muestra cómo se sincronizan los datos entre Project Service Automation y Finance.
 
-[![Flujo de datos para la integración de Project Service Automation con Finance](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
+[![Flujo de datos para la integración de Project Service Automation con Finance.](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
 
 ## <a name="template-and-task"></a>Plantilla y tarea
 
@@ -80,7 +80,7 @@ Si debe usar Power Query, siga estas pautas:
 
 La siguiente ilustración muestra un ejemplo de las asignaciones de tareas de plantilla en Integración de datos. La asignación muestra la información del campo que se sincronizará de Project Service Automation a Finance.
 
-[![Asignación de plantillas](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+[![Asignación de plantillas.](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

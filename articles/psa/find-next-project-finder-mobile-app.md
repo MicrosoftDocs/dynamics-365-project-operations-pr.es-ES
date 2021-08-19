@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f686c8329c3965ab98b7de9909dc3567b6cb5094
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007522"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990819"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Encuentre su próximo proyecto con la aplicación Project Finder Mobile (Project Service)
 
@@ -38,12 +38,12 @@ Con la aplicación Project Finder Mobile en su [!INCLUDE[tn_iphone](../includes/
   
  Pulse la flecha en la parte derecha del proyecto que le interesa para ver más detalles y suscribirse.  
   
- ![Lista de proyectos que coincidan con cualificaciones en la aplicación móvil Buscador de proyectos](../psa/media/project-service-project-finder-list.png "Lista de proyectos que coincidan con cualificaciones en la aplicación móvil Buscador de proyectos")  
+ ![Lista de proyectos que coincidan con cualificaciones en la aplicación Project Finder Mobile.](../psa/media/project-service-project-finder-list.png "Lista de proyectos que coincidan con cualificaciones en la aplicación Project Finder Mobile")  
   
-## <a name="update-your-skills"></a>Actualizar sus conocimientos  
+## <a name="update-your-skills"></a>Actualizar sus aptitudes  
  Pulse en el botón del perfil en la parte inferior derecha de la pantalla para actualizar sus cualificaciones y niveles de habilidad.  
   
- ![Botón Perfil de la aplicación móvil Buscador de proyectos](../psa/media/project-service-project-finder-profile.png "Botón Perfil de la aplicación móvil Buscador de proyectos")  
+ ![Botón Perfil de la aplicación Project Finder Mobile.](../psa/media/project-service-project-finder-profile.png "Botón Perfil de la aplicación Project Finder Mobile")  
   
 ### <a name="see-also"></a>Vea también  
  [Guía de tiempo, gastos y colaboración](../psa/time-expense-collaboration-guide.md)

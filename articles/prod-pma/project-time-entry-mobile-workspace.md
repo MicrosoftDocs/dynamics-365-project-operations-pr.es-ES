@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: f087e15780272fd376a14b42ed9e00420f86a61f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009952"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989572"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Espacio de trabajo móvil de entrada de tiempo del proyecto
 
@@ -94,7 +94,7 @@ Descargar e instalar la aplicación móvil Finance and Operations:
 3.  La primera vez que inicie sesión, se le solicitará su nombre de usuario y contraseña. Especifique sus credenciales.
 4.  Después de iniciar sesión, se muestran los espacios de trabajo disponibles para su empresa. Tenga en cuenta que si el administrador del sistema publica un nuevo espacio de trabajo más tarde, deberá actualizar la lista de espacios de trabajo para dispositivos móviles.
 
-[![Deslizar para actualizar](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Deslizar para actualizar.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>Especificar el tiempo utilizando el espacio de trabajo para dispositivos móviles Entrada de tiempo del proyecto
 1.  En su dispositivo móvil, seleccione el espacio de trabajo **Entrada de tiempo del proyecto**.
