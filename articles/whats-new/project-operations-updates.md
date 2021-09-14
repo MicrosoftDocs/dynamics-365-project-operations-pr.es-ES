@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a7b398bae07956f4c3de15ec53a860fca15422dd9f2a977086669ebf2fcdb240
-ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
+ms.openlocfilehash: aef0a7f7c143cc144257397e5223c0efd4b297ee
+ms.sourcegitcommit: c2d57a8cd6638c08dbf1aa53e3819e6a736ad118
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/09/2021
-ms.locfileid: "7024804"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474534"
 ---
 # <a name="project-operations-updates"></a>Actualizaciones de Project Operations
 
@@ -28,15 +28,15 @@ Dynamics 365 Project Operations consta de dos componentes:
 - Gestión de proyectos y contabilidad en el entorno de Dynamics 365 Finance cubre las capacidades de gestión de gastos, la contabilidad de proyectos y el reconocimiento de ingresos. El entorno de aplicaciones de Finance and Operations se usa en Project Operations para escenarios basados en recursos/no almacenados, implementación Lite - trato a facturación proforma y Project Operations para escenarios basados en existencias/producción.
 
 ## <a name="project-operations-release-notes"></a>Notas de la versión de Project Operations
-- Notas de la última versión de Project Operations para el escenario [recursos/no mantenidos en existencias](whats-new-july-2021-resource-based.md).
-- Notas de la última versión de Project Operations para el escenario [Implementación de Lite](../pro/whats-new/whats-new-july-2021-lite.md).
+- Notas de la última versión de Project Operations para el escenario [recursos/no mantenidos en existencias](whats-new-august-2021-resource-based.md).
+- Notas de la última versión de Project Operations para el escenario [Implementación de Lite](../pro/whats-new/whats-new-august-2021-lite.md).
 - Notas de la última versión de Project Operations para el escenario [mantenidos en existencias/producción](../prod-pma/whats-new/whats-new-jul-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Última versión de Project Operations
 
 | Project Operations en el entorno de Dataverse | Gestión de proyectos y contabilidad en entornos de aplicaciones de Finance and Operations | 
 | --- | --- |
-| 4.13.0.152 | 10.0.20 |
+| 4.14.0.99 | 10.0.20 |
 
 Para el escenario de recursos/no mantenidos en existencias de Project Operations, recomendamos utilizar la versión 2.2.2.83 o posterior de la solución de orquestación de doble escritura.
 
@@ -47,27 +47,24 @@ Cada mes están disponibles actualizaciones de Project Operations en el entorno 
 | Estación | Región | Número de versión actual | Actualizaciones automáticas para la implementación Lite | Actualizaciones automáticas para implementación de recursos/no mantenida | Número de versión siguiente | Próxima versión generalmente disponible |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Estación 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Primer lanzamiento         |  4.13.0.152     | Completa           | 13 de agosto de 2021     | Por determinar                 | 27 de agosto de 2021     |
+|   &nbsp;  | Primer lanzamiento         |  4.14.0.99      | Completa           | 10 de septiembre de 2021  | Por determinar                 | 01 de octubre de 2021    |
 | Estación 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Sudamérica         |  4.13.0.152     | 13 de agosto de 2021    | 20 de agosto de 2021     | Por determinar                 | 27 de agosto de 2021     |
-|    &nbsp; | Canadá                |  4.13.0.152     | 13 de agosto de 2021    | 20 de agosto de 2021     | Por determinar                 | 27 de agosto de 2021     |
-|   &nbsp;  | India                 |  4.13.0.152     | 13 de agosto de 2021    | 20 de agosto de 2021     | Por determinar                 | 27 de agosto de 2021     |
-|   &nbsp;  | Francia                |  4.13.0.152     | 13 de agosto de 2021    | 20 de agosto de 2021     | Por determinar                 | 27 de agosto de 2021     |
-|   &nbsp;  | Emiratos Árabes Unidos  |  4.13.0.152     | 13 de agosto de 2021    | 20 de agosto de 2021     | Por determinar                 | 27 de agosto de 2021     |
-|   &nbsp;  | Sudáfrica          |  4.13.0.152     | 13 de agosto de 2021    | 20 de agosto de 2021     | Por determinar                 | 27 de agosto de 2021     |
+|   &nbsp;  | Sudamérica         |  4.14.0.152     | 10 de septiembre de 2021 | 17 de septiembre de 2021  | Por determinar                 | 01 de octubre de 2021    |
+|    &nbsp; | Canadá                |  4.14.0.152     | 10 de septiembre de 2021 | 17 de septiembre de 2021  | Por determinar                 | 01 de octubre de 2021    |
+|   &nbsp;  | India                 |  4.14.0.152     | 10 de septiembre de 2021 | 17 de septiembre de 2021  | Por determinar                 | 01 de octubre de 2021    |
+|   &nbsp;  | Francia                |  4.14.0.152     | 10 de septiembre de 2021 | 17 de septiembre de 2021  | Por determinar                 | 01 de octubre de 2021    |
+|   &nbsp;  | Emiratos Árabes Unidos  |  4.14.0.152     | 10 de septiembre de 2021 | 17 de septiembre de 2021  | Por determinar                 | 01 de octubre de 2021    |
+|   &nbsp;  | Sudáfrica          |  4.14.0.152     | 10 de septiembre de 2021 | 17 de septiembre de 2021  | Por determinar                 | 01 de octubre de 2021    |
 | Estación 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japón                 |  4.12.0.152     | Completo*          | Completa            | 4.13.0.152          | 13 de agosto de 2021     |
-|   &nbsp;  | Asia Pacífico          |  4.12.0.152     | Completo*          | Completa            | 4.13.0.152          | 13 de agosto de 2021     |
-|   &nbsp;  | Gran Bretaña         |  4.12.0.152     | Completo*          | Completa            | 4.13.0.152          | 13 de agosto de 2021     |
-|   &nbsp;  | Oceanía               |  4.12.0.152     | Completo*          | Completa            | 4.13.0.152          | 13 de agosto de 2021     |
+|   &nbsp;  | Japón                 |  4.13.0.152     | Completa           | Completa            | 4.14.0.152          | 10 de septiembre de 2021  |
+|   &nbsp;  | Asia Pacífico          |  4.13.0.152     | Completa           | Completa            | 4.14.0.152          | 10 de septiembre de 2021  |
+|   &nbsp;  | Gran Bretaña         |  4.13.0.152     | Completa           | Completa            | 4.14.0.152          | 10 de septiembre de 2021  |
+|   &nbsp;  | Oceanía               |  4.13.0.152     | Completa           | Completa            | 4.14.0.152          | 10 de septiembre de 2021  |
 | Estación 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.12.0.152     | Completa           | Completa            | 4.13.0.152          | 20 de agosto de 2021     |
+|   &nbsp;  | Europa                |  4.13.0.152     | Completa           | 03 de septiembre de 2021  | 4.14.0.152          | 17 de septiembre de 2021  |
 | Estación 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Norteamérica         |  4.12.0.152     | 13 de agosto de 2021    | 20 de agosto de 2021     | 4.13.0.152          | 27 de agosto de 2021     |
+|   &nbsp;  | Norteamérica         |  4.13.0.152     | 03 de septiembre de 2021 | 10 de septiembre de 2021  | 4.14.0.152          | 24 de septiembre de 2021  |
 
-
-> [!NOTE]
-> La implementación automática se completó para la versión 4.12.0.148. No está prevista la implementación automática para la versión actualizada de la versión de julio de 2021.
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Calendario de lanzamiento para la gestión de proyectos y la contabilidad en el entorno de aplicaciones de Finance and Operations
 

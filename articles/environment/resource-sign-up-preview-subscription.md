@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 75ee31e67018fe2a7655d8a8f11e40b433a9a5db6f8f2addac27844f18fffe8d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007887"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323437"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Regístrese para obtener suscripciones de vista previa de Project Operations para escenarios de recursos/no en existencias
 
@@ -23,7 +23,7 @@ Este tema explica cómo suscribirse a la oferta de prueba e implementar el entor
 
 ## <a name="prerequisites"></a>Requisitos previos
 - El usuario que implementa la vista previa debe tener derechos de administrador global de inquilinos de Azure. Puede crear un inquilino durante el primer caje de oferta. 
-- La implementación de un entorno de Finance requiere una suscripción de Azure válida que se facturará por entorno. Puede utilizar la suscripción existente de su organización o utilizar una [Prueba de Azure](https://azure.microsoft.com/en-us/free/) para empezar. El entorno CDS se proporcionará de forma gratuita durante un período limitado de 30 días.
+- La implementación de un entorno de Finance requiere una suscripción de Azure válida que se facturará por entorno. Puede utilizar la suscripción existente de su organización o utilizar una [Prueba de Azure](https://azure.microsoft.com/free/) para empezar. El entorno CDS se proporcionará de forma gratuita durante un período limitado de 30 días.
 
 > [!IMPORTANT]
 > Solo una persona, el inquilino administrador, necesita realizar esta tarea en una organización. Si no es el suscriptor de esta versión, espere hasta que su organización se haya registrado y haya recibido sus credenciales de usuario.

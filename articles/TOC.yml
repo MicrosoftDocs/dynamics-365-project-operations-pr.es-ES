@@ -4,6 +4,8 @@
   items:
     - name: Determinar el tipo de implementación
       href: environment/determine-deployment-type.md
+    - name: Registrarse para pruebas de Project Operations
+      href: environment/admin-trials.md
     - name: Actualizaciones de Project Operations
       href: whats-new/project-operations-updates.md
 - name: Project Operations para escenarios basados en recursos/no mantenidos en existencias
@@ -54,6 +56,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Novedades
       items:
+        - name: 'Agosto de 2021: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
+          href: whats-new/whats-new-august-2021-resource-based.md
         - name: 'Julio de 2021: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: 'Junio de 2021: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
@@ -284,7 +288,7 @@
           items:
             - name: Colaboración con Grupos de Office
               href: project-management/collaboration-groups.md
-        - name: Notas del desarrollador
+        - name: Notas de desarrollador
           items:
             - name: Desarrollar plantillas de proyectos con Copiar proyecto
               href: project-management/dev-copy-project.md
@@ -348,13 +352,13 @@
               href: resource-management/resource-utilization-overview.md
     - name: Tiempo
       items:
-        - name: Información general de tiempo
+        - name: Resumen de tiempo
           href: time/time-entry-overview.md
         - name: Crear entradas de tiempo
           items:
             - name: Interfaz de usuario de entrada de tiempo
               href: time/ui-behavior-time.md
-        - name: Notas del desarrollador
+        - name: Notas de desarrollador
           items:
             - name: Personalizar la cuadrícula de entrada de tiempo semanal
               href: time/customize-weekly-time-entry-grid.md
@@ -412,19 +416,21 @@
               href: expense/vat-recovery.md
     - name: Uso de materiales
       items:
-        - name: Registrar uso de materiales en proyectos y tareas de proyectos
+        - name: Registrar el uso de materiales en proyectos y tareas de proyectos
           href: material/material-usage-log.md
     - name: Aprobaciones
       items:
-        - name: Información general de aprobaciones
+        - name: Resumen de aprobaciones
           href: approvals/approvals-overview.md
-        - name: Notas del desarrollador
+        - name: Conjuntos de aprobaciones
+          href: approvals/approval-sets.md
+        - name: Notas de desarrollador
           items:
-            - name: Notas del desarrollador para aprobaciones
+            - name: Notas de desarrollador para aprobaciones
               href: approvals/dev-notes-approvals.md
     - name: Datos reales
       items:
-        - name: Información general de datos reales
+        - name: Resumen de datos reales
           href: actuals/actuals-overview.md
         - name: Vincular datos reales a registros originales
           href: actuals/linkingactuals.md
@@ -520,6 +526,10 @@
           href: environment/security-model.md
     - name: Novedades
       items:
+        - name: 'Novedades del acceso anticipado del segundo lanzamiento de 2021: implementación simplificada'
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 'Novedades de agosto de 2021: implementación simplificada'
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: 'Novedades de julio de 2021: implementación simplificada'
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: 'Novedades de junio de 2021: implementación simplificada'
@@ -770,7 +780,7 @@
           items:
             - name: Colaboración con Grupos de Office
               href: project-management/collaboration-groups.md
-        - name: Notas del desarrollador
+        - name: Notas de desarrollador
           items:
             - name: Desarrollar plantillas de proyectos con Copiar proyecto
               href: project-management/dev-copy-project.md
@@ -834,23 +844,37 @@
               href: resource-management/resource-utilization-overview.md
     - name: Administración de subcontratos en Project Operations
       items:
-        - name: Información general sobre la administración de subcontratos
+        - name: Administración de subcontratos en Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Acceso anticipado a subcontratación en octubre de 2021
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Conceptos clave en la subcontratación
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Administración de proveedores y listas de precios de proyectos
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: Subcontratistas como recursos reservables
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Detalles del encabezado para subcontratos
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Líneas de subcontrato para tiempo
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Líneas de subcontrato para gasto
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Líneas de subcontrato para productos
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Recursos de línea de subcontratista
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Hitos de línea de subcontrato
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: Tiempo
       items:
-        - name: Información general de tiempo
+        - name: Resumen de tiempo
           href: time/time-entry-overview.md
         - name: Crear entradas de tiempo
           items:
             - name: Interfaz de usuario de entrada de tiempo
               href: time/ui-behavior-time.md
-        - name: Notas del desarrollador
+        - name: Notas de desarrollador
           items:
             - name: Personalizar la cuadrícula de entrada de tiempo semanal
               href: time/customize-weekly-time-entry-grid.md
@@ -862,19 +886,21 @@
           href: expense/basic-expense.md
     - name: Uso de materiales
       items:
-        - name: Registrar uso de materiales en proyectos y tareas de proyectos
+        - name: Registrar el uso de materiales en proyectos y tareas de proyectos
           href: material/material-usage-log.md
     - name: Aprobaciones
       items:
-        - name: Información general de aprobaciones
+        - name: Resumen de aprobaciones
           href: approvals/approvals-overview.md
-        - name: Notas del desarrollador
+        - name: Conjuntos de aprobaciones
+          href: approvals/approval-sets.md
+        - name: Notas de desarrollador
           items:
-            - name: Notas del desarrollador para aprobaciones
+            - name: Notas de desarrollador para aprobaciones
               href: approvals/dev-notes-approvals.md
     - name: Datos reales
       items:
-        - name: Información general de datos reales
+        - name: Resumen de datos reales
           href: actuals/actuals-overview.md
         - name: Vincular datos reales a registros originales
           href: actuals/linkingactuals.md
@@ -1060,6 +1086,8 @@
       items:
         - name: Programación de lanzamiento de actualizaciones para Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novedades y cambios de la versión de actualización 35, V3'
+          href: psa/whats-new-ur-35.md
         - name: 'Novedades y cambios de la versión de actualización 34, V3'
           href: psa/whats-new-ur-34.md
         - name: 'Novedades y cambios de la versión de actualización 33, V3'
@@ -1306,7 +1334,7 @@
               href: psa/time-entry-calendar.md
             - name: Personalizar la entrada de tiempo semanal
               href: psa/time-entry-extensibility-v3.md
-            - name: Conjuntos de aprobaciones
+            - name: Conjuntos de aprobaciones de Project Service Automation
               href: psa/approval-set.md
     - name: Preguntas frecuentes y solución de problemas (3.x)
       items:

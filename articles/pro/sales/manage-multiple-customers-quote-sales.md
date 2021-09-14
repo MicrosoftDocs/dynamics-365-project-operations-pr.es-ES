@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c9b3c1a1b958de0fc5d58199b8229ea5b3b221d01efe6602eecffdd100f13cae
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
+ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001677"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440798"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Administrar varios clientes en ofertas de proyectos (lite)
 
@@ -37,7 +37,7 @@ Se puede crear, actualizar o eliminar un cliente de oferta desde la pestaña **C
 
 | **Campo** | **Ubicación** | **Descripción** | **Impacto posterior** |
 | --- | --- | --- | --- |
-| Cuenta | Cuadrícula editable de la pestaña **Clientes de oferta** y los formularios **Principal** y **Creación rápida** para un cliente de oferta. | Enumera todas las cuentas activas. Este campo se bloquea después de que se crea el registro. Si desea actualizarlo, elimine el registro y vuelva a crearlo. Si ha registrado datos reales, o si el registro del cliente de oferta es un cliente principal, se le permitirá eliminar el registro. | Los clientes de oferta se copian como clientes de la línea de oferta cuando se crea una línea de oferta. Los clientes de oferta también se copian en los clientes de contrato del proyecto cuando se gana una oferta. |
+| Cuenta | Cuadrícula editable de la pestaña **Clientes de oferta** y los formularios **Principal** y **Creación rápida** para un cliente de oferta. | Enumera todas las cuentas activas. Este campo se bloquea después de que se crea el registro. Si desea actualizarlo, elimine el registro y vuelva a crearlo. Si ha registrado datos reales o si el registro del cliente de la oferta es de un cliente principal, no se le permitirá eliminar el registro. | Los clientes de oferta se copian como clientes de la línea de oferta cuando se crea una línea de oferta. Los clientes de oferta también se copian en los clientes de contrato del proyecto cuando se gana una oferta. |
 | Porcentaje de división de facturación | Cuadrícula editable de la pestaña **Clientes de oferta** y los formularios **Principal** y **Creación rápida** para un cliente de oferta. | Representa el porcentaje de cada transacción de venta no facturada que se atribuirá a este cliente de línea de oferta. | Copiado a las nuevas líneas de oferta y a los clientes del contrato del proyecto. |
 | Facturar a nombre de contacto | Cuadrícula editable de la pestaña **Clientes de oferta** y los formularios **Principal** y **Creación rápida** para un cliente de oferta. | Este es un campo de texto y debe usarse para identificar a la persona de contacto de la factura para este cliente. Estos están predeterminados a partir del registro de cuenta relacionado | Se copia a los clientes del contrato del proyecto cuando se gana una oferta y, a su vez, al campo de nombre Facturar al contrato de la factura que se genera para este cliente. |
 | Facturar a nombre | Cuadrícula editable de la pestaña **Clientes de oferta** y los formularios **Principal** y **Creación rápida** para un cliente de oferta. | Este campo de texto debe usarse para identificar a la persona de contacto de la factura para este cliente. | Se copia a los clientes del contrato del proyecto cuando se gana una oferta y, a su vez, al campo **Facturar al nombre de contrato** de la factura que se genera para este cliente. |
