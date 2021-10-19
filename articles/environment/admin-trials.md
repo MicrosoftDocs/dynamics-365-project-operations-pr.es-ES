@@ -2,16 +2,16 @@
 title: Registrarse para pruebas de Project Operations
 description: En este tema se proporciona información sobre cómo implementar una prueba de Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418478"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599234"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Registrarse para pruebas de Project Operations 
 
@@ -85,15 +85,9 @@ Antes de comenzar, inicie sesión en un navegador con la cuenta de trabajo del u
 
    Una vez que se inicia el aprovisionamiento, se le redirige a la lista de entornos en el centro de administración de Power Platform. Mientras el aprovisionamiento está en progreso, el estado de su entorno es **PreparingInstance**.
  
-  Una vez que se completa el aprovisionamiento, el estado de su entorno es **Listo**.
+  Cuando se completa el aprovisionamiento, el estado de su entorno es **Listo**. El aprovisionamiento del entorno incluye la implementación de datos de demostración.
  
-4.  Cuando se complete el aprovisionamiento, seleccione la respectiva URL de Microsoft Dataverse y las URL de las aplicaciones de Finance and Operations para validar la implementación.
-
-## <a name="demo-data-installation"></a>Instalación de datos de demostración
-
-Utilice los siguientes enlaces para acceder a paquetes de datos de demostración tanto para materiales no almacenados como para escenarios de implementación simplificada. 
-- [Datos de demostración de materiales no mantenidos en existencias](resource-apply-pro-setup-config-data.md)
-- [Datos de demostración simplificada](lite-apply-demo-setup-config-data.md)
+4.  Seleccione los correspondientes URL de Microsoft Dataverse y URL de aplicaciones de Finance and Operations para validar la implementación.
 
 ## <a name="configuring-dual-write"></a>Configuración de la escritura dual
 Solo para implementaciones de materiales no mantenidos en existencias, configure sus asignaciones de doble escritura. Para más información, vea [Versiones de mapas de doble escritura de Project Operations](resource-dual-write-maps.md).

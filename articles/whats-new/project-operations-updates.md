@@ -2,17 +2,17 @@
 title: Actualizaciones de Project Operations
 description: Este tema proporciona información sobre las versiones publicadas de Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 08/09/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: aef0a7f7c143cc144257397e5223c0efd4b297ee
-ms.sourcegitcommit: c2d57a8cd6638c08dbf1aa53e3819e6a736ad118
+ms.openlocfilehash: 970fcc71b3ebe1489c676727598ebbb296e9c989
+ms.sourcegitcommit: 23f68542fb5913534f0f76529b843cd268dbd7f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474534"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "7623381"
 ---
 # <a name="project-operations-updates"></a>Actualizaciones de Project Operations
 
@@ -28,15 +28,15 @@ Dynamics 365 Project Operations consta de dos componentes:
 - Gestión de proyectos y contabilidad en el entorno de Dynamics 365 Finance cubre las capacidades de gestión de gastos, la contabilidad de proyectos y el reconocimiento de ingresos. El entorno de aplicaciones de Finance and Operations se usa en Project Operations para escenarios basados en recursos/no almacenados, implementación Lite - trato a facturación proforma y Project Operations para escenarios basados en existencias/producción.
 
 ## <a name="project-operations-release-notes"></a>Notas de la versión de Project Operations
-- Notas de la última versión de Project Operations para el escenario [recursos/no mantenidos en existencias](whats-new-august-2021-resource-based.md).
-- Notas de la última versión de Project Operations para el escenario [Implementación de Lite](../pro/whats-new/whats-new-august-2021-lite.md).
+- Notas de la última versión de Project Operations para el escenario [recursos/no mantenidos en existencias](whats-new-oct-2021-resource-based.md).
+- Notas de la última versión de Project Operations para el escenario [Implementación de Lite](../pro/whats-new/whats-new-oct-2021-lite.md).
 - Notas de la última versión de Project Operations para el escenario [mantenidos en existencias/producción](../prod-pma/whats-new/whats-new-jul-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Última versión de Project Operations
 
 | Project Operations en el entorno de Dataverse | Gestión de proyectos y contabilidad en entornos de aplicaciones de Finance and Operations | 
 | --- | --- |
-| 4.14.0.99 | 10.0.20 |
+| 4.25.0.91 | 10.0.20 |
 
 Para el escenario de recursos/no mantenidos en existencias de Project Operations, recomendamos utilizar la versión 2.2.2.83 o posterior de la solución de orquestación de doble escritura.
 
@@ -47,41 +47,39 @@ Cada mes están disponibles actualizaciones de Project Operations en el entorno 
 | Estación | Región | Número de versión actual | Actualizaciones automáticas para la implementación Lite | Actualizaciones automáticas para implementación de recursos/no mantenida | Número de versión siguiente | Próxima versión generalmente disponible |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Estación 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Primer lanzamiento         |  4.14.0.99      | Completa           | 10 de septiembre de 2021  | Por determinar                 | 01 de octubre de 2021    |
+|   &nbsp;  | Primer lanzamiento         |  4.25.0.91      | Completa           | Completa            | Por determinar                 | 29 de octubre de 2021    |
 | Estación 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Sudamérica         |  4.14.0.152     | 10 de septiembre de 2021 | 17 de septiembre de 2021  | Por determinar                 | 01 de octubre de 2021    |
-|    &nbsp; | Canadá                |  4.14.0.152     | 10 de septiembre de 2021 | 17 de septiembre de 2021  | Por determinar                 | 01 de octubre de 2021    |
-|   &nbsp;  | India                 |  4.14.0.152     | 10 de septiembre de 2021 | 17 de septiembre de 2021  | Por determinar                 | 01 de octubre de 2021    |
-|   &nbsp;  | Francia                |  4.14.0.152     | 10 de septiembre de 2021 | 17 de septiembre de 2021  | Por determinar                 | 01 de octubre de 2021    |
-|   &nbsp;  | Emiratos Árabes Unidos  |  4.14.0.152     | 10 de septiembre de 2021 | 17 de septiembre de 2021  | Por determinar                 | 01 de octubre de 2021    |
-|   &nbsp;  | Sudáfrica          |  4.14.0.152     | 10 de septiembre de 2021 | 17 de septiembre de 2021  | Por determinar                 | 01 de octubre de 2021    |
+|   &nbsp;  | Sudamérica         |  4.25.0.91      | Completa           | 15 de octubre de 2021    | Por determinar                 | 29 de octubre de 2021    |
+|   &nbsp;  | Canadá                |  4.25.0.91      | Completa           | 15 de octubre de 2021    | Por determinar                 | 29 de octubre de 2021    |
+|   &nbsp;  | India                 |  4.25.0.91      | Completa           | 15 de octubre de 2021    | Por determinar                 | 29 de octubre de 2021    |
+|   &nbsp;  | Francia                |  4.25.0.91      | Completa           | 15 de octubre de 2021    | Por determinar                 | 29 de octubre de 2021    |
+|   &nbsp;  | Sudáfrica          |  4.25.0.91      | Completa           | 15 de octubre de 2021    | Por determinar                 | 29 de octubre de 2021    |
 | Estación 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japón                 |  4.13.0.152     | Completa           | Completa            | 4.14.0.152          | 10 de septiembre de 2021  |
-|   &nbsp;  | Asia Pacífico          |  4.13.0.152     | Completa           | Completa            | 4.14.0.152          | 10 de septiembre de 2021  |
-|   &nbsp;  | Gran Bretaña         |  4.13.0.152     | Completa           | Completa            | 4.14.0.152          | 10 de septiembre de 2021  |
-|   &nbsp;  | Oceanía               |  4.13.0.152     | Completa           | Completa            | 4.14.0.152          | 10 de septiembre de 2021  |
+|   &nbsp;  | Japón                 |  4.25.0.91      | 15 de octubre de 2021   | 22 de octubre de 2021    | Por determinar                 | 05 de noviembre de 2021   |
+|   &nbsp;  | Asia Pacífico          |  4.25.0.91      | 15 de octubre de 2021   | 22 de octubre de 2021    | Por determinar                 | 05 de noviembre de 2021   |
+|   &nbsp;  | Gran Bretaña         |  4.25.0.91      | 15 de octubre de 2021   | 22 de octubre de 2021    | Por determinar                 | 05 de noviembre de 2021   |
+|   &nbsp;  | Oceanía               |  4.25.0.91      | 15 de octubre de 2021   | 22 de octubre de 2021    | Por determinar                 | 05 de noviembre de 2021   |
+|   &nbsp;  | Emiratos Árabes Unidos  |  4.25.0.91      | 15 de octubre de 2021   | 22 de octubre de 2021    | Por determinar                 | 05 de noviembre de 2021   |
 | Estación 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.13.0.152     | Completa           | 03 de septiembre de 2021  | 4.14.0.152          | 17 de septiembre de 2021  |
+|   &nbsp;  | Europa                |  4.14.0.99      | Completa           | Completa            | 4.25.0.91           | 15 de octubre de 2021    |
 | Estación 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Norteamérica         |  4.13.0.152     | 03 de septiembre de 2021 | 10 de septiembre de 2021  | 4.14.0.152          | 24 de septiembre de 2021  |
+|   &nbsp;  | Norteamérica         |  4.14.0.99      | Completa           | 08 de octubre de 2021    | 4.25.0.91           | 22 de octubre de 2021    |
 
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Calendario de lanzamiento para la gestión de proyectos y la contabilidad en el entorno de aplicaciones de Finance and Operations
 
 Las actualizaciones para la gestión de proyectos y la contabilidad se publican ocho veces al año.
 
-|          Versión compatible          | Disponibilidad de versión preliminar (PEAP) | Generalmente disponible (actualización automática) | Fecha de inicio de producción del programa de actualización automática (a través de la configuración de actualización de LCS) |   Fin de servicio   |
-|:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|          10.0.20          |         28 de mayo de 2021        |           16 de Julio de 2021           |                             30 de Julio de 2021                             |  22 de octubre de 2021  |
-|          10.0.19          |        23 de abril de 2021       |            18 de Junio de 2021           |                             2 de Julio de 2021                             | 17 de septiembre de 2021 |
-
-
+|Versión compatible| Disponibilidad de versión preliminar (PEAP) | Generalmente disponible (actualización automática) | Fecha de inicio de producción del programa de actualización automática (a través de la configuración de actualización de LCS) |   Fin de servicio   |
+|:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|    10.0.21      |         02 de agosto de 2021     |           17 de septiembre de 2021      |                             1 de octubre de 2021                          |  10 de diciembre de 2021 |
+|    10.0.20      |         28 de mayo de 2021        |           16 de Julio de 2021           |                             30 de Julio de 2021                            |  22 de octubre de 2021  |
 
 Las fechas de lanzamiento específicas están sujetas a cambios. Para obtener más información, consulte [Disponibilidad de actualizaciones del servicio](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
-|          Versión de destino          | Disponibilidad de versión preliminar (PEAP) | Generalmente disponible (actualización automática) | Fecha de inicio de producción del programa de actualización automática (a través de la configuración de actualización de LCS) |   Fin de servicio   |
-|:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|          10.0.21          |         02 de agosto de 2021     |           17 de septiembre de 2021      |                             1 de octubre de 2021                           |  10 de diciembre de 2021  |
-|          10.0.22          |      3 de septiembre de 2021      |          22 de octubre de 2021         |                           5 de noviembre de 2021                           |  14 de enero de 2022  |
+|Versión de destino | Disponibilidad de versión preliminar (PEAP) | Generalmente disponible (actualización automática) | Fecha de inicio de producción del programa de actualización automática (a través de la configuración de actualización de LCS) |   Fin de servicio   |
+|:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|     10.0.22     |      3 de septiembre de 2021      |          22 de octubre de 2021         |                           5 de noviembre de 2021                           |  14 de enero de 2022  |
+|     10.0.23     |      15 de octubre de 2021       |        10 de diciembre de 2021          |                          31 de diciembre de 2021                           | 18 de marzo de 2022     |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

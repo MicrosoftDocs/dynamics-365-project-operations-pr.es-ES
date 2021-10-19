@@ -2,17 +2,17 @@
 title: Adquirir materiales no mantenidos en existencias utilizando una factura de proveedor pendiente
 description: Este tema explica cómo registrar facturas de proveedor pendientes.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2ce9f244eaa549742aeb55024ca9ef4d82cde1bd4a5b9c7f8c762cf72e0da83f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009057"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547310"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Adquirir materiales no mantenidos en existencias utilizando una factura de proveedor pendiente
 
@@ -45,4 +45,5 @@ Las facturas de proveedor pendientes se pueden registrar en la página **Factura
     - El importe del saldo del proveedor.
     - El importe del impuesto sobre ventas.
     - El coste del proyecto se registra en la cuenta de integración de adquisiciones.
-    - La transacción real del proyecto en Dataverse. La transacción se sigue procesando utilizando el diario [Integración de Project Operations](../project-accounting/project-operations-integration-journal.md). El registro de este diario mueve el importe de la cuenta de integración de compras a la cuenta de coste del proyecto.
+    - La transacción de costo real del proyecto en Dataverse.  La transacción se sigue procesando utilizando el diario [Integración de Project Operations](../project-accounting/project-operations-integration-journal.md). El registro de este diario mueve el importe de la cuenta de integración de compras a la cuenta de coste del proyecto. 
+    - Compras que se facturan al cliente del proyecto mediante el método de facturación de tiempo y materiales. Además, se crean transacciones de ventas no facturadas para las compras en Dataverse. La lista de precios del producto en Dataverse se utiliza para los precios de venta y los importes de la transacción de venta no facturada.

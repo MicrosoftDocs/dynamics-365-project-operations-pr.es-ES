@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c0ddc39638ae9830eacc57f3e1def75aa36e6553
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: cda2db2b6beafb943738b35857d091f7ad17390d
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323707"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558568"
 ---
 # <a name="subcontract-lines-for-products"></a>Líneas de subcontrato para productos
 
@@ -30,25 +30,25 @@ Complete los siguientes pasos para crear una línea de subcontrato para producto
 
 La siguiente tabla proporciona información sobre los campos de la página **Detalles de línea de subcontrato** y la página **Creación rápida**, en tanto que son relevantes para la compra de productos.
 
-| Campo | Descripción |
-| ----- | ----------- |
-| Asignar nombre | El nombre de la línea de subcontratación. |
-| Descripción | Una breve descripción de los productos que se compran en la línea del subcontrato. |
-| Tipo de línea | El valor predeterminado es **Basado en cantidad**. |
-| Método de facturación |  El método de facturación de la línea de subcontratación. Para los métodos de facturación de precio fijo, se configura un programa de facturación basado en hitos. |
-| Clase de transacción | El valor predeterminado es **Tiempo**. Para crear líneas de subcontrato para la compra de productos, en el campo **Clase de transacción**, seleccione **Material**. Esta selección indica que la línea de subcontrato se utiliza para registrar una compra de productos que se utilizarán en proyectos. |
-| Seleccionar producto | Seleccione si el producto que se está comprando se mantiene en el catálogo de productos o es un producto fuera de catálogo. |
-| Producto | Seleccione un producto activo del catálogo. Este campo está disponible solo cuando **Seleccionar producto** se establece en **Existente**. |
-| Producto fuera de catálogo | Introduzca el nombre del producto fuera de catálogo. Este campo está disponible solo cuando **Seleccionar producto** se establece en **Fuera de catálogo**.  |
-| Fecha de entrega solicitada | Seleccione la fecha de entrega requerida para los productos. Esta fecha también se utiliza para elegir una lista de precios del proyecto en las listas de precios del proyecto adjuntas al subcontrato. El coste del producto en la línea de subcontrato luego se establece de forma predeterminada conforme a esa lista de precios. |
-| Fecha de entrega contratada | Seleccione la fecha en la que se acuerda contractualmente la entrega de los productos.  |
-| Cantidad pedida | Introduzca la cantidad del producto que se compra al proveedor. Si un administrador del proyecto supera esta cantidad, se producirá una advertencia. |
-| Unidad de venta | Este valor es predeterminado solo para productos de catálogo. Cuando se seleccionan tanto **Producto** como **Fecha de entrega requerida**, el sistema selecciona la lista de precios aplicable en función de la fecha de entrega. Los artículos de la lista de precios relacionados se consultan para el producto correspondiente. Los valores de unidad y grupo de unidades predeterminados de la configuración en el registro del artículo de la lista de precios. |
-| Unidad | Este valor se predetermina a la configuración de la unidad en el registro del artículo de la lista de precios. Puede cambiar esto a otra unidad, según sea necesario. La combinación de producto y unidad se utiliza para calcular el valor predeterminado del precio unitario de la línea de subcontrato para productos de catálogo existentes. |
-| Precio por unidad | El precio unitario se predetermina con la combinación de producto y unidad, a partir de la lista de los artículos de la lista de precios relacionada con el proyecto que es aplicable para la fecha de entrega solicitada de la línea de subcontrato.  |
-| Subtotal | Este campo de solo lectura se calcula como Cantidad x Precio unitario, si ambos campos tienen valores introducidos. Si el campo **Cantidad**, el campo **Precio unitario**, o ambos, están vacíos, puede ingresar un valor manualmente.  |
-| Impuesto sobre las ventas | introduzca el valor del impuesto sobre las ventas. |
-| Importe total | Este campo calculado muestra el importe total de la línea de subcontrato después de incluir los impuestos. El valor de este campo se calcula como subtotal + impuestos. |
+| Campo | Descripción | Impacto funcional|
+| ----- | ----------- | ----------- |
+| Asignar nombre | Nombre de la línea de subcontratación para ayudar con la identificación. |Esto se mostrará como la primera columna en todas las búsquedas basadas en líneas de subcontratación.
+| Descripción | Una breve descripción de los productos que se compran en la línea del subcontrato. | Nada |
+| Tipo de línea | Este campo tiene un valor predeterminado de **Basado en cantidad**. |Nada |
+| Método de facturación | Este es un conjunto de opciones que representa los dos principales modelos de contratación que admite Project Operations: **Precio fijo** y **Tiempo y material**. | Según el método de facturación seleccionado, se dispone de una programación de facturas basada en hitos para líneas de subcontratación con el método de facturación Precio fijo. |
+| Clase de transacción |Este campo tiene un valor predeterminado de **Tiempo**. Para crear líneas de subcontratación para la compra de productos, establezca el campo **Clase de transacción** en **Material**.  | Esto indica que la línea de subcontratación se está utilizando para registrar la compra de productos que se utilizarán en proyectos. |
+| Seleccionar producto | Seleccione si el producto que se está comprando se mantiene en el catálogo de productos o es un producto fuera de catálogo. |Nada |
+| Producto | Seleccione un producto activo del catálogo. Este campo está disponible solo cuando **Seleccionar producto** se establece en **Existente**. |La combinación de **Producto** y **Unidad** se utilizará como valor predeterminado o se calculará para el precio unitario de la línea de subcontratación.
+| Producto fuera de catálogo | Introduzca el nombre del producto fuera de catálogo. Este campo está disponible solo cuando **Seleccionar producto** se establece en **Fuera de catálogo**.  |El precio de compra no se completará automáticamente para los productos fuera de catálogo.|
+| Fecha de entrega solicitada | Ingrese la fecha de entrega requerida para los productos.| Esta fecha también se utiliza para elegir una lista de precios del proyecto en las listas de precios del proyecto adjuntas al subcontrato. El coste del producto en la línea de subcontrato luego se establece de forma predeterminada conforme a esa lista de precios. |
+| Fecha de entrega contratada | Introduzca la fecha en la que se acuerda contractualmente la entrega de los productos.  |Nada|
+| Cantidad pedida | Introduzca la cantidad del producto que se compra al proveedor.| Esto se usará para mostrar advertencias cuando un jefe de proyecto esté extrayendo de esta cantidad.|
+| Unidad de venta | Este valor es predeterminado solo para productos de catálogo. |Cuando se seleccionan tanto **Producto** como **Fecha de entrega requerida**, el sistema selecciona la lista de precios aplicable en función de la fecha de entrega. Los artículos de la lista de precios relacionados se consultan para el producto correspondiente. Los valores de unidad y grupo de unidades predeterminados de la configuración en el registro del artículo de la lista de precios. |
+| Unidad | Este valor predeterminado es la unidad configurada en el registro de elemento de lista de precios. Puede cambiar esto a otra unidad, según sea necesario.| La combinación de producto y unidad se utiliza para calcular el valor predeterminado del precio unitario de la línea de subcontrato para productos de catálogo existentes. |
+| Precio por unidad | El precio unitario se predetermina con la combinación de producto y unidad, a partir de la lista de los artículos de la lista de precios relacionada con el proyecto que es aplicable para la fecha de entrega solicitada de la línea de subcontrato.  |Nada |
+| Subtotal | Este campo de solo lectura se calcula como Cantidad x Precio unitario, si ambos campos tienen valores introducidos. Si el campo **Cantidad**, el campo **Precio unitario**, o ambos, están vacíos, puede ingresar un valor manualmente.  |Nada |
+| Impuesto sobre las ventas | introduzca el valor del impuesto sobre las ventas. |Nada |
+| Importe total | Este campo calculado muestra el importe total de la línea de subcontrato después de incluir los impuestos. El valor de este campo se calcula como Subtotal + Impuestos. |Nada |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
