@@ -56,6 +56,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Novedades
       items:
+        - name: 'Octubre de 2021: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: 'Septiembre de 2021: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: 'Agosto de 2021: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: 'Julio de 2021: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
@@ -292,7 +296,7 @@
           items:
             - name: Desarrollar plantillas de proyectos con Copiar proyecto
               href: project-management/dev-copy-project.md
-            - name: Usar API de programación de proyectos (versión preliminar pública)
+            - name: Usar API de programación de proyectos
               href: project-management/schedule-api-preview.md
     - name: Administración de recursos
       items:
@@ -444,6 +448,14 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Adquirir materiales no mantenidos en existencias para proyectos usando facturas de proveedor pendientes
           href: procurement/pending-vendor-invoices.md
+        - name: Comprar materiales no mantenidos en existencias para proyectos usando pedidos de compra de proyecto
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Retención de proveedores
+          items:
+            - name: Información general de retención de proveedores
+              href: procurement/vendor-retention-overview.md
+            - name: Configurar retención de proveedores
+              href: procurement/set-up-vendor-retention.md
     - name: Facturación
       items:
         - name: Información general del proceso de facturación
@@ -528,6 +540,10 @@
       items:
         - name: 'Novedades del acceso anticipado del segundo lanzamiento de 2021: implementación simplificada'
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 'Novedades de octubre de 2021: implementación simplificada'
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: 'Novedades de septiembre de 2021: implementación simplificada'
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: 'Novedades de agosto de 2021: implementación simplificada'
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: 'Novedades de julio de 2021: implementación simplificada'
@@ -784,7 +800,7 @@
           items:
             - name: Desarrollar plantillas de proyectos con Copiar proyecto
               href: project-management/dev-copy-project.md
-            - name: Usar API de programación de proyectos (versión preliminar pública)
+            - name: Usar API de programación de proyectos
               href: project-management/schedule-api-preview.md
     - name: Administración de recursos
       items:
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: Líneas de subcontrato para tiempo
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Líneas de subcontrato para gasto
+        - name: Líneas de subcontrato para categorías de gastos
           href: pro/subcontracting/subcontract-line-expense.md
         - name: Líneas de subcontrato para productos
           href: pro/subcontracting/subcontract-line-products.md
@@ -1086,6 +1102,8 @@
       items:
         - name: Programación de lanzamiento de actualizaciones para Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novedades y cambios de la versión de actualización 36, V3'
+          href: psa/whats-new-ur-36.md
         - name: 'Novedades y cambios de la versión de actualización 35, V3'
           href: psa/whats-new-ur-35.md
         - name: 'Novedades y cambios de la versión de actualización 34, V3'
