@@ -54,6 +54,8 @@
               href: environment/resource-dual-write-expense.md
             - name: Integración de factura de proveedor
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Desinstalar Dynamics 365 Project Operations
+          href: environment/uninstall-project-operations.md
     - name: Novedades
       items:
         - name: 'Octubre de 2021: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
@@ -298,6 +300,8 @@
               href: project-management/dev-copy-project.md
             - name: Usar API de programación de proyectos
               href: project-management/schedule-api-preview.md
+            - name: Rendimiento de la API de programación de proyectos
+              href: project-management/project-schedule-api-performance.md
     - name: Administración de recursos
       items:
         - name: Conceptos clave
@@ -802,6 +806,8 @@
               href: project-management/dev-copy-project.md
             - name: Usar API de programación de proyectos
               href: project-management/schedule-api-preview.md
+            - name: Rendimiento de la API de programación de proyectos
+              href: project-management/project-schedule-api-performance.md
     - name: Administración de recursos
       items:
         - name: Conceptos clave
@@ -1102,6 +1108,8 @@
       items:
         - name: Programación de lanzamiento de actualizaciones para Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novedades y cambios de la versión de actualización 37, V3'
+          href: psa/whats-new-ur-37.md
         - name: 'Novedades y cambios de la versión de actualización 36, V3'
           href: psa/whats-new-ur-36.md
         - name: 'Novedades y cambios de la versión de actualización 35, V3'
