@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 483992768f8b8a02dd0d56b9479c7d591fa676d1eca41161e68b7cf3f97107af
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
+ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003882"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7679230"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novedades de junio de 2021: Project Operations para escenarios basados en recursos/no mantenidos en existencias
 
@@ -30,6 +30,7 @@ En esta versión se incluyen las siguientes características:
 - Capacidad de eliminar [Proyecto de líneas de propuesta de factura para escenarios de ajuste](../invoicing/correct-project-invoice-proposals.md).
 - Las líneas de gastos detalladas reflejan los nombres de las subcategorías en el informe de gastos [Informes de gastos reinventados: nuevas funciones](../expense/expense-reports-reimagined.md#new-features).
 - El método de pago está disponible en el panel de nuevos gastos al crear un nuevo gasto.
+- Disponibilidad general de API de programación de proyectos. Esta nueva funcionalidad permite a los clientes realizar de manera programática operaciones de creación, actualización y eliminación en tareas del proyecto, asignaciones de recursos, dependencias de tareas y registros de miembros del equipo del proyecto. Para más información, vea [Utilizar las API de programación del proyecto para realizar operaciones con entidades de programación](../project-management/schedule-api-preview.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Actualizaciones de asignaciones de doble escritura de Project Operations
 
