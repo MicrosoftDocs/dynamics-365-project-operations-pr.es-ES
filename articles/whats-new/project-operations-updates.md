@@ -2,17 +2,17 @@
 title: Actualizaciones de Project Operations
 description: Este tema proporciona información sobre las versiones publicadas de Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 10/04/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
-ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
+ms.openlocfilehash: e4cafde5e866690f31452eceffdd81ffeb14e635
+ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783444"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892227"
 ---
 # <a name="project-operations-updates"></a>Actualizaciones de Project Operations
 
@@ -28,17 +28,17 @@ Dynamics 365 Project Operations consta de dos componentes:
 - Gestión de proyectos y contabilidad en el entorno de Dynamics 365 Finance cubre las capacidades de gestión de gastos, la contabilidad de proyectos y el reconocimiento de ingresos. El entorno de aplicaciones de Finance and Operations se usa en Project Operations para escenarios basados en recursos/no almacenados, implementación Lite - trato a facturación proforma y Project Operations para escenarios basados en existencias/producción.
 
 ## <a name="project-operations-release-notes"></a>Notas de la versión de Project Operations
-- Notas de la última versión de Project Operations para el escenario [recursos/no mantenidos en existencias](whats-new-oct-2021-resource-based.md).
-- Notas de la última versión de Project Operations para el escenario [Implementación de Lite](../pro/whats-new/whats-new-oct-2021-lite.md).
-- Notas de la última versión de Project Operations para el escenario [mantenidos en existencias/producción](../prod-pma/whats-new/whats-new-jul-2021-stocked.md).
+- Notas de la última versión de Project Operations para el escenario [recursos/no mantenidos en existencias](whats-new-nov-2021-resource-based.md).
+- Notas de la última versión de Project Operations para el escenario [Implementación de Lite](../pro/whats-new/whats-new-nov-2021-lite.md).
+- Notas de la última versión de Project Operations para el escenario [mantenidos en existencias/producción](../prod-pma/whats-new/whats-new-oct-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Última versión de Project Operations
 
 | Project Operations en el entorno de Dataverse | Gestión de proyectos y contabilidad en entornos de aplicaciones de Finance and Operations | 
 | --- | --- |
-| 4.26.0.145 | 10.0.21 |
+| 4.26.0.150 | 10.0.22 |
 
-Para el escenario de recursos/no mantenidos en existencias de Project Operations, recomendamos utilizar la versión 2.2.2.83 o posterior de la solución de orquestación de doble escritura.
+Para el escenario de recursos/no mantenidos en existencias de Project Operations, recomendamos utilizar la versión 2.3.1.15 o posterior de la solución de orquestación de doble escritura.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Calendario de lanzamiento para Project Operations en el entorno de Dataverse
 
@@ -47,23 +47,23 @@ Cada mes están disponibles actualizaciones de Project Operations en el entorno 
 | Estación | Región | Número de versión actual | Actualizaciones automáticas para la implementación Lite | Actualizaciones automáticas para implementación de recursos/no mantenida | Número de versión siguiente | Próxima versión generalmente disponible |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Estación 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Primer lanzamiento         |  4.26.0.145     | 12 de noviembre de 2021  | 19 de noviembre de 2021   | Por determinar                 | 03 de diciembre de 2021   |
+|   &nbsp;  | Primer lanzamiento         |  4.26.0.150     | Completa           | Completa            | Por determinar                 | 06 de diciembre de 2021   |
 | Estación 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Sudamérica         |  4.26.0.145     | 12 de noviembre de 2021  | 19 de noviembre de 2021   | Por determinar                 | 03 de diciembre de 2021   |
-|   &nbsp;  | Canadá                |  4.26.0.145     | 12 de noviembre de 2021  | 19 de noviembre de 2021   | Por determinar                 | 03 de diciembre de 2021   |
-|   &nbsp;  | India                 |  4.26.0.145     | 12 de noviembre de 2021  | 19 de noviembre de 2021   | Por determinar                 | 03 de diciembre de 2021   |
-|   &nbsp;  | Francia                |  4.26.0.145     | 12 de noviembre de 2021  | 19 de noviembre de 2021   | Por determinar                 | 03 de diciembre de 2021   |
-|   &nbsp;  | Sudáfrica          |  4.26.0.145     | 12 de noviembre de 2021  | 19 de noviembre de 2021   | Por determinar                 | 03 de diciembre de 2021   |
+|   &nbsp;  | Sudamérica         |  4.26.0.150     | Completa           | Completa            | Por determinar                 | 06 de diciembre de 2021   |
+|   &nbsp;  | Canadá                |  4.26.0.150     | Completa           | Completa            | Por determinar                 | 06 de diciembre de 2021   |
+|   &nbsp;  | India                 |  4.26.0.150     | Completa           | Completa            | Por determinar                 | 06 de diciembre de 2021   |
+|   &nbsp;  | Francia                |  4.26.0.150     | Completa           | Completa            | Por determinar                 | 06 de diciembre de 2021   |
+|   &nbsp;  | Sudáfrica          |  4.26.0.150     | Completa           | Completa            | Por determinar                 | 06 de diciembre de 2021   |
 | Estación 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japón                 |  4.26.0.145     | 12 de noviembre de 2021  | 19 de noviembre de 2021   | Por determinar                 | 10 de diciembre de 2021   |
-|   &nbsp;  | Asia Pacífico          |  4.26.0.145     | 12 de noviembre de 2021  | 19 de noviembre de 2021   | Por determinar                 | 10 de diciembre de 2021   |
-|   &nbsp;  | Gran Bretaña         |  4.26.0.145     | 12 de noviembre de 2021  | 19 de noviembre de 2021   | Por determinar                 | 10 de diciembre de 2021   |
-|   &nbsp;  | Oceanía               |  4.26.0.145     | 12 de noviembre de 2021  | 19 de noviembre de 2021   | Por determinar                 | 10 de diciembre de 2021   |
-|   &nbsp;  | Emiratos Árabes Unidos  |  4.26.0.145     | 12 de noviembre de 2021  | 19 de noviembre de 2021   | Por determinar                 | 10 de diciembre de 2021   |
+|   &nbsp;  | Japón                 |  4.26.0.150     | Completa           | Completa            | Por determinar                 | 10 de diciembre de 2021   |
+|   &nbsp;  | Asia Pacífico          |  4.26.0.150     | Completa           | Completa            | Por determinar                 | 10 de diciembre de 2021   |
+|   &nbsp;  | Gran Bretaña         |  4.26.0.150     | Completa           | Completa            | Por determinar                 | 10 de diciembre de 2021   |
+|   &nbsp;  | Oceanía               |  4.26.0.150     | Completa           | Completa            | Por determinar                 | 10 de diciembre de 2021   |
+|   &nbsp;  | Emiratos Árabes Unidos  |  4.26.0.150     | Completa           | Completa            | Por determinar                 | 10 de diciembre de 2021   |
 | Estación 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.25.0.91      | Completa           | Completa            | 4.26.0.145          | 12 de noviembre de 2021   |
+|   &nbsp;  | Europa                |  4.26.0.150     | Completa           | 10 de diciembre de 2021   | Por determinar                 | 17 de diciembre de 2021   |
 | Estación 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Norteamérica         |  4.25.0.91      | Completa           | Completa            | 4.26.0.145          | 19 de noviembre de 2021   |
+|   &nbsp;  | Norteamérica         |  4.26.0.150     | 10 de diciembre de 2021  | 17 de diciembre de 2021   | Por determinar                 | 07 de enero de 2022    |
 
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Calendario de lanzamiento para la gestión de proyectos y la contabilidad en el entorno de aplicaciones de Finance and Operations

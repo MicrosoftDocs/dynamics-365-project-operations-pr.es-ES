@@ -2,7 +2,7 @@
 title: Configurar la integración de tarjetas de crédito
 description: Este tema explica cómo trabajar con transacciones de tarjetas de crédito relacionadas con gastos.
 author: suvaidya
-ms.date: 04/02/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 51c364dff41d856e493581e1b87fd29571f641c70e7233bdebb910efbc64b983
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 49c8f2369a8be41fbc04c74bdb6b565b4f4b7b79
+ms.sourcegitcommit: 9f26cf8bb640af1eb9f7f0872805965d7ffcb9d3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996232"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "7826277"
 ---
 # <a name="set-up-credit-card-integration"></a>Configurar la integración de tarjetas de crédito
 
@@ -30,7 +30,7 @@ Las transacciones con tarjeta de crédito relacionadas con gastos se pueden conf
 
 Para importar transacciones con tarjeta de crédito, siga estos pasos:
 
-1. En la página **Transacciones con tarjeta de crédito**, seleccione **Importar transacciones**. Si abre la administración de datos por primera vez, el sistema debe actualizar la lista de entidades de datos antes de que pueda continuar.
+1. En la página **Transacciones con tarjeta de crédito**, seleccione **Importar transacciones**. Si abre la administración de datos por primera vez, el sistema deberá actualizar la lista de entidades de datos para que pueda continuar.
 2. En el campo **Nombre**, indique una descripción única para el trabajo de importación.
 3. En el campo **Formato de datos de origen**, seleccione el formato del archivo que contiene las transacciones con tarjeta de crédito para importar.
 4. Seleccione **Cargar** y luego busque y seleccione el archivo que desee importar.
@@ -50,10 +50,18 @@ Seleccione una o varias transacciones con tarjeta de crédito y luego seleccione
 
 ## <a name="delete-credit-card-transactions"></a>Eliminar transacciones con tarjeta de crédito 
 
-A veces, después de que se importan las transacciones con tarjeta de crédito, es posible que sea necesario eliminar ciertas transacciones. Esto podría deberse a que las transacciones están duplicadas o a que los datos pueden no ser precisos. Los administradores pueden usar la característica **"Eliminar transacciones con tarjeta de crédito"** para seleccionar y eliminar transacciones con tarjeta de crédito que **no estén asociada** a un informe de gastos. 
+A veces, después de que se importan las transacciones con tarjeta de crédito, es posible que sea necesario eliminar ciertas transacciones. Esto podría deberse a que las transacciones están duplicadas o porque los datos no son precisos. Los administradores pueden usar la característica **"Eliminar transacciones con tarjeta de crédito"** para seleccionar y eliminar transacciones con tarjeta de crédito que **no estén asociada** a un informe de gastos. 
 
 1. Vaya a **Tareas periódicas** > **Eliminar transacciones con tarjeta de crédito**.
 2. Seleccione **Filtro** y proporcione información para identificar los registros que se incluirán.
 3. Seleccione **Aceptar** para eliminar los registros. 
+
+## <a name="storing-credit-card-numbers"></a>Almacenar números de tarjetas de crédito
+
+Hay tres opciones disponibles para almacenar números de tarjetas de crédito. Los números de tarjetas de crédito se almacenan en la página **Parámetros de gestión de gastos**.
+
+- **Evitar la entrada del número de tarjeta** - Los números de tarjetas de crédito no se almacenan.
+- **Números de tarjetas hash (almacenar los últimos cuatro dígitos)** - Los últimos cuatro dígitos de los números de las tarjetas de crédito se almacenan en formato cifrado.
+- **Almacenar números de tarjetas** - Los números de tarjetas de crédito se almacenan en un formato no cifrado. Esta opción no cumple con el Estándar de seguridad de datos (DSS) de la industria de tarjetas de pago (PCI). Por lo tanto, para que su organización cumpla con las regulaciones PCI DSS, los administradores de la organización deben optar por no almacenar los números de las tarjetas de crédito o por almacenar los números de las tarjetas hash.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
