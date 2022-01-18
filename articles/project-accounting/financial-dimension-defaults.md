@@ -2,16 +2,16 @@
 title: Valores predeterminados de dimensiones financieras
 description: Este tema proporciona información sobre cómo configurar los valores predeterminados de la dimensión financiera.
 author: sigitac
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8a7845b7f6b7256edad6efc7b20872078f8c5ab0b60477d2a42b5b9d61104bff
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005457"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922959"
 ---
 # <a name="financial-dimension-defaults"></a>Valores predeterminados de dimensiones financieras
 
@@ -60,6 +60,15 @@ Los proyectos se crean y mantienen en CDS. Los atributos contables para proyecto
 4. Establezca los valores predeterminados de las dimensiones financieras. Observe que el valor predeterminado de las dimensiones financieras proviene de la cuenta del cliente. Si el proyecto está asociado a una línea de contrato con varios clientes de contrato de proyecto, el cliente principal se utiliza para dar el valor predeterminado a las dimensiones financieras.
 
 Las dimensiones financieras predeterminadas del proyecto se utilizan para establecer los valores predeterminados de las líneas de diario para las transacciones de tiempo, gastos y tarifas en el **Diario de integración de Project Operations** y en las líneas de factura de proyectos relacionados.
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>Aplicar dimensiones financieras para las entradas de tiempo del proyecto
+Para aplicar dimensiones financieras para las entradas de tiempo del proyecto, tenga en cuenta que el valor de dimensión predeterminado se basa en el siguiente orden:
+
+1. Recurso
+2. Project
+3. Fuente de financiación
+
+Por ejemplo, si la dimensión predeterminada se especifica en un recurso, se aplicará sobre una dimensión predeterminada que se especifica en el proyecto. Del mismo modo, se aplicará una dimensión de proyecto predeterminada sobre la predeterminada que se especifica en la fuente de financiación.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

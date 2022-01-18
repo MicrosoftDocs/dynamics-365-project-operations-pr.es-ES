@@ -1,8 +1,8 @@
 ---
-title: Informes de gastos repensados
+title: Informes de gastos rediseñados (contiene vídeo)
 description: Este tema explica la experiencia rediseñada y reinventada para la entrada del informe de gastos.
 author: suvaidya
-ms.date: 07/08/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997852"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7941038"
 ---
 # <a name="expense-reports-reimagined"></a>Informes de gastos reinventados
 
@@ -58,6 +58,7 @@ Para activar la nueva experiencia, use el área de trabajo **Administración de 
 | Guardar y agregar nuevas líneas de gastos | Los botones **Guardar** y **Nuevo** están disponibles cuando se ingresan nuevos gastos, para ayudar a introducir rápidamente líneas de gastos. |
 | Mejor visibilidad en líneas divididas y detalladas | Las líneas detalladas y divididas se agregan directamente a la lista de gastos para aumentar la visibilidad y ayudarle a determinar fácilmente si hay algún error. |
 | Ver detalles de subcategorías en líneas detalladas | Las líneas desglosadas de un gasto primario muestran las etiquetas de subcategoría en el informe de gastos. El desglose le permite revisar los detalles granulares de un vistazo.|
+|Detallar los gastos recurrentes rápidamente | El espacio de trabajo de gastos reinventado brinda la capacidad de detallar los gastos recurrentes rápidamente agregando la subcategoría, la fecha de inicio y la cantidad. La cantidad se refiere al número de veces que se repite la carga a lo largo de un período continuo. |
 | Mostrar recibos durante el desglose | Los recibos pueden mostrarse durante el desglose. |
 | Selección de anticipo de efectivo | Seleccione uno o más adelantos en efectivo para realizar una sola transacción de gastos. |
 | Saldo de anticipo de efectivo | Revise el saldo de anticipos en efectivo en tiempo real cuando cree una entrada de gastos contra anticipos en efectivo aprobados y pagados. |

@@ -2,16 +2,16 @@
 title: Registrarse para pruebas de Project Operations
 description: En este tema se proporciona información sobre cómo implementar una prueba de Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 10/04/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
-ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
+ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
+ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599234"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901638"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Registrarse para pruebas de Project Operations 
 
@@ -90,7 +90,8 @@ Antes de comenzar, inicie sesión en un navegador con la cuenta de trabajo del u
 4.  Seleccione los correspondientes URL de Microsoft Dataverse y URL de aplicaciones de Finance and Operations para validar la implementación.
 
 ## <a name="configuring-dual-write"></a>Configuración de la escritura dual
-Solo para implementaciones de materiales no mantenidos en existencias, configure sus asignaciones de doble escritura. Para más información, vea [Versiones de mapas de doble escritura de Project Operations](resource-dual-write-maps.md).
+- Para configurar roles de seguridad para escritura dual, consulte [Actualice la configuración de seguridad en Project Operations en Dataverse](resource-provision-new-environment.md).
+- Para configurar mapas de escritura dual, consulte [Ejecutar mapas de escritura dual de Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Asignación de licencias
 
