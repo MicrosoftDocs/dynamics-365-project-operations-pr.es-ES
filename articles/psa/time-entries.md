@@ -2,6 +2,8 @@
 title: Creación de entrada de tiempo
 description: En este tema se proporciona información sobre cómo crear entradas de tiempo.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0d0e21d0964788564d3db9173c3a0b3378cd0049b4455a23ccc1bccd1c21d9e7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 520d3a6e6cc3d486d778c66c2ef7fd3ff20cd582
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990427"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149699"
 ---
 # <a name="create-time-entries"></a>Creación de entrada de tiempo
 
@@ -68,6 +70,3 @@ Puede importar datos de reservas y asignaciones de proyectos. Cuando importe dat
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Capacidades de agrupación, ordenación, búsqueda y filtrado
 
 Puede agrupar y filtrar las entradas de tiempo por las dimensiones que se especifican en las columnas. En el campo **Agrupar por**, seleccione la dimensión que se usará para filtrar las entradas de tiempo. También puede ordenar los registros de entrada de tiempo en orden ascendente o descendente mediante la flecha de ordenación en los encabezados de columna. Además, puede mostrar u ocultar entradas seleccionando el botón **Filtrar** en los encabezados de las columnas y, a continuación, en el cuadro **Buscar** introduciendo el texto que se debe usar para buscar entradas de tiempo por nombre de proyecto, tarea de proyecto, entrada de tiempo o recurso.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

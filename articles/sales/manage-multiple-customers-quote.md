@@ -2,16 +2,18 @@
 title: Administrar varios clientes en una oferta de proyecto
 description: Este tema proporciona información sobre cómo trabajar en ofertas que involucren a varios clientes que financiarán el proyecto.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eef3e8754cdfdb810ffd5283976445edbb126b51e20d5b51d603d2ba9e2c02c9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992002"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4182013"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Administrar varios clientes en una oferta de proyecto
 
@@ -21,7 +23,7 @@ Las ofertas del proyecto respaldan el escenario en el que la propuesta involucra
 
 Todos los clientes de oferta de la pestaña **Clientes** de la oferta del proyecto sirven de forma predeterminada como clientes de línea de oferta en cualquier **nueva** línea de oferta basada en el proyecto creada para la oferta. Las líneas de oferta existentes basadas en proyectos no heredarán los nuevos registros de clientes de oferta creados después de ellas.
 
-Los clientes de oferta y los clientes de línea de oferta se pueden agregar, actualizar o eliminar en cualquier momento antes de ganar la oferta. Un cliente válido de la oferta debe configurarse como cliente en la empresa propietaria o entidad legal en la página **Clientes**. Las entidades jurídicas están configuradas en el módulo **Gestión de proyectos y contabilidad** de Dynamics 365 Project Operations y están disponibles como empresas en los módulos **Ventas de proyectos y Entrega** de Project Operations.
+Los clientes de oferta y los clientes de línea de oferta se pueden agregar, actualizar o eliminar en cualquier momento antes de ganar la oferta. Un cliente válido de la oferta debe configurarse como cliente en la empresa propietaria o entidad legal en la página **Clientes**. Las entidades jurídicas están constituidas en el módulo **Gestión de proyectos y contabilidad** de Dynamics 365 Project Operations y están disponibles como empresas en los módulos **Venta y entrega de proyectos** de Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Concepto de cliente principal
 
@@ -49,6 +51,3 @@ Se puede crear, actualizar o eliminar un cliente de oferta desde la pestaña **C
 Puede editar los porcentajes de división de facturación utilizando la experiencia de edición de cuadrícula en línea. Cuando los porcentajes de división de facturación no suman el 100 %, se producirá un error. Después de actualizar los porcentajes de división de facturación, actualice la página para eliminar el error.
 
 También puede intentar seleccionar **Distribuir uniformemente** en la subcuadrícula del cliente de la oferta. Esta acción asigna divisiones de facturación a todos los clientes de oferta. Si hay algún factor de redondeo, se agregará al cliente de redondeo. Uno de los clientes de oferta siempre se etiqueta como cliente de redondeo. Esto significa que el registro del cliente de oferta tiene el indicador **Redondeo** establecido en **Sí**. Por lo general, este es el cliente principal de la oferta, pero eso se puede cambiar.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,10 +2,12 @@
 title: Estimar los costes y las ventas de proyecto cuando un recurso que se puede reservar completa varios roles en un proyecto
 description: En este tema se proporciona información sobre cómo usar las dimensiones de precios a fin de respaldar los precios y costes para un recurso que desempeñe varios roles en un proyecto.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: be24bb3bdf2f3c8351fc396ae67457b5213e1cd800e9d2ad23d59d0d038f22b9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67e24156e960b9b09cf92f7f0cd77f6c74a982b8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987502"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145064"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Estimar los costes y las ventas de proyecto cuando un recurso que se puede reservar completa varios roles en un proyecto 
 
@@ -72,6 +74,3 @@ Cuando amplía la fila de ese registro de miembro del equipo, puede ver distinta
 Cuando navega a la cuadrícula **Estimaciones**, observará que ambas asignaciones para el mismo recurso tienen un precio diferente.
 Se asignan precios a la asignación para el recurso en la Tarea A mediante el valor de atributo **Rol** de **Jefe de consultoría**. Se asignan precios a la asignación para el mismo recurso en la Tarea B mediante el valor de atributo **Rol** de **Técnico de red**.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

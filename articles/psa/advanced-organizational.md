@@ -2,6 +2,8 @@
 title: Unidades organizativas
 description: En este tema se proporciona información sobre las unidades organizativas en Dynamics 365 Project Service Automation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c1c86ce98213fba54fd2b477d4df6f8dc5409d55
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005097"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145650"
 ---
 # <a name="organizational-units"></a>Unidades organizativas 
 
@@ -53,7 +55,7 @@ La unidad organizativa desempeña dos roles en PSA:
 - **Unidad de contratación**: unidad organizativa que representa el grupo o la división de la compañía responsable de lograr la venta y administrar la entrega del trabajo y los servicios al cliente. La unidad de contratación se identifica con el campo **Unidad de contratación** en la sección del encabezado de las páginas **Oportunidad**, **Oferta**, **Contrato del proyecto** y **Proyecto**.
 - **Unidad de dotación de recursos**: unidad organizativa a la que pertenece o está asignado un recurso. Esta unidad organizativa puede ofrecer sus recursos para determinados roles en declaraciones del trabajo (SOW) y proyectos que son propiedad de la unidad de contratación.
 
-> ![Unidades de contratación y unidades de dotación de recursos.](media/advanced-1.png)
+> ![Unidades de contratación y unidades de dotación de recursos](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Preguntas más frecuentes acerca de las unidades organizativas
 
@@ -122,24 +124,24 @@ Núm. En la versión actual de PSA, las unidades organizativas no son jerárquic
 Cuando hay existe una jerarquía compleja de centros de costes, divisiones, oficinas de facturación, etc., configure los nodos hoja de la jerarquía como unidades organizativas distintas.
 El ejemplo siguiente muestra una jerarquía típica:
 
-**ContosoIndia**
+**Contoso India**
 
   - Práctica de SAP 
 
     - Consultores técnicos 
-    - Consultores técnicos 
+    - Consultores funcionales 
     
   - Práctica de tecnología de Microsoft 
 
     - Consultores técnicos
-    - Consultores técnicos 
+    - Consultores funcionales 
     
-**Contoso Estados Unidos**
+**Contoso US**
 
  - Práctica de SAP 
 
     - Consultores técnicos 
-    - Consultores técnicos 
+    - Consultores funcionales 
     
  - Práctica de tecnología de Microsoft 
 
@@ -154,7 +156,7 @@ Si su jerarquía es similar, debe configurarla como lista plana, tal como se mue
 - Contoso Estados Unidos - Práctica de SAP - Consultores técnicos  
 - Contoso Estados Unidos - Práctica de SAP - Consultores funcionales  
 - Contoso Estados Unidos - Práctica de tecnología de Microsoft - Consultores técnicos 
-- Contoso Estados Unidos - Práctica de tecnología de Microsoft -Consultores funcionales
+- Contoso Estados Unidos - Práctica de tecnología de Microsoft - Consultores funcionales
 
 ### <a name="were-a-small-professional-services-company-that-operates-as-only-one-division-how-can-we-best-use-the-organizational-unit-concept-in-the-current-version-of-psa"></a>Somos una pequeña compañía de servicios profesionales que opera como una única división. ¿Cómo podemos optimizar el uso del concepto de unidad organizativa en la versión actual de PSA?
 
@@ -165,6 +167,3 @@ Si su compañía opera como una única unidad con una lista de precios de coste,
 Cuando se crea un proyecto por su cuenta, la unidad de contratación predeterminada del proyecto se basa en el usuario que lo crea. Dicho usuario es también el jefe de proyecto predeterminado. Si el proyecto se asigna a una entidad de ventas, como, por ejemplo, un contrato de proyecto u oferta, la unidad de contratación del proyecto se basa en la entidad de ventas en su lugar. En este caso, es posible que se vuelvan a calcular las estimaciones de proyecto, ya que la lista de precios de coste se usa para calcular los cambios de estimación de costes si se cambia la unidad de contratación. La lista de precios de ventas se usa para calcular las estimaciones de ventas que se cambiarán para mantenerlas sincronizadas con la lista de precios del proyecto de la oferta.
 
 Los campos **Unidad de contratación** y **Divisa** del proyecto están bloqueados y no se pueden editar porque deben estar sincronizados con los valores de la entidad de ventas (contrato de proyecto u oferta) a la que está asignado el proyecto.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

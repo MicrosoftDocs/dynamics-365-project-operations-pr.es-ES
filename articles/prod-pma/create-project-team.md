@@ -2,9 +2,11 @@
 title: Crear un equipo de proyecto
 description: En este tema se proporciona información sobre cómo crear y gestionar equipos de proyecto.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005817"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270879"
 ---
 # <a name="create-a-project-team"></a>Crear un equipo de proyecto
 
@@ -33,9 +35,9 @@ La configuración de visualización también se puede personalizar para ofrecer 
 
 El jefe de proyecto puede seleccionar un rol en la página y luego, si hay un recurso disponible que se ajuste al requisito, seleccionar reservar un recurso para llenar el rol. Tenga en cuenta que no es necesario reservar los recursos en este punto de la etapa de planificación. Cuando crea una WBS, puede reemplazar roles con recursos de personal para el proyecto. Si los roles se reemplazan con recursos de personal en la WBS, la configuración de recursos actualiza automáticamente la lista y la programación del equipo del proyecto.
 
-[![Listado del equipo del proyecto que incluye tanto roles como recursos reales.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Listado del equipo del proyecto que incluye tanto roles como recursos reales](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
-El director de proyectos tiene diversas opciones para reservar un recurso para un proyecto, como **Capacidad restante**, **Plena capacidad**, **Porcentaje de capacidad** y **Especificar horas**. Estas opciones de reserva se pueden cancelar en cualquier momento si cambian las asignaciones de recursos. Se admiten dos tipos de reserva:
+El jefe de proyecto tiene varias opciones para reservar un recurso para un proyecto, como **Capacidad restante**, **Capacidad completa**, **Porcentaje de capacidad** y **Especificar horas**. Estas opciones de reserva se pueden cancelar en cualquier momento si cambian las asignaciones de recursos. Se admiten dos tipos de reserva:
 
 - **Reserva manual**: la reserva de recursos se aprobó y confirmó para trabajar en la interacción durante el tiempo especificado.
 - **Reserva automática**: las reservas de recursos se configuró provisionalmente para trabajar en la interacción por la duración especificada.

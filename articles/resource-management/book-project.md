@@ -2,16 +2,18 @@
 title: Reservar para un proyecto
 description: En este tema se proporciona información sobre la reserva de un recurso para un proyecto.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 719892a37f381fc0ad6c3ccaca5c4d87c9947a4d7a39dca96aef464d04a71af0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c87b0c32ef081f601ed79c11687f008bb454dd45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994927"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131094"
 ---
 # <a name="book-to-a-project"></a>Reservar para un proyecto
 
@@ -29,8 +31,8 @@ Si su organización está operando en modo de asignación de recursos híbrido, 
 
 1. Desde el proyecto, vaya a la cuadrícula de miembros del equipo y seleccione **Nuevo**.
 2. Defina el nombre del puesto y el rol del recurso.
-3. Seleccione el recurso que se puede reservar desde el servicio de búsqueda disponible.
-4. Tras seleccionar el recurso, defina la siguiente información de campo para reservar el recurso:
+3. Seleccione el recurso reservable en la búsqueda disponible.
+4. Después de seleccionar el recurso, defina la siguiente información de campo para reservar el recurso:
 
     - Fecha de inicio
     - Fecha de finalización
@@ -64,6 +66,3 @@ Como gerente de proyecto, es posible que deba reservar un recurso para un proyec
 
 > [!NOTE]
 > Este método no crea ninguna reserva para el recurso. En su lugar, agrega el recurso al equipo. Una vez que el miembro del equipo se ha agregado al proyecto, el administrador del proyecto puede usar el mantenimiento de reservas o la extensión de reservas para agregar las reservas necesarias al recurso.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

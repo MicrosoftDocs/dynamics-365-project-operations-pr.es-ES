@@ -2,16 +2,18 @@
 title: Administrar varios clientes en líneas de contratos basadas en proyectos (lite)
 description: Este tema proporciona información sobre cómo administrar varios clientes en líneas de contrato basadas en proyectos.
 author: rumant
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a7e29b1a92a5fefcf4812931383d03e5f81a27001f0e6525bb4eeb8dc93b18b9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f28e7d1363647621f7bd23504aa6d4ea3fc95fc9
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001812"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181675"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines---lite"></a>Administrar varios clientes en líneas de contratos basadas en proyectos (lite)
 
@@ -41,6 +43,3 @@ A continuación, se muestran los campos del registro de cliente de la línea de 
 Los porcentajes de división de facturación se pueden editar en la cuadrícula. Cuando los porcentajes de división de facturación no suman el 100 por ciento, se producirá un error. Después de editar los porcentajes de división de facturación, actualice la página para eliminar el error.
 
 También puede seleccionar **Distribuir uniformemente** en la subcuadrícula del cliente de la línea de contrato. Esta acción asigna de manera uniforme las divisiones de facturación a todos los clientes de la línea de contrato. Si hay algún factor de redondeo, se agregará al cliente de redondeo. Un cliente de línea de contrato siempre se etiqueta como el cliente de **Redondeo** con la marca **Redondeo** establecida en **Sí**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

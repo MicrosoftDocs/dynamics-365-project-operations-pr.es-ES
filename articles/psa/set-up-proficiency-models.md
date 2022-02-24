@@ -2,6 +2,8 @@
 title: Establezca modelos de competencias
 description: Cómo configurar modelos de competencia en Project Service
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f8eca6fc162c4bae2b5e8e977b2a504a75f0535c36c58f376a7948e619f15fa2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 954fba6a9e52935ae11b52520109fa44301d45c1
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006897"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146774"
 ---
 # <a name="set-up-proficiency-models-project-service"></a>Configurar modelos de competencia (Project Service)
 
@@ -51,6 +53,3 @@ Ahora que ha agregado los conocimientos para los proyectos de sus clientes, nece
   
 ### <a name="see-also"></a>Vea también  
  [Configuración de recursos](../psa/set-up-resources.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

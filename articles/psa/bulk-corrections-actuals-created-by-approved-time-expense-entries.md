@@ -2,8 +2,10 @@
 title: Correcciones masivas de datos reales creados por entradas de gastos y tiempo aprobadas
 description: En este tema se explica de qué manera un administrador puede hacer correcciones únicas o masivas a entradas de tiempo o gastos previamente aprobadas si la facturación no está completa.
 author: rumant
+manager: AnnBe
 ms.date: 04/02/2020
 ms.topic: article
+ms.service: dynamics-ax-applications
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -16,12 +18,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 88706946e5c5c59be996640f4c7b37e958c1cf1d9fd14c72c0c6dc854a77dab4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 063c4d017f5904f09c3c239bfa432a128872e4d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995422"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144974"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Correcciones masivas de datos reales creados por entradas de gastos y tiempo aprobadas
 
@@ -62,7 +64,7 @@ Complete los siguientes pasos para corregir entradas de tiempo únicas o múltip
 
 Por ejemplo, en el siguiente gráfico, hay dos elementos de línea con una cantidad de 8,00 que tienen débitos en la columna Cantidad. Además, hay dos elementos de línea con una cantidad de -8,00 que muestran los importes abonados en la columna Importe. Estas correcciones lleva la cantidad a cero.
 
-![Lista de vista asociada de datos reales.](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
+![Lista de vista asociada de datos reales](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
  
 ## <a name="correct-approved-expense-entries"></a>Corregir entradas de gasto aprobadas
 
@@ -87,7 +89,4 @@ Complete los siguientes pasos para corregir una o más entradas de gastos.
 
 8. En la página del proyecto, en la pestaña **Datos reales**, revise la **Vista asociada de datos reales**. Se enumeran las entradas originales y las entradas corregidas. En el siguiente gráfico se muestran los importes de entrada de gastos originales y los importes de entrada de gastos corregidos correspondientes. 
 
-![Datos reales de gastos.](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Datos reales de gastos](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)

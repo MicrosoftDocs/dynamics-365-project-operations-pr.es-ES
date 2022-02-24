@@ -2,6 +2,8 @@
 title: Programaciones del proyecto
 description: En este tema se proporciona información sobre cómo crear una programación.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2877f12a9ea3d288c4cf41f406cd8ca3e6cee821
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998437"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148439"
 ---
 # <a name="project-schedules"></a>Programaciones del proyecto 
 
@@ -94,7 +96,7 @@ La cuadrícula **Programar** es totalmente accesible y se puede usar con lectore
 
 El nombre de una tarea describe el trabajo que debe completarse. En PSA, los atributos que están asociados con una tarea describen el programa de la tarea y sus requisitos de personal.
 
-> ![Atributos de tareas.](media/project-2.png)
+> ![Atributos de tareas](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>Atributos de programación
 
@@ -147,6 +149,3 @@ De forma predeterminada, si una tarea de nodo hoja no tiene predecesores, su fec
 ### <a name="manual-scheduling"></a>Programación manual
 
 Si las reglas de la programación automática no cumplen con sus requisitos, puede establecer el modo de tarea para la tarea en **Programada manualmente**. Esta configuración impide que el motor de programación calcule los valores de otros atributos de programación. Independientemente del modo de tarea, si establece predecesores en las tareas, siempre afecta la fecha de inicio de la tarea dependiente.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

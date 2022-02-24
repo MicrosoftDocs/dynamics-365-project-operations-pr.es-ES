@@ -2,9 +2,11 @@
 title: Ejecución de recursos para recursos planificados
 description: En este tema se proporciona información sobre planear los recursos de un proyecto.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eaeae9b0a4563805af61d20d6cc6709f7d697f582d4b1af2b883b292ac482af5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2d849e7bdd020b0a2f5f35a627e28434ea77e5fb
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989527"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085319"
 ---
 # <a name="resource-fulfillment-for-planned-resources"></a>Ejecución de recursos para recursos planificados
 
@@ -38,6 +40,3 @@ Un jefe de proyecto puede planificar los roles de recursos necesarios para un pr
 7. Seleccione un trabajador y, después, **Asignar**.
 8. Verifique que la línea para **Desarrollador de software 1** ha sido eliminada para el proyecto **Fase 2 del proyecto de la actualización XYZ**.
 9. En la pestaña **Equipo de proyecto y programación**, para el proyecto **Fase 2 de la actualización XYZ**, compruebe que el trabajador que seleccionó en el paso anterior se haya agregado como **Desarrollador de software**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,10 @@
 title: Página principal de proyectos de recursos
 description: En este tema se proporciona información sobre las capacidades de administración de recursos en Project Service Automation (PSA) para Dynamics 365.
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 11/28/2018
 ms.topic: article
 ms.author: ruhercul
@@ -17,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b0ea56a7b41f5bb7d458b780f4e2611063e1b4a0ae2a6eb2acfa9cfef8c1cff0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6d62baf0d5a535d118df507edaba3059d44fd4d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984802"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147449"
 ---
 # <a name="resourcing-projects-home-page"></a>Página principal de proyectos de recursos
 
@@ -52,6 +53,3 @@ Puede contratar personal para su proyecto con un equipo de recursos genéricos o
 - [Reservar recursos con nombre desde los requisitos de recursos](book-named-resource.md)
 - [Enviar una solicitud de recursos](submit-resource-request.md)
 - [Aceptar o rechazar un recurso de proyecto propuesto de una solicitud de recurso](accept-reject-proposed-resource.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

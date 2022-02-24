@@ -2,9 +2,11 @@
 title: Sincronizar los contratos de proyecto y los proyectos directamente desde Project Service Automation a Finance
 description: Este tema describe la plantilla y las tareas subyacentes que se utilizan para sincronizar los contratos del proyecto y los proyectos directamente desde Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 author: Yowelle
+manager: AnnBe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001092"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764840"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sincronizar los contratos de proyecto y los proyectos directamente desde Project Service Automation a Finance 
 
@@ -42,7 +44,7 @@ La solución de integración de Project Service Automation con Finance utiliza l
 
 La siguiente ilustración muestra cómo se sincronizan los datos entre Project Service Automation y Finance.
 
-[![Flujo de datos para la integración de Project Service Automation con Finance.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Flujo de datos para la integración de Project Service Automation con Finance](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Plantillas y tareas
 
@@ -107,8 +109,8 @@ Cuando se aplica la solución de integración de Project Service Automation con 
 ## <a name="prerequisites-and-mapping-setup"></a>Requisitos previos y configuración de las asignaciones
 
 - Antes de poder realizar la sincronización de proyectos y contratos de proyecto, debe sincronizar las cuentas.
-- En su conjunto de conexiones, agregue una asignación de campo de clave de integración para **msdyn\_organizationalunits** a **msdyn\_name \[Nombre\]**. Es posible que primero deba agregar un proyecto al conjunto de conexiones. Para más información, consulte [Integrar datos en Common Data Service para aplicaciones](/powerapps/administrator/data-integrator).
-- En su conjunto de conexiones, agregue una asignación de campo de clave de integración para **msdyn\_projects** a **msdyn\_projectnumber \[Número de proyecto\]**. Es posible que primero deba agregar un proyecto al conjunto de conexiones. Para más información, consulte [Integrar datos en Common Data Service para aplicaciones](/powerapps/administrator/data-integrator).
+- En su conjunto de conexiones, agregue una asignación de campo de clave de integración para **msdyn\_organizationalunits** a **msdyn\_name \[Nombre\]**. Es posible que primero deba agregar un proyecto al conjunto de conexiones. Para más información, consulte [Integrar datos en Common Data Service para aplicaciones](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- En su conjunto de conexiones, agregue una asignación de campo de clave de integración para **msdyn\_projects** a **msdyn\_projectnumber \[Número de proyecto\]**. Es posible que primero deba agregar un proyecto al conjunto de conexiones. Para más información, consulte [Integrar datos en Common Data Service para aplicaciones](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - **SourceDataID** para los contratos de proyectos y los proyectos pueden actualizarse con un valor diferente o eliminarse de la asignación. El valor de plantilla predeterminado es **Project Service Automation**.
 - La asignación **PaymentTerms** debe actualizarse para que refleje las condiciones de pago válidas en Finance. También puede eliminar la asignación de la tarea del proyecto. La asignación de valores predeterminados tiene valores predeterminados para los datos de demostración. La siguiente tabla muestra los valores en Project Service Automation.
 
@@ -129,7 +131,7 @@ Si se cumplen las siguientes condiciones, filtre datos mediante Microsoft Power 
 Si debe usar Power Query, siga estas pautas:
 
 - La plantilla de proyectos y contratos (PSA a Fin and Ops) tiene un filtro predeterminado que incluye solo los pedidos de venta del tipo **Elemento de trabajo (msdyn\_ordertype = 192350001)**. Este filtro ayuda a garantizar que no se creen contratos de proyecto para pedidos de ventas en Finance. Si crea su propia plantilla, debe agregar este filtro.
-- Cree un filtro de Power Query que incluya solo las organizaciones contratadas que deben sincronizarse con la entidad jurídica del conjunto de conexiones de integración. Por ejemplo, los contratos de proyecto que tiene con la unidad organizativa de contrato de Contoso US deben sincronizarse con la entidad legal de USSI, pero los contratos de proyecto que tiene con la unidad organizativa de contrato de Contoso Global deben sincronizarse con la entidad legal de USMF. Si no agrega este filtro a su asignación de tareas, todos los contratos de proyecto se sincronizarán con la entidad jurídica definida para el conjunto de conexiones, independientemente de la unidad organizativa del contrato.
+- Cree un filtro de Power Query que incluya solo las organizaciones contratadas que deben sincronizarse con la entidad jurídica del conjunto de conexiones de integración. Por ejemplo, los contratos de proyecto que tiene con la unidad organizativa de contrato de Contoso US deben sincronizarse con la entidad jurídica USSI, pero los contratos de proyecto que tiene con la unidad organizativa de contrato de Contoso Global deben sincronizarse con la entidad jurídica USMF. Si no agrega este filtro a su asignación de tareas, todos los contratos de proyecto se sincronizarán con la entidad jurídica definida para el conjunto de conexiones, independientemente de la unidad organizativa del contrato.
 
 ## <a name="template-mapping-in-data-integration"></a>Asignación de plantillas en la integración de datos
 
@@ -140,17 +142,14 @@ Si debe usar Power Query, siga estas pautas:
 
 Las siguientes ilustraciones muestran ejemplos de asignaciones de tareas de plantilla en Integración de datos. La asignación muestra la información del campo que se sincronizará de Project Service Automation a Finance.
 
-[![Asignación de plantilla de contrato de proyecto.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Asignación de plantilla de contrato de proyecto](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Asignación de plantilla de proyecto.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Asignación de plantilla de proyecto](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Asignación de plantilla de líneas de contrato de proyecto.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Asignación de plantilla de líneas contrato de proyecto](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Asignación de plantilla de líneas de hito de contrato de proyecto.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Asignación de plantilla de líneas de hito contrato de proyecto](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Asignación de hitos de línea de contrato de proyecto en la plantilla de proyectos y contratos (PSA 3.x a Dynamics), v2:
 
-[![Asignación de hito de línea de contrato de proyecto con plantilla versión dos.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Asignación de hito de línea de contrato de proyecto con plantilla versión dos](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)

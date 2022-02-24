@@ -2,9 +2,11 @@
 title: Definir habilidades y competencias
 description: En este tema se proporciona información sobre cómo configurar modelos de competencia para calificar recursos.
 author: ruhercul
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-customerservice
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e120f8c5a3d2dfaeb577652afcc1feac4cdc9e22f2f274e94bb674ea3fa52fed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 24538ed1d610a0cae4c2badc0fd33c2f738a8338
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988762"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085092"
 ---
 # <a name="define-skills-and-proficiencies"></a>Definir habilidades y competencias
 
@@ -32,14 +34,11 @@ Las habilidades son características de recursos que se comparten entre Dynamics
 
 ## <a name="use-proficiency-models-to-rate-resources"></a>Uso de modelos de competencia para calificar recursos
 
-Las cualificaciones de recursos se clasifican mediante modelos de eficacia. Las calificaciones individuales se encuentran en un modelo de competencia. 
+Las habilidades para los recursos se clasifican según los modelos de competencia. Las calificaciones individuales se encuentran en un modelo de competencia. 
 
 1. Para crear un modelo de competencia, vaya a **Recursos** \> **Modelos de competencia** y, a continuación, seleccione **Nuevo**.
 2. En el nuevo modelo de calificación, especifique el valor mínimo y máximo de calificación y la entidad que se está calificando.
-3. En la subcuadrícula **Valores de clasificación**, puede definir los diferentes valores de clasificación, desde el mínimo hasta el máximo.
+3. En la subcuadrícula **Valores de calificación**, puede definir los diferentes valores de calificación, desde el mínimo hasta el máximo.
 
 
 Estos valores de calificación se muestran en los filtros **Requisitos de recursos**, **Tablero de programación** y **Asistente de programación**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

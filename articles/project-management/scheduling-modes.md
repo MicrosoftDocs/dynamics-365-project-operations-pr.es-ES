@@ -2,16 +2,18 @@
 title: Modos de programación
 description: En este tema se proporciona información sobre los modos de programación.
 author: ruhercul
-ms.date: 05/28/2021
+manager: AnnBe
+ms.date: 05/04/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 41e56d01c3cfa62558b10e178085a4408a0aadb023f3f7347a61d121f542bb08
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987772"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981456"
 ---
 # <a name="scheduling-modes"></a>Modos de programación
 
@@ -23,12 +25,12 @@ Dynamics 365 Project Operations proporciona a las organizaciones la capacidad de
 Hay tres modos de programación disponibles en Project Operations:
 
   - Duración fija (este es el modo predeterminado)
-  - Esfuerzo fijo (*Trabajo*)
+  - Trabajo fijo
   - Unidades fijas
 
 Los valores afectados por la definición de un modo de programación específico se determinan mediante la siguiente fórmula:
 
-  Esfuerzo = Duración x Unidades
+  Esfuerzo (*Trabajo*) = Duración x Unidades
 
 Cuando define el modo de programación de un proyecto, está configurando uno de estos valores, que luego no se pueden cambiar. Mantener este valor como constante da prioridad a ese valor, lo que notifica al sistema que no lo cambie cuando cambien los otros dos valores. La siguiente tabla proporciona información sobre los impactos de seleccionar un modo específico.
 

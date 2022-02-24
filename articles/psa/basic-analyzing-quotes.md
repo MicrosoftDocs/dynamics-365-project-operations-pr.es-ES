@@ -2,6 +2,8 @@
 title: Análisis de ofertas de proyecto
 description: En este tema se proporciona información sobre el análisis de ofertas de proyecto.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b50f419d2c13cff4914f4b589c8d7ad9099c8734834d75f8d17104d2db40049b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 361a940261811467c46222c3d58c9504434ec882
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002847"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145244"
 ---
 # <a name="analysis-of-project-quotes"></a>Análisis de ofertas de proyecto
 
@@ -58,6 +60,3 @@ Puede analizar las ofertas y generar gráficos de expectativas del cliente acerc
 El análisis de las expectativas del cliente acerca de la programación se realiza comparando la última fecha de finalización del detalle de la línea de la oferta con la fecha de entrega solicitada de todas las líneas de la oferta.
 
 El análisis de las expectativas del cliente acerca del presupuesto se realiza comparando la suma del presupuesto del cliente total con el importe ofertado de todas las líneas de la oferta.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

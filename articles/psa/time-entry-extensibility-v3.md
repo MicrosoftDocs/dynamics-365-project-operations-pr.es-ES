@@ -2,6 +2,8 @@
 title: Personalización de entrada de tiempo semanal
 description: En este tema se proporciona información sobre cómo implementar reglas de negocio personalizadas que respalden las prácticas de una organización.
 author: stsporen
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -16,14 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa2ef927e0234919ee4777f24c60569fb33a8570f6d48be6aef356df4f08a6e7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a34244884bc81da74ae3bf550bde6f982d04abd3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002307"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149654"
 ---
-# <a name="customize-weekly-time-entry"></a>Personalizar la entrada de tiempo semanal 
+# <a name="customize-weekly-time-entry"></a>Personalización de entrada de tiempo semanal 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -53,7 +55,7 @@ La sección Duración muestra los días de la semana como encabezados de columna
 ## <a name="create-a-new-time-entry"></a>Creación de una nueva entrada de tiempo
 Para crear una nueva entrada de tiempo en la cuadrícula de entrada de tiempo, seleccione **Nuevo**. Aparecerá el cuadro de diálogo **Creación rápida de entrada de tiempo**. En este cuadro de diálogo, los usuarios pueden seleccionar la fecha de entrada de tiempo y, a continuación, escribir los datos para las dimensiones **Proyecto**, **Tarea de proyecto**, **Rol** y **Duración** en minutos, horas, días o escribiendo, **h**, **m** o **d** junto con el número. Los usuarios también pueden introducir una descripción y comentarios que se pueden compartir externamente para la entrada de tiempo. Cuando los usuarios guardan sus cambios, los valores que introdujeron en las dimensiones aparecen en la sección **Dimensiones**. La información de duración que introdujeron en el campo **Duración** aparece en la fecha para la que se creó la entrada de tiempo.
 
-Los campos de búsqueda tienen el respaldo de las vistas del sistema. Por ejemplo, después de que un usuario introduzca un proyecto, el campo **Tarea de proyecto** se establece en la vista **Copiar** de forma predeterminada. Para crear entradas de tiempo para tareas que no están asignadas a un usuario, seleccione **Cambiar vista** en el cuadro de diálogo de búsqueda y, a continuación, seleccione la vista **Todas las tareas de proyecto activas**.
+Los campos de búsqueda están respaldados por vistas del sistema. Por ejemplo, después de que un usuario introduzca un proyecto, el campo **Tarea de proyecto** se establece en la vista **Copiar** de forma predeterminada. Para crear entradas de tiempo para tareas que no están asignadas a un usuario, seleccione **Cambiar vista** en el cuadro de diálogo de búsqueda y, a continuación, seleccione la vista **Todas las tareas de proyecto activas**.
 
 ## <a name="edit-a-time-entry"></a>Edición de una entrada de tiempo
 Los detalles de algunos campos en la página de entrada de hora, como **Descripción** y **Comentarios externos**, no se muestran en la cuadrícula de entrada de hora semanal. En cambio, aparece un pequeño indicador triangular en las celdas de duración que tienen estos detalles adicionales. Seleccione la celda y, a continuación, elija **Editar detalles** para ver los datos en el panel **Edición rápida**. Para editar o actualizar los detalles de una entrada de tiempo específica que no forma parte de la cuadrícula de entrada de tiempo semanal, los usuarios deben abrir el panel **Edición rápida**.
@@ -130,6 +132,3 @@ Debe usar validaciones de complementos para cualquier validación que requiera m
 
 > [!IMPORTANT] 
 > Actualmente, una incidencia conocida en las páginas TBX impide que los usuarios corrijan la información y vuelvan a seleccionar Listo cuando se produce un error en la actualización de la validación de un complemento. Como solución alternativa, configure validaciones de reglas de negocio para evitar esta situación en medida de lo posible.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

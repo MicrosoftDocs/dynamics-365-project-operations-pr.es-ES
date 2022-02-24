@@ -2,6 +2,8 @@
 title: Plantillas de proyecto
 description: En este tema se proporciona información sobre cómo usar plantillas de proyecto para una configuración rápida del proyecto.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002532"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148079"
 ---
 # <a name="project-templates"></a>Plantillas de proyecto 
 
@@ -47,7 +49,7 @@ Existen varias formas de crear un proyecto a partir de una plantilla de proyecto
 
 - Cuando cree un proyecto a partir de una oferta, puede seleccionar una plantilla de proyecto en el cuadro de diálogo **Creación rápida: Proyecto**.
 
-> ![Creación rápida: cuadro de diálogo del proyecto.](media/project-11.png)
+> ![Cuadro de diálogo Creación rápida: Proyecto](media/project-11.png)
 
 - Cuando cree un proyecto seleccionando **Nuevo proyecto**, la página **Proyecto** aparecerá antes de guardar el registro. En el campo **Elegir una plantilla**, seleccione una de las plantillas de proyecto predefinidas en la organización.
 - Use **Crear proyecto desde una plantilla** en la página **Entidad de plantilla**.
@@ -67,6 +69,3 @@ Cuando copie entre líneas de estimación de proyecto, se actualizarán las list
 ### <a name="copying-a-project-team"></a>Copia de un equipo de proyecto
 
 Cuando se copia un equipo de proyecto de una plantilla de proyecto a un proyecto, se copian los recursos genéricos, junto con las habilidades y competencias que se definen en la plantilla. Las asignaciones de recursos genéricos también se mantienen como si estuvieran en la plantilla de proyecto. Los recursos con nombre no son compatibles con las plantillas de proyecto.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

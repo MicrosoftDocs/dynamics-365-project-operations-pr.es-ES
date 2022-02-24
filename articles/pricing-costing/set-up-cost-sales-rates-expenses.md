@@ -2,16 +2,18 @@
 title: Configurar tarifas de costes y ventas para gastos
 description: Este tema proporciona información sobre cómo configurar las tasas de costes y ventas para las categorías de transacción y gastos.
 author: rumant
+manager: Annbe
 ms.date: 04/07/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0c5e7b1ab03a170ca95a005985a13aaff7494f95ca15cf1ce726674ae9a14222
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986242"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877241"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Configurar tarifas de costes y ventas para gastos
 
@@ -50,7 +52,7 @@ Cuando configura precios de categoría que solo son relevantes en el contexto de
 Cuando se selecciona este método de precios en una línea de precios de categoría que está vinculada a una lista de precios de venta, el precio predeterminado para la combinación de categoría y unidad tanto en la estimación como en el real. La estimación se refiere a las líneas de estimación del proyecto para los gastos, el detalle de la línea de cotización y el detalle de la línea del contrato para los gastos.
 
 ### <a name="at-cost"></a>De coste
-Cuando se selecciona este método de precios en la línea de precios de categoría que está vinculada a una lista de precios de venta, el precio predeterminado para la combinación de categoría y unidad es solo para los gastos reales. Por ejemplo, datos reales de ventas no facturadas para la clase de transacción de gastos. El precio unitario se establece sobre las ventas reales no facturadas del precio unitario sobre el coste real de dicho gasto. El precio predeterminado basado en el costo no se realiza en las estimaciones del proyecto para los gastos o en los detalles de la línea de cotización y del contrato para los gastos.
+Cuando se selecciona este método de precios en la línea de precios de categoría que está vinculada a una lista de precios de venta, el precio predeterminado para la combinación de categoría y unidad es solo para los gastos reales. Por ejemplo, datos reales de ventas no facturadas para la clase de transacción de gastos. El precio unitario se establece sobre las ventas no facturadas reales del precio unitario sobre el costo real de ese gasto. El precio predeterminado basado en el costo no se realiza en las estimaciones del proyecto para los gastos o en los detalles de la línea de cotización y del contrato para los gastos.
 
 ### <a name="markup-over-cost"></a>Margen de beneficio sobre el coste
 Cuando se selecciona este método de precios en la línea de precios de categoría que está vinculada a una lista de precios de venta, el precio predeterminado para la combinación de categoría y unidad es solo para un gasto real. Por ejemplo, datos reales de ventas no facturadas para la clase de transacción de gastos. Este precio unitario se establece sobre las ventas no facturadas reales a un valor calculado a partir del precio unitario sobre el costo real de ese gasto después de que se aplica el porcentaje de margen definido. El precio predeterminado basado en el costo no se realiza en las estimaciones del proyecto para los gastos o en los detalles de la línea de cotización y del contrato para los gastos.

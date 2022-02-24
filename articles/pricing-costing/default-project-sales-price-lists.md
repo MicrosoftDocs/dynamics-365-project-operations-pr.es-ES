@@ -2,16 +2,18 @@
 title: Listas de precios predeterminadas
 description: Este tema proporciona información sobre las ventas predeterminadas y listas de precio de costes en Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989887"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130959"
 ---
 # <a name="default-price-lists"></a>Listas de precios predeterminadas
 
@@ -55,6 +57,3 @@ Las listas de precios de costo no tienen por defecto ninguna entidad en Project 
 5. Luego, el sistema analiza la fecha de vigencia de las listas de precios que coinciden con la fecha del presupuesto entrante o la línea real. 
 6. Si hay varias listas de precios vigentes para la fecha de la estimación entrante o real, se selecciona la lista de precios creada más recientemente.
 7. Si no hay listas de precios de coste adjuntas a los parámetros del proyecto que coincidan con la moneda y la fecha de vigencia, el sistema establece la tasa de coste por defecto en cero (0) en la estimación entrante o en la línea real.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

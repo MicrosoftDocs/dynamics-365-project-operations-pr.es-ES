@@ -1,25 +1,27 @@
 ---
 title: Gastos de empresas vinculadas
 description: Este tema proporciona información sobre cómo se usan los gastos de empresas vinculadas para asignar los gastos del trabajador a la entidad jurídica para la que se realizó el trabajo.
-author: Surya Vaidyanathan
-ms.date: 07/08/2021
+author: ShylaThompson
+manager: AnnBe
+ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: suvaidya
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 80ef42bf5274ff9a5c50e6dcb93995cfbbda40a66d7471f29ebf056086320640
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d908a1c062f5b7f01cf340dcd6f7f24714a992bf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001227"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271554"
 ---
 # <a name="intercompany-expenses"></a>Gastos de empresas vinculadas
 
@@ -34,17 +36,5 @@ Para que un trabajador pueda crear y enviar gastos de empresas vinculadas, hay q
 Para poder utilizar grupos de impuestos asociados con la entidad jurídica prestamista (origen) en lugar de la entidad jurídica prestataria (destino) en un informe de gastos, hay que habilitar la funcionalidad en la configuración de impuestos sobre las ventas de la contabilidad general. Si el parámetro **Entidad jurídica para registrar impuestos de empresas vinculadas** está establecido en **Origen** y el campo **Aplicar reglas de tributación de impuestos** está establecido en **No**, se utilizará la combinación de impuestos para la entidad jurídica prestamista. Cuando el mismo parámetro se establece en **Destino**, se utilizará la combinación de impuestos para la entidad jurídica prestataria. Para las entidades legales en los Estados Unidos, cuando el parámetro se establece en **Origen**, el campo **Impuesto sobre las ventas por cobrar** también debe configurarse en la nueva página **Grupos de contabilización del libro mayor**. El motor de contabilidad utilizará la información de este campo para la entrada contable relacionada con los impuestos.   
 El comportamiento es consistente para las líneas de gastos contabilizadas con o sin un proyecto.  
 
-## <a name="new-expense-expression-builder"></a>Nuevo generador de expresiones de gastos
-
-El nuevo generador de expresiones de gastos resuelve problemas con escenarios de gastos de empresas vinculadas que utilizan proyectos. Esta función garantiza que cuando crea un gasto entre empresas vinculadas, la política de gastos se valida correctamente con el proyecto seleccionado en la línea de gastos y que el informe de gastos se puede enviar correctamente.
-
-Para que la característica generador de expresiones de gastos funcione, debe estar activada. Además, se debe configurar la directiva de gastos que tiene un ID de proyecto.
-
-Si ya ha configurado directivas que validan el ID de proyecto en la línea de gastos, debe retirarlas. Después podrá activar la característica y volver a configurar las directivas.
-
-Para activar esta característica, siga los pasos indicados a continuación.
-
-1. Vaya a **Áreas de trabajo** \> **Administración de características**.
-2. En la lista, seleccione **Nuevo generador de expresiones de gastos para resolver problemas con escenarios de gastos de empresas vinculadas que utilizan proyectos**. Luego seleccione **Activar ahora**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

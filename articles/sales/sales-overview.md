@@ -2,27 +2,28 @@
 title: Información general del proceso de venta
 description: En este tema se proporciona información sobre procesos de ventas básicos.
 author: rumant
+manager: Annbe
 ms.date: 10/29/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 3bda8a11d0cb6fe97a3daa640bf95717ef9913000e6b1a28a0a27a35527dbf6f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991867"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177622"
 ---
 # <a name="sales-process-overview"></a>Información general del proceso de venta
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Los procesos de ventas que se usan en una organización basada en proyecto difieren de los procesos de ventas que se usan en una organización basada en producto. Esta se debe a que los ciclos de ventas de las organizaciones basadas en proyecto son más largos y requieren técnicas de estimación personalizadas para analizar y crear ofertas para cada operación. Dynamics 365 Project Operations utiliza algunas de las siguientes funciones que se utilizan en un proceso de ventas:
+Los procesos de ventas que se usan en una organización basada en proyecto difieren de los procesos de ventas que se usan en una organización basada en producto. Esta se debe a que los ciclos de ventas de las organizaciones basadas en proyecto son más largos y requieren técnicas de estimación personalizadas para analizar y crear ofertas para cada operación. Dynamics 365 Project Operations usa parte de la siguiente funcionalidad que se usa en un proceso de ventas:
 
 - Se utiliza un registro de cliente potencial para realizar un seguimiento del proceso de ventas.
 - El seguimiento de los clientes potenciales en calificación se realiza como oportunidades.
-- Todos los artefactos relacionados para una oportunidad están accesibles. Estos artefactos incluyen el equipo de ventas, las partes interesadas, la probabilidad, la clasificación, las fases de ventas y los procesos de negocio.
+- Se puede acceder a todos los artefactos relacionados con las oportunidades. Entre estos artefactos se incluyen el equipo de ventas, las partes interesadas, la probabilidad, la valoración, las fases de ventas y los procesos de negocio.
 - Se crean varias ofertas para una oportunidad.
 - Se otorga a una cita el estado **Cerrada como ganada** para crear un pedido de ventas. En Project Operations, el pedido de ventas se personaliza y se denomina contrato de proyecto.
 
@@ -62,6 +63,3 @@ En Project Operations, no es posible realizar seguimientos de las revisiones de 
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Realizar un seguimiento de comentarios y aprobaciones de ofertas y contratos de proyecto
 Puede administrar la revisión y la aprobación de ofertas y contratos de proyecto mediante el muro de registros y las publicaciones. Su organización puede crear flujos de trabajo personalizados y complementos para asignar, redirigir, remitir a instancias superiores y administrar notificaciones de revisiones y la aprobación de elementos de trabajo.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987637"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992987"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Crear una reserva de proyecto desde el tablero Programación
 
@@ -43,7 +43,7 @@ Puede crear un recurso genérico y asignarlo a una o varias tareas en un proyect
 
 1.  En el tablero Programación, este recurso aparecerá en la pestaña **Requisitos abiertos**. Puede que tenga que usar filtros de columna en la cuadrícula si tiene muchos requisitos abiertos. 
 
-    ![Pestaña Abrir requisitos en el tablero de programación.](media/FAQ-Project-Booking-Schedule-Board-1.png "Captura de pantalla de la tabla de reservas y asignaciones")
+    ![Pestaña Abrir requisitos en el tablero de programación](media/FAQ-Project-Booking-Schedule-Board-1.png "Captura de pantalla de la tabla de reservas y asignaciones")
 
 2. Seleccione el requisito. La pestaña **Buscar disponibilidad** aparecerá en la parte superior de fila seleccionada.
  
@@ -53,7 +53,7 @@ Puede crear un recurso genérico y asignarlo a una o varias tareas en un proyect
 
     Al seleccionar **Reservar** se reserva el recurso para el equipo del proyecto.
 
-![Panel Crear reserva de recursos.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Panel Crear reserva de recursos](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Reserva desde el requisito principal
@@ -62,7 +62,7 @@ Al crear un proyecto en Project Service se crea automáticamente un requisito de
 
 1. Para reservar un recurso con el Requisito principal, en el tablero Programación, seleccione la pestaña **Proyecto**. Quizá deba usar el filtro de columna en la columna **Proyecto** si tiene muchos proyectos.
 
-   ![Filtros de columna del tablero de programación.](media/FAQ-Project-Booking-Schedule-Board-2.png "Captura de pantalla de la tabla de reservas y asignaciones")
+   ![Filtros de columna del tablero de programación](media/FAQ-Project-Booking-Schedule-Board-2.png "Captura de pantalla de la tabla de reservas y asignaciones")
 
 2. Seleccione el requisito que solo tiene el nombre del proyecto como nombre y tiene una duración de cero (0).
 

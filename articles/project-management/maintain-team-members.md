@@ -2,24 +2,26 @@
 title: Mantener miembros del equipo
 description: En este tema se proporciona información sobre cómo reservar recursos con nombre para equipos de proyectos y asignarlos a tareas.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 851d63510a2e8e7917fa432988a7c4d74597adacbb64ebea646f23f958e3e131
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997087"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131544"
 ---
 # <a name="maintain-team-members"></a>Mantener miembros del equipo
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Puede agregar un recurso designado a su equipo de proyecto, reservándolo directamente para el equipo.
+Puede agregar un recurso con nombre a su equipo de proyecto reservándolo directamente para el equipo.
 
-1. En Dynamics 365 Project Operations, vaya a **Proyectos** y seleccione el proyecto abierto para el que desea realizar la reserva.
+1. En Dynamics 365 Project Operations, vaya a **Proyectos** y seleccione el proyecto abierto para el que desea reservar.
 2. En la página **Proyecto**, en la pestaña **Equipo**, seleccione **Nuevo**. 
 3. En el cuadro de diálogo **Creación rápida: Miembro del equipo del proyecto**, seleccione el recurso reservable. El campo **Rol** se completará con el rol predeterminado del recurso si tiene alguno asignado. Puede cambiar el rol. 
 4. Seleccione las fechas de inicio y finalización en que será necesario el recurso y seleccione el método de asignación de capacidad del recurso. 
@@ -40,6 +42,3 @@ Al realizar una selección, el recurso se agrega al equipo del proyecto y se asi
 Puede usar la capacidad de ampliación de reserva de la pestaña **Reconciliación** o el **Tablero de programación** para reservar la capacidad del recurso para el proyecto.
 
 Tras reservar un miembro de equipo en su proyecto, podrá usar **Mantener reservas** o **Panel de programación** directamente para administrar las reservas.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

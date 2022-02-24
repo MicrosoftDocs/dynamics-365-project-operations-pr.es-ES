@@ -2,16 +2,18 @@
 title: Reservas frente a asignaciones
 description: Este tema proporciona información sobre las diferencias entre las reservas de recursos y las asignaciones de recursos.
 author: ruhercul
+manager: Annbe
 ms.date: 01/08/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1906ebd76f5fc66215aa5963242de13206a81668cb4973cccaf5b153514672d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e346766e6ccbb3dff59ef12072a1cd63f1e4231
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008472"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841193"
 ---
 # <a name="bookings-vs-assignments"></a>Reservas frente a asignaciones
 
@@ -24,6 +26,3 @@ A diferencia de las reservas, las asignaciones son el compromiso de recursos gen
 Normalmente, la suma de las reservas de un recurso será igual a la suma de las asignaciones del recurso en una o varias tareas. Sin embargo, Project Operations no obliga a que se cumpla este contrato. La vista **Conciliación** muestra los lugares de un jefe de proyecto donde las reservas y asignaciones de un recurso no coinciden.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Contratos de proyecto
 description: Este tema proporciona ejemplos de los contratos de proyecto que puede crear para varios tipos de proyectos y fuentes de financiación, y cómo puede administrar contratos y facturar a los clientes del proyecto.
 author: Yowelle
+manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b92668c38071e8b1afdee9a79fd4a25190248ada30380bfb79054a6dc587f95
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b7d15523f1b22bb8813a47f9f822f12bc4162104
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001047"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085279"
 ---
 # <a name="project-contracts"></a>Contratos de proyecto
 
@@ -37,17 +39,17 @@ Cada proyecto que se facturará debe estar asociado con un contrato de proyecto.
 
 Un contrato de proyecto puede especificar una o más fuentes de financiación. Por lo tanto, puede dividir la facturación entre varias entidades financieras, establecer límites de financiación para que no se facture a las fuentes de financiación más de un importe específico y configurar reglas de financiación para cobrar gastos.
 
-## <a name="funding-for-project-contracts"></a>Financiación para contratos de proyectos
-Algunos contratos de proyectos especifican que varias de sus partes comparten la responsabilidad de financiar los costes del proyecto. Estos son algunos ejemplos:
+## <a name="funding-for-project-contracts"></a>Financiación para contratos de proyecto
+Algunos contratos de proyecto especifican que múltiples partes comparten la responsabilidad de financiar los costes del proyecto. Estos son algunos ejemplos:
 
 -   Un cliente grande que tiene varias divisiones solicita que la financiación de un proyecto se divida por división.
 -   Su empresa comparte los costos de un gran proyecto con una organización externa.
 -   Un proyecto de carretera está cofinanciado por dos municipios.
--   El proyecto de un puente se financia parcialmente con una subvención pública y la intervención de una empresa privada.
+-   Un proyecto para un puente está financiado por una subvención del gobierno y una corporación privada.
 
-En Dynamics 365 Finance puede dividir la facturación para una sola transacción o un proyecto completo entre varios clientes, subvenciones u organizaciones. 
+En Dynamics 365 Finance, puede dividir la facturación de una sola transacción o un proyecto completo entre varios clientes, subvenciones u organizaciones. 
 
-En proyectos que tengan múltiples responsables de financiación, todas las partes que contribuyan a la financiación de un proyecto de financiación avanzada se denominan fuentes de financiación. Tras definir como fuente de financiación a un cliente, una organización o una subvención, se puede asignar a una o varias reglas de financiación. Las reglas de financiación contienen los criterios que determinan cómo se asignan los cobros a las diversas fuentes de financiación de un proyecto. 
+En proyectos que tienen múltiples entidades de financiación, todas las partes que contribuyen a la financiación de un proyecto de financiación avanzado se denominan fuentes de financiación. Una vez que un cliente, una organización o una subvención se define como fuente de financiación, se puede asignar a una o más reglas de financiación. Las reglas de financiación contienen los criterios que determinan cómo se asignan los cargos a las diversas fuentes de financiación de un proyecto. 
 
 Debido a que los artículos almacenados, como los que aparecen en las solicitudes de compra y las órdenes de compra, no se pueden dividir, el importe del coste no se puede dividir entre varias fuentes de financiación en el momento de la distribución. Por lo tanto, el valor de la fuente de financiación sigue siendo 0 (cero) hasta que se registre la emisión de inventario. Cuando se registra la emisión de inventario, el importe del coste se distribuye de acuerdo con las reglas de distribución de cuentas para el proyecto.
 
@@ -55,16 +57,16 @@ A continuación, se muestran algunos pasos que puede seguir para facilitar la di
 
 -   Especifique que todas las transacciones que se especifican para un proyecto utilizan la misma moneda de venta que el contrato del proyecto.
 -   Establezca límites de financiación, de modo que no se facture a una fuente de financiación más de un importe específico para un proyecto.
--   Configure las reglas de financiación y los límites de financiación para cada trabajador, artículo, categoría, grupo de categoría y tipo de transacción (o para todos los tipos de transacciones).
+-   Configure las reglas de financiación y los límites de financiación para cada trabajador, artículo, categoría, grupo de categoría y tipo de transacción (o para todos los tipos de transacción).
 -   Seleccione fechas de inicio y finalización opcionales para definir el período en el que cada regla de financiación es válida.
 -   Especifique el porcentaje del que es responsable cada fuente de financiación.
 -   Especifique qué fuente de financiamiento es responsable de redondear las diferencias causadas por los cálculos de asignación de fondos.
--   Configure reglas que determinen cómo se facturan los costes del proyecto a los clientes externos y cómo se cobran a las organizaciones internas.
+-   Configure reglas que determinen cómo los costes del proyecto se facturan a los clientes externos y se cargan a las organizaciones internas.
 -   Registre las transacciones en una cuenta de fondos retenidos hasta que pueda obtener fondos adicionales, o hasta que decida asumir los costes internamente.
 
-Para determinar qué grupo de impuestos asociar con una transacción, se busca en el proyecto una asignación de grupo de impuestos. Si no se ha realizado ninguna asignación de grupo de impuestos en el nivel de proyecto, se busca el contrato del proyecto.
+Para determinar qué grupo de impuestos asociar con una transacción, se busca en el proyecto una asignación de grupo de impuestos. Si no se ha realizado ninguna asignación de grupo de impuestos a nivel de proyecto, se busca el contrato de proyecto.
 
-### <a name="example-multiple-funding-sources-simple"></a>Ejemplo: múltiples fuentes de financiación (simple)
+### <a name="example-multiple-funding-sources-simple"></a>Ejemplo: Múltiples fuentes de financiación (simple)
 
 La siguiente tabla proporciona escenarios para administrar la asignación de fondos entre múltiples fuentes de financiación. Estos escenarios se basan en los supuestos siguientes:
 
@@ -162,27 +164,27 @@ La siguiente tabla proporciona escenarios para administrar la asignación de fon
 
 ### <a name="example-multiple-funding-sources-complex"></a>Ejemplo: Múltiples fuentes de financiación (complejo)
 
-Tiene tres fuentes de financiación que quiere utilizar en el siguiente orden:
+Tiene tres fuentes de financiación que desea utilizar en el siguiente orden:
 
-1.  Usar la fuente de financiación 2 y la fuente de financiación 3 por igual hasta que se agote la fuente de financiación 2.
-2.  Seguir usando la fuente de financiación 3 hasta que se agote.
-3.  Usar la fuente de financiación 1 cuando se agote la fuente de financiación 3.
+1.  Utilice la fuente de financiación 2 y la fuente de financiación 3 por igual hasta que se agote la fuente de financiación 2.
+2.  Continúe utilizando la fuente de financiación 3 hasta que se agote.
+3.  Utilice la fuente de financiación 1 después de que se agote la fuente de financiación 3.
 
-Para cumplir este objetivo, en primer lugar debe hacer lo siguiente:
+Para lograr este objetivo, en primer lugar debe hacer lo siguiente:
 
--   Configure límites de financiación para la fuente de financiación 2 y la fuente de financiación 3, para sus respectivos importes.
+-   Establezca límites de financiación para la fuente de financiación 2 y la fuente de financiación 3, para sus respectivos importes.
 -   Cree las siguientes reglas de financiación:
-    -   Regla 1 (Prioridad 1): asignar el 50 por ciento de las transacciones a la fuente de financiación 2 y el 50 por ciento a la fuente de financiación 3.
-    -   Regla 2 (Prioridad 2): asignar el 100 por cien de las transacciones a la fuente de financiación 3.
-    -   Regla 3 (Prioridad 3): asignar el 100 por cien de las transacciones a la fuente de financiación 1.
+    -   Regla 1 (Prioridad 1): asignar el 50 por ciento de las transacciones a la fuente de financiamiento 2 y el 50 por ciento a la fuente de financiamiento 3.
+    -   Regla 2 (Prioridad 2): asignar el 100 por ciento de las transacciones a la fuente de financiación 3.
+    -   Regla 3 (Prioridad 3): asignar el 100 por ciento de las transacciones a la fuente de financiación 1.
 
 Esta configuración funciona porque las transacciones se comparan con reglas y límites para determinar si alguna de ellas se aplica a la transacción. Si no se aplican reglas o límites específicos a la transacción, se aplica la regla Todas las transacciones. La regla Todas las transacciones coincide con todas las transacciones. 
 
 Si se encuentra una regla que coincide con una transacción, el porcentaje que se ha asignado en esa regla se aplica primero, pero solo después de que las coincidencias se verifiquen con arreglo a los límites que se hayan establecido. Si se ha alcanzado un límite y se agotan los fondos de una fuente de financiación, se ignora la regla de financiación asociada con el límite de financiación y el programa verifica la siguiente regla que se aplica. 
 
-En algunos casos, solo se puede asignar una parte de una transacción según una regla. Esto puede suceder porque se alcanza un límite cuando se asigna la transacción. En este caso, solo se asigna una cierta cantidad de acuerdo con esa regla, como el 50 por ciento, a cada fuente de financiación. Este es el caso de la regla 1, que se describe anteriormente en esta sección. El resto se asigna de acuerdo con la siguiente regla de la secuencia. 
+En algunos casos, solo se puede asignar una parte de una transacción según una regla. Esto puede suceder porque se alcanza un límite cuando se asigna la transacción. En este caso, solo se asigna una cierta cantidad de acuerdo con esa regla, como el 50 por ciento a cada fuente de financiación. Este es el caso de la regla 1, que se describe anteriormente en esta sección. El resto se asigna de acuerdo con la siguiente regla en la secuencia. 
 
-En la siguiente tabla se examina este escenario en mayor detalle.
+En la siguiente tabla se examina esta escenario con más detalle.
 
 <table>
 <colgroup>
@@ -197,41 +199,41 @@ En la siguiente tabla se examina este escenario en mayor detalle.
 <tr class="even">
 <td>Reglas de financiación</td>
 <td><ul>
-<li>Regla 1 (Prioridad 1): Todas las transacciones. Asignar la fuente de financiación 2 al 50 % y la fuente de financiación 3 al 50 %.</li>
-<li>Regla 2 (Prioridad 2): Todas las transacciones. Asignar la fuente de financiación 3 al 100 %.</li>
-<li>Regla 3 (Prioridad 2): Todas las transacciones. Asignar la fuente de financiación 1 al 100 %.</li>
+<li>Regla 1 (Prioridad 1): todas las transacciones. Asigne la fuente de financiación 2 al 50 % y la fuente de financiación 3 al 50 %.</li>
+<li>Regla 2 (Prioridad 2): todas las transacciones. Asigne la fuente de financiación 3 al 100 %.</li>
+<li>Regla 3 (Prioridad 2): todas las transacciones. Asigne la fuente de financiación 1 al 100 %.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Límite de financiación</td>
+<td>Límites de financiación</td>
 <td><ul>
-<li>Límite de la fuente de financiación 1 = 10 000,00</li>
-<li>Límite de la fuente de financiación 2 = 500,00</li>
-<li>Límite de la fuente de financiación 3 = 750,00</li>
+<li>Límite de la fuente de financiación 1 = 10 000</li>
+<li>Límite de la fuente de financiación 2 = 500</li>
+<li>Límite de la fuente de financiación 3 = 750</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Transacción 1</td>
 <td><strong>Importe de la transacción</strong>: 100 <strong>Financiación</strong>: la transacción se paga de acuerdo con la regla 1 únicamente, porque la transacción se paga en su totalidad después de que se aplica la regla 1. La transacción se financia a partes iguales entre la fuente de financiación 2 y la fuente de financiación 3.
 <ul>
-<li>Fuente de financiación 2: 50,00</li>
-<li>Fuente de financiación 3: 50,00</li>
+<li>Fuente de financiación 2: 50</li>
+<li>Fuente de financiación 3: 50</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Transacción 2</td>
 <td><strong>Importe de la transacción</strong>: 5000 <strong>Financiación</strong>: la transacción se paga de acuerdo con la totalidad de las tres reglas. <strong>Regla 1</strong>
 <ul>
-<li>Fuente de financiación 2: 450,00</li>
-<li>Fuente de financiación 3: 450,00</li>
+<li>Fuente de financiación 2: 450</li>
+<li>Fuente de financiación 3: 450</li>
 </ul>
 <strong>Regla 2</strong>
 <ul>
-<li>Fuente de financiación 3: 250,00 (= 750,00 - 50,00 - 450,00)</li>
+<li>Fuente de financiación 3: 250 (= 750 – 50 – 450)</li>
 </ul>
 <strong>Regla 3</strong>
 <ul>
-<li>Fuente de financiación 1: 3850,00 (= 5000,00 - 450,00 - 450,00 - 250,00)</li>
+<li>Fuente de financiación 1: 3850 (= 5000 – 450 – 450 – 250)</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -246,17 +248,17 @@ En la siguiente tabla se examina este escenario en mayor detalle.
 </table>
 
 ## <a name="billing-rules"></a>Reglas de facturación
-Cuando negocia un contrato de proyecto con un cliente, define cómo y cuándo puede facturar al cliente por el trabajo en un proyecto. Después de configurar el contrato de proyecto y el proyecto, puede configurar las reglas de facturación para el proyecto. Las reglas de facturación se basan en los términos del proyecto que se especifican en el contrato del proyecto. Las reglas de facturación que puede crear dependen de los términos del contrato del proyecto y del tipo de proyecto (de tiempo y material o de precio fijo) que asocie con la regla de facturación. Puede crear más de una regla de facturación para un contrato de proyecto. También puede asignar una regla de facturación a varios proyectos que estén asociados al mismo contrato de proyecto y tengan términos de facturación similares. 
+Cuando negocia un contrato de proyecto con un cliente, define cómo y cuándo puede facturar al cliente por el trabajo en un proyecto. Después de configurar el contrato de proyecto y el proyecto, puede configurar las reglas de facturación para el proyecto. Las reglas de facturación se basan en los términos del proyecto que se especifican en el contrato del proyecto. Las reglas de facturación que puede crear dependen de los términos del contrato del proyecto y del tipo de proyecto, como tiempo y material o precio fijo, que asocie con la regla de facturación. Puede crear más de una regla de facturación para un contrato de proyecto. También puede asignar una regla de facturación a varios proyectos que están asociados con el mismo contrato de proyecto y tienen condiciones de facturación similares. 
 
 Puede configurar los siguientes tipos de reglas de facturación:
 
--   **Unidad de entrega**: facturar a un cliente cuando complete una unidad de entrega. Las unidades de entrega se definen en el contrato.
--   **Progreso**: facturar a un cliente cuando se complete un porcentaje específico del proyecto. Puede configurar una regla de facturación para calcular automáticamente el porcentaje de trabajo completado, o puede calcular manualmente el porcentaje de trabajo completado y la cantidad que se ha de facturar al cliente.
--   **Hito**: facturar a un cliente por el importe total de un hito del proyecto cuando se alcance el hito.
+-   **Unidad de entrega**: facturar a un cliente cuando complete una unidad de entrega. Defina las unidades de entrega en el contrato.
+-   **Progreso**: facturar a un cliente cuando complete un porcentaje específico del proyecto. Puede configurar una regla de facturación para calcular automáticamente el porcentaje de trabajo completado, o puede calcular manualmente el porcentaje de trabajo completado y la cantidad a facturar al cliente.
+-   **Hito**: facturar a un cliente por el importe total de un hito de proyecto cuando se alcance el hito.
 -   **Tarifa**: facturar a un cliente por sus servicios más una tarifa de administración, que generalmente es un porcentaje del coste de los servicios.
 -   **Tiempo y material**: facturar a un cliente por el valor del tiempo y los materiales que se utilizan en un proyecto.
 
-Para todos los tipos de reglas de facturación, puede especificar un porcentaje de retención que se deduce de las facturas de los clientes hasta que un proyecto alcanza una fase acordada. El porcentaje de retención de pago se especifica en el contrato del proyecto. El importe se calcula y se resta del valor total de las líneas en una factura de cliente. 
+Para todos los tipos de reglas de facturación, puede especificar un porcentaje de retención que se deduce de las facturas de los clientes hasta que un proyecto alcance una fase acordada. El porcentaje de retención del pago se especifica en el contrato de proyecto. El importe se calcula y se resta del valor total de las líneas en una factura de cliente. 
 
 Para las reglas de facturación **Tiempo y material** y **Progreso**, puede asignar categorías imputables. Las categorías imputables indican las transacciones que deben incluirse en las facturas de los clientes. 
 
@@ -342,6 +344,3 @@ Durante el primer mes, los consultores del proyecto registran un total de 800 ho
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

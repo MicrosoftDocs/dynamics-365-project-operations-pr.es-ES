@@ -2,18 +2,19 @@
 title: Información general de dimensiones de precios
 description: En este tema se proporciona información sobre las dimensiones de Dynamics 365 Project Operations.
 author: rumant
+manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001992"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650233"
 ---
 # <a name="pricing-dimensions-overview"></a>Información general de dimensiones de precios
 
@@ -33,7 +34,7 @@ Debido a esto, hay dos tipos de valores de dimensión de precios disponibles:
 
 Dynamics 365 Project Operations se envía con un conjunto predeterminado de dimensiones de precios. Puede ver estas dimensiones de precios yendo a **Project Operations** > **Parámetros**. En el registro de parámetros, en la pestaña **Dimensión de precios basados en importes**, verifique que el rol **msdyn_resourcecategory** y la unidad organizativa de recursos **msdyn_organizationalunit** tenga los campos **Aplicable a ventas** y **Aplicable a costes** establecido en **Sí**. Con estos cambios habilitados, puede configurar el precio y el coste de cada combinación de roles y unidades organizativas.
 
-![Captura de pantalla de los parámetros de Project Service con la opción "Aplicable a ventas" resaltada.](media/PS-OOB-parameters.png)
+![Captura de pantalla de los parámetros Project Service con la opción "Aplicable a ventas" resaltada](media/PS-OOB-parameters.png)
 
 Si necesita fijar el precio o el coste de sus recursos mediante atributos adicionales, puede crear campos, entidades y dimensiones personalizados. Para obtener más información, vea los siguientes temas: 
   
@@ -42,8 +43,8 @@ Si necesita fijar el precio o el coste de sus recursos mediante atributos adicio
 
 1. [Crear una solución para dimensiones de precios personalizadas](../sales/create-solution-custompd.md)
 2. [Crear campos y entidades personalizados](create-custom-fields-entities-pricing-dimensions.md)
-3. [Agregar de campos personalizados a la configuración de precios y entidades transaccionales ](add-custom-fields-price-setup-transactional-entities.md)
-4. [Configurar campos personalizados como dimensiones de precios ](set-up-custom-fields-pricing-dimensions.md)
+3. [Agregar de campos personalizados a la configuración de precios y entidades transaccionales](add-custom-fields-price-setup-transactional-entities.md)
+4. [Configurar campos personalizados como dimensiones de precios](set-up-custom-fields-pricing-dimensions.md)
 5. [Actualización de atributos de complemento para incluir nuevas dimensiones de precios](update-plugin-attributes-pd.md)
 
 
@@ -58,18 +59,15 @@ El siguiente ejemplo muestra las tasas de facturación que se configuran en func
 
 **Tasas de facturación de ejemplo**
 
-| Rol        | Unidad organizativa    |Unidad      |Precio      |Moneda  |
+| Rol        | Unidad organizativa    |Unidad      |Precio      |Divisa  |
 | ------------|-------------|----------|----------:|----------|
-| Desarrollador   | Contoso EE. UU.  |Hora | 200|USD     |
-| Desarrollador   | Contoso India |Hora|   112|USD     |
+| Desarrollador   | Contoso US  |Hour | 200|USD     |
+| Desarrollador   | Contoso India |Hour|   112|USD     |
 
 
 **Tasas de costes de ejemplo**
 
-| Banda salarial     | Unidad organizativa    |Unidad      |Precio      |Moneda  |
+| Banda salarial     | Unidad organizativa    |Unidad      |Precio      |Divisa  |
 | ----------------|-------------|----------|----------:|----------|
-| Mi empresa_Banda1 | Contoso EE. UU.  |Hora | 145|USD     |
-| Mi empresa_Banda2 | Contoso India |Hora|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| Mi empresa_Banda1 | Contoso US  |Hour | 145|USD     |
+| Mi empresa_Banda2 | Contoso India |Hour|   67|USD     |

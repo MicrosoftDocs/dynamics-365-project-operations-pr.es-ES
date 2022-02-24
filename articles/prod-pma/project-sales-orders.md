@@ -2,9 +2,11 @@
 title: Pedidos de venta de proyectos para proyectos de tiempo y materiales
 description: Este tema explica cómo crear pedidos de cliente basados en proyectos para proyectos de tiempo y materiales.
 author: Yowelle
+manager: AnnBe
 ms.date: 04/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: bec39790b0a41e72b4cc9798d37a01e87029e18335f77d895680aafbb74fac3b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3653a6869dab323be88f1fd0f9fd0f2cb35c456f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992857"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085133"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>Pedidos de venta de proyectos para proyectos de tiempo y materiales
 
@@ -39,6 +41,3 @@ Puede crear pedidos de cliente basados en proyectos de dos formas:
 - Vaya al propio proyecto. En el panel de acciones, seleccione **Administrar > Tareas de artículo > Pedido de venta**. La información del proyecto se establecerá de forma predeterminada en el pedido de venta del proyecto. Si el contrato del proyecto tiene más de una fuente de financiación, deberá seleccionar la fuente de financiación para configurar el cliente para el pedido de venta. Si solo hay una fuente de financiación para el proyecto, el cliente se configurará automáticamente.
 - Vaya la página de la lista **Todos los pedidos de venta** y cree un nuevo pedido de venta. Deberá seleccionar el proyecto para el pedido de venta. Después de seleccionar el proyecto, el cliente se establecerá a partir de la fuente de financiación o deberá seleccionar la fuente de financiación si el contrato del proyecto tiene varias fuentes de financiación.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

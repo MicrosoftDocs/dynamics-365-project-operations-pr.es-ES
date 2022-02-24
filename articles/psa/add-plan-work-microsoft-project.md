@@ -2,6 +2,8 @@
 title: Use el complemento Project Service Add-in para planear el trabajo en Microsoft Project | MicrosoftDocs
 description: En este tema se proporciona información sobre cómo agregar, configurar y usar el complemento de Microsoft Project para Microsoft Project Service.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9556feac5481e20bde1c9624c0eccc05385eaa94
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005322"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146009"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Use el complemento Project Service Automation para planear el trabajo en Microsoft Project
 
@@ -229,6 +231,3 @@ En la siguiente tabla se describe cómo se sincronizan los datos entre Project S
 
 ### <a name="see-also"></a>Vea también  
  [Guía del jefe de proyecto](../psa/project-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

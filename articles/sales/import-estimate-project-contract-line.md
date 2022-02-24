@@ -2,22 +2,24 @@
 title: Importar una estimación a una línea de contrato basada en proyecto
 description: En este tema se proporciona información sobre cómo importar estimaciones de un proyecto a una línea de contrato.
 author: rumant
+manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ea513ca8126eadbf563f3c6cb3e966f81703ae805d12881f865cdc1dd77e191d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f2b9cbb4cce1691f262c85d95849e01f1a812d51
+ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990112"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4085383"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Importar una estimación a una línea de contrato basada en proyecto
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
 
-En Dynamics 365 Project Operations puede importar estimaciones de un proyecto a una línea de contrato basada en proyecto.
+En Dynamics 365 Project Operations, puede importar estimaciones de un proyecto a una línea de contrato basada en proyecto.
 
 1. Verifique que el campo **Proyecto** en la línea de contrato basada en proyecto se ha rellenado.
 2. En la pestaña **Detalles de línea de contrato**, en la subcuadrícula, seleccione **Importar desde estimación de proyecto**. Se abre una página de diálogo con opciones de resumen. Las opciones de resumen disponibles son **Clase de transacción**, **Categoría**, **Rol** y **Tarea de proyecto**. Según la selección para resumir, se copia la estimación del proyecto para todas las clases de transacciones incluidas en esta línea de contrato. 
@@ -57,6 +59,3 @@ Cuando el usuario selecciona resumir por **Clase de transacción**, **Categoría
 | Tarea A | Vuelos | 1/10/2020 | 4 | 400 | 1600 |
 | Tarea B | Hotel | 1/10/2020 | 4 | 200 | 800 |
 | Tarea C | Hotel | 1/11/2020 | 2 | 200 | 400 |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

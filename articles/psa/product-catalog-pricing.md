@@ -2,6 +2,8 @@
 title: Precios del catálogo de productos
 description: En este tema se proporciona información sobre cómo funciona el precio del catálogo de productos en Dynamics 365 Project Service Automation (PSA).
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3fb9b51d58cbe3b0db6dad902461b90ac04cc42f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000192"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151229"
 ---
 # <a name="product-catalog-pricing"></a>Precios del catálogo de productos 
 
@@ -44,7 +46,7 @@ Puede agregar productos de un catálogo de productos a diferentes listas de prec
 
 PSA admite varias opciones de redondeo cuando los precios se configuran en función del precio de lista, el coste estándar o el coste actual. Además de aprovechar los múltiples métodos de precios y las opciones de redondeo, puede asociar las listas de descuentos con los elementos de la lista de precios. 
 
-> ![Adición de productos de un catálogo a diferentes listas de precios.](media/basic-guide-16.png)
+> ![Adición de productos desde un catálogo a diferentes listas de precios](media/basic-guide-16.png)
 
 Cuando crea una nueva lista de precios personalizada para una oferta seleccionando **Crear precios personalizados** en la página **Oferta de proyecto**, PSA realiza una copia de la lista de precios y el campo **Entidad** en el encabezado de la nueva lista de precios se establece en **Entidad de ventas**. El nombre de la nueva lista de precios se adjunta con el nombre de la oferta y una marca de tiempo. También puede usar el nombre de la nueva lista de precios y el nombre de la oferta en los flujos de trabajo personalizados para activar revisiones y aprobaciones adicionales de ofertas que utilizan precios personalizados.
 
@@ -62,6 +64,3 @@ Las entidades de Oportunidad, Oferta y Contrato de proyecto utilizan el siguient
 De manera predeterminada, el campo **Producto** en la línea de oferta enumera todos los productos activos en la lista de precios de productos de la oferta. Si un producto se ha desactivado, o si es un borrador de un producto, no está en la lista, incluso si está en la lista de precios. 
 
 Las líneas del catálogo de productos se agregan como líneas de factura en la primera factura que se crea para un contrato de proyecto. En un borrador de factura, esas líneas de factura se pueden eliminar. En ese caso, las líneas aparecerán en una factura posterior hasta que se facturen o hasta que la factura se envíe al cliente. En PSA, no puede facturar una cantidad parcial de una línea de factura de producto. Cuando se facturan las líneas de producto del contrato del proyecto, se crean los datos reales. Sin embargo, esos datos reales no están vinculados a la entidad del proyecto relacionada. Es decir, las líneas de contrato de proyecto basadas en productos son independientes de cualquier uso basado en proyectos. El PSA no realiza un seguimiento del consumo de material en los proyectos.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

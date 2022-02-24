@@ -2,16 +2,18 @@
 title: Proyectos de estimación de ingresos a precio fijo
 description: En este tema se proporciona información sobre los ingresos a precio fijo en proyectos.
 author: sigitac
+manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 80fe1d4171d80ca39e8b7ebb1eefaa524a4f2b07
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006447"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531564"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Proyectos de estimación de ingresos a precio fijo 
 
@@ -33,6 +35,3 @@ Para revisar proyectos de estimaciones de ingresos a precio fijo, complete los s
 
   El coste del proyecto, el perfil de ingresos, la plantilla de costes y el código de período se pueden configurar manualmente. Si no se configuran manualmente, los valores predeterminados durante el primer cálculo estimado para el proyecto utilizando las reglas configuradas para los perfiles de costes e ingresos del proyecto.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

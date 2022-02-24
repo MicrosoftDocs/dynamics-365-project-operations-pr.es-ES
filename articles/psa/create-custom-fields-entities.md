@@ -2,10 +2,12 @@
 title: Crear campos y entidades personalizados
 description: En este tema se explica cómo crear conjuntos de opciones y entidades en su propia solución de la plataforma Power Apps.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992452"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144884"
 ---
 # <a name="create-custom-fields-and-entities"></a>Crear campos y entidades personalizados 
 
@@ -43,7 +45,7 @@ Las dimensiones de precios pueden ser una entidad o un conjunto de opciones. Amb
 2. En el Explorador de soluciones, en el panel de navegación izquierdo, seleccione **Entidades**.
 3. Haga clic en **Nuevo** para crear una nueva entidad con el nombre **Título estándar**. Especifique la información necesaria restante y después haga clic en **Guardar**.
 
-> ![Definición de entidad de título estándar.](media/Standard-Title-entity-definition.png)
+> ![Definición de entidad de título estándar](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Dimensiones basadas en conjuntos de opciones 
@@ -54,9 +56,9 @@ Puede crear dos dimensiones basadas en conjuntos de opciones. Utilice **Ubicaci�
 2. En el Explorador de soluciones, en el panel de navegación izquierdo, seleccione **Conjuntos de opciones**. 
 3. Haga clic en **Nuevo** para crear un nuevo conjunto de opciones, especifique la información necesaria restante y después haga clic en **Guardar**.
 
-> ![Dimensión de precios basada en conjuntos de opciones con el nombre Ubicación de trabajo del recurso.](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Dimensión de precios basada en conjuntos de opciones con el nombre Ubicación de trabajo del recurso ](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Dimensión de precios basada en conjuntos de opciones con el nombre Horas de trabajo del recurso.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Dimensión de precios basada en conjuntos de opciones con el nombre Horas de trabajo del recurso ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Crear datos para las dimensiones basadas en entidades
@@ -68,9 +70,6 @@ Puede crear datos para las dimensiones basadas en entidades manualmente, o bien 
 3. Cierre el formulario . 
 4. Repita los pasos del 1 al 3 para crear el otro título estándar “Ingeniero de sistemas sénior”.
 
-> ![Datos de ejemplo para la entidad Título estándar.](media/ST-data.png)
+> ![Datos de ejemplo para la entidad Título estándar ](media/ST-data.png)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

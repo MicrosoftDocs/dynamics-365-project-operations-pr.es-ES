@@ -2,6 +2,8 @@
 title: Cancelar entradas de gastos y tiempo aprobadas anteriormente
 description: En este tema se proporciona información sobre cómo cancelar una transacción de gastos y tiempo de proyecto aprobada.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 09b85ea302ac46171afbd531a551aa5fbf5492a3644cba3448be03009840228c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ea42c6755b4b48d986e385879607d659c57f483d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987457"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150599"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Cancelar entradas de gastos o tiempo aprobadas anteriormente
 
@@ -60,6 +62,3 @@ El proyecto también se ve afectado desde el punto de vista financiero cuando se
 A continuación, se crean movimientos de retrocesión en la tabla Datos reales. Para crear entradas de retrocesión, el sistema copia los valores de campo desde los datos reales originales. Los únicos valores que no se copian son los valores de cantidad. En su lugar, estos valores se revierten. A continuación, se crean datos reales revertidos para los datos reales **Coste** y **Ventas sin facturar**. El campo **Estado del ajuste** de los datos reales revertidos se establece en **No ajustable** y el estado de facturación se establece en **Cancelado**.
 
 Tras realizar estos cambios, el importe que se registra como gasto en el proyecto y la acumulación de ingresos del proyecto dejarán de representar los importes que representan esos datos reales.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

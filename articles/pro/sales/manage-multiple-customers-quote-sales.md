@@ -2,16 +2,18 @@
 title: Administrar varios clientes en ofertas de proyectos (lite)
 description: Este tema proporciona información sobre cómo trabajar en ofertas con varios clientes que financiarán el proyecto. (Sales)
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
-ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
+ms.openlocfilehash: bdda1a940e733270399d092e543c3982c47174d0
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440798"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181665"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Administrar varios clientes en ofertas de proyectos (lite)
 
@@ -37,7 +39,7 @@ Se puede crear, actualizar o eliminar un cliente de oferta desde la pestaña **C
 
 | **Campo** | **Ubicación** | **Descripción** | **Impacto posterior** |
 | --- | --- | --- | --- |
-| Cuenta | Cuadrícula editable de la pestaña **Clientes de oferta** y los formularios **Principal** y **Creación rápida** para un cliente de oferta. | Enumera todas las cuentas activas. Este campo se bloquea después de que se crea el registro. Si desea actualizarlo, elimine el registro y vuelva a crearlo. Si ha registrado datos reales o si el registro del cliente de la oferta es de un cliente principal, no se le permitirá eliminar el registro. | Los clientes de oferta se copian como clientes de la línea de oferta cuando se crea una línea de oferta. Los clientes de oferta también se copian en los clientes de contrato del proyecto cuando se gana una oferta. |
+| Cuenta | Cuadrícula editable de la pestaña **Clientes de oferta** y los formularios **Principal** y **Creación rápida** para un cliente de oferta. | Enumera todas las cuentas activas. Este campo se bloquea después de que se crea el registro. Si desea actualizarlo, elimine el registro y vuelva a crearlo. Si ha registrado datos reales, o si el registro del cliente de oferta es un cliente principal, se le permitirá eliminar el registro. | Los clientes de oferta se copian como clientes de la línea de oferta cuando se crea una línea de oferta. Los clientes de oferta también se copian en los clientes de contrato del proyecto cuando se gana una oferta. |
 | Porcentaje de división de facturación | Cuadrícula editable de la pestaña **Clientes de oferta** y los formularios **Principal** y **Creación rápida** para un cliente de oferta. | Representa el porcentaje de cada transacción de venta no facturada que se atribuirá a este cliente de línea de oferta. | Copiado a las nuevas líneas de oferta y a los clientes del contrato del proyecto. |
 | Facturar a nombre de contacto | Cuadrícula editable de la pestaña **Clientes de oferta** y los formularios **Principal** y **Creación rápida** para un cliente de oferta. | Este es un campo de texto y debe usarse para identificar a la persona de contacto de la factura para este cliente. Estos están predeterminados a partir del registro de cuenta relacionado | Se copia a los clientes del contrato del proyecto cuando se gana una oferta y, a su vez, al campo de nombre Facturar al contrato de la factura que se genera para este cliente. |
 | Facturar a nombre | Cuadrícula editable de la pestaña **Clientes de oferta** y los formularios **Principal** y **Creación rápida** para un cliente de oferta. | Este campo de texto debe usarse para identificar a la persona de contacto de la factura para este cliente. | Se copia a los clientes del contrato del proyecto cuando se gana una oferta y, a su vez, al campo **Facturar al nombre de contrato** de la factura que se genera para este cliente. |
@@ -50,6 +52,3 @@ Se puede crear, actualizar o eliminar un cliente de oferta desde la pestaña **C
 Puede editar los porcentajes de división de facturación utilizando la experiencia de edición de cuadrícula en línea. Cuando los porcentajes de división de facturación no suman el 100 %, se producirá un error. Después de actualizar los porcentajes de división de facturación, actualice la página para eliminar el error.
 
 También puede intentar seleccionar **Distribuir uniformemente** en la subcuadrícula del cliente de la oferta. Esta acción asigna divisiones de facturación a todos los clientes de oferta. Si hay algún factor de redondeo, se agregará al cliente de redondeo. Uno de los clientes de oferta siempre se etiqueta como cliente de redondeo. Esto significa que el registro del cliente de oferta tiene el indicador **Redondeo** establecido en **Sí**. Por lo general, este es el cliente principal de la oferta, pero eso se puede cambiar.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Crear ofertas de proyectos a partir de oportunidades
 description: En este tema se proporciona información sobre la creación de ofertas de proyecto desde una oportunidad.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: acc7c6d0d3162163f071a9ab56950e4876aa711c94d36b3c9149cd46d76c57bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999652"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118134"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Crear ofertas de proyectos a partir de oportunidades
 
@@ -54,6 +56,3 @@ Una oferta existente se puede vincular a una oportunidad. Complete los siguiente
    Cuando mueva una oportunidad a esta etapa, puede seleccionar esta oferta de una lista de ofertas asociadas con esta oportunidad. Seleccionar esta oferta indica que está avanzando con ella.
 
    Todas las demás ofertas asociadas con la oportunidad seguirán estando disponibles y activas hasta que se gane una de ellas. Puede mover el proceso de ventas a la etapa anterior **Calificar** y elegir otra oferta con la que seguir adelante.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

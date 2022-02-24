@@ -2,16 +2,18 @@
 title: Facturar a un autor de retención o anticipo
 description: En este tema se proporciona información sobre cómo facturar a un autor de la retención o anticipo en Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997492"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596213"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Facturar un anticipo o pago a cuenta
 
@@ -49,6 +51,3 @@ Esto se puede ver en la cuadrícula **Retenciones y anticipos aplicados** en la 
 | Importe usado | Cuadrícula **Retenciones y anticipos aplicados** en la página **Factura de proyecto**  | Este campo de solo lectura proporciona el valor calculado que resume la cantidad de retención o anticipo que se ha utilizado. | Este campo se puede mostrar al cliente en la factura impresa para indicar la cantidad de esta retención o adelanto que ya se han usado. |
 | Importe total | Cuadrícula **Retenciones y anticipos aplicados** en la página **Factura de proyecto**  | Este campo editable proporciona la cantidad de la retención o anticipo que se está usando en esta factura de proyecto. Esta cantidad no puede ser superior a la disponible en el anticipo. El sistema calcula automáticamente esto como la diferencia entre los campos **Cantidad** y **Cantidad usada** en la cuadrícula. Puede disminuir esta cantidad para usar menos de lo que está disponible, pero no puede aumentar la cantidad para usar más de lo que está disponible. | Este campo se puede mostrar al cliente en la factura impresa para indicar la cantidad de esta retención o adelanto que se está usando en la factura. |
 | Importe del saldo de la retención. | Cuadrícula **Retenciones y anticipos aplicados** en la página **Factura de proyecto**  | Este campo de solo lectura proporciona el valor de cuánto de la retención o anticipo quedará después de que se confirme la factura. | Este campo se puede mostrar al cliente en la factura impresa para indicar la cantidad que quedará de esta retención o adelanto después de que se confirme y pague la factura. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

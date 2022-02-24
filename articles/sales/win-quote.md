@@ -2,22 +2,24 @@
 title: Cerrar una oferta
 description: En este tema se proporciona información el cierre de ofertas en Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2314444dfdbd4d1a2f38c7de55e2070011e51a86f1e074dd6667d54393c641fe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993442"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124704"
 ---
 # <a name="close-a-quote"></a>Cerrar una oferta
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
 
-Las ofertas de proyectos se pueden cerrar como Ganadas o Perdidas. Como las funciones Activar y Revisar no se admiten en las ofertas de Microsoft Dynamics 365 Project Operations, puede cerrar un borrador de oferta.
+Las ofertas de proyectos se pueden cerrar como Ganadas o Perdidas. Debido a que las funciones Activar y Revisar no se admiten en ofertas de Microsoft Dynamics 365 Project Operations, puede cerrar un borrador de oferta.
 
 ## <a name="close-a-quote-as-won"></a>Cierre de oferta como Ganada
 
@@ -41,6 +43,3 @@ Si la oferta del proyecto que se cierra como Perdido tiene un proyecto referenci
 
 > [!NOTE]
 > En Project Operations, cerrar una oferta como Ganada o Perdida no afectará el estado de la Oportunidad, que permanecerá abierta hasta que se cierre manualmente.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

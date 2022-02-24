@@ -2,16 +2,18 @@
 title: Administrar propuestas de factura de proyecto
 description: Este tema proporciona los detalles del procesamiento de facturas para los clientes con Project Operations para escenarios basados en recursos/no mantenidos en existencias.
 author: sigitac
-ms.date: 04/12/2021
+manager: Annbe
+ms.date: 01/29/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83e5af60d0a3baf0b59da2a97c6b156ef5b2b7ed
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989932"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089308"
 ---
 # <a name="manage-project-invoice-proposals"></a>Administrar propuestas de factura de proyecto
 
@@ -78,8 +80,7 @@ En **Grupo de impuestos** y **Grupo de impuestos de artículos** se usan de form
     - **Cliente** siempre usará de forma predeterminada el grupo de impuestos de facturación del cliente.
     - **Buscar** buscará en todas las entidades de esta lista y seleccionará el primer valor disponible. La búsqueda comienza con la entidad **Proyecto**, sigue con la entidad **Contrato de proyecto** y finaliza con la entidad **Cliente**.
 
-- **Grupo de impuestos sobre las ventas de artículos de hito de precio fijo** se utiliza como valor predeterminado en el campo **Grupo de impuestos sobre las ventas de artículos** para el hito de facturación. El contador puede revisar y modificar este valor en la página **Transacciones a cuenta**. El sistema utiliza el valor de la transacción a cuenta al crear una línea de propuesta de factura de proyecto.
- 
+- **Grupo de impuestos de artículos de hito de precio fijo** se utiliza para establecer el valor predeterminado del campo **Grupo de impuestos de artículos**.
 
 ### <a name="financial-dimensions"></a>Dimensiones financieras
 
@@ -131,7 +132,7 @@ La página **Aplicar formato a propuestas de factura** permite que las transacci
 
 La administración de impresión utiliza diferentes archivos de informe para imprimir, especificar destinos y personalizar el texto del pie de página para la factura. La administración de impresión puede configurarse a nivel de módulo, pero se puede anular esta configuración para un cliente, contrato o propuesta de factura específicos. Para acceder a esta función en la página **Propuesta de factura de proyecto**, seleccione **Imprimir** > **Administración de impresión**.
 
-La configuración de la administración de impresión se muestra como una vista de árbol, donde cada nivel de nodo muestra los documentos disponibles para ajustar. Puede asignar impresiones personalizadas a nivel de módulo, cliente, contrato o documento de propuesta de factura. Para modificar la impresión del documento original, expanda el nodo en cuestión y seleccione **Elemento original**. En el campo **Formato de informe**, seleccione el formato de informe que se utilizará para la impresión. Puede utilizar formatos de informe personalizados mediante el [Marco de administración de documentos empresariales](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+La configuración de la administración de impresión se muestra como una vista de árbol, donde cada nivel de nodo muestra los documentos disponibles para ajustar. Puede asignar impresiones personalizadas a nivel de módulo, cliente, contrato o documento de propuesta de factura. Para modificar la impresión del documento original, expanda el nodo en cuestión y seleccione **Elemento original**. En el campo **Formato de informe**, seleccione el formato de informe que se utilizará para la impresión. Puede utilizar formatos de informe personalizados mediante el [Marco de administración de documentos empresariales](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Registrar propuestas de factura
 
@@ -142,6 +143,3 @@ Para ver la factura antes de registrarla, desactive la casilla **Registro**. Se 
 Además de la página **Propuesta de factura**, las propuestas de factura también se pueden publicar ejecutando el trabajo periódico **Registrar propuestas de factura**. Para encontrar este trabajo, vaya a **Gestión de proyectos y contabilidad** > **Periódico** > **Facturas de proyecto** > **Registrar propuestas de factura**.
 
 Esta página muestra todas las propuestas de facturas que están listas para su registro. Puede seleccionar **Lote** para programar el registro de propuestas de facturas. Establezca el parámetro **Procesamiento por lotes** en **Sí** y seleccione **Periodicidad** para establecer la periodicidad del procesamiento por lotes.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

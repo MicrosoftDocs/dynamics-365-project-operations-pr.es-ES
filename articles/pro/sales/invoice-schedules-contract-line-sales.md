@@ -2,16 +2,18 @@
 title: Crear programaciones de facturas en una línea de contrato basada en proyecto (lite)
 description: Este tema proporciona información sobre cómo crear calendarios e hitos de facturas.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: dc0cf92ed7af0353baa0f93fc7fb69e02905f805eb04a7b4c7bc99cfe59da62a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 728a35b2b69fb63a2b20f218c250365c5068370f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006087"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180348"
 ---
 # <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>Crear programaciones de facturas en una línea de contrato basada en proyecto (lite)
 
@@ -72,6 +74,3 @@ Los hitos de precio fijo se pueden generar manualmente cuando no se dividen peri
 | Impuestos | Creación rápida | La cantidad del impuesto aplicado al hito. | Este se incluye en el hito de la línea del contrato del proyecto y en la factura. |
 
 4. Seleccione **Guardar y cerrar**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

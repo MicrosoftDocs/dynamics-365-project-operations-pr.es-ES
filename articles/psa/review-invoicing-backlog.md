@@ -2,6 +2,8 @@
 title: Revisión del trabajo pendiente de facturación en proyectos y contratos de proyecto
 description: En este tema se proporciona información sobre cómo revisar los trabajos pendientes en los productos, los gastos y el tiempo, y cómo marcarlos como listos para la facturación.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 092455a131f556e4f943f6bb89d7e38358f0a697
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006987"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150509"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Revisión del trabajo pendiente de facturación en proyectos y contratos de proyecto
 
@@ -40,7 +42,7 @@ Los datos reales de ventas sin facturar representan el trabajo pendiente de fact
 
 Para revisar el trabajo pendiente de facturación de tiempo y materiales, vaya a **Ventas** \> **Facturación** \> **Trabajo pendiente de facturación de tiempo y material**. Seleccione todos los datos reales de ventas sin facturar que estén listos para facturar y, a continuación, seleccione **Listo para facturar**. El estado de facturación de esos datos reales cambia a **Listo para facturar**.
 
-![Trabajo pendiente de facturación de tiempo y material.](media/TMBacklog.png)
+![Trabajo pendiente de facturación de tiempo y material](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>Revisión del trabajo pendiente de facturación de productos
 
@@ -48,7 +50,7 @@ En PSA, cuando un contrato de proyecto tiene líneas de contrato basadas en prod
 
 Para revisar la cartera de facturación de productos, vaya a **Ventas** \> **Facturación** \> **Trabajo pendiente de facturación de productos**. Seleccione todas las líneas de contrato basadas en productos que estén listas para facturarse, y, a continuación, seleccione **Listo para facturar**. El estado de facturación de estas líneas cambia a **Listo para facturar**.
 
-![Trabajo pendiente de facturación de productos.](media/ProductBacklog.png)
+![Trabajo pendiente de facturación de productos](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Revisión de hitos de facturación en contratos de precio fijo
 
@@ -56,7 +58,4 @@ Las líneas de contrato de proyecto que tienen un método de facturación de pre
 
 Para revisar los hitos de facturación, vaya a **Ventas** \> **Facturación** \> **Hitos de precio fijo**. Seleccione los hitos que están listos para facturar y, a continuación seleccione **Listo para facturar**. El estado de facturación de estos hitos cambia a **Listo para facturar**.
 
-![Hitos de precio fijo.](media/FPBacklog.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Hitos de precio fijo](media/FPBacklog.png)

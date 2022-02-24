@@ -2,16 +2,18 @@
 title: 'Novedades de noviembre de 2020: Project Operations para escenarios basados en existencias/producción'
 description: Este tema proporciona información sobre las actualizaciones de calidad disponibles en la versión de noviembre de 2020 de Project Operations para escenarios basados en producción.
 author: sigitac
+manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7ffbca7929133e7828d08ad4b4e7bd6b702c15e39726421a35241d23d1123f48
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b671f314ddae9a59167bb9059dc7b076df95cb9d
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003207"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365631"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Novedades de noviembre de 2020: Project Operations para escenarios basados en existencias/producción
 
@@ -23,7 +25,4 @@ Para obtener información sobre las correcciones incluidas en esta actualizació
 
 ## <a name="regulatory-updates"></a>Actualizaciones regulatorias
 
-Para obtener información sobre actualizaciones normativas para aplicaciones de Dynamics 365 Finance and Operations, vea [Actualizaciones regulatorias](/dynamics365/finance/localizations/regulatory-updates). También puede iniciar sesión en LCS y ver las actualizaciones normativas planificadas mediante la herramienta de búsqueda de problemas. La búsqueda de problemas le permite buscar por país, tipo de función y lanzamiento.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Para obtener información sobre actualizaciones normativas para aplicaciones de Dynamics 365 Finance and Operations, vea [Actualizaciones regulatorias](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). También puede iniciar sesión en LCS y ver las actualizaciones normativas planificadas mediante la herramienta de búsqueda de problemas. La búsqueda de problemas le permite buscar por país, tipo de función y lanzamiento.

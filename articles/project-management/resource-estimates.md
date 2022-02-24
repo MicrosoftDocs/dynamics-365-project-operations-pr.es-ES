@@ -2,16 +2,18 @@
 title: Estimaciones financieras del tiempo de los recursos en proyectos
 description: Este tema proporciona información sobre cómo se calculan las estimaciones financieras para el tiempo.
 author: rumant
+manager: Annbe
 ms.date: 03/19/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e4be4c8087005ae66a54d40ac88017df591c56eca64f04b00cf34b0e5a8a09ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 91156c5cf79af8c66c12b84a6d2b17aa7fe09ed1
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998707"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701847"
 ---
 # <a name="financial-estimates-for-resource-time-on-projects"></a>Estimaciones financieras del tiempo de los recursos en proyectos
 
@@ -37,7 +39,7 @@ Una estimación financiera del tiempo en una tarea de nodo hoja es la suma de la
 
 Una estimación financiera del tiempo en una tarea de resumen o principal es la suma de las estimaciones financieras de todas sus tareas secundarias. Este es el coste laboral estimado en el proyecto. 
 
-![Estimaciones de recursos.](./media/navigation12.png)
+![Estimaciones de recursos](./media/navigation12.png)
 
 ## <a name="default-cost-price-and-cost-currency"></a>Valores predeterminados de precio y divisa de coste
 

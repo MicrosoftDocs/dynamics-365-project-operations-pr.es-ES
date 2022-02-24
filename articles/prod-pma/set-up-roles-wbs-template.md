@@ -2,9 +2,11 @@
 title: Configurar roles en plantillas de estructura de descomposición del trabajo
 description: Este tema proporciona información sobre cómo configurar información de roles en las plantillas de estructura de descomposición del trabajo.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c84015c46f0a8c9d3d48be1b995d4bdd7fd8ee25b240f455bbe2031f42adc0f5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008922"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085128"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Configurar roles en plantillas de estructura de descomposición del trabajo
 
@@ -89,7 +91,7 @@ Se han agregado opciones adicionales en la WBS para utilizar mejor la funcionali
 
 4. Configure las fechas y el esfuerzo (horas), como se muestra en la siguiente ilustración.
 
-    [![Configuración de las fechas y el esfuerzo.](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
+    [![Configuración de las fechas y el esfuerzo](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
 5. Seleccione la línea de tarea **Iniciando** y, luego, en el campo **Rol**, seleccione **Jefe de proyectos sénior**.
 6. Seleccione **Publish**.
@@ -105,6 +107,3 @@ Se han agregado opciones adicionales en la WBS para utilizar mejor la funcionali
     > No recibe una advertencia de que el recurso especificado ahora es 2, porque la cantidad de recursos sigue siendo 1.
 
 14. En la página **Estructura de descomposición del trabajo**, valide la asignación de recursos en la WBS y luego seleccione **Guardar**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,258 +1,38 @@
 ---
-title: Facturas basadas en proyecto correctivas
-description: Este tema proporciona información sobre cómo crear y confirmar facturas basadas en proyectos correctivas en Project Operations.
+title: Facturas corregidas
+description: En este tema se proporciona información sobre las facturas corregidas.
 author: rumant
-ms.date: 03/29/2021
+manager: AnnBe
+ms.date: 09/18/2020
 ms.topic: article
+ms.prod: ''
+ms.service: project-operations
+audience: Application User
 ms.reviewer: kfend
-ms.author: rumant
-ms.openlocfilehash: aaa61c8473da0aab369bbb25acb10e9a3661379997737acbcc0b3d4ab33e0ce9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.search.scope: ''
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: suvaidya
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-10-01
+ms.openlocfilehash: 1ebfec053a59bbadd261d4333f6737cf16292e81
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997177"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122409"
 ---
-# <a name="corrective-project-based-invoices"></a>Facturas basadas en proyecto correctivas
+# <a name="corrected-invoices"></a>Facturas corregidas
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
 
-Una factura de proyecto confirmada se puede corregir para procesar cambios o créditos según se negocie con el cliente y el gerente de proyecto.
+Las facturas confirmadas se pueden editar. Cuando se edita una factura confirmada, se crea un borrador de la factura corregida. Puesto que se da por sentado que desea revertir todas las transacciones y las cantidades de factura original, la factura corregida incluye todas las transacciones de la factura original y todas sus cantidades son iguales a cero (0).
 
-Para realizar modificaciones en una factura confirmada, abra la factura confirmada y seleccione **Corregir esta factura**. 
+Cuando las transacciones no requieren corrección, puede quitarlas del borrador de la factura correctiva. Para revertir o devolver solo una cantidad parcial, puede editar el campo Cantidad en el detalle de la línea. Si abre el detalle de la línea de factura, podrá ver la cantidad de la factura original. A continuación, podrá editar la cantidad de la factura actual para que sea superior o inferior a la cantidad de la factura original.
 
-> [!NOTE]
-> Esta selección no está disponible a menos que se confirme una factura del proyecto o que la factura basada en el proyecto tenga anticipos o pagos a cuenta o conciliaciones de anticipos o pagos a cuenta.
+Cuando se confirma una factura correctiva, el dato real de ventas facturadas originales se revierte y se crea un nuevo dato real de ventas facturadas. Si la cantidad se redujo, la diferencia también generará un nuevo dato real de ventas sin facturar. Por ejemplo, si la venta facturada original ascendía a ocho horas y el detalle de línea de factura corregida tenía una cantidad reducida de seis horas, se revierte la línea de ventas facturadas originales y se crean dos nuevos datos reales:
 
-Se crea un nuevo borrador de factura a partir de la factura confirmada. Todos los detalles de la línea de factura de la factura previamente confirmada se copian en el nuevo borrador. Los siguientes son algunos de los puntos clave que debe comprender acerca de los detalles de la línea en la nueva factura corregida:
-
-- Todas las cantidades se actualizan a cero. Dynamics 365 Project Operations supone que todos los elementos facturados se abonan en su totalidad. Si es necesario, puede actualizar manualmente estas cantidades para reflejar la cantidad que se está facturando y no la cantidad que se está acreditando. Según la cantidad que introduce, la aplicación calcula la cantidad acreditada. Esta cantidad se refleja en los datos reales que se crean cuando se confirma la factura corregida. Si está realizando cambios en la cantidad del impuesto, debe introducir el monto del impuesto correcto y no el del impuesto que se acredita.
-- Las correcciones de hitos siempre se procesan como créditos completos.
-
-
-> [!IMPORTANT]
-> Para los detalles de la línea de factura que son correcciones de otros cargos ya facturados, el campo **Corrección** está establecido en **Sí**. Para las facturas con detalles de línea de factura corregida, el campo **Tiene correcciones** está establecido en **Sí**.
-
-## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Datos reales creados cuando se confirma una factura correctiva
-
-La siguiente tabla enumera los datos reales que se crean cuando se confirma una factura correctiva.
-
-<table border="0" cellspacing="0" cellpadding="0">
-    <tbody>
-        <tr>
-            <td width="216" valign="top">
-                <p>
-                    <strong>Escenario</strong>
-                </p>
-            </td>
-            <td width="808" valign="top">
-                <p>
-                    <strong>Datos reales creados en la confirmación</strong>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Facturación del crédito total de una transacción de tiempo facturada previamente.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Una reversión de ventas facturadas por las horas y el monto en el detalle de la línea de factura original por tiempo.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Una venta nueva real sin facturar por las horas y el monto en el detalle de la línea de factura original por tiempo.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Facturación del crédito parcial en una transacción a tiempo.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Una reversión de ventas facturadas por las horas y el monto facturado en el detalle de la línea de factura original por tiempo.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Un nuevo real de ventas no facturadas que se cobra por las horas y el monto en el detalle de la línea de factura editada, una reversión de este y un real de ventas facturado equivalente.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Un nuevo real de ventas no facturadas que se cobra por las horas restantes y el monto después de deducir las cifras corregidas en el detalle de la línea de factura.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Facturación del crédito total de una transacción de gastos facturada previamente.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Una reversión de ventas facturadas por la cantidad y el monto en el detalle de la línea de factura original por los gastos.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Una nueva venta sin facturar real por la cantidad y el monto en el detalle de la línea de factura original por los gastos.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Facturación del crédito parcial de una transacción de gastos facturada previamente.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Una reversión de ventas facturadas por la cantidad y el monto facturado en el detalle de la línea de factura original por unos gastos.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Un nuevo real de ventas no facturadas que se cobra por la cantidad y el monto en el detalle de la línea de factura corregida, una reversión de este y un real de ventas facturado equivalente.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Un nuevo real de ventas no facturadas que se cobra por la cantidad restante y el monto después de deducir las cifras corregidas en el detalle de la línea de factura.
-                </p>
-            </td>
-        </tr>
-                <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Facturación del crédito total de una transacción de material facturada previamente.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Una anulación de ventas facturada por la cantidad y el importe en el detalle de línea de factura original en concepto de material.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Un nuevo valor real de ventas sin facturar por la cantidad y el importe en el detalle de línea de factura original en concepto de material.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Facturación del abono parcial de una transacción de material.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Una anulación de ventas facturada por la cantidad y el importe facturados en el detalle de línea de factura original en concepto de material.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Un nuevo valor real de ventas no facturadas que es imputable por la cantidad y el importe en el detalle de la línea de factura editada, una reversión de esto y un valor real de ventas facturado equivalente.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Un nuevo real de ventas no facturadas que se cobra por la cantidad restante y el monto después de deducir las cifras corregidas en el detalle de la línea de factura.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Facturación del crédito total de una transacción de precio facturada previamente.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Una reversión de ventas facturadas por la cantidad y el monto en el detalle de la línea de factura original por los honorarios.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Una nueva venta sin facturar real por la cantidad y el monto en el detalle de la línea de factura original por los honorarios.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Facturación del crédito parcial de una transacción de precio facturada previamente.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Una reversión de ventas facturadas por la cantidad y el monto facturados en el detalle de la línea de factura original por los honorarios.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Un nuevo real de ventas no facturadas que se cobra por la cantidad y el monto en el detalle de la línea de factura corregida editada, una reversión de este y un real de ventas facturado equivalente.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" valign="top">
-                <p>
-Facturación del crédito total de un hito facturado previamente.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Una reversión de ventas facturadas por el monto en el detalle de la línea de factura original para el hito.
-                </p>
-                <p>
-El estado de la factura del hito se actualiza desde <b>Factura del cliente registrada</b> hasta <b>Listo para facturar</b>.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" valign="top">
-                <p>
-Facturación del crédito parcial de un hito facturado previamente.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Esto escenario no es compatible.
-                </p>
-            </td>
-        </tr>       
-    </tbody>
-</table>
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+- Un dato real de ventas facturadas por seis horas.
+- Un dato real de ventas sin facturar por las dos horas restantes. Esta transacción se puede facturar más adelante o se puede marcar como no imputable, en función de las negociaciones con el cliente.

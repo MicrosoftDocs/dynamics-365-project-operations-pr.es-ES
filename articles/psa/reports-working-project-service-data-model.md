@@ -2,6 +2,8 @@
 title: Trabajo con el modelo de datos de Project Service Automation
 description: En este tema se proporciona información sobre cómo trabajar con el modelo de datos.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002442"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147674"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Trabajo con el modelo de datos de Project Service Automation
 
@@ -53,7 +55,7 @@ PSA también agrega nuevas entidades relacionadas con ofertas al modelo de datos
 
 Otras entidades que PSA se suma a las ofertas son **Lista de precios de proyecto de línea de oferta**, **Categoría de recursos de línea de oferta** y **Categoría de transacciones de línea de oferta**.
 
-![Diagrama que muestra el presupuesto, la línea del presupuesto y relaciones del proyecto.](media/PS-Reporting-image2.png "Diagrama que muestra el presupuesto, la línea del presupuesto y relaciones del proyecto")
+![Diagrama que muestra el presupuesto, la línea del presupuesto y relaciones del proyecto](media/PS-Reporting-image2.png "Diagrama que muestra el presupuesto, la línea del presupuesto y relaciones del proyecto")
 
 ## <a name="reporting-on-project-contracts"></a>Informe sobre contratos de proyectos
 
@@ -69,7 +71,7 @@ PSA también agrega nuevas entidades que están diseñadas para contratos de pro
 
 Otras entidades que PSA agrega a los contratos son **Lista de precios del proyecto de línea de contrato del proyecto**, **Categoría de recursos de línea de contrato de proyecto** y **Categoría de transacciones de línea de contrato de proyecto**.
 
-![Diagrama que muestra el pedido, la línea de pedido y relaciones del proyecto.](media/PS-Reporting-image3.png "Diagrama que muestra el pedido, la línea de pedido y relaciones del proyecto")
+![Diagrama que muestra el pedido, la línea de pedido y relaciones del proyecto](media/PS-Reporting-image3.png "Diagrama que muestra el pedido, la línea de pedido y relaciones del proyecto")
 
 ## <a name="reporting-on-projects"></a>Informe sobre proyectos
 
@@ -81,7 +83,7 @@ La entidad **Proyectos** y sus entidades relacionadas son exclusivas de PSA. **P
 - **Requisito de recursos**: esta entidad contiene los requisitos para cualquier miembro genérico del equipo de recursos.
 - **Estimación** y **Línea de estimación**: estas entidades tienen una relación encabezado/línea y contienen estimaciones de gastos para el proyecto. Las estimaciones de tareas se almacenan en la entidad **Estimación de recursos**.
 
-![Diagrama que muestra el requisito de recursos y las relaciones del proyecto.](media/PS-Reporting-image4.png "Diagrama que muestra el requisito de recursos y las relaciones del proyecto")
+![Diagrama que muestra el requisito de recursos y las relaciones del proyecto](media/PS-Reporting-image4.png "Diagrama que muestra el requisito de recursos y las relaciones del proyecto")
 
 ## <a name="reporting-on-resources"></a>Informe sobre recursos
 
@@ -92,7 +94,7 @@ Los recursos del proyecto utilizan las entidades **Recurso que se puede reservar
 - **Categoría de recurso que se puede reservar**: esta entidad representa el rol del recurso que se puede reservar.
 - **Reservas de recursos que se pueden reservar**: esta entidad representa el tiempo que se reserva en los proyectos para el recurso. Cada reserva tiene una entidad de encabezado y entidades de línea, y cada línea tiene un estado que representa el estado de la reserva.
 
-![Diagrama que muestra las relaciones de las características de recursos que se pueden reservar.](media/PS-Reporting-image5.png "Diagrama que muestra las relaciones de las características de recursos que se pueden reservar")
+![Diagrama que muestra las relaciones de las características de recursos que se pueden reservar](media/PS-Reporting-image5.png "Diagrama que muestra las relaciones de las características de recursos que se pueden reservar")
 
 ## <a name="reporting-on-actual-transactions"></a>Informe sobre transacciones reales
 
@@ -120,7 +122,4 @@ Cuando trabaje con la entidad **Real**, es importante que comprenda qué transac
 
 La entidad **Origen de la transacción** registra el origen del registro **Real** y la entidad **Conexión de transacciones** registra los registros relacionados para el registro **Real**. Además, el registro **Real** contiene referencias del proyecto, el contrato del proyecto (pedido), el recurso que se puede reservar y el cliente.
 
-![Diagrama que muestra la conexión de la transacción, el origen y las relaciones reales.](media/PS-Reporting-image6.png "Diagrama que muestra la conexión de la transacción, el origen y las relaciones reales")
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Diagrama que muestra la conexión de la transacción, el origen y las relaciones reales](media/PS-Reporting-image6.png "Diagrama que muestra la conexión de la transacción, el origen y las relaciones reales")

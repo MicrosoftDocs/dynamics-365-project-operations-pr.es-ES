@@ -2,23 +2,24 @@
 title: Introducción a la implementación de Project Operations para escenarios basados en recursos/no mantenidos en existencias
 description: Este tema proporciona información sobre el tipo de implementación, Project Operations para escenarios basados en recurso/no mantenidos en existencias.
 author: rumant
+manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 035ad22d2b51182c11e5c29d35f74f499fc903d5
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009732"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365629"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Introducción a la implementación de Project Operations para escenarios basados en recursos/no mantenidos en existencias
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
 
-El tipo de implementación simplificada de Dynamics 365 Project Operations para escenarios basados en recursos/no mantenidos en existencias tiene las siguientes capacidades para empresas basadas en proyectos:
+El tipo de implementación, Dynamics 365 Project Operations para escenarios basados en recursos / no almacenados tiene las siguientes capacidades para empresas basadas en proyectos:
 
 - Planificación de proyectos con Microsoft Project para la Web
 - Precios y costes multidimensionales de los recursos laborales
@@ -42,6 +43,3 @@ Esta implementación debe elegirse si las expectativas de Project Operations son
 - Requiere un motor de tipo de cambio e impuestos sobre las ventas de clase empresarial eficaz para generar facturas de proyectos para los clientes.
 - Un sistema de reconocimiento de ingresos y contabilidad de proyectos que cumple con las Normas Internacionales de Información Financiera (NIIF).
 - Aplicaciones Finance o Supply Chain Management e integración de transacciones basadas en proyectos.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

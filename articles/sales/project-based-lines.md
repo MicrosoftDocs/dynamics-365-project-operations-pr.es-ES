@@ -2,16 +2,18 @@
 title: Líneas de oportunidad basadas en proyectos
 description: En este tema se proporciona información sobre el trabajo con lineas de oportunidad basadas en proyectos.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 04e091a58f72a99fb17f37b95f9cac2b4476757b79965177854423361f416d51
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996367"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181968"
 ---
 # <a name="project-based-opportunity-lines"></a>Líneas de oportunidad basadas en proyectos
 
@@ -31,6 +33,3 @@ A continuación, se muestran los campos de una línea de oportunidades basada en
 | Nombre | Pestaña General | Este es un campo de texto editable que se puede usar para dar una identidad corta a este artículo de línea | Este valor se transfiere a la línea de oferta cuando crea una oferta a partir de esta oportunidad |
 | Presupuesto del cliente | Pestaña General | Este campo de moneda editable se puede utilizar para realizar un seguimiento de la cantidad que el cliente está dispuesto a gastar en esta línea de pedido. | Este valor se transfiere al campo correspondiente de la oferta cuando crea una oferta a partir de esta oportunidad |
 | Método de facturación | Pestaña General | Este campo editable tiene los siguientes valores:</br>- Tiempo y material</br>- Precio fijo | Este valor se transfiere al campo correspondiente de la oferta cuando crea una oferta a partir de esta oportunidad. Una vez creada la línea de oferta, el campo se bloquea y no se puede cambiar. Asigne este valor de campo con la mayor precisión posible. Si necesita cambiar el valor de este campo en la línea de oferta, elimine y vuelva a crear la línea de oferta. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

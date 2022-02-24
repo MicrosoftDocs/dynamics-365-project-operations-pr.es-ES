@@ -2,6 +2,8 @@
 title: Cumplimiento de requisitos de recursos
 description: En este tema se ofrece información sobre cómo cumplir los requisitos de recursos.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1b9c19438effff5901426c904fa905afb3e2c09c35aff8559f491c06401806e0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 858662b62e511f80413e2354832bf2b0bcfc3fc5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996862"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147629"
 ---
 # <a name="fulfilling-resource-requests"></a>Cumplimiento de solicitudes de recursos
 
@@ -33,17 +35,14 @@ Los requisitos de recursos se pueden enviar como solicitudes de recursos al admi
 
 Las solicitudes de recursos se muestran como una lista en la vista **Solicitudes de recursos activas**.
 
-> ![Lista de solicitudes de recursos.](media/Resource-Management-image59.png)
+> ![Lista de solicitudes de recursos](media/Resource-Management-image59.png)
 
 Para cumplir con una solicitud, selecciónela en la lista y, a continuación, seleccione **Buscar recursos**. Alternativamente, haga doble clic en una fila para abrir la solicitud. A continuación, puede seleccionar la pestaña **Requisito de recursos** para ver los requisitos para esa solicitud. Para comenzar a cumplir con la solicitud, seleccione **Buscar recursos**.
 
-> ![Detalles de solicitud de recursos.](media/Resource-Management-image60.png)
+> ![Detalles de solicitud de recursos](media/Resource-Management-image60.png)
 
 El Asistente de programación aparece y se filtra por los requisitos. Seleccione el recurso y, a continuación, **Reservar**.
 
-> ![Recurso seleccionado.](media/Resource-Management-image61.png)
+> ![Recurso seleccionado](media/Resource-Management-image61.png)
 
 El miembro del equipo genérico se reemplaza por el recurso con nombre reservado manualmente en el equipo del proyecto y las asignaciones de tareas en la programación del proyecto.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

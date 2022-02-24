@@ -2,6 +2,8 @@
 title: P+F de administración de recursos
 description: En este tema se proporcionan respuestas a preguntas frecuentes sobre la administración de recursos.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f80e65e7ff423c362fd1a86676a84ab67afabc88115c99b582c5eefa6c725a46
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d335a12a9b478bff63b6c93809c89dac9718a4be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002397"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144389"
 ---
 # <a name="resource-management-faq"></a>P+F de administración de recursos
 
@@ -52,6 +54,3 @@ Después de reservar los recursos, seleccione **Mantener reservas** para realiza
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>¿Cuál es la diferencia entre una tarea y una reserva?
 
 Las asignaciones son la asignación de recursos a las tareas del proyecto en la programación del proyecto. Los recursos pueden ser recursos reales o genéricos. Las reservas son la asignación manual o automática de recursos a un proyecto. Las reservas manuales consumen la capacidad de un recurso. Idealmente, para los recursos reales, las reservas y asignaciones deben coincidir, porque no difieren. Sin embargo, PSA no obliga a que esto se cumpla. La vista Conciliación muestra los lugares de un jefe de proyecto donde las reservas y asignaciones de un recurso no coinciden.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

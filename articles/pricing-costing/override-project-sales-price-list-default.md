@@ -2,17 +2,19 @@
 title: Reemplazar listas de precios de venta de proyecto
 description: Este tema proporciona información sobre cómo crear listas de precios de venta personalizadas.
 author: rumant
+manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009597"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672252"
 ---
 # <a name="override-project-sales-price-lists"></a>Reemplazar listas de precios de venta de proyecto
 
@@ -50,6 +52,3 @@ Puede utilizar cada una de esas listas de precios y actualizar los precios de ma
 En un contrato de proyecto, el precio del proyecto siempre se establece de forma predeterminada como una lista de precios personalizada con el nombre del contrato y el sello de fecha y hora creado adjunto al nombre. Esto es cierto si el contrato se creó cuando se ganó la cotización o si el contrato se creó desde cero. Si es necesario, puede eliminar esta asociación a la lista de precios personalizada y asociar una lista de precios estándar al contrato del proyecto.
 
 Cuando asocia una lista de precios estándar a las listas de precios del proyecto en la cotización o el contrato, cualquier cambio realizado en los precios en la lista de precios afectará a todas las cotizaciones y contratos que utilizan la lista de precios.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,10 @@
 title: Página principal de planificación del proyecto
 description: En este tema se proporciona información sobre la planificación del proyecto.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 ms.author: rumant
@@ -17,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 17745ffacbfdcf50b44b0c3f04ecacab8905d15be9ef675a72ae47a858cb9abe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1439cc1543adbd304d984cdc268d3e5623adc309
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990607"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148259"
 ---
 # <a name="project-planning-home-page"></a>Página principal de planificación del proyecto
 
@@ -39,7 +40,7 @@ Las herramientas de gestión de proyectos en PSA le ayudan a ejecutar proyectos 
 - Planificación de proyectos mediante una programación de trabajo y estimaciones.
 - Estimación y rastreo de los costes e ingresos del proyecto.
 - Utilizar las estimaciones del proyecto durante el proceso de ventas.
-- Pronosticar los requisitos de recursos para los proyectos que están en trámite.
+- Previsión de los requisitos de recursos para proyectos que están en la canalización.
 - Entrega correcta de proyectos mediante el seguimiento del progreso y el consumo de costes.
 
 Los siguientes temas proporcionan información que ayudará a los administradores de proyecto a estimar el trabajo, estimar los costes del proyecto y pronosticar los requisitos de recursos mediante el uso de las herramientas compatibles con PSA:
@@ -51,6 +52,3 @@ Los siguientes temas proporcionan información que ayudará a los administradore
 - [Plantillas de proyecto](project-templates.md)
 - [Fases del proyecto](project-stages.md)
 - [Configuración del proyecto](project-settings.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

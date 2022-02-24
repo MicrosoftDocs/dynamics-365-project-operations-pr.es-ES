@@ -2,16 +2,18 @@
 title: Administrar los estados y validaciones que no se deben superar
 description: Este tema proporciona información sobre las comprobaciones de límite que no deben superarse realizadas en Project Operations.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/22/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b08a6834fa0bc5254f4baab15b40c7f733d0dc6ec7e6c4fceea2836e5e4c656a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09dea414e91a365f33bd23089c427b5f63f55c8e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003522"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130014"
 ---
 # <a name="manage-not-to-exceed-status-and-validations"></a>Administrar los estados y validaciones que no se deben superar 
 
@@ -19,7 +21,7 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no mant
 
 ## <a name="not-to-exceed-on-approvals"></a>No exceder en aprobaciones
 
-Cuando se envía una entrada de tiempo, gasto o uso de material, se crea un registro de aprobación. Si la aprobación es imputable y se asigna a una línea de contrato de tiempo y material, el sistema completa una verificación de validación de no exceder en los siguientes niveles:
+Cuando se envía una entrada de tiempo o gasto, se crea un registro de aprobación. Si la aprobación es imputable y se asigna a una línea de contrato de tiempo y material, el sistema completa una verificación de validación de no exceder en los siguientes niveles:
 
   - Verifique el límite establecido para el cliente en la línea del contrato del proyecto
   - Verifique el límite establecido en la línea del contrato
@@ -32,11 +34,11 @@ Si la verificación pasa, la aprobación recibe un estado de validación de **É
 
 Si la verificación falla, la aprobación recibe un estado de validación de **Error**. El detalle de la validación de no exceder informará al usuario en qué nivel falló la validación.
 
-Cuando la entrada de tiempo, gasto o uso de material enviada se considera no imputable, el estado de validación de no exceder se establece en **No aplicable** con el detalle de validación igual a **No aplicable**.
+Cuando la entrada de tiempo o gasto enviada se considera no imputable, el estado de validación de no exceder se establece en **No aplica** con el detalle de validación igual a **No aplica**.
 
 ## <a name="not-to-exceed-on-unbilled-sales-actuals"></a>No exceder los datos reales de ventas no facturadas
 
-Cuando se aprueba una entrada de tiempo, gasto o uso de material, se crean registros de datos reales de costes y ventas no facturadas. Si el valor de venta real no facturado es imputable y se asigna a una línea de contrato de tiempo y material, la aplicación realiza una verificación de validación de no exceder en los siguientes niveles:
+Cuando se aprueba una entrada de tiempo o gasto, se crean registros de costos y de ventas no facturadas. Si el valor de venta real no facturado es imputable y se asigna a una línea de contrato de tiempo y material, la aplicación realiza una verificación de validación de no exceder en los siguientes niveles:
 
   - Verifique el límite establecido para el cliente en la línea del contrato del proyecto
   - Verifique el límite establecido en la línea del contrato
@@ -53,9 +55,9 @@ Cuando las ventas reales no facturadas se consideran gratuitas o complementarias
 
 ## <a name="reset-the-not-to-exceed-status"></a>Restablecer del estado de no exceder
 
-Puede realizar un restablecimiento masivo del estado de no exceder. Los directores de proyecto pueden ajustar la validación de no exceder para priorizar la facturación de un trabajo en particular, tiempo, gasto o uso de material sobre otros que ya están comprometidos a partir de la cantidad de no exceder disponible.
+Puede realizar un restablecimiento masivo del estado de no exceder. Esto permite a los gerentes de proyecto ajustar la validación de no exceder para priorizar la facturación de un cuerpo de trabajo, tiempo o gastos en particular sobre otros que ya están comprometidos a partir de la cantidad no exceder disponible.
 
-Una vez que se restablece el estado de no exceder en los datos reales de ventas no facturadas, se reduce el monto comprometido. El director de proyectos puede seleccionar otra entrada de trabajo, tiempo, gasto o uso de material que no haya superado previamente la validación de no exceder y volver a evaluar. Con la reducción en la cantidad comprometida, estos datos reales ahora pasan la validación, lo que ayuda al director de proyectos a ejercer una mayor influencia y control sobre las transacciones facturables para ese período.
+Una vez que se restablece el estado de no exceder en los datos reales de ventas no facturadas, se reduce el monto comprometido. El gerente de proyecto puede seleccionar otro cuerpo de trabajo, tiempo o gastos que anteriormente no superaron la validación de no exceder y reevaluarlos. Con la reducción en la cantidad comprometida, estos datos reales ahora pasarán la validación. Esto ayuda al gerente de proyecto a ejercer una mayor influencia y control sobre las transacciones facturables para ese período.
 
 Para restablecer el estado de no exceder, seleccione uno o más datos reales de la vista **Backlog de facturación de tiempo y material** o **Reales** y luego seleccione **Restablecer estado de no exceder**.
 
@@ -71,6 +73,3 @@ Puede realizar una reevaluación masiva del estado de no exceder. La reevaluaci�
 Para reevaluar el estado de no exceder, seleccione uno o más datos reales de la vista **Backlog de facturación de tiempo y material** o **Reales** y luego seleccione **Reevaluar estado de no exceder**.
 
 Todos los datos reales seleccionados relevantes con un límite que no debe excederse se evaluarán contra la configuración del límite que no debe exceder. Los datos reales que son relevantes para la reevaluación del estado de no exceder son los datos reales de ventas no facturados que aún no se han facturado, no están en un borrador de factura y están marcados como cargables. Cualquier otro valor real seleccionado seleccionado.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

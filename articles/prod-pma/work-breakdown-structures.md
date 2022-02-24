@@ -2,36 +2,38 @@
 title: Información general sobre estructuras de descomposición del trabajo
 description: Una estructura de descomposición del trabajo (WBS) es una descripción del trabajo que se realizará para un proyecto. Es una jerarquía de tareas que representa la comprensión del equipo del proyecto sobre la composición del trabajo, y del tamaño, coste y duración de cada componente o tarea.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 23861
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 093f9901aec0db1fa8f920533c0084f877f26445fd07159e8e1ae0cf53849641
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998842"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085123"
 ---
 # <a name="work-breakdown-structures-overview"></a>Información general sobre estructuras de descomposición del trabajo
 
 [!include [banner](../includes/banner.md)]
 
-Una estructura de descomposición del trabajo (WBS) es una descripción del trabajo que se realizará para un proyecto. Es una jerarquía de tareas que representa la comprensión del equipo del proyecto sobre la composición del trabajo, y del tamaño, coste y duración de cada componente o tarea. Una WBS tiene tres objetivos principales:
+Una estructura de descomposición del trabajo (WBS) es una descripción del trabajo que se realizará para un proyecto. Es una jerarquía de tareas que representa la comprensión del equipo del proyecto sobre la composición del trabajo, y del tamaño, coste y duración de cada componente o tarea. Una WBS tiene tres propósitos principales:
 
--   Describe el desglose o composición del trabajo en tareas.
--   Programa el trabajo del proyecto.
--   Estima el coste de cada tarea.
+-   Describir el desglose o composición del trabajo en tareas.
+-   Programar un trabajo del proyecto.
+-   Estimar el coste de cada tarea.
 
 El grado de detalle en una WBS depende del nivel de precisión que se requiera en las estimaciones y el nivel de seguimiento que se requiera frente a esas estimaciones. Los proyectos que tienen una tolerancia muy baja a los retrasos en el programa o el coste generalmente requieren una WBS más detallada y un seguimiento diligente del progreso del trabajo y el coste con respecto a la WBS. Este tipo de proyecto es común en los sectores de la construcción y la ingeniería. 
 
@@ -100,8 +102,8 @@ Actualmente, no puede personalizar la numeración de la WBS.
 
 ### <a name="schedule-estimation"></a>Estimación de la programación
 
-La estimación de la programación suele ser el segundo paso en la creación de una WBS. Se recomienda completar la estimación de la programación después de crear las tareas. La página **Estructura de descomposición del trabajo** de Finance tiene dos secciones. El panel superior está destinado a la estimación de la programación y el panel inferior incluye la pestaña **Costes e ingresos estimados**, que puede utilizar para la estimación de costes. 
-**Dependencias de tareas**: en una WBS, puede crear una relación predecesora entre tareas. Cuando asigna tareas predecesoras a una tarea, esta solo puede iniciarse tras completar todas las tareas predecesoras. La fecha de inicio planificada de la tarea se establece automáticamente en la última fecha de todas sus predecesoras. 
+La estimación de la programación suele ser el segundo paso en la creación de una WBS. Como práctica recomendada, debe completar la estimación de la programación después de crear las tareas. La página **Estructura de descomposición del trabajo** en Finance tiene dos secciones. El panel superior está destinado a la estimación de los horarios, y el panel inferior incluye una pestaña **Costes e ingresos estimados** que puede utilizar para la estimación de costes. 
+**Dependencias de tareas**: en una WBS, puede crear una relación predecesora entre tareas. Cuando se asignan tareas predecesores a una tarea, esa tarea solo puede comenzar después de que se hayan completado todas sus tareas predecesoras. La fecha de inicio planificada de la tarea se establece automáticamente en la última fecha de todos sus predecesores. 
 
 **Programación de tareas**: los siguientes factores determinan la programación de las tareas del nodo hoja:
 
@@ -110,17 +112,17 @@ La estimación de la programación suele ser el segundo paso en la creación de 
 -   El número de recursos
 -   Fechas de inicio y finalización
 
-La fecha de inicio de una tarea del nodo hoja que no tiene valores predecesores se establece automáticamente en la fecha de inicio de programación del proyecto. La duración de una tarea de nodo hoja siempre se calcula como el número de días laborables entre sus fechas de inicio y finalización. 
+La fecha de inicio de una tarea del nodo hoja que no tiene valores predecesores se establece automáticamente en la fecha de inicio de programación del proyecto. La duración de una tarea del nodo hoja se calcula siempre como el número de días laborables entre sus fechas de inicio y finalización. 
 
 *<strong><em>Reglas de programación</em></strong>*: cuando la asistencia de programación automática está activada, las siguientes reglas se aplican a la programación de tareas para las tareas del nodo hoja:
 
--   Las fechas de inicio y finalización de una tarea deben ser días laborables, según el calendario de programación del proyecto.
--   La fecha de inicio de una tarea que tiene predecesoras se establece automáticamente en la última fecha final de todas sus predecesoras.
+-   Las fechas de inicio y finalización de una tarea deben ser días laborables según el calendario de programación del proyecto.
+-   La fecha de inicio de una tarea que tiene predecesoras se establece automáticamente en la última fecha de finalización de los elementos predecesores.
 -   El esfuerzo de una tarea se calcula automáticamente de la siguiente manera:
 
 Número de personas × Duración × Número de horas en un día laborable estándar de calendario del proyecto. 
 
-En algunos casos, es posible que desee desviarse de estas reglas. Puede desactivar la programación automática para evitar que Finance establezca o corrija automáticamente las propiedades de las tareas del nodo hoja. Cuando especifica información para una tarea que causa una infracción de las reglas de programación, se muestra un icono de error de programación para la tarea. Si no desea que se muestren los errores de programación, haga clic en **Se muestran los errores de programación** para desactivar la función. 
+En algunos, puede convenir desviarse de estas reglas. Puede desactivar la programación automática para evitar que Finance establezca o corrija automáticamente las propiedades de las tareas del nodo hoja. Cuando especifica información para una tarea que causa una infracción de las reglas de programación, se muestra un icono de error de programación para la tarea. Si no desea que se muestren los errores de programación, haga clic en **Se muestran los errores de programación** para desactivar la función. 
 
 > [!NOTE] 
 > Los valores de una tarea de resumen o contenedor se siguen calculando como la suma de los valores de las tareas que la componen, independientemente de si la asistencia de programación automática está activada o desactivada. 
@@ -143,9 +145,9 @@ En algunos casos, es posible que desee desviarse de estas reglas. Puede desactiv
 Como se mencionó anteriormente en este documento, usted especifica la estimación de coste para cada tarea de nodo hoja usando la pestaña **Costes e ingresos estimados** en el panel inferior de la página **Estructura de descomposición del trabajo**. 
 
 > [!NOTE] 
-> No puede modificar la estimación de coste de una tarea de resumen o contenedor. La estimación de coste de una tarea de resumen es igual a la suma de la estimación de coste de sus tareas de nodo hoja. El coste total estimado de cada tarea se calcula como la suma de los importes de coste estimados de los siguientes tipos de transacciones:
+> No puede modificar la estimación de costes para una tarea de resumen o contenedor. La estimación de costes para una tarea de resumen es igual a la suma de la estimación de costes de sus tareas de nodo hoja. El coste total estimado para cada tarea se calcula como la suma de los importes de coste estimados para los siguientes tipos de transacciones:
 
--   Mano de obra
+-   Trabajo
 -   Artículo o material
 -   Gastos
 
@@ -155,7 +157,7 @@ Un tipo de transacción **En cuenta** se utiliza para registrar el valor de las 
 
 Cuando calcula los costes de mano de obra, materiales y gastos de cada tarea, debe asignar una categoría de proyecto al coste estimado. 
 
-**Estimación de costes laborales**: para cada tarea de nodo hoja, asigna un esfuerzo de trabajo en horas y una categoría predeterminada. Por lo tanto, al configurar el programa de una tarea, la estimación del coste laboral de dicha tarea se agrega automáticamente a la categoría predeterminada de mano de obra. Esta estimación de coste aparece en la pestaña **Costes e ingresos estimados** de la cuadrícula **Detalles de línea** de dicha tarea. Si necesita más estimaciones de costes laborales, puede agregarlas en esta pestaña. Si aumenta o disminuye las horas en la estimación del coste laboral, la programación de la tarea se vuelve a calcular automáticamente. 
+**Estimación de costes laborales**: para cada tarea de nodo hoja, asigna un esfuerzo de trabajo en horas y una categoría predeterminada. Por lo tanto, cuando configura un programa para una tarea, la estimación del coste de mano de obra para esa tarea se agrega automáticamente a la categoría predeterminada de mano de obra. Esta estimación de costes se muestra en la pestaña **Costes e ingresos estimados** en la cuadrícula **Detalles de línea** para esa tarea. Si necesita más estimaciones de costes laborales, puede agregarlas en esta pestaña. Si aumentan o disminuyen las horas en la estimación del coste de mano de obra, la programación de la tarea se vuelve a calcular automáticamente. 
 
 **Estimación de gastos y costes de materiales**: la pestaña **Costes e ingresos estimados** también le permite estimar los gastos y los costes de materiales para una tarea, si necesita estimaciones. 
 
@@ -172,7 +174,7 @@ La vista de planificación muestra la estimación planificada o de referencia de
 
 ### <a name="effort-tracking-view"></a>Vista de seguimiento del esfuerzo
 
-La vista de seguimiento del esfuerzo muestra el seguimiento del progreso para las tareas en la WBS. Compara las horas de esfuerzo reales acumuladas para una tarea con las horas de esfuerzo planificadas. Las siguientes fórmulas proporcionan los valores en la vista de seguimiento de esfuerzos:
+La vista de seguimiento del esfuerzo muestra el seguimiento del progreso para las tareas en la WBS. Compara las horas de esfuerzo reales acumuladas para una tarea con las horas de esfuerzo planificadas. Las siguientes fórmulas proporcionan los valores en la vista de seguimiento del esfuerzo:
 
 -   Porcentaje de progreso = Esfuerzo real hasta la fecha ÷ Esfuerzo planificado para la tarea
 -   Esfuerzo restante (también conocido como Estimación para completar \[EPC\]) = Esfuerzo planificado - Esfuerzo real hasta la fecha
@@ -205,7 +207,7 @@ Haga clic en **Expandir al nivel** en la vista de seguimiento del esfuerzo para 
 
 ### <a name="cost-tracking-view"></a>Vista de seguimiento de costes
 
-La vista de seguimiento de costes muestra el seguimiento del consumo de costes de una tarea. En esta vista, el coste real que se ha gastado en una tarea hasta la fecha se compara con el coste planificado para la tarea. Las siguientes fórmulas proporcionan los valores en la vista de seguimiento de costes:
+La vista de seguimiento de costes muestra el seguimiento del consumo de costes de una tarea. En esta vista, el coste real que se ha gastado en una tarea hasta la fecha se compara con el coste planificado para la tarea. Las siguientes fórmulas proporcionan los valores en la vista de seguimiento del coste:
 
 -   Porcentaje del coste consumido = Coste real hasta la fecha ÷ Coste planificado para la tarea
 -   Coste de finalización (CTC) = Coste planificado - Coste real hasta la fecha
@@ -314,6 +316,3 @@ Como alternativa, puede corregir los errores de programación individualmente ha
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

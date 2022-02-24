@@ -2,9 +2,11 @@
 title: Múltiples aprobadores en un informe de gastos
 description: En este tema se proporciona información sobre los informes de gastos que requieren la aprobación de varias personas.
 author: saraschi2
+manager: AnnBe
 ms.date: 02/23/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvExpensesReportList
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 437f782d6a30cb6369fb7c7a2b79e59509ef603446098389ce946be6427dee9d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0fbe1c93c5359a6be493e3c4e1b27b06dbb48002
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995917"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271734"
 ---
 # <a name="multiple-approvers-on-an-expense-report"></a>Múltiples aprobadores en un informe de gastos
 
@@ -27,14 +29,14 @@ Según las directivas de aprobación de gastos de su organización, es posible q
 
 Si decide requerir varios aprobadores de informes de gastos, puede agregar los elementos del flujo de trabajo de cualquiera de las siguientes formas:
 
-- Agregar un elemento de aprobación que tenga un paso. Por ejemplo, el paso puede requerir que se asigne un informe de gastos a un grupo de usuarios y que se exija la aprobación del 50 por ciento de los miembros del grupo de usuarios.
-- Agregar un elemento de aprobación con varios pasos. Por ejemplo, el elemento de aprobación puede tener los siguientes pasos:
+- Agregue un elemento de aprobación que tenga un paso. Por ejemplo, es posible que el paso requiera que se asigne un informe de gastos a un grupo de usuarios y que sea aprobado por el 50 por ciento de los miembros del grupo de usuarios.
+- Agregue un elemento de aprobación que tenga varios pasos. Por ejemplo, el elemento de aprobación puede tener los siguientes pasos:
 
     1. El gerente del empleado que envió el informe de gastos lo aprueba.
-    2. El empleado de Proveedores verifica los recibos y los elementos del informe de gastos.
+    2. El empleado del departamento de proveedores verifica los recibos y los elementos del informe de gastos.
     3. El propietario del presupuesto aprueba el informe de gastos.
 
-- Agregar varios elementos de aprobación que tengan, cada uno de ellos, un paso. Por ejemplo, puede agregar un elemento de aprobación independiente para cada uno de los siguientes pasos:
+- Agregue varios elementos de aprobación, cada uno de los cuales tiene un paso. Por ejemplo, puede agregar un elemento de aprobación independiente para cada uno de los siguientes pasos:
 
     1. El gerente del empleado aprueba el informe de gastos.
     2. El propietario del presupuesto aprueba el informe de gastos.

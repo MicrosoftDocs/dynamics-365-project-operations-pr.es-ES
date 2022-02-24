@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 205a4fbe41637be12970041ff309c0a8d206db513987c4f64610e842183ed781
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: dc45bfd6fefaa51a4a540d694cb4ba07c5058a2a
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004839"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070292"
 ---
 Al habilitar la aplicación Project Finder Mobile, ofrece a los usuarios de la organización visibilidad sobre el trabajo del proyecto y la posibilidad de suscribirse para trabajar. Los usuarios también pueden trabajar con la aplicación Project Finder para ver y actualizar sus cualificaciones. La aplicación Project Finder Mobile se habilita mediante Parámetros de Servicio de proyecto; para ello, hay que establecer en Sí el valor de los atributos Requisitos de recursos visibles para los recursos y Permitir actualización de cualificación por recurso. Al cambiar a No el valor de estos atributos se deshabilita esta funcionalidad.  
   

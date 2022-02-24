@@ -2,30 +2,31 @@
 title: Información general de utilización de recursos
 description: En este tema se proporciona información acerca de la vista de uso de recursos en Project Operations.
 author: ruhercul
+manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 152f85669b56d128a7bb2317ee2cf0857c90ade1273d47ad1f0f387e00a6bbd8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8b85464dbb68523b122116225a604f67e7236f3e
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002082"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401397"
 ---
 # <a name="resource-utilization-overview"></a>Información general de utilización de recursos
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Los recursos pueden tener un uso facturable objetivo. Este uso objetivo se define como un atributo en el rol predeterminado de un recurso o se establece en el registro del recurso individual que se puede reservar. Los cálculos de uso se basan en las horas reales que los recursos han notificado mediante entradas de tiempo aprobadas.
+Los recursos pueden tener un uso facturable objetivo. Este uso objetivo se define como un atributo en el rol predeterminado de un recurso o se establece en el registro del recurso individual que se puede reservar. Los cálculos de uso se basan en las horas reales informadas por los recursos mediante entradas de tiempo aprobadas.
 
 Se utilizan las siguientes fórmulas para calcular el uso:
 
-  - Uso facturable = Horas reales facturables ÷ Capacidad del recurso
-  - Uso no facturable = Tiempo real con id. de tipo de facturación = No imputable, complementario o no disponible ÷ Capacidad del recurso
-  - Interno = Tiempo real sin contrato de venta ÷ Capacidad del recurso
-  - Capacidad del recurso = Horas de trabajo del recurso – Fuera de la oficina – Días festivos
+  - Uso facturable = Horas reales imputables ÷ Capacidad de recursos
+  - Uso no facturable = Tiempo real con Id. de tipo de facturación = No imputable, Complementario o No disponible ÷ Capacidad de recursos
+  - Interno = Tiempo real sin contrato de venta ÷ Capacidad de recursos
+  - Capacidad de recursos = Horas de trabajo de recursos - Fuera de la oficina - Días no laborables
 
 Puede encontrar la vista **Uso de recursos** en el panel **Recursos**.
 
@@ -44,6 +45,3 @@ Además, se debe asignar un rol predeterminado a cada recurso que se puede reser
 En la pestaña **Project Service** también puede establecer un uso objetivo individual para el recurso. El cálculo de uso utiliza después ese uso objetivo para evaluar el objetivo del recurso en lugar del objetivo del rol predeterminado del recurso.
 
 El uso solo se muestra para un recurso solo si ese recurso ha aprobado el tiempo imputable durante el período que se muestra en la cuadrícula.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

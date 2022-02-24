@@ -2,16 +2,18 @@
 title: Configurar categorías de gasto
 description: Este tema proporciona información sobre cómo configurar categorías de gastos y categorías compartidas para informes de gastos.
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8f5b1a5d069b8d73051406369ecba2c4547eaa38e0d5bde2e34f52c5b7b724bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 13e72e4b852fd0edac5ad35d5162e74b016bce33
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993127"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123804"
 ---
 # <a name="set-up-expense-categories"></a>Configurar categorías de gasto
 
@@ -42,9 +44,9 @@ Para poder comenzar el proceso de configuración, se deben tomar las siguientes 
         - Ingresos facturados
         - Valor acumulado de ingresos de ventas
         - Valor de ventas WIP
-        - Ingresos acumulados - Producción
-        - Trabajo en curso - Producción
-        - Ingresos acumulados - Ganancias
+        - Producción de ingresos acumulados
+        - Producción WIP
+        - Beneficios de ingresos acumulados
         - Beneficio WIP
         - Suscripción de ingresos acumulados
         - Suscripción WIP
@@ -59,6 +61,3 @@ Para poder comenzar el proceso de configuración, se deben tomar las siguientes 
 
     - ¿Alguna de las subcategorías está excluida de la recuperación de impuestos?
     - ¿Cuál es el grupo de impuestos sobre ventas de artículos de las subcategorías?
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

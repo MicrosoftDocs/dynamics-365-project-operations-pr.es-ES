@@ -2,16 +2,18 @@
 title: Crear una estructura de descomposición del trabajo
 description: Este tema explica cómo se crea una estructura de descomposición del trabajo que incluye los controles básicos en la nueva interfaz de programación.
 author: ruhercul
-ms.date: 12/16/2021
+manager: tfehr
+ms.date: 01/07/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928636"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841406"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Crear una estructura de descomposición del trabajo
 
@@ -91,11 +93,9 @@ La tabla siguiente muestra atributos de programación adicionales.
 | Nombre | Nombre de la tarea. |
 | Identificador | Id. de la tarea en la estructura de descomposición del trabajo. |
 
-Como Administrador, puede definir campos personalizados en la entidad de la tarea. Sin embargo, los campos no se pueden mostrar en la cuadrícula de programación. Para ver sus campos personalizados, agréguelos a la página de detalles **Tarea de proyecto**.
-
 ## <a name="staffing-attributes"></a>Atributos de personal
 
-Puede obtener acceso a los atributos de personal a través del campo **Recursos** en la programación. Puede buscar un recurso existente o seleccionar **Crear** y, en el panel **Creación rápida** , agregar un miembro del equipo del proyecto como un nuevo recurso.  Cuando busca un recurso utilizando el selector de recursos en la cuadrícula de tareas, la vista de tablero o gantt, la búsqueda devuelve miembros del equipo del proyecto existentes o recursos activos que se pueden reservar.
+Puede obtener acceso a los atributos de personal a través del campo **Recursos** en la programación. Puede buscar un recurso existente o seleccionar **Crear** y, en el panel **Creación rápida** , agregar un miembro del equipo del proyecto como un nuevo recurso.
 
 Los campos **Rol**, **Unidad de dotación de recursos** y **Nombre de puesto** se utilizan para describir los requisitos de personal para la tarea. Estos atributos de personal junto con la programación de tareas se utilizan para encontrar los recursos disponibles para realizar esta tarea.
 
@@ -116,28 +116,3 @@ El modo de tarea no tiene ningún efecto en las actualizaciones que se realizan 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Accesibilidad y métodos abreviados de teclado
 
 La cuadrícula **Programar** es totalmente accesible y se puede usar con lectores de pantalla como Narrator, JAWS o NVDA. Puede moverse por el área de la cuadrícula mediante las teclas de flecha (como en Microsoft Excel), puede usar el tabulador para avanzar a través de los elementos interactivos de la interfaz de usuario, y puede usar la tecla de flecha hacia abajo, la tecla Intro o la barra espaciadora para seleccionar y abrir los menús desplegables.
-
-## <a name="project-limitations"></a>Limitaciones de proyecto 
-Debe tener en cuenta las siguientes limitaciones si utiliza la estructura de desglose del trabajo en Project Operations. Estos límites se aplican a proyectos y tareas. Para más información, vea [Límites y fronteras de Project for the web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
-
-| **Campo**                                          |  **Límite**           |
-|----------------------------------------------------|----------------------|
-| Tareas totales máximas para un proyecto                  | 500                  |
-| Duración total máxima para un proyecto               | 3650 días (10 años) |
-| Recursos totales máximos para un proyecto              | 150                  |
-| Vínculos totales máximos (solo sucesor) para un proyecto | 600                  |
-| Campos personalizados totales máximos para un proyecto          | 10                   |
-| Elementos máximos de la lista de verificación por tarea                   | 20                   |
-
-**Limitaciones de tareas**
-
-| **Campo**                               |   **Límite**           |
-|-----------------------------------------|-----------------------|
-| Nivel máximo de jerarquía                 | 10 niveles             |
-| Vínculos máximos (sucesor + predecesor) | 20                    |
-| Duración máxima de la tarea hoja           | 1250 días             |
-| Duración máxima de una tarea de resumen      | 3650 días (10 años)  |
-| Recursos máximos asignados a una tarea    | 20 recursos          |
-| Intervalo de fechas admitido para una tarea         | 1/1/2000 - 31/12/2149 |
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

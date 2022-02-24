@@ -2,16 +2,18 @@
 title: Administrar varios clientes en líneas de ofertas basadas en proyectos
 description: En este tema se proporciona información sobre cómo administrar varios clientes en líneas de oferta basadas en proyectos.
 author: rumant
+manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bf3d10cc4a742f7247586d09f5b209cbfdbbd790bdf97e09da06d9db583e61a5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992047"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118584"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Administrar varios clientes en líneas de ofertas basadas en proyectos
 
@@ -42,6 +44,3 @@ La siguiente tabla muestra los campos del registro de cliente de línea de ofert
 Puede editar los porcentajes de división de facturación en línea. Cuando los porcentajes de división de facturación no suman el 100 %, se produce un error. Después de editar los porcentajes de división de facturación, actualice la página de la línea de oferta para eliminar el error.
 
 Utilice la acción de distribución uniforme en la subcuadrícula de clientes de la línea de oferta para asignar divisiones de facturación a todos los clientes de la línea de oferta. Si hay un factor de redondeo, se agregará al cliente de redondeo. Uno de los clientes de la línea de oferta siempre se etiqueta como el cliente de redondeo, lo que significa que el registro del cliente de la línea de oferta tiene el indicador de redondeo establecido en **Sí**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

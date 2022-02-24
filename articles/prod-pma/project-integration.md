@@ -2,9 +2,11 @@
 title: Integración Microsoft Project Client
 description: La planificación y el mantenimiento del programa de un proyecto pueden ser complejos, por lo que los jefes de proyectos deben usar herramientas que les ayuden a administrar esta tarea. La integración con Microsoft Project Client brinda soporte para abrir y administrar una estructura de desglose del trabajo del proyecto.
 author: Yowelle
-ms.date: 06/16/2021
+manager: AnnBe
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988042"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085209"
 ---
 # <a name="microsoft-project-client-integration"></a>Integración Microsoft Project Client
 
@@ -125,13 +127,3 @@ Para crear una nueva estructura de descomposición del trabajo con Microsoft Pro
 8.  Selecciona el **Calendario** que se va a utilizar para dotar de recursos.
 
 11. Haga clic en **Aceptar**.
-
-> [!NOTE]
-> El complemento Project Client no admite los siguientes caracteres en el formato de Id. del proyecto:
-> 
->   - Subrayado
->   - Punto
->   - Espacio
->   - Barra oblicua
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Costes e ingresos del proyecto
 description: En este tema se proporciona información sobre la estimación de costes e ingresos del proyecto.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002577"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148349"
 ---
 # <a name="project-costs-and-revenue"></a>Costes e ingresos del proyecto
 
@@ -31,7 +33,7 @@ ms.locfileid: "7002577"
 
 Las estimaciones del proyecto proporcionan la vista financiera del trabajo estimado y programado en la programación del proyecto. La pestaña **Estimaciones** en la página **Proyectos** muestra el impacto en los costes y los ingresos del trabajo que está planeando. También proporciona información sobre muchas dimensiones predefinidas. 
 
-> ![Pestaña Estimaciones.](media/project-5.png)
+> ![Pestaña Estimaciones](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Valores de costes y de ventas del proyecto
 
@@ -66,13 +68,13 @@ Si el sistema no detecta un precio para el rol, el precio de venta en la línea 
 
 La pestaña **Estimaciones** tiene una vista de cuadrícula que muestra líneas de estimación. La cuadrícula incluye columnas para la unidad, el precio de coste total y el precio de venta total, como se muestra en la siguiente ilustración. 
 
-> ![Vista de cuadrícula en la pestaña Estimaciones.](media/project-6.png)
+> ![Vista de cuadrícula en la pestaña Estimaciones](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Vista con fases temporales de estimaciones de proyecto
 
 La vista en fases temporales de las estimaciones del proyecto muestra los datos estimados de la vista de cuadrícula en la escala de tiempo, en una escala de tiempo que seleccione. De forma predeterminada, los datos estimados se dinamizan en la dimensión **Rol**.
 
-> ![Vista con fases temporales de estimaciones de proyecto.](media/project-7.png)
+> ![Vista con fases temporales de estimaciones de proyecto](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Asignación de esfuerzo estimado en función del modo de tarea
 
@@ -95,6 +97,3 @@ Tanto en la vista de cuadrícula como en la vista en fases de tiempo, puede sele
 ## <a name="expense-estimates"></a>Estimaciones de gastos
 
 El botón **Agregar una nueva estimación de gastos** de la vista de cuadrícula le permite registrar los gastos asumidos en el proyecto, pero que no están directamente relacionados con la mano de obra. Puede registrar las estimaciones de gastos para una tarea específica o para todo el proyecto. Seleccione las categorías de gastos y la fecha tentativa en la que espera realizar en el gasto. Si la lista de precios de coste y la lista de precios de venta asociadas tienen precios predeterminados (o si los porcentajes de incremento se definen para las categorías de gastos), se introducen automáticamente en la línea de estimación cuando se produce la asociación.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

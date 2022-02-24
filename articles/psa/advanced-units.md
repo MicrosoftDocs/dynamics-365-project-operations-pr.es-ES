@@ -2,6 +2,8 @@
 title: Unidades y grupos de unidades
 description: En este tema se proporciona información sobre las unidades y las unidades de venta.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987592"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145604"
 ---
 # <a name="unit-groups-and-units"></a>Unidades y grupos de unidades
 
@@ -44,7 +46,7 @@ Por ejemplo, en una unidad de venta **Tiempo** , si configura **Hora** como la p
 
 La imagen siguiente muestra un ejemplo de configuración para la unidad **Día**, donde el campo **Cantidad** muestra el número de horas que hay en un día, y para la unidad **Semana**, donde el campo **Cantidad** muestra el número de días que hay en una semana.
 
-> ![Unidad de venta: página de información.](media/advanced-2.png)
+> ![Unidad de venta: página de información](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Uso de unidades y unidades de venta
 
@@ -86,7 +88,7 @@ El siguiente ejemplo se muestra cómo usa PSA la unidad de venta, las unidades y
 
 | Rol      | Unidad de venta | Unidad | Unidad organizativa | Precio   |
 |-----------|------------|------|---------------------|---------|
-| Desarrollador | Tiempo       | Día  | Contoso Reino Unido          | 800 GBP |
+| Desarrollador | Time       | Day  | Contoso Reino Unido          | 800 GBP |
 
 ### <a name="time-entry"></a>Entrada de tiempo
 
@@ -110,6 +112,3 @@ Núm. Actualmente, la estimación de programación solo se puede hacer en horas 
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>¿Es posible editar, eliminar y agregar las unidades y las unidades de venta?
 Sí. A excepción de la unidad de venta **Tiempo** y la unidad **Hora**, todas las unidades se pueden eliminar o editar y también es posible agregar nuevas unidades. En PSA, la unidad de venta **Tiempo** y la unidad **Hora** no pueden eliminarse. Sin embargo, se pueden actualizar con un texto traducido para el campo **Nombre**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

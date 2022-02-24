@@ -1,25 +1,29 @@
 ---
-title: Configurar la creación automática de facturas
-description: Este tema proporciona información sobre la definición y configuración de la creación automática de facturas proforma.
+title: Configurar la creación automática de facturas (lite)
+description: En este tema se proporciona información sobre cómo configurar la creación automática de facturas proforma.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1cce457fbc04ba9d3890d73439e6e7fd3db44d84a4498d5dc68ed82d362158b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997537"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176587"
 ---
-# <a name="set-up-automatic-invoice-creation"></a>Configurar la creación automática de facturas 
+# <a name="configure-automatic-invoice-creation---lite"></a>Configurar la creación automática de facturas (lite)
  
-_**Se aplica a:** Implementación lite: acuerdo para factura proforma, Project Operations para escenarios basados en recursos/no mantenidos_
+_**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
 
-Puede configurar la creación automática de facturas en Dynamics 365 Project Operations. El sistema crea un borrador de factura proforma basado en la programación de facturas de cada contrato de proyecto y línea de contrato. Las programaciones de facturas se configuran en el nivel de línea de contrato. Cada línea de un contrato puede tener una programación de facturas distinta, o se puede incluir la misma programación de facturas en cada línea del contrato.
+Puede configurar la creación automática de facturas en Dynamics 365 Project Operations. El sistema crea un borrador de factura proforma basada en la programación de facturas para cada contrato de proyecto y línea de contrato. Los programas de facturación se configuran a nivel de línea de contrato. Cada línea de un contrato puede tener una programación de facturas distinta, o se puede incluir la misma programación de facturas en cada línea del contrato.
 
-Cuando crea una factura, el sistema siempre crea al menos una factura por contrato de proyecto. En algunos casos, puede haber varias facturas creadas. Por ejemplo, si el contrato tiene varios clientes, se creará el mismo número de facturas que el número de clientes que tienen transacciones facturables para facturar en ese contrato de proyecto.
+Cuando crea una factura, el sistema siempre crea al menos una factura por contrato de proyecto. En algunos casos, puede haber varias facturas creadas.
+
+Por ejemplo, si el contrato tiene varios clientes, se creará el mismo número de facturas que el número de clientes que tienen transacciones facturables para facturar en ese contrato de proyecto.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Comprender cómo se incluyen las transacciones en una factura 
 
@@ -67,26 +71,23 @@ Complete estos pasos para configurar la ejecución automática de facturas.
 1. En **Operaciones de proyecto**, vaya a **Configuración** > **Configuración de facturas recurrentes**.
 2. Cree un trabajo por lotes y asígnele el nombre **Creación de facturas de Project Operations**. El nombre del trabajo por lotes debe incluir las palabras "creación de facturas".
 3. En el campo **Tipo de trabajo**, seleccione **Ninguno**. De forma predeterminada, laos campos **Frecuencia diaria** y **Está activo** están configuradas con el valor **Sí**.
-4. Seleccione **Ejecutar flujo de trabajo**. En el cuadro de diálogo **Buscar registro**, aparecerán tres flujos de trabajo:
+4. Seleccione **Ejecutar flujo de trabajo**. En el cuadro de diálogo **Buscar registros**, se mostrarán tres flujos de trabajo:
 
 - ProcessRunCaller
 - ProcessRunner
 - UpdateRoleUtilization
 
-5. Seleccione **ProcessRunCaller** y luego elija **Agregar**.
-6. En el siguiente cuadro de diálogo, seleccione **Aceptar**. Al flujo de trabajo **Suspensión** le sigue el flujo de trabajo **Proceso**. 
+5. Seleccione **ProcessRunCaller** y después seleccione **Agregar**.
+6. En el siguiente cuadro de diálogo, seleccione **Aceptar**. El flujo de trabajo **Reposo** va seguido de un flujo de trabajo **Proceso**. 
 
 > [!NOTE]
 > También puede seleccionar **ProcessRunner** en el paso 5. A continuación, cuando se selecciona **Aceptar**, el flujo de trabajo **Proceso** va seguido del flujo de trabajo **Reposo**.
 
-Los flujos de trabajo **ProcessRunCaller** y **ProcessRunner** crean facturas. **ProcessRunCaller** llama a **ProcessRunner**. **ProcessRunner** es el flujo de trabajo que crea realmente las facturas. El flujo de trabajo pasa por todas las líneas de contrato para las que se deben crear facturas y crea las facturas para dichas líneas. Para determinar las líneas de contrato para las que se deben crear facturas, el trabajo busca fechas de ejecución de facturas para las líneas de contrato. Si detecta líneas de contrato que pertenecen a un mismo contrato con la misma fecha de ejecución de factura, las transacciones se combinarán en una factura con dos líneas de factura. Si no hay transacciones para crear facturas, el trabajo omite la creación de una factura.
+Los flujos de trabajo **ProcessRunCaller** y **ProcessRunner** crean facturas. **ProcessRunCaller** llama a **ProcessRunner**. **ProcessRunner** es el flujo de trabajo que crea realmente las facturas. El flujo de trabajo pasa por todas las líneas de contrato para las que se deben crear facturas y crea las facturas para dichas líneas. Para determinar las líneas de contrato para las que se deben crear facturas, el trabajo busca fechas de ejecución de facturas para las líneas de contrato. Si hay líneas de contrato que pertenecen a un contrato que tiene la misma fecha de ejecución de factura, las transacciones se combinarán en una factura con dos líneas de factura. Si no hay transacciones para crear facturas, el trabajo omite la creación de una factura.
 
 Cuando finaliza la ejecución de **ProcessRunner**, se llama al flujo de trabajo **ProcessRunCaller**, que proporciona la hora de finalización y después se cierra. A continuación, **ProcessRunCaller** pone en marcha un temporizador que se ejecuta durante 24 horas desde la hora de finalización especificada. Cuando se agota el tiempo del temporizador, el flujo de trabajo **ProcessRunCaller** se cierra.
 
-El trabajo de proceso por lotes de creación de facturas es periódico. Si este proceso por lotes se ejecuta muchas veces, se crean varias instancias del trabajo y se generan errores. Por lo tanto, debe iniciar el proceso por lotes solo una vez y después reiniciarlo solo si se detiene su ejecución.
+El trabajo del proceso por lotes para la creación de facturas es un trabajo recurrente. Si este proceso por lotes se ejecuta muchas veces, se crean varias instancias del trabajo y se generan errores. Por lo tanto, debe iniciar el proceso por lotes solo una vez y después reiniciarlo solo si se detiene su ejecución.
 
 > [!NOTE]
 > La facturación por lotes en Project Operations solo se ejecuta para las líneas de contrato del proyecto que se configuran mediante programas de facturación. Una línea de contrato con un método de facturación de precio fijo debe tener hitos configurados. Una línea de contrato de proyecto con un método de facturación de tiempo y material necesitará una programación de facturación basada en fecha.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

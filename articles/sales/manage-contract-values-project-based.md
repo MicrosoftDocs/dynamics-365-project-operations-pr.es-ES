@@ -2,23 +2,25 @@
 title: Trabajar con líneas de contrato basadas en proyecto
 description: En este tema se proporciona información sobre las líneas de contrato basadas en proyecto.
 author: rumant
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c1c935a998cba8bd42ba2f11c8310d41e72de94adac7c2cb83f4c7224127b10b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990067"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181743"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Trabajar con líneas de contrato basadas en proyecto
 
-Las líneas de contrato basadas en proyectos en Dynamics 365 Project Operations están diseñadas para contener los acuerdos de estimación y facturación para componentes específicos del trabajo del proyecto en un compromiso. La estructura de una línea de contrato basada en un proyecto se extiende para los escenarios de estimaciones y facturación de proyectos con los siguientes conceptos:
+Las líneas de contrato basadas en proyectos en Dynamics 365 Project Operations están diseñadas para contener los acuerdos de estimación y facturación para componentes específicos del trabajo del proyecto en un compromiso. La estructura de una línea de contrato basada en proyectos se amplía para estimaciones de proyectos y escenarios de facturación con los siguientes conceptos:
 
 - Método de facturación
-- Asignación de proyecto y tareas
+- Asignación de proyectos y tareas
 - Clases de transacciones incluidas
 - Límite a no exceder
 - Configuración de imputabilidad
@@ -55,6 +57,3 @@ Regla: un proyecto y una determinada clase de transacción solo se pueden inclui
 | C1       | CL2           | P1      | No           | Sí             | No          | Válido           | El tiempo y las tarifas del proyecto P1 se incluyen en el CL1. El gasto del proyecto P1 se incluyen en CL2. </br>   No hay superposición en lo que se incluye en cada línea de contrato y, por lo tanto, es válido.  |
 | C1       | CL1           | P1      | Sí          | Sí             | Sí         | No válido       | Viola la regla. El tiempo, los gastos y las tarifas del proyecto P1 se incluyen en las líneas de dos contratos.                                                                                               |
 | CL2      | CL2           | P1      | Sí          | Sí             | Sí         | No válido       | Viola la regla. El tiempo, los gastos y las tarifas del proyecto P1 se incluyen en las líneas de dos contratos.                                                                                               |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

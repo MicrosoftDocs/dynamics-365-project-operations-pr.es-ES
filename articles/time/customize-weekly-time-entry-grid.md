@@ -2,22 +2,24 @@
 title: Extensión de entradas de tiempo
 description: Este tema proporciona información sobre cómo los desarrolladores pueden extender el control de entrada de tiempo.
 author: stsporen
+manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993352"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124659"
 ---
 # <a name="extending-time-entries"></a>Extensión de entradas de tiempo
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Dynamics 365 Project Operations incluye un control personalizado de entrada de tiempo extensible. Este control incluye las siguientes características:
+Dynamics 365 Project Operations incluye un control personalizado de entrada de tiempo ampliable. Este control incluye las siguientes características:
 
 - Introduzca el tiempo horizontalmente durante una semana
 - Totales por día, fila o semana
@@ -142,6 +144,3 @@ Usar validaciones de complementos para cualquier validación que requiera más c
 
 ### <a name="copying-time-entries"></a>Copiar entradas de tiempo
 Use la vista **Copiar columnas de entrada de tiempo** para definir la lista de campos a copiar durante la entrada de tiempo. **Fecha** y **Duración** son campos obligatorios y no deben eliminarse de la vista.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
