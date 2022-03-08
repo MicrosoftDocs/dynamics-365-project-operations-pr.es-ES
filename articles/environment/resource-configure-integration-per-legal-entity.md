@@ -2,24 +2,22 @@
 title: Configurar la integración de Project Operations por entidad jurídica
 description: Este tema proporciona información sobre cómo configurar la integración entidad jurídica en Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122904"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999427"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Configurar la integración de Project Operations por entidad jurídica 
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
 
-Este tema le guía a través de los pasos necesarios para configurar Dynamics 365 Project Operations por entidad legal.
+Este tema lo guía a través de los pasos necesarios para configurar Dynamics 365 Project Operations por entidad legal.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Habilitar características clave en Dynamics 365 Finance
 
@@ -51,3 +49,6 @@ Cada entidad legal que usa Project Operations en Dynamics 365 Customer Engagemen
   - **Valores predeterminados del tipo de facturación**: Project Operations utiliza un conjunto fijo de valores predeterminados de tipo de facturación que deben asignarse a las propiedades de línea Finance. Cree un registro para cada tipo de facturación: **No especificado**, **Facturable**, **No facturable**, **Complementario** y **No disponible**.
   - **Valores predeterminados de categoría de proyecto**: seleccione las categorías de proyecto predeterminadas que se utilizarán para cada tipo de transacción. Estos valores predeterminados se utilizarán en el **Diario de integración de Project Operations** y en estimaciones donde no se especifica ninguna categoría de transacción para el proyecto real.
   - **Pronósticos**: seleccione el modelo de pronóstico que se utilizará para las estimaciones de tiempo y gastos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -3,30 +3,29 @@ title: Configurar tarifas de costes y ventas para gastos
 description: Este tema proporciona información sobre cómo configurar las tasas de costes y ventas para las categorías de transacción y gastos.
 author: rumant
 manager: Annbe
-ms.date: 04/07/2021
+ms.date: 10/13/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877241"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180303"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Configurar tarifas de costes y ventas para gastos
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Puede configurar el costo y los precios de venta para las categorías de transacciones en Dynamics 365 Project Operations. Debido a que los precios de coste y venta están diseñados para Gastos, cada categoría de transacción que los incluya también debe configurarse como una categoría de gastos. Esta configuración garantiza la precisión en la funcionalidad posterior. Los precios de coste y venta para las categorías de transacciones solo se pueden enumerar en una moneda, que debe ser la moneda en el encabezado de la lista de precios.
+Puede configurar costes y precios de venta para categorías de transacciones en Dynamics 365 Project Operations. Debido a que los precios de coste y venta están diseñados para Gastos, cada categoría de transacción que los incluya también debe configurarse como una categoría de gastos. Esta configuración garantiza la precisión en la funcionalidad posterior. Los precios de coste y venta para las categorías de transacciones solo se pueden enumerar en una moneda, que debe ser la moneda en el encabezado de la lista de precios.
 
 Para configurar las tarifas de costes y ventas para las categorías de transacciones, complete los siguientes pasos. 
 
-1. Vaya a **Ventas** > **Clientes** > **Lista de precios**.
-2. Seleccione **Nuevo** para crear una nueva lista de precios. 
-3. En **Precios de categoría**, en el menú de la subcuadrícula, seleccione **Precio de nueva categoría**. 
-4. En la página **Creación rápida**, ingrese la categoría de transacción y la unidad para la que está creando el nuevo precio.
+1. Cree una lista de precios basada en el encabezado de la lista de precios. 
+2. En **Precios de categoría**, en el menú de la subcuadrícula, seleccione **+ Precio de nueva categoría**. 
+3. En la página **Creación rápida**, ingrese la categoría de transacción y la unidad para la que está creando el nuevo precio.
 
 La siguiente tabla muestra los campos en la pestaña **General** y la página **Creación rápida** de una categoría de línea de precio que debería recordar a medida que crea categorías de precios en una lista de precios de ventas o costes.
 
@@ -56,6 +55,3 @@ Cuando se selecciona este método de precios en la línea de precios de categor�
 
 ### <a name="markup-over-cost"></a>Margen de beneficio sobre el coste
 Cuando se selecciona este método de precios en la línea de precios de categoría que está vinculada a una lista de precios de venta, el precio predeterminado para la combinación de categoría y unidad es solo para un gasto real. Por ejemplo, datos reales de ventas no facturadas para la clase de transacción de gastos. Este precio unitario se establece sobre las ventas no facturadas reales a un valor calculado a partir del precio unitario sobre el costo real de ese gasto después de que se aplica el porcentaje de margen definido. El precio predeterminado basado en el costo no se realiza en las estimaciones del proyecto para los gastos o en los detalles de la línea de cotización y del contrato para los gastos.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

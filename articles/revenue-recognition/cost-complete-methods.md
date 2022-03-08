@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 790b5c98182acdc0a37e3741a40baf7152f0bf66
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 837cb3abe33e6e74087b8aae8b072bf4a21dc933
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531562"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279069"
 ---
 # <a name="cost-to-complete-methods"></a>Coste para completar métodos
 
@@ -30,3 +30,6 @@ Cuando crea una estimación para un proyecto, en la página **Crear estimación*
 | Como la estimación anterior         | Aquí se utilizan los mismos métodos de estimación que se usaron en el período anterior. Este método requiere un modelo de previsión si el período anterior requirió un modelo de previsión.                                                                                                                                                                                                                                                                                                                           |
 | Establecer en cero el costo para completar | Usado normalmente antes de que se elimine el proyecto de estimación, este método concilia las estimaciones totales con las transacciones reales registradas y borra la columna **Coste para completar**. Cuando se completa, el resultado es siempre del 100 por cien. Para cada línea de coste que cree, la casilla **Previsión** está desactivada y la estimación total se copia de la estimación de costes anterior. El consumo real para el período estimado se deduce del coste para completar el proyecto.              |
 | De la plantilla de costes           | El método de coste para completar que se configura en la plantilla de costes que está asociada al proyecto de estimación seleccionado.                                                                                                                                                                                                                                                                                                                                                                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

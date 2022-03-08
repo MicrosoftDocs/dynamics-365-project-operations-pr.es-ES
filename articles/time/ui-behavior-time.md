@@ -2,18 +2,16 @@
 title: Comportamiento de la interfaz de usuario de entrada de tiempo
 description: En este tema se proporciona información sobre el comportamiento de la interfaz de usuario de entrada de tiempo.
 author: stsporen
-manager: AnnBe
 ms.date: 03/03/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: ef99f220e9ff207a7620a900aa0630e2803f4f7261eccfbf73ed79717648bf92
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499635"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999472"
 ---
 # <a name="time-entry-ui-behavior"></a>Comportamiento de la interfaz de usuario de entrada de tiempo
 
@@ -56,9 +54,9 @@ La sección Duración muestra los días de la semana como encabezados de columna
 3. Introduzca datos para las dimensiones **Proyecto**, **Tarea de proyecto**, **Rol** y **Duración**. Esta información debe agregarse en minutos, horas o días escribiendo **h**, **m** o **d**, junto con el número. 
 4. Introduzca una descripción para la entrada y cualquier comentario que se pueda compartir externamente en relación con la entrada de tiempo. 
 
-Cuando guarda la entrada, los valores ingresados aparecen en la sección **Dimensiones**. La información introducida en el campo **Duración** aparece en la fecha para la que se creó la entrada de tiempo.
+Cuando guarde la entrada, los valores introducidos aparecerán en la sección **Dimensiones**. La información introducida en el campo **Duración** aparece en la fecha para la que se ha creado la entrada de tiempo.
 
-Los campos de búsqueda están respaldados por vistas del sistema. Por ejemplo, después de que un usuario introduzca un proyecto, el campo **Tarea de proyecto** se establece en la vista **Copiar** de forma predeterminada. Para crear entradas de tiempo para tareas que no están asignadas a un usuario, seleccione **Cambiar vista** en el cuadro de diálogo de búsqueda y, a continuación, seleccione la vista **Todas las tareas de proyecto activas**.
+Los campos de búsqueda tienen el respaldo de las vistas del sistema. Por ejemplo, después de que un usuario introduzca un proyecto, el campo **Tarea de proyecto** se establece en la vista **Copiar** de forma predeterminada. Para crear entradas de tiempo para tareas que no están asignadas a un usuario, seleccione **Cambiar vista** en el cuadro de diálogo de búsqueda y, a continuación, seleccione la vista **Todas las tareas de proyecto activas**.
 
 ## <a name="edit-a-time-entry"></a>Edición de una entrada de tiempo 
 Los detalles de algunos campos en la página de entrada de hora, como **Descripción** y **Comentarios externos**, no se muestran en la cuadrícula de entrada de hora semanal. En cambio, aparece un pequeño indicador triangular en las celdas de **Duración** que tienen estos detalles adicionales. 

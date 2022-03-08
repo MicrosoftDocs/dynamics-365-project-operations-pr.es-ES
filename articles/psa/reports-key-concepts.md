@@ -2,8 +2,6 @@
 title: Conceptos clave
 description: En este tema se proporciona información sobre los conceptos clave para la administración de recursos en Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 75b2d2c520cc48eb59c266289ca2bdc1288f2920
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8e56523a9a2fbe8bc07e6d46062f4e1c20e6d2fa2244b32ff53e96d898b0086c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147764"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995107"
 ---
 # <a name="key-concepts"></a>Conceptos clave
 
@@ -48,3 +46,6 @@ En la siguiente tabla se definen los conceptos clave que se usan en la aplicaci�
 | Perfil                    | Tareas, requisitos u horas de asignación, ya que se dividen en una distribución diaria. Por ejemplo, para una tarea de cinco días y 40 horas se puede establecer un perfil de ocho horas al día durante cinco días. |
 | Vista de conciliación        | Una vista que muestra las reservas y asignaciones para cada miembro del equipo del proyecto. Esta vista permite al jefe de proyecto buscar cualquier desajuste entre las reservas y las asignaciones, y tomar medidas correctivas si hay alguno. |
 | Horas laborables                 | Una entidad que se utiliza para identificar la capacidad de los recursos y las horas laborables y no laborables. Esta entidad también se conoce como "calendario de recursos". |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

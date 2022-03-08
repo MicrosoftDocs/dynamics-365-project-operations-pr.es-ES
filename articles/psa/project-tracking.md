@@ -2,8 +2,6 @@
 title: Progreso y costes del proyecto
 description: En este tema se proporciona información sobre el seguimiento del progreso y los costes del proyecto.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/21/2020
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b69cee49e028b98bbb32e4a7e7aedf5479527dc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8bde19fbf1dd9f0c760455ecb7f7f2bd14a358d441bf024ec0cdefa42866f53e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148034"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987187"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Progreso y costes del proyecto
 
@@ -52,16 +50,16 @@ Es frecuente que un administrador de proyecto revise las estimaciones originales
 
 Existen dos formas en las que un jefe de proyecto puede reproyectar el esfuerzo en las tareas:
 
-- Anular el ETC predeterminado con una nueva estimación del esfuerzo restante real en la tarea. 
+- Reemplace la ETC predeterminada por una nueva estimación del esfuerzo restante real en la tarea. 
 - Anular el porcentaje de progreso predeterminado con una nueva estimación del progreso real de la tarea.
 
 Cada uno de estos enfoques genera un nuevo cálculo del ETC, EAF y porcentaje de progreso de la tarea, y la variación del esfuerzo proyectado en una tarea. El EAF, ETC y el porcentaje de progreso en las tareas de resumen también se recalculan y producen una nueva proyección de la variación del esfuerzo.
 
 ## <a name="reprojection-of-effort-on-summary-tasks"></a>Reproyección de esfuerzo en tareas de resumen
 
-El esfuerzo en tareas de resumen o tareas de contenedor se puede reproyectar. Independientemente de si el usuario efectúa la reproyección mediante el esfuerzo restante o el porcentaje de progreso en las tareas de resumen, se inicia el siguiente conjunto de cálculos:
+Se puede reproyectar el esfuerzo en tareas de resumen o tareas de contenedor. Independientemente de si el usuario vuelve a proyectar utilizando el esfuerzo restante o el porcentaje de progreso en las tareas de resumen, comienza la siguiente serie de cálculos:
 
-- Se calculan el EAF, el ETC y el porcentaje de progreso en la tarea.
+- Se calculan la EAC, la ETC y el porcentaje de progreso en la tarea.
 - El nuevo EAF se distribuye a las tareas secundarias en la misma proporción que el EAF original de la tarea.
 - Se calcula el nuevo EAF en cada una de las tareas individuales hasta las tareas del nodo hoja. 
 - Las tareas secundarias afectadas hasta los nodos hoja tienen su ETC y su porcentaje de progreso recalculado en función del valor de EAF. Esto da como resultado una nueva proyección para la variación de esfuerzo de la tarea. 
@@ -91,10 +89,13 @@ Cuando se reproyecta el esfuerzo, el CTC, el coste estimado al finalizar, el por
 
 ## <a name="project-status-summary"></a>Resumen del estado del proyecto
 
-Los datos de seguimiento en las vistas **Seguimiento del esfuerzo** y **Seguimiento de costes** muestran el progreso y el consumo de costes en el nodo raíz del proyecto, las tareas de resumen y los niveles de tareas del nodo hoja. La sección **Estado** en la página **Entidad de proyecto** muestra un resumen del estado a nivel de proyecto.
+El seguimiento de los datos en la vista **Seguimiento del esfuerzo** y **Seguimiento de costes** muestra el progreso y el consumo de costes en el nodo raíz del proyecto, las tareas de resumen y los niveles de tareas del nodo hoja. La sección **Estado** en la página **Entidad de proyecto** muestra un resumen del estado a nivel de proyecto.
 
 ## <a name="status-summary-fields"></a>Campos de resumen de estado
 
 El campo **Estado general del proyecto** es un campo editable que muestra el estado general del proyecto. Utiliza códigos de colores, como verde, amarillo y rojo, para indicar un riesgo creciente. El campo **Comentarios** permite al jefe de proyecto introducir comentarios específicos sobre el estado. El campo **Última actualización del estado el** no es editable y el valor es una marca de tiempo que indica cuándo se actualizó por última vez.
 
-Los campos **Rendimiento de programación** y **Rendimiento de coste** se establecen desde la fecha de seguimiento. Cuando la programación y la variación de costes para el nodo raíz en la vista **Seguimiento del esfuerzo** son positivas, puede establecer estos campos en **Adelantado**. Cuando la programación y la variación de coste para el nodo raíz sean negativas, puede establecerlas en **Retrasado**.
+Los campos **Rendimiento de programación** y **Rendimiento de coste** se establecen desde la fecha de seguimiento. Cuando la programación y la variación de costes para el nodo raíz en la vista **Seguimiento del esfuerzo** son positivas, puede establecer estos campos en **Adelantado**. Cuando la programación y la desviación de coste para el nodo raíz son negativos, puede establecerlos en **Retrasado**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

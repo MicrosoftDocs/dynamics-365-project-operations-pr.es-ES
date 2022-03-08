@@ -2,12 +2,10 @@
 title: Crear soluciones personalizadas para las dimensiones de precios
 description: En este tema se explica cómo crear una solución personalizada al crear dimensiones de precios personalizadas.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144660"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995287"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Crear soluciones personalizadas para las dimensiones de precios
 
@@ -34,7 +32,7 @@ ms.locfileid: "5144660"
 1. Seleccione **Configuración** > **Soluciones** y luego seleccione **Nuevo**. 
 2. Asigne un nombre a la solución, **dimensiones de precios de \<your organization name>**, especifique la información restante necesaria y después seleccione **Guardar**.
 
-> ![Creación de una solución personalizada para las dimensiones de precios](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Creación de una solución personalizada para las dimensiones de precios.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Agregue todas las entidades necesarias y los componentes relacionados a la solución de dimensión de precios
 Deberá agregar las siguientes entidades de Project Service a su solución de cálculo de precios. Complete los pasos de este procedimiento para realizar cambios de esquema importantes en la solución de cálculo de precios para que las entidades estén al tanto de las nuevas dimensiones de precios.
@@ -56,9 +54,9 @@ Deberá agregar las siguientes entidades de Project Service a su solución de c�
 - Precio de rol 
 - Entrada de tiempo 
 
-> ![Agregar entidades existentes a la solución de dimensiones de precios](media/Existing-entities-to-PD-solution.png)
+> ![Agregar entidades existentes a la solución de dimensiones de precios.](media/Existing-entities-to-PD-solution.png)
 
-> ![Seleccionar componentes de la solución](media/Dimension-Components.png)
+> ![Seleccionar componentes de la solución.](media/Dimension-Components.png)
 
 > [!NOTE]
 > Asegúrese de incluir todos los formularios y las vistas de cada una de las entidades seleccionadas.
@@ -68,3 +66,6 @@ Deberá agregar las siguientes entidades de Project Service a su solución de c�
 > ![No incluya todos los componentes relacionados.](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

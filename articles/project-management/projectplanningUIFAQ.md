@@ -2,19 +2,17 @@
 title: Solucionar problemas de trabajo en la cuadrícula de tareas
 description: Este tema proporciona la información necesaria para solucionar problemas al trabajar en la cuadrícula de tareas.
 author: ruhercul
-manager: tfehr
 ms.date: 01/19/2021
 ms.topic: article
 ms.product: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 89bbad62c2a0a5693a57cf5c9a812ab644486469
-ms.sourcegitcommit: c9edb4fc3042d97cb1245be627841e0a984dbdea
+ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
+ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5031558"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6213421"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Solucionar problemas de trabajo en la cuadrícula de tareas 
 
@@ -57,7 +55,7 @@ Project Operations requiere que un parámetro del proyecto haga referencia al ex
  ![El campo Extremo de PEX en el parámetro del proyecto](media/projectparameter.png)
 
 1. Agregue el campo **Extremo de PEX** a la página **Parámetros del proyecto**.
-2. Actualice el campo con el siguiente valor: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
+2. Actualice el campo con el siguiente valor: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
 3. Quite el campo de la página **Parámetros del proyecto**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Privilegios de Project para web
@@ -106,3 +104,6 @@ Cuando se realizan una o más actualizaciones en la estructura de descomposició
   - Sistema de Project Operations
   - Sistema de Project
   - Sistema de doble escritura de Project Operations (este rol es obligatorio si se va a implementar el escenario basado en recursos/no mantenidos en existencias de Project Operations).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Configurar categorías de gastos
 description: Cómo configurar categorías de gastos en Project Service
 author: revathiMuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 802da28a9079ae348aae14e260f280ef17f346f5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: ba34905b68b7de1d1fc33eae46759d2d9623e3fd
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151544"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012517"
 ---
 # <a name="configure-expense-categories-project-service"></a>Configurar categorías de gastos (Project Service)
 
@@ -55,3 +53,6 @@ Cada categoría de gastos puede tener su propia unidad de venta y unidad. Puede 
   
 ### <a name="see-also"></a>Vea también  
  [Configurar Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

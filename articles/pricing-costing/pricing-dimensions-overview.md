@@ -2,19 +2,18 @@
 title: Información general de dimensiones de precios
 description: En este tema se proporciona información sobre las dimensiones de Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.custom: intro-internal
+ms.openlocfilehash: e8d62dcf9975e5427926210a881dec2c256f1b8b
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650233"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368497"
 ---
 # <a name="pricing-dimensions-overview"></a>Información general de dimensiones de precios
 
@@ -43,8 +42,8 @@ Si necesita fijar el precio o el coste de sus recursos mediante atributos adicio
 
 1. [Crear una solución para dimensiones de precios personalizadas](../sales/create-solution-custompd.md)
 2. [Crear campos y entidades personalizados](create-custom-fields-entities-pricing-dimensions.md)
-3. [Agregar de campos personalizados a la configuración de precios y entidades transaccionales](add-custom-fields-price-setup-transactional-entities.md)
-4. [Configurar campos personalizados como dimensiones de precios](set-up-custom-fields-pricing-dimensions.md)
+3. [Agregar de campos personalizados a la configuración de precios y entidades transaccionales ](add-custom-fields-price-setup-transactional-entities.md)
+4. [Configurar campos personalizados como dimensiones de precios ](set-up-custom-fields-pricing-dimensions.md)
 5. [Actualización de atributos de complemento para incluir nuevas dimensiones de precios](update-plugin-attributes-pd.md)
 
 
@@ -59,15 +58,18 @@ El siguiente ejemplo muestra las tasas de facturación que se configuran en func
 
 **Tasas de facturación de ejemplo**
 
-| Rol        | Unidad organizativa    |Unidad      |Precio      |Divisa  |
+| Rol        | Unidad organizativa    |Unidad      |Precio      |Moneda  |
 | ------------|-------------|----------|----------:|----------|
-| Desarrollador   | Contoso US  |Hour | 200|USD     |
-| Desarrollador   | Contoso India |Hour|   112|USD     |
+| Desarrollador   | Contoso EE. UU.  |Hora | 200|USD     |
+| Desarrollador   | Contoso India |Hora|   112|USD     |
 
 
 **Tasas de costes de ejemplo**
 
-| Banda salarial     | Unidad organizativa    |Unidad      |Precio      |Divisa  |
+| Banda salarial     | Unidad organizativa    |Unidad      |Precio      |Moneda  |
 | ----------------|-------------|----------|----------:|----------|
-| Mi empresa_Banda1 | Contoso US  |Hour | 145|USD     |
-| Mi empresa_Banda2 | Contoso India |Hour|   67|USD     |
+| Mi empresa_Banda1 | Contoso EE. UU.  |Hora | 145|USD     |
+| Mi empresa_Banda2 | Contoso India |Hora|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

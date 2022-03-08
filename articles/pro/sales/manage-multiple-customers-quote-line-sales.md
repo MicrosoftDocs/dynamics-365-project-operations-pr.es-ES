@@ -1,21 +1,21 @@
 ---
-title: Administrar varios clientes en líneas de ofertas basadas en proyectos (lite)
+title: Administración de varios clientes en líneas de ofertas basadas en proyectos
 description: En este tema se describe cómo administrar varios clientes en líneas de oferta basadas en proyectos.
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7cab29693fc1447beba74dc6266367f13e48634d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 6a509fcf8d1fa11b4ce1ba1493d9c3cc64b4f22f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176497"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085049"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Administrar varios clientes en líneas de ofertas basadas en proyectos (lite)
+# <a name="managing-multiple-customers-on-project-based-quote-lines"></a>Administración de varios clientes en líneas de ofertas basadas en proyectos
 
 _**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
 

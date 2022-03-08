@@ -2,11 +2,9 @@
 title: Administrar listas de precios de proyectos en una oferta
 description: En este tema se proporciona información sobre la entidad de lista de precios de proyecto.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177217"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003927"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Administrar listas de precios de proyectos en una oferta
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Dynamics 365 Project Operations amplía la entidad de lista de precios en Dynamics 365 Sales. 
+Dynamics 365 Project Operations amplía la entidad Lista de precios en Dynamics 365 Sales. 
 
 ## <a name="key-entities"></a>Entidades clave
 
@@ -120,3 +118,6 @@ Al igual que los índices de facturación, los índices de costes de recursos hu
     1. Lista de precios de coste adjunta a la unidad organizativa.
     2. La lista de precios de coste se adjunta a los parámetros de Project Operations. Puesto que las listas de precios de coste en diferentes divisas se pueden adjuntar a los parámetros, se completan coincidencias de divisa entre la divisa de la unidad organizativa de contratación del proyecto, el contrato o la oferta, y la divisa de la lista de precios de coste.
     3. Para los gastos, los métodos de cálculo de precios De coste e Incremento por encima del coste no se aplican a las listas de precios de coste. Aunque se utilicen estos métodos de cálculo de precios en las líneas de la lista de precios de coste para configurar los costes de categorías de transacciones, el sistema los omite y no se especifica ningún precio de coste predeterminado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

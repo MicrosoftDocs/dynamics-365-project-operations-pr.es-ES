@@ -2,8 +2,6 @@
 title: Programar recursos para un proyecto
 description: Cómo programar recursos para un proyecto en Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e39c95386eb2dd31fb54878bc203bd94931274de
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 7beb1f86795a909a1266b2a2c97421e1f04ef3c4cf2f9b49413cd1382b0f2011
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150464"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998167"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Programar recursos para un proyecto (Project Service)
 
@@ -35,7 +33,7 @@ Puede comprobar la disponibilidad de recursos para obtener una visión general d
   
 El tablero de programación muestra una lista de recursos y su disponibilidad. Seleccione un modo de vista para mostrar disponibilidad por **Horas**, **Día**, **Semana** o **Mes**.  
   
-Antes de usar al tablero de programación, es importante configurarlo. Para obtener más información, consulte [Configurar la tabla de programación (Field Service o Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+Antes de usar al tablero de programación, es importante configurarlo. Para obtener más información, consulte [Configurar la tabla de programación (Field Service o Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
   
 Si usa una versión anterior, para disponibilidad de recursos, consulte [Ver disponibilidad de recursos](../psa/view-resource-availability.md).  
 
@@ -83,3 +81,6 @@ Si usa una versión anterior, para disponibilidad de recursos, consulte [Ver dis
   
 ### <a name="additional-resources"></a>Recursos adicionales  
  [Guía del administrador de recursos](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

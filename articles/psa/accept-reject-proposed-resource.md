@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ae129284d0d053b78c39907a78a0cfda60ea43c
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 895712a4c6bed38c41d880e46922ea4fea739a8f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146189"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5285729"
 ---
 # <a name="accept-or-reject-a-proposed-project-resource"></a>Aceptar o rechazar un recurso de propuesto de proyecto
 
@@ -45,3 +45,6 @@ Para rechazar la propuesta, haga clic en **Rechazar recurso**.
 ![Aceptar una propuesta de recursos](media/RM-how-to-20.png) 
 
 Al igual que ocurre cuando se cumple una solicitud de recursos genérica con un recurso con nombre, el recurso genérico se reemplazará y las tareas asignadas se actualizarán con el miembro del equipo con nombre.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

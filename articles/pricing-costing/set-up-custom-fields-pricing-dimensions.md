@@ -2,11 +2,9 @@
 title: Configurar campos personalizados como dimensiones de precios
 description: En este tema se proporciona información sobre cómo configurar dimensiones de precios usando campos personalizados.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.openlocfilehash: d40a80f80bd766bfc19e831ea805a4043baf0030
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650249"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004732"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configurar campos personalizados como dimensiones de precios
 
@@ -77,7 +75,7 @@ Existen dos tipos de dimensiones de precios:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|In situ            |                    |Horas extra                 |15     |
 |             | Contoso India|Local             |                    |Horas extra                 |10     |
-|             | Contoso US   |Local             |                    |Horas extra                 |20     |
+|             | Contoso EE. UU.   |Local             |                    |Horas extra                 |20     |
 
 
 Si un recurso de Contoso India cuya tasa base es de 100 USD está funcionando in situ, y registran 8 horas de tiempo regular y 2 horas extra en la entrada de tiempo, el motor de precios usará la tasa base de 100 para las 8 horas para registrar 800 USD. Para las 2 horas extra, se aplicará un incremento del 15 % a la tasa base de 100 para obtener un precio unitario de 115 USD y se registrará un coste total de 230 USD.
@@ -96,3 +94,6 @@ Establecer la prioridad de dimensión ayuda a la fijación de precios incluso cu
 
 - **Prioridad de costes**: el valor de la prioridad de coste de una dimensión indicará el peso de esa dimensión cuando se compara con la configuración de precios de coste. El valor de **Prioridad de coste** debe ser único en todas las dimensiones con **Aplicable a costes**.
 - **Prioridad de ventas**: el valor de la prioridad de ventas de la dimensión indicará el peso de esa dimensión cuando se compara con la configuración de precios de venta o tasas de facturación. El valor de **Prioridad de ventas** debe ser único en todas las dimensiones con **Aplicable a ventas**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

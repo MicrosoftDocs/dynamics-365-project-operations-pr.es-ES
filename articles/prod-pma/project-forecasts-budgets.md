@@ -2,11 +2,9 @@
 title: Previsiones y presupuestos de proyectos
 description: Microsoft Dynamics 365 Finance proporciona previsiones de proyectos y presupuestos de proyectos para gestionar y controlar sus proyectos.
 author: Yowelle
-manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ForecastModel, ProjYearEndProcess
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f99c00effbb0678f1f55e5068a7128cbfb86f5ce
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 47ea4c49a76a2bb0a1855fce2e9a874b4044e429d963c08392ec0ab471f89329
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085261"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988087"
 ---
 # <a name="project-forecasts-and-budgets"></a>Previsiones y presupuestos de proyectos
 
@@ -49,11 +47,11 @@ Cada método tiene sus ventajas. Debe considerar los siguientes puntos antes de 
 | **Control**               | El control de previsiones se realiza utilizando la reducción de previsiones. Los importes reales se restan de los saldos de transacciones previstos sin ninguna traza de auditoría. Esto puede hacer que sea más difícil trazar dónde ocurrieron las transacciones reales.                   | En el control del presupuesto de proyectos, los importes reales se restan de los importes del presupuesto restante. Esto permite una traza de auditoría más clara.                                   |
 
 ## <a name="project-forecasts"></a>Previsiones de proyectos
-Cuando utiliza la previsión de proyectos, puede especificar transacciones de previsión en formularios de previsión para cada tipo de transacción. Cada atributo disponible para una transacción real se puede usar para una transacción de previsiones por ejemplo, rentabilidad de línea, atributos de línea, trabajadores o descripciones. También puede proyectar cuánto tiempo después de incurrir en un costes facturará a un cliente. 
+Cuando utiliza la previsión de proyectos, puede especificar transacciones de previsión en formularios de previsión para cada tipo de transacción. Cada atributo disponible para una transacción real se puede usar para una transacción de previsiones por ejemplo, rentabilidad de línea, atributos de línea, trabajadores o descripciones. También puede prever cuánto tiempo después de incurrir en un coste facturará a un cliente. 
 
 Las transacciones de previsión de proyectos se basan en unidades y cantidades. 
 
-Debe asociar cada previsión del proyecto con un modelo de previsión. Cuando ingresa una transacción de previsión, se sugiere automáticamente un modelo de previsión. El modelo de previsión actúa como un contenedor para las transacciones de previsión. 
+Debe asociar cada pronóstico del proyecto a un modelo de previsión. Cuando introduce una transacción de previsión, se sugiere automáticamente un modelo de previsión. El modelo de previsión actúa como un contenedor para las transacciones de previsión. 
 
 Puede designar modelos de previsión como submodelos de un modelo. Esto le permite realizar previsiones por región, período de tiempo o departamento. Puede copiar las transacciones de previsión en un modelo para crear un nuevo modelo y también puede transferir las transacciones al libro de contabilidad. Debido a que existe una relación uno a uno entre un pronóstico y un modelo, cada modelo de pronóstico constituye un presupuesto separado para un proyecto. 
 
@@ -62,13 +60,13 @@ Los modelos de previsión pueden utilizar la reducción de previsión como mecan
 Puede revisar, copiar, eliminar o transferir las previsiones del proyecto a un presupuesto del libro de contabilidad. Sin embargo, no hay control de proceso. Cualquier trabajador que tenga permisos para un formulario de previsión puede hacer revisiones sin revisión.
 
 -   **Revisar**: puede revisar una transacción prevista en los mismos formularos en los que se realizaron las entradas originales.
--   **Copiar o eliminar**: cuando copia transacciones de previsión, copia las líneas de transacción de un modelo de previsión a otro modelo de previsión. Cuando elimina una previsión, elimina las transacciones de previsión de un modelo de previsión. Para limitar las transacciones de previsión que se copian o eliminan, seleccione tipos de transacciones y fechas específicas. Esto le permite copiar o eliminar solo partes específicas de una previsión.
--   **Transferir**: cuando transfiere una previsión de proyecto a un presupuesto del libro de contabilidad, transfiere las transacciones de previsión de un modelo de previsión a un presupuesto de libro de contabilidad. Puede sobrescribir cualquier transacción transferida previamente en el presupuesto del libro de contabilidad al que transfiere la previsión del proyecto.
+-   **Copiar o borrar**: cuando copia transacciones de previsión, copia las líneas de transacción de un modelo de previsión a otro modelo de previsión. Cuando elimina una previsión, elimina las transacciones de previsión de un modelo de previsión. Para limitar las transacciones de previsión que se copian o eliminan, se seleccionan tipos de transacciones y fechas específicas. Esto permite copiar o eliminar solo partes específicas de una previsión.
+-   **Transferir**: cuando transfiere una previsión de proyecto a un presupuesto de contabilidad general, transfiere las transacciones de previsión de un modelo de previsión a un presupuesto de contabilidad general. Puede sobrescribir cualquier transacción transferida previamente en el presupuesto de contabilidad general al que transfiere la previsión del proyecto.
 
-## <a name="project-budgets"></a>Presupuestos de proyectos
+## <a name="project-budgets"></a>Presupuestos de proyecto
 La creación de presupuestos de proyectos es un método más sencillo que la previsión, aunque se integra con los modelos de previsión. Utiliza un formulario de entrada única para los detalles y las revisiones del presupuesto original, y permite proyecciones que se basan únicamente en la cantidad, categoría o actividad. 
 
-En la creación de presupuestos de proyectos, todos los presupuestos originales y las revisiones deben enviarse a un flujo de trabajo del proyecto para su aprobación. Los flujos de trabajo le brindan un mayor control sobre el proceso y crean un registro del historial de cambios. 
+En la gestión presupuestaria de proyectos, todos los presupuestos originales y las revisiones deben enviarse a un flujo de trabajo de proyecto para su aprobación. Los flujos de trabajo le brindan un mayor control sobre el proceso y crean un registro del historial de cambios. 
 
 La creación de presupuestos de proyecto se parece a la creación de presupuestos del libro de contabilidad, pero es más rápida y fácil de configurar. Muchas de las opciones de la creación de presupuestos del libro de contabilidad, como las secuencias numéricas o la moneda, no tienen que configurarse por separado para los proyectos.
 
@@ -77,7 +75,10 @@ Los presupuestos del proyecto se asocian automáticamente con dos modelos de pre
 ## <a name="forecast-models"></a>Modelos de previsión
 Los modelos de previsión tienen una jerarquía de una sola capa. Esto significa que la previsión de un proyecto debe estar asociada con un modelo de previsión.
 
-Si utiliza la previsión de proyectos, puede identificar modelos como submodelos. Esto le permite crear previsiones por departamento, período de tiempo o región. Por ejemplo, puede crear un modelo de previsión para un año y luego crear submodelos para los pronósticos regionales Noreste, Sudeste, Noroeste y Suroeste que envían los jefes regionales. Al seleccionar diferentes opciones en los informes disponibles, puede ver la información por pronóstico total o por submodelo.
+Si utiliza la previsión de proyectos, puede identificar los modelos como submodelos. A continuación, puede crear previsiones por departamento, período de tiempo o región. Por ejemplo, puede crear un modelo de previsión para un año y luego crear submodelos para las previsiones regionales Noreste, Sudeste, Noroeste y Suroeste que envían los jefes regionales. Al seleccionar diferentes opciones en los informes disponibles, puede ver la información por pronóstico total o por submodelo.
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

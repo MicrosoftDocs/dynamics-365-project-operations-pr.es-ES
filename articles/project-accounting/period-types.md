@@ -2,18 +2,16 @@
 title: Tipos de período
 description: En este tema se proporciona información acerca de cómo configurar tipos de período para estimación de ingresos.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6bcd988fbd074c66d64f7e327b4329d3de27e950
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531563"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998797"
 ---
 # <a name="period-types"></a>Tipos de período
 
@@ -34,3 +32,6 @@ Para crear y trabajar con tipos de período, complete los siguientes pasos:
 4. Seleccione el registro de tipo de período y, a continuación, **Generar períodos** para crear períodos para el tipo de período. Según la frecuencia del período que haya seleccionado, es posible que tenga la opción de especificar una fecha de inicio o el número de períodos para generar.
 5. Seleccione **Períodos** para revisar periodos generados.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

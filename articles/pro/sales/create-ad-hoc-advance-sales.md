@@ -2,18 +2,16 @@
 title: Creación de un anticipo ad hoc en un contrato
 description: Este tema proporciona información sobre cómo crear un anticipo en un contrato según sea necesario.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
+ms.openlocfilehash: bceed1372dbaf523426a4c34da7152d77fe108240c8c3e4e1390c43b1cf536a4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596033"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999157"
 ---
 # <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Creación de un anticipo ad hoc en un contrato
 
@@ -39,3 +37,6 @@ Complete los siguientes pasos para facturar al cliente un anticipo.
     | **Estado de la factura** | Esta es una configuración de opción que indica si este anticipo se agrega a un borrador de factura para este cliente. Los valores posibles son:</br>- **No listo para facturar**</br>- **Listo para facturar** | Cuando un anticipo o prepago se marca como **Listo para facturar**, se agrega como un tiempo de línea en un borrador de factura. Solo se puede utilizar un anticipo facturado en su totalidad para conciliar los costos del proyecto para el próximo período de facturación. |
 
 4. Seleccione **Guardar y cerrar** en el cuadro de diálogo de creación rápida para registrar el anticipo o el prepago.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

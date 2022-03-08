@@ -2,8 +2,6 @@
 title: Administrar proyectos y reservas en su calendario de Office 365
 description: Administración de proyectos y reservas en su calendario de Office 365
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c575bd3deba5bcde2526ccfc598327917bf91642
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: b38affbfc8d339ac1a2093391286ea4c095207be8de2e8eeca558e6fcc5bcc07
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144479"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985455"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Administrar proyectos y reservas en su calendario (Project Service)
 
@@ -52,7 +50,7 @@ Vista citas personales, reservas de trabajo de proyectos y asignaciones de orden
   
 - Deberá tener credenciales de administrador del sistema o administrador global de [!INCLUDE[pn_office_365](../includes/pn-office-365.md)].  
   
-- Su administrador también deberá configurar el perfil de servidor de correo electrónico y cada usuario deberá configurar su buzón. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Establecer procesamiento de correo electrónico mediante sincronización del lado del servidor](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- Su administrador también deberá configurar el perfil de servidor de correo electrónico y cada usuario deberá configurar su buzón. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Establecer procesamiento de correo electrónico mediante sincronización del lado del servidor](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>Activar la sincronización de la organización (tarea de administración)  
   
@@ -91,3 +89,6 @@ Vista citas personales, reservas de trabajo de proyectos y asignaciones de orden
   
 ### <a name="see-also"></a>Vea también  
  [Guía de tiempo, gastos y colaboración](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

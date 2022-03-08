@@ -2,8 +2,6 @@
 title: Procesos de venta
 description: En este tema se proporciona información sobre los procesos de ventas básicos.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2561a54af6bdb9764a318f012fdc53f7b3298893
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 58d5aa68dd5af7fc2b39caac429948e55bbc94c39dfb7fc9ae15a37cc3c92ce6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145199"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000552"
 ---
 # <a name="sales-processes"></a>Procesos de venta
 
@@ -52,7 +50,7 @@ Puede crear varias ofertas para un proyecto y agruparlas en un único tipo de en
 
 También puede crear ofertas alternativas bajo un tipo de entidad de oportunidad, o bien configurar el sistema para crear un contrato de proyecto cuando se gana una oferta. En este caso, puede adjuntar al registro de contrato del proyecto un documento de Word que represente la SOW.
 
-![Cierre de una oferta para crear un contrato de proyecto](media/basic-guide-2.png)
+![Cierre de una oferta para crear un contrato de proyecto.](media/basic-guide-2.png)
 
 ## <a name="configuring-the-sales-process"></a>Configuración del proceso de ventas
 Puede usar los flujos de proceso de negocio (BPF) en Microsoft Dynamics 365 para configurar el proceso de ventas. Los BPF ofrecen al personal de ventas una interfaz visual guiada que se puede utilizar para mover operaciones por las distintas fases típicas de su compañía.
@@ -68,7 +66,7 @@ Por ejemplo, su compañía podría tener las seis fases que se indican a continu
 
 Estas seis fases se representan con cheurones (\>) que se pueden seleccionar para expandirlas en cada tipo de entidad de oportunidad que se cree.
 
-![Configuración del proceso de negocio en Dynamics 365](media/basic-guide-3.png)
+![Configuración del proceso de negocio en Dynamics 365.](media/basic-guide-3.png)
  
 Su organización puede usar distintas entidades para representar la misma operación a medida que evoluciona. Al principio del proceso de ventas, una operación se representa con la entidad Oportunidad. A medida que pasa el tiempo y afloran más detalles, puede utilizar estimaciones generales para crear una o varias ofertas. Si las partes interesadas del cliente e internas revisan una de dichas ofertas, la operación pasa a representarse con la entidad Oferta. Cuando el cliente acepta la oferta, la operación pasa a representarse con un contrato de proyecto o una SOW. Para facilitar este comportamiento, los BPF se estructuran de manera a que cada fase del proceso esté vinculada a una tabla de base de datos distinta.
 
@@ -79,7 +77,7 @@ A medida que las operaciones pasen por las distintas fases, se le pedirá que cr
 > [!NOTE]
 > PSA cuenta con páginas específicas para las entidades Oportunidad, Oferta, Pedido y Factura. Debe crear oportunidades, ofertas, pedidos y facturas de servicios de proyecto mediante las páginas de información de proyecto de dichas entidades. Si usa otra página para crear un registro, no podrá abrir el registro desde la página **Información de proyecto**. Si desea abrir un registro desde la página **Información de proyecto**, debe eliminar el registro y volver a crearlo mediante la página **Información de proyecto**. En la página **Información de proyecto**, la lógica de negocios de cada uno de estos tipos de entidad garantiza que el campo **Tipo** del registro esté configurado correctamente y que todos los conceptos obligatorios se inicialicen correctamente.
 
-> ![Información del proyecto para un nuevo pedido](media/basic-guide-4.png)
+> ![Información del proyecto para un nuevo pedido.](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Diferencias entre Project Service Automation y Ventas
 Aunque el proceso de ventas de PSA usa las capacidades básicas del proceso de ventas de Ventas, este tiene algunas diferencias clave que se deben a las variaciones en las prácticas de negocio de las organizaciones basadas en proyecto. A continuación, encontrará algunos ejemplos:
@@ -93,3 +91,6 @@ En PSA, no es posible realizar seguimientos de las revisiones de ofertas. En su 
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Seguimiento de comentarios y aprobaciones de ofertas y contratos de proyecto
 Puede administrar la revisión y la aprobación de ofertas y contratos de proyecto mediante el muro de registros y las publicaciones. Su organización puede crear flujos de trabajo personalizados y complementos para asignar, redirigir, remitir a instancias superiores y administrar notificaciones de los elementos de trabajo de revisión y aprobación.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

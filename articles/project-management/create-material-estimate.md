@@ -2,30 +2,28 @@
 title: Estimaciones financieras de materiales en proyectos
 description: Este tema proporciona información sobre cómo definir o estimar materiales basándose en el proyecto.
 author: rumant
-manager: Annbe
 ms.date: 03/30/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 98e3611b2b3948aab09a3eadeac7b95b893812e9
-ms.sourcegitcommit: 504c09365bf404c1f1aa9b5034c1e1e5bc9d0d54
+ms.openlocfilehash: 1717abb8f37acb7ab5f4e24b9323b3d958b40b13d7da44c0bbfa88eea28b99ef
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788899"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992632"
 ---
 # <a name="financial-estimates-for-materials-on-projects"></a>Estimaciones financieras de materiales en proyectos
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Dynamics 365 Project Operations permite a los gerentes de proyecto definir los costes de material basándose en el proyecto para cada proyecto o tarea. Cada estimación de material se puede asociar con una tarea de proyecto específica. Los gastos se clasifican en diferentes categorías de gastos, que se definen a nivel organizativo. El precio y el coste de cada categoría de gastos se definen en la lista de precios. 
+Dynamics 365 Project Operations permite a los gerentes de proyecto definir los costes de material basándose en el proyecto para cada proyecto o tarea. Cada estimación de material se puede asociar con una tarea de proyecto específica. Los gastos se clasifican en diferentes categorías de gastos, que se definen a nivel organizativo. El precio y los costes de cada categoría de gastos se definen en la lista de precios. 
 
 Complete los siguientes pasos para ver, agregar o eliminar una estimación de material del proyecto.
 
-1. Vaya a **Proyectos** y seleccione el proyecto que desea actualizar.
-2. En la pestaña **Estimaciones de materiales**, vea la lista de estimaciones de materiales del proyecto.
-3. Seleccione **Nueva estimación de material** para crear una nueva estimación de material. O seleccione una estimación de material para eliminar y luego seleccione **Eliminar estimación de material**.
+1. Vaya a **Proyectos** y seleccione el proyecto que quiera actualizar.
+2. En la pestaña **Estimaciones de materiales**, consulte la lista de estimaciones de materiales del proyecto.
+3. Seleccione **Nueva estimación de materiales** para crear una nueva estimación de materiales. O seleccione una estimación de material para eliminar y luego seleccione **Eliminar estimación de material**.
 
 La siguiente tabla proporciona información sobre los campos de **Línea de estimación de material** en un proyecto. 
 

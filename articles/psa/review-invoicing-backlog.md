@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 092455a131f556e4f943f6bb89d7e38358f0a697
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: bdeeb100614cda78d0ba536310bb6b411c863b71
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150509"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282804"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Revisión del trabajo pendiente de facturación en proyectos y contratos de proyecto
 
@@ -59,3 +59,6 @@ Las líneas de contrato de proyecto que tienen un método de facturación de pre
 Para revisar los hitos de facturación, vaya a **Ventas** \> **Facturación** \> **Hitos de precio fijo**. Seleccione los hitos que están listos para facturar y, a continuación seleccione **Listo para facturar**. El estado de facturación de estos hitos cambia a **Listo para facturar**.
 
 ![Hitos de precio fijo](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

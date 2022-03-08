@@ -2,11 +2,9 @@
 title: Configurar la integración de tarjetas de crédito
 description: Este tema explica cómo trabajar con transacciones de tarjetas de crédito relacionadas con gastos.
 author: suvaidya
-manager: AnnBe
-ms.date: 04/02/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 72ff98f5985af4362cde3c9914e0d20247f1f09a
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 49c8f2369a8be41fbc04c74bdb6b565b4f4b7b79
+ms.sourcegitcommit: 9f26cf8bb640af1eb9f7f0872805965d7ffcb9d3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866704"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "7826277"
 ---
 # <a name="set-up-credit-card-integration"></a>Configurar la integración de tarjetas de crédito
 
@@ -32,12 +30,12 @@ Las transacciones con tarjeta de crédito relacionadas con gastos se pueden conf
 
 Para importar transacciones con tarjeta de crédito, siga estos pasos:
 
-1. En la página **Transacciones con tarjeta de crédito**, seleccione **Importar transacciones**. Si abre la administración de datos por primera vez, el sistema debe actualizar la lista de entidades de datos antes de que pueda continuar.
+1. En la página **Transacciones con tarjeta de crédito**, seleccione **Importar transacciones**. Si abre la administración de datos por primera vez, el sistema deberá actualizar la lista de entidades de datos para que pueda continuar.
 2. En el campo **Nombre**, indique una descripción única para el trabajo de importación.
 3. En el campo **Formato de datos de origen**, seleccione el formato del archivo que contiene las transacciones con tarjeta de crédito para importar.
-4. Seleccione **Cargar** y luego busque y seleccione el archivo para importar.
-5. Una vez cargado el archivo, valide la asignación del archivo de transacciones con tarjeta de crédito y las columnas de la entidad de datos de transacciones con tarjeta de crédito seleccionando el vínculo **Ver mapa** en el mosaico. Si hay errores de asignación, o si debe cambiar la asignación, realice los cambios de asignación desde la pestaña **Visualización de asignaciones** o la pestaña **Detalles de la asignación**.
-6. Para automatizar las transacciones con tarjeta de crédito, seleccione **Crear trabajo de datos periódico**. A continuación, puede establecer la periodicidad que define la frecuencia con la que se deben importar las transacciones con tarjeta de crédito. Cuando haya terminado, seleccione **Aceptar**.
+4. Seleccione **Cargar** y luego busque y seleccione el archivo que desee importar.
+5. Una vez cargado el archivo, valide la asignación del archivo de transacciones con tarjeta de crédito y las columnas de la entidad de datos de transacciones con tarjeta de crédito seleccionando el vínculo **Ver mapa** en el mosaico. Si hay errores de asignación o si debe cambiar la asignación, introduzca los cambios de asignación desde la pestaña **Visualización de asignación** o la pestaña **Detalles de la asignación**.
+6. Para automatizar las transacciones con tarjeta de crédito, seleccione **Crear trabajo de datos periódico**. Luego ya podrá establecer la periodicidad que define la frecuencia con la que se deben importar las transacciones con tarjeta de crédito. Cuando haya terminado, seleccione **Aceptar**.
 7. Para importar ahora el archivo seleccionado, seleccione **Importar**.
 8. Si se producen errores durante la importación, puede ver el registro de ejecución o los datos de ensayo para ver los errores que debe corregir para ayudar a garantizar una importación correcta.
 
@@ -52,10 +50,18 @@ Seleccione una o varias transacciones con tarjeta de crédito y luego seleccione
 
 ## <a name="delete-credit-card-transactions"></a>Eliminar transacciones con tarjeta de crédito 
 
-A veces, después de que se importan las transacciones con tarjeta de crédito, es posible que sea necesario eliminar ciertas transacciones. Esto podría deberse a que las transacciones están duplicadas o a que los datos pueden no ser precisos. Los administradores pueden usar la característica **"Eliminar transacciones con tarjeta de crédito"** para seleccionar y eliminar transacciones con tarjeta de crédito que **no estén asociada** a un informe de gastos. 
+A veces, después de que se importan las transacciones con tarjeta de crédito, es posible que sea necesario eliminar ciertas transacciones. Esto podría deberse a que las transacciones están duplicadas o porque los datos no son precisos. Los administradores pueden usar la característica **"Eliminar transacciones con tarjeta de crédito"** para seleccionar y eliminar transacciones con tarjeta de crédito que **no estén asociada** a un informe de gastos. 
 
 1. Vaya a **Tareas periódicas** > **Eliminar transacciones con tarjeta de crédito**.
 2. Seleccione **Filtro** y proporcione información para identificar los registros que se incluirán.
 3. Seleccione **Aceptar** para eliminar los registros. 
+
+## <a name="storing-credit-card-numbers"></a>Almacenar números de tarjetas de crédito
+
+Hay tres opciones disponibles para almacenar números de tarjetas de crédito. Los números de tarjetas de crédito se almacenan en la página **Parámetros de gestión de gastos**.
+
+- **Evitar la entrada del número de tarjeta** - Los números de tarjetas de crédito no se almacenan.
+- **Números de tarjetas hash (almacenar los últimos cuatro dígitos)** - Los últimos cuatro dígitos de los números de las tarjetas de crédito se almacenan en formato cifrado.
+- **Almacenar números de tarjetas** - Los números de tarjetas de crédito se almacenan en un formato no cifrado. Esta opción no cumple con el Estándar de seguridad de datos (DSS) de la industria de tarjetas de pago (PCI). Por lo tanto, para que su organización cumpla con las regulaciones PCI DSS, los administradores de la organización deben optar por no almacenar los números de las tarjetas de crédito o por almacenar los números de las tarjetas hash.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

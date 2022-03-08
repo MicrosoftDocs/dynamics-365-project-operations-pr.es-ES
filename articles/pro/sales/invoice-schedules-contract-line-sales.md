@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 728a35b2b69fb63a2b20f218c250365c5068370f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 4706a2a711efa7d176030deaa33b65bca28d8498
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180348"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273399"
 ---
 # <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>Crear programaciones de facturas en una línea de contrato basada en proyecto (lite)
 
@@ -74,3 +74,6 @@ Los hitos de precio fijo se pueden generar manualmente cuando no se dividen peri
 | Impuestos | Creación rápida | La cantidad del impuesto aplicado al hito. | Este se incluye en el hito de la línea del contrato del proyecto y en la factura. |
 
 4. Seleccione **Guardar y cerrar**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

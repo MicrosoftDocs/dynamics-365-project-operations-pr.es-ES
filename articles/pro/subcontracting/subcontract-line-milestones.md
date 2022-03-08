@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7f99853f5f649f96225b7d72580db97bb92de7c5
-ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
+ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "7558523"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323797"
 ---
 # <a name="subcontract-line-milestones"></a>Hitos de línea de subcontrato
 
@@ -50,15 +50,15 @@ Los hitos de precio fijo en una línea de subcontrato se pueden generar manualme
 3. En la pestaña **Hitos de línea de subcontrato**, en la subcuadrícula, seleccione **+ Nuevo hito de línea de subcontrato**.
 4. En la página **Nuevo hito de línea de subcontrato**, introduzca la información requerida basada en la tabla siguiente.
 
-    | Campo | Descripción |Impacto funcional|
-    | --- | --- |----------------------|
-    | Nombre del hito | El nombre del hito. |Esto se mostrará como la primera columna en todas las búsquedas basadas en hitos de la línea de subcontratación. La línea de la factura de proveedor que se crea en base a este hito también utilizará el nombre del hito de la línea de subcontratación como nombre predeterminado de la línea de factura de proveedor.|
-    | Descripción | Una descripción del hito. |La línea de la factura de proveedor que se crea en base a este hito también utilizará la descripción del hito de la línea de subcontratación como descripción predeterminada de la línea de factura de proveedor.|
-    | Fecha de hito | La fecha en la que el proceso de creación automática de facturas debe buscar el estado de este hito para considerarlo para la facturación.| Este valor se utilizará como la fecha predeterminada de la línea de factura del proveedor al facturar esta línea de subcontratación. |
-    | Cantidad | El importe o valor del hito que se facturará al cliente. |Este valor se utiliza como importe predeterminado en la línea de factura del proveedor al facturar esta línea de subcontratación. |
-    | Impuestos | La cantidad del impuesto aplicado al hito.| Este valor se utiliza como importe de impuesto predeterminado en la línea de factura del proveedor al facturar esta línea de subcontratación. |
-    | Importe después de impuestos | Este campo de solo lectura se calcula como importe contratado + impuestos.|Este valor se utiliza como predeterminado en la línea de factura del proveedor al facturar esta línea de subcontratación. |
-    | Estado de la factura | Cuando se crea el hito, este estado siempre se establece en **No listo para facturar**.|  Cuando el estado es **Listo para facturar**, la creación de la factura del proveedor incluye este hito en la factura del proveedor. |
+    | Campo | Descripción |
+    | --- | --- |
+    | Nombre del hito | El nombre del hito. |
+    | Descripción | Una descripción del hito.  |
+    | Fecha de hito | La fecha en la que el proceso de creación automática de facturas debe buscar el estado de este hito para considerarlo para la facturación. Este valor se incluye en la línea de factura del proveedor al facturar este subcontrato. |
+    | Cantidad | El importe o valor del hito que se facturará al cliente. Este valor se incluye en la línea de factura del proveedor al facturar este subcontrato. |
+    | Impuestos | La cantidad del impuesto aplicado al hito. Este valor se incluye en la línea de factura del proveedor al facturar este subcontrato. |
+    | Importe después de impuestos | Este campo de solo lectura se calcula como Importe + Impuestos. Este valor se incluye en la línea de factura del proveedor al facturar este subcontrato. |
+    | Estado de la factura | Cuando se crea el hito, este estado siempre se establece en **No listo para facturar**.  Cuando el estado es **Listo para facturar**, la creación de la factura del proveedor incluye este hito en la factura del proveedor. |
 
 5. Seleccione **Guardar y cerrar**.
 

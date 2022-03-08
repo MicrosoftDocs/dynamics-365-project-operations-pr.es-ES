@@ -2,8 +2,6 @@
 title: Configurar categorías de transacciones
 description: Cómo configurar categorías de transacciones en Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 404135d1f5ff73120d167d9d0e774b415164a2c1
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5936bf0384e62d522bb9e1f01cd00771e1ac522c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149519"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002976"
 ---
 # <a name="configure-transaction-categories-project-service"></a>Configurar categorías de transacciones (Project Service)
 
@@ -43,3 +41,6 @@ Configure categorías de transacciones para definir un superconjunto de categor�
   
 ### <a name="see-also"></a>Vea también  
  [Configure Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fbc1519b6cbcf231cfa89df8b7843d11a8904e49
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
+ms.openlocfilehash: 9dc424cf69abfccc10bf551272a14e5cefb3dff0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089307"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275829"
 ---
 # <a name="invoicing-process-overview"></a>Información general sobre el proceso de facturación
 
@@ -30,3 +30,6 @@ El jefe de proyecto puede revisar las transacciones de ventas no facturadas medi
 Puede [crear manualmente una factura proforma](../proforma-invoicing/create-manual-proforma-invoice.md) o usar un [proceso periódico](../proforma-invoicing/configure-automated-invoice-creation.md). El jefe de proyecto puede [ajustar un borrador de factura proforma](../proforma-invoicing/manage-proforma-invoice.md) si es necesario, y confirmarlo a continuación.
 
 La factura proforma confirmada se envía al módulo **Gestión de proyectos y contabilidad** de Finance. El contable del proyecto formatea y actualiza la propuesta de factura del proyecto y después registra e imprime el documento. Las facturas de proyecto contabilizadas se registran en la contabilidad general, así como en los subdiarios del cliente y del proyecto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

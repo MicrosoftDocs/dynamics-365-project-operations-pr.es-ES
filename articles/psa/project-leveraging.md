@@ -2,8 +2,6 @@
 title: Estimaciones de ventas y proyectos
 description: En este tema se proporciona información sobre cómo aprovechar la programación y las estimaciones en el proceso de venta.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 76e21f80e51e6f3092880dc629ba90b400805486
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148394"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995197"
 ---
 # <a name="sales-estimates-and-projects"></a>Estimaciones de ventas y proyectos
 
@@ -37,11 +35,11 @@ Durante el proceso de venta, puede crear estimaciones de ventas vinculando un pr
 
 Cuando cree una línea de oferta basada en un proyecto, podrá crear un nuevo proyecto o asociar un proyecto existente en la página **Línea de oferta**. 
 
-> ![Formulario de línea de oferta](media/project-8.png)
+> ![Formulario de línea de oferta.](media/project-8.png)
  
 Cuando cree un proyecto nuevo a partir de los detalles de la línea de oferta, puede aprovechar las plantillas de proyecto. Las plantillas de proyecto son proyectos modelo que representan planes de proyecto estándar y estimaciones financieras que son típicas en una organización. También pueden representar copias de planes de proyectos y estimaciones de proyectos pasados.
 
-> ![Detalles de línea de oferta](media/project-9.png)
+> ![Detalles de línea de oferta.](media/project-9.png)
   
 Al crear el proyecto desde la oferta, el proyecto se asociará automáticamente con la línea de la oferta.
 
@@ -54,3 +52,6 @@ Puede definir el esfuerzo de trabajo y las estimaciones de programación mediant
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Importación de estimaciones de un proyecto a una oferta
 
 Después de definir las estimaciones del proyecto, puede importarlas en la línea de oferta. En la página **Detalles de línea de oferta**, seleccione **Importar desde estimaciones** en la cinta para resumir las estimaciones de proyecto por tipo de transacción, rol o nivel de tarea.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

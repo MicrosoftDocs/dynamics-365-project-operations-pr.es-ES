@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7432dcdaa520c4eebb657f436575d017a7fd07cc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2c2cd38c37ef22b9b174c9732e829f6fb4ebf687
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085208"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288535"
 ---
 # <a name="adjust-project-transactions"></a>Ajustar las transacciones del proyecto
 
@@ -44,3 +44,6 @@ Esta guía de tareas le muestra cómo ajustar una transacción en un proyecto. S
 13. En la lista, marque la fila seleccionada. 
 14. En el campo Precio de coste, introduzca un número. 
 15. Haga clic en Registrar. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

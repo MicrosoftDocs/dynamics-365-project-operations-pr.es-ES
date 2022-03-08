@@ -2,8 +2,6 @@
 title: Ver y enviar facturas
 description: Cómo ver y enviar facturas en Project Service
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f67254267e1d6f5db3a1cdf4b9c0f4d44226a4f3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 3971c10370f41d6729f2a51bf0c9e1dbe0757bec
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143939"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002527"
 ---
 # <a name="view-and-send-invoices-project-service"></a>Ver y enviar facturas (Project Service)
 
@@ -58,3 +56,6 @@ Cuando cree un proyecto, establece la frecuencia para generar facturas. Puede ve
   
 ### <a name="see-also"></a>Vea también  
  [Guía del jefe de proyecto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

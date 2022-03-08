@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fde336f53d72e9ddf38c5123d9e774a4c3a22a28
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: bbee90450749c89f643d96e4d41a387c45e9abc5
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271689"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960583"
 ---
 # <a name="expense-management-workflow"></a>Flujo de trabajo de gestión de gastos
 
@@ -55,6 +55,3 @@ El siguiente proceso es un ejemplo del flujo de trabajo de gestión de gastos pa
 Una vez verificados estos requisitos, se contabiliza el informe de gastos.
 
 Una vez que se contabiliza el informe de gastos, se autoriza el pago del informe de gastos y se reembolsa al empleado.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Aplicación móvil Project Timesheet
 description: Este tema proporciona información sobre la aplicación para dispositivos móviles Microsoft Dynamics 365 Project Timesheet. La aplicación móvil Project Timesheet permite a los usuarios enviar y aprobar hojas de horas para proyectos en su dispositivo móvil.
 author: abruer
-manager: AnnBe
 ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085321"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997222"
 ---
 # <a name="project-timesheet-mobile-application"></a>Aplicación móvil Project Timesheet
 
@@ -96,3 +94,6 @@ Haga clic en **Enviar** para enviar la hoja de horas al flujo de trabajo de apro
 ## <a name="review-timesheets"></a>Revisar las hojas de horas
 
 En el menú se encuentra disponible una lista de las hojas de horas que deben revisarse. Esta opción solo está disponible si ha sido designado como aprobador de flujo de trabajo. Se admiten tanto la aprobación de encabezado como de línea. La aprobación de nivel de línea ofrece la posibilidad de marcar una o más líneas para su aprobación. Después de revisar la información de la hoja de horas, haga clic en **Aprobar**, **Delegar** o **Regresar** para continuar con el flujo de trabajo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Aprobar tiempo y gastos
 description: Cómo aprobar hora y gastos (Project Service)
 author: revathiMuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4c1ec99ea0951d24939463d33c64f72fce44ba5b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d17652d0d41c33739d163d024a9c26fcce1712dd
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145469"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009457"
 ---
 # <a name="approve-time-and-expenses-project-service"></a>Aprobar hora y gastos (Project Service)
 
@@ -47,3 +45,6 @@ Una vez que los consultores especifiquen su hora y gastos para un proyecto, debe
   
 ### <a name="see-also"></a>Vea también  
  [Guía del jefe de proyecto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

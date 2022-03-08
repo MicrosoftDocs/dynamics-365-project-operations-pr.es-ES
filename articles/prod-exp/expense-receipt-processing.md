@@ -2,9 +2,11 @@
 title: Procesamiento de recibos de gastos
 description: En este tema se proporciona información sobre el procesamiento de reconocimiento óptico de caracteres (OCR) para recibos. Esta funcionalidad está diseñada para mejorar la experiencia del usuario al crear informes de gastos se crean en Microsoft Dynamics 365 Finance.
 author: stsporen
+manager: AnnBe
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: ed9c97ba9cc505106599c2896dc2112358d0c408
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 64901610144f9dfe274bd4c2294ab32659743a1a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993527"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960313"
 ---
 # <a name="expense-receipt-processing"></a>Procesamiento de recibos de gastos
 
@@ -93,6 +95,3 @@ Actualmente, es compatible con Estados Unidos.
 Finance se pondrá en contacto con Cognitive Services para extraer los datos de campo. Cognitive Services conservará una copia de su recibo durante un máximo de 24 horas mientras se procesa. Una vez completado el procesamiento, Cognitive Services eliminará el recibo. Los recibos seguirán almacenándose en Finance.
 
 Para obtener más información, consulte [Habilitar el reconocimiento de recibos con la nueva capacidad de Form Recognizer](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

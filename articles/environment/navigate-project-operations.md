@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d948c1cfe2d95e61f2405a9a23e7045af678ae40
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 50b44b014fcbb730b273322390227ae82cbdcefc
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642069"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290020"
 ---
 # <a name="navigate-project-operations"></a>Navegar en Project Operations
 
@@ -38,3 +38,6 @@ Seleccione **Iniciar sesión** > **Iniciar sesión en el entorno** para navegar 
 
 > [!NOTE]
 > Puede acceder a Project Operations en Common Data Service y el módulo **Gestión de proyectos y contabilidad** directamente utilizando sus respectivas URL. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

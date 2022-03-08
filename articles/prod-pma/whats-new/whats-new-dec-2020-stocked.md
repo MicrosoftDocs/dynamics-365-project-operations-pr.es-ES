@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 5aac6b77b0d07a090a071b075711e3dd915e6be4
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
+ms.openlocfilehash: 8d1755b308a415deff1fd1a35122197476673988
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4728026"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288168"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Novedades o cambios de diciembre de 2020: Project Operations para escenarios basados en existencias/producción
 
@@ -142,3 +142,6 @@ Este tema se aplica a los siguientes componentes y versiones de Dynamics 365 Pro
 ## <a name="regulatory-updates"></a>Actualizaciones regulatorias
 
 Para obtener información sobre las actualizaciones regulatorias para aplicaciones de Dynamics 365 Finance, consulte [Actualizaciones regulatorias](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Otra forma de conocer las actualizaciones regulatorias es iniciar sesión en Lifecycle Services (LCS) y ver las actualizaciones normativas planificadas mediante la herramienta de búsqueda de temas. La búsqueda de problemas le permite buscar por país, tipo de función y lanzamiento.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

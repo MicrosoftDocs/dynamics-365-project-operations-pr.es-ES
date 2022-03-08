@@ -2,7 +2,7 @@
 title: Novedades o cambios en la versión 3 de Project Service Automation
 description: Este tema proporciona información sobre las novedades y los cambios en Project Service Automation versión 3.
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,20 +18,15 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6ce4c549b04716d466efa262dbc6a4abf28ea9eb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0c198a0fd293008b73422f3f60ea023f918e0ddc
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150689"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085110"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Novedades o cambios en la versión 3 de Project Service Automation
-
-[!include [banner](../includes/psa-now-project-operations.md)]
-
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
-
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tema proporciona información sobre los cambios en la interfaz de usuario (IU), la funcionalidad y la terminología en Project Service Automation entre la versión 2 o la versión 1 y la versión 3.
 

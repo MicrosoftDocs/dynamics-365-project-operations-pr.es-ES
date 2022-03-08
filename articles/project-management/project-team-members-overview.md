@@ -2,18 +2,16 @@
 title: Miembros del equipo del proyecto
 description: Este tema proporciona información sobre cómo trabajar con la información, los atributos y la programación de los miembros del equipo del proyecto.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 273736219aff9c2ed4ffa8cf616d6ea656bd7294
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127449"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010942"
 ---
 # <a name="project-team-members"></a>Miembros del equipo del proyecto
 
@@ -60,3 +58,6 @@ Desde la cuadrícula de miembros del equipo, se pueden tomar las siguientes acci
 
 - **Nuevo**: además de agregar recursos directamente desde la programación, los gerentes de proyecto pueden agregar nuevos miembros del equipo con nombre o genéricos desde la cuadrícula de miembros del equipo.
 - **Eliminar**: al seleccionar uno o varios miembros del equipo, el gerente de proyecto puede eliminar los recursos que ya no participarán en el proyecto. Eliminar un miembro del equipo también eliminará todas las asignaciones de recursos asociados y cancelará todas las reservas existentes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

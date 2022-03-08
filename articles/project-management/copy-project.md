@@ -2,30 +2,29 @@
 title: Copiar un proyecto
 description: En este tema se proporciona información sobre la copia de proyectos en Dynamics 365 Project Operations.
 author: ruhercul
-manager: AnnBe
-ms.date: 02/22/2021
+ms.date: 05/21/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: fe76f59b315fd0f46b25e1d116acde1f6b2864d1753e01d6311ea93ae7d116fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479540"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007212"
 ---
 # <a name="copy-a-project"></a>Copiar un proyecto
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Con Dynamics 365 Project Operations, puede crear rápidamente nuevos proyectos seleccionando **Copiar proyecto** en el formulario **Proyectos**. Para copiar un proyecto, abra el proyecto que desea copiar y luego seleccione **Copiar proyecto**. La acción copiará:
+Con Dynamics 365 Project Operations, puede crear rápidamente nuevos proyectos seleccionando **Copiar proyecto** en el formulario **Proyectos**. Para copiar un proyecto, abra el proyecto que desea copiar y luego seleccione **Copiar proyecto**. La acción copiará lo siguiente:
 
-- Propiedades del proyecto (la fecha de inicio estimada se copia del proyecto de origen)
-- La estructura de descomposición del trabajo
+- Propiedades del proyecto 
+- Estructura de descomposición del trabajo
 - Miembros del equipo del proyecto
 - Estimaciones de proyecto
 - Estimaciones de gastos del proyecto
+- Estimaciones de materiales del proyecto
 
 ## <a name="project-properties"></a>Propiedades del proyecto
 
@@ -42,11 +41,15 @@ Cuando se copia el proyecto, se copian los valores de los siguientes campos:
 - Estado general del proyecto
 - Comentarios
 - Estimaciones
-- Fecha de inicio estimada
-- Fecha de finalización
+- Fecha estimada de inicio: es la fecha en la que se crea el proyecto a partir de la copia.
+- Fecha estimada de finalización: esta fecha se ajusta en función de la fecha de inicio del nuevo proyecto que se realizó a partir de la copia.
 - Esfuerzo (horas)
-- Coste estimado de la mano de obra
-- Coste estimado de los gastos
+- Coste estimado de mano de obra
+- Coste estimado de gastos
+- Coste estimado de materiales
+
+> [!NOTE]
+> Copiar proyecto es una operación de larga duración. También se copian los registros del proyecto, sus atributos relevantes y muchas entidades relacionadas. Debido a la naturaleza de larga duración de la operación, una vez iniciada la copia, la página del proyecto de destino se bloquea para su edición hasta que se completa la operación de copia.
 
 ## <a name="work-breakdown-structure"></a>Estructura de descomposición del trabajo
 
@@ -58,7 +61,7 @@ Cuando un equipo de proyecto se copia desde el proyecto de origen, se copian los
 
 ## <a name="estimates"></a>Estimaciones
 
-Cuando se copia el proyecto, las líneas de estimación de recursos y gastos se copian del proyecto de origen. 
+Cuando se copia el proyecto, las líneas de estimación de recursos, gastos y materiales se copian del proyecto de origen. 
 
 Para obtener información sobre cómo acceder mediante programación a Copiar proyecto, consulte [Desarrollar plantillas de proyectos con Copy Project](dev-copy-project.md).
 

@@ -2,18 +2,16 @@
 title: Estimar los costes y las ventas de proyecto cuando un recurso que se puede reservar completa varios roles en un proyecto
 description: En este tema se explica cómo usar las dimensiones de precios para admitir las estimaciones de precios y costes para un recurso que cumpla varios roles en un proyecto.
 author: rumant
-manager: tfehr
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: da17f0f58623128d51fda0f5529182cd37ea41b9
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 28a67e79b03dfbc38e9786350c931838ef27891a3d26787fc0334e0572528228
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531565"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990157"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>Estimar los costes y las ventas de proyecto cuando un recurso que se puede reservar completa varios roles en un proyecto 
 
@@ -106,3 +104,6 @@ Cuando expande la fila para ese registro de miembro del equipo, puede ver asigna
 ### <a name="estimates-grid"></a>Cuadrícula Estimaciones 
 
 En la cuadrícula **Estimaciones**, ambas asignaciones para el mismo recurso tienen un precio diferente. Se asignan precios a la asignación para el recurso en la **Tarea** A mediante el valor de atributo **Rol** de **Jefe de consultoría**. Se asignan precios a la asignación para el mismo recurso en la **Tarea B** mediante el valor de atributo **Rol** de **Técnico de red**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Página principal de datos de ejemplo
 description: Este tema proporciona información sobre los datos de ejemplo disponible para las operaciones de proyectos de Dynamics 365.
 author: rumant
-manager: AnnBe
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,11 +15,14 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: cee61604d6b10b17a535b3362dda5d00fa27a0ef
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 973a8e45237c8326f4e2e259c1598c857199c121
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124614"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011167"
 ---
 # <a name="sample-data-home-page"></a>Página principal de datos de ejemplo
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

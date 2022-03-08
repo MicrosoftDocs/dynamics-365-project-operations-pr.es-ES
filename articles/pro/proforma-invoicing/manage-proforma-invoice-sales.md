@@ -1,25 +1,23 @@
 ---
-title: Administrar una factura proforma (lite)
-description: En este tema se proporciona información acerca de cómo trabajar con las facturas proforma.
+title: Administrar una factura de proyecto proforma
+description: Este tema proporciona información sobre cómo trabajar con facturas proforma del proyecto.
 author: rumant
-manager: Annbe
-ms.date: 10/27/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: f14cf9d5ee25247500180081b8f407ee311db481a5ef5eac330e75d45baba54a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181563"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997447"
 ---
-# <a name="manage-a-proforma-invoice---lite"></a>Administrar una factura proforma (lite)
+# <a name="manage-a-proforma-project-invoice"></a>Administrar una factura de proyecto proforma 
 
 _**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
 
-En Dynamics 365 Project Operations, las facturas proforma se crean como una extensión de las facturas en Dynamics 365 Sales. Sin embargo, existen muchas diferencias en el proceso de facturación entre Sales y Project Operations cuando se trata de facturación. Por ejemplo, no es posible crear una nueva factura desde la página **Lista de facturas** en Project Operations, pero es posible hacerlo en Sales. Estas diferencias y extensiones están implementadas para respaldar los procesos de facturación para proyectos que son diferentes de una factura típica para un pedido de cliente.
+En Dynamics 365 Project Operations, las facturas proforma se crean como una extensión de las facturas de Dynamics 365 Sales. Sin embargo, en lo relativo al proceso de facturación, hay muchas diferencias entre Sales y Project Operations. Por ejemplo, no es posible crear una factura nueva desde la página **Lista de facturas** de Project Operations, pero sí es posible hacerlo en Sales. Estas diferencias y extensiones existen para dar soporte a los procesos de facturación de proyectos que necesiten una factura que no sea la factura típica de un pedido de ventas.
 
 > [!IMPORTANT]
 > Debido a las diferencias, no use las facturas en Sales y Project Operations de manera intercambiable.
@@ -69,9 +67,9 @@ En Project Operations, siempre hay una línea de factura para cada línea de con
 
 Cada línea de factura en una factura de proyecto incluye detalles de la línea de factura. Estos detalles de línea están relacionados con los datos reales de ventas no facturadas y los hitos que se relacionan con la línea de contrato a la que hace referencia la línea de factura. Todas estas transacciones están marcadas **Listo para facturar**.
 
-Para la línea **Factura de tiempo y material**, los detalles de la línea de factura se agrupan en **Cobrable**, **No imputable** y **Complementario** en la página **Línea de factura**. Los detalles de **Línea de factura con cargo** se suman al total de la línea de factura. **Complementario** y **Datos reales no imputables** no se suman al total de la línea de la factura.
+Para una línea **Factura de tiempo y material**, los detalles de la línea de factura se agrupan en **Imputable**, **No imputable**, y **Complementario** en la página **Línea de factura**. Los detalles de **Línea de factura con cargo** se suman al total de la línea de factura. **Complementario** y **Datos reales no imputables** no se suman en el total de la línea de la factura.
 
-Para la línea **Factura de precio fijo**, los detalles de la línea de factura se crean a partir de hitos que están marcados como **Listo para facturar** en la línea de contrato relacionada. Una vez que se crea el detalle de la línea de factura a partir de un hito, el estado de facturación en el hito se actualiza a **Factura de cliente creada**.
+Para una línea **Factura de precio fijo**, los detalles de la línea de factura se crean a partir de hitos que están marcados como **Listo para facturar** en la línea de contrato relacionada. Una vez que se crea el detalle de la línea de factura a partir de un hito, el estado de facturación en el hito se actualiza a **Factura de cliente creada**.
 
 ### <a name="edit-invoice-line-details"></a>Editar detalles de línea de factura
 
@@ -98,8 +96,12 @@ Los siguientes campos están disponibles en el detalle de una línea de factura 
 | **Impuesto** | Establecido por defecto a partir de la fuente actual. El campo puede ser editado por el usuario | El usuario puede editar el campo al crear un nuevo detalle de línea de factura sin un respaldo real. |
 | **Importe ampliado** | Un campo calculado, calculado como **Importe + Impuestos**. Un campo de solo lectura que no puede editarse. | &nbsp; |
 | **Tipo de facturación** | Establecido por defecto a partir de la fuente actual. El campo puede ser editado por el usuario. | Al seleccionar **Cobrable**, se suma la línea al total de la línea de la factura. **Complementario** y **No imputable** lo excluirán del total de la línea de factura. |
+| **Seleccionar producto** | Establecido de forma predeterminada a partir de los datos reales del origen, este es un campo de solo lectura. | Cuando crea un nuevo detalle de línea de factura sin un respaldo real, este campo se puede editar. |
+| **Producto** | Establecido de forma predeterminada a partir de los datos reales del origen, este es un campo de solo lectura. | Cuando crea un nuevo detalle de línea de factura sin un respaldo real, este campo se puede editar si el campo **Seleccionar producto** está establecido en **Producto existente**. |
+| **Nombre del producto** | Establecido de forma predeterminada a partir de los datos reales del origen, este es un campo de solo lectura. | En un nuevo detalle de línea de factura, donde se selecciona el identificador de producto del catálogo, este campo se establece en el nombre del producto. Para un producto fuera de catálogo, el campo se establece en el nombre asignado al concepto de fuera de catálogo. |
+| **Descripción de fuera de catálogo** | Establecido de forma predeterminada a partir de los datos reales del origen, este es un campo de solo lectura. | Cuando crea un nuevo detalle de línea de factura sin un respaldo real, puede agregar una descripción para "fuera de catálogo" del producto. |
 | **Tipo de transacción** | Establecido por defecto a partir de la fuente actual. Un campo de solo lectura que no puede editarse. | Establecido de forma predeterminada en **Ventas facturadas** y bloqueado al crear un nuevo **Detalle de la línea de la factura** sin respaldo real.  |
-| **Clase de transacción** | Establecido por defecto a partir de la fuente actual. Un campo de solo lectura que no puede editarse. | Establecido de forma predeterminada en función de si el usuario elige crear un detalle de línea de factura de **Hora**, **Gastos** o **Cuota** al mismo tiempo que crea un nuevo **Detalle de la línea de la factura** sin un respaldo real. Bloqueado para edición. |
+| **Clase de transacción** | Establecido por defecto a partir de la fuente actual. Un campo de solo lectura que no puede editarse. | Se establece de forma predeterminada en función de si el usuario elige crear un detalle de línea de factura por **Hora**, **Gastos**, **Material**, o **Tarifa** al mismo tiempo que crea un nuevo **Detalle de línea de factura** sin un respaldo real. Bloqueado para edición. |
 
 Los siguientes campos están disponibles en un detalle de la línea de factura que está respaldado por un hito:
 
@@ -144,3 +146,6 @@ Si tiene datos reales que llegaron después de que se creó la factura, puede in
 En Project Operations, puede crear líneas de factura para productos que no se aplican a ningún proyecto o para todos los proyectos junto con líneas de factura basadas en proyectos. Estas líneas de factura se crean como líneas de contrato basadas en productos y, una vez que se marcan como listas para facturar, se agregan como líneas de factura basadas en productos.
 
 Una vez que haya agregado líneas de factura basadas en productos, no se pueden cambiar. Sin embargo, pueden eliminarse del borrador de la factura proforma.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

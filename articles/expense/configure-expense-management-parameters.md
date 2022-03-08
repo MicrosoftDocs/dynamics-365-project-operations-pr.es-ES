@@ -2,18 +2,16 @@
 title: Configurar los parámetros de administración de gastos
 description: Este tema describe los parámetros que controlan el comportamiento general en la gestión de gastos.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1e1181467c51384c4de7dcda2de29ed531360a0a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121059"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995462"
 ---
 # <a name="configure-expense-management-parameters"></a>Configurar los parámetros de administración de gastos
 
@@ -83,3 +81,6 @@ Este tema describe los parámetros y el control del comportamiento general en la
 | Mostrar declaración anticorrupción   | Seleccione esta opción para mostrar el texto anticorrupción cuando se crea un informe de gastos. Luego, se pueden habilitar categorías de gastos específicas que requerirán que se seleccione la declaración anticorrupción en el informe de gastos. Por ejemplo, una categoría de obsequio relacionada con un gasto de funcionario público puede requerir que el empleado confirme que el gasto cumple con la política de la empresa relacionada con funcionarios gubernamentales. |
 | Mensaje anticorrupción para el remitente | Introduzca el texto que se debe mostrar a un empleado que está creando un informe de gastos. Para introducir texto específico del idioma que se mostrará, según el idioma del usuario, seleccione **Traducciones**. |
 | Mensaje anticorrupción para el aprobador  | Introduzca el texto que se debe mostrar al aprobador al crearse un informe de gastos. Para introducir texto específico del idioma que se mostrará, según el idioma del usuario, seleccione **Traducciones**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Novedades o cambios en la versión de actualización 20, V3, de Project Service Automation
 description: En este tema se muestran las características y correcciones disponibles en la Versión de actualización de Project Service Automation 20, V3
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 9939e2f354b69dcbc304f4f6e2ac41a00f251fed69f37978059f4053335ee651
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147134"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993622"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Versión de actualización de Project Service Automation 20, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Nos complace anunciar la última actualización de la aplicación Project Service Automation para Dynamics 365. Esta versión incluye algunas mejoras importantes en la calidad, el rendimiento y la facilidad de uso. Esta versión es compatible con Dynamics 365 9.x. Para actualizar a esta versión, visite la página de soluciones en línea del Centro de administración para Dynamics 365 para instalar la actualización. Para obtener más información, consulta [Instalar, actualizar o quitar una solución preferida](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Nos complace anunciar la última actualización de la aplicación Project Service Automation para Dynamics 365. Esta versión incluye algunas mejoras importantes en la calidad, el rendimiento y la facilidad de uso. Esta versión es compatible con Dynamics 365 9.x. Para actualizar a esta versión, visite la página de soluciones en línea del Centro de administración para Dynamics 365 para instalar la actualización. Para obtener más información, consulta [Instalar, actualizar o quitar una solución preferida](/power-platform/admin/install-remove-preferred-solution).
 
 En este tema se muestran las características y correcciones que son nuevas o que han cambiado para Project Service Automation V3, versión de actualización 20. Esta versión tiene un número de compilación V 3.10.31.37 y generalmente está disponible a través de una actualización automática en junio de 2020.
 
@@ -42,7 +40,7 @@ Se han solucionado los siguientes problemas:
 
 - La importación de miembros del equipo del proyecto con un método de asignación que requiere horas da como resultado un mensaje de error poco claro cuando las horas especificadas son cero.
 - Los usuarios reciben un error incorrecto cuando se ha ingresado el número máximo de caracteres en el campo **Descripción** para una tarea de proyecto.
-- La página **Descargar complemento Microsoft Dynamics 365 Project Service Automation** redirige a la página de descarga en inglés cuando la configuración de idioma del usuario está establecida en japonés.
+- La **página de descarga del complemento Microsoft Dynamics 365 Project Service Automation** redirige a la página de descarga en inglés cuando la configuración de idioma del usuario está establecida en japonés.
 - Cuando se produce un error del servidor, la etiqueta de sincronización de la pestaña **Calendario** del formulario **Proyectos** a veces permanece.
 - Las actualizaciones de tareas redundantes se envían al servidor cuando se modifica una tarea.
 
@@ -62,3 +60,6 @@ Se han solucionado los siguientes problemas:
 - La lista **Precio de coste de unidad de organización** permite superposiciones en la vigencia de la fecha.
 - Los usuarios no pueden cambiar **OrgUnit** cuando el tipo de pedido no está basado en el trabajo porque dará lugar a un error de excepción de referencia nula.
 - Al intentar navegar desde el formulario **Detalles de línea de presupuesto**, de vuelta a la pestaña **Presupuesto**, el formulario se actualiza y muestra la pestaña **Resumen**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: 'Novedades de noviembre de 2020: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
 description: Este tema proporciona información sobre las actualizaciones de calidad disponibles en la versión de noviembre de 2020 de Project Operations para escenarios basados en recursos / no almacenados.
 author: sigitac
-manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c7ec9360401bf214ae867769b0e48e545a6bad48
-ms.sourcegitcommit: 64d0de964a9b66c015ffcf1db62cbb6216cb3187
+ms.openlocfilehash: f6b14a1cbe7f3d41c86aedaf863434214f911eaa
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4367287"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995642"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novedades de noviembre de 2020: Project Operations para escenarios basados en recursos/no mantenidos en existencias
 
@@ -67,4 +65,7 @@ Este tema se aplica a los siguientes componentes y versiones de Dynamics 365 Pro
 | Contabilidad de proyecto  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Habilitar la función, múltiples líneas de contrato no es posible sin la integración de CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Actualizaciones regulatorias
-Para obtener información sobre actualizaciones normativas para aplicaciones de Finance and Operations, vea [Actualizaciones regulatorias](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). También puede iniciar sesión en LCS y ver las actualizaciones normativas planificadas mediante la herramienta de búsqueda de problemas. La búsqueda de problemas le permite buscar por país, tipo de función y lanzamiento.
+Para obtener información sobre actualizaciones normativas para aplicaciones de Finance and Operations, vea [Actualizaciones regulatorias](/dynamics365/finance/localizations/regulatory-updates). También puede iniciar sesión en LCS y ver las actualizaciones normativas planificadas mediante la herramienta de búsqueda de problemas. La búsqueda de problemas le permite buscar por país, tipo de función y lanzamiento.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

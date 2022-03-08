@@ -2,8 +2,6 @@
 title: Escenarios de varias divisas (versión 3.x)
 description: En este tema se proporciona información sobre escenarios de varias divisas.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bdb9ccad84e0f510118502d4253f5c83a760f8bb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 70f27d29c74a82f0307bd0724347960e5755e3a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145694"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014812"
 ---
 # <a name="multiple-currency-scenarios"></a>Escenarios de varias divisas
 
@@ -72,10 +70,10 @@ Esta sección describe un ejemplo de un proyecto que Contoso UK entrega a un cli
 
 1. La divisa GBP y el yen japonés (JPY) están configurados en **Configuración** \> **Administración de empresas** \> **Divisas**. 
 2. Se configura una cuenta de cliente con el nombre **Fabrikam - Japan** y se selecciona el JPY como divisa en la cuenta.
-3. Se configura una unidad organizativa con el nombre **Contoso UK** y se selecciona la GBP como divisa.
-4. Se crea un contrato de proyecto donde se especifica **Contoso UK** como unidad de contratación y **Fabrikam – Japan** como cliente.
+3. Se configura una unidad organizativa con el nombre **Contoso Reino Unido** y se selecciona la GBP como divisa.
+4. Se crea un contrato de proyecto donde se especifica **Contoso Reino Unido** como unidad de contratación y **Fabrikam – Japan** como cliente.
 5. Las líneas de contrato del proyecto se crean en función de las organizaciones de facturación de las distintas clases de transacciones del proyecto, como, por ejemplo, la facturación de tiempo frente a la facturación de gastos.
-6. Se crea un proyecto en el que se especifica **Contoso UK** como unidad de contratación. Este proyecto se crea y se asigna a las líneas de contrato del proyecto.
+6. Se crea un proyecto en el que se especifica **Contoso Reino Unido** como unidad de contratación. Este proyecto se crea y se asigna a las líneas de contrato del proyecto.
 
 
 Durante la estimación que utiliza el detalle de la línea de presupuesto, el detalle de la línea de contrato del proyecto, o bien en la línea de estimación de la programación, siempre se crean dos registros en la entidad. Un registro es para el coste y el otro es para las ventas.
@@ -105,3 +103,6 @@ Dynamics 365 gestiona las acumulaciones de importes en diferentes divisas de for
 | Gasto           | Ventas sin facturar   | 17 jun | Antonio  | Alquiler de vehículos           | 1 ea     | 150 EUR      | 150 EUR     | 0,94          | 159,57 USD     |
 
 Para calcular el valor de ventas sin facturar total en el proyecto, puede crear un campo de acumulación para el campo **Importe** en todos los datos reales relacionados con las ventas sin facturar. El campo de acumulación es una construcción de Dynamics 365 que permite utilizar fórmulas rápidas en registros relacionados.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

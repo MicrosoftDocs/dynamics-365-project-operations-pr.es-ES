@@ -2,11 +2,9 @@
 title: Crear contratos avanzados para la facturación según el progreso
 description: Este tema explica cómo crear contratos de proyecto para que pueda generar facturas para los clientes, basadas en un porcentaje del trabajo completado.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 661e8aa0be70e9c8aadcb3a3d9dd6d39d1bcb2fd55d198b3c9af19fc2d0ae9d3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085277"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001002"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Crear contratos avanzados para la facturación según el progreso
 [!include [banner](../includes/banner.md)]
@@ -103,3 +101,6 @@ Las categorías de presupuesto calculan automáticamente los importes de la fact
 8. Opcional: asigne la regla de facturación a proyectos adicionales. En la ficha desplegable **Proyecto**, en la sección **Proyectos disponibles**, seleccione un proyecto y luego seleccione el botón de flecha derecha para agregar el proyecto a la sección **Proyectos seleccionados**.
 9. Opcional: calcule el porcentaje que el cliente retiene de los pagos de una factura. En la ficha desplegable **Condiciones de retención de pagos**, seleccione la fuente de financiación y, a continuación, en el campo **Porcentaje de retención**, introduzca el porcentaje de retención.
 10. Repita estos pasos para crear reglas de facturación adicionales para el contrato del proyecto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

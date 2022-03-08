@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 89801696d6a2924d78c85f6e9b4281409222dbb0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: dfd91e859244cc03b9b358b057bded79eeea0182
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085329"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289390"
 ---
 # <a name="project-grants"></a>Concesiones de proyectos
 
@@ -79,3 +79,6 @@ Puede crear una concesión ingresando todos los detalles en un nuevo registro, o
 2. Seleccione la concesión para modificar.
 3. En el panel de acciones, en la pestaña **Concesión** en el grupo **Mantener**, seleccione **Editar**.
 4. Revise los detalles de la concesión y realice los cambios necesarios.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

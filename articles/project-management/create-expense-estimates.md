@@ -2,23 +2,21 @@
 title: Estimaciones financieras de gastos en proyectos
 description: Este tema proporciona información sobre cómo definir o estimar los gastos basados en proyectos.
 author: rumant
-manager: Annbe
 ms.date: 03/19/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ad4901b1264289f1da881154bc147fc3f8da698f
-ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
+ms.openlocfilehash: f4d42724af61aa241671e8dacacbe2be5a7d531f55c2025a89ff777ac41e9b67
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "5701803"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987862"
 ---
 # <a name="financial-estimates-for-expenses-on-projects"></a>Estimaciones financieras de gastos en proyectos
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Dynamics 365 Project Operations permite a los gerentes de proyecto definir los gastos basados en proyectos para cada proyecto o tarea. Cada elemento de gasto se puede asociar con una tarea de proyecto específica. Los gastos se clasifican en diferentes categorías de gastos, que se definen a nivel organizativo. El precio y el coste de cada categoría de gastos se definen en la lista de precios. 
+Dynamics 365 Project Operations permite a los gerentes de proyecto definir los gastos basados en proyectos para cada proyecto o tarea. Cada elemento de gasto se puede asociar con una tarea de proyecto específica. Los gastos se clasifican en diferentes categorías de gastos, que se definen a nivel organizativo. El precio y los costes de cada categoría de gastos se definen en la lista de precios. 
 
 Complete los siguientes pasos para ver, agregar o eliminar un gasto del proyecto.
 

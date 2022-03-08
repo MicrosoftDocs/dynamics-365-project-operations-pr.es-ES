@@ -1,6 +1,8 @@
 ---
 title: ¿Cómo personalizo el flujo de proceso de negocio de las fases del proyecto?
 description: Información general sobre cómo personalizar el flujo de proceso de negocio de fases del proyecto?
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1d0168f187e6b0880713aac04bd87dbc2209197d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993167"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149024"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>¿Cómo personalizo el flujo de proceso de negocio de las fases del proyecto?
 
@@ -105,6 +107,3 @@ Siga estas instrucciones para crear su propio flujo de proceso de negocio para l
 
    ![Captura de pantalla de cómo modificar vistas en la entidad de proyecto](media/FAQ-Customize-BPF-8-720.png)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Configure los roles de recursos
 description: Cómo configurar roles de recursos en Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: deaff0977ebb50382a28494fba2a1c34ed5cc9b4
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 59c66aa7bd6c481f8db3088bede71c1ab81a203f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144929"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999332"
 ---
 # <a name="configure-resource-roles-project-service"></a>Configurar roles de recursos (Project Service)
 
@@ -59,3 +57,6 @@ Los roles desempeñan un papel importante en el planeamiento de proyectos, al de
   
 ### <a name="see-also"></a>Vea también  
  [Configuración de recursos](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

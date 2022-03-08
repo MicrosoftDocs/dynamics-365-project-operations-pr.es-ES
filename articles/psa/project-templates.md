@@ -2,8 +2,6 @@
 title: Plantillas de proyecto
 description: En este tema se proporciona información sobre cómo usar plantillas de proyecto para una configuración rápida del proyecto.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: bedcbc76d932a81e0c78bb58ce6a161446a26dde
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148079"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998297"
 ---
 # <a name="project-templates"></a>Plantillas de proyecto 
 
@@ -69,3 +67,6 @@ Cuando copie entre líneas de estimación de proyecto, se actualizarán las list
 ### <a name="copying-a-project-team"></a>Copia de un equipo de proyecto
 
 Cuando se copia un equipo de proyecto de una plantilla de proyecto a un proyecto, se copian los recursos genéricos, junto con las habilidades y competencias que se definen en la plantilla. Las asignaciones de recursos genéricos también se mantienen como si estuvieran en la plantilla de proyecto. Los recursos con nombre no son compatibles con las plantillas de proyecto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

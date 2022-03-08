@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/17/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: 23378b51c8324a60918ad494e7f659dbbc94e2a8
+ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4513945"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4085380"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Crear un programa de factura en una línea de contrato basada en un proyecto 
 
@@ -49,7 +49,7 @@ Complete los siguientes pasos para generar un programa de facturación basado en
 3. Abra la línea de contrato **Precio fijo** que esta creando para el programa de hitos. En la pestaña **Facturación de hitos**, seleccione la fecha de inicio de facturación y la frecuencia de la facturación. 
 4. En la subcuadrícula, seleccione **Generar hitos periódicos**. La programación de la factura se genera con los campos **Nombre del hito**, **Fecha del hito** e **Importe del hito** campos configurados de la siguiente manera:
 
-    - **Nombre del hito**: este nombre viene impuesto por la frecuencia de factura.
+    - **Nombre del hito**: esta fecha se establece según la frecuencia de facturación.
     - **Fecha del hito**: esta fecha se establece según la frecuencia de facturación.
     - **Cantidad del hito**: el importe se calcula dividiendo la cantidad del contrato en la línea de contrato por el número de hitos, según indiquen la frecuencia y el inicio de la facturación y las fechas de entrega solicitadas.
 
@@ -64,7 +64,7 @@ Puede generar hitos de precio fijo manualmente cuando no se dividen periódicame
 1. Abra la línea de contrato de precio fijo para la que está creando un hito y en la pestaña **Programación de facturas**, en la subcuadrícula, seleccione **+ Crear nuevo hito de línea de contrato**. 
 2. En la página **Creación de hitos**, introduzca la información requerida según la siguiente tabla.
 
-| Campo | Ubicación | Descripción | Impacto posterior |
+| Campo | Ubicación | Relevancia, propósito y orientación | Impacto posterior |
 | --- | --- | --- | --- |
 | Nombre del hito | Creación rápida | Campo de texto para el nombre del hito. | Esto se lleva al hito de la línea del contrato del proyecto y la factura. |
 | Tarea de proyecto | Creación rápida | Si el hito está vinculado a la tarea del proyecto, use esta referencia para agregar una lógica personalizada y establecer el estado del hito en función del estado de la tarea. | La aplicación no tiene ningún impacto posterior de esta referencia para ninguna tarea. |

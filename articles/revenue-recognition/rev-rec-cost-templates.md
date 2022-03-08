@@ -2,18 +2,16 @@
 title: Configurar plantillas de costes
 description: Este tema proporciona información sobre cómo crear y usar plantillas de costes en Project Operations.
 author: sigitac
-manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 786b2b9b140f82d406044c2ed05761d7f46ee9e0
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: f4a515db31a31028af4a60927ab360be6c261a3f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642744"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013912"
 ---
 # <a name="set-up-cost-templates"></a>Configurar plantillas de costes
 
@@ -79,3 +77,6 @@ Para crear plantillas de costes, siga estos pasos:
 7. En la pestaña **Categorías**, seleccione las categorías de proyectos que se incluirán en la línea de la plantilla de coste.
 8. En la pestaña **General**, seleccione si esta línea se incluirá en el cálculo del porcentaje de finalización.
 9. Seleccione el método del coste de finalización que se utilizará al calcular el porcentaje de finalización.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

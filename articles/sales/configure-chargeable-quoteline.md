@@ -2,18 +2,16 @@
 title: Configurar los componentes facturables de una línea de oferta basada en proyecto
 description: Este tema proporciona información sobre los componentes incluidos, cargables y no cargables en las líneas de oferta basadas en proyecto.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 36765ab3687a8aaf3ae4a631516a1d61c14e981e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: a9febf305e3cd29bab42cd6c83a941f7b494fa56
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642564"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013597"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>Configurar los componentes facturables de una línea de oferta basada en proyecto
 
@@ -53,3 +51,6 @@ Una estimación o un valor real creado para un gasto solo se considerará imputa
 | No | Sí | No puede estar establecido | No facturable | Facturación a tiempo real: No disponible </br>Tipo de facturación en gastos actuales: No facturable |
 | Sí | No | Imputable | No puede estar establecido | Facturación a tiempo real: Facturable </br>Tipo de facturación un gasto actual: No disponible |
 | Sí | No | No facturable | No puede estar establecido | Facturación a tiempo real: No facturable </br> Tipo de facturación un gasto actual: No disponible |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

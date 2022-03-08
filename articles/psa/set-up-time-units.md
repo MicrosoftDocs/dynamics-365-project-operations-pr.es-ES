@@ -2,8 +2,6 @@
 title: Establecer unidades de tiempo
 description: Cómo configurar unidades de tiempo en Project Service
 author: revathimuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b7e70c92ed29b20b02fd672665cf20199a2110b3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 348dbe3e660eaad28f4f8f1c4d15b7cebf6540cb358d013724088f099f0b6a95
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149789"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008562"
 ---
 # <a name="set-up-time-units-project-service"></a>Configurar unidades de tiempo (Project Service)
 
@@ -47,3 +45,6 @@ Configure las unidades de tiempo en el catálogo de productos que usará como ba
   
 ### <a name="see-also"></a>Vea también  
  [Configure Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

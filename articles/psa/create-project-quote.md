@@ -3,7 +3,7 @@ title: Crear una oferta de proyecto
 description: Cómo crear un presupuesto de proyecto en Project Service
 author: ruhercul
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cdf3a9cbc1df0b2c4630f142fb1643b35919b21e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: efa18faffc6b5e97e8fbc21352688874d07e906f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149429"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085256"
 ---
 # <a name="create-a-project-quote-project-service"></a>Crear un presupuesto de proyecto (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

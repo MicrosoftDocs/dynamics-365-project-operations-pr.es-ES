@@ -2,11 +2,9 @@
 title: Configurar y utilizar pagos de proveedores de pago cuando se pagan
 description: Este tema explica cómo crear condiciones de pago cuando se paga (PWP) para que pueda liberar pagos parciales a proveedores, según los pagos de los clientes.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9976dadf57f1c84bf3f295ff3c8359c16e4849a3bf887f8bd33e46a04e2a5952
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085127"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008877"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Configurar y utilizar pagos de proveedores de pago cuando se pagan
 
@@ -80,3 +78,6 @@ Cuando un proveedor completa su trabajo en un proyecto y le envía una factura, 
 2. En la página **Facturas de proveedores con pago al cobro**, en el campo de búsqueda, introduzca los valores para encontrar la factura del proveedor que desea revisar y luego seleccione **Buscar**.
 3. En la ficha desplegable **Líneas de factura de proveedor**, seleccione las líneas que desea cambiar.
 4. Si las condiciones de **Pago al cobro** se cumplen para la línea de factura, seleccione **Liberar el pago del proveedor**. La opción **Pago al cobro** se borra y el valor del campo **Listo para el pago** se cambia a **Sí**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

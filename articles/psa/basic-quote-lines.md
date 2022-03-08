@@ -2,8 +2,6 @@
 title: Ofertas y líneas de oferta
 description: En este tema se proporciona información sobre las ofertas y las líneas de oferta.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145154"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995467"
 ---
 # <a name="quotes-and-quote-lines"></a>Ofertas y líneas de oferta
 
@@ -131,3 +129,6 @@ Para una línea de oferta de precio fijo, puede utilizar la cuadrícula **Progra
 - Para crear hitos de facturación divididos por igual, seleccione una frecuencia de facturación, escriba la fecha de inicio de facturación en la línea de oferta y seleccione **Fecha de finalización solicitada** para la oferta en la sección **Resumen** del encabezado de la oferta. A continuación seleccione **Generar hitos periódicos** para crear hitos divididos por igual según la frecuencia de factura seleccionada. 
 - Para crear un hito de facturación de suma total, cree un hito y después introduzca el valor de línea de oferta como importe de hito.
 - Para crear hitos de facturación basados en tareas específicas en el plan de proyecto, cree un hito y asígnelo al elemento de programación del proyecto en la interfaz de usuario del hito de facturación.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

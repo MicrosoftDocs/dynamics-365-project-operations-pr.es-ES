@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 433cd05746423d5e654a999b80aee594c1fd1455
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5829e915778b2c4ff337c9a1866b2dba33666249
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148619"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5284694"
 ---
 # <a name="time-and-expense-changes-project-service-automation-3x"></a>Cambios de tiempo y gastos (Project Service Automation 3.x)
 
@@ -32,3 +32,6 @@ En la versión 3.0 de Dynamics 365 Project Service Automation, se han actualizad
 Anteriormente, las vistas de calendario y cuadrícula para Tiempo y Gastos se implementaron como controles DHTMLX. Los artefactos relacionados con esa implementación de las vistas de calendario y cuadrícula ahora están obsoletos (en desuso).
 
 Para obtener la lista completa de recursos en desuso, consulte [Recursos web en desuso en Project Service Automation 3.x](web-resources-deprecated-v3.x.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

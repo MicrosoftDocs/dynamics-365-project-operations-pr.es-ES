@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b0e0280cb94e6f0186f59024c233e8fcb9e86abf
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 43ee08d5dd9d7ea956bcec5302d4788059a8f617
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663749"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278664"
 ---
-# <a name="concepts-unique-to-project-based-contracts"></a>Conceptos únicos para contratos basados en proyectos
+# <a name="project-contracts---key-concepts"></a>Contratos de proyectos: conceptos clave
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
 

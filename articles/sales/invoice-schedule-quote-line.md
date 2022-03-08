@@ -2,18 +2,16 @@
 title: Facturar programaciones en líneas de oferta basadas en proyecto
 description: Este tema proporciona información sobre cómo crear programaciones e hitos de facturas para las líneas de oferta.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 0a8e94bf7ff807028cec05380ac8c9bc22094d82
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180843"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010177"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Facturar programaciones en líneas de oferta basadas en proyecto
 
@@ -68,3 +66,6 @@ Abra la línea de oferta de precio fijo para la que necesita crear un hito. En l
 | Estado de la factura | Creación rápida | Cuando se crea un hito, este estado siempre se establece en **No listo para facturación**. | Esto se propaga al hito de la línea del contrato del proyecto y a la factura. |
 | Importe de línea | Creación rápida | Importe o valor del hito que se facturará al cliente. | Esto se propaga al hito de la línea del contrato del proyecto y a la factura. |
 | Impuestos | Creación rápida | Importe del impuesto que se aplicará al hito. | Esto se propaga al hito de la línea del contrato del proyecto y a la factura. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

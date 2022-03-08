@@ -2,18 +2,16 @@
 title: Administrar varios clientes en contratos de proyectos
 description: Este tema proporciona información sobre cómo administrar varios clientes en un contrato de proyecto.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5554cb062710c3587d81b1a29771a7af84d2d05f
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 1adb786c36d43a148e8c5a8b25ded5a997557119f7e6e9e2248935ad4ed211d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643194"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992092"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Administrar varios clientes en contratos de proyectos
 
@@ -47,3 +45,6 @@ Puede crear, actualizar o eliminar un cliente de contrato desde la pestaña **Cl
 Puede editar los porcentajes de división de facturación editando en la cuadrícula. Cuando los porcentajes de división de facturación no suman el 100 por ciento, se produce un error. Después de editar un porcentaje de división de facturación, actualice la página **Contrato de proyecto** para eliminar el error.
 
 También puede seleccionar **Distribuir uniformemente** en la subcuadrícula de los clientes del contrato de proyecto. Las divisiones de facturación se asignan equitativamente a todos los clientes del contrato de proyecto. Si hay algún factor de redondeo, se agregará el factor al cliente de redondeo. Uno de los clientes del contrato siempre tiene la marca **Redondeo** establecida en **Sí**. Ese cliente es el cliente de redondeo. Normalmente, el cliente de redondeo también es el cliente principal del contrato, pero eso no es obligatorio.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

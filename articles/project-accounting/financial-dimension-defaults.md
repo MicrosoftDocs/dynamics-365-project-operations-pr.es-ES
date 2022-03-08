@@ -2,18 +2,16 @@
 title: Valores predeterminados de dimensiones financieras
 description: Este tema proporciona información sobre cómo configurar los valores predeterminados de la dimensión financiera.
 author: sigitac
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 03b9a9028c1610b191db9c1bfb0163adc88bdf3e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 8a7845b7f6b7256edad6efc7b20872078f8c5ab0b60477d2a42b5b9d61104bff
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642384"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005457"
 ---
 # <a name="financial-dimension-defaults"></a>Valores predeterminados de dimensiones financieras
 
@@ -21,7 +19,7 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no en e
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations usa el marco [Dimensiones financieras](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) en Dynamics 365 Finance para proporcionar información adicional sobre las transacciones del libro mayor auxiliar y del libro mayor general del proyecto.
+Dynamics 365 Project Operations usa el marco [Dimensiones financieras](/dynamics365/finance/general-ledger/financial-dimensions) en Dynamics 365 Finance para proporcionar información adicional sobre las transacciones del libro mayor auxiliar y del libro mayor general del proyecto.
 
 Las dimensiones financieras predeterminadas se pueden establecer en un cliente, una fuente de financiación del proyecto, un hito, una línea de contrato del proyecto o un proyecto.
 
@@ -40,17 +38,17 @@ Los contratos de proyecto se crean y mantienen en Common Data Service (CDS). Los
 
 1. Vaya a **Gestión de proyectos y contabilidad** > **Proyectos** > **Contratos de proyecto**.
 2. Seleccione el registro que desea actualizar y en la pestaña **Contrato de proyecto**, seleccione **Mostrar contabilidad predeterminada**.
-3. Expanda **Información relacionada** y seleccione la pestaña **Fuentes de financiamiento**.
-4. Estalbezca los valores predeterminados de dimensiones financieras. Observe que las dimensiones financieras usan los valores predeterminados de la cuenta del cliente.
+3. Expanda **Información relacionada** y seleccione la pestaña **Fuentes de financiación**.
+4. Establezca los valores predeterminados de las dimensiones financieras. Observe que las dimensiones financieras usan los valores predeterminados de la cuenta del cliente.
 
 ### <a name="set-financial-dimensions-for-a-project-contract-line"></a>Establecer dimensiones financieras para una línea de contrato de proyectos
 
 1. Vaya a **Gestión de proyectos y contabilidad** > **Proyectos** > **Contratos de proyecto**.
 2. Seleccione el registro que desea actualizar y en la pestaña **Contrato de proyecto**, seleccione **Mostrar contabilidad predeterminada**.
 3. Expanda **Información relacionada** y seleccione la pestaña **Líneas de contrato**.
-4. Estalbezca los valores predeterminados de dimensiones financieras. Los valores predeterminados de la dimensión financiera son aplicables y solo se pueden usar con líneas de contrato de precio fijo (hito).
+4. Establezca los valores predeterminados de las dimensiones financieras. Los valores predeterminados de la dimensión financiera son aplicables y solo se pueden usar con líneas de contrato de precio fijo (hito).
 
-Estos valores predeterminados se utilizan en transacciones a cuenta del proyecto y líneas de factura relacionadas.
+Estos valores predeterminados se utilizan en transacciones a cuenta y líneas de factura del proyecto relacionadas.
 
 ## <a name="define-default-financial-dimensions-for-projects"></a>Definir dimensiones financieras predeterminadas para proyectos
 
@@ -59,6 +57,9 @@ Los proyectos se crean y mantienen en CDS. Los atributos contables para proyecto
 1. Vaya a **Gestión de proyectos y contabilidad** > **Proyectos** > **Todos los proyectos**.
 2. Seleccione el registro que desea actualizar y en la pestaña **Proyecto**, seleccione **Mostrar contabilidad predeterminada**.
 3. Expanda **Información relacionada** y seleccione la pestaña **Configuración**.
-4. Estalbezca los valores predeterminados de dimensiones financieras. Observe que las dimensiones financieras usan los valores predeterminados de la cuenta del cliente. Si el proyecto está asociado con una línea de contrato con varios clientes de contrato de proyecto, el cliente principal se utiliza para las dimensiones financieras predeterminadas.
+4. Establezca los valores predeterminados de las dimensiones financieras. Observe que el valor predeterminado de las dimensiones financieras proviene de la cuenta del cliente. Si el proyecto está asociado a una línea de contrato con varios clientes de contrato de proyecto, el cliente principal se utiliza para dar el valor predeterminado a las dimensiones financieras.
 
 Las dimensiones financieras predeterminadas del proyecto se utilizan para establecer los valores predeterminados de las líneas de diario para las transacciones de tiempo, gastos y tarifas en el **Diario de integración de Project Operations** y en las líneas de factura de proyectos relacionados.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

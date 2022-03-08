@@ -2,11 +2,9 @@
 title: Administrar delegación
 description: Este tema proporciona información sobre cómo un delegado de gastos puede crear y administrar informes de gastos para otro empleado.
 author: suvaidya
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 09fc5a58b3367d1b70d2ddddb8e920769055f9d2
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f68d62ea96c9a31771b1938ee4c6505aadf0f2a81f168920a1f057227b986281
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122724"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997807"
 ---
 # <a name="manage-delegation"></a>Administrar delegación
 Un delegado de gastos puede crear y administrar informes de gastos para otro empleado.
@@ -36,6 +34,9 @@ Para configurar un usuario como delegado de gastos, complete los siguientes paso
 
 Si la clave de gestión de funciones **Habilitar página de lista de delegados de gastos** está habilitada, estará disponible la página e lista **Gastos delegados en mi**. Vaya a **Administración de gastos** > **Mis gastos** > **Gastos delegados en mi**.
 
-Un delegado puede filtrar y buscar rápidamente los informes de gastos existentes que le han sido delegados. El delegado también puede crear rápidamente un nuevo informe de gastos para otros usuarios seleccionando **Nuevo informe de gastos**.
+Un delegado puede filtrar y buscar rápidamente los informes de gastos existentes que le han sido delegados. El delegado también puede crear rápidamente un informe de gastos nuevo para otros usuarios seleccionando **Nuevo informe de gastos**.
 
 Los delegados pueden crear y administrar informes de gastos para otros empleados yendo a **Administración de gastos** > **Mis gastos** > **Informes de gastos** y seleccionando **Abrir gastos de otros usuarios**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

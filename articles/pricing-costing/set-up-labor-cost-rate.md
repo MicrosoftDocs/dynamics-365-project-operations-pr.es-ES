@@ -1,19 +1,17 @@
 ---
 title: Configurar tarifas de costos laborales
-description: Este tema proporciona información sobre cómo configurar tarifas para el costo de la mano de obra Operaciones del proyecto
+description: Este tema proporciona información sobre cómo configurar tarifas para el costo de la mano de obra Project Operations
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2c41bab8626087e3cadc075b02011ef974b5eecb16e83ed67f78f4e020a83dd8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180618"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986197"
 ---
 # <a name="set-up-labor-cost-rates"></a>Configurar tarifas de costos laborales
 
@@ -83,4 +81,7 @@ En la lista de precios de costes de Fabrikam UK-Robotics, las tarifas de costes 
 | Developer | Fabrikam India | 5500 INR |
 | Developer | Fabrikam UK | 115 GBP |
 
-La lista de precios de coste puede proporcionar tarifas de mano de obra en varias monedas. Al generar una estimación de costos en el proyecto, las operaciones del proyecto convertirán estas tasas de costos a la moneda del proyecto y se las mostrarán al usuario. Cuando se aprueba una entrada de tiempo y se crea un costo real, el costo real se calcula en la moneda de esa línea de precio de función coincidente en la lista de precios de costo. Los costes reales por tiempo en un solo proyecto se pueden registrar en múltiples monedas. Sin embargo, al acumular o resumir los costes laborales reales a nivel de proyecto, las operaciones del proyecto convertirán todos los montos de costos laborales a la moneda del proyecto, que el usuario puede ver.
+La lista de precios de coste puede proporcionar tarifas de mano de obra en varias monedas. Al generar una estimación de costos en el proyecto, Project Operations convertirán estas tasas de costos a la moneda del proyecto y se las mostrarán al usuario. Cuando se aprueba una entrada de tiempo y se crea un costo real, el costo real se calcula en la moneda de esa línea de precio de función coincidente en la lista de precios de costo. Los costes reales por tiempo en un solo proyecto se pueden registrar en múltiples monedas. Sin embargo, al acumular o resumir los costes laborales reales a nivel de proyecto, Project Operations convertirán todos los montos de costos laborales a la moneda del proyecto, que el usuario puede ver.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

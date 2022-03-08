@@ -2,19 +2,17 @@
 title: 'Novedades o cambios de enero de 2021: Project Operations para escenarios basados en existencias/producción'
 description: Este tema proporciona información sobre las actualizaciones de calidad disponibles en la versión de enero de 2021 de Project Operations para escenarios basados en existencias/producción.
 author: andchoi
-manager: tfehr
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: ce1c83e1e238d7919c38d2babea622ca59de86d3
-ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
+ms.openlocfilehash: f7ad339872f18bf5aaae6f472436fc318d4cd919fcae58cc1b6e4d5ab19bd68c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "4958669"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992767"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Novedades o cambios de enero de 2021: Project Operations para escenarios basados en existencias/producción
 
@@ -144,4 +142,7 @@ Este tema se aplica a los siguientes componentes y versiones de Dynamics 365 Pro
 | Viajes y gastos                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | En Project Operations, no se puede crear ni aprobar tiempo con tareas de empresas vinculadas en Dataverse.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>Actualizaciones regulatorias
-Para obtener información sobre actualizaciones normativas para aplicaciones de Finance and Operations, vea [Actualizaciones regulatorias](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). También puede iniciar sesión en LCS y ver las actualizaciones normativas planificadas mediante la herramienta de búsqueda de problemas. La búsqueda de problemas le permite buscar por país, tipo de función y lanzamiento.
+Para obtener información sobre actualizaciones normativas para aplicaciones de Finance and Operations, vea [Actualizaciones regulatorias](/dynamics365/finance/localizations/regulatory-updates). También puede iniciar sesión en LCS y ver las actualizaciones normativas planificadas mediante la herramienta de búsqueda de problemas. La búsqueda de problemas le permite buscar por país, tipo de función y lanzamiento.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
