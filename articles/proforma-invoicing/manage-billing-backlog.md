@@ -2,18 +2,16 @@
 title: Administrar el trabajo pendiente de facturación
 description: Este tema proporciona información sobre cómo ver y trabajar con el trabajo pendiente de facturación en Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e428b551a755220cee67d54b2e63dd7a3c2ca393
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 2e839c1f32248fff6d97271796666b5031f66490ccd98574045b770100bf379f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866798"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991102"
 ---
 # <a name="manage-billing-backlog"></a>Administrar el trabajo pendiente de facturación
 

@@ -2,8 +2,7 @@
 title: ¿Por qué el precio se establece de forma predeterminada en cero en ventas de gastos reales?
 description: Las tres comprobaciones siguientes le ayudarán a resolver el problema de que el precio se establezca de forma predeterminada en 0 en ventas de gastos reales.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
+ms.prod: ''
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,14 +17,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5840bda4f74c720bfcdc7f4e84c8f22e0c6163ec
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6e477b7d5973398d50c6be03469d1c0a792b1b3323522329bc33cba755104968
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085168"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000822"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-sales-actuals"></a>¿Por qué el precio se establece de forma predeterminada en cero en ventas de gastos reales?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -35,7 +36,7 @@ Estas preguntas más frecuentes se aplican a gastos reales donde la clase de tra
 
 Busque el proyecto en el campo de proyecto de los datos reales y vaya a la página de proyecto. A continuación vaya a la pestaña Ventas. En la cuadrícula Líneas de contrato de proyecto, haga clic en el vínculo del campo de Contrato de proyecto. La página Contrato de proyecto se abrirá. En la página Contrato de proyecto, vaya a la pestaña Listas de precios de proyecto. Compruebe si hay al menos una lista de precios adjuntada aquí.
 
-Si no hay ninguna lista de precios adjunta en la cuadrícula Listas de precios de proyecto del Contrato de proyecto haga lo siguiente:
+Si no hay ninguna lista de precios adjunta en la cuadrícula Listas de precios de proyecto del Contrato de proyecto:
 
 - Adjunte una lista de precios a la cuadrícula Listas de precios de proyecto. Las listas de precios que pueden adjuntarse aquí deben tener el campo de contexto establecido en Ventas y el campo de divisa en la lista de precios debe coincidir con el campo de divisa en el Contrato de proyecto. Cuando haya creado las correcciones necesarias, vuelva a crear una entrada de gasto, apruébela, y compruebe que las ventas reales no facturadas muestran un precio válido.
 - Si tiene una o más listas de precios adjuntas en la cuadrícula Listas de precios de proyecto del Contrato de proyecto, vaya a la Comprobación 2.
@@ -47,7 +48,7 @@ Para que Project Service considere una lista de precios para precio predetermina
 - Inicie comprobando si no están vacías las fechas de inicio y finalización de la pestaña general para listas de precios adjuntas. Si las fechas de inicio y finalización de las listas de precios identificadas anteriormente están vacías, ha aislado el problema. 
 - Anote el campo de fecha de inicio en los gastos de ventas reales y compruebe si alguna de las listas de precios identificadas es aplicable para esa fecha. Por ejemplo, la fecha de gastos reales debe estar dentro de la fecha de inicio y la fecha de finalización de la lista de precios. 
     - Si no hay ninguna lista de precios que cubra esa fecha en las ventas de gastos reales, ha aislado el problema. Modifique las fechas de inicio y finalización de la lista de precios para asegurarse de que la lista de precios cubre la fecha de los gastos reales. 
-    - Si hay varias listas de precios que cubren la fecha en las ventas de gastos reales, ha aislado el problema. Puede soluciontaro editando las fechas de inicio y finalización de la lista o listas de precios de modo que haya sólo una lista de precios que cubra la fecha de los gastos reales. 
+    - Si hay varias listas de precios que cubren la fecha en las ventas de gastos reales, ha aislado el problema. Edite las fechas de inicio y finalización de las listas de precios de modo que haya sólo una lista de precios que cubra la fecha de los gastos reales. 
     - Si solo hay una lista de precios que cubre esa fecha de los gastos reales, pase a la Comprobación 3.
 Cuando termine de crear las correcciones necesarias, vuelva a crear una entrada de gasto, apruébela, y compruebe que las ventas reales no facturadas muestran un precio válido.
 
@@ -55,7 +56,7 @@ Cuando termine de crear las correcciones necesarias, vuelva a crear una entrada 
 
 Si ha completado correctamente la Comprobación 1 y la Comprobación 2, ahora debe tener únicamente una lista de precios de proyecto que es aplicable a la fecha de las ventas de gastos reales. Abra la lista de precios de proyecto y vaya a la pestaña Precios de categorías. Asegúrese de que hay una fila en la cuadrícula para la categoría de gastos específica en el Gasto real.
  
-- Si no hay ninguna fila, ha aislado el problema. Cree una fila en la cuadrícula Precio de categoría para la categoría en su coste real. Cuando termine, vuelva a crear una entrada de gasto, apruébela, y compruebe que las ventas reales no facturas muestra un precio válido. 
+- Si no hay ninguna fila, ha aislado el problema. Cree una fila en la cuadrícula Precio de categoría para la categoría en su coste real. A continuación, vuelva a crear una entrada de gasto, apruébela y compruebe que los datos de las ventas reales sin facturar muestran un precio válido. 
 - Si existe una fila de la categoría de gastos en la cuadrícula de precios de categorías, compruebe si tiene un precio válido.
 
 Para comprender qué es un precio válido, use estos métodos:
@@ -69,3 +70,6 @@ Si la configuración de precio para la categoría de gastos no es válida, ha ai
 Si aún no ve un precio válido en las ventas de gastos reales después de realizar las tres comprobaciones anteriores, registre un vale de soporte.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

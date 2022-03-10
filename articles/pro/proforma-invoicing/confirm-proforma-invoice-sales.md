@@ -1,26 +1,24 @@
 ---
-title: Confirmar una factura proforma (lite)
-description: Este tema proporciona información sobre confirmar facturas proforma en Project Operations.
+title: Confirmar una factura de proyecto proforma
+description: Este tema proporciona información sobre cómo confirmar las facturas proforma del proyecto en Project Operations.
 author: rumant
-manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 02b671e4ad327b2448529d7119211613f3a9cb27
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 37efb4923cbf9696ff85dfcd6dee9aac6badd68ed74a515e5ea5598aacfa3a83
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176542"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992992"
 ---
-# <a name="confirm-a-proforma-invoice---lite"></a>Confirmar una factura proforma (lite)
+# <a name="confirm-a-proforma-project-invoice"></a>Confirmar una factura de proyecto proforma 
 
 _**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
 
 
-Después de que se confirma una factura proforma, el estado de la factura del proyecto se actualiza a **Confirmado**. Cuando se confirma una factura, pasa a ser de solo lectura. En el futuro, la factura solo se puede corregir si hay correcciones o créditos iniciados por el cliente, o si la factura está marcada como pagada.
+Después de que se confirma una factura proforma, el estado de la factura del proyecto se actualiza a **Confirmado**. Cuando se confirma una factura, pasa a ser de solo lectura. En el futuro, la factura solo se puede corregir si hay correcciones o créditos iniciados por el cliente.
 
 En la siguiente tabla se enumeran los datos reales creadas por el sistema. Estos datos reales se crean cuando se realizan determinadas operaciones en el borrador de la factura del proyecto antes de que se confirme.
 
@@ -231,6 +229,70 @@ Un nuevo real de ventas no facturadas que se cobra por la cantidad y el monto en
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
+Facturar una transacción de material sin modificaciones en el borrador de la factura.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Una anulación de ventas sin facturar por la cantidad y el importe de la aprobación de utilización de material original.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un valor real de ventas facturado por la cantidad y el importe de la aprobación de utilización de material original.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Facturar una transacción de material que se editó para reducir la cantidad.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Una anulación de ventas sin facturar por la cantidad y el importe de la aprobación de tiempo original.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un nuevo real de ventas no facturadas que se cobra por la cantidad y el monto en el detalle de la línea de factura editada, una reversión de la venta real no facturada y un real de ventas facturado equivalente.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un nuevo real de ventas no facturadas que se cobra para las cantidad y la cifra restantes y la cantidad tras deducir las figuras corregidas de la línea de factura editada, una reversión de la venta real no facturada y un real de ventas facturado equivalente.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Facturar una transacción de material que se editó para aumentar la cantidad.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Una anulación de ventas sin facturar por la cantidad y el importe de la aprobación de utilización de material original.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un nuevo real de ventas no facturadas que se cobra por la cantidad y el monto en el detalle de la línea de factura editada, una reversión de la venta real no facturada y un real de ventas facturado equivalente.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
 Facturación de una tarifa.
                 </p>
             </td>
@@ -273,3 +335,6 @@ Ventas facturadas reales para la línea de productos con la cantidad y el monto 
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

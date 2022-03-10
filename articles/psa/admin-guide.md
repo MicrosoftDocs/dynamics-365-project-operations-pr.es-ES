@@ -2,8 +2,6 @@
 title: Guía del administrador
 description: Instrucciones paso a paso para la administración de Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7462a57ad750f255cfb48dbbeda7f899f51ecfa7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6e591bd9b00bb39efaf4bb2893329a1c853573f03cb2d51a7564e3a8fc8efa56
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085185"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005187"
 ---
 # <a name="administrator-guide-project-service"></a>Manual del administrador (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -50,3 +50,6 @@ Esta guía muestra el proceso de instalación y de configuración:
  [Guía de administrador de cuentas](../psa/account-manager-guide.md) [Jefe del proyecto Guide](../psa/project-manager-guide.md)   
  [Guía del administrador de recursos](../psa/resource-manager-guide.md)   
  [Guía de tiempo, gastos y colaboración](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

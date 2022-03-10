@@ -2,10 +2,9 @@
 title: Página principal de proyectos de recursos
 description: En este tema se proporciona información sobre las capacidades de administración de recursos en Project Service Automation (PSA) para Dynamics 365.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 11/28/2018
 ms.topic: article
 ms.author: ruhercul
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7fb1e2fbe08c3b2885b690915904d172f14fdb54
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b0ea56a7b41f5bb7d458b780f4e2611063e1b4a0ae2a6eb2acfa9cfef8c1cff0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282894"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984802"
 ---
 # <a name="resourcing-projects-home-page"></a>Página principal de proyectos de recursos
 

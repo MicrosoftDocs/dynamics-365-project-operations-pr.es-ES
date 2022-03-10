@@ -2,11 +2,9 @@
 title: Flujo de trabajo de gestión de gastos
 description: Este tema explica cómo puede usar el sistema de flujo de trabajo en Microsoft Dynamics 365 Finance para configurar un proceso de revisión para los informes de gastos en la Gestión de gastos.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 09/13/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowtableListPageRnr
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbee90450749c89f643d96e4d41a387c45e9abc5
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 7c2a2cae435342139f32d1bb5d38d68acd920453f5e6f6551e1f6d57967d8053
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960583"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001317"
 ---
 # <a name="expense-management-workflow"></a>Flujo de trabajo de gestión de gastos
 
@@ -55,3 +53,6 @@ El siguiente proceso es un ejemplo del flujo de trabajo de gestión de gastos pa
 Una vez verificados estos requisitos, se contabiliza el informe de gastos.
 
 Una vez que se contabiliza el informe de gastos, se autoriza el pago del informe de gastos y se reembolsa al empleado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

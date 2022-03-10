@@ -2,18 +2,16 @@
 title: Crear asignaciones de recursos
 description: Este tema proporciona información sobre cómo crear asignaciones de recursos genéricos y con nombre.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 829c1d1de7270e7cafbb98ef80235ae6404f77f7
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d2e7c9a340a482a62afc0c9f0aa46c24fda27ca6ef56fdc0160f06af846c0b53
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131769"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987907"
 ---
 # <a name="create-resource-assignments"></a>Crear asignaciones de recursos
 
@@ -42,3 +40,6 @@ Puede usar el cuadro de búsqueda de **Selector de recursos** para buscar todos 
 1. Desde la cuadrícula de tareas, el panel o la escala de tiempo, navegue hasta la celda **Asignado a**.
 2. En el cuadro de búsqueda, comience a escribir un nombre. Los resultados de búsqueda del nombre se muestran en el **Selector de recursos** en **Otros recursos**.
 3. Seleccione el recurso que desea asignar a la tarea o seleccione el nombre del recurso en **Otros recursos del equipo**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

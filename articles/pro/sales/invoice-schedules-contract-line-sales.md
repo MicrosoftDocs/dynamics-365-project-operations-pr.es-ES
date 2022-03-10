@@ -2,18 +2,16 @@
 title: Crear programaciones de facturas en una línea de contrato basada en proyecto (lite)
 description: Este tema proporciona información sobre cómo crear calendarios e hitos de facturas.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4706a2a711efa7d176030deaa33b65bca28d8498
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: dc0cf92ed7af0353baa0f93fc7fb69e02905f805eb04a7b4c7bc99cfe59da62a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273399"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006087"
 ---
 # <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>Crear programaciones de facturas en una línea de contrato basada en proyecto (lite)
 

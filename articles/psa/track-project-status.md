@@ -2,8 +2,6 @@
 title: Realizar un seguimiento del estado de un proyecto
 description: Cómo hacer seguimiento del estado de un proyecto en Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e9c8b594d468016264d0b4d9745597a35f55e50e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 32e5867a773206aaed532645302b7f7cc789d5074f9acdb3bbb95acf8492d25e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149609"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996727"
 ---
 # <a name="track-a-projects-status-project-service"></a>Seguir el estado de un proyecto (Project Service)
 
@@ -58,3 +56,6 @@ A medida que la participación progresa, las fases del proyecto se actualizan pa
 
 ### <a name="see-also"></a>Vea también  
  [Guía del jefe de proyecto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

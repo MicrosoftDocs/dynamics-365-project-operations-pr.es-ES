@@ -2,18 +2,17 @@
 title: Información general sobre líneas de ofertas basadas en productos (lite)
 description: En este tema se proporciona información sobre el trabajo con líneas de oferta basadas en producto.
 author: rumant
-manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f6aa428c486f149308ad078f9d7a80a0be0f0f04
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.custom: intro-internal
+ms.openlocfilehash: 871597b38d72d2b670c375d2a1711a6022e3446ba3955a3d2a233a6486d85f5c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4178209"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003342"
 ---
 # <a name="product-based-quote-lines-overview---lite"></a>Información general sobre líneas de ofertas basadas en productos (lite)
 
@@ -46,3 +45,6 @@ Cuando una línea de oferta se basa en un catálogo de productos, puede reemplaz
 Si selecciona **Anular precios**, el precio predeterminado no está establecido. En su lugar, debe escribir un precio para el producto en la línea de oferta. Si selecciona **Uso por defecto**, se utiliza el precio de venta predeterminado y el campo se bloquea para su edición.
 
 Los precios de venta predeterminados se introducen en las líneas basadas en productos de una oferta. El campo **Precios** se establece en **Reemplazar precios** para que pueda editar el precio predeterminado en las líneas de oferta. Se trata de una invalidación específica de Project Operations para el comportamiento de las líneas basadas en productos en Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

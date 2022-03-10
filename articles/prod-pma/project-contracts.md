@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a794ec38ac07c1418f9e95b741941a83492bb3d5
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1b92668c38071e8b1afdee9a79fd4a25190248ada30380bfb79054a6dc587f95
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999782"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001047"
 ---
 # <a name="project-contracts"></a>Contratos de proyecto
 
@@ -170,7 +170,7 @@ Tiene tres fuentes de financiación que quiere utilizar en el siguiente orden:
 
 Para cumplir este objetivo, en primer lugar debe hacer lo siguiente:
 
--   Establezca límites de financiación para la fuente de financiación 2 y la fuente de financiación 3, para sus respectivos importes.
+-   Configure límites de financiación para la fuente de financiación 2 y la fuente de financiación 3, para sus respectivos importes.
 -   Cree las siguientes reglas de financiación:
     -   Regla 1 (Prioridad 1): asignar el 50 por ciento de las transacciones a la fuente de financiación 2 y el 50 por ciento a la fuente de financiación 3.
     -   Regla 2 (Prioridad 2): asignar el 100 por cien de las transacciones a la fuente de financiación 3.
@@ -256,7 +256,7 @@ Puede configurar los siguientes tipos de reglas de facturación:
 -   **Tarifa**: facturar a un cliente por sus servicios más una tarifa de administración, que generalmente es un porcentaje del coste de los servicios.
 -   **Tiempo y material**: facturar a un cliente por el valor del tiempo y los materiales que se utilizan en un proyecto.
 
-Para todos los tipos de reglas de facturación, puede especificar un porcentaje de retención que se deduce de las facturas de los clientes hasta que un proyecto alcanza una etapa acordada. El porcentaje de retención de pago se especifica en el contrato del proyecto. El importe se calcula y se resta del valor total de las líneas en una factura de cliente. 
+Para todos los tipos de reglas de facturación, puede especificar un porcentaje de retención que se deduce de las facturas de los clientes hasta que un proyecto alcanza una fase acordada. El porcentaje de retención de pago se especifica en el contrato del proyecto. El importe se calcula y se resta del valor total de las líneas en una factura de cliente. 
 
 Para las reglas de facturación **Tiempo y material** y **Progreso**, puede asignar categorías imputables. Las categorías imputables indican las transacciones que deben incluirse en las facturas de los clientes. 
 

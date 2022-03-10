@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025795"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547130"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versiones de asignaciones de doble escritura para Project Operations
 
@@ -32,7 +32,7 @@ Las siguientes asignaciones son requisitos previos necesarios para la solución 
 
 1. En la lista de mapas, seleccione la asignación Contabilidad **(msdyn\_ledgers)** con todos los requisitos previos y active la casilla **Sincronización inicial**. En el campo **Maestro para sincronización inicial**, seleccione **aplicaciones de Finance and Operations** tanto para la asignación de contabilidad como para todas las asignaciones de requisitos previos. Seleccione **Ejecutar**.
 
-![Sincronización de asignaciones de contabilidad](media/DW6.png)
+![Sincronización de asignaciones de contabilidad.](media/DW6.png)
 
 2. Siga los mismos pasos para todas las asignaciones de tabla restantes enumeradas en la tabla anterior. No seleccione la casilla **Sincronización inicial** al ejecutar esas asignaciones.
 
@@ -49,9 +49,9 @@ Las siguientes asignaciones se requieren para una solución de Project Operation
 | Tabla de integración de Project Operations para estimaciones de materiales (msdyn\_estimatelines) | 1.0.0.0 | No es necesario para aprovisionamiento. |
 | Propuestas de factura de proyecto V2 (invoices) | 1.0.0.3 | No es necesario para aprovisionamiento. |
 | Datos reales de integración de Project Operations (msdyn_actuals) | 1.0.0.14 | No es necesario para aprovisionamiento. |
-| Hitos de la línea de contrato de integración de Project Operations (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | No es necesario para aprovisionamiento. |
-| Entidad de integración de Project Operations para estimaciones de gastos (msdyn_estimateslines) | 1.0.0.2 | No es necesario para aprovisionamiento. |
-| Entidad de integración de Project Operations para estimaciones de tiempo (msdyn_resourceassignments) | 1.0.0.5 | No es necesario para aprovisionamiento. |
+| Hitos de la línea de contrato de integración de Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | No es necesario para aprovisionamiento. |
+| Entidad de integración de Project Operations para estimaciones de gastos (msdyn_estimatelines) | 1.0.0.2 | No es necesario para aprovisionamiento. |
+| Entidad de integración Project Operations para estimaciones horarias (msdyn_resourceassignments) | 1.0.0.5 | No es necesario para aprovisionamiento. |
 | Entidad de exportación de categorías de gastos de proyecto de integración de Project Operations (msdyn_expensecategories) | 1.0.0.1 | No es necesario para aprovisionamiento. |
 | Entidad de exportación de gastos de proyecto de integración de Project Operations (msdyn_expenses) | 1.0.0.2 | No es necesario para aprovisionamiento. |
 | Entidad de exportación de facturas de proveedores de proyectos de integración de Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | No es necesario para aprovisionamiento. |
@@ -65,7 +65,7 @@ Complete los siguientes pasos para ejecutar las asignaciones enumeradas.
 
 1. Habilite los roles de recursos del proyecto para la asignación de tabla **todas las empresas (bookableresourcecategories)** ya que esta asignación requiere la sincronización inicial. En el campo **Maestro para sincronización inicial**, seleccione **Common Data Service**. 
 
- ![Sincronización de asignación de tabla de roles de recursos](media/6ResourceInitialSync.jpg)
+ ![Sincronización de asignaciones de tabla de roles de recursos.](media/6ResourceInitialSync.jpg)
 
  Espere hasta que el estado de la asignación sea **Ejecutando** antes de pasar al siguiente paso.
 

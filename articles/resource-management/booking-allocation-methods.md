@@ -2,11 +2,9 @@
 title: Métodos de asignación de reservas
 description: En este tema se proporciona información sobre cómo funcionan los métodos de asignación de reservas en Project Operations.
 author: ruhercul
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c2a964c18c7eae61c5a0239da3b18da31b6ad574
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 294cc39624723f9eb069aa36067a015c0b708f83a9e0183416655f9bd874fa9a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085098"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004152"
 ---
 # <a name="booking-allocation-methods"></a>Métodos de asignación de reservas
 
@@ -81,3 +79,6 @@ En resumen, los siguientes métodos de asignación producen reserva excesiva si 
 - Horas distribuidas equitativamente
 
 Cuando se usa uno de estos tres métodos de asignación no se le notificará si el recurso se ha reservado en exceso. Para corregir el exceso de reserva, deberá usar al tablero Programación.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

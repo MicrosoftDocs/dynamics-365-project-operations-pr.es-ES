@@ -2,16 +2,16 @@
 title: Crear una estructura de descomposición del trabajo
 description: Este tema explica cómo se crea una estructura de descomposición del trabajo que incluye los controles básicos en la nueva interfaz de programación.
 author: ruhercul
-ms.date: 06/30/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
-ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655438"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928636"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Crear una estructura de descomposición del trabajo
 
@@ -95,7 +95,7 @@ Como Administrador, puede definir campos personalizados en la entidad de la tare
 
 ## <a name="staffing-attributes"></a>Atributos de personal
 
-Puede obtener acceso a los atributos de personal a través del campo **Recursos** en la programación. Puede buscar un recurso existente o seleccionar **Crear** y, en el panel **Creación rápida** , agregar un miembro del equipo del proyecto como un nuevo recurso.
+Puede obtener acceso a los atributos de personal a través del campo **Recursos** en la programación. Puede buscar un recurso existente o seleccionar **Crear** y, en el panel **Creación rápida** , agregar un miembro del equipo del proyecto como un nuevo recurso.  Cuando busca un recurso utilizando el selector de recursos en la cuadrícula de tareas, la vista de tablero o gantt, la búsqueda devuelve miembros del equipo del proyecto existentes o recursos activos que se pueden reservar.
 
 Los campos **Rol**, **Unidad de dotación de recursos** y **Nombre de puesto** se utilizan para describir los requisitos de personal para la tarea. Estos atributos de personal junto con la programación de tareas se utilizan para encontrar los recursos disponibles para realizar esta tarea.
 
@@ -127,6 +127,7 @@ Debe tener en cuenta las siguientes limitaciones si utiliza la estructura de des
 | Recursos totales máximos para un proyecto              | 150                  |
 | Vínculos totales máximos (solo sucesor) para un proyecto | 600                  |
 | Campos personalizados totales máximos para un proyecto          | 10                   |
+| Elementos máximos de la lista de verificación por tarea                   | 20                   |
 
 **Limitaciones de tareas**
 

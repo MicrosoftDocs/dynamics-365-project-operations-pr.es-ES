@@ -1,8 +1,6 @@
 ---
 title: ¿Cómo personalizo el flujo de proceso de negocio de las fases del proyecto?
 description: Información general sobre cómo personalizar el flujo de proceso de negocio de fases del proyecto?
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d0168f187e6b0880713aac04bd87dbc2209197d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149024"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002982"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>¿Cómo personalizo el flujo de proceso de negocio de las fases del proyecto?
 
@@ -62,11 +60,11 @@ Si la actualización no es una opción, puede personalizar el flujo de proceso d
 1. Agregue fases adicionales a la configuración predeterminada, manteniendo los nombres de fases ingleses para **Quote**, **Plan** y **Close**.
 
 
-![Captura de pantalla de cómo agregar fases a la configuración predeterminada](media/FAQ-Customize-BPF-1.png)
+![Captura de pantalla de cómo agregar fases a la configuración predeterminada.](media/FAQ-Customize-BPF-1.png)
  
 2. Cree su propio flujo de proceso de negocio y conviértalo en el flujo de proceso de negocio principal para la entidad de proyecto, lo que le permite tener los nombres de etapa que desee. Sin embargo, si desea usar las mismas fases estándar de proyecto **Quote**, **Plan** y **Close**, necesita realizar algunas personalizaciones que se toman de sus nombres de fases personalizados. La lógica más compleja está en el cierre del proyecto, que usted puede desencadenar desactivando el registro del proyecto.
 
-![Personalización de BPF](media/FAQ-Customize-BPF-2.png)
+![Personalización BPF.](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Consideraciones adicionales para la aplicación Project Service versión 2.4.4.30 o anterior en la plataforma 9.0
 
@@ -82,11 +80,11 @@ Siga estas instrucciones para crear su propio flujo de proceso de negocio para l
 
 1. Vaya a **Configuración** > **Centro de procesos**. No copie el flujo de proceso de negocio de las fases de proyecto porque también se copiará la lógica de negocio de Project Service.
 
-  ![Crear proceso](media/FAQ-Customize-BPF-3.png)
+  ![Crear proceso.](media/FAQ-Customize-BPF-3.png)
 
 2. Use el diseñador del proceso para crear los nombres de fases que desee. Si desea la misma funcionalidad que las fases predeterminadas para **Quote**, **Plan** y **Close**, tendrá que crearla basada en los nombres de fase del flujo de proceso de negocio personalizado.
 
-   ![Captura de pantalla del diseñador del proceso usado para personalizar BPF](media/FAQ-Customize-BPF-4.png) 
+   ![Captura de pantalla del diseñador del proceso usado para personalizar BPF.](media/FAQ-Customize-BPF-4.png) 
 
 3. En el diseñador del proceso, haga clic en **Ordenar flujo de proceso** para convertir el flujo de proceso de negocio personalizado en el flujo de proceso de negocio principal para la entidad de proyecto moviéndolo por el flujo de proceso de negocio de las fases del proyecto hasta la parte superior de la lista.
 
@@ -97,13 +95,16 @@ Siga estas instrucciones para crear su propio flujo de proceso de negocio para l
 
 4. Agregue un nuevo campo personalizado a la entidad de proyecto para capturar las fases personalizadas en el flujo de proceso de negocio personalizado. Deberá agregar lógica de negocios (complemento/flujo de trabajo) para actualizar este campo cuando la fase del flujo de proceso de negocio personalizado se actualice.
 
-   ![Captura de pantalla de personalizar la entidad de proyecto](media/FAQ-Customize-BPF-6-720.png)
+   ![Captura de pantalla de personalizar la entidad de proyecto.](media/FAQ-Customize-BPF-6-720.png)
 
 5. Modificar el gráfico **Proyecto por fase** para usar su nuevo campo personalizado para fases.
 
-   ![Captura de pantalla de usar el gráfico Proyecto por fase](media/FAQ-Customize-BPF-7-720.png)
+   ![Captura de pantalla de usar el gráfico Proyecto por fase.](media/FAQ-Customize-BPF-7-720.png)
 
 6. Modifique cualquier vista de la entidad de proyecto para incluir su nuevo campo personalizado para fases.
 
-   ![Captura de pantalla de cómo modificar vistas en la entidad de proyecto](media/FAQ-Customize-BPF-8-720.png)
+   ![Captura de pantalla de cómo modificar vistas en la entidad de proyecto.](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Novedades o cambios en la versión de actualización 18, V3, de Project Service Automation
 description: En este tema se muestran las características y correcciones que están disponibles en la versión de actualización 18, V3, de Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 04/27/2020
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bd6038b3594e8507c4a441b00ddc2eb240f796dc
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 43491a3820d84e9d2a43e678f2604e234e18794d9e28889429debc0b991bbfac
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949205"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004377"
 ---
 # <a name="project-service-automation-update-release-18-v3"></a>Versión de actualización de Project Service Automation 18, V3
 

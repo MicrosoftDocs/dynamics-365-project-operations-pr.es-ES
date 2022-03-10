@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
 ms.custom: intro-internal
-ms.openlocfilehash: e8d62dcf9975e5427926210a881dec2c256f1b8b
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368497"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001992"
 ---
 # <a name="pricing-dimensions-overview"></a>Información general de dimensiones de precios
 
@@ -33,7 +33,7 @@ Debido a esto, hay dos tipos de valores de dimensión de precios disponibles:
 
 Dynamics 365 Project Operations se envía con un conjunto predeterminado de dimensiones de precios. Puede ver estas dimensiones de precios yendo a **Project Operations** > **Parámetros**. En el registro de parámetros, en la pestaña **Dimensión de precios basados en importes**, verifique que el rol **msdyn_resourcecategory** y la unidad organizativa de recursos **msdyn_organizationalunit** tenga los campos **Aplicable a ventas** y **Aplicable a costes** establecido en **Sí**. Con estos cambios habilitados, puede configurar el precio y el coste de cada combinación de roles y unidades organizativas.
 
-![Captura de pantalla de los parámetros Project Service con la opción "Aplicable a ventas" resaltada](media/PS-OOB-parameters.png)
+![Captura de pantalla de los parámetros de Project Service con la opción "Aplicable a ventas" resaltada.](media/PS-OOB-parameters.png)
 
 Si necesita fijar el precio o el coste de sus recursos mediante atributos adicionales, puede crear campos, entidades y dimensiones personalizados. Para obtener más información, vea los siguientes temas: 
   

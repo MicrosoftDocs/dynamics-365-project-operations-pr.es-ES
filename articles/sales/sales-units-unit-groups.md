@@ -1,12 +1,10 @@
 ---
 title: Unidades y unidades de venta
-description: En este tema se proporciona información sobre cómo crear unidades y unidades de venta en Dynamics 365 Project Operations.
+description: Este tema proporciona información sobre cómo crear unidades y unidades de venta en Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f588e41d001befeac87bb6a4e28a83cf5cfa865
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a0aec1cc32ebdea9d2dbc7cc891f82da07e044f5c5655e008068f72dd198587
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131049"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999562"
 ---
 # <a name="units-and-unit-groups"></a>Unidades y unidades de venta
 
@@ -46,3 +44,6 @@ Para completar los pasos de este tema, asegúrese de que se le haya asignado el 
 3. En el campo **Cantidad**, introduzca la cantidad que contendrá la unidad. Por ejemplo, si una caja contiene dos piezas, introduzca "2". 
 4. En el campo **Unidad base**, seleccione una unidad base para establecer la unidad de medida más baja para la unidad. Por ejemplo, puede seleccionar "Pieza".
 5. Seleccione **Guardar**:
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

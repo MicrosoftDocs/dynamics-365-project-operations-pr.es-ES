@@ -2,20 +2,18 @@
 title: 'Contratos de proyectos: conceptos clave'
 description: Este tema proporciona información sobre los conceptos clave de contratos de proyectos en Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 43ee08d5dd9d7ea956bcec5302d4788059a8f617
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278664"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986962"
 ---
-# <a name="project-contracts---key-concepts"></a>Contratos de proyectos: conceptos clave
+# <a name="concepts-unique-to-project-based-contracts"></a>Conceptos únicos para contratos basados en proyectos
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
 

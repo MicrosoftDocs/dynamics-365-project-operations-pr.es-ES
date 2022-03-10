@@ -2,18 +2,16 @@
 title: Administrar estimaciones de ingresos
 description: En este tema se proporciona información acerca de cómo trabajar con estimaciones de ingresos para proyectos.
 author: sigitac
-manager: Annbe
 ms.date: 11/04/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 98df0301eaa8e9f8e9cd51fc5714254ae3bbc83d
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 8d118826f8c63b9540435e320924d4562ab191ba126088560f5def1c1ff0b908
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531561"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996547"
 ---
 # <a name="manage-revenue-estimates"></a>Administrar estimaciones de ingresos
 
@@ -90,3 +88,6 @@ La estimación cambia el estado a **Eliminado**.
 Utilice esta página para invertir todas las eliminaciones con una fecha estimada especificada y con un estado estimado de **Eliminado**. El estado de la transacción cambia después de seleccionar los campos correspondientes.
 
 Esto también cambia automáticamente el estado del proyecto a **En curso** si la fase del proyecto está establecida como finalizada. El estado de estimación del período del proyecto vuelve a cambiar a **Registrado**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b067f900fa49bba04536b49600dbe80a2167f707
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 548ee7db1c8ca14f1b88d76a534d2922549eba138659e67a84cd89e6f7ee2170
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997847"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998527"
 ---
 # <a name="manage-resources"></a>Administrar recursos
 
@@ -70,7 +70,7 @@ Siga estos pasos para especificar los conocimientos necesarios en un recurso gen
 
 4. En el cuadro **Creación rápida: Característica de requisito** que aparece, en el campo **Característica**, seleccione el conocimiento necesario. Después, el campo **Valor de clasificación**, seleccione el nivel de competencia para dicho conocimiento. Por último, en el campo **Requisitos de recursos**, establezca el requisito de tomar los recursos de las unidades organizativas o incluso recursos con nombre. Cuando haya terminado, seleccione **Guardar**.
 
-    ![Cuadro de diálogo Creación rápida: Característica de requisito](media/Resource-Management-image12.png)
+    ![Cuadro de diálogo Creación rápida: Característica de requisito.](media/Resource-Management-image12.png)
 
 5. En la página **Requisito de recursos**, seleccione **Reservar** para cumplir los requisitos de recursos.
 

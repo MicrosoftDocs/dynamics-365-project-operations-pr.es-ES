@@ -2,65 +2,47 @@
 title: Regístrese para obtener suscripciones de vista previa de Project Operations para escenarios de recursos/no en existencias
 description: Este tema proporciona información sobre cómo suscribir e implementar Project Operations para escenarios basados en recursos/no en existencias.
 author: sigitac
-manager: Annbe
-ms.date: 10/07/2020
+ms.date: 07/02/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121149"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323437"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Regístrese para obtener suscripciones de vista previa de Project Operations para escenarios de recursos/no en existencias
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
 
-Este tema explica cómo suscribirse a la oferta de vista previa/partner y cómo implementar el entorno de Project Operations para escenarios basados en recursos/no en existencias.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Este tema explica cómo suscribirse a la oferta de prueba e implementar el entorno de Project Operations para escenarios basados en recursos/no mantenidos en existencias.
 
 ## <a name="prerequisites"></a>Requisitos previos
-
-- Recibirá un correo electrónico invitándole a participar en la vista previa. Puede solicitar una vista previa en el [Sitio web de Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
-- El usuario que implementa la vista previa debe tener derechos de administrador global de inquilinos de Azure.
-- La implementación de un entorno de Finance requiere una suscripción de Azure válida que se facturará por entorno. Puede utilizar la suscripción existente de su organización o utilizar una [Prueba de Azure](https://azure.microsoft.com/en-us/free/) para empezar. El entorno CDS se proporcionará de forma gratuita durante un período limitado de 30 días.
-
-## <a name="subscribe"></a>Suscribirse
-
-Cuando se apruebe su [solicitud de vista previa](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), recibirá tres ofertas de Microsoft por correo electrónico. Estas ofertas le permiten implementar la Vista previa de Project Operations:
-
-- Dynamics 365 Project Operations (CRM): prueba de Vista previa
-- Office 365 Project Operations: prueba de Vista previa
-- Dynamics 365 Finance - Prueba de versión preliminar
+- El usuario que implementa la vista previa debe tener derechos de administrador global de inquilinos de Azure. Puede crear un inquilino durante el primer caje de oferta. 
+- La implementación de un entorno de Finance requiere una suscripción de Azure válida que se facturará por entorno. Puede utilizar la suscripción existente de su organización o utilizar una [Prueba de Azure](https://azure.microsoft.com/free/) para empezar. El entorno CDS se proporcionará de forma gratuita durante un período limitado de 30 días.
 
 > [!IMPORTANT]
 > Solo una persona, el inquilino administrador, necesita realizar esta tarea en una organización. Si no es el suscriptor de esta versión, espere hasta que su organización se haya registrado y haya recibido sus credenciales de usuario.
+> 
+> Las pruebas son de un solo uso en el inquilino. Solo puede ejecutar una prueba una vez. Le recomendamos que cree un nuevo inquilino para la prueba.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM): prueba de Vista previa 
+
+### <a name="dynamics-365-project-operations-ce---preview-trial"></a>Dynamics 365 Project Operations (CE) - Prueba preliminar 
 
 Antes de comenzar, asegúrese de haber iniciado sesión en un navegador con la cuenta de trabajo del usuario en el inquilino donde desea la vista previa de Project Operations.
 
-1. Canjee el primer código de oferta, **Dynamics 365 Project Operations (CRM): versión preliminar de prueba** pegándolo en la URL del navegador.
-
-![Canjear oferta](./media/16RedeemFirstOfferNew.png)
-
+1. Cajee el primer código de oferta de **Dynamics 365 Project Operations** aquí [Prueba de Projectos Operations](https://aka.ms/try-po).
 2. Confirme su pedido.
 
-![Confirmar el pedido](./media/17ConfirmOrderNew.png)
-
-Verá que la oferta de confirmación se canjeó correctamente.
-
-![Confirmación](./media/18OrderConfirmationNew.png)
-
-### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations: prueba de Vista previa
-
-Repita los mismos pasos que con el primer código de oferta. Asegúrese de agregar el segundo código de oferta con la misma cuenta de usuario que se utilizó con el primer código de oferta.
+  Verá que la oferta de confirmación se canjeó correctamente.
 
 ### <a name="dynamics-365-finance-preview-trial"></a>Prueba de versión preliminar de Dynamics 365 Finance
 
-Repita los mismos pasos con la última oferta del correo electrónico de bienvenida.
+Vaya a [Prueba preliminar de Dynamics 365 for Finance](https://aka.ms/trypoche) y repita los pasos de la sección anterior con la oferta: Registrarse para el entorno alojado en la nube.  
 
 ## <a name="assign-licenses"></a>Asignación de licencias
 
@@ -69,13 +51,9 @@ Repita los mismos pasos con la última oferta del correo electrónico de bienven
 
 1. Vaya al [Centro de administración de Microsoft 365](https://portal.office.com/) para asignar las licencias a sus usuarios.
 
-![Página principal del Centro de administración](./media/14AdminPortal.png)
-
 2. En la página **Usuarios activos**, seleccione los usuarios a los que desea asignar una licencia.
 
-![Asignar licencias](./media/15AssignLicenses.png)
-
-3. Verifique que las licencias **Vista previa de Dynamics 365 Project Operations (CRM)** y **Office 365 Project Operations: vista previa** se han seleccionado y seleccione **Guardar cambios**.
+3. Verifique que la licencia de **Dynamics 365 Project Operations** ha sido seleccionada y seleccione **Guardar cambios**.
 
 > [!NOTE]
 > No es necesario asignar la oferta de prueba de Finance a un usuario.
@@ -90,9 +68,12 @@ Para completar esta tarea, siga los pasos del tema [Agregar una suscripción de 
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Implementar el entorno de demostración de Finance con Project Operations para escenarios de recursos/no en existencias
 
-Siga las instrucciones del tema [Aprovisionar un nuevo entorno](resource-provision-new-environment.md) para completar la implementación. Utilizar el tipo de implementación de [entorno de demostración](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) para la versión preliminar. 
+Siga las instrucciones del tema [Aprovisionar un nuevo entorno](resource-provision-new-environment.md) para completar la implementación. Utilizar el tipo de implementación de [entorno de demostración](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) para la versión preliminar. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Instalar la configuración de CDS y los datos de configuración
 
 Instale los datos de instalación y configuración de CDS como se describe en el tema [Configurar y aplicar datos de configuración en Common Data Service](resource-apply-pro-setup-config-data.md).
-Complete este paso solo después de que se implemente el entorno de demostración de Finanzas y los datos de demostración en FO estén listos.
+Complete este paso solo después de que se implemente el entorno de demostración de Finance y los datos de demostración estén listos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,21 +1,19 @@
 ---
-title: Administración de varios clientes en líneas de ofertas basadas en proyectos
+title: Administrar varios clientes en líneas de ofertas basadas en proyectos (lite)
 description: En este tema se describe cómo administrar varios clientes en líneas de oferta basadas en proyectos.
 author: rumant
-manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6a509fcf8d1fa11b4ce1ba1493d9c3cc64b4f22f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d015e9107741fd496f7d3639731f33fcdcc9b9bdd5f501c9ad2617e37a707f35
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085049"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001722"
 ---
-# <a name="managing-multiple-customers-on-project-based-quote-lines"></a>Administración de varios clientes en líneas de ofertas basadas en proyectos
+# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Administrar varios clientes en líneas de ofertas basadas en proyectos (lite)
 
 _**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
 
@@ -43,3 +41,6 @@ La siguiente tabla muestra los campos del registro de cliente de línea de ofert
 Puede editar los porcentajes de división de facturación en línea. Cuando los porcentajes de división de facturación no suman el 100 %, se produce un error. Después de editar los porcentajes de división de facturación, actualice la página de la línea de oferta para eliminar el error.
 
 Utilice la acción de distribución uniforme en la subcuadrícula de clientes de la línea de oferta para asignar divisiones de facturación a todos los clientes de la línea de oferta. Si hay un factor de redondeo, se agregará al cliente de redondeo. Uno de los clientes de la línea de oferta siempre se etiqueta como el cliente de redondeo, lo que significa que el registro del cliente de la línea de oferta tiene el indicador de redondeo establecido en **Sí**. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

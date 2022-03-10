@@ -2,12 +2,10 @@
 title: Cambios en la entidad, el control y la interfaz de usuario (Project Service Automation 3.x)
 description: En este tema se describen los cambios de soluciones para Microsoft Dynamics Project Service Automation 3.x.
 author: makk
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/15/2019
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,14 +14,18 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2d93e5eaae7cff302be1cb2e96e3f45c24739b0c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 86b51e58189a62f15a5ded039e9265733a0d9d4a7c7bf8d18ac46aadf1d2a931
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085343"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987367"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Cambios en la entidad, el control y la interfaz de usuario (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
+
 Con la versión de Microsoft Dynamics Project Service Automation (PSA) 3.x se han realizado muchos cambios en las entidades, los controles, las vistas y la interfaz de usuario. Este tema proporciona información sobre estos cambios importantes.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Relaciones primarias y secundarias para las entidades de documentos de ventas, líneas de documentos de ventas y detalles de líneas de documentos de ventas
@@ -80,3 +82,6 @@ A continuación se describen los recursos web que están en desuso:
 > Para obtener la lista completa de recursos en desuso, consulte [Recursos web en desuso en Project Service Automation v3.x](../developer-guides/web-resources-deprecated-v3.x.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

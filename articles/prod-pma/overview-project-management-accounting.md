@@ -2,28 +2,26 @@
 title: Información general sobre la gestión de proyectos y contabilidad
 description: La funcionalidad de gestión de proyectos y contabilidad se puede utilizar en múltiples sectores para proporcionar un servicio, producir un producto o lograr un resultado.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: 87983
+ms.custom: intro-internal
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289795"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007527"
 ---
 # <a name="project-management-and-accounting-overview"></a>Información general sobre la gestión de proyectos y contabilidad
 
@@ -36,14 +34,14 @@ Un proyecto es un grupo de actividades que está diseñado para proporcionar un 
 ## <a name="projects-across-industries"></a>Proyectos en todos los sectores
 La administración de proyectos y la funcionalidad de contabilidad se pueden usar en múltiples industrias, como se muestra en la siguiente ilustración.
 
-[![Proyectos en todos los sectores](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Proyectos en todos los sectores.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 En un centro de llamadas, se puede usar un vale para describir el conjunto de acciones necesarias para resolver una llamada. Las empresas de consultoría, como las organizaciones de consultoría técnica o administrativa o las agencias de publicidad, se refieren a sus actividades como proyectos. En marketing, una campaña representa un conjunto de trabajos que debe entregarse. En la fabricación basada en proyectos, un pedido de producción se refiere a diversos trabajos que se deben hacer para producir algunos productos terminados. Cualquiera sea el nombre que se use para ellos, estos proyectos involucran recursos, programaciones y costes, y la gestión de proyectos y la funcionalidad de contabilidad pueden ayudar con la planificación, ejecución y análisis de estos proyectos.
 
 ## <a name="project-phases"></a>Fases del proyecto
 Aunque el siguiente flujo de proceso está dirigido a proyectos externos o proyectos que se completan para uno o más clientes, la funcionalidad también se aplica a proyectos internos de solo coste. 
 
-![3 fases de un proyecto](./media/3-stages-of-a-project.png) 
+![3 fases de un proyecto.](./media/3-stages-of-a-project.png) 
 
 Como se muestra en la ilustración anterior, la gestión de proyectos y la contabilidad se pueden dividir en tres fases:
 
@@ -52,13 +50,13 @@ Como se muestra en la ilustración anterior, la gestión de proyectos y la conta
 3.  Analizar
 
 ## <a name="initiate-the-project"></a>Iniciar el proyecto
-Durante el inicio del proyecto, ocurren varios procesos clave. Puede utilizar una cotización de proyecto para comunicar al cliente la mano de obra, los gastos y los materiales estimados. Puede registrar los términos, límites y acuerdos de facturación en un contrato de proyecto. Puede utilizar una estructura de descomposición del trabajo (WBS) para planificar y estimar el trabajo. Puede configurar previsiones y presupuestos para guiar la ejecución del proyecto. La siguiente ilustración muestra la estructura de un proyecto.[![estructura del proyecto](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Durante el inicio del proyecto, ocurren varios procesos clave. Puede utilizar una cotización de proyecto para comunicar al cliente la mano de obra, los gastos y los materiales estimados. Puede registrar los términos de facturación, los límites y los acuerdos en un contrato de proyecto. Puede utilizar una estructura de descomposición del trabajo (WBS) para planificar y estimar el trabajo. Puede configurar previsiones y presupuestos para guiar la ejecución del proyecto. La siguiente ilustración muestra la estructura de un proyecto.[![estructura del proyecto.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Crear presupuestos de proyecto
 
-En la fase inicial de ventas de un proyecto, una cotización de proyecto le permite ofrecer a un cliente una oferta sin compromiso. Un presupuesto puede incluir elementos como los artículos y servicios que se presupuestan, información de contacto básica, acuerdos comerciales especiales y descuentos, y posibles impuestos y recargos.
+En la fase inicial de ventas de un proyecto, un presupuesto de proyecto le permite ofrecer a un cliente una oferta no vinculante. Un presupuesto puede incluir elementos como los artículos y servicios que se presupuestan, información de contacto básica, acuerdos comerciales especiales y descuentos, y posibles impuestos y recargos.
 
-También puede emitir una carta de garantía para una transacción de presupuesto de proyecto entre su organización y el cliente. Una vez creada el presupuesto del proyecto, puede crear la solicitud de carta de garantía para el cliente y enviarla al banco. Una vez que el banco haya aprobado la solicitud, se emite la carta de garantía al cliente. 
+También puede emitir una carta de garantía para una transacción de presupuesto de proyecto entre su organización y el cliente. Una vez creado el presupuesto del proyecto, puede crear la solicitud de carta de garantía para el cliente y enviarla al banco. Una vez que el banco haya aprobado la solicitud, se emite la carta de garantía al cliente. 
 
 Para obtener más información, consulte [Presupuestos de proyectos](project-quotations.md).
 
@@ -80,7 +78,7 @@ Puede utilizar la previsión si su organización tiene una perspectiva operativa
 
 ### <a name="create-projects"></a>Crear proyectos
 
-Puede crear seis tipos de proyectos en Finance. Cada tipo de proyecto se configura de manera diferente para el reconocimiento de costes e ingresos. El tipo de proyecto que elija depende del propósito del proyecto. La siguiente tabla describe el uso típico de cada tipo de proyecto.
+Puede crear seis tipos de proyectos en Finance. Cada tipo de proyecto se configura de manera diferente para el reconocimiento de costes e ingresos. El tipo de proyecto que seleccione depende del propósito del proyecto. La siguiente tabla describe el uso típico de cada tipo de proyecto.
                                                                                                             
 <table>
   <tr>
@@ -93,23 +91,23 @@ Puede crear seis tipos de proyectos en Finance. Cada tipo de proyecto se configu
   </tr>
   <tr>
     <td>Precio fijo</td>
-    <td>En los proyectos de precio fijo, las facturas consisten en transacciones a cuenta. Un proyecto de precio fijo se factura de acuerdo con un programa de facturación que se basa en un contrato de proyecto. Los ingresos de un proyecto de precio fijo se pueden calcular y contabilizar en todo el proyecto mediante el método de porcentaje completado. Alternativamente, los ingresos se pueden calcular y contabilizar cuando se completa el proyecto, utilizando el método de contrato completado. Las empresas a menudo pueden beneficiarse del valor del trabajo en proceso (WIP) para calcular el grado de finalización de un proyecto o grupo de proyectos.</td>
+    <td>En los proyectos de precio fijo, las facturas consisten en transacciones a cuenta. Un proyecto de precio fijo se factura de acuerdo con una programación de facturación basada en el contrato del proyecto. Los ingresos de un proyecto de precio fijo se pueden calcular y contabilizar en todo el proyecto mediante el método de porcentaje completado. Alternativamente, los ingresos se pueden calcular y contabilizar cuando se completa el proyecto, utilizando el método de contrato completado. Las empresas a menudo pueden beneficiarse del valor del trabajo en proceso (WIP) para calcular el grado de finalización de un proyecto o grupo de proyectos.</td>
   </tr>
   <tr>
     <td>Inversión</td>
-    <td>Los proyectos de inversión son proyectos que no producen ganancias inmediatas. Por lo general, se utilizan para proyectos internos a largo plazo en los que los costes deben capitalizarse. Para un proyecto de inversión, solo se pueden registrar los costes de artículos, horas y gastos. Los costes en un proyecto de inversión se rastrean y controlan mediante la funcionalidad de estimación. Los proyectos de inversión se pueden configurar con una capitalización máxima opcional. A medida que avanza un proyecto de inversión, usted registra sus costes en cuentas WIP, donde los costes se mantienen hasta que se completa el proyecto. Cuando se elimina el proyecto, transfiere el valor WIP a un activo fijo, una cuenta contable o un nuevo proyecto. <br></br> <strong>NOTA:</strong> las transacciones en proyectos de inversión no se muestran en la página <strong>Gastos de envío<strong>, <strong>Acumular ingresos</strong> o <strong>Crear propuestas de factura</strong>.</td>
+    <td>Los proyectos de inversión son proyectos que no producen ganancias inmediatas. Por lo general, se utilizan para proyectos internos a largo plazo en los que los costes deben capitalizarse. Solo se pueden registrar los costes de artículos, horas y gastos para un proyecto de inversión. Los costes de un proyecto de inversión se rastrean y controlan mediante la funcionalidad de estimación. Los proyectos de inversión se pueden configurar con una capitalización máxima opcional. A medida que avanza un proyecto de inversión, registra sus costes en cuentas de trabajo en curso, donde los costes se mantienen hasta que se completa el proyecto. Cuando se elimina el proyecto, transfiere el valor WIP a un activo fijo, una cuenta contable o un nuevo proyecto. <br></br> <strong>NOTA:</strong> las transacciones en proyectos de inversión no se muestran en la página <strong>Gastos de envío<strong>, <strong>Acumular ingresos</strong> o <strong>Crear propuestas de factura</strong>.</td>
   </tr>
   <tr>
-    <td>Proyecto de costes</td>
-    <td>Al igual que los proyectos de inversión, los proyectos de costes se utilizan normalmente para realizar un seguimiento de los proyectos internos y solo se pueden registrar las horas, los gastos y los elementos. Sin embargo, los proyectos de costes suelen tener una duración más corta que los proyectos de inversión. Además, a diferencia de los proyectos de inversión, los proyectos de costes no se pueden capitalizar en cuentas de balance de situación. En cambio, las transacciones de proyectos se registran solo en cuentas de pérdidas y ganancias. <br></br> <strong>NOTA:</strong> las transacciones en proyectos de costes no se reflejan en la página <strong>Gastos de envío</strong>, <strong>Acumular ingresos</strong> o <strong>Crear propuestas de factura</strong>. Debido a que los proyectos de costes generalmente se usan para rastrear proyectos internos, generalmente no tienen que estar asociados con una cuenta de cliente. Sin embargo, si su configuración requiere que se creen requisitos de artículo para pedidos de compra, debe asociar el proyecto de costes con un cliente. Esta asociación es necesaria, porque los requisitos de artículo se gestionan como líneas de pedido de ventas y el sistema requiere que se especifique un cliente. Sin embargo, esta configuración no hará que los requisitos del artículo se creen automáticamente a partir de una orden de compra. Para proyectos de costes, el parámetro <strong>Crear requisito de artículo</strong> se ignora. Si necesita un requisito de artículo en un proyecto de costes, puede crearlo manualmente, siempre que haya un cliente asociado con el proyecto.</td>
+    <td>Proyecto de coste</td>
+    <td>Al igual que los proyectos de inversión, los proyectos de coste se utilizan normalmente para realizar un seguimiento de los proyectos internos y solo se pueden registrar las horas, los gastos y los artículos. Sin embargo, los proyectos de coste suelen tener una duración más corta que los proyectos de inversión. Además, a diferencia de los proyectos de inversión, los proyectos de coste no se pueden capitalizar en las cuentas de balance de situación. En cambio, las transacciones de proyectos se registran solo en cuentas de pérdidas y ganancias. <br></br> <strong>NOTA:</strong> las transacciones en proyectos de costes no se reflejan en la página <strong>Gastos de envío</strong>, <strong>Acumular ingresos</strong> o <strong>Crear propuestas de factura</strong>. Dado que los proyectos de coste generalmente se usan para rastrear proyectos internos, generalmente no tienen que estar asociados con una cuenta de cliente. Sin embargo, si su configuración requiere que se creen requisitos de artículo para sus pedidos de compra, debe asociar el proyecto de coste con un cliente. Esta asociación es necesaria, porque los requisitos de artículo se gestionan como líneas de un pedido de ventas y el sistema requiere que se especifique un cliente. Sin embargo, esta configuración no hará que los requisitos del artículo se creen automáticamente a partir de un pedido de compra. Para proyectos de costes, el parámetro <strong>Crear requisito de artículo</strong> se ignora. Si necesita un requisito de artículo en un proyecto de coste, puede crearlo manualmente, siempre que haya un cliente asociado al proyecto.</td>
   </tr>
   <tr>
-    <td>Interna</td>
+    <td>Interno</td>
     <td>Los proyectos internos se utilizan para realizar un seguimiento de los costes de un proyecto interno de su organización. Los proyectos internos pueden proporcionar una herramienta de planificación para gestionar el consumo de recursos. <br></br><strong>NOTA:<strong> las transacciones en proyectos internos no se reflejan en la página <strong>Acumular ingresos</strong> o <strong>Crear propuestas de factura</strong>.</td>
   </tr>
   <tr>
-    <td>Time</td>
-    <td>Los proyectos de tiempo se utilizan para rastrear el tiempo que está asociado con actividades no cargables y no productivas, como un proyecto para rastrear el tiempo de enfermedad de los trabajadores. Las transacciones en proyectos de tiempo no se registran en el libro de contabilidad. En cambio, se incluyen en los informes de utilización de los trabajadores. Solo las transacciones de horas se pueden registrar en proyectos de tiempo. Utiliza un diario de horas o una hoja de horas para registrar estas horas en el proyecto. Una vez registradas las horas, aparecen como transacciones de proyecto, pero no tienen transacciones de comprobantes correspondientes. <br></br><strong>NOTA:</strong> las transacciones en proyectos de tiempo no se reflejan en la página <strong>Gastos de envío</strong>, <strong>Acumular ingresos</strong> o <strong>Crear propuestas de factura</strong>.</td>
+    <td>Tiempo</td>
+    <td>Los proyectos de tiempo se utilizan para realizar un seguimiento del tiempo asociado con actividades que no se pueden cobrar o no son productivas, como un proyecto de seguimiento del tiempo de las bajas laborales. Las transacciones en los proyectos de tiempo no se registran en el libro de contabilidad. Se incluyen en los informes de utilización de los trabajadores. En los proyectos de tiempo solo se pueden registrar transacciones de horas. Utiliza un diario de horas o una hoja de horas para registrar estas horas en el proyecto. Una vez registradas las horas, aparecen como transacciones de proyecto, pero no tienen transacciones de comprobantes correspondientes. <br></br><strong>NOTA:</strong> las transacciones en proyectos de tiempo no se reflejan en la página <strong>Gastos de envío</strong>, <strong>Acumular ingresos</strong> o <strong>Crear propuestas de factura</strong>.</td>
   </tr>
 </table>
 
@@ -128,7 +126,7 @@ Estas son algunas de las formas en que puede usar la funcionalidad de programaci
 -   Modifique las asignaciones de recursos para varias unidades de tiempo, como día, semana o mes, para optimizar la forma en que se utilizan los trabajadores.
 
 ## <a name="execute-the-project"></a>Ejecutar el proyecto
-Durante la ejecución del proyecto, los miembros del equipo o los gerentes registran el trabajo y los gastos incurridos mediante el uso de hojas de horas, informes de gastos y otros documentos comerciales. Los directores de proyecto tienen herramientas que les permiten supervisar el consumo de los importes presupuestados para el proyecto. Los directores de proyecto también pueden solicitar, recoger o adquirir materiales para proyectos mediante pedidos de compra y otros documentos comerciales. Las facturas se preparan y aprueban, de modo que se pueda facturar a los clientes por el trabajo en curso. Finalmente, los ingresos se reconocen durante este proceso para que afecten a las finanzas de la organización.
+Durante la ejecución del proyecto, los miembros del equipo o los gerentes registran el trabajo y los gastos incurridos mediante el uso de hojas de horas, informes de gastos y otros documentos comerciales. Los jefes de proyectos tienen herramientas que les permiten supervisar el consumo de los importes presupuestados para el proyecto. Los directores de proyecto también pueden solicitar, recoger o adquirir materiales para proyectos mediante pedidos de compra y otros documentos comerciales. Las facturas se preparan y aprueban, de modo que se pueda facturar a los clientes por el trabajo en curso. Finalmente, los ingresos se reconocen durante este proceso para que afecten a las finanzas de la organización.
 
 ### <a name="manage-work-breakdown-structures"></a>Gestionar estructuras de descomposición del trabajo
 
@@ -227,7 +225,7 @@ El tipo de proyecto determina qué procedimiento de facturación se debe aplicar
 Antes de crear una factura de cliente para un proyecto, puede crear una factura preliminar o una propuesta de factura. En una propuesta de factura, puede seleccionar transacciones de proyecto para incluirlas en una factura de proyecto. Luego, puede revisar los detalles de la factura antes de registrar la factura del proyecto y enviarla al cliente u otra fuente de financiación. 
 
 
-Para obtener más información sobre cómo procesar facturas de proyecto, consulte [Facturación de proyectos](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
+Para obtener más información sobre cómo procesar facturas de proyecto, consulte [Facturación de proyectos](/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Calcular el coste para completar un proyecto

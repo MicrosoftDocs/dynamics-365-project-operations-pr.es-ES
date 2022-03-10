@@ -2,8 +2,6 @@
 title: Configuración del proyecto
 description: En este tema se proporciona información sobre la configuración de administración del proyecto.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148169"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996952"
 ---
 # <a name="project-settings"></a>Configuración del proyecto
 
@@ -47,9 +45,9 @@ Para crear una programación de proyecto, cree una plantilla de calendario de pr
 
   - Nueva programación semanal
   - Programación de trabajo para un día
-  - Tiempo libre
+  - Indisponibilidad
 
-> ![Opciones de configuración](media/project-13.png)
+> ![Configuración de opciones.](media/project-13.png)
 
 4. Seleccione **Nueva programación semanal** y, a continuación, establezca las opciones para esta programación del recurso. Puede establecer una programación semanal recurrente, parámetros de horas diarias, cierres comerciales, etc.
 5. Establezca el rango de fechas, seleccione **Guardar** y, a continuación, haga clic en **Cerrar**. 
@@ -68,3 +66,6 @@ Cada organización debe configurar estos roles en la página **Categorías de re
 ## <a name="price-lists"></a>Listas de precios
 
 Las listas de precios le permiten establecer costes y precios de venta para roles de recursos, categorías de gastos, productos y otros elementos en una organización. Antes de establecer estimaciones financieras para el trabajo que deben realizarse para un proyecto, debe crear un coste de apoyo y una lista de precios de venta. En la sección de parámetros, también debe configurar una lista predeterminada de costes y precios de venta que se aplique a todos los proyectos que se crean en la organización. En la página **Parámetros de proyecto activos**, asegúrese de configurar una lista predeterminada de costes y precios de venta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

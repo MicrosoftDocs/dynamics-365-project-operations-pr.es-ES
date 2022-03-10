@@ -2,8 +2,7 @@
 title: Determinar los costes e ingresos del proyecto.
 description: Cómo determinar estimaciones de costes e ingresos del proyecto en Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
+ms.prod: ''
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +17,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 66fa8f4374caa08b07663cc9d261bfff8ce30c87
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 38de99680f4ba67b8eb593ec575c2a796fcfb59436fea5323dd1d86d7cf3d797
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133029"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002622"
 ---
 # <a name="determine-project-cost-and-revenue-estimates"></a>Determinar los costes e ingresos del proyecto. 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -37,18 +38,18 @@ Las listas de precios de [!INCLUDE[pn_project_service_auto](../includes/pn-proje
 ## <a name="cost-price-defaulting"></a>Configuración predeterminada de precios de coste  
 Cada proyecto pertenece a una organización (indicada en **Unidad propietaria** en el proyecto). La lista de precios asociada a la unidad organizativa propietaria determina el precio del coste unitario. [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)] determinan los precios de coste para roles buscando la combinación de rol, unidad, y unidad organizativa en la lista de precios de coste para obtener el precio de coste correcto para la fecha efectiva en líneas de estimación.  
   
-Si la combinación de rol, unidad y unidad organizativa no da lugar a un precio de coste de la lista de precios de la unidad propietaria, la unidad se ignora en favor de la combinación de rol y unidad organizativa. Si hay un precio de coste, este precio se convierte a la unidad que elija en la línea de estimación.  
+Si la combinación de rol, unidad y unidad organizativa no da lugar a un precio de coste de la lista de precios de la unidad propietaria, se ignora la unidad en favor de la combinación de rol y unidad organizativa. Si hay un precio de coste, este precio se convierte a la unidad que elija en la línea de estimación.  
   
-Si la combinación de rol y unidad organizativa no da lugar a un precio de coste, la unidad organizativa se ignora en favor de combinación de rol y unidad, y el precio se establece de manera predeterminada después de aplicar cualquier conversión, si es necesario.  
+Si la combinación de rol y unidad organizativa no da lugar a un precio de coste, se ignora la unidad organizativa en favor de combinación de rol y unidad, y el precio se establece de manera predeterminada después de aplicar cualquier conversión, si es necesario.  
   
  Si no hay un precio para el rol, el precio de coste se establece de manera predeterminada como 0,00 en la línea de estimación.  
   
  Todos los importes de coste en las líneas de estimación de coste del proyecto están en la divisa de la unidad organizativa propietaria.  
   
 ## <a name="sales-price-defaulting"></a>Configuración predeterminada de precios de venta  
-La lista de precios de ventas se basa en la entidad de ventas a la que el proyecto está asociado. La lista de precios de ventas asociada a la oferta o el contrato determina el precio del venta unitario. Si la oferta o contrato tiene una lista de precios personalizada, ésta será la lista de precios de venta predeterminada para estimaciones del proyecto. Si no hay ninguna asociación con las entidades de ventas, la lista de precios de venta predeterminada configurada en parámetros será la lista de precios de venta predeterminada para el proyecto. Cada línea de estimación tiene una unidad organizativa de recursos asociada para indicar la unidad organizativa desde la cual se reservarán los recursos para llevar a cabo la tarea. El precio de venta para los roles asociados se determina buscando la combinación de rol, unidad, unidad y unidad organizativa del recurso en la lista de precios de venta para obtener el precio de venta correcto para la fecha efectiva en líneas de estimación.  
+La lista de precios de ventas se basa en la entidad de ventas a la que el proyecto está asociado. La lista de precios de ventas asociada a la oferta o el contrato determina el precio del venta unitario. Si la oferta o el contrato tienen una lista de precios personalizada, esta será la lista de precios de venta predeterminada para estimaciones del proyecto. Si no hay ninguna asociación con las entidades de ventas, la lista de precios de venta predeterminada configurada en parámetros será la lista de precios de venta predeterminada para el proyecto. Cada línea de estimación tiene una unidad organizativa de recursos asociada para indicar la unidad organizativa desde la cual se reservarán los recursos para llevar a cabo la tarea. El precio de venta para los roles asociados se determina buscando la combinación de rol, unidad, unidad y unidad organizativa del recurso en la lista de precios de venta para obtener el precio de venta correcto para la fecha efectiva en líneas de estimación.  
   
-Si la combinación de rol de, unidad, y unidad organizativa de recursos no da lugar a un precio de venta de la lista de precios de venta, el sistema ignorará unidad y buscará la combinación de rol y unidad organizativa de recursos. Si se encuentra un precio de venta, se convertirá a la unidad que elija en la línea de estimación de venta.  
+Si la combinación de rol de, unidad, y unidad organizativa de recursos no da lugar a un precio de venta de la lista de precios de venta, el sistema ignorará unidad y buscará la combinación de rol y unidad organizativa de recursos. Si se encuentra un precio de venta, se convierte a la unidad que elija en la línea de estimación de venta.  
   
 Si el sistema no encuentra un precio para el rol, el precio de venta debe establecerse de manera predeterminada como 0,00 en la línea de estimación.  
   
@@ -58,7 +59,7 @@ La vista de estimaciones tiene una vista de cuadrícula que muestra una cuadríc
 En la vista con fases temporales de estimaciones de proyecto, los datos de estimaciones de la vista de cuadrícula se dinamizan de forma predeterminada por rol, y muestran una distribución de datos de estimación en la escala de tiempo elegida.  
   
 ## <a name="effort-estimate-allocation-based-on-task-mode"></a>Asignación de asignación de esfuerzo basada en modo de tarea  
-En la vista con fases temporales, el esfuerzo total estimado para la tarea se distribuye asignando un determinado número de horas de esfuerzo por el período de tiempo de unidad de la escala temporal elegida. En Project Service, el modo de tarea determina cómo se asigna el esfuerzo a lo largo de la duración de la tarea. Las dos tipos de asignación son: asignación uniforme y asignación basada en horas laborables  
+En la vista con fases temporales, el esfuerzo total estimado para la tarea se distribuye asignando un determinado número de horas de esfuerzo por el período de tiempo de unidad de la escala temporal elegida. En Project Service, el modo de tarea determina cómo se asigna el esfuerzo a lo largo de la duración de la tarea. Los dos tipos de asignación son: asignación uniforme y asignación basada en horas laborables. 
   
 ## <a name="work-hours-based-allocation"></a>Asignación basada en horas laborables  
 El modo de tarea de programación automática para una tarea rige que para el número de recursos estimados en la tarea, se estiman para utilizarse durante las horas laborables completas por día. Esto se aplica al asignar el esfuerzo dividiéndolo por la duración de tareas en la vista con fases temporales también. Por ejemplo, en escala temporal de un 'Día', para una tarea que se estima que completará un recurso, el esfuerzo asignado por día no excederá las horas laborables por día definidas en el calendario del proyecto. Por consiguiente, la asignación de esfuerzo garantiza siempre que los recursos se estimarán para usar durante todo el día.  
@@ -69,12 +70,15 @@ El modo de tareas programadas manualmente no tiene en cuenta las horas laborable
 De esta manera, el modo de tarea definido en la tarea determina la distribución del esfuerzo o la asignación del esfuerzo por período de tiempo de unidad en estimaciones con fases temporales.  
   
 ## <a name="grouping-and-time-phasing-options"></a>Opciones de agrupación y fases temporales  
-Esta vista ayuda a comprender la distribución de las estimaciones de esfuerzo, coste y ventas por día, semana, mes o año. La opción Agrupar por permite dinamizar los datos de estimaciones con otras dos dimensiones: categoría y recurso. En la vista de cuadrícula y la vista con fases temporales puede seleccionar los campos que se mostrarán. Los totales de cada uno de los bloques temporales se muestran en la parte inferior, lo que indica el esfuerzo, coste y ventas estimados totales por día, semana, mes o año.  
+Esta vista ayuda a comprender la distribución de las estimaciones de esfuerzo, coste y ventas por día, semana, mes o año. La opción Agrupar por permite dinamizar los datos de estimaciones con otras dos dimensiones: categoría y recurso. En la vista de cuadrícula y la vista con fases temporales puede seleccionar los campos que se mostrarán. Los totales de cada uno de los bloques de tiempo se muestran en la parte inferior, indicando los valores de esfuerzo, coste y ventas para el día, la semana, el mes o el año.  
   
-La configuración predeterminada de coste y precio de venta toma su fecha efectiva —cuando los índices de los roles cambien, será más transparentes en la vista con fases temporales al ver datos de estimaciones dinamizados con "Recurso" y con fases temporales por semana.  
+Los valores predeterminados de precio de coste y precio de venta tienen fecha de vigencia. Cuando los índices de los roles cambien, serán más transparentes en la vista con fases temporales al ver datos de estimaciones dinamizados con "Recurso" y con fases temporales por semana.  
   
 ## <a name="expense-estimates"></a>Estimaciones de gastos  
-Cualquier gasto en el que se incurra en el proyecto que no esté relacionado directamente con la mano de obra que se gastará se puede registrar en las estimaciones de proyecto en la vista de cuadrícula. Mediante la opción **Agregar estimación de gastos** en la vista de cuadrícula, puede lograr esto. Los cálculos de gasto pueden registrarse para una tarea específica o para el proyecto completo; puede elegir categorías de gastos en esas líneas y seleccionar una fecha provisional en que se espera realizar el gasto. Si la lista de precios de coste y venta asociada tiene precios predeterminados o porcentajes de incremento definidos para las categorías de gastos, se configurará de manera predeterminada en la línea de estimación tras la asociación.  
+Cualquier gasto realizado en el proyecto que no esté relacionado directamente con la mano de obra que se gastará se puede registrar en la vista de cuadrícula de las estimaciones de proyecto. Mediante la opción **Agregar estimación de gastos** en la vista de cuadrícula, puede lograr esto. Se pueden registrar las estimaciones de gastos para una tarea específica o para todo el proyecto. Puede elegir categorías de gastos en estas líneas y elegir una fecha provisional en la que se prevé realizar el gasto. Si la lista de precios de coste y venta asociada tiene precios predeterminados o porcentajes de incremento definidos para las categorías de gastos, se configurará de manera predeterminada en la línea de estimación tras la asociación.  
   
 ### <a name="see-also"></a>Vea también  
  [Guía del jefe de proyecto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

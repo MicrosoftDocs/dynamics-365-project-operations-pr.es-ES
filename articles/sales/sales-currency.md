@@ -2,11 +2,9 @@
 title: Divisa
 description: En este tema se proporciona información sobre cómo agregar y quitar tipos de divisa en Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 0a5ae29f1a11f62c6edfca64c4751338f42a26f24c4f8230018b0b45a4ee2ddb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642294"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999607"
 ---
 # <a name="currency"></a>Divisa
 
@@ -71,3 +69,6 @@ Antes de comenzar este procedimiento, verifique que su rol de seguridad incluye 
 
 > [!IMPORTANT]
 >  No puede eliminar divisas que se encuentran en uso por otros registros; solo puede desactivarlas. Al desactivar los registros de divisa, no se quita la información de divisa almacenada en los registros existentes, como las oportunidades o los pedidos. Sin embargo, no podrá seleccionar la divisa desactivada para nuevas transacciones.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

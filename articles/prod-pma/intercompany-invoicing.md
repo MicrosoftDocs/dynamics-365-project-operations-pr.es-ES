@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1debf8f67b7dbe7752075c6f8e5f2cdd37a3ae
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002797"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995827"
 ---
 # <a name="intercompany-invoicing"></a>Facturación de empresas vinculadas
 
@@ -33,7 +33,7 @@ Su organización puede tener varias divisiones, subsidiarias y otras entidades j
 
 La siguiente ilustración muestra un escenario típico donde dos entidades jurídicas, SI FR (la entidad jurídica prestataria) y SI USA (la entidad jurídica prestamista) comparten recursos para entregar un proyecto al cliente A. Para este escenario, SI FR está contratada para entregar el trabajo al cliente A. 
 
-[![Ejemplo de facturación de empresas vinculadas](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Ejemplo de facturación de empresas vinculadas.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 El objetivo es hacer que el control de costos, el reconocimiento de ingresos, los impuestos y el precio de transferencia para las transacciones de proyectos en empresas vinculadas sean más flexibles y eficaces. Además, se proporcionan las siguientes capacidades:
 
