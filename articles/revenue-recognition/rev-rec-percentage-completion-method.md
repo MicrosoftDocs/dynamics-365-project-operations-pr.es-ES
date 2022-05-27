@@ -4,14 +4,14 @@ description: En este tema se proporciona información sobre los ingresos a preci
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 290608e5663f9c953212c156771bbf1ad6b1e901
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006447"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578729"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Proyectos de estimación de ingresos a precio fijo 
 
@@ -26,7 +26,7 @@ Cuando crea una línea de contrato de proyecto con los siguientes atributos en D
 ## <a name="review-fixed-price-revenue-estimates-projects"></a>Revisar proyectos de estimaciones de ingresos a precio fijo
 Para revisar proyectos de estimaciones de ingresos a precio fijo, complete los siguientes pasos:
 
-1. En el entorno de Dynamics 365 Finance, vaya a **Gestión de proyectos y contabilidad** > **Proyectos** > **Proyectos de estimación de ingresos a precio fijo**.
+1. En el entorno de Dynamics 365 Finance, vaya a **Gestión de proyectos y contabilidad** > **Proyectos** > **Proyectos de estimación de ingresos de precio fijo**.
 2. Seleccione el proyecto que desea ver y haga doble clic en el **Id. de proyecto de estimación** para abrir el registro y revisar sus detalles.
 3. Expanda la pestaña **Proyecto**. Verá un proyecto en la cuadrícula **Proyectos seleccionados**. El sistema lo usa como proyecto predeterminado porque es el proyecto asociado a la línea de contrato del proyecto. 
 4. Para cambiar la asociación, seleccione proyectos adicionales y agréguelos a la cuadrícula **Proyectos seleccionados**. Si se seleccionan varios proyectos en esta cuadrícula, el porcentaje de finalización del proyecto y las estimaciones de ingresos se calculan juntos para todos los proyectos seleccionados.

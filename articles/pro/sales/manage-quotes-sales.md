@@ -4,14 +4,14 @@ description: En este tema se proporciona información sobre las ofertas de proye
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0ccf669fb47585e13e24921f2aeee383b33dd9c5f882e82220a906f9b73bfcc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eab780241953bbabab199e146c94a15e272e35c9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001542"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579603"
 ---
 # <a name="manage-project-quotes"></a>Administrar ofertas de proyecto
 
@@ -31,6 +31,9 @@ Se puede ver una lista de todas las ofertas de proyecto en la página de lista *
 2. Utilice el **conmutador Ver** para seleccionar otras vistas filtradas de las cotizaciones. Con criterios de filtro personalizados, puede configurar sus propias vistas y opciones de navegación.
 
 Las ofertas se pueden crear o eliminar desde esta página de lista o páginas de detalles.
+
+ > [!NOTE]
+ > Las ofertas que tienen proyectos, tareas, estimaciones, diarios y/o datos reales asociados con ellas no se pueden eliminar. Además, cuando una oferta se cierra como Ganada o Perdida, ya no se puede eliminar ni modificar. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

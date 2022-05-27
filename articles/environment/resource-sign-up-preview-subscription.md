@@ -4,20 +4,20 @@ description: Este tema proporciona información sobre cómo suscribir e implemen
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323437"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575831"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Regístrese para obtener suscripciones de vista previa de Project Operations para escenarios de recursos/no en existencias
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Este tema explica cómo suscribirse a la oferta de prueba e implementar el entorno de Project Operations para escenarios basados en recursos/no mantenidos en existencias.
 
@@ -40,7 +40,7 @@ Antes de comenzar, asegúrese de haber iniciado sesión en un navegador con la c
 
   Verá que la oferta de confirmación se canjeó correctamente.
 
-### <a name="dynamics-365-finance-preview-trial"></a>Prueba de versión preliminar de Dynamics 365 Finance
+### <a name="dynamics-365-finance-preview-trial"></a>Prueba preliminar de Dynamics 365 Finance
 
 Vaya a [Prueba preliminar de Dynamics 365 for Finance](https://aka.ms/trypoche) y repita los pasos de la sección anterior con la oferta: Registrarse para el entorno alojado en la nube.  
 
@@ -49,7 +49,7 @@ Vaya a [Prueba preliminar de Dynamics 365 for Finance](https://aka.ms/trypoche) 
 > [!IMPORTANT]
 > Necesitará acceso administrativo al Portal de Microsoft 365 de la organización para completar los siguientes pasos.
 
-1. Vaya al [Centro de administración de Microsoft 365](https://portal.office.com/) para asignar las licencias a sus usuarios.
+1. Vaya a [Centro de administración de Microsoft 365](https://portal.office.com/) para asignar las licencias a sus usuarios.
 
 2. En la página **Usuarios activos**, seleccione los usuarios a los que desea asignar una licencia.
 

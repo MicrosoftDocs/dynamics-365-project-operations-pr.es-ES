@@ -2,16 +2,16 @@
 title: Corregir la contabilidad en propuestas de factura de proyecto en borrador
 description: Este tema explica cómo ajustar la información relacionada con la contabilidad en un borrador de propuesta de factura.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 01/05/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 153a239d4b88906909ee0bfae8a18cabebc3766399290d83bb79f5d6375a942c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999337"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575095"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Corregir la contabilidad en propuestas de factura de proyecto en borrador
 
@@ -27,12 +27,21 @@ Los grupos de impuestos sobre las ventas de facturación predeterminados y los g
 
 ## <a name="adjust-financial-dimensions"></a>Ajustar dimensiones financieras
 
+### <a name="header-dimensions"></a>Dimensiones del encabezado
+
+De forma predeterminada, las dimensiones financieras de la factura se derivan de los registros de transacciones de proyectos no facturados que se están facturando. Sin embargo, la configuración del sistema le permite usar dimensiones financieras en el encabezado de las propuestas de facturas de proyectos para registrar saldos de clientes. Para habilitar esta función, seleccione **Permitir actualizaciones de las dimensiones del proyecto para clientes** en la pestaña **Finanzas** de la página **Parámetros contables y de gestión de proyectos**.
+
+Las dimensiones financieras en los encabezados de las facturas se pueden editar antes de que se registre una factura. En la página **Propuesta de factura de proyecto**, cambie a la vista **Encabezamiento** y luego edite los valores en la pestaña **Dimensiones financieras**.
+
+La vista **Encabezamiento** está disponible solo después de que el administrador del sistema habilite la característica **Utilizar la propuesta de factura del proyecto y los formularios de diario de facturas con la vista Encabezado y Líneas**, en el espacio de trabajo **Gestión de características**. Esta característica requiere la actualización de Finanzas 10.0.25 o posterior.
+
+### <a name="line-dimensions"></a>Dimensiones de línea
+
 Las dimensiones financieras no se pueden editar directamente en una línea de propuesta de factura de proyecto. En su lugar, siga estos pasos para ajustar las dimensiones financieras en una propuesta de factura de proyecto.
 
 1. En la propuesta de factura del proyecto, seleccione **Eliminar todo** para eliminar las líneas de propuesta de factura del proyecto.
 
-    > [!NOTE]
-    > El botón **Eliminar todo** está disponible solo después de que el administrador del sistema habilite la característica **Eliminar las líneas de propuesta de factura cuando utilice Project Operations para escenarios basados en recursos/sin existencias** en el área de trabajo **Administración de características**.
+    El botón **Eliminar todo** está disponible solo después de que el administrador del sistema habilite la característica **Eliminar las líneas de propuesta de factura cuando utilice Project Operations para escenarios basados en recursos/sin existencias** en el área de trabajo **Administración de características**.
 
 2. Ajustar dimensiones financieras:
 

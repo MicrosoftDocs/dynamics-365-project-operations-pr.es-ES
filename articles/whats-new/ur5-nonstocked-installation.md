@@ -1,25 +1,25 @@
 ---
 title: Actualizar Project Operations en el entorno de Finance
-description: Este tema proporciona información sobre cómo actualizar Project Operations en el entorno de Dynamics 365 Finance.
+description: Este tema proporciona información sobre cómo actualizar Project Operations en su entorno de Dynamics 365 Finance.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986782"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579971"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Actualizar Project Operations en el entorno de Finance
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
 
 
-Este tema proporciona información sobre cómo actualizar Dynamics 365 Project Operations en el entorno de Dynamics 365 Finance. Hay tres procedimientos necesarios para actualizar las operaciones de Project Operations a la actualización 5 (UR5):
+Este tema proporciona información sobre cómo actualizar Dynamics 365 Project Operations en su entorno de Dynamics 365 Finance. Hay tres procedimientos necesarios para actualizar las operaciones de Project Operations a la actualización 5 (UR5):
 
 - [Importar el paquete al proyecto de versión preliminar](#import)
 - [Aplicar la actualización](#apply)
@@ -119,7 +119,7 @@ Las siguientes actualizaciones de los privilegios de seguridad para las entidade
 4. En la página **Versión de asignación de tabla**, aplique una nueva versión de la asignación a cada una de las tres entidades.
 5. En la página **Doble escritura**, seleccione ejecutar para reiniciar las asignaciones.
 6. En la lista de mapas, seleccione la asignación **Contabilidad (msdyn_ledgers)** con todos los requisitos previos y active la casilla **Sincronización inicial**. 
-7. En el campo **Maestro para la sincronización inicial**, seleccione **Aplicaciones de Finance and Operations** y, a continuación, seleccione **Ejecutar**.
+7. En el campo **Maestro para la sincronización inicial**, seleccione **Aplicaciones de finanzas y operaciones** y luego seleccione **Ejecutar**.
  
  ![Sincronización de asignaciones de contabilidad.](media/DW6.png)
  

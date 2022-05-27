@@ -2,18 +2,16 @@
 title: Conjuntos de aprobaciones
 description: Este tema explica cómo trabajar con conjuntos de aprobaciones, solicitudes y los subconjuntos de esas operaciones.
 author: stsporen
-manager: tfehr
-ms.date: 08/10/2021
+ms.date: 02/01/2022
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 1d9333033eb2b03966c6531d0fd6ad5b878acd93
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323257"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576245"
 ---
 # <a name="approval-sets"></a>Conjuntos de aprobaciones
 
@@ -27,6 +25,18 @@ Los conjuntos de aprobaciones indican el estado general de procesamiento de sus 
 Las aprobaciones que están en cola para su procesamiento se pueen ver en la vista **Aprobaciones de procesamiento**. El sistema procesa todas las entradas varias veces de forma asincrónica, incluido el reintento de una aprobación si los intentos anteriores fallaron.
 
 El campo **Duración del conjunto de aprobaciones** registra el número de intentos que quedan para procesar el conjunto antes de que se marque como fallido.
+
+Los conjuntos de aprobación se procesan a través de la activación periódica basada en un **Flujo de nube** llamado **Project Service: programar conjuntos de aprobación de proyectos de forma recurrente**. Esto se encuentra en la **Solución** llamada **Project Operations**. 
+
+Asegúrese de que el flujo esté activado completando los siguientes pasos.
+
+1. Como administrador, inicie sesión en [flow.microsoft.com](https://powerautomate.microsoft.com).
+2. En la esquina superior derecha, cambia al entorno que use para Dynamics 365 Project Operations.
+3. Seleccione **Soluciones** para enumerar las soluciones instaladas en el entorno.
+4. En la lista de soluciones, seleccione **Project Operations**.
+5. Cambie el filtro de **Todos** a **Flujos de nube**.
+6. Verifique que el flujo **Project Service: programación recurrente de conjuntos de aprobación de proyectos** esté establecido en **Activado**. Si no es así, seleccione el flujo y luego seleccione **Activar**.
+7. Verifique que el procesamiento ocurra cada cinco minutos revisando la lista **Trabajos del sistema** del área **Ajustes** del entorno de área dentro de Project Operations Dataverse.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Aprobaciones y conjuntos de aprobaciones fallidos
 La vista **Aprobaciones fallidas** enumera todas las aprobaciones que requieren la intervención del usuario. Abra los registros del conjunto de aprobaciones asociado para identificar la causa del error.

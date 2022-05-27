@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c4869f3ab06ec80d620ec51bb4f0429412cd4d00
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 0fc3f524b7b240170822f0b246559e15985f4b0f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943044"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579833"
 ---
 # <a name="whats-new-december-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novedades de diciembre de 2021: Project Operations para escenarios basados en recursos/no mantenidos en existencias
 
@@ -20,8 +20,8 @@ ms.locfileid: "7943044"
 
 Este tema se aplica a los siguientes componentes y versiones de Microsoft Dynamics 365 Project Operations:
 
-- Project Operations en la versión del entorno de Dataverse 4.27.0.195, 4.27.0.242
-- Gestión de proyectos y contabilidad en un entorno de Dynamics 365 Finance versión 10.0.23
+- Project Operations en la versión del entorno de Dataverse 4.27.0.195, 4.27.0.242, 4.27.0.244
+- Gestión de proyectos y contabilidad en un entorno de Dynamics 365 Finance, versión 10.0.23
 
 ## <a name="features-included-in-this-release"></a>Características incluidas en esta versión
 
@@ -48,7 +48,7 @@ Si tiene algún problema al iniciar la asignación, siga las instrucciones de la
 | Tiempo y gasto | 2468188 | Se solucionó el problema con el texto del registro que excedía la longitud máxima en el atributo **notetext** de la entidad **Anotación**. |
 | Facturación y precios | 2488698 | Mensaje de error actualizado que se produce cuando en la configuración del entorno faltan los registros de la entidad Ledger que se rellenan desde Finance. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Gestión de proyectos y contabilidad en Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Administración y contabilidad de proyectos de Dynamics 365 Finance
 
 | **Área de características** | **Número de referencia** | **Actualización de calidad** |
 | --- | --- | --- |

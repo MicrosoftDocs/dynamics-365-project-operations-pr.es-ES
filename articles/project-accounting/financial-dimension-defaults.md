@@ -4,22 +4,22 @@ description: Este tema proporciona información sobre cómo configurar los valor
 author: sigitac
 ms.date: 12/14/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
-ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
+ms.openlocfilehash: 9f43fed57a1411a55dcd7929f34e87aed136a6b5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "7922959"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579511"
 ---
 # <a name="financial-dimension-defaults"></a>Valores predeterminados de dimensiones financieras
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations usa el marco [Dimensiones financieras](/dynamics365/finance/general-ledger/financial-dimensions) en Dynamics 365 Finance para proporcionar información adicional sobre las transacciones del libro mayor auxiliar y del libro mayor general del proyecto.
+
+Dynamics 365 Project Operations utiliza el marco de [Dimensiones financieras](/dynamics365/finance/general-ledger/financial-dimensions) en Dynamics 365 Finance para proporcionar información detallada adicional sobre las transacciones de subcontabilidad y contabilidad general.
 
 Las dimensiones financieras predeterminadas se pueden establecer en un cliente, una fuente de financiación del proyecto, un hito, una línea de contrato del proyecto o un proyecto.
 
@@ -60,15 +60,5 @@ Los proyectos se crean y mantienen en CDS. Los atributos contables para proyecto
 4. Establezca los valores predeterminados de las dimensiones financieras. Observe que el valor predeterminado de las dimensiones financieras proviene de la cuenta del cliente. Si el proyecto está asociado a una línea de contrato con varios clientes de contrato de proyecto, el cliente principal se utiliza para dar el valor predeterminado a las dimensiones financieras.
 
 Las dimensiones financieras predeterminadas del proyecto se utilizan para establecer los valores predeterminados de las líneas de diario para las transacciones de tiempo, gastos y tarifas en el **Diario de integración de Project Operations** y en las líneas de factura de proyectos relacionados.
-
-## <a name="apply-financial-dimensions-for-project-time-entries"></a>Aplicar dimensiones financieras para las entradas de tiempo del proyecto
-Para aplicar dimensiones financieras para las entradas de tiempo del proyecto, tenga en cuenta que el valor de dimensión predeterminado se basa en el siguiente orden:
-
-1. Recurso
-2. Project
-3. Fuente de financiación
-
-Por ejemplo, si la dimensión predeterminada se especifica en un recurso, se aplicará sobre una dimensión predeterminada que se especifica en el proyecto. Del mismo modo, se aplicará una dimensión de proyecto predeterminada sobre la predeterminada que se especifica en la fuente de financiación.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
