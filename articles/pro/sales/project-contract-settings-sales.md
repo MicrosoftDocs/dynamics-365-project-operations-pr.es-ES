@@ -2,16 +2,16 @@
 title: Configuración de contrato de proyecto (lite)
 description: Este tema proporciona información sobre los campos que afectan las líneas de contrato y la información sobre el contrato que se resume en todas las líneas de pedido.
 author: rumant
-ms.date: 10/20/2020
+ms.date: 03/08/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995962"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586411"
 ---
 # <a name="header-details-for-project-contracts"></a>Detalles del encabezado para contratos de proyectos
 
@@ -32,12 +32,15 @@ La siguiente tabla enumera los campos de un contrato de proyecto que son exclusi
 | Límite a no exceder | Pestaña **Resumen** | Este campo indica el máximo negociado sobre el valor final que el cliente ha aceptado para esta oferta. | El límite se evalúa durante la ejecución y se aplica a todas las líneas de pedido y proyectos asociados con esta oferta. |
 | Fecha de entrega solicitada | Pestaña **Resumen** | Cuando un contrato se crea a partir de una oferta de proyecto, este campo se copia del campo correspondiente del registro de la oferta de proyecto. | Esta fecha se utiliza como fecha de finalización para generar programaciones de facturas. |
 
-Los siguientes KPI están disponibles en la pestaña **Rendimiento del contrato** de un contrato de proyecto.
+Los siguientes KPI están disponibles en la pestaña **Rendimiento del contrato** de un contrato de proyecto. 
 
-| Campo | Ubicación | Descripción |
+>[!NOTE]
+>Todas las cantidades de la pestaña **Rendimiento del contrato** se expresan en la moneda predeterminada del entorno.
+
+| Campo | Ubicación | Description |
 | --- | --- | --- |
-| Valor del contrato | Contrato general | El valor total del contrato del proyecto. |
-| Importe facturado | Contrato general | La suma de los importes de todas las facturas de este contrato. |
+| Valor del contrato | Contrato general | El valor total del contrato del proyecto.|
+| Importe facturado | Contrato general | La suma de los importes de todas las facturas de este contrato.|
 | Coste incurrido | Contrato general | La suma de todos los costos reales registrados en todos los proyectos asignados al contrato. |
 | Margen bruto | Contrato general | Monto facturado: coste incurrido hasta la fecha / monto facturado |
 | Margen previsto | Contrato general | (Valor del contrato - Costos estimados) / Valor del contrato Costos estimados = La suma de todos los costos estimados en todos los proyectos asignados al contrato.|

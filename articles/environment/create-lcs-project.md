@@ -4,14 +4,14 @@ description: Este tema proporciona información sobre cómo crear un nuevo proye
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 425cd38c204a67cda9ce03bdc96b728e03499c87aeddd6f62924b57e16b21167
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 842ccaeed53f8829b7520a420972c2e31ebf4821
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989977"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584203"
 ---
 # <a name="start-a-new-lcs-project"></a>Iniciar un proyecto de LCS nuevo
 
@@ -27,7 +27,7 @@ Use Lifecycle Services (LCS) para administrar entornos Dynamics 365 Project Oper
   ![Elija el tipo de proyecto LCS.](./media/create-lcs-1.png)
 
 5. Dé nombre al proyecto. 
-6. Seleccione **Finance and Operations** como nombre del producto y seleccione el sector y la metodología. 
+6. Seleccione **Finanzas y operaciones** como el nombre del producto y seleccione el sector y la metodología. 
 7. Seleccione **Crear**.
 
 ![Cree un proyecto LCS.](./media/create-lcs-2.png)

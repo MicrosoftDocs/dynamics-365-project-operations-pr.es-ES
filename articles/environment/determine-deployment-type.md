@@ -4,14 +4,14 @@ description: Este tema proporciona información para ayudarle a determinar el ti
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994657"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584157"
 ---
 # <a name="determine-your-deployment-type"></a>Determinar el tipo de implementación
 
@@ -25,7 +25,7 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no mant
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Clientes existentes de Dynamics que utilizan Dynamics 365 Project Service Automation
 Project Operations incluye las capacidades que se incluyen con Project Service Automation. Se lanzará una ruta de actualización para estos clientes en la primera ola de versiones de 2021.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Clientes existentes de Dynamics 365 Finance que usan gestión de proyectos y contabilidad 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Clientes existentes de Dynamics 365 Finance que usan Gestión de proyectos y contabilidad 
 
 Los clientes existentes de Finance que utilizan la funcionalidad de contabilidad y gestión de proyectos pueden seguir utilizándola tal cual. Consulte [Project Operations para escenarios de pedidos en existencias/producción](#pma).
 
@@ -42,9 +42,9 @@ Nuestro [Cuestionario de implementación](https://aka.ms/provisionprojectoperati
 - [Project Operations para escenarios de recursos/no mantenidos en existencias](#integrated)
 - [Project Operations para escenarios mantenidos en existencias/orden de producción](#pma)
 
-Project Operations admite escenarios de pedidos de existencias/producción y escenarios de no existencias/basados en recursos en el mismo entorno a través de configuraciones a nivel de entidad legal. Por ejemplo, Contoso puede utilizar las funcionalidades de pedido de producción/existencias en sus instalaciones de fabricación de EE. UU. (Entidad legal = Contoso Manufacturing United States). Contoso puede utilizar las funcionalidades basadas en no mantenido/recursos en su instalación de mantenimiento Contoso Robotics Arms en el Reino Unido (entidad legal = Contoso Robotics United Kingdom).
+Project Operations admite escenarios de pedidos de existencias/producción y escenarios de no existencias/basados en recursos en el mismo entorno a través de configuraciones a nivel de entidad legal. Por ejemplo, Contoso puede usar las capacidades de pedidos de stock / producción en sus instalaciones de fabricación de EE. UU. (Entidad legal = Contoso Manufacturing United States). Contoso puede usar las capacidades no almacenadas / basadas en recursos en su instalación de servicio Contoso Robotics Arms en el Reino Unido (entidad legal = Contoso Robotics Reino Unido).
 
-### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Implementación simplificada: del acuerdo a la facturación proforma
+### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Implementación lite: del acuerdo a la facturación proforma
 
 La implementación simplificada incluye las siguientes capacidades:
 

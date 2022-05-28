@@ -4,14 +4,14 @@ description: En este tema se proporciona información acerca de cómo configurar
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998797"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580477"
 ---
 # <a name="period-types"></a>Tipos de período
 
@@ -22,7 +22,7 @@ Un tipo de período define la frecuencia con la que se estiman los ingresos de u
 ## <a name="create-and-work-with-period-types"></a>Crear y trabajar con tipos de períodos
 Para crear y trabajar con tipos de período, complete los siguientes pasos:
 
-1. En su entorno de Dynamics 365 Finance, vaya a **Gestión de proyectos y contabilidad** > **Configuración** > **Estimaciones** > **Tipos de período**.
+1. En su entorno de Dynamics 365 Finance, vaya a **Gestión de proyectos y contabilidad.** > **Configuración** > **Estimaciones** > **Tipos de periodo**.
 2. Seleccione **Nuevo** para crear un nuevo tipo de período. Escriba un nombre y una descripción.
 3. En el campo **Frecuencia**, seleccione un valor:
 

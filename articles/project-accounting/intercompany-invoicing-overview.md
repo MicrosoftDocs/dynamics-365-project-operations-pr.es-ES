@@ -3,16 +3,15 @@ title: Información general de facturación con empresas vinculadas
 description: En este tema se proporciona información y ejemplos sobre la facturación con empresas vinculadas para proyectos.
 author: sigitac
 ms.date: 11/19/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b7bb4384657c71552390bbc3d60f3c5d0e4136b4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005412"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586273"
 ---
 # <a name="intercompany-invoicing-overview"></a>Información general de facturación con empresas vinculadas
 
@@ -20,7 +19,7 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no en e
 
 Su organización puede tener varias divisiones, subsidiarias y otras entidades jurídicas que se transfieren productos y servicios entre sí para proyectos. La entidad jurídica que proporciona el servicio o producto se denomina *entidad jurídica prestamista*. La entidad jurídica que recibe el servicio o producto se denomina *entidad jurídica prestataria*.
 
-La siguiente ilustración muestra un escenario típico donde dos entidades jurídicas, Contoso Robotics USA (la entidad jurídica prestataria) y Contoso Robotics UK (la entidad jurídica prestamista) comparten recursos para entregar un proyecto al cliente, Adventure Works. Para este escenario, Contoso Robotics USA está contratado para entregar el trabajo a Adventure Works.
+La siguiente ilustración muestra un escenario típico en el que dos entidades jurídicas, Contoso Robotics USA (la entidad jurídica prestataria) y Contoso Robotics UK (la entidad jurídica prestamista) comparten recursos para entregar un proyecto para el cliente, Adventure Works. Para este escenario, se ha contratado a Contoso Robotics USA para entregar el trabajo a Adventure Works.
 
 ![Facturación entre empresas vinculadas.](./media/IntercompanyScenario.png) 
 

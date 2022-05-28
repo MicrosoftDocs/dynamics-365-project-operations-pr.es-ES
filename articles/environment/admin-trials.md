@@ -2,22 +2,22 @@
 title: Registrarse para pruebas de Project Operations
 description: En este tema se proporciona información sobre cómo implementar una prueba de Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 01/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
+ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901638"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584295"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Registrarse para pruebas de Project Operations 
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos en existencias, implementación Lite - trato a facturación proforma y Project Operations para escenarios basados en existencias/producción_ 
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Este tema explica cómo suscribirse a la oferta de partner de vista previa e implementar un entorno de Dynamics 365 Project Operations.
 
@@ -36,7 +36,6 @@ La siguiente tabla describe los detalles de la nueva oferta de prueba.
 | Uso de la oferta                    | Una vez por inquilino                          |
 | Duración de la oferta               | 30 días naturales                             |
 | Canjes por inquilino       | 1                                            |
-| Número de usuarios              | 25                                           |
 | Extensión                    | 1 extensión, 30 días naturales               |
 | Número de entornos de prueba | 3                                            |
 
@@ -87,7 +86,7 @@ Antes de comenzar, inicie sesión en un navegador con la cuenta de trabajo del u
  
   Cuando se completa el aprovisionamiento, el estado de su entorno es **Listo**. El aprovisionamiento del entorno incluye la implementación de datos de demostración.
  
-4.  Seleccione los correspondientes URL de Microsoft Dataverse y URL de aplicaciones de Finance and Operations para validar la implementación.
+4.  Seleccione las correspondientes URL de Microsoft Dataverse y las URL de aplicaciones de finanzas y operaciones para validar la implementación.
 
 ## <a name="configuring-dual-write"></a>Configuración de la escritura dual
 - Para configurar roles de seguridad para escritura dual, consulte [Actualice la configuración de seguridad en Project Operations en Dataverse](resource-provision-new-environment.md).
@@ -117,7 +116,7 @@ Los siguientes recursos brindan una guía útil al comenzar su viaje con Project
 
 ## <a name="frequently-asked-questions"></a>Preguntas frecuentes
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>¿Qué pasa si necesito ALM o ELM para mi entorno de aplicaciones de Finance and Operations?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>¿Qué sucede si necesito ALM o ELM para mi entorno de aplicaciones de finanzas y operaciones?
 
 - Para los partners que requieren capacidades de gestión del ciclo de vida del entorno completo, consulte la [Solicitud de licencia de espacio aislado para partners](https://experience.dynamics.com/requestlicense) para revisar la nueva oferta de socios. 
 - Para los socios que buscan más información sobre los derechos de uso interno, consulte [Beneficio de software y nube de derechos de uso interno (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).

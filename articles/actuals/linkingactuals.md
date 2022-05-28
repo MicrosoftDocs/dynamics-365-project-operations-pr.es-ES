@@ -1,92 +1,37 @@
 ---
-title: Vincular datos reales a registros originales
-description: Este tema explica cómo vincular datos reales a los registros originales, como la entrada de tiempo, la entrada de gastos o los registros de uso de material.
+title: 'Orígenes de transacciones: vincular datos reales a su fuente'
+description: Este tema explica cómo se utiliza el concepto de orígenes de transacciones para vincular los datos reales con los registros de origen originales, como la entrada de horas, la entrada de gastos o los registros de uso de materiales.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 908f78f7d58ec4b18f37d03b6fa7c4e2295491fa
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991777"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584847"
 ---
-# <a name="link-actuals-to-original-records"></a>Vincular datos reales a registros originales
+# <a name="transaction-origins---link-actuals-to-their-source"></a>Orígenes de transacciones: vincular datos reales a su fuente
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-
-En Dynamics 365 Project Operations, una *transacción comercial* es un concepto abstracto que no se representan con una entidad. Sin embargo, algunos procesos y campos comunes de las entidades están diseñados para usar el concepto de las transacciones comerciales. A continuación se detallan las entidades que usan este concepto:
-
-- Detalles de línea de oferta
-- Detalles de línea de contrato
-- Líneas de estimación
-- Líneas de diario
-- Datos reales
-
-De estas entidades, **Detalles de línea de oferta**, **Detalles de línea de contrato** y **Líneas de estimación** se asignan a la fase de estimación en el ciclo de vida del proyecto. Las entidades **Líneas de diario** y **Datos reales** se asignan a la fase de ejecución en el ciclo de vida del proyecto.
-
-Project Operations reconoce los registros de estas cinco entidades como transacciones comerciales. La única distinción es que los registros de las entidades asignadas a la fase de estimación se consideran previsiones financieras, mientras que los registros de las entidades que se asignan a la fase de ejecución se consideran hechos financieros que se han producido ya.
-
-## <a name="concepts-that-are-unique-to-business-transactions"></a>Conceptos únicos para las transacciones comerciales
-A continuación se detallan conceptos que son únicos para las transacciones comerciales:
-
-- Tipo de transacción
-- Clase de transacción
-- Origen de la transacción
-- Conexión de transacciones
-
-### <a name="transaction-type"></a>Tipo de transacción
-
-El Tipo de transacción representa el tiempo y el contexto del impacto financiero de un proyecto. Esto se representa mediante un conjunto de opciones que tiene los siguientes valores admitidos en Project Operations:
-
-  - Coste
-  - Contrato de proyecto
-  - Ventas sin facturar
-  - Ventas facturadas
-  - Ventas entre organizaciones
-  - Coste de unidad de dotación de recursos
-
-### <a name="transaction-class"></a>Clase de transacción
-
-La Clase de transacción representa los distintos tipos de costes en los que se incurre en los proyectos. Esto se representa mediante un conjunto de opciones que tiene los siguientes valores admitidos en Project Operations:
-
-  - Tiempo
-  - Gasto
-  - Material
-  - Tarifa
-  - Hito
-  - Impuestos
-
-**Hito** suele utilizarse en la lógica de negocios para la facturación de precio fijo en Project Operations.
-
-### <a name="transaction-origin"></a>Origen de la transacción
-
-El **origen de la transacción** es una entidad que almacena el origen de cada transacción comercial. Cuando un proyecto se pone en marcha, cada transacción comercial dará lugar a otra transacción comercial que a su vez creará otra y así sucesivamente. La entidad de origen de la transacción está diseñada para almacenar datos sobre el origen de cada transacción para ayudar con los informes y la trazabilidad. 
-
-### <a name="transaction-connection"></a>Conexión de transacciones
-
-La **Conexión de transacciones** es una entidad que almacena la relación entre dos transacciones comerciales similares, como, por ejemplo, el coste y los datos reales relacionados con las ventas, o las reversiones de transacciones que se desencadenan con actividades de facturación, como, por ejemplo, la confirmación de facturas o las correcciones de facturas.
-
-Juntas, las entidades **Origen de la transacción** y **Conexión de transacciones** le ayudan a mantener un seguimiento de las relaciones entre las transacciones comerciales y las acciones provocaron la creación de una transacción comercial específica.
-
-### <a name="example-how-transaction-origin-works-with-transaction-connection"></a>Ejemplo: funcionamiento de la entidad Origen de la transacción con la entidad Conexión de transacciones
+Los registros de origen de transacción se crean para vincular datos reales a su origen, como entradas de tiempo, entradas de gastos, registros de uso de materiales y facturas de proyectos.
 
 El siguiente ejemplo muestra el procesamiento típico de las entradas de tiempo en el ciclo de vida de proyectos de Project Operations.
 
-> ![Procesamiento de entradas de tiempo en el ciclo de vida de Project Service.](media/basic-guide-17.png)
+> ![Procesamiento de entradas de tiempo en Project Operations.](media/basic-guide-17.png)
  
-1. Un envío de una entrada crea de dos líneas de diario: una línea para el coste y otra para las ventas sin facturar.
-2. La aprobación puntual de la entrada de tiempo crea dos datos reales: uno para el coste y otro para las ventas sin facturar.
-3. Cuando se crea una nueva factura de proyecto, la transacción de la línea de la factura se crea a partir de los datos reales de ventas sin facturar. 
+1. El envío de una entrada de tiempo hace que se creen dos líneas de diario: una para el coste y otra para las ventas sin facturar.
+2. La aprobación final de la entrada de tiempo desencadena que se creen dos datos reales: uno para el coste y otro para las ventas sin facturar.
+3. Cuando el usuario crea una factura de proyecto, la transacción de la línea de la factura se crea a partir de los datos reales de ventas sin facturar.
 4. Cuando se confirma la factura, se crean dos nuevos datos reales: una reversión de ventas sin facturar y un dato real de ventas sin facturar.
 
-Cada uno de estos eventos crea un registro en las entidades **Origen de la transacción** y **Conexión de transacción**. Estos nuevos registros ayudan a crear un historial de relaciones entre los registros que se crean en la entrada de tiempo, la línea del diario, los datos reales y los detalles de la línea de la factura.
+Cada evento de de este flujo de proceso de trabajo desencadena la creación de registros en las entidades Origen de la transacción para facilitar la trazabilidad de las relaciones entre estos registros que se crean en la entrada de tiempo, la línea de diario, el dato real y los detalles de la línea de factura.
 
-La siguiente tabla muestra los registros de la entidad **Origen de la transacción** para el flujo de trabajo precedente.
+La siguiente tabla muestra los registros de la entidad Origen de la transacción para el flujo de trabajo precedente.
 
 | Evento                        | Origen                   | Tipo de origen                       | Transacción                       | Tipo de transacción         |
 |------------------------------|--------------------------|-----------------------------------|-----------------------------------|--------------------------|
@@ -124,18 +69,9 @@ La siguiente tabla muestra los registros de la entidad **Origen de la transacci�
 | GUID IL de corrección           | Línea de factura             | GUID de datos reales de nuevas ventas sin facturar    | Real                            |                          |
 | GUID de factura de corrección      | Factura                  | GUID de datos reales de nuevas ventas sin facturar    | Real                            |                          |
 
-La siguiente tabla muestra los registros de la entidad **Conexión de la transacción** para el flujo de trabajo precedente.
 
-| Evento                          | Transacción 1                 | Rol de transacción 1 | Tipo de transacción 1           | Transacción 2                | Rol de transacción 2 | Tipo de transacción 2 |
-|--------------------------------|-------------------------------|--------------------|------------------------------|------------------------------|--------------------|--------------------|
-| Envío de la entrada de tiempo          | GUID de la línea de diario (ventas)     | Ventas sin facturar     | msdyn_journalline            | GUID de la línea de diario (coste)     | Costo               | msdyn_journalline  |
-| Aprobación de tiempo                  | GUID de datos reales sin facturar (ventas)  | Ventas sin facturar     | msdyn_actual                 | GUID de datos reales de coste (coste)       | Costo               | msdyn_actual       |
-| Creación de factura               | GUID de detalle de la línea de factura      | Ventas facturadas       | msdyn_invoicelinetransaction | GUID de datos reales de ventas sin facturar   | Ventas sin facturar     | msdyn_actual       |
-| Confirmación de factura           | GUID de datos reales de reversión         | Reversión          | msdyn_actual                 | GUID de ventas sin facturar original | Original           | msdyn_actual       |
-| GUID de ventas facturadas              | Ventas facturadas                  | msdyn_actual       | GUID de datos reales de ventas sin facturar   | Ventas sin facturar               | msdyn_actual       |                    |
-| Corrección borrador de factura       | GUID de transacción de línea de factura | Reemplazo          | msdyn_invoicelinetransaction | GUID de ventas facturadas            | Original           | msdyn_actual       |
-| Confirmar corrección de factura     | GUID de reversión de ventas facturadas    | Reversión          | msdyn_actual                 | GUID de ventas facturadas            | Original           | msdyn_actual       |
-| GUID de datos reales de nuevas ventas sin facturar | Reemplazo                     | msdyn_actual       | GUID de ventas facturadas            | Original                     | msdyn_actual       |                    |
+La siguiente ilustración muestra los vínculos que se crean entre diferentes datos reales y sus orígenes, en diversos eventos, usando el ejemplo de entradas de tiempo en Project Operations.
 
+> ![Cómo se vinculan los datos reales a los registros de origen en Project Operations.](media/TransactionOrigins.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

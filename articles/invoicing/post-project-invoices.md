@@ -3,16 +3,15 @@ title: Información general sobre el proceso de facturación
 description: Este tema proporciona información general sobre el proceso de facturación en Project Operations para escenarios basados en recursos/no mantenidos en existencias.
 author: sigitac
 ms.date: 01/29/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0328d5321909bcc17754da4e19d7652b77a665d5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003792"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582731"
 ---
 # <a name="invoicing-process-overview"></a>Información general sobre el proceso de facturación
 
@@ -22,7 +21,7 @@ Project Operations para escenarios basados en recursos/no mantenidos en existenc
 
 ![Diagrama de flujo de facturación.](./media/invoicing-flow.png)
 
-La línea de contrato del proyecto define el método de facturación de las transacciones del proyecto asociadas. Cuando el jefe de proyecto aprueba las transacciones de tiempo y gastos, el sistema registra las transacciones en la entidad **Datos reales del proyecto** y envía la información al módulo **Gestión de proyectos y contabilidad** en Dynamics 365 Finance. A continuación, el contable del proyecto revisa y contabiliza los registros a través del [Diario de integración de Project Operations](../project-accounting/project-operations-integration-journal.md). Este diario incluye detalles contables importantes para los datos reales del proyecto, como los de facturación, grupo de impuestos, grupo de impuestos de artículos de facturación y dimensiones financieras.
+La línea de contrato del proyecto define el método de facturación de las transacciones del proyecto asociadas. Cuando el administrador de proyecto aprueba transacciones de tiempo y gastos, el sistema registra las transacciones en la entidad **Datos reales del proyecto** y, a continuación, envía la información al módulo de **Gestión de proyectos y contabilidad** de Dynamics 365 Finance. A continuación, el contable del proyecto revisa y contabiliza los registros a través del [Diario de integración de Project Operations](../project-accounting/project-operations-integration-journal.md). Este diario incluye detalles contables importantes para los datos reales del proyecto, como los de facturación, grupo de impuestos, grupo de impuestos de artículos de facturación y dimensiones financieras.
 
 El jefe de proyecto puede revisar las transacciones de ventas no facturadas mediante el método de facturación de tiempo y material en [Trabajo pendiente de facturación de tiempo y material](../proforma-invoicing/manage-billing-backlog.md#time-and-material-billing-backlog) y la facturación de precio fijo en [Hitos de precio fijo](../proforma-invoicing/manage-billing-backlog.md#fixed-price-milestones). Estas vistas le permiten filtrar y seleccionar transacciones que deben incluirse en el siguiente ciclo de facturación y luego marcarlas como **Listo para facturar**.
 

@@ -3,16 +3,15 @@ title: Introducción a la implementación de Project Operations para escenarios 
 description: Este tema proporciona información sobre el tipo de implementación, Project Operations para escenarios almacenados / basados en producción.
 author: rumant
 ms.date: 11/02/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 06775a41b17fab5cd7a72d6cfbb92cb7608b6cc2411eb96bd67513e1de10ad63
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: de9a83949a838f8ca90771022339c6da17f6dde1
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009102"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582501"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Introducción a la implementación de Project Operations para escenarios basados en existencias/producción
 
@@ -23,21 +22,21 @@ Este tipo de implementación tiene las siguientes capacidades para empresas basa
 
 - Planificación de proyectos utilizando las [Estructuras de desglose del trabajo](work-breakdown-structures.md)
 - Adquirir y consumir inventario almacenado para proyectos
-- Gestionar ventas basadas en proyectos utilizando el módulo **Ventas y marketing** en aplicaciones de Dynamics 365 Finance and Operations
-- Fijación de precios y costos del proyecto utilizando las configuraciones de tarifa de costo y tarifa de aplicaciones de Finance and Operations
-- Administración de recursos para proyectos en aplicaciones de Finance and Operations
-- Progreso del proyecto y control de tiempo en aplicaciones de Finance and Operations
+- Gestión de ventas basadas en proyectos mediante el módulo **Ventas y marketing** en aplicaciones de finanzas y operaciones de Dynamics 365 Finance
+- Fijación de precios y costes del proyecto mediante el uso de las configuraciones de tasa de coste y tasa de facturación en aplicaciones de finanzas y operaciones
+- Gestión de recursos para proyectos en aplicaciones de finanzas y operaciones
+- Progreso del proyecto y seguimiento del tiempo en aplicaciones de finanzas y operaciones
 - Experiencias de gestión de gastos para gastos de proyectos y no relacionados con proyectos con captura de recibos utilizando capacidades de OCR
 - Facturación utilizando un impuesto sobre las ventas de clase empresarial y un sistema de tipos de cambio vigentes
 - Grupos de proyectos configurables para contabilidad WIP y acumulaciones
 - Reconocimiento de ingresos de proyecto
 
-Este tipo de implementación también proporciona una extensión a la funcionalidad proporcionada por las aplicaciones de Dynamics 365 Finance y Dynamics 365 Supply Chain Management.
+Este tipo de implementación también proporciona una extensión de la funcionalidad proporcionada por las aplicaciones de Dynamics 365 Finance y Dynamics 365 Supply Chain Management.
 
 Seleccione este tipo de implementación si espera utilizar Dynamics 365 Project Operations para el ciclo de vida completo del proyecto, incluidos los siguientes requisitos clave:
 
 - Un extenso sistema de gestión de proyectos que gestiona los artículos inventariados y el costeo de órdenes de trabajo / producción para proyectos internos y facturables para cronogramas y finanzas.
-- La organización ya tiene las aplicaciones de Dynamics 365 Finance o Dynamics 365 Supply Chain and Manufacturing, y la integración de transacciones basadas en proyectos simplificará el acceso a los datos y las necesidades de informes.
+- La organización ya tiene aplicaciones de Dynamics 365 Finance o Dynamics 365 Supply Chain y fabricación,y la integración de transacciones basadas en proyectos simplificará el acceso a los datos y las necesidades de elaboración de informes.
 - Un sistema de gestión de gastos completamente funcional que incluye el cumplimiento de políticas y reembolsos para realizar un seguimiento de los gastos del proyecto y fuera del proyecto.
 - Un motor de tipo de cambio e impuestos sobre las ventas de clase empresarial para generar facturas de proyectos para los clientes.
 - Un sistema de reconocimiento de ingresos y contabilidad de proyectos que cumple con las Normas Internacionales de Información Financiera (NIIF).

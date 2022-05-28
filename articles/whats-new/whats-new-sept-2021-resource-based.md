@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 842ea95892fa4f7a29a778cfd2c33a66e84f676c
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 06f23630ef0205394f376e5bb93a29ae8a9eab15
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547175"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582915"
 ---
 # <a name="whats-new-september-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novedades de septiembre de 2021: Project Operations para escenarios basados en recursos/no mantenidos en existencias
 
@@ -21,7 +21,7 @@ ms.locfileid: "7547175"
 Este tema se aplica a los siguientes componentes y versiones de Dynamics 365 Project Operations:
 
    - Project Operations en la versión del entorno 4.14.0.99 de Microsoft Dataverse.
-   - Gestión de proyectos y contabilidad en el entorno de la versión 10.0.20 de Dynamics 365 Finance.
+   - Gestión de proyectos y contabilidad en un entorno de Dynamics 365 Finance, versión 10.0.20.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Actualizaciones de asignaciones de doble escritura de Project Operations
 
@@ -45,7 +45,7 @@ Si tiene algún problema al iniciar la asignación, siga las instrucciones de la
 | Facturación y precios | 2385802 | Se corrigió el error que ocurre con las horas reales negativas cuando se actualizan los totales del proyecto. |
 | Facturación y precios | 2389675 | Se mejoró el comportamiento de confirmación de la factura proforma. La entidad de trabajos de larga duración debe tener en cuenta la actividad requerida para escribir los resultados de confirmación para contabilidad. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Gestión de proyectos y contabilidad en Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Administración y contabilidad de proyectos de Dynamics 365 Finance
 
 | Área de características | Número de referencia | Actualización de calidad |
 | --- | --- | --- |
