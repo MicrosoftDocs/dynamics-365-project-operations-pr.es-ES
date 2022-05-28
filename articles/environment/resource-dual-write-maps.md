@@ -4,14 +4,14 @@ description: Este tema proporciona la lista de asignaciones de doble escritura n
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547130"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612785"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versiones de asignaciones de doble escritura para Project Operations
 
@@ -25,12 +25,12 @@ Las siguientes asignaciones son requisitos previos necesarios para la solución 
 
 | Asignación de tabla | Sincronización inicial |
 | --- | --- |
-| Libro mayor (msdyn_ledgers) | Requiere sincronización inicial para el mapa de asignación y todos los requisitos previos. El maestro para sincronización inicial es aplicaciones de Finance and Operations. |
+| Libro mayor (msdyn_ledgers) | Requiere sincronización inicial para el mapa de asignación y todos los requisitos previos. El maestro para la sincronización inicial son las aplicaciones de Finanzas y operaciones. |
 | Entidades legales (cdm_companies) | No necesario. El sistema completa esta entidad automáticamente cuando los entornos están vinculados mediante doble escritura. |
 | Clientes V3 (accounts) | No es necesario para aprovisionamiento. |
 | Proveedores V2 (msdyn_vendors) | No es necesario para aprovisionamiento. |
 
-1. En la lista de mapas, seleccione la asignación Contabilidad **(msdyn\_ledgers)** con todos los requisitos previos y active la casilla **Sincronización inicial**. En el campo **Maestro para sincronización inicial**, seleccione **aplicaciones de Finance and Operations** tanto para la asignación de contabilidad como para todas las asignaciones de requisitos previos. Seleccione **Ejecutar**.
+1. En la lista de mapas, seleccione la asignación Contabilidad **(msdyn\_ledgers)** con todos los requisitos previos y active la casilla **Sincronización inicial**. En el campo **Maestro para la sincronización inicial**, seleccione **Aplicaciones de finanzas y operaciones**, tanto para el mapa del libro mayor como para todos los mapas de requisitos previos. Seleccione **Ejecutar**.
 
 ![Sincronización de asignaciones de contabilidad.](media/DW6.png)
 
@@ -40,26 +40,26 @@ Las siguientes asignaciones son requisitos previos necesarios para la solución 
 
 Las siguientes asignaciones se requieren para una solución de Project Operations. Las versiones de mapas de doble escritura se enumeran a partir de la actualización de Project Operations de mayo de 2021, versión 4.10.0.186.
 
-| **Asignación de entidad** | **Versión más reciente** | **Sincronización inicial** |
-| --- | --- | --- |
-| Entidad de integración para las relaciones de transacciones del proyecto (msdyn\_transactionconnections) | 1.0.0.0 | No es necesario para aprovisionamiento. |
-| Encabezados de contrato de proyecto (pedidos de venta) | 1.0.0.1 | No es necesario para aprovisionamiento. |
-| Líneas de contrato de proyecto (detalles de pedidos de ventas) | 1.0.0.0 | No es necesario para aprovisionamiento. |
-| Origen de financiación del proyecto (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | No es necesario para aprovisionamiento. |
-| Tabla de integración de Project Operations para estimaciones de materiales (msdyn\_estimatelines) | 1.0.0.0 | No es necesario para aprovisionamiento. |
-| Propuestas de factura de proyecto V2 (invoices) | 1.0.0.3 | No es necesario para aprovisionamiento. |
-| Datos reales de integración de Project Operations (msdyn_actuals) | 1.0.0.14 | No es necesario para aprovisionamiento. |
-| Hitos de la línea de contrato de integración de Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | No es necesario para aprovisionamiento. |
-| Entidad de integración de Project Operations para estimaciones de gastos (msdyn_estimatelines) | 1.0.0.2 | No es necesario para aprovisionamiento. |
-| Entidad de integración Project Operations para estimaciones horarias (msdyn_resourceassignments) | 1.0.0.5 | No es necesario para aprovisionamiento. |
-| Entidad de exportación de categorías de gastos de proyecto de integración de Project Operations (msdyn_expensecategories) | 1.0.0.1 | No es necesario para aprovisionamiento. |
-| Entidad de exportación de gastos de proyecto de integración de Project Operations (msdyn_expenses) | 1.0.0.2 | No es necesario para aprovisionamiento. |
-| Entidad de exportación de facturas de proveedores de proyectos de integración de Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | No es necesario para aprovisionamiento. |
-| Entidad de exportación de línea de facturas de proveedores de proyectos de integración de Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.1 | No es necesario para aprovisionamiento. |
-| Roles de recursos del proyecto para todas las empresas (bookableresourcecategories) | 1.0.0.1 | Requiere una sincronización inicial para la asignación de tablas para sincronizar los roles de recursos de Jefe de proyecto y Miembro del equipo que se rellenan en el entorno de Dynamics 365 Dataverse durante el aprovisionamiento. Dataverse es el origen principal de la sincronización inicial. |
-| Tareas del proyecto (msdyn_projecttasks) | 1.0.0.4 | No es necesario para aprovisionamiento. |
-| Categorías de transacciones de proyectos (msdyn_transactioncategories) | 1.0.0.0 | No es necesario para aprovisionamiento. |
-| Proyectos V2 (msdyn_projects) | 1.0.0.2 | No es necesario para aprovisionamiento. |
+| Asignación de entidad | Versión más reciente | Sincronización inicial | Versión requerida de Dynamics 365 Finance |
+| --- | --- | --- | --- |
+| Entidad de integración para las relaciones de transacciones del proyecto (msdyn\_transactionconnections) | 1.0.0.0 | No es necesario para aprovisionamiento. ||
+| Encabezados de contrato de proyecto (pedidos de venta) | 1.0.0.1 | No es necesario para aprovisionamiento. ||
+| Líneas de contrato de proyecto (detalles de pedidos de ventas) | 1.0.0.0 | No es necesario para aprovisionamiento. ||
+| Origen de financiación del proyecto (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | No es necesario para aprovisionamiento. ||
+| Tabla de integración de Project Operations para estimaciones de materiales (msdyn\_estimatelines) | 1.0.0.0 | No es necesario para aprovisionamiento. ||
+| Propuestas de factura de proyecto V2 (invoices) | 1.0.0.3 | No es necesario para aprovisionamiento. ||
+| Datos reales de integración de Project Operations (msdyn_actuals) | 1.0.0.14 | No es necesario para aprovisionamiento. ||
+| Hitos de la línea de contrato de integración de Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | No es necesario para aprovisionamiento. ||
+| Entidad de integración de Project Operations para estimaciones de gastos (msdyn_estimatelines) | 1.0.0.2 | No es necesario para aprovisionamiento. ||
+| Entidad de integración Project Operations para estimaciones horarias (msdyn_resourceassignments) | 1.0.0.5 | No es necesario para aprovisionamiento. ||
+| Entidad de exportación de categorías de gastos de proyecto de integración de Project Operations (msdyn_expensecategories) | 1.0.0.1 | No es necesario para aprovisionamiento. ||
+| Entidad de exportación de gastos de proyecto de integración de Project Operations (msdyn_expenses) | 1.0.0.3 | No es necesario para aprovisionamiento. ||
+| Entidad de exportación de facturas de proveedores de proyectos de integración de Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | No es necesario para aprovisionamiento. ||
+| Entidad de exportación de línea de facturas de proveedores de proyectos de integración de Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.4 | No es necesario para aprovisionamiento. | 10.0.26 o posterior |
+| Roles de recursos del proyecto para todas las empresas (bookableresourcecategories) | 1.0.0.1 | Requiere una sincronización inicial para la asignación de tablas para sincronizar los roles de recursos de Jefe de proyecto y Miembro del equipo que se rellenan en el entorno de Dynamics 365 Dataverse durante el aprovisionamiento. Dataverse es el origen principal de la sincronización inicial. ||
+| Tareas del proyecto (msdyn_projecttasks) | 1.0.0.4 | No es necesario para aprovisionamiento. ||
+| Categorías de transacciones de proyectos (msdyn_transactioncategories) | 1.0.0.0 | No es necesario para aprovisionamiento. ||
+| Proyectos V2 (msdyn_projects) | 1.0.0.2 | No es necesario para aprovisionamiento. ||
 
 Complete los siguientes pasos para ejecutar las asignaciones enumeradas.
 

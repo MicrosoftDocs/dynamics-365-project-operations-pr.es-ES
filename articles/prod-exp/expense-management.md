@@ -3,25 +3,23 @@ title: Información general sobre gestión de gastos
 description: Este tema proporciona información general sobre la gestión de gastos y enlaces a recursos adicionales. Puede utilizar la gestión de gastos para crear un flujo de trabajo integrado en el que puede almacenar información sobre el método de pago, importar transacciones de tarjetas de crédito y realizar un seguimiento del dinero que gastan los empleados cuando incurren en gastos para su negocio.
 author: ShylaThompson
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: 2d97d69b-9c08-4f0d-9637-68759fd34d34
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b069b5101c0b093bea5ddb7c02d4e0f5fedd09b7ae051dca96f620b164c17fd3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 93a8581db26dfecb9f847740c979e096dc3e227d
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001452"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684847"
 ---
 # <a name="expense-management-overview"></a>Información general sobre gestión de gastos
 
@@ -45,7 +43,7 @@ Para obtener más información, consulte [Informes de gastos reinventados](Expen
 
 ### <a name="blogs"></a>Blogs
 
-Puede encontrar opiniones, noticias y otra información en el [blog de Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) y [Microsoft Dynamics 365 Finance and Operations - Blog de finanzas ](https://community.dynamics.com/365/financeandoperations/b/financials).
+Encontrará opiniones, noticias y otra información en el [blog de Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) y el [blog de Finanzas y operaciones de Microsoft Dynamics 365 Finance](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 El [Blog de la comunidad de socios de operaciones de Microsoft Dynamics](https://community.dynamics.com/partner/b/operationspartnercommunityblog) da a los Microsoft Dynamics Partners un único recurso en el que pueden conocer las novedades y las tendencias de las operaciones MBS.
 

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
-ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7679230"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600809"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novedades de junio de 2021: Project Operations para escenarios basados en recursos/no mantenidos en existencias
 
@@ -21,7 +21,7 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no en e
 Este tema se aplica a los siguientes componentes y versiones de Dynamics 365 Project Operations:
 
 - Project Operations en la versión del entorno 4.11.0.156 o 4.11.0.164 de Dynamics 365 Dataverse.
-- Gestión de proyectos y contabilidad en la versión de entornos de aplicaciones de Finance and Operations 10.0.19.
+- Gestión de proyectos y contabilidad en entornos de aplicaciones de finanzas y operaciones, versión 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>Características incluidas en esta versión
 
@@ -38,7 +38,7 @@ No hay actualizaciones para las asignaciones de escritura dual de Project Operat
 
 Para obtener una lista actual y las versiones de las asignaciones de escritura dual de Project Operations, consulte [Versiones de asignación de doble escritura de Project Operations](../environment/resource-dual-write-maps.md).
 
-Siempre ejecute la última versión de la asignación en su entorno y habilitar todas las asignaciones de tabla relacionados a medida que actualiza la solución Dataverse de Project Operations y la versión de la solución de aplicaciones de Finance and Operations. Es posible que algunas funciones y capacidades no funcionen correctamente si la última versión de la asignación no está activada. Puede ver la versión activa de la asignación en la página **Escritura dual** en la columna **Versión**. Active una nueva versión de la asignación seleccionando **Versiones de asignación de tabla**, seleccione la última versión y luego guarde la versión seleccionada. Si ha personalizado un mapa de asignación lista para usar, vuelva a aplicar los cambios. Para obtener más información, consulte [Administración del ciclo de vida de las aplicaciones](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Siempre debe ejecutar la última versión de la asignación en su entorno y habilitar todas las asignaciones de tabla relacionadas a medida que actualiza la solución Project Operations Dataverse y la versión de la solución de aplicaciones de finanzas y operaciones. Es posible que algunas funciones y capacidades no funcionen correctamente si la última versión de la asignación no está activada. Puede ver la versión activa de la asignación en la página **Escritura dual** en la columna **Versión**. Active una nueva versión de la asignación seleccionando **Versiones de asignación de tabla**, seleccione la última versión y luego guarde la versión seleccionada. Si ha personalizado un mapa de asignación lista para usar, vuelva a aplicar los cambios. Para obtener más información, consulte [Administración del ciclo de vida de las aplicaciones](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Si tiene algún problema al iniciar la asignación, siga las instrucciones de la sección [Problema de columnas de tabla que faltan en las asignaciones](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) de la guía de resolución de problemas de escritura dual.
 
@@ -62,7 +62,7 @@ Si tiene algún problema al iniciar la asignación, siga las instrucciones de la
 | Tiempo y gasto | 2194431 | La cuadrícula **Entrada de tiempo** debe respetar el comienzo de la semana según lo establecido en la **Configuración del sistema**. |
 | Tiempo y gasto | 2277311 | Después de eliminar el valor en una celda en la cuadrícula **Entrada de tiempo**, el cursor permanece en la cuadrícula. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Gestión de proyectos y contabilidad en Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Administración y contabilidad de proyectos de Dynamics 365 Finance
 
 | Área de características | Número de referencia | Actualización de calidad |
 | --- | --- | --- |

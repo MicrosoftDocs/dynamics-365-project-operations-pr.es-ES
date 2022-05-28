@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 460b5bb7baabcb804b9745f5fddae9bcc3fc7541
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005322"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727979"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Use el complemento Project Service Automation para planear el trabajo en Microsoft Project
 
@@ -40,7 +41,7 @@ ms.locfileid: "7005322"
 ## <a name="download-and-install-the-add-in"></a>Descargue e instale el complemento  
  Tenga lista la información de inicio de sesión de [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Necesitará esta información para conectar desde [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-1.  Desde el Centro de descarga, descargue el complemento para su versión compatible de Project Service, bien la versión [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) o la versión [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  Desde el Centro de descarga, descargue el complemento para su versión compatible de Project Service, bien la versión [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) o la versión [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  Haga clic en el vínculo de descarga.  
 
@@ -87,9 +88,8 @@ Cuando se completa el planeamiento de proyecto, el siguiente paso es importar y 
 
 El proyecto se importará en [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Se aplica el proceso de generación de precios y equipos. Abra el proyecto en [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] para ver que se han generado el equipo, estimaciones de proyecto y estructura de descomposición del trabajo. La siguiente tabla muestra dónde encontrar los resultados:
 
-
-|                                                                                          |                                                                                                                                   |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Project | Details |
+| ---- | --- |
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gráfico de Gantt**   | Importaciones en [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] la pantalla **Estructura de descomposición del trabajo** . |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Hoja de recursos** |   Importaciones en [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] la pantalla **Integrantes del grupo del proyecto** .   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Uso**    |    Importaciones en la pantalla **Estimaciones del proyecto** de [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].     |

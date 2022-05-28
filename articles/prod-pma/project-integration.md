@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d2994195ba916ac7a128e8bdd53bea6acb7bd0ba
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988042"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685006"
 ---
 # <a name="microsoft-project-client-integration"></a>Integración Microsoft Project Client
 
 [!include [banner](../includes/banner.md)]
 
-La planificación y el mantenimiento del programa de un proyecto pueden ser complejos, por lo que los jefes de proyectos deben usar herramientas que les ayuden a administrar esta tarea. La integración con Microsoft Project Client brinda soporte para abrir y administrar una estructura de desglose del trabajo del proyecto. El director del proyecto puede volver a publicar cualquier cambio en la estructura de descomposición del trabajo de Dynamics 365 Finance.
+La planificación y el mantenimiento del programa de un proyecto pueden ser complejos, por lo que los jefes de proyectos deben usar herramientas que les ayuden a administrar esta tarea. La integración con Microsoft Project Client brinda soporte para abrir y administrar una estructura de desglose del trabajo del proyecto. El administrador de proyectos puede publicar cualquier cambio de vuelta a la estructura de descomposición del trabajo del proyecto de Dynamics 365 Finance.
 
 > [!NOTE]
 > Si está utilizando la actualización de julio (versión 10.0.4), debe instalar KB 4054797 y 4055884.
@@ -40,7 +39,7 @@ Para habilitar la integración con Microsoft Project Client, es encesario instal
 • Haga clic en **Abrir** y luego en **Ejecutar** cuando se le solicite.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Abrir y editar una estructura de descomposición del trabajo en Microsoft Project Client
-Si un proyecto en Dynamics 365 Finance ya tiene una estructura de desglose de trabajo creada, la estructura de descomposición del trabajo se puede abrir en la aplicación Microsoft Project Client si la estructura de descomposición del trabajo está en un estado de borrador. Para abrir desde la página **Proyecto**, haga clic en el vínculo **Abrir en Microsoft Project** desde la pestaña **Plan**. Esta página también se puede abrir desde la aplicación Microsoft Project Client haciendo clic en **Abrir** en la pestaña **Microsoft Dynamics 365**. Seleccione **Entidad jurídica** y **Proyecto** desde la lista.
+Si un proyecto en Dynamics 365 Finance ya tiene creada una estructura de descomposición del trabajo, la estructura de descomposición del trabajo se puede abrir en la aplicación de Microsoft Project Client si la estructura de descomposición del trabajo está en estado de borrador. Para abrir desde la página **Proyecto**, haga clic en el vínculo **Abrir en Microsoft Project** desde la pestaña **Plan**. Esta página también se puede abrir desde la aplicación Microsoft Project Client haciendo clic en **Abrir** en la pestaña **Microsoft Dynamics 365**. Seleccione **Entidad jurídica** y **Proyecto** desde la lista.
 
 > [!NOTE]
 > Si está usando Internet Explorer como su explorador, deberá hacer clic en **Guardar** para abrir manualmente desde la ubicación en la que se descargó el archivo. O haga clic en **Guardar y abrir** para abrir el archivo en Microsoft Project Client. No cambie el nombre del archivo al guardar.

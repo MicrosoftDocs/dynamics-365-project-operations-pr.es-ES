@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1c88f3b4747005bee0d68d0e8a4314c01ffdaf34
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008067"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600901"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novedades de julio de 2021: Project Operations para escenarios basados en recursos/no mantenidos en existencias
 
@@ -21,7 +21,7 @@ ms.locfileid: "7008067"
 Este tema se aplica a los siguientes componentes y versiones de Dynamics 365 Project Operations:
 
    - Project Operations en la versión del entorno 4.12.0.148 o 4.12.0.152 de Microsoft Dataverse.
-   - Gestión de proyectos y contabilidad en el entorno de la versión 10.0.20 de Dynamics 365 Finance.
+   - Gestión de proyectos y contabilidad en un entorno de Dynamics 365 Finance, versión 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Características incluidas en esta versión
 
@@ -80,7 +80,7 @@ Si tiene algún problema al iniciar la asignación, siga las instrucciones de la
 | General                       | 2253682              | La solución de escritura dual de Project Operations no debe instalarse cuando el núcleo de escritura dual está instalado en un entorno sin la solución de orquestación de escritura dual.                                                |
 | General                       | 2316420              | El aprovisionamiento del núcleo de Project Service falla si se cambia la unidad de negocio del usuario de la aplicación.                                                                                                                     |
 | General                       | 2376405              | Se solucionó el problema de actualización impulsado por el editor (la actualización de calidad está disponible en la versión 4.12.0.152)                                                                                                                     |
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Gestión de proyectos y contabilidad en Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Administración y contabilidad de proyectos de Dynamics 365 Finance
 
 | Área de características                      | Número de referencia | Actualización de calidad                                                                                                                                                                                                                                                                                                                |
 |-----------------------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

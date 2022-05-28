@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26d4d9feb386075fec2b5c0854e0762604a74d36c90068e35d351e52d95165d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d0af6d99a24619b3613a3aaa027404556b1b81c4
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994702"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723789"
 ---
 # <a name="whats-new-may-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novedades en mayo de 2021: Project Operations para escenarios basados en recursos/no mantenidos en existencias
 
@@ -21,7 +21,7 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no en e
 Este tema se aplica a los siguientes componentes y versiones de Dynamics 365 Project Operations:
 
 - Project Operations en la versión de entorno de Dynamics 365 Dataverse 4.10.0.186
-- Gestión de proyectos y contabilidad en la versión de entornos de aplicaciones de Finance and Operations 10.0.18
+- Gestión de proyectos y contabilidad en entornos de aplicaciones de finanzas y operaciones, versión 10.0.18
 
 ## <a name="features-included-in-this-release"></a>Características incluidas en esta versión
 
@@ -41,9 +41,9 @@ La siguiente lista muestra las asignaciones de doble escritura que se han modifi
 | Entidad de exportación de línea de facturas de proveedores de proyectos de integración de Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.1 | Actualizaciones de calidad |
 | Proyectos V2 (msdyn\_projects) | 1.0.0.2 | Actualizaciones de calidad |
 
-Siempre ejecute la última versión de la asignación en su entorno y habilitar todas las asignaciones de tabla relacionados a medida que actualiza la solución Dataverse de Project Operations y la versión de la solución de aplicaciones de Finance and Operations. Es posible que algunas funciones y capacidades no funcionen correctamente si la última versión de la asignación no está activada. Puede ver la versión activa de la asignación en la columna **Versión** en la página **Doble escritura**. Para activar una nueva versión de la asignación, seleccione **Versiones de asignación de tabla**, seleccione la última versión y luego guarde la versión seleccionada. Si ha personalizado un mapa de asignación lista para usar, vuelva a aplicar los cambios. Para obtener más información, consulte [Administración del ciclo de vida de las aplicaciones](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management.md).
+Siempre debe ejecutar la última versión de la asignación en su entorno y habilitar todas las asignaciones de tabla relacionadas a medida que actualiza la solución Project Operations Dataverse y la versión de la solución de aplicaciones de finanzas y operaciones. Es posible que algunas funciones y capacidades no funcionen correctamente si la última versión de la asignación no está activada. Puede ver la versión activa de la asignación en la columna **Versión** en la página **Doble escritura**. Para activar una nueva versión de la asignación, seleccione **Versiones de asignación de tabla**, seleccione la última versión y luego guarde la versión seleccionada. Si ha personalizado un mapa de asignación lista para usar, vuelva a aplicar los cambios. Para obtener más información, consulte [Administración del ciclo de vida de las aplicaciones](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-Si tiene algún problema al iniciar la asignación, siga las instrucciones de la sección [Problema de columnas de tabla faltantes en asignaciones](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps) de la guía de resolución de problemas de doble escritura.
+Si tiene algún problema al iniciar la asignación, siga las instrucciones de la sección [Problema de columnas de tabla faltantes en asignaciones](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) de la guía de resolución de problemas de doble escritura.
 
 ## <a name="quality-updates"></a>Actualizaciones de calidad
 
@@ -67,7 +67,7 @@ Si tiene algún problema al iniciar la asignación, siga las instrucciones de la
 | Entrada de tiempo | 2202476 | La página **Entrada de tiempo** ahora usa el control de cuadrícula de reacción y corrige problemas como la desalineación de la cuadrícula. |
 | Entrada de tiempo | 2223377 | La entrada de tiempo se oculta en la sección **Relacionados** de la página **Recurso que se puede reservar** para evitar confusiones con la usabilidad. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Gestión de proyectos y contabilidad en Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Administración y contabilidad de proyectos de Dynamics 365 Finance
 
 | Área de características | Número de referencia | Actualización de calidad |
 | --- | --- | --- |

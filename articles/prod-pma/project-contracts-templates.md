@@ -1,34 +1,33 @@
 ---
 title: Sincronizar los contratos de proyecto y los proyectos directamente desde Project Service Automation a Finance
-description: Este tema describe la plantilla y las tareas subyacentes que se utilizan para sincronizar los contratos del proyecto y los proyectos directamente desde Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Finance.
+description: En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar contratos y proyectos directamente desde Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 92ebdd864c59168d6f4a4540c6915d6b0dc8a1fb
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001092"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684663"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sincronizar los contratos de proyecto y los proyectos directamente desde Project Service Automation a Finance 
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Este tema describe la plantilla y las tareas subyacentes que se utilizan para sincronizar los contratos del proyecto y los proyectos directamente desde Dynamics 365 Project Service Automation a Dynamics 365 Finance.
+
+En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar contratos y proyectos directamente desde Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 
 > [!NOTE] 
 > Si utiliza la Enterprise Edition7.3.0, debe instalar KB 4074835.
@@ -112,7 +111,7 @@ Cuando se aplica la solución de integración de Project Service Automation con 
 - **SourceDataID** para los contratos de proyectos y los proyectos pueden actualizarse con un valor diferente o eliminarse de la asignación. El valor de plantilla predeterminado es **Project Service Automation**.
 - La asignación **PaymentTerms** debe actualizarse para que refleje las condiciones de pago válidas en Finance. También puede eliminar la asignación de la tarea del proyecto. La asignación de valores predeterminados tiene valores predeterminados para los datos de demostración. La siguiente tabla muestra los valores en Project Service Automation.
 
-    | Value | Descripción   |
+    | valor | Description   |
     |-------|---------------|
     | 1     | Pago a 30 días        |
     | 2     | 2% 10, pago a 30 días |
@@ -121,15 +120,15 @@ Cuando se aplica la solución de integración de Project Service Automation con 
 
 ## <a name="power-query"></a>Power Query
 
-Si se cumplen las siguientes condiciones, filtre datos mediante Microsoft Power Query para Excel:
+Debe usar Microsoft Power Query para Excel para filtrar los datos si se cumplen las siguientes condiciones:
 
 - Tiene pedidos de venta en Dynamics 365 Sales.
 - Tiene varias unidades organizativas en Project Service Automation, y estas unidades organizativas se asignarán a varias entidades jurídicas en Finance.
 
-Si debe usar Power Query, siga estas pautas:
+Si debe usar Power Query, siga estas instrucciones:
 
 - La plantilla de proyectos y contratos (PSA a Fin and Ops) tiene un filtro predeterminado que incluye solo los pedidos de venta del tipo **Elemento de trabajo (msdyn\_ordertype = 192350001)**. Este filtro ayuda a garantizar que no se creen contratos de proyecto para pedidos de ventas en Finance. Si crea su propia plantilla, debe agregar este filtro.
-- Cree un filtro de Power Query que incluya solo las organizaciones contratadas que deben sincronizarse con la entidad jurídica del conjunto de conexiones de integración. Por ejemplo, los contratos de proyecto que tiene con la unidad organizativa de contrato de Contoso US deben sincronizarse con la entidad legal de USSI, pero los contratos de proyecto que tiene con la unidad organizativa de contrato de Contoso Global deben sincronizarse con la entidad legal de USMF. Si no agrega este filtro a su asignación de tareas, todos los contratos de proyecto se sincronizarán con la entidad jurídica definida para el conjunto de conexiones, independientemente de la unidad organizativa del contrato.
+- Cree un filtro de Power Query que incluya solo a las organizaciones de contrato que deben sincronizarse con la entidad jurídica del conjunto de conexión de integración. Por ejemplo, los contratos de proyecto que tiene con la unidad organizativa de contrato de Contoso US deben sincronizarse con la entidad jurídica USSI, pero los contratos de proyecto que tiene con la unidad organizativa de contrato de Contoso Global deben sincronizarse con la entidad jurídica USMF. Si no agrega este filtro a su asignación de tareas, todos los contratos de proyecto se sincronizarán con la entidad jurídica definida para el conjunto de conexiones, independientemente de la unidad organizativa del contrato.
 
 ## <a name="template-mapping-in-data-integration"></a>Asignación de plantillas en la integración de datos
 

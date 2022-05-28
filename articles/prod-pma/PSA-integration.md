@@ -1,33 +1,31 @@
 ---
 title: Información general de Project Service Automation
-description: Este tema proporciona información sobre la integración de Dynamics 365 Project Service Automation con la solución de integración de Dynamics 365 Finance.
+description: Este tema proporciona información sobre la solución de integración de Dynamics 365 Project Service Automation en Dynamics 365 Finance.
 author: ruhercul
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: ruhercul
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 551d511fda83857459a0488cfb48a9c7829171d2e4bd526ab27b4ee74b21910d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1b8588e664f140ca1b0dd740d27fe6a5137da595
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005907"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685583"
 ---
 # <a name="project-service-automation-overview"></a>Información general de Project Service Automation
 
 [!include[banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-La solución de integración de Project Service Automation con Finance utiliza la característica de integración de datos para sincronizar datos entre instancias de Dynamics 365 Finance y Dynamics 365 Project Service Automation a través de Common Data Service. Las plantillas de integración que están disponibles con la función de integración de datos permiten el flujo de proyectos, contratos de proyecto, líneas de contrato de proyecto, hitos de línea de contrato de proyecto, tareas de proyecto, categorías de transacción de gastos, cálculos de horas y cálculos de gastos desde Project Service Automation hasta Finance.
+
+La solución de integración de Project Service Automation en Finance usa la característica de integración de datos para sincronizar datos a través de instancias de Dynamics 365 Finance y Dynamics 365 Project Service Automation mediante Common Data Service. Las plantillas de integración que están disponibles con la función de integración de datos permiten el flujo de proyectos, contratos de proyecto, líneas de contrato de proyecto, hitos de línea de contrato de proyecto, tareas de proyecto, categorías de transacción de gastos, cálculos de horas y cálculos de gastos desde Project Service Automation hasta Finance.
 
 > [!NOTE]
 > - Si utiliza la versión 7.3.0, debe instalar KB 4074835. Entonces podrá integrar proyectos de precio fijo.

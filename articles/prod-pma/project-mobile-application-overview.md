@@ -3,25 +3,23 @@ title: Descripción general de las aplicaciones móviles del proyecto
 description: Este tema proporciona información general sobre las aplicaciones relacionadas con el tiempo del proyecto para Microsoft Dynamics 365 Project Timesheet, Entrada de tiempo del proyecto y Mis hojas de horas y Hojas de horas que están disponibles en un dispositivo móvil.
 author: Yowelle
 ms.date: 05/28/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 742bfc7bbf90feea638d5b5759f5aa7541d14c87ed96c3ad6f074684696e0c73
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 35ac2fa52f488d38be4b647ae8a3babe2b117f79
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005682"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685429"
 ---
 # <a name="project-mobile-applications-overview"></a>Descripción general de las aplicaciones móviles del proyecto
 
@@ -31,15 +29,15 @@ Hay tres aplicaciones móviles relacionadas con el tiempo del proyecto disponibl
 
 ## <a name="project-timesheet-mobile-app"></a>Aplicación móvil Project Timesheet
 
-La aplicación móvil Dynamics 365 Project Timesheet permite a los usuarios enviar y aprobar hojas de horas para proyectos en su dispositivo móvil. Esta aplicación móvil muestra la funcionalidad de la hoja de horas en el área de contabilidad y gestión de proyectos de Dynamics 365 Finance. Ayuda a mejorar la productividad y la eficiencia del usuario, y también ayuda con la entrada y aprobación oportuna de las hojas de horas del proyecto.
+La aplicación móvil Dynamics 365 Project Timesheet permite a los usuarios enviar y aprobar hojas de horas para proyectos en su dispositivo móvil. Esta aplicación móvil aprovecha la funcionalidad de la hoja de horas en el área de Gestión de proyectos y contabilidad de Dynamics 365 Finance. Ayuda a mejorar la productividad y la eficiencia del usuario, y también ayuda con la entrada y aprobación oportuna de las hojas de horas del proyecto.
 
 ## <a name="project-time-entry-workspace"></a>Espacio de trabajo Entrada de tiempo del proyecto
 
-El espacio de trabajo Entrada de tiempo del proyecto permite a los usuarios especificar y ahorrar tiempo en un proyecto. Sin embargo, no permite que los usuarios envíen o aprueben hojas de horas del proyecto. Solo se puede utilizar para la entrada de tiempo. Este espacio de trabajo móvil está diseñado para utilizarse junto con la aplicación móvil Finance and Operations.
+El espacio de trabajo Entrada de tiempo del proyecto permite a los usuarios especificar y ahorrar tiempo en un proyecto. Sin embargo, no permite que los usuarios envíen o aprueben hojas de horas del proyecto. Solo se puede utilizar para la entrada de tiempo. Este espacio de trabajo móvil se debe usar junto con la aplicación móvil de Finanzas y operaciones.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Mis hojas de horas y Hojas de horas para mi revisión
 
-Mis hojas de horas (optimizado para dispositivos móviles) y Hojas de horas para mi revisión (optimizado para dispositivos móviles) constituyen una solución que permite a los empleados crear, enviar y aprobar hojas de horas de proyectos en un dispositivo móvil. Los trabajadores pueden acceder a la funcionalidad de Finance a través de la URL de la aplicación. Esta solución no requiere la aplicación móvil de Finance and Operations.
+Mis hojas de horas (optimizado para dispositivos móviles) y Hojas de horas para mi revisión (optimizado para dispositivos móviles) constituyen una solución que permite a los empleados crear, enviar y aprobar hojas de horas de proyectos en un dispositivo móvil. Los trabajadores pueden acceder a la funcionalidad de Finance a través de la URL de la aplicación. Esta solución no requiere la aplicación móvil de Finanzas y operaciones.
 
 ## <a name="for-more-information"></a>Para obtener más información
 

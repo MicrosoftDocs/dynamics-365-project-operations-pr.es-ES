@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323932"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723697"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Novedades del acceso anticipado del segundo lanzamiento de 2021: implementación simplificada de Project Operations
 
@@ -26,7 +26,7 @@ La versión solo se aplica cuando un entorno [ha optado por el acceso anticipado
 
 ## <a name="features-included-in-this-release"></a>Características incluidas en esta versión
 
-[Gestión de subcontratos](../subcontracting/subcontracting_EA_scope.md): esta función proporciona una mejor visibilidad y control sobre todos los aspectos del trabajo en un proyecto. La vista previa de la gestión de subcontratos incluye las siguientes capacidades:
+[Gestión de subcontratos](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview): esta función proporciona una mejor visibilidad y control sobre todos los aspectos del trabajo en un proyecto. La vista previa de la gestión de subcontratos incluye las siguientes capacidades:
 
   - Un administrador de proyecto puede crear un subcontrato con un proveedor. De forma predeterminada, las listas de precios que se adjuntan al registro de proveedor se usan para el subcontrato. La cuenta de proveedor tiene un tipo de relación de **Proveedor** o **Distribuidor**.
   - Un administrador de proyecto puede desglosar todas las compras como elementos de línea en el subcontrato. Las líneas del subcontrato pueden ser por tiempo, gastos o productos. La clase de transacción de la línea de subcontrato determina para qué es la línea.

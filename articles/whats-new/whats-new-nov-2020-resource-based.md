@@ -4,14 +4,14 @@ description: Este tema proporciona información sobre las actualizaciones de cal
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007977"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600395"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novedades de noviembre de 2020: Project Operations para escenarios basados en recursos/no mantenidos en existencias
 
@@ -20,7 +20,7 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no en e
 Este tema se aplica a los siguientes componentes y versiones de Dynamics 365 Project Operations:
 
 - Project Operations en el entorno CDS versión 4.4.0.70
-- Gestión de proyectos y contabilidad en el entorno de Dynamics 365 Finance versión 10.0.14
+- Gestión de proyectos y contabilidad en un entorno de Dynamics 365 Finance, versión 10.0.14
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Actualizaciones en Project Operations para escenarios basados en recursos/no mantenidos en existencias
 
@@ -42,7 +42,7 @@ Este tema se aplica a los siguientes componentes y versiones de Dynamics 365 Pro
 | Entrada de tiempo y gasto rápido | 2059859          | Se abre una ventana emergente inesperada al crear una entrada de gastos.                                                                                                                         |
 | Otros                        | 2044181          | (Desinstalación de la orden de compra) Al intentar desinstalar msdyn_ProjectServiceCore_Patch y las soluciones centrales de Project Service msdyn, aparece el error "El registro no está disponible".  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Gestión de proyectos y contabilidad en Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Administración y contabilidad de proyectos de Dynamics 365 Finance
 
 | Área de características        | Número de referencia | Actualización de calidad                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ Este tema se aplica a los siguientes componentes y versiones de Dynamics 365 Pro
 | Contabilidad de proyecto  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Habilitar la función, múltiples líneas de contrato no es posible sin la integración de CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Actualizaciones regulatorias
-Para obtener información sobre actualizaciones normativas para aplicaciones de Finance and Operations, vea [Actualizaciones regulatorias](/dynamics365/finance/localizations/regulatory-updates). También puede iniciar sesión en LCS y ver las actualizaciones normativas planificadas mediante la herramienta de búsqueda de problemas. La búsqueda de problemas le permite buscar por país, tipo de función y lanzamiento.
+Para obtener información sobre actualizaciones normativas para aplicaciones de finanzas y operaciones, consulte [Actualizaciones normativas](/dynamics365/finance/localizations/regulatory-updates). También puede iniciar sesión en LCS y ver las actualizaciones normativas planificadas mediante la herramienta de búsqueda de problemas. La búsqueda de problemas le permite buscar por país, tipo de función y lanzamiento.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

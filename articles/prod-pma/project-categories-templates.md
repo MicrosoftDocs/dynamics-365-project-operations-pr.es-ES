@@ -1,32 +1,31 @@
 ---
-title: Sincronizar las categorías de gastos del proyecto entre Finance and Operations y Project Service Automation
-description: Este tema describe las plantillas y las tareas subyacentes que se utilizan para sincronizar las categorías de gastos del proyecto entre Microsoft Dynamics 365 Finance y Dynamics 365 Project Service Automation.
+title: Sincronizar las categorías de gastos de proyectos entre Finanzas y operaciones y Project Service Automation
+description: En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar categorías de gastos de proyectos entre Microsoft Dynamics 365 Finance y Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001137"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685491"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sincronizar las categorías de gastos del proyecto entre Finance and Operations y Project Service Automation
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sincronizar las categorías de gastos de proyectos entre Finanzas y operaciones y Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-Este tema describe las plantillas y las tareas subyacentes que se utilizan para sincronizar las categorías de gastos del proyecto entre Dynamics 365 Finance y Dynamics 365 Project Service Automation.
+En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar categorías de gastos de proyectos entre Dynamics 365 Finance y Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - La integración de tareas del proyecto, las categorías de transacciones de gastos, las estimaciones de horas, las estimaciones de gastos y el bloqueo de funciones están disponibles en la versión 8.0.
@@ -81,7 +80,7 @@ Las categorías de gastos del proyecto se administran en Finance y se sincroniza
 
 ### <a name="power-query"></a>Power Query
 
-Cuando sincroniza con Project Service Automation, debe usar Microsoft Power Query para Excel para establecer el tipo de facturación en la categoría de transacción. La plantilla de categorías de transacciones de gastos del proyecto (Fin and Ops a PSA) proporciona una columna y una asignación predeterminadas. Si crea su propia plantilla, debe agregar una columna condicional en Power Query. Siga estos pasos.
+Al sincronizar a Project Service Automation, debe usar Microsoft Power Query para Excel para establecer el tipo de facturación en la categoría de transacción. La plantilla de categorías de transacciones de gastos del proyecto (Fin and Ops a PSA) proporciona una columna y una asignación predeterminadas. Si crea su propia plantilla, debe agregar esta columna condicional en Power Query. Siga estos pasos.
 
 1. Haga clic en la flecha para abrir la asignación de la tarea de categorías de gastos del proyecto en la plantilla de categorías de transacciones de gastos del proyecto (Fin and Ops a PSA).
 2. Haga clic en el vínculo **Consulta y filtrado avanzados** para abrir Power Query.

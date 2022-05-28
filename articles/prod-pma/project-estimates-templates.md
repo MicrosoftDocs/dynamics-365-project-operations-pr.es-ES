@@ -1,32 +1,31 @@
 ---
-title: Sincronizar las estimaciones del proyecto y los proyectos directamente desde Project Service Automation a Finance and Operations
-description: Este tema describe las plantillas y las tareas subyacentes que se utilizan para sincronizar las estimaciones de horas del proyecto y de los gastos del proyecto directamente desde Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Finance.
+title: Sincronizar las estimaciones de proyectos directamente desde Project Service Automation a Finanzas y operaciones
+description: En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar cálculos de horas de proyectos y cálculos de gastos de proyectos directamente desde Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988222"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684617"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizar las estimaciones del proyecto y los proyectos directamente desde Project Service Automation a Finance and Operations
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizar las estimaciones de proyectos directamente desde Project Service Automation a Finanzas y operaciones
 
 [!include[banner](../includes/banner.md)]
 
-Este tema describe las plantillas y las tareas subyacentes que se utilizan para sincronizar las estimaciones de horas del proyecto y de los gastos del proyecto directamente desde Dynamics 365 Project Service Automation a Dynamics 365 Finance.
+En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar cálculos de horas de proyectos y cálculos de gastos de proyectos directamente desde Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 
 > [!NOTE]
 > - La integración de tareas del proyecto, las categorías de transacciones de gastos, las estimaciones de horas, las estimaciones de gastos y el bloqueo de funciones están disponibles en la versión 8.0.
@@ -70,7 +69,7 @@ Antes de que pueda producirse la sincronización de las estimaciones de horas de
 
 ### <a name="power-query"></a>Power Query
 
-En la plantilla de estimaciones de horas del proyecto, debe usar Microsoft Power Query para Excel para completar estas tareas:
+En la plantilla de estimaciones de horas del proyecto, debe utilizar Microsoft Power Query para Excel para completar estas tareas:
 
 - Establezca el identificador del modelo de previsión predeterminado que se utilizará cuando la integración cree nuevas previsiones de horas.
 - Excluya los registros específicos de recursos de la tarea que no se integrarán como previsiones de horas.
@@ -81,7 +80,7 @@ En la plantilla de estimaciones de horas del proyecto, debe usar Microsoft Power
 Para actualizar el identificador del modelo de previsión predeterminado en la plantilla, haga clic en la flecha **Asignar** para abrir la asignación. Después, seleccione el vínculo **Consulta y filtrado avanzados**.
 
 - Si está utilizando la plantilla predeterminada de estimaciones de horas del proyecto (PSA a Fin and Ops), seleccione la última **Condición insertada** en la lista **Pasos aplicados**. En la entrada **Función**, sustituya **O\_forecast** con el nombre del identificador del modelo de previsión que se debe utilizar con la integración. La plantilla predeterminada tiene un identificador del modelo de previsión de los datos de demostración.
-- Si está creando una nueva plantilla, debe agregar esta columna. En Power Query, seleccione **Agregar columna condicional** y especifique un nombre para la nueva columna, como **ModelID**. Introduzca la condición para la columna, donde, si tarea de proyecto no es nulo, entonces \<enter the forecast model ID\>; también es nulo.
+- Si está creando una nueva plantilla, debe agregar esta columna. En Power Query, seleccione **Agregar columna condicional** e introduzca un nombre para la nueva columna, como **ModelID**. Introduzca la condición para la columna, donde, si tarea de proyecto no es nulo, entonces \<enter the forecast model ID\>; también es nulo.
 
 #### <a name="filter-out-resource-specific-records"></a>Filtrar registros específicos de recursos
 
@@ -126,7 +125,7 @@ Antes de que pueda producirse la sincronización de las estimaciones de gastos d
 
 ### <a name="power-query"></a>Power Query
 
-En la plantilla de actualización de las estimaciones de gastos del proyecto, debe usar Power Query para completar las siguientes tareas:
+En la plantilla de estimaciones de gastos del proyecto, debe utilizar Power Query para completar las siguientes tareas:
 
 - Filtrar para incluir solo registros de línea de estimación de gastos.
 - Establezca el identificador del modelo de previsión predeterminado que se utilizará cuando la integración cree nuevas previsiones de horas.
@@ -141,8 +140,8 @@ La plantilla de estimaciones de gastos del proyecto (PSA a Fin and Ops) tiene un
 
 Para actualizar el identificador del modelo de previsión predeterminado en la plantilla, seleccione la tarea **Estimaciones de gastos** y, luego, haga clic en la flecha **Asignar** para abrir la asignación. Seleccione el vínculo **Consulta y filtrado avanzados**.
 
-- Si está utilizando la plantilla predeterminada de estimaciones de gastos del proyecto (PSA a Fin and Ops), en Power Query, seleccione la primera **Condición insertada** en la sección **Pasos aplicados**. En la entrada **Función**, sustituya **O\_forecast** con el nombre del identificador del modelo de previsión que se debe utilizar con la integración. La plantilla predeterminada tiene un identificador del modelo de previsión de los datos de demostración.
-- Si está creando una nueva plantilla, debe agregar esta columna. En Power Query, seleccione **Agregar columna condicional** y especifique un nombre para la nueva columna, como **ModelID**. Introduzca la condición para la columna, donde, si la línea de identificación no es estimada no es nulo, entonces \<enter the forecast model ID\>; también es nulo.
+- Si utiliza la plantilla de estimaciones de gastos predeterminados del proyecto (PSA a Fin and Ops), en Power Query, seleccione la primera **Condición insertada** de la sección **Pasos aplicados**. En la entrada **Función**, sustituya **O\_forecast** con el nombre del identificador del modelo de previsión que se debe utilizar con la integración. La plantilla predeterminada tiene un identificador del modelo de previsión de los datos de demostración.
+- Si está creando una nueva plantilla, debe agregar esta columna. En Power Query, seleccione **Agregar columna condicional** e introduzca un nombre para la nueva columna, como **ModelID**. Introduzca la condición para la columna, donde, si la línea de identificación no es estimada no es nulo, entonces \<enter the forecast model ID\>; también es nulo.
 
 #### <a name="transform-the-billing-types"></a>Transformar los tipos de facturación
 

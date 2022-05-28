@@ -1,25 +1,24 @@
 ---
 title: Gastos de empresas vinculadas
 description: Este tema proporciona información sobre cómo se usan los gastos de empresas vinculadas para asignar los gastos del trabajador a la entidad jurídica para la que se realizó el trabajo.
-author: Surya Vaidyanathan
+author: suvaidya
 ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 80ef42bf5274ff9a5c50e6dcb93995cfbbda40a66d7471f29ebf056086320640
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6788a590879bd839ebb9dedc45895dc047cc9f15
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001227"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684255"
 ---
 # <a name="intercompany-expenses"></a>Gastos de empresas vinculadas
 
