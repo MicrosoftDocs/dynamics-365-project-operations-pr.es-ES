@@ -2,17 +2,16 @@
 title: Seguimiento del esfuerzo del proyecto
 description: En este tema se proporciona información sobre cómo realizar un seguimiento de esfuerzo en el progreso y el progreso del trabajo.
 author: ruhercul
-ms.date: 03/22/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.date: 02/15/2022
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 0df357eaf662816107fbc1777ebae030c93bd199756e78a1c3d59155dc64d38f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993982"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593817"
 ---
 # <a name="project-effort-tracking"></a>Seguimiento del esfuerzo del proyecto
 
@@ -46,11 +45,12 @@ El esfuerzo en tareas de resumen o tareas de contenedor se puede reproyectar. Lo
 - Se calcula el nuevo EAF en cada una de las tareas individuales hasta las tareas del nodo hoja. 
 - Las tareas secundarias afectadas hasta los nodos hoja tienen su esfuerzo restante y su porcentaje de progreso recalculado en función del valor de EAF. Esto da como resultado una nueva proyección para la variación de esfuerzo de la tarea. 
 - Se vuelven a calcular los EAF de las tareas de resumen hasta el nodo raíz.
-
+- El esfuerzo aprobado en una tarea de resumen es la suma del esfuerzo aprobado en todas las tareas secundarias más el esfuerzo aprobado en la tarea de resumen.
+- El esfuerzo restante en la tarea de resumen es la suma del esfuerzo restante en todas las tareas secundarias menos el esfuerzo aprobado en la tarea de resumen.
 
 ## <a name="project-status-summary"></a>Resumen del estado del proyecto
 
-Los datos de seguimiento en las vistas **Seguimiento del esfuerzo** y **Seguimiento de costes** muestran el progreso y el consumo de costes en el nodo raíz del proyecto, las tareas de resumen y los niveles de tareas del nodo hoja. La sección **Estado** en la página **Entidad de proyecto** muestra un resumen del estado a nivel de proyecto.
+El seguimiento de los datos en la vista **Seguimiento del esfuerzo** y **Seguimiento de costes** muestra el progreso y el consumo de costes en el nodo raíz del proyecto, las tareas de resumen y los niveles de tareas del nodo hoja. La sección **Estado** en la página **Entidad de proyecto** muestra un resumen del estado a nivel de proyecto.
 
 ## <a name="status-summary-fields"></a>Campos de resumen de estado
 

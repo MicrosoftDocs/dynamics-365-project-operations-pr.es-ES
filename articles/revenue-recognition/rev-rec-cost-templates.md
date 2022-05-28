@@ -4,14 +4,14 @@ description: Este tema proporciona información sobre cómo crear y usar plantil
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993577"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594231"
 ---
 # <a name="set-up-cost-templates"></a>Configurar plantillas de costes
 
@@ -56,7 +56,7 @@ Decidir qué enfoque tomar para crear una plantilla de coste puede depender de v
 ## <a name="create-cost-templates"></a>Crear plantillas de costes
 Para crear plantillas de costes, siga estos pasos:
 
-1. Para obtener acceso a las plantillas de costes, en el entorno de Dynamics 365 Finance, vaya a **Gestión de proyectos y contabilidad** > **Configuración** > **Estimaciones** > **Plantilla de coste**.
+1. Para acceder a las plantillas de costes, en el entorno de Dynamics 365 Finance, vaya a **Gestión de proyectos y contabilidad** > **Configuración** > **Estimaciones** > **Plantilla de costes**.
 2. Seleccione **Nueva** para crear una plantilla de coste. Escriba un nombre y una descripción.
 3. Proporcione el id. de línea de coste para cada tipo de transacción.
 4. Seleccione un método de finalización predeterminado:

@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798061"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596301"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Capturar un recibo usando OCR
 
@@ -52,7 +52,7 @@ Para crear un gasto o hacer coincidir un gasto de un recibo, complete los siguie
 
 ## <a name="installation"></a>Instalación
 
-Para utilizar estas funciones avanzadas de gastos, instale el complemento Servicio de administración de gastos para Microsoft Dynamics 365 Finance y active las características en su instancia. Puede obtener acceso al complemento desde su proyecto en Microsoft Dynamics Lifecycle Services (LCS).
+Para usar estas capacidades avanzadas de gastos, instale el complemento del Servicio de administración de gastos para Microsoft Dynamics 365 Finance y active las características en su instancia. Puede obtener acceso al complemento desde su proyecto en Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Inicie sesión en LCS y abra el ambiente deseado.
 2. Vaya a **Detalles completos**.

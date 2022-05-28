@@ -4,14 +4,14 @@ description: Este tema explica cómo se crea una estructura de descomposición d
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928636"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597819"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Crear una estructura de descomposición del trabajo
 
@@ -124,7 +124,7 @@ Debe tener en cuenta las siguientes limitaciones si utiliza la estructura de des
 |----------------------------------------------------|----------------------|
 | Tareas totales máximas para un proyecto                  | 500                  |
 | Duración total máxima para un proyecto               | 3650 días (10 años) |
-| Recursos totales máximos para un proyecto              | 150                  |
+| Recursos totales máximos para un proyecto              | 300                  |
 | Vínculos totales máximos (solo sucesor) para un proyecto | 600                  |
 | Campos personalizados totales máximos para un proyecto          | 10                   |
 | Elementos máximos de la lista de verificación por tarea                   | 20                   |

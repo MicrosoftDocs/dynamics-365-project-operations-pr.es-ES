@@ -4,14 +4,14 @@ description: Este tema proporciona información sobre cómo crear transacciones 
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005502"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600011"
 ---
 # <a name="create-intercompany-transactions"></a>Crear transacciones de empresas vinculadas
 
@@ -30,14 +30,14 @@ Cuando se aprueba una transacción de empresas vinculadas, se crean las siguient
 
 El coste, el coste unitario de recursos, y los precios y la moneda de las transacciones de ventas entre unidades organizativas están determinadas por la **unidad organizativa**. Es importante recordar esto al decidir cómo estructurar empresas y unidades organizativas en su implementación.
 
-Al crear registros de oportunidades, ofertas, contratos de proyectos y proyectos, el sistema comprueba que la moneda de la unidad contratante coincida con la moneda contable de la empresa contratante. Cuando no son los mismos, no se pueden crear estos registros. Para definir la moneda de la unidad organizativa en Dynamics 365 Project Operations, vaya a **Dataverse** > **Configuraciones** > **Unidades organizativas**. Para definir la moneda contable de una empresa en Dynamics 365 Finance, vaya a **Contabilidad general** > **Configuración de contabilidad** > **Libro mayor**. La moneda está sincronizada con su entorno de Dataverse utilizando el mapa de escritura dual de libros mayores.
+Al crear registros de oportunidades, ofertas, contratos de proyectos y proyectos, el sistema comprueba que la moneda de la unidad contratante coincida con la moneda contable de la empresa contratante. Cuando no son los mismos, no se pueden crear estos registros. Para definir la moneda de la unidad organizativa en Dynamics 365 Project Operations, vaya a **Dataverse** > **Configuraciones** > **Unidades organizativas**. La divisa contable de una empresa se define en Dynamics 365 Finance yendo a **Contabilidad general** > **Configuración de contabilidad general** > **Contabilidad general**. La moneda está sincronizada con su entorno de Dataverse utilizando el mapa de escritura dual de libros mayores.
 
 El sistema crea costes unitarios de recursos y datos reales de ventas entre unidades organizativas en las siguientes situaciones:
 
   - Cuando la unidad de recursos difiere de la unidad de contratación
   - Cuando la empresa de recursos difiere de la empresa de contratación
 
-Sin embargo, solo las transacciones que tengan una empresa proveedora de recursos diferente a la empresa contratante serán transferidas al entorno de Dynamics 365 Finance para contabilidad adicional.
+Sin embargo, solo las transacciones que tengan una empresa de recursos distinta a la de la empresa contratante se transferirán al entorno de Dynamics 365 Finance para una contabilidad adicional.
 
 La contabilidad de datos reales de proyecto se registra en el diario de integración de Project Operations en Finance. El sistema crea las siguientes líneas de diario.
 
@@ -60,7 +60,7 @@ Molly Clark, desarrolladora empleada en GBPM, registra 10 horas de trabajo en un
     4. Establezca la divisa en **USD**.
     5. Guarde el registro.
 3. Vaya a **Ventas** > **Contratos de proyecto** y cree un nuevo contrato de proyecto para Adventure Works.
-    1. Establezca la empresa propietaria como **USPM** y la unidad contratante como **Contoso Robotics US**.
+    1. Establezca la empresa propietaria en **USPM** y la unidad contratante en **Contoso Robotics US**.
     2. Seleccione Adventure Works como cliente.
     3. Seleccione una lista de precios de productos y guarde el registro.
     4. En la pestaña **Líneas de contrato**, cree una nueva línea de contrato. Establezca cualquier nombre y seleccione **Tiempo y materiales** como método de facturación.

@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3d9f0cb2a054941b07809b61ca14a3145c6d6d06acd6ca40255d5ec9de92be22
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cba1f9915087f7910a9aa93378cb861983ca36ab
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994522"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600349"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Desactivación de una dimensión de precios
 
@@ -36,10 +36,10 @@ Sin embargo, al hacer esto, es posible que reciba el mensaje de error, **La dime
 
 Este mensaje de error indica que hay registros de precios que se configuraron previamente para la dimensión que se está desactivando. Todos los registros **Precio de rol** e **Incremento del precio de rol** que hacen referencia a una dimensión deben eliminarse antes de que la aplicabilidad de la dimensión pueda fijarse en **No**. Esta regla se aplica tanto a las dimensiones de precios listas para usar como a las dimensiones de precios personalizadas que pueda haber creado. La razón de esta validación se debe a que cada registro **Precio de rol** debe tener una combinación única de dimensiones. Por ejemplo, en una lista de precios llamada **Tasas de costes de Estados Unidos en 2018**, tendrá las siguientes filas **Precio de rol**. 
 
-| Título estándar         | Unidad organizativa    |Unidad   |Precio  |Moneda  |
+| Título estándar         | Unidad organizativa    |Unidad   |Precio  |Divisa  |
 | -----------------------|-------------|-------|-------|----------|
-| Ingeniero de sistemas|Contoso EE. UU.|Hora| 100|USD|
-| Ingeniero de sistemas sénior|Contoso EE. UU.|Hora| 150| USD|
+| Ingeniero de sistemas|Contoso US|Hour| 100|USD|
+| Ingeniero de sistemas sénior|Contoso US|Hour| 150| USD|
 
 
 Cuando desactive **Título estándar** como la dimensión de precios, y el motor de precios busque un precio, solo utilizará el valor de **Unidad organizativa** del contexto de entrada. Si la **Unidad organizativa** del contexto de entrada es "Contoso Estados Unidos", el resultado será no determinista porque ambas filas coincidirán. Para evitar este escenario, cuando cree registros **Precio de rol**, el sistema validará que la combinación de dimensiones sea única. Si la dimensión se desactiva después de que se creen los registros de **Precio de rol**, esta restricción se podrá infringir. Por lo tanto, es necesario que antes de desactivar una dimensión, elimine todas las filas de **Precio de rol** y **Incremento del precio de rol** que tienen ese valor de dimensión completo.

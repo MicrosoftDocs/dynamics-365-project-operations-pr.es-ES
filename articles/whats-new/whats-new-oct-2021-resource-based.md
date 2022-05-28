@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
-ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
+ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753313"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598509"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novedades de octubre de 2021: Project Operations para escenarios basados en recursos/no mantenidos en existencias
 
@@ -21,7 +21,7 @@ ms.locfileid: "7753313"
 Este tema se aplica a los siguientes componentes y versiones de Dynamics 365 Project Operations:
 
    - Project Operations en la versión del entorno 4.25.0.91 de Microsoft Dataverse
-   - Gestión de proyectos y contabilidad en el entorno de Dynamics 365 Finance versión 10.0.21
+   - Gestión de proyectos y contabilidad en un entorno de Dynamics 365 Finance, versión 10.0.21
 
 ## <a name="features-included-in-this-release"></a>Características incluidas en esta versión
 
@@ -49,7 +49,7 @@ Si tiene algún problema al iniciar la asignación, siga las instrucciones de la
 | Facturación y precios | 2338357 | La moneda en el registro de uso de materiales debe tomar de manera predeterminada la moneda del proyecto cuando se selecciona el proyecto. |
 | Tiempo y gastos | 2414777 | Debe ser posible cancelar una aprobación cuando la entrada de gasto o tiempo tiene más de una aprobación de proyecto asociada. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Gestión de proyectos y contabilidad en Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Administración y contabilidad de proyectos de Dynamics 365 Finance
 
 | Área de características | Número de referencia | Actualización de calidad |
 | --- | --- | --- |

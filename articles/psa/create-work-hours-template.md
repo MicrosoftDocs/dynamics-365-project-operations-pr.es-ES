@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 90525cf1e7cd487a03b064466ad1b13f8afb7819443fc4bacf9c7d3eee86f0b6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 5788378c7e015c4b11182aaf427aca7d1da48b40
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987412"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598969"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Crear una plantilla de horas laborables (Project Service)
 
@@ -49,7 +50,7 @@ Para crear una plantilla de calendario para su organización, existen dos requis
 
 1. Vaya a **Recursos** \> **Recursos**.
 2. Cree un nuevo recurso al que hacer referencia en la plantilla de calendario o seleccione un recurso existente.
-3. Seleccione la pestaña **Horas laborables** del recurso y complete las instrucciones de [Establecer horas laborables para un recurso](/dynamics365/field-service/set-work-hours-resource.md) para configurar las reglas del calendario.
+3. Seleccione la pestaña **Horas laborables** del recurso y complete las instrucciones de [Establecer horas laborables para un recurso](/dynamics365/field-service/set-work-hours-resource) para configurar las reglas del calendario.
 
 **Cree una nueva plantilla de calendario**
 

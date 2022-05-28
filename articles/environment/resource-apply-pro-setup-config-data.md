@@ -4,27 +4,27 @@ description: Este tema proporciona información sobre cómo instalar y aplicar l
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986647"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594737"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Configurar y aplicar datos de configuración en Common Data Service 
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>Requisitos previos
 
 Antes de comenzar a configurar los datos en Common Data Service (CDS), se deben cumplir los siguientes requisitos previos:
 
-1.  Proporcione un entorno CDS y un entorno Dynamics 365 Finance para Project Operations.
-2.  La información de entidad legal de Dynamics 365 Finance se comparte con el entorno CDS. Esto significa que la entidad **Empresa** en CDS tiene los siguientes registros de empresa:
+1.  Aprovisione un entorno de CDS y un entorno de Dynamics 365 Finance para Project Operations.
+2.  La información de la entidad jurídica de Dynamics 365 Finance se comparte con el entorno de CDS. Esto significa que la entidad **Empresa** en CDS tiene los siguientes registros de empresa:
   - THPM
   - USPM
   - GBPM

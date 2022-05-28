@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b11a57ae152be154fd6a7d330c8520f3b295ce3ef5cc7051ac9b343e3bcdbe12
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a59aa5591dd5f5ed129ce710196eea572e66ea0b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006357"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599476"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novedades de marzo de 2021: Project Operations para escenarios basados en recursos/no mantenidos en existencias
 
@@ -21,7 +21,7 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no en e
 Este tema se aplica a los siguientes componentes y versiones de Dynamics 365 Project Operations:
 
 - Project Operations en el entorno de Dataverse versión 4.8.0.91 
-- Gestión de proyectos y contabilidad en el entorno de Dynamics 365 Finance versión 10.0.16 
+- Gestión de proyectos y contabilidad en un entorno de Dynamics 365 Finance, versión 10.0.16 
 
 ## <a name="quality-updates"></a>Actualizaciones de calidad
 
@@ -42,13 +42,13 @@ Este tema se aplica a los siguientes componentes y versiones de Dynamics 365 Pro
 | Tiempo y gasto | 2148910 | Problema de pantalla solucionado con la página **Editar entrada** en la cuadrícula **Entrada de tiempo**. |
 | Tiempo y gasto | 2159798 | Controles más estrictos para garantizar que las entradas de gastos aprobadas no se puedan editar. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Gestión de proyectos y contabilidad en Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Administración y contabilidad de proyectos de Dynamics 365 Finance
 
 Para más información, consulte [Novedades de enero de 2021: Project Operations para escenarios basados en recursos/no mantenidos en existencias](whats-new-jan-2021-resource-based.md).
 
 ## <a name="regulatory-updates"></a>Actualizaciones regulatorias
 
-Para obtener información sobre actualizaciones normativas para aplicaciones de Finance and Operations, vea [Actualizaciones regulatorias](/dynamics365/finance/localizations/regulatory-updates). Otra forma de conocer las actualizaciones regulatorias es iniciar sesión en LCS y ver las actualizaciones normativas planificadas mediante la herramienta de búsqueda de temas. La búsqueda de problemas le permite buscar por país, tipo de función y lanzamiento.
+Para obtener información sobre actualizaciones normativas para aplicaciones de finanzas y operaciones, consulte [Actualizaciones normativas](/dynamics365/finance/localizations/regulatory-updates). Otra forma de conocer las actualizaciones regulatorias es iniciar sesión en LCS y ver las actualizaciones normativas planificadas mediante la herramienta de búsqueda de temas. La búsqueda de problemas le permite buscar por país, tipo de función y lanzamiento.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
