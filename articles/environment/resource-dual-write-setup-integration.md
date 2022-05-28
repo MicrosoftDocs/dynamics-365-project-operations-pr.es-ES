@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986557"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586917"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Integración de datos de instalación y configuración de Project Operations
 
@@ -22,34 +22,34 @@ Este tema proporciona información sobre la integración de doble escritura de P
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Contratos de proyecto, líneas de contrato y proyectos
 
-Los contratos de proyecto, las líneas de contrato y los proyectos se crean en Dataverse y se sincronizan con aplicaciones de Finance and Operations para contabilidad adicional. Los registros de estas entidades se pueden crear y eliminar solo en Dataverse. Sin embargo, los atributos contables, como los valores predeterminados del grupo de impuestos sobre ventas y las dimensiones financieras, se pueden agregar a estos registros en las aplicaciones de Finance and Operations.
+Los contratos de proyecto, las líneas de contrato y los proyectos se crean en Dataverse y se sincronizan con las aplicaciones de Finanzas y operaciones para contabilidad adicional. Los registros de estas entidades se pueden crear y eliminar solo en Dataverse. Sin embargo, los atributos contables, como los valores predeterminados del grupo de impuestos sobre las ventas y las dimensiones financieras, se pueden agregar a estos registros en las aplicaciones de Finanzas y operaciones.
 
   ![Conceptos de integración de contratos de proyectos.](./media/1ProjectContract.jpg)
 
-Las actividades de ventas clientes potenciales, oportunidades y ofertas se siguen en Dataverse y no se sincronizan con aplicaciones de Finance and Operations porque no hay una contabilidad descendente asociada con esta actividad.
+Los prospectos de actividad de ventas, las oportunidades y las cotizaciones se rastrean en Dataverse y no se sincronizan con las aplicaciones de Finanzas y operaciones porque no hay contabilidad posterior asociada con esta actividad.
 
-La funcionalidad del contrato del proyecto en Dataverse crea un registro de contrato de proyecto en aplicaciones de Finance and Operations que utilizan la asignación de tabla **Encabezados de contrato de proyecto (salesorders)**. Al guardar un contrato de proyecto en Dataverse también se inicia la creación de un registro de entidad de cliente de contrato de proyecto. Este registro se sincroniza con aplicaciones de Finance and Operations que utilizan la asignación de tabla **Origen de financiación del proyecto (msdyn\_projectcontractssplitbillingrules)**. Esta asignación también sincroniza las adiciones, actualizaciones y eliminaciones de clientes de contratos de proyectos. Los porcentajes de facturación dividida entre los clientes del contrato del proyecto se resuelven solo en Dataverse y no se sincronizan con aplicaciones de Finance and Operations.
+La funcionalidad del contrato de proyecto en Dataverse crea un registro de contrato de proyecto en aplicaciones de Finanzas y operaciones mediante el mapa de tabla **Encabezados de contrato de proyecto (pedidos de ventas)**. Al guardar un contrato de proyecto en Dataverse también se inicia la creación de un registro de entidad de cliente de contrato de proyecto. Este registro se sincroniza con las aplicaciones de Finanzas y operaciones mediante el mapa de tabla **Fuente de financiación del proyecto (msdyn\_projectcontractssplitbillingrules)**. Esta asignación también sincroniza las adiciones, actualizaciones y eliminaciones de clientes de contratos de proyectos. Los porcentajes de facturación divididos entre clientes de contrato de proyecto se controlan solo en Dataverse y no se sincronizan con las aplicaciones de Finanzas y operaciones.
 
-Después de que se crea un contrato de proyecto en Dataverse, el contable del proyecto puede actualizar los atributos de contabilidad para este contrato de proyecto en aplicaciones de Finance and Operations yendo a **Administración y contabilidad de proyectos** > **Contratos de proyecto** > **Configuración** > **Mostrar contabilidad predeterminada**. El contable puede revisar los atributos del contrato del proyecto operativo, como la fecha de entrega solicitada y el importe del contrato, seleccionando el ID del contrato del proyecto en aplicaciones de Finance and Operations, lo que abre el registro del contrato del proyecto relacionado en Dataverse.
+Después de crear un contrato de proyecto en Dataverse, el contable del proyecto puede actualizar los atributos contables de este contrato de proyecto en las aplicaciones Finanzas y operaciones, yendo a **Gestión de proyectos y contabilidad** > **Contratos de proyecto** > **Configurar** > **Mostrar contabilidad predeterminada**. El contador puede revisar los atributos del contrato del proyecto operativo, como la fecha de entrega solicitada y el importe del contrato, seleccionando el id. del contrato del proyecto en las aplicaciones de Finanzas y operaciones, que abre el registro del contrato del proyecto relacionado en Dataverse.
 
-La entidad del proyecto se sincroniza con aplicaciones de Finance and Operations que utilizan la asignación de tabla **Proyectos V2 (msdyn\_projects)**. El contable del proyecto puede:
+La entidad del proyecto se sincroniza con las aplicaciones de Finanzas y operaciones mediante el mapa de tabla **Proyectos V2 (msdyn\_projects)**. El contable del proyecto puede:
 
-  - Revisar proyectos en aplicaciones de Finance and Operations yendo a **Administración y contabilidad de proyectos** > **Todos los proyectos**. 
-  - Actualice los atributos de contabilidad del proyecto en aplicaciones de Finance and Operations yendo a **Administración y contabilidad de proyectos** > **Todos los proyectos** > **Configuración** > **Mostrar contabilidad predeterminada**.  
-  - Revise los atributos operativos del proyecto, como las fechas estimadas de inicio y finalización, seleccionando el ID del proyecto en aplicaciones de Finance and Operations, lo que abre el registro del proyecto relacionado en Dataverse.
+  - Revise los proyectos en las aplicaciones de Finanzas y operaciones yendo a **Gestión de proyectos y contabilidad** > **Todos los proyectos**. 
+  - Actualice los atributos de contabilidad del proyecto en las aplicaciones de Finanzas y operaciones yendo a **Gestión de proyectos y contabilidad** > **Todos los proyectos** > **Configurar** > **Mostrar contabilidad predeterminada**.  
+  - Revise los atributos del proyecto operativo, como las fechas estimadas de inicio y finalización, seleccionando el id. del proyecto en las aplicaciones de Finanzas y operaciones, que abre el registro del proyecto relacionado en Dataverse.
 
 Un proyecto está asociado con un contrato de proyecto a través de la entidad **Línea de contrato de proyecto**.
 
-Las líneas de contrato del proyecto en Dataverse crean una regla de facturación de contrato de proyecto en aplicaciones de Finance and Operations que utilizan la asignación de tabla **Líneas de contrato de proyecto (salesorderdetails)**. El método de facturación define el tipo de regla de facturación del contrato del proyecto en aplicaciones de Finance and Operations:
+Las líneas del contrato de proyecto en Dataverse crean una regla de facturación de contrato en las aplicaciones de Finanzas y operaciones, mediante el mapa de tabla **Líneas de contrato de proyecto (salesorderdetails)**. El método de facturación define el tipo de regla de facturación del contrato del proyecto en las aplicaciones de Finanzas y operaciones:
 
   - Las líneas de contrato de proyecto con un método de facturación de tiempo y material crean una regla de facturación de tipo tiempo y material.
   - Las líneas de contrato del método de facturación de precio fijo crean una regla de facturación de hitos.
 
-Las líneas de contrato del proyecto pueden ser revisadas por el contable del proyecto en aplicaciones de Finance and Operations yendo a **Administración y contabilidad de proyectos** > **Contratos de proyecto** > **Configuración** > **Mostrar contabilidad predeterminada** y revisando los detalles de la pestaña **Líneas de contrato**. El contable también puede establecer dimensiones financieras predeterminadas para las líneas de contrato del método de facturación de precio fijo en esta pestaña.
+El contador del proyecto puede revisar las líneas de contrato del proyecto en las aplicaciones de Finanzas y operaciones yendo a **Gestión de proyectos y contabilidad** > **Contratos de proyecto** > **Configurar** > **Mostrar contabilidad predeterminada**, y revisando los detalles en la pestaña **Líneas de contrato**. El contable también puede establecer dimensiones financieras predeterminadas para las líneas de contrato del método de facturación de precio fijo en esta pestaña.
 
 ## <a name="billing-milestones"></a>Hitos de facturación
 
-Las líneas de contrato de proyecto que utilizan el método de facturación de precio fijo se facturan a través de hitos de facturación. Los hitos de facturación se sincronizan para proyectar transacciones a cuenta en aplicaciones de Finance and Operations mediante el uso de la asignación de tabla **Hitos de la línea de contrato de integración de Project Operations (msdyn\_ contractlinescheduleofvalues)**.
+Las líneas de contrato de proyecto que utilizan el método de facturación de precio fijo se facturan a través de hitos de facturación. Los hitos de facturación se sincronizan con las transacciones a cuenta del proyecto en las aplicaciones de Finanzas y operaciones mediante el mapa de tabla **Hitos de línea de contrato de integración de Project Operations (msdyn\_contractlinescheduleofvalues)**.
 
   ![Integración de hitos de facturación.](./media/2Milestones.jpg)
 
@@ -59,21 +59,21 @@ Cuando crea por primera vez un hito de facturación para una línea de contrato 
 
 ### <a name="project-tasks"></a>Tareas de proyecto
 
-Las tareas del proyecto se sincronizan con aplicaciones de Finance and Operations a través de la asignación de tabla **Tareas del proyecto (msdyn\_projecttasks)** solo con fines de referencia. No se admite la creación, actualización y eliminación de operaciones a través de aplicaciones de Finance and Operations.
+Las tareas del proyecto se sincronizan con las aplicaciones de Finanzas y operaciones a través del mapa de tabla **Tareas del proyecto (msdyn\_projecttasks)** solo con fines de referencia. Las operaciones de creación, actualización y eliminación no se admiten a través de las aplicaciones de finanzas y operaciones.
 
   ![Integración de tareas de proyecto.](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Recursos de proyecto
 
-La entidad **Roles de recursos del proyecto** se sincroniza con aplicaciones de Finance and Operations que utilizan la asignación de tabla **Roles de recursos del proyecto para todas las empresas (bookableresourcecategories)** solo con fines de referencia. Dado que los roles de recursos en Dataverse no son específicos de la empresa, el sistema crea automáticamente los respectivos registros de roles de recursos específicos de la empresa en aplicaciones de Finance and Operations automáticamente para todas las entidades legales incluidas en el ámbito de la integración de doble escritura.
+La entidad **Roles de recursos del proyecto** se sincroniza con las aplicaciones de Finanzas y operaciones mediante el mapa de tabla **Roles de recursos del proyecto para todas las empresas (bookableresourcecategories)** solo con fines de referencia. Debido a que los roles de recursos en Dataverse no son específicos de la empresa, el sistema crea automáticamente los respectivos registros de funciones de recursos específicos de la empresa en las aplicaciones de Finanzas y operaciones, automáticamente para todas las entidades jurídicas incluidas en el ámbito de integración de doble escritura.
 
 ![Integración de roles de recursos.](./media/5Resources.jpg)
 
-Los recursos del proyecto en Project Operations se mantienen en Dataverse y no se sincronizan con aplicaciones de Finance and Operations.
+Los recursos del proyecto en Project Operations se mantienen en Dataverse y no están sincronizados con las aplicaciones de Finanzas y operaciones.
 
 ### <a name="transaction-categories"></a>Categorías de transacciones
 
-Las categorías de transacciones se mantienen en Dataverse y se sincronizan con aplicaciones de Finance and Operations que utilizan la asignación de tabla **Categorías de transacciones de proyecto (msdyn\_transactioncategories)**. Una vez sincronizado el registro de categoría de transacciones, el sistema automáticamente crea cuatro registros de categoría compartida. Cada registro corresponde a un tipo de transacción en aplicaciones de Finance and Operations y las vincula al registro de categoría de transacción.
+Las categorías de transacciones se mantienen en Dataverse y se sincronizan con las aplicaciones de Finanzas y operaciones mediante el mapa de tabla **Categorías de transacciones de proyectos (msdyn\_transactioncategories)**. Una vez sincronizado el registro de categoría de transacciones, el sistema automáticamente crea cuatro registros de categoría compartida. Cada registro corresponde a un tipo de transacción en las aplicaciones de Finanzas y operaciones y los vincula al registro de categoría de transacción.
 
 ![Integración de categorías de transacciones.](./media/4TransactionCategories.jpg)
 

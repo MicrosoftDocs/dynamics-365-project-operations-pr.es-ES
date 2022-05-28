@@ -4,14 +4,14 @@ description: En este tema se ofrece información acerca de cómo crear facturas 
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d32d7a0b96daf9a2a48e16d62de8319636737740601481b85ee887948e31110
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9448cb29adb4206efaabe3f313a1f619cd32b9be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989294"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591517"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Crear facturas de proveedores y clientes de empresas vinculadas
 

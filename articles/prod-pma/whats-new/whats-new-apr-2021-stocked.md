@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 0b214678a17e5b1cdacb89ae00e4acb83b8292d02ff937f30e307751d39f152d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 42b4da3a77d56891454d094cd771575ff9bff081
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005592"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589631"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>Novedades o cambios de abril de 2021 en Project Operations para escenarios basados en existencias/producción
 
@@ -20,7 +20,7 @@ _**Se aplica a:** Project Operations para escenarios basados en existencias/prod
 
 Este tema se aplica a los siguientes componentes y versiones de Dynamics 365 Project Operations:
 
-- Gestión de proyectos y contabilidad en el entorno de Dynamics 365 Finance versión 10.0.18
+- Gestión de proyectos y contabilidad en un entorno de Dynamics 365 Finance, versión 10.0.18
  
 ### <a name="quality-updates"></a>Actualizaciones de calidad
                                                                                                                                                                                   
@@ -83,7 +83,7 @@ Este tema se aplica a los siguientes componentes y versiones de Dynamics 365 Pro
 | Viajes y gastos                | [550575](https://fix.lcs.dynamics.com/Issue/Details/?bugId=550575) | Cuando la categoría de gastos no es una categoría de proyecto, las dimensiones financieras seleccionadas en la página **Gastos** no se copian en el informe de gastos.                                          |
 
 ### <a name="regulatory-updates"></a>Actualizaciones regulatorias
-Para obtener información sobre actualizaciones normativas para aplicaciones de Finance and Operations, vea [Actualizaciones regulatorias](/dynamics365/finance/localizations/regulatory-updates). También puede iniciar sesión en LCS y ver las actualizaciones normativas planificadas mediante la herramienta de búsqueda de problemas. La búsqueda de problemas le permite buscar por país, tipo de función y lanzamiento.
+Para obtener información sobre actualizaciones normativas para aplicaciones de finanzas y operaciones, consulte [Actualizaciones normativas](/dynamics365/finance/localizations/regulatory-updates). También puede iniciar sesión en LCS y ver las actualizaciones normativas planificadas mediante la herramienta de búsqueda de problemas. La búsqueda de problemas le permite buscar por país, tipo de función y lanzamiento.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

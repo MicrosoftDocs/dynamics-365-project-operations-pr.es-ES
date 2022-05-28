@@ -1,5 +1,5 @@
 ---
-title: Unidades organizativas
+title: Unidades organizativas avanzadas
 description: En este tema se proporciona información sobre las unidades organizativas en Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
@@ -16,14 +16,15 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 80208be7be56d0b09354c45cd2afd96958daf985
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005097"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589447"
 ---
-# <a name="organizational-units"></a>Unidades organizativas 
+# <a name="about-organizational-units"></a>Acerca de las unidades organizativas 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -122,24 +123,24 @@ Núm. En la versión actual de PSA, las unidades organizativas no son jerárquic
 Cuando hay existe una jerarquía compleja de centros de costes, divisiones, oficinas de facturación, etc., configure los nodos hoja de la jerarquía como unidades organizativas distintas.
 El ejemplo siguiente muestra una jerarquía típica:
 
-**ContosoIndia**
+**Contoso India**
 
   - Práctica de SAP 
 
     - Consultores técnicos 
-    - Consultores técnicos 
+    - Consultores funcionales 
     
   - Práctica de tecnología de Microsoft 
 
     - Consultores técnicos
-    - Consultores técnicos 
+    - Consultores funcionales 
     
-**Contoso Estados Unidos**
+**Contoso US**
 
  - Práctica de SAP 
 
     - Consultores técnicos 
-    - Consultores técnicos 
+    - Consultores funcionales 
     
  - Práctica de tecnología de Microsoft 
 
@@ -154,7 +155,7 @@ Si su jerarquía es similar, debe configurarla como lista plana, tal como se mue
 - Contoso Estados Unidos - Práctica de SAP - Consultores técnicos  
 - Contoso Estados Unidos - Práctica de SAP - Consultores funcionales  
 - Contoso Estados Unidos - Práctica de tecnología de Microsoft - Consultores técnicos 
-- Contoso Estados Unidos - Práctica de tecnología de Microsoft -Consultores funcionales
+- Contoso Estados Unidos - Práctica de tecnología de Microsoft - Consultores funcionales
 
 ### <a name="were-a-small-professional-services-company-that-operates-as-only-one-division-how-can-we-best-use-the-organizational-unit-concept-in-the-current-version-of-psa"></a>Somos una pequeña compañía de servicios profesionales que opera como una única división. ¿Cómo podemos optimizar el uso del concepto de unidad organizativa en la versión actual de PSA?
 

@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 2925d431258a150d5830238fb5ff365499b1b440
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005143"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590183"
 ---
 # <a name="multiple-currency-scenarios"></a>Escenarios de varias divisas
 
@@ -70,10 +71,10 @@ Esta sección describe un ejemplo de un proyecto que Contoso UK entrega a un cli
 
 1. La divisa GBP y el yen japonés (JPY) están configurados en **Configuración** \> **Administración de empresas** \> **Divisas**. 
 2. Se configura una cuenta de cliente con el nombre **Fabrikam - Japan** y se selecciona el JPY como divisa en la cuenta.
-3. Se configura una unidad organizativa con el nombre **Contoso Reino Unido** y se selecciona la GBP como divisa.
-4. Se crea un contrato de proyecto donde se especifica **Contoso Reino Unido** como unidad de contratación y **Fabrikam – Japan** como cliente.
+3. Se configura una unidad organizativa con el nombre **Contoso UK** y se selecciona la GBP como divisa.
+4. Se crea un contrato de proyecto donde se especifica **Contoso UK** como unidad de contratación y **Fabrikam – Japan** como cliente.
 5. Las líneas de contrato del proyecto se crean en función de las organizaciones de facturación de las distintas clases de transacciones del proyecto, como, por ejemplo, la facturación de tiempo frente a la facturación de gastos.
-6. Se crea un proyecto en el que se especifica **Contoso Reino Unido** como unidad de contratación. Este proyecto se crea y se asigna a las líneas de contrato del proyecto.
+6. Se crea un proyecto en el que se especifica **Contoso UK** como unidad de contratación. Este proyecto se crea y se asigna a las líneas de contrato del proyecto.
 
 
 Durante la estimación que utiliza el detalle de la línea de presupuesto, el detalle de la línea de contrato del proyecto, o bien en la línea de estimación de la programación, siempre se crean dos registros en la entidad. Un registro es para el coste y el otro es para las ventas.

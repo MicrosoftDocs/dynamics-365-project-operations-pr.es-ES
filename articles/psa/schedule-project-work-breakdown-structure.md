@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 896f19746bde1ba6cf2acd6d558137f4271a5cd99424043053eefe128d3b4250
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 24e13642ac1fb9e90daab6d8aa9b16ed9c2defbf
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996817"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587377"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Programe un proyecto con una estructura de descomposición del trabajo (Project Service)
 
@@ -63,7 +64,7 @@ Una programación del proyecto comunica el trabajo debe realizarse, qué recurso
 ## <a name="task-types"></a>Tipos de tarea  
 Usará los siguientes tipos de tareas al crear la estructura de descomposición del trabajo:  
 
-| | | 
+| Task | Description | 
 |---------------------------------------|-----------------------------------------------------------------| 
 | **Nodo raíz del proyecto**. | La tarea de resumen de nivel superior del proyecto. El resto de las tareas del proyecto se crean por debajo. El nombre de la tarea raíz es el nombre del proyecto. El esfuerzo, fechas, y la duración del nodo raíz se basan en los valores de la jerarquía por debajo de él. No puede editar propiedades del nodo raíz ni eliminar el nodo raíz. | 
 | **Tareas de informe o contenedor** | Una tarea de resumen es una tarea que tiene subtareas por debajo. Una tarea de resumen no tiene ningún esfuerzo de trabajo ni coste propio. Su esfuerzo y costo de trabajo son un resumen de sus subtareas. Puede cambiar el nombre de una tarea de resumen, pero no puede cambiar el esfuerzo, las fechas o la duración porque se calculan automáticamente. La eliminación de una tarea de resumen elimina la tarea y todas sus subtareas.|  

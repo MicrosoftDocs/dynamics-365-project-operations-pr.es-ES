@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986512"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591196"
 ---
 # <a name="vendor-invoice-integration"></a>Integración de facturas de proveedores
 
@@ -34,7 +34,7 @@ En Project Operations, las facturas de proveedores relacionadas con el proyecto 
      > [!NOTE]
      > Los detalles de la factura del proveedor en Dataverse no son editables.
 
-La subcontabilidad de impuestos, la subcontabilidad de proveedores y otras contabilizaciones financieras se registran según corresponda en Dynamics 365 Finance cuando se contabiliza la factura del proveedor.
+El sublibro de impuestos, el sublibro de proveedores y otros registros financieros se registran según corresponda en Dynamics 365 Finance cuando se registra la factura del proveedor.
 
 ![Integración de facturas de proveedores.](media/DW7VendorInvoice.png)
 

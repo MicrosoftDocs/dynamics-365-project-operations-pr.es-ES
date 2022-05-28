@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002352"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591931"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Configurar campos personalizados como dimensiones de precios 
 
@@ -73,7 +74,7 @@ Existen dos tipos de dimensiones de precios:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|In situ            |                    |Horas extra                 |15     |
 |             | Contoso India|Local             |                    |Horas extra                 |10     |
-|             | Contoso EE. UU.   |Local             |                    |Horas extra                 |20     |
+|             | Contoso US   |Local             |                    |Horas extra                 |20     |
 
 
 Si un recurso de Contoso India cuya tasa base es de 100 USD está funcionando in situ, y registran 8 horas de tiempo regular y 2 horas extra en la entrada de tiempo, el motor de precios de Project Service usará la tasa base de 100 para las 8 horas para registrar 800 USD. Para las 2 horas extra, se aplicará un incremento del 15 % a la tasa base de 100 para obtener un precio unitario de 115 USD y se registrará un coste total de 230 USD.

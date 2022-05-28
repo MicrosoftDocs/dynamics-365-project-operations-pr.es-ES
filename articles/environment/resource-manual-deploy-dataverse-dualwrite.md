@@ -4,14 +4,14 @@ description: Este tema explica cómo implementar manualmente la aplicación Proj
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 06325a9a9f9084d1f506f2493c32565fe7b7c52ae6fe22c81339b9c1d632e688
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986467"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591241"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Implementar manualmente la aplicación Project Operations Dataverse con soporte de escritura dual
 
@@ -37,7 +37,7 @@ Para completar este proceso, debe iniciar sesión como administrador.
 3. Seleccione el tipo de entorno. Si se registró para la oferta de prueba, seleccione **Prueba (basada en suscripción)**.
 4. Confirme la región de implementación.
 5. Habilite la opción **Desea crear una base de datos para este entorno**. 
-6. Confirme el idioma y luego confirme que la moneda coincide con la moneda de sus aplicaciones de Finance and Operations.
+6. Confirme el idioma y luego confirme que la moneda coincida con la moneda de sus aplicaciones de las aplicaciones de finanzas y operaciones.
 7. Habilite la opción **Aplicaciones de Dynamics 365** y confirme que el campo **Implementar automáticamente estas aplicaciones** está configurado en **Ninguno**.
 8. Agregue un grupo de seguridad si es necesario.
 9. Seleccione **Guardar** para crear el entorno.
@@ -62,4 +62,4 @@ Puede completar este procedimiento solo si completó los procedimientos anterior
 
 ## <a name="link-your-environments"></a><a name="link"></a>Vincular sus entornos
 
-Después que el entorno de Dataverse esté implementado, puede configurar el vínculo en sus aplicaciones de Finance and Operations. Siga los pasos en [Usar el asistente de escritura dual para vincular sus entornos](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Después de implementarse el entorno de Dataverse, puede configurar el enlace en sus aplicaciones de Finanzas y operaciones. Siga los pasos en [Usar el asistente de escritura dual para vincular sus entornos](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

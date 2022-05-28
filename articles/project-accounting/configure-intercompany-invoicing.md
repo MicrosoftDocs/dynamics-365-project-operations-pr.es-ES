@@ -4,14 +4,14 @@ description: En este tema se proporciona información y ejemplos sobre la config
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 09bbd1bf640cc86b16afb8c2b824329b92f833df836e9313491d57a2f1646440
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ad6022670048e5aa3635998852b78c49af461d4e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994072"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591609"
 ---
 # <a name="configure-intercompany-invoicing"></a>Configurar la facturación con empresas vinculadas
 
@@ -21,11 +21,11 @@ Complete los siguientes pasos para configurar la facturación de empresas vincul
 
 ## <a name="example-configure-intercompany-invoicing"></a>Ejemplo: Configurar la facturación con empresas vinculadas
 
-En el siguiente ejemplo, Contoso Robotics USA (USPM) es la entidad legal prestataria y Contoso Robotics UK (GBPM) es la entidad legal prestamista. 
+En el siguiente ejemplo, Contoso Robotics USA (USPM) es la entidad jurídica prestataria y Contoso Robotics UK (GBPM) es la entidad jurídica prestamista. 
 
 1. **Configurar la contabilidad de empresas vinculadas entre entidades jurídicas**. Cada par de entidades legales prestatarias y prestamistas debe configurarse en la página Contabilidad general [Contabilidad de empresas vinculadas](/dynamics365/finance/general-ledger/intercompany-accounting-setup).
     
-    1. En Dynamics 365 Finance, vaya a **Contabilidad general** > **Configuración del registro** > **Contabilidad de empresas vinculadas**. Cree un registro con la siguiente información:
+    1. En Dynamics 365 Finance, vaya a **Contabilidad general** > **Configuración de registro** > **Contabilidad interempresas**. Cree un registro con la siguiente información:
 
         - **Empresa de origen** = **GBPM**
         - **Empresa de destino** = **USPM**
@@ -80,19 +80,19 @@ En el siguiente ejemplo, Contoso Robotics USA (USPM) es la entidad legal prestat
 
 5. **Configurar precios de transferencia para mano de obra**. Los precios de transferencia de empresas vinculadas se configuran en Project Operations en Dataverse. Configure las [tarifas de costes de mano de obra](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) y las [tarifas de facturas de mano de obra](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) para facturación de empresas vinculadas. Los precios de transferencia no son compatibles con las transacciones de gastos de empresas vinculadas. El precio de venta unitario entre organizaciones siempre se establecerá en el mismo valor que el precio de coste unitario de recursos.
 
-      El coste de los recursos del desarrollador en Contoso Robotics UK es de 88 GBP por hora. Contoso Robotics UK facturará Contoso Robotics USA 120 USD por cada hora que este recurso trabajó en proyectos estadounidenses. Contoso Robotics USA facturará al cliente Adventure Works 200 USD por el trabajo realizado por el recurso de desarrolladores de Contoso Recurso UK.
+      El coste de recursos para desarrolladores en Contoso Robotics UK es de 88 GBP por hora. Contoso Robotics UK facturará a Contoso Robotics USA 120 USD por cada hora que este recurso haya trabajado en proyectos estadounidenses. Contoso Robotics USA facturará al cliente Adventure Works 200 USD por el trabajo realizado por el recurso para desarrolladores de Contoso Robotics UK.
 
-      1. En Project Operations en Dataverse, vaya a **Venta** > **Listas de precios**. Cree una nueva lista de precios de coste llamada **Tarifas de costes de Contoso Robotics UK**. 
+      1. En Project Operations en Dataverse, vaya a **Venta** > **Listas de precios**. Cree una nueva lista de precios de coste llamada **Tarifas de coste de Contoso Robotics UK**. 
       2. En la lista de precios de coste, cree un registro con la siguiente información:
          - **Rol** = **Desarrollador**
          - **Coste** = **88 GBP**
-      3. Vaya a **Configuración** > **Unidades organizativas** y asocie esta lista de precios de coste a la unidad organizativa **Contoso Robotics UK**.
-      4. Vaya a **Ventas** > **Listas de precios**. Cree una lista de precios de coste llamada **Tarifas de costes de Contoso Robotics USA**. 
+      3. Vaya a **Configuración** > **Unidades organizativas** y adjunte esta lista de precios de coste a la unidad organizativa **Contoso Robotics UK**.
+      4. Vaya a **Ventas** > **Listas de precios**. Cree una lista de precios de coste llamada **Tarifas de coste de Contoso Robotics USA**. 
       5. En la lista de precios de coste, cree un registro con la siguiente información:
           - **Rol** = **Desarrollador**
           - **Empresa de dotación de recursos** = **Contoso Robotics UK**
           - **Coste** = **120 USD**
-      6. Vaya a **Configuración** > **Unidades organizativas** y asocie la lista de precios de coste **Tarifas de coste de Contoso Robotics USA** a la unidad organizativa **Contoso Robotics USA**.
+      6. Vaya a **Configuración** > **Unidades organizativas** y adjunte la lista de precios de coste **Tarifas de coste de Contoso Robotics USA** a la unidad organizativa **Contoso Robotics USA**.
       7. Vaya a **Ventas** > **Listas de precios**. Cree una lista de precios de venta llamada **Tarifas de facturación de Adventure Works**. 
       8. En la lista de precios de venta, cree un registro con la siguiente información:
           - **Rol** = **Desarrollador**
