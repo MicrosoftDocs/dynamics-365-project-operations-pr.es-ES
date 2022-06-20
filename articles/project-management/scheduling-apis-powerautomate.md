@@ -1,25 +1,25 @@
 ---
 title: Usar las API de programación de proyectos con Power Automate
-description: Este tema proporciona un flujo de muestra que utiliza las interfaces de programación de aplicaciones (API) de la programación del proyecto.
+description: Este artículo proporciona un flujo de muestra que utiliza las interfaces de programación de aplicaciones (API) de la programación del proyecto.
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9708226b0955cfa6c405b9616c14765f9ebc21f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597727"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916355"
 ---
 # <a name="use-project-schedule-apis-with-power-automate"></a>Usar las API de programación de proyectos con Power Automate
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Este tema describe un flujo de ejemplo que muestra cómo crear un plan de proyecto completo usando Microsoft Power Automate, cómo crear un conjunto de operaciones y cómo actualizar una entidad. El ejemplo demuestra cómo crear un proyecto, un miembro del equipo del proyecto, conjuntos de operaciones, tareas del proyecto y asignaciones de recursos. Este tema también explica cómo actualizar una entidad y ejecutar un conjunto de operaciones.
+Este artículo describe un flujo de ejemplo que muestra cómo crear un plan de proyecto completo usando Microsoft Power Automate, cómo crear un conjunto de operaciones y cómo actualizar una entidad. El ejemplo demuestra cómo crear un proyecto, un miembro del equipo del proyecto, conjuntos de operaciones, tareas del proyecto y asignaciones de recursos. Este artículo también explica cómo actualizar una entidad y ejecutar un conjunto de operaciones.
 
-La siguiente es una lista completa de los pasos que están documentados en el flujo de muestra en este tema:
+La siguiente es una lista completa de los pasos que están documentados en el flujo de muestra en este artículo:
 
 1. [Crear un desencadenador de PowerApps](#1)
 2. [Crear un proyecto](#2)
@@ -40,7 +40,7 @@ La siguiente es una lista completa de los pasos que están documentados en el fl
 
 ## <a name="assumptions"></a>Supuestos
 
-Este tema asume que tiene un conocimiento básico de la plataforma de Dataverse, flujos en la nube y la interfaz de programación de aplicaciones (API) de la programación del proyecto. Para obtener más información, consulte la sección [Referencias](#references) más adelante en este tema.
+Este artículo asume que tiene un conocimiento básico de la plataforma de Dataverse, flujos en la nube y la interfaz de programación de aplicaciones (API) de la programación del proyecto. Para obtener más información, consulte la sección [Referencias](#references) más adelante en este artículo.
 
 ## <a name="create-a-flow"></a>Creación de un flujo
 
@@ -65,7 +65,7 @@ Siga estos pasos para crear un [flujo compatible con la solución](/power-automa
 1. En la página **Soluciones**, seleccione la solución que creó y, a continuación **Nuevo**.
 2. En el panel izquierdo, seleccione **Flujos de nube** \> **Automatización** \> **Flujo de nube** \> **Instantáneo**.
 3. En el campo **Nombre de flujo**, introduzca **Programar flujo de demostración de API**.
-4. En la lista **Elegir cómo desencadenar este flujo**, seleccione **Power Apps**. Cuando cree un desencadenador de Power Apps, la lógica depende de usted como autor. En este tema, deje los parámetros de entrada en blanco con fines de prueba.
+4. En la lista **Elegir cómo desencadenar este flujo**, seleccione **Power Apps**. Cuando cree un desencadenador de Power Apps, la lógica depende de usted como autor. En este artículo, deje los parámetros de entrada en blanco con fines de prueba.
 5. Seleccione **Crear**.
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>Paso 2: crear un proyecto

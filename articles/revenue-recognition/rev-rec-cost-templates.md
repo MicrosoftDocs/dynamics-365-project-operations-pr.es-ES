@@ -1,24 +1,24 @@
 ---
 title: Configurar plantillas de costes
-description: Este tema proporciona información sobre cómo crear y usar plantillas de costes en Project Operations.
+description: Este artículo proporciona información sobre cómo crear y usar plantillas de costos en Project Operations.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ffb45d46cf1305fffd5933f4c10b169bf802046d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594231"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918425"
 ---
 # <a name="set-up-cost-templates"></a>Configurar plantillas de costes
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
 
 
-Este tema proporciona información sobre cómo crear y usar plantillas de costes en Project Operations. Una plantilla de coste determina:
+Este artículo proporciona información sobre cómo crear y usar plantillas de costos en Project Operations. Una plantilla de coste determina:
 
 - Las categorías de proyectos para las transacciones de previsión y reales que se incluirán en un porcentaje del cálculo de finalización del proyecto. El valor de porcentaje completado se usa a continuación para calcular cuántos ingresos se reconocen.
 - Si el porcentaje completado se puede modificar si se calcula automáticamente.

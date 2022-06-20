@@ -1,17 +1,17 @@
 ---
 title: Administrar oportunidades basadas en proyectos
-description: Este tema proporciona información sobre cómo trabajar con oportunidades relacionadas con proyectos.
+description: Este artículo proporciona información sobre cómo trabajar con oportunidades relacionadas con proyectos.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f39940ac063a8c202f33797ed649518907563e31
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600441"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933237"
 ---
 # <a name="manage-project-based-opportunities"></a>Administrar oportunidades basadas en proyectos
 
@@ -19,7 +19,7 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no mant
 
 Las empresas basadas en proyectos suelen tener sus operaciones de entrega repartidas en varios países y geografías. El costo de ejecución y entrega del proyecto puede variar según la geografía o división que gestiona la entrega. A su vez, esto puede afectar los márgenes del trato. La prestación de servicios basados en proyectos generalmente implica una gran cantidad de tiempo de recursos humanos, gastos considerables de viaje, costos de materiales y otros gastos.
 
-Las oportunidades basadas en proyectos en Dynamics 365 Project Operations están diseñadas con extensiones a Dynamics 365 Sales. El tema proporciona detalles sobre los diferentes campos y la lógica empresarial incluidos en la funcionalidad adicional que requieren las empresas basadas en proyectos para gestionar oportunidades basadas en proyectos.
+Las oportunidades basadas en proyectos en Dynamics 365 Project Operations están diseñadas con extensiones a Dynamics 365 Sales. Este artículo proporciona detalles sobre los diferentes campos y la lógica empresarial que se incluyen en la funcionalidad adicional que requieren las empresas basadas en proyectos para gestionar oportunidades basadas en proyectos.
 
 ## <a name="view-all-project-based-opportunities"></a>Ver todas las oportunidades basadas en proyectos
 

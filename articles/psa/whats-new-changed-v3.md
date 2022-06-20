@@ -1,6 +1,6 @@
 ---
 title: Novedades o cambios en la versión 3 de Project Service Automation
-description: Este tema proporciona información sobre las novedades y los cambios en Project Service Automation versión 3.
+description: En este artículo se proporciona información sobre las novedades y los cambios en la versión 3 de Project Service Automation.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 15925cb88cc413f9a23a25e89ddd29668e9171de
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d076e270f426131119eab097e7f359c228edb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581673"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926613"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Novedades o cambios en la versión 3 de Project Service Automation
 
@@ -32,7 +32,7 @@ ms.locfileid: "8581673"
 
 
 
-Este tema proporciona información sobre los cambios en la interfaz de usuario (IU), la funcionalidad y la terminología en Project Service Automation entre la versión 2 o la versión 1 y la versión 3.
+Este artículo proporciona información sobre los cambios en la interfaz de usuario (IU), la funcionalidad y la terminología en Project Service Automation entre la versión 2 o la versión 1 y la versión 3.
 
 ## <a name="project-scheduling"></a>Programación de proyectos
 El programa del proyecto, que se conocía como Estructura de descomposición del trabajo (WBS) en versiones anteriores, ha cambiado de nombre a Programación y se accede a él clic en la pestaña. **Programación**. 
@@ -150,7 +150,7 @@ Cuando tenga asignaciones de tareas para un recurso sin reservas (escasez de res
 En esta sección se proporciona información sobre los cambios de tiempo, gastos y aprobación en la versión 3 de Project Service Automation. Como parte de la solución Dynamics 365 Project Service Automation, se ha actualizado la característica **Entrada de tiempo** para aprovechar el marco de trabajo de interfaz unificada. Esto permite la entrega de una interfaz de usuario uniforme y coherente que sigue un diseño con capacidad de respuesta para una visualización óptima en cualquier tamaño de pantalla o dispositivo. 
 
 ### <a name="landing-page"></a>Página de aterrizaje
-La experiencia de entrada de tiempo personalizada no extensible ha quedado en desuso en la versión 3. En su lugar, ahora hay una experiencia de cuadrícula nativa extensible y accesible. Puede obtener acceso a la funcionalidad de entrada de tiempo mediante el mapa del sitio de la izquierda. Con ese cambio, ya no podrá introducir el tiempo de una semana a la vez. En su lugar, deberá crear una entrada de tiempo para cada día en la cuadrícula. Después de que se hayan creado algunas entradas de tiempo, los usuarios pueden crear entradas de tiempo de forma masiva con la función **Copiar** que se explica más adelante en este tema. 
+La experiencia de entrada de tiempo personalizada no extensible ha quedado en desuso en la versión 3. En su lugar, ahora hay una experiencia de cuadrícula nativa extensible y accesible. Puede obtener acceso a la funcionalidad de entrada de tiempo mediante el mapa del sitio de la izquierda. Con ese cambio, ya no podrá introducir el tiempo de una semana a la vez. En su lugar, deberá crear una entrada de tiempo para cada día en la cuadrícula. Después de que se hayan creado algunas entradas de tiempo, los usuarios pueden crear entradas de tiempo de forma masiva con la función **Copiar** que se explica más adelante en este artículo. 
 
 ![Página de aterrizaje de entrada de tiempo.](media/time-entry-landing-page-07.png)
  

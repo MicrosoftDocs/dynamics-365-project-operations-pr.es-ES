@@ -1,6 +1,6 @@
 ---
 title: Planificación y seguimiento del proyecto
-description: Este tema proporciona un enlace a información sobre la planificación y el seguimiento en Project Service Automation.
+description: Este artículo proporciona un enlace a información sobre la planificación y el seguimiento en Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 781e5afb30f5f3e7d81084c5f9bdb0c8ab200d9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b10a9b2f636b05955783c320597673fa7d24e131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589907"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933283"
 ---
 # <a name="project-planning-and-tracking"></a>Planificación y seguimiento del proyecto
 
@@ -32,7 +32,7 @@ ms.locfileid: "8589907"
 
 La aplicación Project Service ayuda a las organizaciones de servicio a identificar oportunidades, presentar ofertas, llegar a acuerdos contractuales, administrar recursos, realizar un seguimiento del tiempo y los gastos, facturar a los clientes y entregar proyectos a tiempo y dentro del presupuesto. 
 
-El vínculo al archivo PDF que se proporcionaba antes en este tema se ha quitado y se ha movido el contenido a los temas siguientes:
+El vínculo al archivo PDF que se proporcionaba antes en este artículo se ha quitado y se ha movido el contenido a los artículos siguientes:
 
 - [Programaciones del proyecto](../project-creating.md)
 - [Costes e ingresos del proyecto](../project-estimating.md)
@@ -43,7 +43,7 @@ El vínculo al archivo PDF que se proporcionaba antes en este tema se ha quitado
 - [Configuración del proyecto](../project-settings.md)
 
 > [!NOTE]
-> Este tema se quitará en una próxima actualización de la documentación. 
+> Este artículo se quitará en una próxima actualización de la documentación. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

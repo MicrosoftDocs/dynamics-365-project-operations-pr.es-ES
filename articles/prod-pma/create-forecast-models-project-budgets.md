@@ -1,6 +1,6 @@
 ---
 title: Crear modelos de pronóstico para presupuestos de proyectos
-description: Este tema describe cómo crear un modelo de previsión para los presupuestos restantes.
+description: Este artículo describe cómo crear un modelo de previsión para los presupuestos restantes.
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 992dd74524ae6a7c329612a125d60bebfcbe7dd2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: e6b1419c41124d2062595f7346efb7538e50ee33
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683651"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916723"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Crear modelos de pronóstico para presupuestos de proyectos 
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo crear un modelo de previsión para los presupuestos restantes. Un proyecto que está sujeto a control presupuestario utiliza dos tipos de presupuestos: original y restante. Cuando crea un presupuesto de proyecto, debe especificar los modelos de previsión presupuestaria original y restante que se crearon en la página **Modelos de pronóstico**. Los presupuestos del proyecto basados en los modelos especificados se crean cuando compromete el presupuesto del proyecto.
+Este artículo describe cómo crear un modelo de previsión para los presupuestos restantes. Un proyecto que está sujeto a control presupuestario utiliza dos tipos de presupuestos: original y restante. Cuando crea un presupuesto de proyecto, debe especificar los modelos de previsión presupuestaria original y restante que se crearon en la página **Modelos de pronóstico**. Los presupuestos del proyecto basados en los modelos especificados se crean cuando compromete el presupuesto del proyecto.
 
 > [!NOTE]
 > Un modelo de previsión que se utiliza para el control presupuestario no puede tener un submodelo ni utilizarse como submodelo.

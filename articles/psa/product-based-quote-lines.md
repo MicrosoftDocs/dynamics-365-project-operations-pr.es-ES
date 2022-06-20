@@ -1,6 +1,6 @@
 ---
 title: Líneas de oferta basadas en producto
-description: En este tema se proporciona información sobre líneas de oferta basadas en productos.
+description: En este artículo se proporciona información sobre líneas de oferta basadas en productos.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 54431b96f6bcc66b68c0f01c15c820cec1998963
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a5385e1bb0f18a7cc1d23f4e46c86d8340ba951d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600717"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922703"
 ---
 # <a name="product-based-quote-lines"></a>Líneas de oferta basadas en producto
 

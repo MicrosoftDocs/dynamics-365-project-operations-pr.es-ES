@@ -1,17 +1,17 @@
 ---
 title: Regístrese para obtener suscripciones de vista previa de Project Operations para escenarios de recursos/no en existencias
-description: Este tema proporciona información sobre cómo suscribir e implementar Project Operations para escenarios basados en recursos/no en existencias.
+description: Este artículo proporciona información sobre cómo suscribirse e implementar Project Operations para escenarios basados en recursos/sin existencias.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575831"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920127"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Regístrese para obtener suscripciones de vista previa de Project Operations para escenarios de recursos/no en existencias
 
@@ -19,7 +19,7 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no en e
 
 
 
-Este tema explica cómo suscribirse a la oferta de prueba e implementar el entorno de Project Operations para escenarios basados en recursos/no mantenidos en existencias.
+Este artículo explica cómo suscribirse a la oferta de prueba e implementar el entorno de Project Operations para escenarios basados en recursos/sin existencias.
 
 ## <a name="prerequisites"></a>Requisitos previos
 - El usuario que implementa la vista previa debe tener derechos de administrador global de inquilinos de Azure. Puede crear un inquilino durante el primer caje de oferta. 
@@ -60,19 +60,19 @@ Vaya a [Prueba preliminar de Dynamics 365 for Finance](https://aka.ms/trypoche) 
 
 ## <a name="start-a-new-project-in-lcs"></a>Iniciar un nuevo proyecto en LCS
 
-Cree un nuevo proyecto LCS como se describe en el tema [Iniciar un nuevo proyecto en LCS](create-lcs-project.md)
+Cree un nuevo proyecto LCS como se describe en el artículo [Iniciar un nuevo proyecto en LCS](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Agregar una suscripción de Azure a un proyecto LCS
 
-Para completar esta tarea, siga los pasos del tema [Agregar una suscripción de Azure a proyecto LCS](resource-add-azure-subscription-lcs-project.md).
+Para completar esta tarea, siga los pasos del artículo [Agregar una suscripción de Azure al proyecto LCS](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Implementar el entorno de demostración de Finance con Project Operations para escenarios de recursos/no en existencias
 
-Siga las instrucciones del tema [Aprovisionar un nuevo entorno](resource-provision-new-environment.md) para completar la implementación. Utilizar el tipo de implementación de [entorno de demostración](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) para la versión preliminar. 
+Siga las instrucciones del artículo [Aprovisionar un nuevo entorno](resource-provision-new-environment.md) para completar el despliegue. Utilizar el tipo de implementación de [entorno de demostración](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) para la versión preliminar. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Instalar la configuración de CDS y los datos de configuración
 
-Instale los datos de instalación y configuración de CDS como se describe en el tema [Configurar y aplicar datos de configuración en Common Data Service](resource-apply-pro-setup-config-data.md).
+Instale los datos de instalación y configuración de CDS como se describe en el artículo [Configurar y aplicar los datos de configuración en Common Data Service](resource-apply-pro-setup-config-data.md).
 Complete este paso solo después de que se implemente el entorno de demostración de Finance y los datos de demostración estén listos.
 
 

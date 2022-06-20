@@ -1,6 +1,6 @@
 ---
 title: Definir calendarios de proyectos
-description: Este tema proporciona información sobre cómo aplicar una plantilla de calendario a un proyecto para realizar un seguimiento de la programación del proyecto.
+description: Este artículo proporciona información sobre cómo aplicar una plantilla de calendario a un proyecto para realizar un seguimiento de la programación del proyecto.
 author: ruhercul
 ms.date: 02/05/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 0e31fcaf039ae214394b08b60b5d41987dc648e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e195cdb0dc5acc2ea816fadce40811675a855de2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578959"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933559"
 ---
 # <a name="define-project-calendars"></a>Definir calendarios de proyectos
 

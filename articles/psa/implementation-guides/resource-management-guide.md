@@ -1,6 +1,6 @@
 ---
 title: Guía del administrador de recursos
-description: En este tema se proporcionan vínculos a información sobre la administración de recursos en Project Service Automation.
+description: En este artículo se proporcionan vínculos a información sobre la administración de recursos en Project Service Automation
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 630f77060caa84d9941c0552c54412d7a235a4f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6b4506bbc0a7cbdd78b3f9b37f1a7f1b258f6500
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595473"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910819"
 ---
 # <a name="resource-management-guide"></a>Guía del administrador de recursos
 
@@ -30,7 +30,7 @@ ms.locfileid: "8595473"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-El vínculo al archivo PDF que se proporcionaba antes en este tema se ha quitado y se ha movido el contenido a los temas siguientes:
+El vínculo al archivo PDF que se proporcionaba antes en este artículo se ha quitado y se ha movido el contenido a los artículos siguientes:
 
 - [Página principal de administración de recursos](../resource-management-home-page.md)
 - [Conceptos clave](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ El vínculo al archivo PDF que se proporcionaba antes en este tema se ha quitado
 - [P+F de administración de recursos](../resource-management-faq.md)
 
 > [!NOTE]
-> Este tema se quitará en una próxima actualización de la documentación. 
+> Este artículo se quitará en una próxima actualización de la documentación. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

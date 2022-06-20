@@ -1,24 +1,24 @@
 ---
 title: 'Novedades de agosto de 2021: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
-description: Este tema proporciona información sobre las actualizaciones de calidad disponibles en la versión de agosto de 2021 de Project Operations para escenarios basados en recursos/no mantenidos en existencias.
+description: Este artículo proporciona información sobre las actualizaciones de calidad disponibles en la versión de agosto de 2021 de la implementación de Project Operations para escenarios basados en recursos/no mantenidos en existencias.
 author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 144a8c0d5ac47ad6fee54850c149a349f1698049
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bd91f7f6b3a6f78161f8900aa06c810a58609b53
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594185"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912307"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novedades de agosto de 2021: Project Operations para escenarios basados en recursos/no mantenidos en existencias
 
 *Se aplica a: Project Operations para escenarios basados en recursos/no mantenidos en existencias*
 
-Este tema se aplica a los siguientes componentes y versiones de Dynamics 365 Project Operations:
+Este artículo se aplica a los siguientes componentes y versiones de Dynamics 365 Project Operations:
 
    - Project Operations en la versión del entorno 4.13.0.152 de Microsoft Dataverse.
    - Gestión de proyectos y contabilidad en un entorno de Dynamics 365 Finance, versión 10.0.20.

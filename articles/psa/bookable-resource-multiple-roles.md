@@ -1,6 +1,6 @@
 ---
 title: Estimar los costes y las ventas de proyecto cuando un recurso que se puede reservar completa varios roles en un proyecto
-description: En este tema se proporciona información sobre cómo usar las dimensiones de precios a fin de respaldar los precios y costes para un recurso que desempeñe varios roles en un proyecto.
+description: Este artículo proporciona información sobre cómo se pueden usar las dimensiones de precios para respaldar los precios y los costos de un recurso que cumple varias funciones en un proyecto.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f8b84de740a3d610e49acea8fa13885b977b440c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5adaa7b83aae69c15aa268e723417172f1b56f42
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590735"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916171"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Estimar los costes y las ventas de proyecto cuando un recurso que se puede reservar completa varios roles en un proyecto 
 

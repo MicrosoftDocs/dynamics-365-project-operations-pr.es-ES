@@ -1,17 +1,17 @@
 ---
 title: Corregir la contabilidad en propuestas de factura de proyecto en borrador
-description: Este tema explica cómo ajustar la información relacionada con la contabilidad en un borrador de propuesta de factura.
+description: Este artículo explica cómo ajustar la información relacionada con la contabilidad en un borrador de propuesta de factura.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575095"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921231"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Corregir la contabilidad en propuestas de factura de proyecto en borrador
 
@@ -19,7 +19,7 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no en e
 
 El administradior del proyecto mantiene los *Detalles de operaciones* para las facturas del mismo en una factura proforma. Estos detalles incluyen la decisión sobre las horas, gastos, materiales o hitos que se deben facturar, las tarifas y la aplicación de los importes de anticipos y avances. Después de confirmar la factura proforma original, puede ajustar los detalles de operaciones creando y confirmando una [factura proforma correctiva](../proforma-invoicing/corrective-invoices.md).
 
-Los *Detalles de contabilidad* para las facturas del proyecto se mantienen en un documento de factura de cara al cliente. Estos detalles incluyen el cálculo del impuesto sobre las ventas y las dimensiones financieras que se aplican a la factura. Este tema proporciona detalles sobre cómo se pueden ajustar estos detalles de contabilidad en un borrador de propuesta de factura de proyecto.
+Los *Detalles de contabilidad* para las facturas del proyecto se mantienen en un documento de factura de cara al cliente. Estos detalles incluyen el cálculo del impuesto sobre las ventas y las dimensiones financieras que se aplican a la factura. Este artículo proporciona detalles sobre cómo se pueden ajustar estos detalles contables en un borrador de propuesta de factura de proyecto.
 
 ## <a name="adjust-sales-tax"></a>Ajustar el impuesto de ventas
 

@@ -1,17 +1,17 @@
 ---
 title: Registrarse para pruebas de Project Operations
-description: En este tema se proporciona información sobre cómo implementar una prueba de Dynamics 365 Project Operations.
+description: Este artículo ofrece información sobre el procedimiento de implementar una prueba de Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584295"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959535"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Registrarse para pruebas de Project Operations 
 
@@ -19,9 +19,9 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no mant
 
 
 
-Este tema explica cómo suscribirse a la oferta de partner de vista previa e implementar un entorno de Dynamics 365 Project Operations.
+Este artículo explica cómo suscribirse a la oferta de versión preliminar para socios e implementar un entorno de Dynamics 365 Project Operations.
 
-Con la nueva versión de prueba de Project Operations, puede implementar automáticamente cualquiera de los tres escenarios de implementación admitidos, completando un cuestionario que recomienda el mejor enfoque de implementación. En este tema se proporciona información sobre cómo:
+Con la nueva versión de prueba de Project Operations, puede implementar automáticamente cualquiera de los tres escenarios de implementación admitidos, completando un cuestionario que recomienda el mejor enfoque de implementación. En este artículo se proporciona información sobre cómo:
 
 - Canjear su oferta de prueba.
 - Iniciar el aprovisionamiento.
@@ -89,7 +89,8 @@ Antes de comenzar, inicie sesión en un navegador con la cuenta de trabajo del u
 4.  Seleccione las correspondientes URL de Microsoft Dataverse y las URL de aplicaciones de finanzas y operaciones para validar la implementación.
 
 ## <a name="configuring-dual-write"></a>Configuración de la escritura dual
-- Para configurar roles de seguridad para escritura dual, consulte [Actualice la configuración de seguridad en Project Operations en Dataverse](resource-provision-new-environment.md).
+- Para configurar roles de seguridad para escritura dual, consulte [Actualice la configuración de seguridad en Project Operations en Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Para acceder a la configuración de doble escritura, navegue a la instancia de Finanzas y operaciones, luego navegue a **Gestión de datos** > **Doble escritura**.
 - Para configurar mapas de escritura dual, consulte [Ejecutar mapas de escritura dual de Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Asignación de licencias

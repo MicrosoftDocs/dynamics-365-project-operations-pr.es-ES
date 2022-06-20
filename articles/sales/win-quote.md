@@ -1,17 +1,17 @@
 ---
 title: Cerrar una oferta
-description: En este tema se proporciona información el cierre de ofertas en Project Operations.
+description: Este artículo proporciona información sobre el cierre de cotizaciones en Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 25f5a515769b97e963b2a2ac8738884b3f0db2fb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 45bdfe5fb9eddb8f96ed1bc017596c8fe436245e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598601"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931903"
 ---
 # <a name="close-a-quote"></a>Cerrar una oferta
 

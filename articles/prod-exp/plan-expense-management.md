@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d919a26000b127dd6fb2fd8a49d79e3087f1c403
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: 6c9424b8aaf867254bde085cffaa649c846920cc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710012"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934019"
 ---
 # <a name="configure-expense-management"></a>Configurar la gestión de gastos
 
-Este tema describe las consideraciones y las decisiones que debe tomar durante el proceso de planificación antes de configurar la administración de gastos. En la Gestión de gastos, puede almacenar información sobre métodos de pago, solicitudes de viaje, informes de gastos, políticas, etc.
+Este artículo describe las consideraciones y las decisiones que debe realizar durante el proceso de planificación, antes de configurar Gestión de gastos. En la Gestión de gastos, puede almacenar información sobre métodos de pago, solicitudes de viaje, informes de gastos, políticas, etc.
 
 Debido a que muchas de las decisiones que toma cuando planifica su configuración para la gestión de gastos se basan en la jerarquía y la estructura financiera de su organización, debe consultar los documentos de planificación para esas áreas.
 

@@ -1,6 +1,6 @@
 ---
 title: Revisión del trabajo pendiente de facturación en proyectos y contratos de proyecto
-description: En este tema se proporciona información sobre cómo revisar los trabajos pendientes en los productos, los gastos y el tiempo, y cómo marcarlos como listos para la facturación.
+description: En este artículo se proporciona información sobre cómo revisar los trabajos pendientes en los productos, los gastos y el tiempo, y cómo marcarlos como listos para la facturación.
 author: rumant
 ms.custom: ''
 ms.author: rumant
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 51a7ecfefcc20544f5be378a347e3568285cafb3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 833ace7fd6285191f4b023a029286cd36b5de8f4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600579"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928913"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Revisión del trabajo pendiente de facturación en proyectos y contratos de proyecto
 
@@ -28,7 +28,7 @@ ms.locfileid: "8600579"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Cuando una transacción está lista para crear y procesar una factura, la transacción debe marcarse como **Listo para facturar**. Este tema describe los tipos de transacciones que se pueden crear.
+Cuando una transacción está lista para crear y procesar una factura, la transacción debe marcarse como **Listo para facturar**. Este artículo describe los tipos de transacciones que se pueden crear.
 
 ## <a name="review-the-time-and-material-billing-backlog"></a>Revisión del tiempo y trabajo pendiente de facturación de material
 

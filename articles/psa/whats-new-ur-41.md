@@ -1,6 +1,6 @@
 ---
 title: Novedades o cambios en la versión de actualización 41, V3, de Project Service Automation
-description: Este tema enumera las características y correcciones que están disponibles en Microsoft Dynamics 365 Project Service Automation, versión de actualización 41, V3.
+description: Este artículo enumera las funciones y correcciones que están disponibles en la actualización de la versión 41, V3 de Microsoft Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/07/2022
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 649d8bca36fda0a09dc7230ee4d742cadb32f3b3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8625ae16e45da30614b3a3eec44193bee0c0b36f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580983"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930569"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-41-v3"></a>Novedades o cambios en la versión de actualización 41, V3, de Project Service Automation
 
@@ -29,7 +29,7 @@ ms.locfileid: "8580983"
 
 Nos complace anunciar la última actualización de la aplicación Microsoft Dynamics 365 Project Service Automation. Esta versión incluye algunas mejoras importantes en la calidad, el rendimiento y la facilidad de uso. Es compatible con Dynamics 365 9.x. Para actualizar a esta versión, visite la página de soluciones en línea del Centro de administración para Dynamics 365 e instale la actualización. Para obtener más información, consulta [Instalar, actualizar o quitar una solución preferida](/power-platform/admin/install-remove-preferred-solution).
 
-En este tema se muestran las características y correcciones que son nuevas o que han cambiado para Project Service Automation, versión de actualización 41, V3. Esta versión tiene un número de compilación de V3.10.62.162 y está disponible con carácter general a través de una actualización automática en marzo de 2022.
+En este artículo se enumeran las funciones y correcciones que son nuevas o modificadas para Project Service Automation Update Release 41, V3. Esta versión tiene un número de compilación de V3.10.62.162 y está disponible con carácter general a través de una actualización automática en marzo de 2022.
 
 ## <a name="update-release-41"></a>Versión de actualización 41
 

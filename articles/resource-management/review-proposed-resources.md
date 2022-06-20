@@ -1,6 +1,6 @@
 ---
 title: Revisar recursos propuestos
-description: En este tema se proporciona información sobre cómo proponer recursos de proyecto.
+description: En este artículo se proporciona información sobre cómo proponer recursos de proyecto.
 author: ruhercul
 ms.date: 08/18/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3d2ab3ba9e5b18a2b42acaa2dc51ad94b8189274
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584985"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924865"
 ---
 # <a name="review-proposed-resources"></a>Revisar recursos propuestos
 

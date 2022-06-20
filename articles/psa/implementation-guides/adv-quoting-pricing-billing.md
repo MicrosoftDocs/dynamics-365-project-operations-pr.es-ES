@@ -1,6 +1,6 @@
 ---
 title: Ofertas, precios y facturación avanzados
-description: En este tema se proporciona información sobre los procesos de oferta, facturación y precios en Project Service Automation.
+description: En este artículo se proporciona información sobre los procesos de oferta, facturación y precios en Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 54047f34d950fc79e510bfe0d6601e271c02a92c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8106a18fefc34141fdc5d350c60e87ec4b2a4c1d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579373"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921829"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>Oferta avanzada, precios, y mantenimiento de facturación
 
@@ -32,7 +32,7 @@ ms.locfileid: "8579373"
 
 La capacidad para buscar los recursos adecuados en el momento oportuno, de reservar dichos recursos en proyectos y de mantener los recursos en uso ayuda a las organizaciones a cumplir los objetivos de ingresos y de satisfacción del cliente. 
 
-El vínculo al archivo PDF que se proporcionaba antes en este tema se ha quitado y se ha movido el contenido a los temas siguientes:
+El vínculo al archivo PDF que se proporcionaba antes en este artículo se ha quitado y se ha movido el contenido a los artículos siguientes:
 
 - [Ofertas, precios y facturación](../quote-bill-price.md)
 - [Procesos de venta](../basic-sales-process.md)
@@ -50,7 +50,7 @@ El vínculo al archivo PDF que se proporcionaba antes en este tema se ha quitado
 - [Registro de datos reales](../advanced-actuals.md)
 
 > [!NOTE]
-> Este tema se quitará en una próxima actualización de la documentación. 
+> Este artículo se quitará en una próxima actualización de la documentación. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

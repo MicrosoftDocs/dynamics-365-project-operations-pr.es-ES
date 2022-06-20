@@ -1,17 +1,17 @@
 ---
 title: Usar las API de programación de proyectos para realizar operaciones con entidades de programación
-description: Este tema proporciona información y ejemplos para usar las API de programación de proyectos.
+description: Este artículo proporciona información y ejemplos para usar las API de programación de proyectos.
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cabdf9716e4e25ed682368b99a87b3a3bf483cca
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592069"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929235"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Usar las API de programación de proyectos para realizar operaciones con entidades de programación
 

@@ -1,24 +1,24 @@
 ---
 title: 'Novedades de julio de 2021: implementación simplificada de Project Operations'
-description: Este tema proporciona información sobre las actualizaciones de calidad disponibles en la versión de julio de 2021 de la implementación simplificada de Project Operations.
+description: Este artículo proporciona información sobre las actualizaciones de calidad disponibles en la versión de julio de 2021 de la implementación de Project Operations Lite.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 475ceea3a6c6db9fe63e3950eaca5d9074faa766
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7964f38c1bc7a8e0440e2e922ff153fd9bede131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583973"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914009"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>Novedades de julio de 2021: implementación simplificada de Project Operations
 
 _Se aplica a: Implementación ligera: del acuerdo a la facturación proforma_
 
-Este tema se aplica a los siguientes componentes y versiones de Dynamics 365 Project Operations:
+Este artículo se aplica a los siguientes componentes y versiones de Dynamics 365 Project Operations:
 
   - Project Operations en la versión del entorno 4.12.0.148 o 4.12.0.152 de Dataverse.
 

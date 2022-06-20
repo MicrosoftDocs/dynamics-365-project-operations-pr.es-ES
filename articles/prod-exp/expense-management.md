@@ -1,6 +1,6 @@
 ---
 title: Información general sobre gestión de gastos
-description: Este tema proporciona información general sobre la gestión de gastos y enlaces a recursos adicionales. Puede utilizar la gestión de gastos para crear un flujo de trabajo integrado en el que puede almacenar información sobre el método de pago, importar transacciones de tarjetas de crédito y realizar un seguimiento del dinero que gastan los empleados cuando incurren en gastos para su negocio.
+description: En este artículo se proporciona información general acerca de la Gestión de gastos, además de vínculos a recursos adicionales. Puede utilizar la gestión de gastos para crear un flujo de trabajo integrado en el que puede almacenar información sobre el método de pago, importar transacciones de tarjetas de crédito y realizar un seguimiento del dinero que gastan los empleados cuando incurren en gastos para su negocio.
 author: ShylaThompson
 ms.date: 07/25/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93a8581db26dfecb9f847740c979e096dc3e227d
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 778a068bc80b099037b895f7e0d4add4d454242f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684847"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934065"
 ---
 # <a name="expense-management-overview"></a>Información general sobre gestión de gastos
 

@@ -1,25 +1,25 @@
 ---
 title: 'Novedades de enero de 2021: implementación ligera de Project Operations'
-description: Este tema proporciona información sobre las actualizaciones de calidad disponibles en la versión de enero de 2021 de la implementación ligera de Project Operations.
+description: Este artículo proporciona información sobre las actualizaciones de calidad disponibles en la versión de enero de 2021 de la implementación de Project Operations Lite.
 author: sigitac
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 17accd33a6126918e02e90b67636d95342efdd65
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 47932fb89cdd9481988d00f2f3be094b68110cbc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584019"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934295"
 ---
 # <a name="whats-new-january-2021---project-operations-lite-deployment"></a>Novedades de enero de 2021: implementación ligera de Project Operations
 
 
 _Se aplica a: Implementación ligera: del acuerdo a la facturación proforma_
 
-Este tema se aplica a los siguientes componentes y versiones de Dynamics 365 Project Operations:
+Este artículo se aplica a los siguientes componentes y versiones de Dynamics 365 Project Operations:
 
   - Project Operations en el entorno de Dataverse versión 4.6.0.154.
   

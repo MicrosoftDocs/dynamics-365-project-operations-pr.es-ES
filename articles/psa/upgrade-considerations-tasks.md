@@ -1,6 +1,6 @@
 ---
 title: Consideraciones de actualización para la estructura de descomposición del trabajo
-description: En este tema se proporciona información sobre cómo actualizar la estructura de descomposición del trabajo de Project Service Automation 2.x a 3.x.
+description: En este artículo se proporciona información sobre cómo actualizar la estructura de descomposición del trabajo de Project Service Automation 2.x a 3.x.
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 13ad93d5be3c0ab07c81db28d3e13561e9d40017
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 42bf03b5e3be4b7bdce87148254ce69e381ffdf1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599751"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913135"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Consideraciones de actualización para la estructura de descomposición del trabajo
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-En este tema se proporciona información sobre cómo actualizar la estructura de descomposición del trabajo de Project Service Automation 2.x a 3.x. Este tema define el estado correcto de un proyecto en Project Service Automation (PSA) necesario para realizar una actualización correcta. También incluye información sobre las condiciones de bloqueo comunes que harán que se produzca un error en la actualización. Para obtener más información sobre cómo definir las tareas del proyecto y sus funciones dentro de una programación del proyecto, consulte [Programaciones del proyecto](project-creating.md).
+En este artículo se proporciona información sobre cómo actualizar la estructura de descomposición del trabajo de Project Service Automation 2.x a 3.x. Este artículo define el estado correcto de un proyecto en Project Service Automation (PSA) necesario para realizar una actualización correcta. También incluye información sobre las condiciones de bloqueo comunes que harán que se produzca un error en la actualización. Para obtener más información sobre cómo definir las tareas del proyecto y sus funciones dentro de una programación del proyecto, consulte [Programaciones del proyecto](project-creating.md).
 
 ## <a name="key-entities"></a>Entidades clave
 Para una estructura de descomposición del trabajo precisa que ya esté cargada de recursos, se requieren las siguientes entidades:

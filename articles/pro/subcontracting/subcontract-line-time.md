@@ -1,17 +1,17 @@
 ---
 title: Líneas de subcontrato por tiempo
-description: Este tema explica cómo registrar líneas de subcontratos para tiempo y registrar la compra de tiempo de los proveedores.
+description: Este artículo explica cómo registrar líneas de subcontrato para tiempo y registrar la compra de tiempo de proveedores.
 author: rumant
 ms.date: 08/05/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c1adc1e88369e9f60548ed69b5950070d5f10c57
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0295ddd1b36eef9289110c4fe7b51397d81320d6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595703"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925969"
 ---
 # <a name="subcontract-lines-for-time"></a>Líneas de subcontrato por tiempo
 

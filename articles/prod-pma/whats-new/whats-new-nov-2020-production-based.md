@@ -1,17 +1,17 @@
 ---
 title: 'Novedades de noviembre de 2020: Project Operations para escenarios basados en existencias/producción'
-description: Este tema proporciona información sobre las actualizaciones de calidad disponibles en la versión de noviembre de 2020 de Project Operations para escenarios basados en producción.
+description: Este artículo proporciona información sobre las actualizaciones de calidad disponibles en la versión de noviembre de 2020 de la implementación de Project Operations para escenarios de producción mantenidos en existencias.
 author: sigitac
 ms.date: 10/15/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 24796eb70f5da6fa181ef7e88ec5d4d4fddbb436
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 67f71aa045dc3c9dd513462709db79436c971b7b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576613"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911250"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Novedades de noviembre de 2020: Project Operations para escenarios basados en existencias/producción
 

@@ -1,33 +1,33 @@
 ---
 title: Actualización de atributos de complementos con nuevas dimensiones de precios
-description: En este tema se proporciona información sobre cómo actualizar atributos del complemento para las dimensiones de precios.
+description: En este artículo se proporciona información sobre cómo actualizar los atributos del complemento para las dimensiones de precios.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575049"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920035"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Actualizar atributos de complementos con nuevas dimensiones de precios
 
-En este tema se proporciona información sobre cómo actualizar atributos del complemento para las dimensiones de precios.
+En este artículo se proporciona información sobre cómo actualizar los atributos del complemento para las dimensiones de precios.
 
 > [!NOTE]
-> Este tema solo se aplica a las características de oferta y contrato en Dynamics 365 Project Operations.
+> Este artículo sólo es aplicable a las características de cotización y contrato en Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Requisitos previos
-Antes de completar los pasos de este tema, debe haber completado los procedimientos de los siguientes temas:
+Antes de que pueda completar los pasos de este artículo, debe completar los procedimientos de los siguientes artículos:
 
   - [Crear campos y entidades personalizados](create-custom-fields-entities-pricing-dimensions.md) 
-  - [Agregar de campos personalizados a la configuración de precios y entidades transaccionales](add-custom-fields-price-setup-transactional-entities.md)
+  - [Agregar de campos personalizados a la configuración de precios y entidades transaccionales ](add-custom-fields-price-setup-transactional-entities.md)
   - [Configurar campos personalizados como dimensiones de precios](set-up-custom-fields-pricing-dimensions.md). 
   
-Si no ha completado esos procedimientos, complételos y, a continuación, regrese a este tema.
+Si no ha completado esos procedimientos, complételos y, a continuación, regrese a este artículo.
 
 ## <a name="register-a-plug-in"></a>Registrar un complemento
 Cuando se crea un detalle de línea de oferta en la página **Línea de oferta** para una línea de oferta de proyecto, el sistema crea dos líneas de estimaciones. Una línea es para el lado del coste de la estimación y la otra línea es para el lado de las ventas. Esto es lo mismo para las líneas de contrato del proyecto.

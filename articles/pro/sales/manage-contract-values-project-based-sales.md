@@ -1,17 +1,17 @@
 ---
 title: Información general de líneas de contrato basadas en proyectos
-description: En este tema se proporciona información sobre el trabajo con líneas de contrato basadas en proyecto.
+description: Este artículo proporciona información sobre el trabajo con líneas de contrato basadas en proyecto.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 436079a166b102590863c5df6734d21dd83b83fe
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d32edac6537a4b0f51e9d2f72cb4a7342606d2c5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593173"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931443"
 ---
 # <a name="project-based-contract-lines-overview"></a>Información general de líneas de contrato basadas en proyectos
 

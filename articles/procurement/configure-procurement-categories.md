@@ -1,18 +1,18 @@
 ---
 title: Usar categorías de compras con pedidos de compra de proyectos y facturas de proveedores pendientes
-description: Este tema describe cómo configurar categorías de compras que se pueden usar con pedidos de compra de proyectos y facturas de proveedores pendientes.
+description: Este artículo describe cómo configurar categorías de compras que se pueden usar con pedidos de compra de proyectos y facturas de proveedores pendientes.
 author: sigitac
 ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee68d7906cb0c887c19a32363ec7fda547cb74bd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613296"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927441"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>Usar categorías de compras con pedidos de compra de proyectos y facturas de proveedores pendientes
 
@@ -47,7 +47,7 @@ Siga estos pasos para asignar categorías de proyectos a categorías de adquisic
 
 1. Vaya a **Adquisición y abastecimiento \> Categorías de compras**.
 1. Seleccione **Editar jerarquía de categoría**.
-1. Seleccione el nodo de jerarquía de categorías deseado y, a continuación, en la pestaña **Asignar categorías de proyectos**, asocie el nodo con la categoría de proyecto de la categoría **Tiempo**, Gasto**, o **Proyecto de artículo** (es decir, la categoría **Hora predeterminada** o **Gasto predeterminado**).
+1. Seleccione el nodo de jerarquía de categorías deseado y, a continuación, en la pestaña **Asignar categorías de proyectos**, asocie el nodo con la categoría de proyecto de la categoría **Tiempo**, **Gasto** o **Proyecto de artículo** (es decir, la categoría **Hora predeterminada** o **Gasto predeterminado**).
 1. Seleccione **Guardar**.
 1. Cierre la página.
 

@@ -1,6 +1,6 @@
 ---
 title: Unidades y unidades de venta
-description: Este tema proporciona información sobre cómo crear unidades y unidades de venta en Dynamics 365 Project Operations.
+description: En este artículo se proporciona información acerca de cómo crear unidades y grupos de unidades en Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e0e1339c8fccb52b7471dc49a19be4dfc37be605
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a46b7d182d3d7fc77c1275c108f5dc569ffebff1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578453"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921461"
 ---
 # <a name="units-and-unit-groups"></a>Unidades y unidades de venta
 
@@ -28,7 +28,7 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no mant
 
 Las unidades son las cantidades o medidas en las que vende sus productos o servicios. Por ejemplo, si vende suministros para jardinería, es posible que venda semillas en unidades de paquetes, cajas y pallets. Una unidad de venta constituye el conjunto de estas diferentes unidades.
 
-Para completar los pasos de este tema, asegúrese de que se le haya asignado el rol de Administrador del sistema o Administrador de Sales Professional o tenga permisos equivalentes.
+Para completar los pasos de este artículo, asegúrese de que se le haya asignado el rol de administrador del sistema o administrador de profesional de ventas, o tenga permisos equivalentes.
 
 ## <a name="create-a-unit-group"></a>Creación de unidades de venta
 

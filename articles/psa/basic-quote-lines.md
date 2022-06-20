@@ -1,6 +1,6 @@
 ---
 title: Ofertas y líneas de oferta
-description: En este tema se proporciona información sobre las ofertas y las líneas de oferta.
+description: En este artículo se proporciona información sobre las ofertas y las líneas de oferta.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ff0a221b9d9ee1176f4e6c996613e33a6ca5e84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4c59f018adc7ee439fd77a819e2fb7620941e958
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599061"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933375"
 ---
 # <a name="quotes-and-quote-lines"></a>Ofertas y líneas de oferta
 
@@ -39,7 +39,7 @@ En Dynamics 365 Project Service Automation, hay dos tipos de ofertas: las oferta
 - Las ofertas de ventas no incluyen algunos campos y conceptos que se incluyen en las ofertas de proyecto. Entre los campos se incluyen **Unidad de contratación**, **Administrador de cuentas** y **Nombre de contacto de facturación**.  
 - Las ofertas de ventas y las ofertas de proyecto también se identifican mediante un campo basado en un conjunto de opciones con el nombre **Tipo**. Para una oferta de ventas, este campo tiene el valor **Basado en artículo**. Para una oferta de proyecto, tiene el valor **Basado en trabajo**.
 
-Este tema se centrará en los detalles de las ofertas de proyecto.
+Este artículo se centrará en los detalles de las ofertas de proyecto.
 
 Una oferta del proyecto en PSA puede tener varios elementos de línea o varias líneas de oferta. De hecho, una oferta de proyecto tiene dos cuadrículas para elementos de línea. Una cuadrícula es para las líneas basadas en proyecto que permiten las estimaciones detalladas. La otra cuadrícula es para las líneas basadas en productos que utilizan un precio unitario sencillo y un enfoque basado en la cantidad.
 

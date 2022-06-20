@@ -1,17 +1,17 @@
 ---
 title: Información general sobre los modos de administración de recursos
-description: En este tema se proporciona información sobre la función de administración de proyecto en Dynamics 365 Project Operations.
+description: En este artículo se proporciona información sobre la funcionalidad de administración de recursos en Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: f30bac95b2beb92345cbe25332963c58d2bde4bb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dd50d12686a6ad17f6a95ccf0c2f1447cc470bf7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585123"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928453"
 ---
 # <a name="resource-management-modes-overview"></a>Información general sobre los modos de administración de recursos
 
@@ -38,7 +38,7 @@ Para las organizaciones que requieren flexibilidad en la asignación de recursos
 
 ![Modo híbrido.](./media/resource-management-hybrid.png)
 
-Además del proceso del modo Central admitido, consulte los siguientes temas para administrar todos los demás flujos de reserva admitidos en modo Híbrido:
+Además del proceso de modo central admitido, consulte los siguientes artículos para administrar todos los demás flujos de reserva admitidos en el modo híbrido:
 
 Asignar un recurso directamente a un proyecto:
 - [Reservar recursos con nombre que se pueden reservar para un equipo de proyecto y asignar tareas](/dynamics365/project-service/assign-named-bookable-resource)

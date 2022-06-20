@@ -1,23 +1,23 @@
 ---
 title: Tipos de período
-description: En este tema se proporciona información acerca de cómo configurar tipos de período para estimación de ingresos.
+description: Este artículo proporciona información sobre cómo configurar tipos de periodo para la estimación de ingresos.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5bbf2dcb4758611aa9d0591ddfec42869f4438c0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580477"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930983"
 ---
 # <a name="period-types"></a>Tipos de período
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
 
-Un tipo de período define la frecuencia con la que se estiman los ingresos de un proyecto. En este tema se proporciona información acerca de cómo configurar tipos de período para estimación de ingresos. 
+Un tipo de período define la frecuencia con la que se estiman los ingresos de un proyecto. Este artículo proporciona información sobre cómo configurar tipos de periodo para la estimación de ingresos. 
 
 ## <a name="create-and-work-with-period-types"></a>Crear y trabajar con tipos de períodos
 Para crear y trabajar con tipos de período, complete los siguientes pasos:

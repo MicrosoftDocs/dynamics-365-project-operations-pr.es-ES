@@ -1,6 +1,6 @@
 ---
 title: 'Consideraciones sobre actualizaciones: Microsoft Dynamics 365 Project Service Automation versión 2.x o 1.x a versión 3'
-description: En este tema se proporciona información sobre las consideraciones que debe tomar cuando actualiza de la versión 2.xo 1.x a la versión 3 de Project Service Automation.
+description: En este artículo se proporciona información sobre las consideraciones que debe tomar cuando actualiza de la versión 2.x o 1.x a la versión 3 de Project Service Automation.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f67b2fe39c9d0224207e7c655892318ec7e09b8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601775"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918931"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Consideraciones de actualización: De la versión 2.x o 1.x a la versión 3.x
 
@@ -40,7 +40,7 @@ En las versiones 2 y 1 de Project Service Automation, las asignaciones de tareas
 
 En la versión 3 de Project Service Automation, ha cambiado el esquema subyacente de asignación de recursos reservables a tareas. . La tarea de línea ha quedado en desuso y existe una relación directa 1:1 entre la tarea en la entidad **Tarea** y el miembro del equipo en la entidad **Asignación de recursos**. Las tareas que se asignan a un miembro del equipo del proyecto ahora se almacenan directamente en la entidad Asignación de recursos.  
 
-Estos cambios afectan la actualización de cualquier proyecto existente que tenga asignaciones de recursos para recursos que se pueden reservar con nombre y recursos genéricos en un equipo de proyecto. Este tema proporciona las consideraciones que deberá tener en cuenta para sus proyectos cuando actualice a la versión 3. 
+Estos cambios afectan la actualización de cualquier proyecto existente que tenga asignaciones de recursos para recursos que se pueden reservar con nombre y recursos genéricos en un equipo de proyecto. Este artículo proporciona las consideraciones que deberá tener en cuenta para sus proyectos cuando actualice a la versión 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Tareas asignadas a recursos con nombre
 Mediante la entidad de tarea subyacente, las tareas en la versión 2 y la versión 1 permitían a los miembros del equipo representar un rol distinta del definido de forma predeterminada. Por ejemplo, Eva Martínez, que de forma predeterminada tiene asignada el rol de Administrador de programas, podría asignarse a una tarea con el rol de Desarrollador. En la versión 3, el rol de un miembro del equipo con nombre es siempre el predeterminado, por lo que cualquier tarea a la que se le asigne Eva Martínez utilizará su rol predeterminado de Administrador de programas.

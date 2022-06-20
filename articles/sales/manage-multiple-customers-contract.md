@@ -1,21 +1,21 @@
 ---
 title: Administrar varios clientes en contratos de proyectos
-description: Este tema proporciona información sobre cómo administrar varios clientes en un contrato de proyecto.
+description: Este artículo proporciona información sobre cómo gestionar varios clientes en un contrato de proyecto.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591333"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928361"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Administrar varios clientes en contratos de proyectos
 
-Este tema proporciona información sobre cómo administrar varios clientes en un contrato de proyecto. Puede utilizar un contrato de proyecto cuando se necesita un acuerdo contractual para varios clientes para financiar un trato. En la página **Contrato de proyecto**, la pestaña **Resumen** incluye información sobre el cliente principal para una oferta. Otros clientes que participan en la oferta se pueden agregar a la pestaña **Clientes**.
+Este artículo proporciona información sobre cómo gestionar varios clientes en un contrato de proyecto. Puede utilizar un contrato de proyecto cuando se necesita un acuerdo contractual para varios clientes para financiar un trato. En la página **Contrato de proyecto**, la pestaña **Resumen** incluye información sobre el cliente principal para una oferta. Otros clientes que participan en la oferta se pueden agregar a la pestaña **Clientes**.
 
 Todos los clientes contratados en la pestaña **Clientes** del contrato de proyecto predeterminado como clientes de línea de contrato en cualquier nueva línea de contrato basada en proyecto creada para el contrato de proyecto. Las líneas de contrato basadas en proyectos existentes no heredan nuevos registros de clientes de contrato que se crean posteriormente.
 

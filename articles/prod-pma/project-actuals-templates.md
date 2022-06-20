@@ -1,6 +1,6 @@
 ---
 title: Sincronizar los valores reales directamente desde Project Service Automation al diario de integración del proyecto para el registro en Finanzas y operaciones
-description: En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar datos reales de un proyecto directamente desde Microsoft Microsoft Dynamics 365 Project Service Automation a Finanzas y operaciones.
+description: En este artículo se describen las plantillas y las tareas subyacentes que se usan para sincronizar datos reales de un proyecto directamente desde Microsoft Microsoft Dynamics 365 Project Service Automation a Finanzas y operaciones.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683559"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929511"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronizar los valores reales directamente desde Project Service Automation al diario de integración del proyecto para el registro en Finanzas y operaciones
 
 [!include[banner](../includes/banner.md)]
 
-En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar datos reales de un proyecto directamente desde Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Finance.
+En este artículo se describen las plantillas y las tareas subyacentes que se usan para sincronizar datos reales de un proyecto directamente desde Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 
 La plantilla sincroniza las transacciones de Project Service Automation en una tabla de almacenamiento provisional en Finance. Una vez completada la sincronización, **debe** importar los datos de la tabla de almacenamiento provisal al diario de integración.
 

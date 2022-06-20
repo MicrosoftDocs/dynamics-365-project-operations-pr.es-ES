@@ -1,17 +1,17 @@
 ---
 title: Mantener miembros del equipo
-description: En este tema se proporciona información sobre cómo reservar recursos con nombre para equipos de proyectos y asignarlos a tareas.
+description: En este artículo se proporciona información sobre cómo reservar recursos con nombre para equipos de proyectos y asignarlos a tareas.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7c7b2f45c56289c46cfa8f79c0704a7085f6db3a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6ab1541cc79870fcab9dbce45073e6b5a7bb0133
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575421"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933467"
 ---
 # <a name="maintain-team-members"></a>Mantener miembros del equipo
 

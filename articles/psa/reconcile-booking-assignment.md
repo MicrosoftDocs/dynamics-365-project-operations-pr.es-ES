@@ -1,6 +1,6 @@
 ---
 title: Conciliación de reservas y asignaciones
-description: En este tema se proporciona información sobre datos reales.
+description: En este artículo se proporciona información sobre datos reales.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c0795576239345525704bfcfdfe12ad1db06f59e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 04c238527006daab4c55f17280ce46b7df2aa649
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601545"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920403"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Conciliación de reservas y asignaciones
 

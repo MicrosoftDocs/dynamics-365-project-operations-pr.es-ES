@@ -1,18 +1,18 @@
 ---
 title: Adquirir materiales no mantenidos en existencias o categorías de adquisición usando facturas de proveedor pendientes
-description: Este tema explica cómo registrar facturas de proveedor pendientes.
+description: Este artículo explica cómo registrar facturas de proveedores pendientes.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: b1c05755f6759e90e031a11261f15a2c4b6b716e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612678"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922013"
 ---
 # <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Adquirir materiales no mantenidos en existencias o categorías de adquisición usando facturas de proveedor pendientes
 
@@ -23,7 +23,7 @@ A medida que una empresa adquiere materiales no en existencias o categorías de 
 Por ejemplo, Contoso Robotics US está realizando un proyecto de renovación de equipos y necesita licencias de software. Estas licencias se obtienen de un proveedor externo.  Con Dynamics 365 Finance, el empleado Proveedores registra un documento de factura de proveedor pendiente y atribuye los costos de la licencia directamente al proyecto de renovación del equipo. 
 
 > [!IMPORTANT]
-> Antes de utilizar la funcionalidad descrita en este tema, revise y aplique las configuraciones necesarias. Para más información, consulte [Habilitar materiales no almacenados y facturas de proveedores pendientes](configure-materials-nonstocked.md) y [Usar categorías de adquisición con pedidos de compra de proyectos y facturas de proveedores pendientes](configure-procurement-categories.md)
+> Antes de usar la funcionalidad descrita en este artículo, revise y aplique las configuraciones requeridas. Para más información, consulte [Habilitar materiales no almacenados y facturas de proveedores pendientes](configure-materials-nonstocked.md) y [Usar categorías de adquisición con pedidos de compra de proyectos y facturas de proveedores pendientes](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Registrar una factura de proveedor pendiente relacionada con el proyecto 
 

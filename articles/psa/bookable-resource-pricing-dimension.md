@@ -1,6 +1,6 @@
 ---
 title: Utilizar un recurso que se puede reservar como dimensión de precios
-description: En este tema se proporciona información sobre el uso de un recurso que se puede reservar como dimensión de precios.
+description: En este artículo se proporciona información sobre el uso de un recurso que se puede reservar como dimensión de precios.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7b07ac8659c9eccf3db41775acf5ca2043016a59
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: becb64bb137079422a765dd7cd61369297e1ffb1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576429"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916125"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Utilizar un recurso que se puede reservar como dimensión de precios
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-En este tema se proporciona información sobre el uso de un recurso que se puede reservar como dimensión de precios. Antes de comenzar, si aún no ha creado una solución de dimensión de precios, deberá crear una nueva. Si ya tiene una solución de dimensión de precios, puede realizar los cambios en esa solución. Si no ha creado una nueva solución de dimensión de precios para su organización, complete los procedimientos en el tema [Creación de campos y entidades](create-custom-fields-entities.md).
+En este artículo se proporciona información sobre el uso de un recurso que se puede reservar como dimensión de precios. Antes de comenzar, si aún no ha creado una solución de dimensión de precios, deberá crear una nueva. Si ya tiene una solución de dimensión de precios, puede realizar los cambios en esa solución. Si no ha creado una nueva solución de dimensión de precios para su organización, complete los procedimientos en el artículo [Creación de campos y entidades](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Agregar un recurso que se puede reservar a formularios y vistas
 Para que los campos sean visibles en la interfaz de usuario en la solución de dimensión de precios, deberá recorrer todos los formularios y las vistas de las entidades clave de Project Service y agregar estos campos a los formularios y las vistas de dichas entidades.

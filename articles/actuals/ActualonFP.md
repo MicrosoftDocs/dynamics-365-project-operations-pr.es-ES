@@ -1,6 +1,6 @@
 ---
 title: Impacto de los datos reales en una interacción de precio fijo
-description: Este tema proporciona información sobre el impacto en la tabla de valores reales en varios eventos durante el ciclo de vida de un compromiso de precio fijo en Microsoft Dynamics 365 Project Operations.
+description: Este artículo proporciona información sobre el impacto en la tabla de valores reales en varios eventos durante el ciclo de vida de un compromiso de precio fijo en Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 222e7c5eefd7c619e4d7389cdaff2f96176ff275
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 50819d77d56935bfe5438d7d9dae99562bcc0b49
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579249"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918149"
 ---
 # <a name="actuals-impact-in-a-fixed-price-engagement"></a>Impacto de los datos reales en una interacción de precio fijo
 

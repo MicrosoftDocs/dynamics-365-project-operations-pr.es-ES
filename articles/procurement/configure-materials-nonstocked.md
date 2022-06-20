@@ -1,18 +1,18 @@
 ---
 title: Configurar materiales no mantenidos en existencias y facturas de proveedor pendientes
-description: Este tema explica cómo habilitar materiales no mantenidos en existencias y facturas de proveedor pendientes.
+description: Este artículo explica cómo habilitar materiales no almacenados y facturas de proveedores pendientes.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6473ef3510f0d3641a2d61b6a1b1f28980993277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592989"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913779"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Configurar materiales no mantenidos en existencias y facturas de proveedor pendientes
 
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Ejecute asignaciones de doble escritura para integración de materiales no mantenidos en existencias y facturas de proveedores
 
-Esta sección proporciona información sobre las asignaciones necesarias para los materiales no mantenidos en existencias y las facturas de proveedores. Verifique que las asignaciones de requisitos previos enumeradas en el tema [Aprovisionar un nuevo entorno](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) se ejecutan en su entorno.
+Esta sección proporciona información sobre las asignaciones necesarias para los materiales no mantenidos en existencias y las facturas de proveedores. Verifique que los mapas de requisitos previos enumerados en el artículo [Aprovisionar un nuevo entorno](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) se están ejecutando en su entorno.
 
 1. Vaya a Lifecycle Services (LCS), hasta su proyecto LCS y vaya a la página **Detalles del entorno**.
 2. En la sección **Información del entorno de Common Data Service**, seleccione **Vincular a CDS para aplicaciones**. Después de seleccionar el vínculo, se le redirigirá a la lista de entidades de las asignaciones.

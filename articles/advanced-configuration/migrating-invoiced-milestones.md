@@ -1,17 +1,17 @@
 ---
 title: Migrar hitos de facturación totalmente facturados en la transición
-description: Este tema explica cómo migrar hitos de facturación de precio fijo que se han facturado al cliente para contratos de proyectos abiertos antes de la fecha de lanzamiento.
+description: Este artículo explica cómo migrar hitos de facturación de precio fijo que se han facturado al cliente para contratos de proyectos abiertos antes de la fecha de lanzamiento.
 author: sigitac
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ccdba864a68521024b2c479c12cf5cea616c5bbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d7bb3dbb5acd9be447c405ec17f18d00c500f655
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576291"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912261"
 ---
 # <a name="migrate-fully-invoiced-billing-milestones-at-cutover"></a>Migrar hitos de facturación totalmente facturados en la transición
 

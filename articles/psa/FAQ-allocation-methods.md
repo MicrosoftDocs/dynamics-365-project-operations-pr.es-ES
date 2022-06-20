@@ -1,6 +1,6 @@
 ---
 title: Métodos de asignación de reservas en Project Service Automation
-description: En este tema se proporciona información sobre las distintas formas que puede reservar asignaciones.
+description: En este artículo se proporciona información sobre las distintas formas que puede reservar asignaciones.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f0f4f5c68698fbe88de968e65a65b316b10872d9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dff11de0726004653233c6b90e194825c3850e0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590137"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929189"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Métodos de asignación de reservas en Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Tanto si agrega un miembro del equipo directamente a un proyecto en la pestaña **Equipo** como si reserva un recurso para un proyecto o requisito desde el tablero Programación, hay varios métodos de asignación de reservas que puede usar. En este tema se explica cómo funciona cada método y qué métodos podrían producir saturación exceso de reserva en los recursos.
+Tanto si agrega un miembro del equipo directamente a un proyecto en la pestaña **Equipo** como si reserva un recurso para un proyecto o requisito desde el tablero Programación, hay varios métodos de asignación de reservas que puede usar. En este artículo se explica cómo funciona cada método y qué métodos podrían producir saturación exceso de reserva en los recursos.
 
 ## <a name="full-capacity"></a>Plena capacidad 
 El método Plena capacidad reserva la capacidad completa del recurso para las fechas especificadas de inicio y fin. Por ejemplo, si un recurso tiene un calendario establecido para trabajar ocho horas por día, cinco días a la semana, al establecer una fecha de inicio y finalización que cubra cinco días laborables, se reservará el recurso por 40 horas. La reserva se realiza sin tener en cuenta la capacidad restante del recurso. Si un recurso ya está reservado en ese periodo en otros proyectos, las 40 horas se reservan como horas adicionales, lo que potencialmente puede producir exceso de reserva.

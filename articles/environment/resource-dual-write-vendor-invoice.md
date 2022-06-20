@@ -1,18 +1,18 @@
 ---
 title: Integración de facturas de proveedores
-description: Este tema proporciona información sobre la integración de facturas del proveedor en Project Operations.
+description: Este artículo proporciona información sobre la integración de facturas de proveedores en Project Operations.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591196"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912077"
 ---
 # <a name="vendor-invoice-integration"></a>Integración de facturas de proveedores
 
@@ -21,7 +21,7 @@ _**Se aplica a:** Project Operations para escenarios basados en recursos/no en e
 Las adquisiciones relacionadas con el proyecto en Dynamics 365 Project Operations se pueden registrar en **Proveedores** > **Facturas** > **Facturas de proveedor pendientes** y utilizando un documento de factura de proveedor pendiente. Para más información, vea [Adquirir materiales no mantenidos en existencias utilizando una factura de proveedor pendiente](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Antes de utilizar la funcionalidad descrita en este tema, revise y aplique las configuraciones necesarias. Para más información, vea [Habilitar materiales no mantenidos en existencias y facturas de proveedor pendiente](../procurement/configure-materials-nonstocked.md).
+> Antes de usar la funcionalidad descrita en este artículo, revise y aplique las configuraciones requeridas. Para más información, vea [Habilitar materiales no mantenidos en existencias y facturas de proveedor pendiente](../procurement/configure-materials-nonstocked.md).
 
 En Project Operations, las facturas de proveedores relacionadas con el proyecto se registran mediante reglas de contabilización especiales:
 

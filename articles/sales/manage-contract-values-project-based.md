@@ -1,17 +1,17 @@
 ---
 title: Trabajar con líneas de contrato basadas en proyecto
-description: En este tema se proporciona información sobre las líneas de contrato basadas en proyecto.
+description: Este artículo proporciona información sobre las líneas de contrato basadas en proyecto.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f67c0447c0b2a23d6f7d03dfc5ac7800943bbf36
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 055c34c96eec0f4eee1b8e17d989d22c4752787d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595197"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931995"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Trabajar con líneas de contrato basadas en proyecto
 

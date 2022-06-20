@@ -1,6 +1,6 @@
 ---
 title: Configurar campos personalizados como dimensiones de precios
-description: En este tema se proporciona información sobre cómo configurar dimensiones de precios usando campos personalizados.
+description: En este artículo se proporciona información sobre cómo configurar dimensiones de precios con campos personalizados.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c0c43e483ebcb016747e533d685f13fd5dd8700
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599429"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917597"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configurar campos personalizados como dimensiones de precios
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Antes de comenzar, este tema supone que ha completado los procedimientos en los temas: [Creación de campos y entidades](create-custom-fields-entities-pricing-dimensions.md) y [Agregar campos personalizados requeridos a la configuración de precios y entidades transaccionales](add-custom-fields-price-setup-transactional-entities.md). Si no ha completado esos procedimientos, vuelva y complételos y, a continuación, regrese a este tema. 
+Antes de comenzar, este artículo supone que ha completado los procedimientos en los artículos: [Creación de campos y entidades](create-custom-fields-entities-pricing-dimensions.md) y [Adición de campos personalizados necesarios a la configuración de precios y entidades transaccionales](add-custom-fields-price-setup-transactional-entities.md). Si no ha completado esos procedimientos, vuelva y complételos y, a continuación, regrese a este artículo. 
 
-En este tema se proporciona información sobre cómo configurar dimensiones de precios personalizadas. En la página **Parámetros**, en la pestaña **Dimensiones de precios basadas en el importe**, la pestaña muestra los registros en las entidades de dimensiones de precios. De forma predeterminada, hay dos filas en la cuadrícula de esta pestaña:
+En este artículo se proporciona información sobre cómo configurar dimensiones de precios personalizadas. En la página **Parámetros**, en la pestaña **Dimensiones de precios basadas en el importe**, la pestaña muestra los registros en las entidades de dimensiones de precios. De forma predeterminada, hay dos filas en la cuadrícula de esta pestaña:
 
 - **msdyn_resourcecategory** (Rol)
 - **msdyn_OrganizationalUnit** (Unidad organizativa)

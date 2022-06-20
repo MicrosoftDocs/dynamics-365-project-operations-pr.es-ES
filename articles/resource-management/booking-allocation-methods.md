@@ -1,6 +1,6 @@
 ---
 title: Métodos de asignación de reservas
-description: En este tema se proporciona información sobre cómo funcionan los métodos de asignación de reservas en Project Operations.
+description: Este artículo proporciona información sobre cómo funcionan los métodos de asignación de reservas en Project Operations.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: db3cb98227343465af1cf6a447ec9c5d6bdd13ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 55bf54ada3150bb42d1d47046ddc7e3a1fd8d192
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583053"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912767"
 ---
 # <a name="booking-allocation-methods"></a>Métodos de asignación de reservas
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Tanto si agrega un miembro del equipo directamente a un proyecto en la pestaña **Equipo** como si reserva un recurso para un proyecto o requisito desde el tablero Programación, hay varios métodos de asignación de reservas que puede usar. En este tema se explica cómo funciona cada método y qué métodos podrían producir saturación exceso de reserva en los recursos.
+Tanto si agrega un miembro del equipo directamente a un proyecto en la pestaña **Equipo** como si reserva un recurso para un proyecto o requisito desde el tablero Programación, hay varios métodos de asignación de reservas que puede usar. En este artículo se explica cómo funciona cada método y qué métodos podrían producir saturación exceso de reserva en los recursos.
 
 ## <a name="booking-allocation-methods"></a>Métodos de asignación de reservas
 

@@ -1,24 +1,24 @@
 ---
 title: Características quitadas o en desuso en Dynamics 365 Project Operations
-description: En este tema se describen las características que se han quitado (o cuya eliminación está prevista) de Dynamics 365 Project Operations.
+description: En este artículo se describen las características que se han quitado (o cuya eliminación está prevista) de Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601591"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921507"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Características quitadas o en desuso en Dynamics 365 Project Operations
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no almacenados, implementación Lite - trato a facturación proforma y Project Operations para escenarios basados en existencias/producción_
 
-En este tema se describen las características que se han quitado (o cuya eliminación está prevista) de Dynamics 365 Project Operations.
+En este artículo se describen las características que se han quitado (o cuya eliminación está prevista) de Dynamics 365 Project Operations.
 
 - Una característica *quitada* ya no está disponible en el producto.
 - Una característica *en desuso* no está en desarrollo activo y puede quitarse en una actualización futura.

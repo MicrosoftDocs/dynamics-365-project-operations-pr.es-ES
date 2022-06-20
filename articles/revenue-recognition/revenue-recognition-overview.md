@@ -1,23 +1,23 @@
 ---
 title: Introducción al reconocimiento de ingresos
-description: En este tema se proporciona información acerca de reconocimiento de ingresos en Project Operations.
+description: Este artículo proporciona información sobre el reconocimiento de ingresos en Project Operations.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 51c553ecf45452615cbcadce6386f32be427acaa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 22486693226256f765589b272e6df36aceaf9c1c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601453"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926291"
 ---
 # <a name="revenue-recognition-overview"></a>Introducción al reconocimiento de ingresos
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
 
-En Dynamics 365 Project Operations, los principios de reconocimiento de ingresos varían según el método de facturación seleccionado para un proyecto o parte del proyecto. En este tema se proporciona información acerca de reconocimiento de ingresos en Project Operations.
+En Dynamics 365 Project Operations, los principios de reconocimiento de ingresos varían según el método de facturación seleccionado para un proyecto o parte del proyecto. Este artículo proporciona información sobre el reconocimiento de ingresos en Project Operations.
 
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>Transacciones contabilizadas usando el método de facturación de tiempo y material
 

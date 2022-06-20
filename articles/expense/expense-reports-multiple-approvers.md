@@ -1,6 +1,6 @@
 ---
 title: Informes de gastos y múltiples aprobadores
-description: En este tema se proporciona información sobre los informes de gastos que requieren la aprobación de más de una persona.
+description: En este artículo se proporciona información sobre los informes de gastos que requieren la aprobación de más de una persona.
 author: suvaidya
 ms.date: 09/23/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 42721fdde6b8b076e1697754ccb2b648e9b74957
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88f42535e4826d1f618bd542eec3b26a6fde1a97
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597451"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914479"
 ---
 # <a name="expense-reports-and-multiple-approvers"></a>Informes de gastos y múltiples aprobadores
 

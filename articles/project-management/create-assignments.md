@@ -1,24 +1,24 @@
 ---
 title: Crear asignaciones de recursos
-description: Este tema proporciona información sobre cómo crear asignaciones de recursos genéricos y con nombre.
+description: Este artículo proporciona información sobre cómo crear asignaciones de recursos genéricas y con nombre.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2b918392fbcde1071aa52ffa7834938be1acd383
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576567"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933513"
 ---
 # <a name="create-resource-assignments"></a>Crear asignaciones de recursos
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
 
-Una asignación de recurso es la asociación directa de un miembro del equipo del proyecto a una tarea de nodo hoja. En este tema se proporciona información sobre las diferentes formas de asignar recursos.
+Una asignación de recurso es la asociación directa de un miembro del equipo del proyecto a una tarea de nodo hoja. En este artículo se proporciona información sobre las distintas formas de asignar recursos.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Crear un miembro del equipo genérico con la asignación de tareas
 

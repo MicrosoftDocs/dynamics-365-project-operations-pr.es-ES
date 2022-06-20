@@ -1,26 +1,26 @@
 ---
 title: Usar un recurso reservable como dimensión de precios
-description: En este tema se proporciona información sobre cómo usar un recurso que se puede reservar como dimensión de precios.
+description: En este artículo se proporciona información sobre cómo usar un recurso que se puede reservar como dimensión de precios.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dcd01d80236f0218bc6fa3a1fe1389f8314f3c9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c467c45885bbd8931eccc75862f537c0f46433ef
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598648"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914837"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Usar un recurso reservable como dimensión de precios
 
  _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_ 
 
-En este tema se proporciona información sobre cómo usar un recurso que se puede reservar como dimensión de precios. Si su estrategia de precios está configurada de manera que cada recurso reservable debe tener un precio o tasa de coste específicos, utilice un recurso reservable como dimensión de precios.
+En este artículo se proporciona información sobre cómo usar un recurso que se puede reservar como dimensión de precios. Si su estrategia de precios está configurada de manera que cada recurso reservable debe tener un precio o tasa de coste específicos, utilice un recurso reservable como dimensión de precios.
 
 ## <a name="prerequisites"></a>Requisitos previos
-Antes de completar los procedimientos de este tema, debe tener una nueva solución de dimensión de precios para su organización. Si aún no ha creado uno, consulte [Crear entidades y campos personalizados](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+Antes de completar los procedimientos de este artículo, debe tener una nueva solución de dimensión de precios para su organización. Si aún no ha creado uno, consulte [Crear entidades y campos personalizados](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Agregar el campo Recurso que se puede reservar a formularios y vistas
 Para que el campo **Recurso que se puede reservar** sea visible en la solución de dimensión de precios, debe agregar el campo a todos los formularios y vistas como una entidad.

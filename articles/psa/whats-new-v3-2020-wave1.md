@@ -1,6 +1,6 @@
 ---
 title: Novedades o cambios del primer lanzamiento de 2020 de la versión 3.x de Project Service Automation
-description: Este tema proporciona información sobre las novedades y los cambios en el primer lanzamiento de Project Service Automation versión 3, 2020.
+description: En este artículo se proporciona información sobre las novedades y los cambios en la versión 3, primer lanzamiento de versiones de 2020, de Project Service Automation.
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 073b70b4ae02d943eb0794b51e888815ee16f438
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c762f2e7931046d32464cfa8486ef8405aa7d836
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577901"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928637"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Novedades o cambios del primer lanzamiento de 2020 de la versión 3 de Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-El tema resalta las consideraciones de actualización clave al pasar a la última versión del primer lanzamiento de Project Service Automation (PSA) versión 3.x, 2020.
+El artículo destaca las consideraciones clave de actualización al pasar a la última versión de Project Service Automation (PSA) versión 3.x, primer lanzamiento de versiones de 2020.
 
 ## <a name="time-entry"></a>Entrada de tiempo
 La experiencia de entrada de tiempo se ha ampliado para ofrecer capacidades para ampliar la entrada de tiempo en más escenarios de clientes. Esto incluye la capacidad de agregar tipos de entrada, que ahora impulsan un comportamiento específico basado en el nombre del esquema de campo **Configuración de entrada de tiempo**, que se muestra como **Origen de la hora**. Se ha agregado una nueva solución, llamada Tiempo, Gasto, Estado y Aprobaciones (TESA) para admitir esta funcionalidad.

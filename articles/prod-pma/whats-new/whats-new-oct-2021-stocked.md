@@ -1,24 +1,24 @@
 ---
 title: Novedades o cambios de octubre de 2021 en Project Operations para escenarios basados en existencias/producción
-description: Este tema proporciona información sobre las actualizaciones de calidad disponibles en la versión de octubre de 2021 de la implementación de Project Operations para escenarios basados en existencias/producción.
+description: Este artículo proporciona información sobre las actualizaciones de calidad disponibles en la versión de octubre de 2021 de la implementación de Project Operations para escenarios basados en existencias/producción.
 author: andchoi
 ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 03491ccab855e48819fccf4c9d2b584fd87cb4ba
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ba88268e74269c774b41396a8b6574e5bab477b9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576061"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933697"
 ---
 # <a name="whats-new-or-changed-in-project-operations-october-2021-for-stockedproduction-based-scenarios"></a>Novedades o cambios de octubre de 2021 en Project Operations para escenarios basados en existencias/producción
 
 _**Se aplica a:** Project Operations para escenarios basados en existencias/producción_
 
-Este tema se aplica a los siguientes componentes y versiones de Microsoft Dynamics 365 Project Operations:
+Este artículo se aplica a los siguientes componentes y versiones de Microsoft Dynamics 365 Project Operations:
 
 - Gestión de proyectos y contabilidad en un entorno de Dynamics 365 Finance, versión 10.0.22
  

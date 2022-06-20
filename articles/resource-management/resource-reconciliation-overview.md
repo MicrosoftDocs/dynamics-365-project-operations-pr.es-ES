@@ -1,6 +1,6 @@
 ---
 title: Información general de conciliación de recursos
-description: Este tema proporciona información que le ayudará a asegurarse de que las reservas de recursos y las asignaciones para proyectos estén coordinadas.
+description: Este artículo proporciona información que lo ayudará a garantizar que las reservas de recursos y las asignaciones para los proyectos estén alineadas.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 0574a0402bc6b34ab82bbc223aeb3a0ffcc9df9c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: eaad9187f08be810d730f5a8ca6411ecee85bbc4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580063"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926337"
 ---
 # <a name="resource-reconciliation-overview"></a>Información general de conciliación de recursos
 

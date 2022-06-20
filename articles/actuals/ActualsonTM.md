@@ -1,6 +1,6 @@
 ---
 title: Impacto de los valores reales en un compromiso de tiempo y materiales
-description: Este tema proporciona información sobre el impacto en la tabla Valores reales en varios eventos durante el ciclo de vida de un compromiso de tiempo y materiales en Microsoft Dynamics 365 Project Operations.
+description: Este artículo proporciona información sobre el impacto en la tabla Valores reales en varios eventos durante el ciclo de vida de un compromiso de tiempo y materiales en Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a4ea3f9cf74d8a67447571001b75065b8cde5c00
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 039700e61796bf77c7661e5269b6923101139a1e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580845"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923347"
 ---
 # <a name="actuals-impact-in-a-time-and-materials-engagement"></a>Impacto de los valores reales en un compromiso de tiempo y materiales
 

@@ -1,21 +1,21 @@
 ---
 title: Registrarse para una suscripción de versión preliminar (lite)
-description: 'Este tema proporciona información sobre cómo suscribirse y realizar la implementación simplificada de Project Operations: de oferta a facturación proforma.'
+description: 'Este artículo proporciona información sobre cómo suscribirse e implementar Project Operations de forma simplificada: del acuerdo a la facturación proforma.'
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588021"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921277"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Registrarse para una suscripción de versión preliminar (lite) 
 
-Este tema explica cómo suscribirse a la oferta de prueba e implementar la implementación simplificada de Dynamics 365 Project Operations: del acuerdo a la facturación proforma.
+Este artículo explica cómo suscribirse a la oferta de prueba e implementar Dynamics 365 Project Operations de forma simplificada: del acuerdo a la facturación proforma.
 
 > [!NOTE]
 > Este proceso cambiará en las próximas versiones de Project Operations.
@@ -50,7 +50,7 @@ Antes de comenzar, asegúrese de haber iniciado sesión en un navegador con la c
 
 ## <a name="create-a-new-dataverse-environment"></a>Crear un nuevo entorno de Dataverse
 
-1. Aprovisione un nuevo entorno de implementación de Dataverse de Project Operations siguiendo las instrucciones del tema [Modelo de implementación Dataverse](lite-deployment.md). Cuando seleccione el tipo de entorno, asegúrese de utilizar **Prueba (basada en suscripción)**.
+1. Aprovisionar un nuevo entorno de implementación de Project Operations Dataverse siguiendo las instrucciones del artículo [Modelo de despliegue de Dataverse](lite-deployment.md). Cuando seleccione el tipo de entorno, asegúrese de utilizar **Prueba (basada en suscripción)**.
 
   ![Nuevo entorno.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Antes de comenzar, asegúrese de haber iniciado sesión en un navegador con la c
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Instalar una configuración CDS y datos de demostración de configuración
 
-Instale la configuración CDS y configure los datos de demostración siguiendo las instrucciones del tema [Aplicar datos de configuración y configuración de demostración](lite-apply-demo-setup-config-data.md).
+Instale la configuración de CDS y configure los datos de demostración siguiendo las instrucciones del artículo [Aplicar configuración de demostración y datos de configuración](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

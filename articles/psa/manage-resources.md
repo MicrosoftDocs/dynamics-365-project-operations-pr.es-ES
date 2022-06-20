@@ -1,6 +1,6 @@
 ---
 title: Administrar recursos
-description: En este tema se proporciona información sobre cómo puede administrar los recursos.
+description: En este artículo se proporciona información sobre cómo puede administrar los recursos.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 5788a457c888bd2ab945fa52df82157a7c17d56b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5709f7f179b14606690549c77ede7ba03b77e1b1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589861"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920449"
 ---
 # <a name="manage-resources"></a>Administrar recursos
 

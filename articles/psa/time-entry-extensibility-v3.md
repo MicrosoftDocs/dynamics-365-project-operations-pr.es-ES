@@ -1,6 +1,6 @@
 ---
-title: Personalización de entrada de tiempo semanal
-description: En este tema se proporciona información sobre cómo implementar reglas de negocio personalizadas que respalden las prácticas de una organización.
+title: Personalizar la entrada de tiempo semanal
+description: En este artículo se proporciona información sobre cómo implementar reglas de negocio personalizadas que respalden las prácticas de una organización.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581075"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918977"
 ---
 # <a name="customize-weekly-time-entry"></a>Personalizar la entrada de tiempo semanal 
 
@@ -46,9 +46,9 @@ La sección **Dimensiones** muestra, como encabezados de columna, todas las dime
 - Escriba
 - Estado de entrada
 
-La sección **Dimensiones** no permite la edición directa. Esta sección está respaldada por una vista que permite agregar campos personalizados a la cuadrícula de entrada de tiempo semanal. Para obtener información sobre cómo agregar campos personalizados, consulte la sección "Extensibilidad" más adelante en este tema.
+La sección **Dimensiones** no permite la edición directa. Esta sección está respaldada por una vista que permite agregar campos personalizados a la cuadrícula de entrada de tiempo semanal. Para obtener información sobre cómo agregar campos personalizados, consulte la sección "Extensibilidad" más adelante en este artículo.
 
-### <a name="duration"></a>Duración
+### <a name="duration"></a>Duration
 La sección Duración muestra los días de la semana como encabezados de columna. Esta sección permite la edición directa. Después de crear una fila de entrada de tiempo que tenga dimensiones apropiadas, los usuarios pueden introducir rápidamente, de forma directa, la cantidad de tiempo que pasaron en esas dimensiones.
 
 ## <a name="create-a-new-time-entry"></a>Creación de una nueva entrada de tiempo

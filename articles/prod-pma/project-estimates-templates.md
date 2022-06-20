@@ -1,6 +1,6 @@
 ---
 title: Sincronizar las estimaciones de proyectos directamente desde Project Service Automation a Finanzas y operaciones
-description: En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar cálculos de horas de proyectos y cálculos de gastos de proyectos directamente desde Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Finance.
+description: En este artículo se describen las plantillas y las tareas subyacentes que se usan para sincronizar cálculos de horas de proyectos y cálculos de gastos de proyectos directamente desde Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: fb39a377a51b09f04564b4fe8527e34f0ea12682
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684617"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920863"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizar las estimaciones de proyectos directamente desde Project Service Automation a Finanzas y operaciones
 
 [!include[banner](../includes/banner.md)]
 
-En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar cálculos de horas de proyectos y cálculos de gastos de proyectos directamente desde Dynamics 365 Project Service Automation a Dynamics 365 Finance.
+En este artículo se describen las plantillas y las tareas subyacentes que se usan para sincronizar cálculos de horas de proyectos y cálculos de gastos de proyectos directamente desde Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 
 > [!NOTE]
 > - La integración de tareas del proyecto, las categorías de transacciones de gastos, las estimaciones de horas, las estimaciones de gastos y el bloqueo de funciones están disponibles en la versión 8.0.

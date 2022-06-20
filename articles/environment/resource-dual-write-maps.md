@@ -1,17 +1,17 @@
 ---
 title: Versiones de asignaciones de doble escritura para Project Operations
-description: Este tema proporciona la lista de asignaciones de doble escritura necesarios para Dynamics 365 Project Operations.
+description: Este artículo proporciona la lista de mapas de escritura dual necesarios para Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612785"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959511"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versiones de asignaciones de doble escritura para Project Operations
 
@@ -54,7 +54,7 @@ Las siguientes asignaciones se requieren para una solución de Project Operation
 | Entidad de integración Project Operations para estimaciones horarias (msdyn_resourceassignments) | 1.0.0.5 | No es necesario para aprovisionamiento. ||
 | Entidad de exportación de categorías de gastos de proyecto de integración de Project Operations (msdyn_expensecategories) | 1.0.0.1 | No es necesario para aprovisionamiento. ||
 | Entidad de exportación de gastos de proyecto de integración de Project Operations (msdyn_expenses) | 1.0.0.3 | No es necesario para aprovisionamiento. ||
-| Entidad de exportación de facturas de proveedores de proyectos de integración de Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | No es necesario para aprovisionamiento. ||
+| Entidad de exportación de facturas de proveedores de proyectos de integración de Project Operations (msdyn_projectvendorinvoices) | 1.0.0.1 | No es necesario para aprovisionamiento. |10.0.26 o posterior|
 | Entidad de exportación de línea de facturas de proveedores de proyectos de integración de Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.4 | No es necesario para aprovisionamiento. | 10.0.26 o posterior |
 | Roles de recursos del proyecto para todas las empresas (bookableresourcecategories) | 1.0.0.1 | Requiere una sincronización inicial para la asignación de tablas para sincronizar los roles de recursos de Jefe de proyecto y Miembro del equipo que se rellenan en el entorno de Dynamics 365 Dataverse durante el aprovisionamiento. Dataverse es el origen principal de la sincronización inicial. ||
 | Tareas del proyecto (msdyn_projecttasks) | 1.0.0.4 | No es necesario para aprovisionamiento. ||

@@ -1,6 +1,6 @@
 ---
 title: Configurar campos personalizados como dimensiones de precios
-description: En este tema se proporciona información sobre cómo configurar dimensiones de precios personalizadas.
+description: En este artículo se proporciona información sobre cómo configurar dimensiones de precios personalizadas.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14d27b53b42744d47e298bf5a926c1262dbf44d4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591931"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922618"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Configurar campos personalizados como dimensiones de precios 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Antes de comenzar, este tema supone que ha completado los procedimientos en los temas: [Creación de campos y entidades](create-custom-fields-entities.md) y [Adición de campos personalizados a la configuración de precios y entidades transaccionales](field-references.md). Si no ha completado esos procedimientos, vuelva y complételos y, a continuación, regrese a este tema. 
+Antes de comenzar, este artículo supone que ha completado los procedimientos en los artículos: [Creación de campos y entidades](create-custom-fields-entities.md) y [Adición de campos personalizados a la configuración de precios y entidades transaccionales](field-references.md). Si no ha completado esos procedimientos, vuelva y complételos y, a continuación, regrese a este artículo. 
 
-En este tema se proporciona información sobre cómo configurar dimensiones de precios personalizadas. En la interfaz web de Project Service, en la página **Parámetros**, la pestaña **Dimensiones de precios basadas en el importe** muestra los registros en las entidades de dimensión de precios. De forma predeterminada, la instalación de Project Service crea 2 filas en la cuadrícula en esta pestaña:
+En este artículo se proporciona información sobre cómo configurar dimensiones de precios personalizadas. En la interfaz web de Project Service, en la página **Parámetros**, la pestaña **Dimensiones de precios basadas en el importe** muestra los registros en las entidades de dimensión de precios. De forma predeterminada, la instalación de Project Service crea 2 filas en la cuadrícula en esta pestaña:
 
 - **msdyn_resourcecategory** (Rol)
 - **msdyn_OrganizationalUnit** (Unidad organizativa)

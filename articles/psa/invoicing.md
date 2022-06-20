@@ -1,6 +1,6 @@
 ---
 title: Facturación en Project Service Automation
-description: En este tema se proporciona información sobre la facturación.
+description: En este artículo se proporciona información sobre facturación.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579327"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926843"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Facturación en Project Service Automation
 
@@ -94,7 +94,7 @@ Cuando **ProcessRunner** termina de ejecutarse, llama a **ProcessRunCaller**, pr
 El trabajo de proceso por lotes de creación de facturas es periódico. Si este proceso por lotes se ejecuta muchas veces, se crean numerosas instancias del trabajo y se producen errores. Por lo tanto, debe iniciar el proceso por lotes solo una vez y debe reiniciarlo solo si se detiene su ejecución.
 
 > [!NOTE]
-> La facturación por lotes en Project Service Automation solo se ejecuta para las líneas de contrato del proyecto que están configuradas por programaciones de facturas. Una línea de contrato con un método de facturación de precio fijo debe tener hitos configurados. Una línea de contrato de proyecto con un método de facturación de tiempo y material necesitará una programación de facturación basada en fecha. La información sobre la configuración de frecuencias de facturación en el contexto de un proyecto que se basa en una línea de cotización se proporciona en el tema [Cotizaciones y líneas de cotización](basic-quote-lines.md#invoice-schedule). Lo mismo se aplica a una línea de contrato basada en proyectos.      
+> La facturación por lotes en Project Service Automation solo se ejecuta para las líneas de contrato del proyecto que están configuradas por programaciones de facturas. Una línea de contrato con un método de facturación de precio fijo debe tener hitos configurados. Una línea de contrato de proyecto con un método de facturación de tiempo y material necesitará una programación de facturación basada en fecha. Se proporciona información sobre la configuración de frecuencias de facturación en el contexto de un proyecto que se basa en una partida de presupuesto en el artículo [Citas y líneas de cotización](basic-quote-lines.md#invoice-schedule). Lo mismo se aplica a una línea de contrato basada en proyectos.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Editar un borrador de factura de PSA
 

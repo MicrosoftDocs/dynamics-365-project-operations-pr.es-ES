@@ -1,6 +1,6 @@
 ---
 title: Aplicación móvil de gastos
-description: En este tema se proporciona información sobre el área de trabajo móvil Administración de gastos.
+description: Este artículo proporciona información acerca del espacio de trabajo móvil de gestión de gastos.
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ba7ccae04fbb02252e3ceb01f123ce1e85375b7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588941"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930247"
 ---
 # <a name="mobile-expense-app"></a>Aplicación móvil de gastos
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-En este tema se proporciona información sobre el área de trabajo móvil **Administración de gastos**. Este área de trabajo permite a los usuarios capturar y cargar un recibo para luego adjuntarlo a un informe de gastos. Los usuarios también pueden crear rápidamente una línea de gastos mediante un recibo adjunto y crear y administrar sus informes de gastos. Además, los aprobadores pueden utilizar el área de trabajo móvil **Administración de gastos** para ver los informes de gastos que se les asignan y aprobar o rechazar esos informes de gastos.
+Este artículo proporciona información acerca del espacio de trabajo móvil de **gestión de gastos**. Este área de trabajo permite a los usuarios capturar y cargar un recibo para luego adjuntarlo a un informe de gastos. Los usuarios también pueden crear rápidamente una línea de gastos mediante un recibo adjunto y crear y administrar sus informes de gastos. Además, los aprobadores pueden utilizar el área de trabajo móvil **Administración de gastos** para ver los informes de gastos que se les asignan y aprobar o rechazar esos informes de gastos.
 
 Este espacio de trabajo móvil está diseñado para utilizarse con la aplicación móvil de operaciones unificadas de Dynamics 365.
 

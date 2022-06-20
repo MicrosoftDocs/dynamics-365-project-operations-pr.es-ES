@@ -1,23 +1,23 @@
 ---
 title: Requisitos de artículos para contratos de proyectos con múltiples fuentes de financiación
-description: Este tema brinda información sobre cómo configurar y usar los requisitos de artículos con múltiples fuentes de financiación.
+description: Este artículo brinda información sobre cómo configurar y usar los requisitos de artículos con múltiples fuentes de financiación.
 author: sigitac
 ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d4af03e02d3c2eb0d442e6213ff5b9cf583d54b3
-ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
+ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8728119"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931213"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Requisitos de artículos para contratos de proyectos con múltiples fuentes de financiación
 
 _**Se aplica a:** Project Operations para escenarios basados en existencias/producción_
 
-Algunos acuerdos contractuales para entregables basados en proyectos pueden requerir múltiples fuentes de financiación. Este tema explica cómo seleccionar y configurar las fuentes de financiación deseadas cuando se requieren múltiples fuentes para un proyecto o contrato de proyecto.
+Algunos acuerdos contractuales para entregables basados en proyectos pueden requerir múltiples fuentes de financiación. Este artículo explica cómo seleccionar y configurar las fuentes de financiación deseadas cuando se requieren múltiples fuentes para un proyecto o contrato de proyecto.
 
 ## <a name="terminology"></a>Terminología
 

@@ -1,6 +1,6 @@
 ---
 title: Uso de un campo existente en Project Service como dimensión de precios
-description: En este tema se proporciona información sobre el uso de campos existentes de Project Service como dimensiones de precios.
+description: En este artículo se proporciona información sobre el uso de campos existentes de Project Service como dimensiones de precios.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3d8251b4516b4598c9c92779c59b9609d8113ac9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: abc3a3a2b61ea6f8dd34d82bf91546f8f7552a61
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580155"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925233"
 ---
 # <a name="use-an-existing-field-in-project-service-as-a-pricing-dimension"></a>Uso de un campo existente en Project Service como dimensión de precios
 

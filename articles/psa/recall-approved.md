@@ -1,6 +1,6 @@
 ---
 title: Recuperación de las entradas de tiempo o gastos aprobados
-description: En este tema se proporciona información sobre cómo recuperar una transacción de tiempo o gasto aprobada previamente.
+description: En este artículo se proporciona información sobre cómo recuperar una transacción de tiempo o gasto aprobada previamente.
 author: rumant
 ms.custom: ''
 ms.author: rumant
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 457aebb00851a1db3e4aa1068f6a825759b8f2e3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e106ee8734a7c4986693aa06ce6a3b7349a27ac4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578821"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910747"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Recuperación de las entradas de tiempo o gastos aprobados
 

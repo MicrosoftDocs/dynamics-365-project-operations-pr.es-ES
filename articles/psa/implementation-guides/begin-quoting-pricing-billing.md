@@ -1,6 +1,6 @@
 ---
 title: Guía básica sobre los procesos de oferta, precios y facturación en Project Service Automation
-description: En este tema se proporcionan vínculos a información sobre principios básicos de los procesos de oferta, precios y facturación en Project Service Automation.
+description: En este artículo se proporcionan vínculos a información sobre principios básicos de los procesos de oferta, precios y facturación en Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 119fa9941a1f06108950e1ea1c08f84988530373
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19b149e3cf9ee9c14af591968bc2afeb56a0abd4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592253"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910835"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Guía básica sobre los procesos de oferta, precios y facturación
 
@@ -32,7 +32,7 @@ ms.locfileid: "8592253"
 
 La capacidad para buscar los recursos adecuados en el momento oportuno, de reservar dichos recursos en proyectos y de mantener los recursos en uso ayuda a las organizaciones a cumplir los objetivos de ingresos y de satisfacción del cliente. 
 
-El vínculo al archivo PDF que se proporcionaba antes en este tema se ha quitado y se ha movido el contenido a los temas siguientes:
+El vínculo al archivo PDF que se proporcionaba antes en este artículo se ha quitado y se ha movido el contenido a los artículos siguientes:
 
 - [Ofertas, precios y facturación](../quote-bill-price.md)
 - [Procesos de venta](../basic-sales-process.md)
@@ -50,7 +50,7 @@ El vínculo al archivo PDF que se proporcionaba antes en este tema se ha quitado
 - [Registro de datos reales](../advanced-actuals.md)
 
 > [!NOTE]
-> Este tema se quitará en una próxima actualización de la documentación. 
+> Este artículo se quitará en una próxima actualización de la documentación. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

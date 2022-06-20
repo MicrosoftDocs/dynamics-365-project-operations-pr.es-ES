@@ -1,6 +1,6 @@
 ---
 title: Novedades o cambios en la versión de actualización 26, V3, de Project Service Automation
-description: En este tema se muestran las características y correcciones que están disponibles en la versión de actualización 26, V3, de Project Service Automation.
+description: En este artículo se enumeran las funciones y correcciones disponibles en Project Service Automation Update Release 26, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/12/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cebfcd6425f11b74ce6331a093d8d3db3da356a0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 11f722c1f31c0e8aa08192cc955aabbe97018225
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577303"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928821"
 ---
 # <a name="project-service-automation-update-release-26-v3"></a>Versión de actualización de Project Service Automation 26, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8577303"
 
 Nos complace anunciar la última actualización de la aplicación Project Service Automation para Dynamics 365. Esta versión incluye algunas mejoras importantes en la calidad, el rendimiento y la facilidad de uso. Esta versión es compatible con Dynamics 365 9.x. Para actualizar a esta versión, visite la página de soluciones en línea del Centro de administración para Dynamics 365 para instalar la actualización. Para obtener más información, consulta [Instalar, actualizar o quitar una solución preferida](/power-platform/admin/install-remove-preferred-solution).
 
-En este tema se muestran las características y correcciones que son nuevas o que han cambiado para Project Service Automation, versión de actualización 26, V3. Esta versión tiene un número de compilación de V3.10.44.59 y es de lanzamiento público mediante una actualización automática desde diciembre de 2020.
+En este artículo se enumeran las funciones y correcciones que son nuevas o modificadas para Project Service Automation Update Release 26, V3. Esta versión tiene un número de compilación de V3.10.44.59 y es de lanzamiento público mediante una actualización automática desde diciembre de 2020.
 
 ## <a name="update-release-26"></a>Versión de actualización 26
 

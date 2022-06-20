@@ -1,6 +1,6 @@
 ---
 title: Página principal de dimensiones de precios y costes
-description: En este tema se proporciona una descripción general de las dimensiones de precios.
+description: En este artículo se proporciona una descripción general de las dimensiones de precios.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593633"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925463"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Página principal de dimensiones de precios y costes
 
@@ -47,7 +47,7 @@ PSA se envía con un conjunto predeterminado de dimensiones de precios. Puede ve
 > [!IMPORTANT]
 > Si ha estado utilizando campos listos para usar de rol y unidad organizativa como dimensiones de precios antes de la versión 3 de PSA, no habrá ningún cambio observable. Puede continuar utilizando Project Service como de costumbre. 
 
-Si necesita fijar el precio o el coste de sus recursos mediante atributos adicionales, puede crear campos, entidades y dimensiones personalizados. Para obtener más información, consulte los siguientes temas. Sin embargo, tenga en cuenta que debe completar los procedimientos en el orden que se detalla a continuación:
+Si necesita fijar el precio o el coste de sus recursos mediante atributos adicionales, puede crear campos, entidades y dimensiones personalizados. Para obtener más información, consulte los siguientes artículos. Sin embargo, tenga en cuenta que debe completar los procedimientos en el orden que se detalla a continuación:
 
 - [Creación de campos y entidades](create-custom-fields-entities.md)
 - [Adición de campos personalizados a la configuración de precios y entidades transaccionales](field-references.md)

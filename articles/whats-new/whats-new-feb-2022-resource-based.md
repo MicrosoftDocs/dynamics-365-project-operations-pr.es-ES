@@ -1,24 +1,24 @@
 ---
 title: 'Novedades de febrero de 2022: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
-description: Este tema proporciona información sobre las actualizaciones de calidad disponibles en la versión de febrero de 2022 de la implementación de Project Operations para escenarios basados en recursos/no mantenidos en existencias.
+description: Este artículo proporciona información sobre las actualizaciones de calidad disponibles en la versión de febrero de 2022 de la implementación de Project Operations para escenarios basados en recursos/no mantenidos en existencias.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 76ae00517c857415c89d7a03f421686dad28da93
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b036c0a3c39c52cb15277293679ef88906cae2c4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600855"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933007"
 ---
 # <a name="whats-new-february-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novedades de febrero de 2022: Project Operations para escenarios basados en recursos/no mantenidos en existencias
 
 *Se aplica a: Project Operations para escenarios basados en recursos/no mantenidos en existencias*
 
-Este tema se aplica a los siguientes componentes y versiones de Microsoft Dynamics 365 Project Operations:
+Este artículo se aplica a los siguientes componentes y versiones de Microsoft Dynamics 365 Project Operations:
 
 - Project Operations en una versión del entorno de Dataverse 4.28.0.120
 - Gestión de proyectos y contabilidad en un entorno de Dynamics 365 Finance, versión 10.0.24
@@ -76,11 +76,11 @@ Si tiene algún problema al iniciar la asignación, siga las instrucciones de la
 
 ## <a name="removed-and-deprecated-features"></a>Características quitadas y en desuso
 
-El tema [Funciones quitadas o en desuso en Project Operations](removed-depreciated-features-project.md) describe funciones que se eliminaron o dejaron en desuso para Dynamics 365 Project Operations.
+El artículo [Funciones quitadas o en desuso en Project Operations](removed-depreciated-features-project.md) describe funciones que se eliminaron o dejaron en desuso para Dynamics 365 Project Operations.
 
 - Una característica quitada ya no está disponible en el producto.
 - Una función en desuso no está en desarrollo activo y se podría quitar en una actualización futura.
 
-Antes de eliminar una característica del producto, aparecerá un aviso de desuso en el tema [Características quitadas o en desuso en Project Operations](removed-depreciated-features-project.md), 12 meses antes de su eliminación.
+Antes de eliminar una característica del producto, aparecerá un aviso de desuso en el artículo [Características quitadas o en desuso en Project Operations](removed-depreciated-features-project.md), 12 meses antes de su eliminación.
 
 Para los cambios importantes que solo afectan al tiempo de compilación y tienen códigos binarios compatibles con entornos de espacio aislado y de producción, el tiempo de puesta en desuso será inferior a 12 meses. Por lo general, estos cambios son actualizaciones funcionales que deben hacerse en el compilador.

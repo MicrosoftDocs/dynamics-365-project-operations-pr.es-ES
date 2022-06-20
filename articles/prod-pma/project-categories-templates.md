@@ -1,6 +1,6 @@
 ---
 title: Sincronizar las categorías de gastos de proyectos entre Finanzas y operaciones y Project Service Automation
-description: En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar categorías de gastos de proyectos entre Microsoft Dynamics 365 Finance y Dynamics 365 Project Service Automation.
+description: En este artículo se describen las plantillas y las tareas subyacentes que se usan para sincronizar categorías de gastos de proyectos entre Microsoft Dynamics 365 Finance y Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 630c4fa7a159aa46b46984736080cd007d519a6c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685491"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927257"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sincronizar las categorías de gastos de proyectos entre Finanzas y operaciones y Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar categorías de gastos de proyectos entre Dynamics 365 Finance y Dynamics 365 Project Service Automation.
+En este artículo se describen las plantillas y las tareas subyacentes que se usan para sincronizar categorías de gastos de proyectos entre Dynamics 365 Finance y Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - La integración de tareas del proyecto, las categorías de transacciones de gastos, las estimaciones de horas, las estimaciones de gastos y el bloqueo de funciones están disponibles en la versión 8.0.

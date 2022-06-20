@@ -1,17 +1,17 @@
 ---
-title: Facturar a un autor de retención o anticipo
-description: En este tema se proporciona información sobre cómo facturar a un autor de la retención o anticipo en Project Operations.
+title: Facturar un anticipo o pago a cuenta
+description: Este artículo proporciona información sobre cómo facturar un retenedor o un pago anticipado en Project Operations.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: aa659ebfa6d848f312caa1d197404d77b1f6ee21
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 044186d5c7759866dec3883103acec19cb571c11
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590597"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914515"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Facturar un anticipo o pago a cuenta
 

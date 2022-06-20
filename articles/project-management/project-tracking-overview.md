@@ -1,23 +1,23 @@
 ---
 title: Seguimiento del esfuerzo del proyecto
-description: En este tema se proporciona información sobre cómo realizar un seguimiento de esfuerzo en el progreso y el progreso del trabajo.
+description: En este artículo se proporciona información sobre cómo realizar un seguimiento del esfuerzo y progreso del trabajo.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c41dbc138f6fc92a9586de173ba5dfc89c7e44e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593817"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929281"
 ---
 # <a name="project-effort-tracking"></a>Seguimiento del esfuerzo del proyecto
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-La necesidad de realizar un seguimiento del progreso de acuerdo con una programación varía según el sector. Algunos sectores realizan un seguimiento de nivel granular, mientras que otros realizan uno de nivel superior. Este tema muestra cómo realizar una programación para cumplir con los requisitos de su organización.
+La necesidad de realizar un seguimiento del progreso de acuerdo con una programación varía según el sector. Algunos sectores realizan un seguimiento de nivel granular, mientras que otros realizan uno de nivel superior. Este artículo muestra cómo realizar una programación para cumplir con los requisitos de su organización.
 
 ## <a name="effort-tracking-view"></a>Vista de seguimiento del esfuerzo
 

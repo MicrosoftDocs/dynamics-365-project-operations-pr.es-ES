@@ -1,24 +1,24 @@
 ---
 title: 'Novedades del acceso anticipado del segundo lanzamiento de 2021: implementación simplificada de Project Operations'
-description: Este tema proporciona información sobre las características disponibles en la versión de acceso anticipado del segundo lanzamiento de 2021 de implementación simplificada de Project Operations.
+description: Este artículo proporciona información sobre las características disponibles en la versión del segundo lanzamiento de 2021 de acceso previo de la implementación de Project Operations Lite.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: d245868c8bd9ff332707a81c074d6c7ae3649378
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723697"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924129"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Novedades del acceso anticipado del segundo lanzamiento de 2021: implementación simplificada de Project Operations
 
 _Se aplica a: Implementación ligera: del acuerdo a la facturación proforma_
 
-Este tema se aplica a los siguientes componentes y versiones de Dynamics 365 Project Operations:
+Este artículo se aplica a los siguientes componentes y versiones de Dynamics 365 Project Operations:
 
   - Project Operations en el entorno de Dataverse versión 4.23.0.4
 

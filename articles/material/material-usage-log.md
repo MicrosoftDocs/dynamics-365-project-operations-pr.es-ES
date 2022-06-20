@@ -1,17 +1,17 @@
 ---
 title: Registrar uso de materiales en proyectos y tareas de proyectos
-description: Este tema proporciona información sobre cómo registrar el uso de material en proyectos y tareas de proyectos.
+description: Este artículo proporciona información sobre cómo registrar uso de material frente a proyectos y tareas de proyecto.
 author: rumant
 ms.date: 03/31/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 60aed9aa82eeb0339e71b0171719e765a63d91e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: eeb8303821bc4c246e37333ddbcb77ca798d2e8f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579695"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920081"
 ---
 # <a name="record-material-usage-on-projects-and-project-tasks"></a>Registrar uso de materiales en proyectos y tareas de proyectos
 

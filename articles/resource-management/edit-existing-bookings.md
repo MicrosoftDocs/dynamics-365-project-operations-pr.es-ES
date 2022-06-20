@@ -1,24 +1,24 @@
 ---
 title: Editar reservas
-description: Este tema proporciona información sobre cómo actualizar y modificar las reservas.
+description: Este artículo proporciona información sobre cómo actualizar y realizar cambios en las reservas.
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 94ff047e868b29eb75acce43b6e6594533a33bf0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4834d42d3b5d285a5c1b386ddd4ede1e09cf0067
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594369"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915251"
 ---
 # <a name="edit-bookings"></a>Editar reservas
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
 
-Cuando se producen cambios en un proyecto que requieren actualizar las reservas existentes, hay varias formas de realizar los cambios. Este tema describe la forma de actualizar y modificar las reservas.
+Cuando se producen cambios en un proyecto que requieren actualizar las reservas existentes, hay varias formas de realizar los cambios. Este artículo describe cómo actualizar y realizar cambios en las reservas.
 
 ## <a name="resource-reconciliation"></a>Conciliación de recursos
 

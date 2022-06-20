@@ -1,6 +1,6 @@
 ---
 title: 'Ofertas: conceptos clave'
-description: En este tema se proporciona información sobre las ofertas de proyecto y las ofertas de ventas disponibles en Project Operations.
+description: Este artículo proporciona información sobre cotizaciones de proyectos y cotizaciones de ventas disponibles en Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579955"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912537"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Conceptos únicos para ofertas basadas en proyectos
 
@@ -35,7 +35,7 @@ En Dynamics 365 Project Operations, hay dos tipos de ofertas, proyecto y ventas.
 - **Campos y conceptos**: Una oferta de ventas no incluye algunos campos y conceptos que se incluyen en una oferta de proyecto. Entre los campos se incluyen **Unidad de contratación**, **Administrador de cuentas** y **Nombre de contacto de facturación**.  
 - **Tipo**: Las ofertas de ventas y de proyecto también se identifican mediante el campo basado en un conjunto de opciones, **Tipo**. Para una oferta de ventas, este campo tiene el valor **Basado en artículo**. Para una oferta de proyecto, tiene el valor **Basado en trabajo**.
 
-Este tema se centra en los detalles de las ofertas de proyecto.
+Este artículo se centra en los detalles de las ofertas de proyecto.
 
 Una oferta del proyecto en Project Operations puede tener varios elementos de línea o varias líneas de oferta. De hecho, una oferta de proyecto tiene dos cuadrículas para elementos de línea. Una cuadrícula es para las líneas basadas en proyecto que permiten las estimaciones detalladas. La otra cuadrícula es para las líneas basadas en productos que utilizan un precio unitario sencillo y un enfoque basado en la cantidad.
 

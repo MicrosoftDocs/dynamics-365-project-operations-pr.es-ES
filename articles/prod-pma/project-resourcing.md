@@ -1,6 +1,6 @@
 ---
 title: Página principal de recursos de proyectos
-description: En este tema se proporciona información sobre los recursos del proyecto.
+description: En este artículo se proporciona información sobre los recursos del proyecto.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 605a6884cb342abf029644dbf8f2d75127df1786
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684893"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924037"
 ---
 # <a name="project-resourcing-home-page"></a>Página principal de recursos de proyectos
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se proporciona información sobre los recursos del proyecto.
+En este artículo se proporciona información sobre los recursos del proyecto.
 
 Un desafío para los jefes de proyectos y los administradores de recursos durante la etapa de planificación del proyecto es la asignación de recursos, donde deben determinar y reservar el recurso correcto para trabajar en un proyecto. En Dynamics 365 Finance, las capacidades de dotación de recursos para proyectos le permiten definir roles que se tratan como recursos temporales que se pueden reservar para un encargo determinado o parte de un encargo. Este tipo de dotación de recursos permite a los directores de proyectos y administradores de recursos completar las siguientes tareas:
 
@@ -41,7 +41,7 @@ Un desafío para los jefes de proyectos y los administradores de recursos durant
 
 A medida que avanza la planificación del proyecto, los recursos planificados se pueden reemplazar por recursos de personal. El jefe de proyectos también puede volver atrás y actualizar las reservas de dotación de recursos durante cualquier etapa del proyecto.
 
-Los siguientes temas proporcionan información sobre las tareas que deben completarse cuando trabaja en proyectos de dotación de recursos.
+Los siguientes artículos proporcionan información sobre las tareas que deben completarse cuando trabaja en proyectos de dotación de recursos.
 
 - [Configurar los recursos del proyecto](set-up-project-resources.md)
 - [Administrar competencias de recursos](manage-resource-competencies.md)
