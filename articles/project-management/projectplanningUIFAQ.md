@@ -2,24 +2,24 @@
 title: Solucionar problemas de trabajo en la cuadrícula de tareas
 description: Este artículo proporciona información acerca de la información necesaria al trabajar en la cuadrícula Tarea.
 author: ruhercul
-ms.date: 04/05/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 208ed55abf4cdf0ad2b035bd923e183ff3cae660
+ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911065"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9188253"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Solucionar problemas de trabajo en la cuadrícula de tareas 
 
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos en existencias, implementación simplificada: de la oferta a la facturación proforma, Project for the Web_
 
-La cuadrícula de tareas aprovechada por Dynamics 365 Project Operations es un iframe hospedado en Microsoft Dataverse. Como resultado de este uso, se deben cumplir requisitos específicos para garantizar que la autenticación y la autorización funcionen correctamente. Este artículo describe los problemas comunes que pueden afectar a la capacidad de representar la cuadrícula o administrar tareas en la estructura de descomposición del trabajo (WBS).
+La cuadrícula de tareas usada por Dynamics 365 Project Operations es un iframe hospedado en Microsoft Dataverse. Como resultado de este uso, se deben cumplir requisitos específicos para garantizar que la autenticación y la autorización funcionen correctamente. Este artículo describe los problemas comunes que pueden afectar a la capacidad de representar la cuadrícula o administrar tareas en la estructura de descomposición del trabajo (WBS).
 
 Problemas comunes:
 
@@ -72,7 +72,10 @@ Project Operations requiere que un parámetro del proyecto haga referencia al ex
 4. Quite el campo de la página **Parámetros del proyecto**.
 
 ### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Mitigación 3: iniciar sesión en project.microsoft.com.
-En el navegador Microsoft Edge, abra una nueva pestaña, vaya a project.microsoft.com e inicie sesión con el rol de usuario que está usando para acceder a Project Operations.
+
+En el navegador , abra una nueva pestaña, vaya a project.microsoft.com e inicie sesión con el rol de usuario que está usando para acceder a Project Operations. Es importante que solo un usuario inicie sesión en un producto de Microsoft en el navegador. El mensaje de error "login.microsoftonline.com se negó a conectarse" ocurre con mayor frecuencia cuando más de un usuario ha iniciado sesión, como se muestra en la siguiente ilustración.
+
+![Elija una página de inicio de sesión de cuenta que muestre que dos usuarios han iniciado sesión.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problema: el proyecto no se carga y la interfaz de usuario está bloqueada en el control giratorio
 

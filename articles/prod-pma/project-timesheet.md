@@ -2,7 +2,7 @@
 title: Aplicación móvil Project Timesheet
 description: Este artículo proporciona información sobre la aplicación móvil Microsoft Dynamics 365 Project Timesheet. La aplicación móvil Project Timesheet permite a los usuarios enviar y aprobar hojas de horas para proyectos en su dispositivo móvil.
 author: abruer
-ms.date: 04/08/2019
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 6f4be64f595371334e4065b60ca1a81232b333f7
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 730ed36841d07df60e8a8f343126209f0edcc593
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923991"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110996"
 ---
 # <a name="project-timesheet-mobile-application"></a>Aplicación móvil Project Timesheet
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="overview"></a>Información general
+## <a name="overview"></a>Introducción
 
-La aplicación móvil Microsoft Dynamics 365 Project Timesheet permite a los usuarios enviar y aprobar hojas de horas para proyectos en su dispositivo móvil (iPhone o Android). esta aplicación móvil aprovecha la funcionalidad de la hoja de horas que reside en el área de Gestión de proyectos y contabilidad de Dynamics 365 Finance, mejorando la productividad y eficiencia del usuario, así como habilitando la entrada y aprobación de hojas de horas de proyecto a tiempo.
+La aplicación móvil Microsoft Dynamics 365 Project Timesheet permite a los usuarios enviar y aprobar hojas de horas para proyectos en su dispositivo móvil (iPhone o Android). Esta aplicación móvil aprovecha la funcionalidad de la hoja de horas que se encuentra en el área de Gestión de proyectos y contabilidad de Dynamics 365 Finance. Ayuda a mejorar la productividad y la eficiencia del usuario, y también permite la entrada y aprobación oportunas de las hojas de horas del proyecto.
 
 ## <a name="download-and-install-the-mobile-app"></a>Descargar e instalar la aplicación móvil
 
@@ -38,6 +38,19 @@ Descargue e instale la aplicación Microsoft Dynamics 365 Project Timesheet para
 
 En Finance, la aplicación móvil Project Timesheet debe estar habilitada. Para habilitar la funcionalidad, vaya a **Parámetros de gestión de proyectos y contabilidad \> Hoja de horas** y seleccione el parámetro **Habilitar Microsoft Dynamics 365 Project Timesheet**.
 
+### <a name="resolve-sign-in-issues"></a>Resolver problemas de inicio de sesión
+
+**Incidencia**: durante el inicio de sesión en la aplicación móvil Project Timesheet, los usuarios reciben un mensaje de error que indica que no pueden acceder a la aplicación '2bc50526-cdc3-4e36-a970-c284c34cbd6e' en ese inquilino".
+
+**Incidencia:** durante el inicio de sesión en la aplicación Project Timesheet Mobile, los usuarios reciben un error similar a uno de los siguientes ejemplos:
+
+- "AADSTS50020: Cuenta de usuario '[nombre de usuario]' del proveedor de identidades 'https://sts.windows.net/[id. de la aplicación]' no existe en el inquilino '[id. del inquilino]' y no puede acceder a la aplicación '[id. de la aplicación]' en ese inquilino".
+- "La cuenta de usuario seleccionada no existe en el inquilino '[id. de inquilino]'' y no puede obtener acceso a la aplicación '[id. de la aplicación]' en ese inquilino."
+
+**Explicación:** estos problemas se deben a un cambio que se realizó en Azure Active Directory (Azure AD) en mayo de 2022 y que está relacionado con usuarios externos. Debido a que este cambio no se realizó en las aplicaciones de finanzas y operaciones, puede afectar a los clientes en cualquier versión de la plataforma o aplicación.
+
+**Corrección:** todos los usuarios externos deben estar invitados al inquilino a través de Azure AD. Para más información, consulte [Invitar a usuarios con la colaboración B2B de Azure Active Directory](/power-platform/admin/invite-users-azure-active-directory-b2b-collaboration).
+
 ## <a name="sign-in-to-the-app"></a>Iniciar sesión en la aplicación
 
 1.  Inicie la aplicación en el dispositivo móvil.
@@ -46,7 +59,7 @@ En Finance, la aplicación móvil Project Timesheet debe estar habilitada. Para 
 
 3.  La primera vez que inicie sesión, se le solicitará su nombre de usuario y contraseña. Especifique sus credenciales.
 
-4.  Se iniciará sesión en su empresa predeterminada.
+4. Se iniciará sesión en su empresa predeterminada.
 
 ## <a name="submit-a-project-timesheet"></a>Enviar una hoja de horas del proyecto
 

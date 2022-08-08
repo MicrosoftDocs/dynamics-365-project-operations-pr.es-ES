@@ -6,12 +6,12 @@ ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930155"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064299"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>Configurar el kilometraje utilizando niveles de tarifas por kilometraje
 
@@ -50,5 +50,15 @@ La característica **Cálculo de kilometraje para varios niveles de kilometraje 
 
 Después de habilitar la característica, restablezca los niveles de kilometraje para reflejar correctamente el valor del campo **Cantidad**. 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Habilitar la característica Cálculo de totales de kilometraje por año fiscal
+
+La característica **Cálculo de totales de kilometraje por año fiscal** habilita una nueva configuración en Parámetros de administración de gastos que realiza cálculos de totales de kilometraje por año fiscal en lugar de por año natural. Lleve a cabo los siguientes pasos para habilitar esta característica.
+
+1. Vaya a **Áreas de trabajo** > **Administración de características**.
+1. En la lista, busque y seleccione **Cálculo de totales de kilometraje por año fiscal** y luego seleccione **Habilitar ahora**.
+1. Vaya a **Gestión de gastos** > **Configuración** > **General** > **Parámetros de gestión de gastos**.
+1. En la página **Parámetros de gestión de gastos**, localice y habilite **Usar año fiscal para totales de kilometraje**.
+
+Después de habilitar **Usar año fiscal para totales de kilometraje**, los totales de kilometraje se calculan por año fiscal.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

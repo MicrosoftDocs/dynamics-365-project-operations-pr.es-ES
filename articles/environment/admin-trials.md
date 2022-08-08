@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959535"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029321"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Registrarse para pruebas de Project Operations 
 
@@ -90,7 +90,7 @@ Antes de comenzar, inicie sesión en un navegador con la cuenta de trabajo del u
 
 ## <a name="configuring-dual-write"></a>Configuración de la escritura dual
 - Para configurar roles de seguridad para escritura dual, consulte [Actualice la configuración de seguridad en Project Operations en Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- Para acceder a la configuración de doble escritura, navegue a la instancia de Finanzas y operaciones, luego navegue a **Gestión de datos** > **Doble escritura**.
+- Para acceder a la configuración de doble escritura, navegue a la instancia de finanzas y operaciones, luego navegue a **Gestión de datos** > **Doble escritura**.
 - Para configurar mapas de escritura dual, consulte [Ejecutar mapas de escritura dual de Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Asignación de licencias

@@ -4,7 +4,7 @@ description: Cómo crear una plantilla de proyecto en Project Service
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 07/19/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 127b6e43a15f19a42791e78b55865ab11ca50c7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8159e0390441e5029f9beb0228cffcbc4d683479
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599015"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177447"
 ---
 # <a name="create-a-project-template-project-service"></a>Crear una plantilla de proyecto (Project Service)
 
@@ -35,12 +35,19 @@ Las plantillas de proyecto ahorran tiempo si su empresa presenta ofertas regular
 ## <a name="components-of-project-template"></a>Componentes de la plantilla de proyecto
  Una plantilla de proyecto consta de tres componentes:  
   
-- **Estructura de descomposición del trabajo**: Una estructura de descomposición del trabajo en una plantilla de proyecto tiene el mismo conjunto de elementos que en el proyecto. Puede crear una jerarquía de tareas, asociar roles a tarea, definir atributos de programación, establecer dependencias y ver todos los datos del diagrama de Gantt. La estructura de descomposición del trabajo en plantillas de proyecto también es compatible con los modos de tarea para cada tarea. No hay diferencia entre una plantilla de proyecto y un proyecto al crear un programa de trabajo.  
+- **Estructura de descomposición del trabajo**: Una estructura de descomposición del trabajo en una plantilla de proyecto tiene el mismo conjunto de elementos que en el proyecto. Puede crear una jerarquía de tareas, asociar roles a tarea, definir atributos de programación, establecer dependencias y ver todos los datos del diagrama de Gantt. La estructura de descomposición del trabajo en plantillas de proyecto también admite modos de tarea para cada tarea. No hay diferencia entre una plantilla de proyecto y un proyecto al crear un programa de trabajo.  
   
 - **Estimaciones de proyecto**: Las estimaciones de proyecto en plantillas funcionan igual que en proyectos, excepto las listas de precios para establecer valores predeterminados de coste y precios de ventas siempre son las listas de precios de coste y precios de ventas predeterminadas definidas en parámetros de [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. El resto de la funcionalidad es igual que en un proyecto.  
   
 - **Formación del equipo de proyecto**: Cuando se forma un equipo de proyecto para una plantilla de proyectos, no puede reservar un recurso con nombre en una plantilla. Puede usar **Generar equipo de proyecto** en la estructura de descomposición del trabajo para generar un conjunto de recursos genéricos. También puede especificar conocimientos y habilidades necesarios para recursos genéricos. No puede sustituir un recurso genérico con un recurso reservable en plantillas de proyecto.  
-  
+
+## <a name="create-a-project-template-from-an-existing-project"></a>Creación de una plantilla de proyecto a partir de un proyecto existente
+Puede crear una plantilla de proyecto a partir de un proyecto de las siguientes formas:
+
+- **Estructura descomposición del trabajo**: una estructura de descomposición del trabajo en una plantilla derivada de un proyecto copiará todas las tareas y dependencias. Las asignaciones que se creen se basarán en los miembros genéricos del equipo que se agregan al equipo del proyecto cuando se crea la plantilla del proyecto.
+- **Estimaciones de proyectos**: cuando se crea una plantilla de proyecto a partir de un proyecto existente, las estimaciones del proyecto de origen se copian en la plantilla del proyecto.
+- **Miembros del equipo del proyecto**: cuando se crea una plantilla a partir de un proyecto existente, todos los miembros del equipo nombrados se reemplazan con el recurso genérico de la organización. Todos los nombres de puestos y funciones se mantienen.
+
 ## <a name="create-a-project-from-a-template"></a>Crear un proyecto a partir de una plantilla  
  Puede crear un proyecto a partir de una plantilla de las siguientes formas:  
   

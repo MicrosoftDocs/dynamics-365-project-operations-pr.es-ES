@@ -6,12 +6,12 @@ ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7a8f99cd03e5c2c15941c17469cc5632765b0fdc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 99af12577abeb0b77dc5d8a117d1e3b292bf0b80
+ms.sourcegitcommit: 260368e1d0751db713da073a641c63c04876fcdf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917735"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9036432"
 ---
 # <a name="default-price-lists"></a>Listas de precios predeterminadas
 
@@ -25,7 +25,7 @@ Cada cotización y contrato de proyecto en Dynamics 365 Project Operations conti
 El sistema completa el siguiente proceso para determinar qué lista de precios predeterminar en una cotización de proyecto:
 
 1. El sistema examina las listas de precios que se adjuntan a las listas de precios del proyecto de la cuenta. 
-2. Si hay listas de precios del proyecto adjuntas al registro de la cuenta, el sistema examina las listas de precios de venta adjuntas a los parámetros del proyecto que coinciden con la moneda de la cotización del proyecto.
+2. Si no hay listas de precios del proyecto adjuntas al registro de la cuenta, el sistema examina las listas de precios de venta adjuntas a los parámetros del proyecto que coinciden con la moneda de la cotización del proyecto.
 3. A continuación, el sistema verifica la fecha de vigencia de las listas de precios que coinciden con el rango de fechas de la cotización del proyecto. Específicamente, la fecha en la que se creó la cotización.
 4. Si hay varias listas de precios que son efectivas para la fecha de la cotización del proyecto, todas las listas de precios están predeterminadas en la cotización del proyecto.
 5. Si no hay listas de precios vigentes para la fecha de la cotización del proyecto, no hay una lista de precios del proyecto predeterminada en la cotización del proyecto. Aparecerá un mensaje de advertencia en la cotización del proyecto. El mensaje indica que las cifras reales y estimadas en el proyecto no tendrán fijados los precios porque no se ha adjuntado la lista de precios del proyecto.

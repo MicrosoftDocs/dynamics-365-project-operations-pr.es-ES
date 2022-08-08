@@ -6,18 +6,25 @@ ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: bcd460c489d428238d27f87968e9afb62fde0cb1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e5df0bad9d2bcab54ad0fc1c917cfdb5aeaff927
+ms.sourcegitcommit: 422d8839c7ea4648d5adb20c40640ac8eb02ecdf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912675"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9125221"
 ---
 # <a name="create-resources"></a>Crear recursos
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
 Puede usar Dynamics 365 Field Service para crear recursos que se pueden reservar para usarlos en su entorno de Dynamics 365 Project Operations. Para crear estos recursos, consulte [Configurar recursos que se pueden reservar](/dynamics365/field-service/set-up-bookable-resources).
+
+Project Operations admite los siguientes tipos de recursos:
+- Account
+- Contact
+- User
+- Equipamiento
+- Genérica
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

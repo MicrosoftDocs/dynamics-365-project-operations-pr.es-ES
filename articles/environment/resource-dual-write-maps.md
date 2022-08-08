@@ -2,16 +2,16 @@
 title: Versiones de asignaciones de doble escritura para Project Operations
 description: Este artículo proporciona la lista de mapas de escritura dual necesarios para Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 04/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
+ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959511"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112450"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versiones de asignaciones de doble escritura para Project Operations
 
@@ -25,7 +25,7 @@ Las siguientes asignaciones son requisitos previos necesarios para la solución 
 
 | Asignación de tabla | Sincronización inicial |
 | --- | --- |
-| Libro mayor (msdyn_ledgers) | Requiere sincronización inicial para el mapa de asignación y todos los requisitos previos. El maestro para la sincronización inicial son las aplicaciones de Finanzas y operaciones. |
+| Libro mayor (msdyn_ledgers) | Requiere sincronización inicial para el mapa de asignación y todos los requisitos previos. El maestro para la sincronización inicial son las aplicaciones de finanzas y operaciones. |
 | Entidades legales (cdm_companies) | No necesario. El sistema completa esta entidad automáticamente cuando los entornos están vinculados mediante doble escritura. |
 | Clientes V3 (accounts) | No es necesario para aprovisionamiento. |
 | Proveedores V2 (msdyn_vendors) | No es necesario para aprovisionamiento. |
@@ -46,7 +46,7 @@ Las siguientes asignaciones se requieren para una solución de Project Operation
 | Encabezados de contrato de proyecto (pedidos de venta) | 1.0.0.1 | No es necesario para aprovisionamiento. ||
 | Líneas de contrato de proyecto (detalles de pedidos de ventas) | 1.0.0.0 | No es necesario para aprovisionamiento. ||
 | Origen de financiación del proyecto (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | No es necesario para aprovisionamiento. ||
-| Tabla de integración de Project Operations para estimaciones de materiales (msdyn\_estimatelines) | 1.0.0.0 | No es necesario para aprovisionamiento. ||
+| Tabla de integración de proyecto para estimaciones de materiales (msdyn\_estimatelines) | 1.0.0.0 | No es necesario para aprovisionamiento. ||
 | Propuestas de factura de proyecto V2 (invoices) | 1.0.0.3 | No es necesario para aprovisionamiento. ||
 | Datos reales de integración de Project Operations (msdyn_actuals) | 1.0.0.14 | No es necesario para aprovisionamiento. ||
 | Hitos de la línea de contrato de integración de Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | No es necesario para aprovisionamiento. ||

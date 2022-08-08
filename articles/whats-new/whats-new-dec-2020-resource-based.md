@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8eb5d2e31f8d3506fc07332cf78efda979c46206
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2b2cf628e6b6f4744cc0ee9deee2a92528a2410d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933053"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029735"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novedades de diciembre de 2020: Project Operations para escenarios basados en recursos/no mantenidos en existencias
 
@@ -61,7 +61,7 @@ En esta versión se incluyen las siguientes características:
 | Planificación y seguimiento de proyectos | 2057197          | No se admite la copia de línea de estimación con referencia de tarea.                                                                                                     |
 | Planificación y seguimiento de proyectos | 2060687          | La advertencia de zona horaria ahora desaparece después de una duración específica.                                                                                                      |
 | Administración de recursos           | 1832887          | El Id. de categoría de recurso predeterminado debe ser estático para garantizar cargas de datos repetibles para entornos de Dataverse y Finance.                                                 |
-| Tiempo y gasto              | 2081793          | **Nombre de la categoría de gastos** debe estar asignado al campo **Descripción de la categoría de gastos** en las aplicaciones de Finanzas y operaciones                                                  |
+| Tiempo y gasto              | 2081793          | **Nombre de la categoría de gastos** debe estar asignado al campo **Descripción de la categoría de gastos** en las aplicaciones de finanzas y operaciones                                                  |
 | Tiempo y gasto              | 2034882          | El botón **Nuevo** se muestra dos veces en la barra de comandos para las entradas de tiempo cuando Dynamics 365 Field Service está instalado.                                          |
 | Tiempo y gasto              | 2056028          | Actualice la página **Editar entrada de tiempo** para incluir la escala de tiempo.                                                                                                              |
 | Tiempo y gasto              | 1983747          | El gráfico de entrada de tiempo muestra datos adicionales.                                                                                                                   |

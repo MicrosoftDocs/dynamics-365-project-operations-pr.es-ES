@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922887"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028907"
 ---
 # <a name="project-mobile-applications-overview"></a>Descripción general de las aplicaciones móviles del proyecto
 
@@ -33,11 +33,11 @@ La aplicación móvil Dynamics 365 Project Timesheet permite a los usuarios envi
 
 ## <a name="project-time-entry-workspace"></a>Espacio de trabajo Entrada de tiempo del proyecto
 
-El espacio de trabajo Entrada de tiempo del proyecto permite a los usuarios especificar y ahorrar tiempo en un proyecto. Sin embargo, no permite que los usuarios envíen o aprueben hojas de horas del proyecto. Solo se puede utilizar para la entrada de tiempo. Este espacio de trabajo móvil se debe usar junto con la aplicación móvil de Finanzas y operaciones.
+El espacio de trabajo Entrada de tiempo del proyecto permite a los usuarios especificar y ahorrar tiempo en un proyecto. Sin embargo, no permite que los usuarios envíen o aprueben hojas de horas del proyecto. Solo se puede utilizar para la entrada de tiempo. Este espacio de trabajo móvil se debe usar junto con la aplicación móvil de finanzas y operaciones.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Mis hojas de horas y Hojas de horas para mi revisión
 
-Mis hojas de horas (optimizado para dispositivos móviles) y Hojas de horas para mi revisión (optimizado para dispositivos móviles) constituyen una solución que permite a los empleados crear, enviar y aprobar hojas de horas de proyectos en un dispositivo móvil. Los trabajadores pueden acceder a la funcionalidad de Finance a través de la URL de la aplicación. Esta solución no requiere la aplicación móvil de Finanzas y operaciones.
+Mis hojas de horas (optimizado para dispositivos móviles) y Hojas de horas para mi revisión (optimizado para dispositivos móviles) constituyen una solución que permite a los empleados crear, enviar y aprobar hojas de horas de proyectos en un dispositivo móvil. Los trabajadores pueden acceder a la funcionalidad de Finance a través de la URL de la aplicación. Esta solución no requiere la aplicación móvil de finanzas y operaciones.
 
 ## <a name="for-more-information"></a>Para obtener más información
 

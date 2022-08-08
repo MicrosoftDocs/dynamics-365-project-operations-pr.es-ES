@@ -6,18 +6,18 @@ ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 43f47a44260d1a47437846f2764b56f680d4b682
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7bf48dd17063daece5df3ce44c0375eec3dc3cae
+ms.sourcegitcommit: 49c2a668b8d7bf0acb9e9b0bb44687e6d3dcaa8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914239"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9204196"
 ---
 # <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Verificación de facturas de proveedores con datos reales aprobados
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
-**Se aplica a:** implementación simplificada: del acuerdo a la facturación proforma
+_**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
 
 Microsoft Dynamics 365 Project Operations permite a los gerentes de proyecto verificar las líneas de factura de proveedor de las siguientes maneras:
 

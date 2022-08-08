@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2d773603abef7ab45d4d1c298e5553e57893294d
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 8313288ecf7ff1350cd82c62d3d0c291d8a3ded4
+ms.sourcegitcommit: 7772d72a7c96a44ffb23369f8ffb436813449239
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959502"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "9031214"
 ---
 # <a name="whats-new-june-2022---project-operations-lite-deployment"></a>Novedades de junio de 2022: implementación simplificada de Project Operations
 
@@ -20,7 +20,7 @@ _**Se aplica a:** implementación simplificada: de oferta a facturación proform
 
 Este artículo se aplica a los siguientes componentes y versiones de Microsoft Dynamics 365 Project Operations:
 
-- Project Operations en una versión del entorno de Dataverse 4.43.0.77
+- Project Operations en la versión del entorno de Dataverse 4.43.0.77 o 4.43.0.119
 
 ## <a name="quality-updates"></a>Actualizaciones de calidad
 

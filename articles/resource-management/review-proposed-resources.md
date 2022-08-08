@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a5b5159ceb8aa5b29dffad59517bc11fbf16871
+ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924865"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183996"
 ---
 # <a name="review-proposed-resources"></a>Revisar recursos propuestos
 
@@ -40,8 +40,8 @@ Para revisar los recursos propuestos, siga estos pasos:
     Ocurren las siguientes actualizaciones de estado:
 
     - En la página **Asistente de programación**, los indicadores de estado se actualizan para indicar que la reserva está propuesta, no reservada en firme.
-    - En la solicitud de recursos, el estado cambia a **Necesita revisión**.
-    - En la pestaña **Equipo** del proyecto, el valor **Estado de la solicitud** del miembro del equipo genérico se cambia a **Necesita revisión**.
+    - En la solicitud de recursos, el revisor de la solicitud debe cambiar el estado a **Necesita revisión**.
+    - En la pestaña **Equipo** del proyecto, el valor **Estado de la solicitud** del miembro del equipo genérico se cambia automáticamente a **Necesita revisión**.
 
 El administrador del proyecto puede aceptar o rechazar la propuesta.
 

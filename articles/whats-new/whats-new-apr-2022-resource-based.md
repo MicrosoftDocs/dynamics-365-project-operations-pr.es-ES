@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 999006b2c2fe2b31d6e47910a3f1a55cab415f0e
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912399"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110905"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novedades en abril de 2022: Project Operations para escenarios basados en recursos/no mantenidos en existencias
 
@@ -25,7 +25,7 @@ Este artículo se aplica a los siguientes componentes y versiones de Microsoft D
 
 ## <a name="features-included-in-this-release"></a>Características incluidas en esta versión
 
-Las categorías de adquisiciones pueden usarse en pedidos de compra de proyectos y facturas de proveedores pendientes. para más información, consulte [Usar categorías de compras con pedidos de compra de proyectos y facturas de proveedores pendientes](configure-procurement-categories.md).
+Las categorías de adquisiciones pueden usarse en pedidos de compra de proyectos y facturas de proveedores pendientes. para más información, consulte [Usar categorías de compras con pedidos de compra de proyectos y facturas de proveedores pendientes](../procurement/configure-procurement-categories.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Actualizaciones de asignaciones de doble escritura de Project Operations
 
