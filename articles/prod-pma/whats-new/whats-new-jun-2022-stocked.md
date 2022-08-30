@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ef2be1f6286c55861e92abf5c85a5387aec8cd1c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: a3173b98bee90b138bb7ce1b59bde90d8d0f5db2
+ms.sourcegitcommit: fcfcedacfea4d6feabacb6b83bb9c14e5a25fcaf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959526"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9316963"
 ---
 # <a name="whats-new-or-changed-in-project-operations-june-2022-for-stockedproduction-based-scenarios"></a>Novedades o cambios de junio de 2022 en Project Operations para escenarios basados en existencias/producción
 
@@ -24,7 +24,7 @@ Este artículo se aplica a los siguientes componentes y versiones de Microsoft D
 
 ## <a name="features-included-in-this-release"></a>Características incluidas en esta versión
 
-Requisitos de artículos se pueden usar para contratos de proyectos que tienen varias fuentes de financiación. Para más información, vea [Requisitos de artículos para contratos de proyectos con varias fuentes de financiación](/multiple-funding-sources-item-req.md).
+Requisitos de artículos se pueden usar para contratos de proyectos que tienen varias fuentes de financiación. Para más información, vea [Requisitos de artículos para contratos de proyectos con varias fuentes de financiación](../multiple-funding-sources-item-req.md).
 
 ## <a name="quality-updates"></a>Actualizaciones de calidad
 

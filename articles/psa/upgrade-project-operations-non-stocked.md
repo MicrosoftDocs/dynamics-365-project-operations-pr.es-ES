@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912997"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230290"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Actualizar de Project Service Automation a Project Operations
 
@@ -67,7 +67,7 @@ Si tiene licencias activas para Project Service Automation, puede instalar y usa
 
 ## <a name="testing-and-refactoring-customizations"></a>Prueba y refactorización de personalizaciones
 
-Como punto de partida, importe todas las personalizaciones en un entorno limpio de Project Operations (lite) para confirmar que la importación se realiza correctamente y que las operaciones comerciales se comportan como se esperaba.
+Como punto de partida, importe todas las personalizaciones en un entorno limpio de Project Operations (Lite) para confirmar que la importación se realiza correctamente y que las operaciones comerciales se comportan como se esperaba.
 
 Aquí hay algunas cosas a tener en cuenta:
 

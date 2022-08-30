@@ -6,12 +6,12 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929235"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230337"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Usar las API de programación de proyectos para realizar operaciones con entidades de programación
 
@@ -45,9 +45,9 @@ La siguiente es una lista de las API de programación de proyectos actuales.
 - **msdyn_CreateProjectV1**: esta API se puede utilizar para crear un proyecto. El cubo del proyecto y el proyecto predeterminado se crean inmediatamente.
 - **msdyn_CreateTeamMemberV1**: esta API se puede utilizar para crear un miembro de equipo del proyecto. El registro de miembro del equipo se crea inmediatamente.
 - **msdyn_CreateOperationSetV1**: esta API se puede utilizar para programar varias solicitudes que deben realizarse dentro de una transacción.
-- **msdyn_PSSCreateV1**: esta API se puede utilizar para crear una entidad. La entidad puede ser cualquiera de las entidades de programación del proyecto que respaldan la operación de creación.
-- **msdyn_PSSUpdateV1**: esta API se puede utilizar para actualizar una entidad. La entidad puede ser cualquiera de las entidades de programación del proyecto que respaldan la operación de actualización.
-- **msdyn_PSSDeleteV1**: esta API se puede utilizar para eliminar una entidad. La entidad puede ser cualquiera de las entidades de programación del proyecto que respaldan la operación de eliminación.
+- **msdyn_PssCreateV1**: esta API se puede utilizar para crear una entidad. La entidad puede ser cualquiera de las entidades de programación del proyecto que respaldan la operación de creación.
+- **msdyn_PssUpdateV1**: esta API se puede utilizar para actualizar una entidad. La entidad puede ser cualquiera de las entidades de programación del proyecto que respaldan la operación de actualización.
+- **msdyn_PssDeleteV1**: esta API se puede utilizar para eliminar una entidad. La entidad puede ser cualquiera de las entidades de programación del proyecto que respaldan la operación de eliminación.
 - **msdyn_ExecuteOperationSetV1**: esta API se utiliza para ejecutar todas las operaciones dentro del conjunto de operaciones establecido.
 
 ## <a name="using-project-schedule-apis-with-operationset"></a>Usar las API de programación de proyectos con OperationSet
