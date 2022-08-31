@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: Novedades
       items:
-        - name: 'Julio de 2022: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: 'Agosto de 2022: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: Archivo
           items:
+            - name: 'Julio de 2022: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: 'Junio de 2022: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: 'Mayo de 2022: Project Operations para escenarios basados en recursos/no mantenidos en existencias'
@@ -384,6 +386,42 @@
           items:
             - name: Información general de utilización de recursos
               href: resource-management/resource-utilization-overview.md
+    - name: Administración de subcontratos
+      items:
+        - name: Administración de subcontratos en Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Conceptos clave en la subcontratación
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Administración de proveedores y listas de precios de proyectos
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Subcontratistas como recursos reservables
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Detalles del encabezado para subcontratos
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Líneas de subcontrato para tiempo
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Líneas de subcontrato para categorías de gastos
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Líneas de subcontrato para productos
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Recursos de línea de subcontratista
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Hitos de línea de subcontrato
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Miembros del equipo del proyecto de subcontratación
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Opciones de subcontratación para miembros del equipo del proyecto
+          href: pro/subcontracting/subcon-options.md
+        - name: Estimación de costes de asignaciones de recursos subcontratados
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Configure el tablero de programación para mostrar los trabajadores contratados y la capacidad subcontratada
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Dotar de personal a un proyecto con trabajadores contratados y capacidad subcontratada
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Registro de tiempo, gastos y uso de material para componentes subcontratados'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Transiciones de estado en un subcontrato
+          href: pro/subcontracting/subcon-states.md
     - name: Tiempo
       items:
         - name: Información general de tiempo
@@ -580,6 +618,8 @@
       items:
         - name: Migrar hitos de facturación totalmente facturados durante la transición
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: Sincronizar el estado del proyecto para evitar la entrada contra proyectos cerrados
+          href: advanced-configuration/sync-project-status.md
     - name: Actualizado
       items:
         - name: Consideraciones de actualización para aprobaciones modernas
@@ -610,10 +650,12 @@
           href: environment/security-model.md
     - name: Novedades
       items:
-        - name: 'Novedades de julio de 2022: implementación simplificada'
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: 'Novedades de agosto de 2022: implementación simplificada'
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: Archivo
           items:
+            - name: 'Novedades de julio de 2022: implementación simplificada'
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: 'Novedades de junio de 2022: implementación simplificada'
               href: pro/whats-new/whats-new-june-2022-lite.md
             - name: 'Novedades del acceso anticipado del segundo lanzamiento de 2021: implementación simplificada'
