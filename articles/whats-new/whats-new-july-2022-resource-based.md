@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: cbee9281d2fae485a3ebcd38bb884a2b2322f8d1
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: e63b29741dbaa400a2176ff8b4c35c6d64dfeab4
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183940"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403973"
 ---
 # <a name="whats-new-july-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novedades de julio de 2022: Project Operations para escenarios basados en recursos/no mantenidos en existencias
 
@@ -45,6 +45,12 @@ Si tiene algún problema al iniciar la asignación, siga las instrucciones de la
 | Facturación y precios | 2675880 | Evite que un proyecto se vincule a una línea de contrato que no esté basada en el trabajo. |
 | Facturación y precios | 2664396 | Si se guarda una lista de precios de oferta sin una oferta, debe haber un error que indique que la oferta no puede estar vacía. |
 | Facturación y precios | 2184019 | La pestaña **Facturación basada en tareas** no debe mostrarse para proyectos que no tienen oferta o contrato de respaldo. |
+| Tiempo y gasto | 2754459 | Cuando el flujo en la nube de programación recurrente está inactivo, muestra el banner y omite el procesamiento asincrónico. |
+| Facturación y precios | 2724391 | Se produce una excepción incorrecta cuando a la regla de facturación dividida del contrato del proyecto le falta un valor de cliente. |
+| Facturación y precios | 2708638 | No se encontró el registro durante la búsqueda mediante la búsqueda en cuadrícula en usos de material y aprobaciones para usos de material.|
+| Facturación y precios | 2686977 | Impida la validación de la línea de factura durante la creación de la factura. |
+| Facturación y precios | 2683032 | La copia de roles y categorías imputables no supera los 5000 registros.|
+| Facturación y precios | 2673363 | El % de consumo de costes en el proyecto está dañado cuando existen estimaciones y datos reales de esfuerzo y gastos para un proyecto. |
 
 ### <a name="project-management-and-accounting-in-finance"></a>Administración de proyectos y contabilidad en Finance
 

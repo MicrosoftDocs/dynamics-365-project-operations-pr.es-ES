@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348028"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403878"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novedades de agosto de 2022: Project Operations para escenarios basados en recursos/no mantenidos en existencias
 
@@ -38,6 +38,11 @@ Si tiene algún problema al iniciar la asignación, siga las instrucciones de la
 | Área de características | Número de referencia | Actualización de calidad |
 | --- | --- | --- |
 | Administración de oportunidades | 2762089 | Gestión de errores al cerrar el contrato como perdido si el guardado automático está deshabilitado en la organización.|
+|Planificación y seguimiento de proyectos | 2767841 | Actualizaciones de telemetría en escenarios de crear o actualizar una entidad de proyecto.|
+|Facturación y precios | 2771072 | Gestión de excepciones de referencia nula mientras se gana la oferta.|
+|Facturación y precios | 2844181 |Error al obtener una identificación de correlación y bloquear la creación de una factura.|
+|Facturación y precios | 2852836 | Faltan datos reales de empresas vinculadas para Gastos de empresas vinculadas creados y aprobados en CE.|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>Administración de proyectos y contabilidad en Finance
 

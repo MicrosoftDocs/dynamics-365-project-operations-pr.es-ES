@@ -168,6 +168,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Copiar ofertas de proyecto
               href: sales/lose-quote.md
+            - name: Activar y revisar una oferta de proyecto
+              href: sales/activation-and-revision.md
             - name: Cerrar ofertas de proyecto
               href: sales/win-quote.md
         - name: Administrar contratos de proyecto
@@ -198,7 +200,9 @@
                   href: sales/import-estimate-project-contract-line.md
                 - name: Crear programaciones de facturas en líneas de contrato basadas en proyecto
                   href: sales/invoice-schedules-contract-line.md
-            - name: Conformar un contrato de proyecto
+            - name: Copiar contratos basados en proyectos
+              href: sales/copy-project-based-contracts-sales.md
+            - name: Confirmar un contrato de proyecto
               href: pro/sales/confirm-contract-sales.md
             - name: Pagos a cuenta y anticipos
               items:
@@ -228,9 +232,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Reemplazar listas de precios de venta de proyecto
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Resolver precios de coste para estimaciones y datos reales
+            - name: Determinar precios de coste para estimaciones y datos reales
               href: pricing-costing/cost-price-resolution.md
-            - name: Resolver precios de venta para estimaciones y datos reales
+            - name: Determinar precios de venta para estimaciones y datos reales
               href: pricing-costing/sales-price-resolution.md
             - name: Copiar listas de precios
               href: pricing-costing/copy-price-lists.md
@@ -766,6 +770,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Copiar ofertas basadas en proyectos
               href: sales/lose-quote.md
+            - name: Activar y revisar una oferta de proyecto
+              href: sales/activation-and-revision.md
             - name: Cerrar ofertas basadas en proyectos
               href: pro/sales/win-quote-sales.md
         - name: Administrar contratos basados en proyectos
@@ -806,7 +812,7 @@
                   href: pro/sales/invoice-schedules-contract-line-sales.md
             - name: Copiar contratos de proyecto
               href: pro/sales/copy-project-contracts-sales.md
-            - name: Conformar un contrato de proyecto
+            - name: Confirmar un contrato de proyecto
               href: pro/sales/confirm-contract-sales.md
             - name: Pagos a cuenta y anticipos
               items:
@@ -838,9 +844,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Reemplazar listas de precios de venta de proyecto
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Resolver precios de coste en estimaciones y datos reales de proyectos
+            - name: Determinar precios de coste en estimaciones y datos reales de proyectos
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Resolver precios de venta para estimaciones y datos reales de proyectos
+            - name: Determinar precios de venta para estimaciones y datos reales de proyectos
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Copiar listas de precios
               href: pricing-costing/copy-price-lists.md
