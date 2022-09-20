@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a9c69fc4296d30763f3994a4955e64ab258ceb4f
+ms.sourcegitcommit: 675e9f3615e701c5f998de3a5ea3e25df11ae107
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8925371"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459948"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Cambios de características de Project Service Automation a Project Operations
 
 La actualización de Dynamics 365 Project Service Automation a Dynamics 365 Project Operations Lite se entregará en tres fases. Este artículo proporciona información sobre los principales cambios que puede esperar ver cuando se complete la actualización.
 
-| Entrega de actualización | Fase 1 <br>(Enero de 2022) | Fase 2 <br>(Lanzamiento de abril de 2022) | Fase 3  |
+| Entrega de actualización | Fase 1 <br>(Enero de 2022) | Fase 2 <br>(Noviembre de 2022) | Fase 3  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Sin dependencia de la estructura de descomposición del trabajo (WBS) para proyectos. | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | WBS se incluye dentro de los límites actualmente admitidos de Project Operations. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |

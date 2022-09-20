@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: c2295174df1ce766c6d1304f4e9c55d32d5c4775
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410180"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475257"
 ---
 # <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Determinar tasas de costes para estimaciones y datos reales de proyectos
 
 _**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
 
-Para determinar la lista de precio de coste y las tasas de coste en los contextos estimado y real, el sistema utiliza la información en los campos **Fecha**, **Moneda** y **Unidad de contratación** del proyecto relacionado.
+Para determinar las tarifas de coste en estimaciones y datos reales se resuelven en Microsoft Dynamics 365 Project Operations, el sistema utiliza primero la fecha y la moneda en el contexto estimado o real entrante para determinar la lista de precios de coste. Específicamente en el contexto actual, el sistema utiliza el campo **Fecha de transacción** para determinar qué lista de precios es aplicable. El valor de **Fecha de la transacción** de la estimación entrante o real se compara con los valores de **Fecha de inicio efectiva (independiente de la zona horaria)** y **Fecha de finalización efectiva (independiente de la zona horaria)** de la lista de precios. Una vez determinada la lista de precios de coste, el sistema determina la tasa de coste. 
 
 ## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Determinar las tasas de coste en contextos estimados y reales por tiempo
 

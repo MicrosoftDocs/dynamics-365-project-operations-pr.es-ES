@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
+ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230290"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9446057"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Actualizar de Project Service Automation a Project Operations
 
@@ -29,7 +29,7 @@ Nos complace anunciar la primera de las tres fases para actualizar desde Microso
 
 El programa de actualización se dividirá en tres fases.
 
-| Entrega de actualización | Fase 1 (enero de 2022) | Fase 2 (oleada de abril de 2022) | Fase 3  |
+| Entrega de actualización | Fase 1 (enero de 2022) | Fase 2 (noviembre de 2022) | Fase 3 (oleada de abril de 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Sin dependencia de la estructura de desglose del trabajo (WBS) para proyectos | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | La EDT dentro de los límites actualmente admitidos de Project Operations | | :heavy_check_mark: | :heavy_check_mark: |
@@ -39,7 +39,7 @@ El programa de actualización se dividirá en tres fases.
 
 Como parte del proceso de actualización, hemos agregado registros de actualización al mapa del sitio, para que los administradores puedan diagnosticar fallas más fácilmente. Además de la nueva interfaz, se agregarán nuevas reglas de validación para garantizar la integridad de los datos después de una actualización. Las siguientes validaciones se agregarán al proceso de actualización.
 
-| Validaciones | Fase 1 (enero de 2022) | Fase 2 (oleada de abril de 2022) | Fase 3  |
+| Validaciones | Fase 1 (enero de 2022) | Fase 2 (noviembre de 2022) | Fase 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | La WBS se validará frente a violaciones comunes de la integridad de los datos (por ejemplo, asignaciones de recursos que están asociadas con la misma tarea principal pero tienen diferentes proyectos principales). | | :heavy_check_mark: | :heavy_check_mark: |
 | La WBS se validará contra los [límites conocidos de Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |
