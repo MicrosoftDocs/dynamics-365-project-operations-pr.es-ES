@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Reemplazar listas de precios de venta de proyecto
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Configurar reemplazos de fecha de vigencia para precios específicos en una lista de precios
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Determinar precios de coste para estimaciones y datos reales
               href: pricing-costing/cost-price-resolution.md
             - name: Determinar precios de venta para estimaciones y datos reales
@@ -542,8 +544,16 @@
           href: procurement/configure-procurement-categories.md
         - name: Adquirir bienes y servicios para proyectos usando facturas de proveedor pendientes
           href: procurement/pending-vendor-invoices.md
-        - name: Comprar bienes y servicios para proyectos usando pedidos de compra de proyecto
+        - name: Comprar bienes y servicios para proyectos mediante pedidos de compra de proyecto
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Facturas de proveedores para subcontratos en Dataverse
+          items:
+            - name: Crear facturas de proveedor
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Comprobación de facturas de proveedor con datos reales aprobados
+              href: pro/subcontracting/VI-Verification.md
+            - name: Confirmar facturas de proveedor de proyecto
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Retención de proveedores
           items:
             - name: Información general de retención de proveedores
@@ -844,6 +854,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Reemplazar listas de precios de venta de proyecto
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Configurar reemplazos de fecha de vigencia para precios específicos en una lista de precios
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Determinar precios de coste en estimaciones y datos reales de proyectos
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Determinar precios de venta para estimaciones y datos reales de proyectos
