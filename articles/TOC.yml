@@ -506,8 +506,10 @@
           href: approvals/approval-sets.md
         - name: Cancelar la aprobación de entradas previamente aprobadas
           href: approvals/cancelapproval.md
-        - name: Recuperación de entradas previamente aprobadas
+        - name: Recuperar entradas previamente aprobadas
           href: approvals/recall-cancel.md
+        - name: Seguridad y aprobaciones
+          href: approvals/approvals-security.md
         - name: Notas de desarrollador
           items:
             - name: Notas del desarrollador para aprobaciones
@@ -560,6 +562,8 @@
               href: procurement/vendor-retention-overview.md
             - name: Configurar retención de proveedores
               href: procurement/set-up-vendor-retention.md
+            - name: Pago al cobrar
+              href: procurement/Pay-when-paid.md
     - name: Facturación
       items:
         - name: Información general del proceso de facturación
@@ -1100,8 +1104,10 @@
           href: approvals/approval-sets.md
         - name: Cancelar la aprobación de entradas previamente aprobadas
           href: approvals/cancelapproval.md
-        - name: Recuperación de entradas previamente aprobadas
+        - name: Recuperar entradas previamente aprobadas
           href: approvals/recall-cancel.md
+        - name: Seguridad y aprobaciones
+          href: approvals/approvals-security.md
         - name: Notas de desarrollador
           items:
             - name: Notas del desarrollador para aprobaciones
