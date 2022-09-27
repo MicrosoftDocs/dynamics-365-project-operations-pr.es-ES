@@ -2,21 +2,21 @@
 title: Administración de subcontratos en Project Operations
 description: Este artículo proporciona una descripción general del proceso de gestión de subcontratos de un extremo a otro, normalmente en organizaciones basadas en proyectos.
 author: rumant
-ms.date: 08/02/2021
+ms.date: 09/14/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 783ab1b642bb8cfe2fb3b977a95c8064f33a7994
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: b2e4518f77b2099f9818ea56623be9efb20b01f4
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261229"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522347"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Administración de subcontratos en Project Operations
 
 
-_**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
+_**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
 Este artículo proporciona una descripción general del proceso de gestión de subcontratos de un extremo a otro en organizaciones basadas en proyectos. La subcontratación de servicios generalmente sigue el flujo de proceso de negocio que se muestra en el siguiente diagrama.
 

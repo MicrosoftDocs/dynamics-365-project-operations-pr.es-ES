@@ -2,20 +2,20 @@
 title: Líneas de subcontrato por tiempo
 description: Este artículo explica cómo registrar líneas de subcontrato para tiempo y registrar la compra de tiempo de proveedores.
 author: rumant
-ms.date: 08/05/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8e9619dc713fde3127f552234e4a7427d99be683
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 3ba013dd7ad023acc4f0cf077099c8c2c8d5bcd8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262117"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522254"
 ---
 # <a name="subcontract-lines-for-time"></a>Líneas de subcontrato por tiempo
 
-_**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
+_**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
 Un subcontrato en Dynamics 365 Project Operations puede tener una línea de subcontrato para tiempo. Las líneas de subcontrato por tiempo permiten que un administrador del proyecto compre tiempo de recursos del proveedor para dotar de personal a las tareas del proyecto y los requisitos de recursos.
 

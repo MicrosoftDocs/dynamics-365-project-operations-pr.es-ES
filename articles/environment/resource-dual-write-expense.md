@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: da37adcf63a10b9f245283d377e70fd08b3aa9c5
+ms.sourcegitcommit: 385081ecc839d7d4a557eda2bb1578ca073f7e41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9029230"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528026"
 ---
 # <a name="expense-management-integration"></a>Integración de gestión de gastos
 
@@ -34,7 +34,7 @@ Las categorías de gastos en las aplicaciones de finanzas y operaciones son espe
 
 ## <a name="expense-reports"></a>Informes de gastos
 
-Los informes de gastos se crean y aprueban en las aplicaciones de finanzas y operaciones. Para más información, vea [Crear y procesar informes de gastos en Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Una vez que el jefe de proyecto aprueba el informe de gastos, se registra en contabilidad general. En Project Operations, las líneas de informes de gastos relacionadas con el proyecto se registran mediante reglas de contabilización especiales:
+Los informes de gastos se crean y aprueban en las aplicaciones de finanzas y operaciones. Para más información, vea [Crear y procesar informes de gastos en Dynamics 365 Project Operations](/training/modules/create-process-expense-reports/). Una vez que el jefe de proyecto aprueba el informe de gastos, se registra en contabilidad general. En Project Operations, las líneas de informes de gastos relacionadas con el proyecto se registran mediante reglas de contabilización especiales:
 
   - El coste relacionado con el proyecto (incluido el impuesto no recuperable) no se registra inmediatamente en la cuenta de coste del proyecto en contabilidad general, sino que se registra en la cuenta de integración de gastos. Esta cuenta se configura en **Administración y contabilidad de proyectos** > **Configuración** > **Parámetros de administración y contabilidad de proyectos**, pestaña **Project Operations en Dynamics 365 Customer engagement**.
   - La doble escritura se sincroniza con Dataverse utilizando la asignación de tabla **Entidad de exportación de gastos de proyecto de integración de Project Operations (msdyn\_expenses)** mapa de la mesa.

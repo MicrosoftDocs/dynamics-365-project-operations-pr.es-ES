@@ -2,20 +2,20 @@
 title: Miembros del equipo del proyecto de subcontratación
 description: Este artículo explica cómo subcontratar miembros del equipo del proyecto en Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 9/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 14abd82cbbd256770105d4272f686590737e2648
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: a2f17d6f270029e3a517e99c7bb518cdb19b8d23
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261392"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522817"
 ---
 # <a name="subcontracting-project-team-members"></a>Miembros del equipo del proyecto de subcontratación
 
-_**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
+_**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
 En Microsoft Dynamics 365 Project Operations, puede optar por subcontratar a miembros del equipo del proyecto sin personal o con personal.
 

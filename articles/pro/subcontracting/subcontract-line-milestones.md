@@ -2,20 +2,20 @@
 title: Hitos de línea de subcontrato
 description: Este artículo explica cómo crear y mantener un calendario de facturas basado en hitos para un subcontrato con un proveedor.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2fe26f5ba3c7bbc689c83a2ba67d444a09a264d5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 431a57adf82c79f72d44886636183d48e0931f53
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261815"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522486"
 ---
 # <a name="subcontract-line-milestones"></a>Hitos de línea de subcontrato
 
-_**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
+_**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
 En Dynamics 365 Project Operations, una línea de subcontratos con un método de facturación de precio fijo puede especificar un programa de facturación basado en hitos con el proveedor.
 

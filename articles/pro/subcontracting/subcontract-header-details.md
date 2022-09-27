@@ -2,20 +2,20 @@
 title: Detalles del encabezado para subcontratos
 description: Este artículo explica la funcionalidad provista en el encabezado del subcontrato en Project Operations.
 author: rumant
-ms.date: 09/14/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce16b7a968bc7e6904411ae9e021a5ca1839d02e
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 00b7c08235654d4bed0bcb4053d2044a3d092b54
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261439"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522582"
 ---
 # <a name="header-details-for-subcontracts"></a>Detalles del encabezado para subcontratos
 
-_**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
+_**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
 Este artículo explica la funcionalidad provista en el encabezado del subcontrato en Dynamics 365 Project Operations.
 

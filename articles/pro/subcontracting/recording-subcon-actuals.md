@@ -2,20 +2,20 @@
 title: Registro de tiempo, gastos y uso de material para componentes subcontratados
 description: Este artículo explica cómo Microsoft realiza un seguimiento del tiempo, los gastos y el uso de materiales registrados en proyectos de componentes subcontratados por Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 89fbbfcd1535660e92d0cc80beb91029331e990f
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: b82c14412cfb0405040902a2329c3b6692422d89
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261163"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522535"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Registro de tiempo, gastos y uso de material en proyectos para componentes subcontratados
 
-_**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
+_**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
 Este artículo explica cómo Microsoft realiza un seguimiento del tiempo, los gastos y el uso de materiales registrados en proyectos de componentes subcontratados por Microsoft Dynamics 365 Project Operations.
 
