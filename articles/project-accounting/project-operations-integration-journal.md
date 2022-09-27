@@ -2,16 +2,16 @@
 title: Diario de integración en Project Operations
 description: Este artículo proporciona información sobre el trabajo con el diario de integración de Project Operations.
 author: sigitac
-ms.date: 06/29/2022
+ms.date: 09/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
-ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
+ms.openlocfilehash: e947fe895a1caa9c9ea092597957a859cd8d61c9
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9106296"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541099"
 ---
 # <a name="integration-journal-in-project-operations"></a>Diario de integración en Project Operations
 
@@ -65,6 +65,12 @@ El registro se puede realizar de forma interactiva o en un lote. Tenga en cuenta
 > [!NOTE]
 > Para usar esta capacidad, habilite la característica **Transferir todas las líneas con errores de registro a un nuevo diario de integración de Project Operations** en el espacio de trabajo **Administración de características**.
 
-Durante el diario en el diario de integración de Project Operations, el sistema valida cada línea del diario. El sistema registra todas las líneas que no tienen errores y crea un nuevo diario para todas las líneas que tienen errores de registro. Para revisar los diarios que tienen líneas de error de registro, vaya a **Gestión de proyectos y contabilidad** > **Diarios** > **Diario de integración de Project Operations** y filtre los diarios mediante el campo **Diario original**.
+Esta característica ayuda a mejorar la experiencia con el diario de integración Project Operations. Cuando está habilitado, los problemas de tiempo de escritura dual y los problemas de configuración ya no impiden que se publiquen diarios válidos. Durante el diario en el diario de integración de Project Operations, el sistema valida cada línea del diario. Publica todas las líneas que no tienen errores y crea un nuevo diario para todas las líneas que tienen errores de publicación.
+
+Para revisar los diarios que tienen líneas de error de contabilización, vaya a **Gestión de proyectos y contabilidad** \> **Diarios** \> **Diario de integración de Project Operations** y filtre la lista de diarios usando el campo **Diario original**. La siguiente ilustración muestra un ejemplo en el que los diarios de la página **Diario de integración de Project Operations** han sido filtradas de esta manera.
+
+![Diario original mostrado en la página del diario de integración de Project Operations.](./media/transferLines-originalJournal.png)
+
+Si se configura un trabajo por lotes periódico para publicar el diario de integración, se volverá a intentar la publicación y los diarios se publicarán si se solucionó el problema de tiempo. Cualquier diario restante debe investigarse manualmente revisando los registros y tomando las medidas necesarias.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
