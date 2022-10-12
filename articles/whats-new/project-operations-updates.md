@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ba33afd955170797bc43ae84d8baa9e2a04c5918
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: eb658f8b0150d5d70e9ed090ff0e25e33eedd5a3
+ms.sourcegitcommit: 6536e79aca5ce2cb0276a4366db69d688962a21f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9409977"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9622048"
 ---
 # <a name="project-operations-updates"></a>Actualizaciones de Project Operations
 
@@ -47,24 +47,24 @@ Cada mes están disponibles actualizaciones de Project Operations en el entorno 
 | Estación | Región | Número de versión actual | Actualizaciones automáticas para la implementación Lite | Actualizaciones automáticas para implementación de recursos/no mantenida | Número de versión siguiente | Próxima versión generalmente disponible |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Estación 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Primer lanzamiento         |  4.45.0.53      | Completa           | Completa            | Por determinar                 | 09 de septiembre de 2022      |
+|   &nbsp;  | Primer lanzamiento         |  4.46.0.60      | Completa           | Completa            | Por determinar                 | 07 de octubre de 2022      |
 | Estación 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Sudamérica         |  4.45.0.53      | Completa           | Completa            | Por determinar                 | 09 de septiembre de 2022       |
-|   &nbsp;  | Canadá                |  4.45.0.53      | Completa           | Completa            | Por determinar                 | 09 de septiembre de 2022       |
-|   &nbsp;  | India                 |  4.45.0.53      | Completa           | Completa            | Por determinar                 | 09 de septiembre de 2022       |
-|   &nbsp;  | Francia                |  4.45.0.53      | Completa           | Completa            | Por determinar                 | 09 de septiembre de 2022       |
-|   &nbsp;  | Sudáfrica          |  4.45.0.53      | Completa           | Completa            | Por determinar                 | 09 de septiembre de 2022       |
-|   &nbsp;  | Suiza           |  4.45.0.53      | Completa           | Completa            | Por determinar                 | 09 de septiembre de 2022       |
+|   &nbsp;  | Sudamérica         |  4.46.0.60      | Completa           | Completa            | Por determinar                 | 14 de octubre de 2022       |
+|   &nbsp;  | Canadá                |  4.46.0.60      | Completa           | Completa            | Por determinar                 | 14 de octubre de 2022       |
+|   &nbsp;  | India                 |  4.46.0.60      | Completa           | Completa            | Por determinar                 | 14 de octubre de 2022       |
+|   &nbsp;  | Francia                |  4.46.0.60      | Completa           | Completa            | Por determinar                 | 14 de octubre de 2022       |
+|   &nbsp;  | Sudáfrica          |  4.46.0.60      | Completa           | Completa            | Por determinar                 | 14 de octubre de 2022       |
+|   &nbsp;  | Suiza           |  4.46.0.60      | Completa           | Completa            | Por determinar                 | 14 de octubre de 2022       |
 | Estación 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japón                 |  4.45.0.53      | Completa      | Completa       | Por determinar                 | 09 de septiembre de 2022       |
-|   &nbsp;  | Asia Pacífico          |  4.45.0.53      | Completa      | Completa       | Por determinar                 | 09 de septiembre de 2022       |
-|   &nbsp;  | Gran Bretaña         |  4.45.0.53      | Completa      | Completa       | Por determinar                 | 09 de septiembre de 2022       |
-|   &nbsp;  | Oceanía               |  4.45.0.53      | Completa      | Completa       | Por determinar                 | 09 de septiembre de 2022       |
-|   &nbsp;  | Emiratos Árabes Unidos  |  4.45.0.53      | Completa      | Completa       | Por determinar                 | 09 de septiembre de 2022       |
+|   &nbsp;  | Japón                 |  4.46.0.60      | Completa      | Completa       | Por determinar                 | 21 de octubre de 2022       |
+|   &nbsp;  | Asia Pacífico          |  4.46.0.60      | Completa      | Completa       | Por determinar                 | 21 de octubre de 2022       |
+|   &nbsp;  | Gran Bretaña         |  4.46.0.60      | Completa      | Completa       | Por determinar                 | 21 de octubre de 2022       |
+|   &nbsp;  | Oceanía               |  4.46.0.60      | Completa      | Completa       | Por determinar                 | 21 de octubre de 2022       |
+|   &nbsp;  | Emiratos Árabes Unidos  |  4.46.0.60      | Completa      | Completa       | Por determinar                 | 21 de octubre de 2022       |
 | Estación 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.45.0.53      | Completa           | Completa            | Por determinar           | 16 de septiembre de 2022       |
+|   &nbsp;  | Europa                |  4.46.0.60      | Completa           | Completa            | Por determinar           | 28 de octubre de 2022       |
 | Estación 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Norteamérica         |  4.45.0.53      | Completa           | Completa            | Por determinar           | 16 de septiembre de 2022       |
+|   &nbsp;  | Norteamérica         |  4.46.0.60      | Completa           | Completa            | Por determinar           | 04 de noviembre de 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Programación de versiones para Gestión de proyectos y contabilidad en el entorno de aplicaciones de finanzas y operaciones
 
