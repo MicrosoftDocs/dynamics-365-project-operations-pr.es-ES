@@ -1534,6 +1534,14 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: Novedades o cambios en Project Service Automation V3
           href: psa/whats-new-changed-v3.md
+    - name: Actualización de Project Service Automation (versión de la aplicación simplificada Project Operations 4.x)
+      items:
+        - name: Actualizar de Project Service Automation a Project Operations
+          href: psa/upgrade-project-operations-non-stocked.md
+        - name: Cambios de características de Project Service Automation a Project Operations
+          href: psa/psa-project-operations-changes.md
+        - name: Proceso de conversión de programación de proyectos de Project Service Automation a Project Operations
+          href: psa/PSA-Upgrade-Project-Conversion.md
     - name: Planificar la implementación (versión de la aplicación 3.x)
       items:
         - name: Instalación de datos de ejemplo
@@ -1548,7 +1556,7 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: Guía de informes
           href: psa/implementation-guides/reporting-guide.md
-    - name: 'Actualizar de Project Service Automation a Project Operations: lite'
+    - name: 'Actualizar de Project Service Automation a Project Operations: simplificada'
       href: psa/upgrade-project-operations-non-stocked.md
     - name: Cambios de características de Project Service Automation a Project Operations
       href: psa/psa-project-operations-changes.md
