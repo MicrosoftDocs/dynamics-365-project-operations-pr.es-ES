@@ -6,12 +6,12 @@ ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932087"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655210"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Crear una estructura de descomposición del trabajo
 
@@ -112,6 +112,18 @@ El campo **Categoría** contiene los valores que indican un tipo más amplio de 
 Puede usar la programación de Project Operations para crear relaciones predecesoras entre tareas. El campo **Predecesora** usa uno o más valores para indicar las tareas de las que depende una tarea. Cuando se asignan valores predecesores a una tarea, la tarea solo puede comenzar después de que se hayan completado todas las tareas predecesoras. Debido a la dependencia, la fecha de inicio planificada de la tarea se restablece a la fecha en que se completan las tareas predecesoras.
 
 El modo de tarea no tiene ningún efecto en las actualizaciones que se realizan a las fechas de inicio y finalización de las tareas predecesoras/dependientes.
+
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Comprender los impactos de la duración, los calendarios de recursos y los calendarios de proyectos en las tareas
+La duración de una tarea se define como el número de horas de trabajo entre la hora de inicio de la fecha de inicio y la hora de finalización de la fecha de finalización de la tarea.   Project for the web define las unidades de medida de duración de la siguiente manera:
+
+| **Medida de duración** | **Cantidad**|
+|----------------------------------------------------|----------------------|
+| Horas al día | 8 |
+| Horas a la semana |  40 |
+| Días al mes |  20 |
+
+Las tareas no asignadas se programan utilizando el calendario del proyecto. Sin embargo, tras la asignación inicial de recursos, la programación de una tarea se actualiza para que respete el calendario del recurso. Los cambios posteriores a una tarea que tiene una asignación se regirán por el [modo de programación](scheduling-modes.md) del proyecto. Para obtener más información sobre la influencia de los calendarios en las tareas, consulte [Calendarios de recursos en Project for the web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) y [¡Horas de inicio de tareas y sus proyectos!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Accesibilidad y métodos abreviados de teclado
 

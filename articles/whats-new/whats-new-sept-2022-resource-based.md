@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: ef8b4dd98d64dac1e2420f8e6a104258f126f112
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: 04b5f2f8223cdc80028860dd880dde314be244eb
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621281"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634827"
 ---
 # <a name="whats-new-september-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novedades de septiembre de 2022: Project Operations para escenarios basados en recursos/no mantenidos en existencias
 
@@ -35,6 +35,7 @@ Este artículo se aplica a los siguientes componentes y versiones de Microsoft D
 | Gestión de gastos | **Capacidad para contabilizar el pasivo de gastos en la moneda del proveedor**<br>Esta función permite que los informes de gastos se registren en una moneda del proveedor para el método de pago en efectivo. | [Capacidad para contabilizar el pasivo de gastos en la moneda del proveedor](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature) |
 | Adquisición de proceso | **Pagos de proveedores de pago cuando se pagan**<br>Esta función permite que la función Pagar cuando se pague (PWP) se use con entornos sin existencias de Project Operations. Permite bloquear/retener los pagos del proveedor, según los términos de retención, hasta que se reciba el pago del cliente. | [Pagos de proveedores de pago cuando se pagan](/dynamics365/project-operations/procurement/pay-when-paid) |
 | Adquisición de proceso | **Solicitudes de compra de proyecto**<br>Esta función permite a los usuarios crear pedidos de compra relacionados con proyectos en entidades jurídicas donde está habilitada la integración de Project Operations on Dynamics 365 Customer Engagement. Las órdenes de compra del proyecto se pueden usar para registrar la adquisición de material no almacenado en el proyecto por persona del departamento de Adquisiciones. Los pedidos de compra del proyecto no se sincronizarán con Dataverse. Sin embargo, puede utilizar una entidad virtual para mostrar las líneas de pedido de compra del proyecto en Dataverse para obtener información sobre el administrador del proyecto. El costo de la factura del proveedor relacionado con el proyecto se integra con la entidad Datos reales del proyecto en Dataverse. El coste del proyecto se registra en la subcontabilidad del proyecto usando el diario de integración de Project Operations. | |
+|Planificación y seguimiento de proyectos|**Usar las API de programación de proyectos para realizar operaciones con entidades de programación** </br> </br>La API de edición de contorno de asignación de recursos permite a los desarrolladores especificar mediante programación el esfuerzo de un asignado a la tarea en cualquier intervalo de fechas compatible para una planificación de esfuerzo por fases más granular.|[Usar las API de programación de proyectos para realizar operaciones con entidades de programación](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Actualizaciones de asignaciones de doble escritura de Project Operations
 

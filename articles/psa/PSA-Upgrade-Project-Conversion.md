@@ -1,9 +1,9 @@
 ---
-title: Cambios de características para Project Service Automation en Project Operations
+title: Proceso de conversión de programación de proyectos de Project Service Automation a Project Operations
 description: Este artículo proporciona una descripción general de los cambios de características para Microsoft Dynamics 365 Project Service Automation en Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 02/03/2022
+ms.date: 10/07/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -16,14 +16,14 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 9869b3ad0fb6429484a26f367e06a0996f110ed8
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: 84a40fcc9a8561c4ade0be175b08f701f3196508
+ms.sourcegitcommit: 28004d38800782540fa5642d41f8fe0f6e2d9fa5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621272"
+ms.lasthandoff: 10/08/2022
+ms.locfileid: "9642590"
 ---
-# <a name="feature-changes-for-project-service-automation-to-project-operations"></a>Cambios de características para Project Service Automation en Project Operations
+# <a name="project-service-automation-to-project-operations-project-scheduling-conversion-process"></a>Proceso de conversión de programación de proyectos de Project Service Automation a Project Operations
 
 Después de que un proyecto se haya actualizado con éxito desde Microsoft Dynamics 365 Project Service Automation 3.X a Dynamics 365 Project Operations Lite, no es posible editar las tareas del proyecto en la estructura de desglose del trabajo (WBS) de la cuadrícula de tareas. Los clientes podrán revisar las EDT en la cuadrícula de seguimiento donde se agregaron nuevos campos para proporcionar todos los detalles relacionados con la tarea. Para los proyectos en los que se requieren ediciones en la EDT, puede convertir de forma selectiva los proyectos elegibles a la nueva experiencia de programación de Project for the web.
 

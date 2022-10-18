@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 2cce7ae25f05258e8bf0bab9430324bc9b30e329
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: a02ac7a69489bc7974eb0e63c11fa5de74795b78
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621292"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634874"
 ---
 # <a name="whats-new-september-2022---project-operations-lite-deployment"></a>Novedades de septiembre de 2022: implementación de Project Operations Lite
 
@@ -30,6 +30,7 @@ Este artículo se aplica a los siguientes componentes y versiones de Microsoft D
 | Facturación y precios | **Incumplimiento de precio agnóstico de zona horaria**<br>Project Operations ha introducido el concepto de una fecha agnóstica de zona horaria en todos los datos reales del proyecto. Un campo nuevo, **Fecha de transacción**, ahora está disponible en líneas de diario y datos reales, y se usará para almacenar la fecha en que ocurrió la transacción, pero sin convertir esa fecha a la hora universal coordinada. Esta fecha se utilizará para procesos posteriores, como el incumplimiento de precios y la creación de facturas. | <p>[Determinar tasas de costes para estimaciones y datos reales que se basan en proyectos](/dynamics365/project-operations/pro/pricing-costing/cost-price-resolution-sales)</p><p>[Determinar precios de venta para estimaciones y datos reales de proyectos](/dynamics365/project-operations/pro/pricing-costing/sales-price-resolution-sales)</p> |
 | Facturación y precios | **Sustituciones de precios con fecha de vigencia en Project Operations**<br>Reemplazos de precios de la fecha de vigencia proporciona una forma de anular o cambiar precios específicos en la lista de precios. | [Reemplazos de precios de la fecha de vigencia](/dynamics365/project-operations/pricing-costing/dateffective_price_overrides) |
 | Tiempo y gasto | **Aprobador global**<br>Esta función permite la aprobación centralizada de proveedores de software independientes (ISV), independientemente del estado del proyecto o del miembro del equipo en el proyecto. | [Seguridad y aprobaciones](/dynamics365/project-operations/approvals/approvals-security) |
+|Planificación y seguimiento de proyectos|**Usar las API de programación de proyectos para realizar operaciones con entidades de programación** </br> </br>La API de edición de contorno de asignación de recursos permite a los desarrolladores especificar mediante programación el esfuerzo de un asignado a la tarea en cualquier intervalo de fechas compatible para una planificación de esfuerzo por fases más granular.|[Usar las API de programación de proyectos para realizar operaciones con entidades de programación](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="quality-updates"></a>Actualizaciones de calidad
 
