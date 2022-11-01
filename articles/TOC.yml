@@ -1752,8 +1752,6 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: ¿Cómo personalizo el flujo de proceso de negocio Fases del proyecto?
               href: psa/FAQ-customize-bpf.md
-            - name: Consideraciones de actualización para la estructura de descomposición del trabajo
-              href: psa/upgrade-considerations-tasks.md
         - name: Notas del producto
           href: psa/white-papers.md
         - name: Guía del administrador
