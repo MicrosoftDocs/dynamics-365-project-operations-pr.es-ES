@@ -286,6 +286,8 @@
           href: project-management/define-project-calendars.md
         - name: Modos de programación
           href: project-management/scheduling-modes.md
+        - name: Programación externa
+          href: project-management/external-scheduling.md
         - name: Actualizar un proyecto
           href: project-management/update-project.md
         - name: Copiar un proyecto
@@ -914,6 +916,8 @@
           href: project-management/define-project-calendars.md
         - name: Modos de programación
           hreF: project-management/scheduling-modes.md
+        - name: Programación externa
+          href: project-management/external-scheduling.md
         - name: Actualizar un proyecto
           href: project-management/update-project.md
         - name: Copiar un proyecto
