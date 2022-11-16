@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
-ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.openlocfilehash: ac2435c99f3aa9b2a6cdb08d7ce5f6628e7f6ac4
+ms.sourcegitcommit: bea5f9b4066277344add1da3a1567ed56a0cfd31
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709466"
+ms.lasthandoff: 11/02/2022
+ms.locfileid: "9736688"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Actualizar de Project Service Automation a Project Operations
 
@@ -97,7 +97,7 @@ Después de actualizar sus personalizaciones para importar Project Operations de
     Según la cantidad de datos del entorno, la actualización puede tardar varias horas. El equipo central que administra la actualización debe planificar en consecuencia y ejecutar la actualización fuera del horario comercial. En algunos casos, si el volumen de datos es grande, la actualización debe ejecutarse durante el fin de semana. La decisión sobre la programación debe basarse en los resultados de las pruebas en entornos inferiores.
 
 3. Actualice las soluciones personalizadas según corresponda. En este punto, implemente cualquier cambio que haya realizado en sus personalizaciones en la sección [Prueba y refactorización de personalizaciones](#testing-and-refactoring-customizations) de este artículo.
-4. Vaya a **Ajustes** \> **Soluciones** y seleccione para desinstalar la solución **Componentes obsoletos de Project Operations**.
+4. Vaya a **make.powerapps.com**, seleccione su entorno del menú desplegable en la parte superior derecha del portal, seleccione **Soluciones** en el menú de la izquierda, seleccione la solución **Componentes obsoletos de Project Operations** y **Desinstalar**.
 
     Esta solución es una solución temporal que contiene el modelo de datos existente y los componentes que están presentes durante la actualización. Al eliminar esta solución, elimina todos los campos y componentes que ya no se utilizan. De esta manera, ayuda a simplificar la interfaz y facilita la integración y la extensión.
     
