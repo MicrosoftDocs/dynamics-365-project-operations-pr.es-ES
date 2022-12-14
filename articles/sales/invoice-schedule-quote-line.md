@@ -1,27 +1,27 @@
 ---
-title: Facturar programaciones en líneas de oferta basadas en proyecto
+title: Programaciones de facturas en líneas de ofertas de proyectos
 description: Este artículo proporciona información sobre cómo crear programaciones de facturas e hitos para partidas de presupuesto.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1e431bc3586f9fef7a01348555e4ee4e06cc66c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 98006cc2857f01298054c4f0e70781bf4b8b474b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918333"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825775"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>Facturar programaciones en líneas de oferta basadas en proyecto
+# <a name="invoice-schedules-on-project-quote-lines"></a>Programaciones de facturas en líneas de ofertas de proyectos
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-Una línea de oferta basada en proyectos brinda la capacidad de expresar una programación de facturas. Esto es opcional durante la fase de oferta, porque la aplicación no admite la facturación de un proyecto cuando está vinculado a una línea de oferta. La facturación solo se permite después de ganar la oferta. El único impacto posterior de la creación de un cronograma de facturas durante la fase de oferta es que este cronograma de facturas se copia en la línea de contrato basada en el proyecto. Si no crea un cronograma de facturas durante la fase de oferta, podrá hacerlo en la línea de contrato basada en proyecto.
+Una línea de oferta de proyectos brinda la capacidad de expresar una programación de facturas. Esto es opcional durante la fase de oferta, porque la aplicación no admite la facturación de un proyecto cuando está vinculado a una línea de oferta. La facturación solo se permite después de ganar la oferta. El único impacto posterior de la creación de un cronograma de facturas durante la fase de oferta es que este cronograma de facturas se copia en la línea de contrato basada en el proyecto. Si no crea un cronograma de facturas durante la fase de oferta, podrá hacerlo en la línea de contrato basada en proyecto.
 
 En general, el propósito de las programaciones de facturas es permitir la creación automática de borradores de facturas para una línea de contrato basada en proyecto. 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>Cree una programación de facturación de tiempo y material para una línea de oferta basada en proyectos
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-quote-line"></a>Cree una programación de facturación de tiempo y material para una línea de oferta de proyectos
 
 Cuando el método de facturación para una línea de oferta basada en proyecto es Tiempo y material, el sistema genera una programación de facturación basado en fecha. Para generar automáticamente un programa de facturación basado en fecha, complete los siguientes pasos.
 
@@ -36,7 +36,7 @@ Cuando el método de facturación para una línea de oferta basada en proyecto e
     - **Fecha de cierre de la transacción** se establece en el día anterior a la **Fecha de emisión de la factura**.
     - **Estado de ejecución** se establece automáticamente en **No ejecutado**. Cuando el trabajo de creación automática de facturas se ejecute para una determinada fecha de ejecución de facturas, actualizará este campo a **Ejecución correcta** o **Ejecución fallida**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Crear una programación de facturación de precio fijo para una línea de oferta basada en proyecto
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-quote-line"></a>Crear una programación de facturación de precio fijo para una línea de oferta de proyecto
 
 Cuando la línea de oferta basada en proyecto tiene un método de facturación **Fijo**, el sistema crea una programación de facturación basada en hitos. Complete los siguientes pasos para generar automáticamente esta programación para un conjunto fijo de hitos que se distribuyen equitativamente para el período del calendario.
 

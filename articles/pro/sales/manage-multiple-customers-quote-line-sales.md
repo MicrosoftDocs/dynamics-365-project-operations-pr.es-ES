@@ -1,23 +1,23 @@
 ---
-title: Administrar varios clientes en líneas de ofertas basadas en proyectos (lite)
-description: Este artículo describe ćomo administrar varios clientes en líneas de ofertas basadas en proyectos.
+title: Administrar varios clientes en líneas de ofertas de proyectos
+description: Este artículo describe ćomo administrar varios clientes en líneas de ofertas de proyectos.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 70007499ea61e7d81df071cc6d003896d721555b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927809"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824460"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Administrar varios clientes en líneas de ofertas basadas en proyectos (lite)
+# <a name="manage-multiple-customers-on-project-quote-lines"></a>Administrar varios clientes en líneas de ofertas de proyectos
 
 _**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
 
-Las líneas de oferta basadas en proyectos admiten escenarios en los que cada línea de oferta tiene una lista de clientes que la pagan. Esta lista de clientes de la línea de oferta basada en proyectos puede ser la misma que la lista de clientes de la oferta. También puede cambiar la lista de clientes para que sea diferente. Cuando se gana una oferta de proyecto, la lista de clientes de la línea de oferta basada en el proyecto se copia en la línea de contrato basada en proyecto para crear el contrato de proyecto eventual. Los clientes de la oferta basada en el proyecto se copian en el contrato del proyecto.
+Las líneas de oferta de proyectos admiten escenarios en los que cada línea de oferta tiene una lista de clientes que la pagan. Esta lista de clientes de la línea de oferta basada en proyectos puede ser la misma que la lista de clientes de la oferta. También puede cambiar la lista de clientes para que sea diferente. Cuando se gana una oferta de proyecto, la lista de clientes de la línea de oferta basada en el proyecto se copia en la línea de contrato basada en proyecto para crear el contrato de proyecto eventual. Los clientes de la oferta basada en el proyecto se copian en el contrato del proyecto.
 
 Cuando factura el contrato del proyecto eventual, la lista de clientes de la línea de contrato basada en el proyecto tiene prioridad sobre la lista del contrato del proyecto. La lista de clientes del contrato del proyecto solo se utilizan como predeterminadas en las nuevas líneas de contrato del proyecto.
 

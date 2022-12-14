@@ -1,31 +1,29 @@
 ---
-title: Administrar clientes potenciales
+title: Administrar clientes potenciales basados en proyectos
 description: Este artículo proporciona información sobre cómo administrar clientes potenciales basados en proyecto.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 080f53ee2f800b8433d055525852f5c2e21aab77
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2e1ea2ade5302427c02b271cd5d595206b137bd7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920219"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825821"
 ---
-# <a name="manage-leads"></a>Administrar clientes potenciales
+# <a name="manage-project-based-leads"></a>Administrar clientes potenciales basados en proyectos
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
 
 Los clientes potenciales basados en proyectos se pueden gestionar y calificar en Project Operations. El proceso de gestión de clientes potenciales incluye la creación de clientes potenciales basados en el trabajo y la calificación de esos clientes potenciales. 
 
-## <a name="project-sales-leads"></a>Clientes potenciales de proyecto
-
 En la sección **Ventas**, en el panel de navegación izquierdo, abra la página de lista **Clientes potenciales** para ver una lista de todos los registros de clientes potenciales del sistema. La lista de clientes potenciales que se muestra están basados en el trabajo y otros tipos de clientes potenciales que se pueden crear si también tiene Dynamics 365 Sales o aplicaciones de Dynamics 365 Field Service.
 
 Puede crear una vista filtrada para ver solo los clientes potenciales basados en proyectos creando un filtro en el valor **Tipo**. Por ejemplo, puede seleccionar mostrar solo los clientes potenciales basados en el trabajo.
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>Crear un cliente potencial nuevo para una oferta basada en un proyecto
+## <a name="create-a-new-project-based-lead"></a>Crear un nuevo cliente potencial basado en proyectos 
 
 Cuando se califica un cliente potencial basado en un proyecto, se crean una oportunidad y una cuenta. Una oportunidad basada en proyectos es el punto de partida para las actividades de búsqueda de ventas en la fase Oportunidad. Las oportunidades basadas en proyectos tienen capacidades únicas que se requieren para vender el trabajo del proyecto. Entre estas capacidades se incluyen:
 

@@ -1,19 +1,19 @@
 ---
-title: Información general de líneas de contrato basadas en proyectos
-description: Este artículo proporciona información sobre el trabajo con líneas de contrato basadas en proyecto.
+title: Información general de líneas de contrato de proyectos
+description: Este artículo proporciona información sobre el trabajo con líneas de contrtato de proyecto en Project Operations.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d32edac6537a4b0f51e9d2f72cb4a7342606d2c5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f5a529233692a39b0674417cd4ea225e40243086
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931443"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824648"
 ---
-# <a name="project-based-contract-lines-overview"></a>Información general de líneas de contrato basadas en proyectos
+# <a name="project-contract-lines-overview"></a>Información general de líneas de contrato de proyectos
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 

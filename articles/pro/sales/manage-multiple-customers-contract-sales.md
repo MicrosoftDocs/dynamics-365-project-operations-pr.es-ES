@@ -1,19 +1,19 @@
 ---
-title: Administrar varios clientes en contratos de proyectos (lite)
+title: Administrar varios clientes en contratos de proyectos
 description: Este artículo proporciona información sobre cómo gestionar varios clientes en contratos de proyecto.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 17cd464bad81a01f5f334524a542104d6f25717b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 001c3c822a5d1cef6bd85164ef5e63e81719dafb
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917226"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824554"
 ---
-# <a name="manage-multiple-customers-on-project-contracts---lite"></a>Administrar varios clientes en contratos de proyectos (lite)
+# <a name="manage-multiple-customers-on-project-contracts"></a>Administrar varios clientes en contratos de proyectos
 
 _**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
 

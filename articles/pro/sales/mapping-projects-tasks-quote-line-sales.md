@@ -1,23 +1,23 @@
 ---
-title: Asignar proyectos y tareas a una línea de oferta basada en proyecto
-description: Este artículo proporciona información sobre cómo asignar proyectos y tareas a una líena de tarea basada aen proyecto.
+title: Asignar proyectos y tareas a líneas de ofertas de proyectos
+description: Este artículo proporciona información sobre cómo asignar proyectos y tareas a líneas de oferta de proyecto.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917183"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824368"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Asignar proyectos y tareas a una línea de oferta basada en proyecto
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>Asignar proyectos y tareas a líneas de ofertas de proyectos
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
 
-En las líneas de oferta basadas en proyectos, puede asignar las tareas específicas de un proyecto que ya está asociado a una línea de oferta.
+En las líneas de oferta de proyectos, puede asignar las tareas específicas de un proyecto que ya está asociado a una línea de oferta.
 
 Cuando asigna tareas a una línea de oferta, los siguientes elementos que definió en la línea de oferta solo se aplicarán a esas tareas:
 

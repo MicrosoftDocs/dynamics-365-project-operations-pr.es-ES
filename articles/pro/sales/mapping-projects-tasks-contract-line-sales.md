@@ -1,23 +1,23 @@
 ---
-title: Asignar proyectos y tareas a una línea de contrato basada en proyecto (lite)
+title: Asignar proyectos y tareas a una línea de contrato de proyecto
 description: Este artículo proporciona información sobre cómo agregar y eliminar proyectos y tareas en una línea de contrato.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932547"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825080"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Asignar proyectos y tareas a una línea de contrato basada en proyecto 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>Asignar proyectos y tareas a una línea de contrato de proyecto 
 
 _**Se aplica a:** Implementación lite: acuerdo para factura proforma, Project Operations para escenarios basados en recursos/no mantenidos_
 
-En líneas de contrato basadas en proyectos, puede asignar tareas específicas en un proyecto a la línea de contrato.
+En líneas de contrato de proyectos, puede asignar tareas específicas en un proyecto a la línea de contrato.
 
 Cuando asigna tareas específicas a una línea de contrato, el método de facturación, las opciones de cargabilidad, los límites de No exceder y los clientes definidos en la línea de contrato serán aplicables solo a esas tareas específicas.
 
@@ -25,7 +25,7 @@ Si tiene un escenario en el que una fase de un proyecto, por ejemplo, la fase de
 
 Todas las demás fases de la estructura de desglose del trabajo del proyecto (WBS) se pueden asociar a la línea de contrato basada en tiempo y material.
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>Asociar tareas a líneas de contrato basadas en proyecto
+## <a name="associate-tasks-to-project-contract-lines"></a>Asociar tareas a líneas de contrato de proyecto
 
 Las tareas se pueden asociar a líneas de contrato desde la pestaña **Tareas con cargo** en la página **Línea de contrato** o de la pestaña **Facturación de tareas** en la página **Proyecto**.
 

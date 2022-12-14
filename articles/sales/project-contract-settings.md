@@ -1,17 +1,17 @@
 ---
-title: Configuración de contrato de proyecto
-description: Este artículo proporciona información sobre los campos que afectan las líneas de contrato y la información sobre el contrato que se resume en todos los elementos de línea.
+title: Detalles del encabezado para contratos basados en proyectos
+description: Este artículo proporciona información sobre los campos e información sobre los contratos basados en proyectos en Project Operations.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1c3317eb36a98e14074fb504cfac5ff6e25fa3a0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 5839a812dbb3a61fcf271ae6e80e22bfe61f7e14
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921599"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824413"
 ---
 # <a name="header-details-for-project-based-contracts"></a>Detalles del encabezado para contratos basados en proyectos
 

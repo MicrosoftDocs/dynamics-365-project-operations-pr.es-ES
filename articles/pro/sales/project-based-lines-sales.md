@@ -1,29 +1,29 @@
 ---
-title: Líneas de oportunidad basadas en proyectos (lite)
+title: Líneas de oportunidad de proyecto
 description: Este artículo proporciona información sobre las líneas de oportunidad basadas en proyecto. (Pro)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b5a8fc32ca903d7da2e090137bed358b364902a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e4f67bd9b7d51559e2942e9005b8f5f9187b1f78
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914285"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824977"
 ---
-# <a name="project-based-opportunity-lines---lite"></a>Líneas de oportunidad basadas en proyectos (lite)
+# <a name="project-opportunity-lines"></a>Líneas de oportunidad de proyecto 
 
 _**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
 
-Las líneas de oportunidad basadas en proyectos solo están disponibles en oportunidades basadas en proyectos. Los registros de oportunidad basada en proyectos tienen el valor del campo **Tipo** establecido en **Basado en trabajo**.
+Las líneas de oportunidad de proyectos solo están disponibles en oportunidades basadas en proyectos. Los registros de oportunidad basada en proyectos tienen el valor del campo **Tipo** establecido en **Basado en trabajo**.
 
-Las líneas de oportunidad basadas en proyectos son los elementos de línea que se entregarán al cliente mediante un proyecto. Sin embargo, un proyecto no puede vincularse a una línea de oportunidades basada en proyectos. Los proyectos se pueden vincular a artículos de línea desde la fase **Oferta** en adelante, porque normalmente la oportunidad ocurre en una fase temprana del ciclo de vida de una oferta. La determinación de cuántos proyectos se utilizarán para entregar el trabajo al cliente es una decisión que se toma más adelante en la fase de ventas. Puede usar la fase de oportunidad para identificar los componentes de entrega discretos para el cliente. Las decisiones relacionadas con el número real de proyectos utilizados para entregar estos componentes se pueden postergar hasta que se conozca más información sobre el trabajo en sí.
+Las líneas de oportunidad de proyectos son los elementos de línea que se entregarán al cliente mediante un proyecto. Sin embargo, un proyecto no puede vincularse a una línea de oportunidades basada en proyectos. Los proyectos se pueden vincular a artículos de línea desde la fase **Oferta** en adelante, porque normalmente la oportunidad ocurre en una fase temprana del ciclo de vida de una oferta. La determinación de cuántos proyectos se utilizarán para entregar el trabajo al cliente es una decisión que se toma más adelante en la fase de ventas. Puede usar la fase de oportunidad para identificar los componentes de entrega discretos para el cliente. Las decisiones relacionadas con el número real de proyectos utilizados para entregar estos componentes se pueden postergar hasta que se conozca más información sobre el trabajo en sí.
 
-A continuación, se muestran los campos de una línea de oportunidades basada en proyectos:
+A continuación, se muestran los campos de una línea de oportunidades de proyectos:
 
-| **Campo** | **Ubicación** | **Descripción** | **Impacto posterior** |
+| **Campo** | **Location** | **Description** | **Impacto posterior** |
 | --- | --- | --- | --- |
 | Tipo de producto | Pestaña General (oculta) | Puede seleccionar una de las siguientes opciones:</br>- Servicio basado en proyectos (disponible solo cuando Dynamics 365 Project Operations está instalado)</br>- Producto (disponible solo cuando están instalados Project Operations y Dynamics 365 Sales) | El valor de este campo se establece en **Servicio basado en proyectos** cuando crea una línea de oportunidad basada en el proyecto a partir de la cuadrícula de líneas basadas en el proyecto en la oportunidad. <br> Si cambia o anula este valor, la funcionalidad del proyecto no se habilitará en sus líneas de pedido basadas en proyectos. |
 | Oportunidad | Pestaña General | Este campo es de solo lectura y hace referencia al registro de oportunidad principal al que pertenece este artículo de línea. | No hay impacto posterior a partir de este campo. |

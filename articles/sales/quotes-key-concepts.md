@@ -1,8 +1,8 @@
 ---
-title: 'Ofertas: conceptos clave'
-description: Este artículo proporciona información sobre cotizaciones de proyectos y cotizaciones de ventas disponibles en Project Operations.
+title: Conceptos únicos para ofertas basadas en proyectos
+description: Este artículo proporciona información sobre la copia de ofertas de proyectos en Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 09/18/2020
+ms.date: 12/02/2022
 ms.topic: article
 ms.prod: ''
 audience: Application User
@@ -15,117 +15,91 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 89867cfbe92f47d58b16da40b62d3d9dd6a15b64
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912537"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824373"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Conceptos únicos para ofertas basadas en proyectos
 
-_**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
+_**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
 
-En Dynamics 365 Project Operations, hay dos tipos de ofertas, proyecto y ventas. A continuación se indican las diferencias entre estos dos tipos de ofertas:
+Antes de comenzar a utilizar presupuestos de proyectos en Microsoft Dynamics 365 Project Operations, debe conocer los siguientes conceptos clave.
 
-- **Cuadrículas para elementos de línea**: En una oferta de ventas, solo hay una cuadrícula para los elementos de línea. En una oferta de proyecto, hay dos cuadrículas para elementos de línea. Una cuadrícula es para líneas de proyecto y la otra es para líneas de producto.
-- **Activación y revisiones**: Las ofertas de ventas respaldan la activación y las revisiones. Estos procesos no son compatibles con una oferta de proyecto.
-- **Pedidos adjuntos**: Puede adjuntar varios pedidos a una oferta de ventas. Solo se puede adjuntar un contrato de proyecto a una oferta de proyecto.
-- **Ganar una oferta**: Cuando gana una oferta de venta, la oportunidad relacionada puede permanecer abierta. Tras ganar una oferta de proyecto, la oportunidad relacionada se cierra.
-- **Campos y conceptos**: Una oferta de ventas no incluye algunos campos y conceptos que se incluyen en una oferta de proyecto. Entre los campos se incluyen **Unidad de contratación**, **Administrador de cuentas** y **Nombre de contacto de facturación**.  
-- **Tipo**: Las ofertas de ventas y de proyecto también se identifican mediante el campo basado en un conjunto de opciones, **Tipo**. Para una oferta de ventas, este campo tiene el valor **Basado en artículo**. Para una oferta de proyecto, tiene el valor **Basado en trabajo**.
+## <a name="owning-company"></a>Empresa propietaria
 
-Este artículo se centra en los detalles de las ofertas de proyecto.
+La empresa propietaria representa a la entidad jurídica propietaria de la entrega del proyecto. El cliente en la cotización debe ser un cliente válido en esa entidad legal en aplicaciones de finanzas y operaciones. La moneda de la empresa propietaria y la moneda de la unidad de contratación seleccionada en una cotización basada en proyectos deben coincidir.
 
-Una oferta del proyecto en Project Operations puede tener varios elementos de línea o varias líneas de oferta. De hecho, una oferta de proyecto tiene dos cuadrículas para elementos de línea. Una cuadrícula es para las líneas basadas en proyecto que permiten las estimaciones detalladas. La otra cuadrícula es para las líneas basadas en productos que utilizan un precio unitario sencillo y un enfoque basado en la cantidad.
+## <a name="contracting-unit"></a>Unidad de contratación
 
-- **Basado en proyecto**: El valor ofertado se determina tras estimar la cantidad de trabajo requerida. Puede estimar el trabajo en un nivel alto, directamente como detalles de línea debajo de cada línea de oferta, o según estimaciones realizadas desde cero utilizando un proyecto y un plan de proyecto. Las líneas de oferta basadas en proyectos solo se encuentran en ofertas basadas en proyectos creadas con Project Operations. Este tipo de línea de oferta es un formulario personalizado de las líneas de oferta fuera de catálogo que están disponibles en Microsoft Dynamics 365 Sales.
+Una unidad contratante representa la división o práctica propietaria de la entrega del proyecto. Puede configurar los costes de recursos de cada unidad de contratación. Cuando especifique los costes del recurso para un recurso de una unidad de contratación, también puede configurar diferentes tarifas de coste para los recursos que la unidad de contratación toma prestados, o para otras divisiones o prácticas dentro de la empresa. Estas tasas de costes se conocen como precios de transferencia, préstamos de recursos o precios de cambio. Cuando configura el coste de pedir prestados recursos de otras divisiones, puede configurar las tarifas de coste en la moneda de la división que presta.
 
-- **Basado en producto**: el valor ofertado se determina en función de la cantidad de unidades vendidas y del precio de venta unitario. El producto de una basada en producto puede provenir de un catálogo de productos de ventas, o bien puede ser un producto que usted defina. Este tipo de línea de oferta también está disponible en ofertas basadas en proyecto que se crean con Project Operations.
+## <a name="cost-currency"></a>Divisa de coste
 
-El importe de una oferta es el total de las líneas basadas en producto y las líneas basadas en proyecto.
+La divisa de coste en Project Operations es la divisa en la que se informan los costes. Esta moneda se deriva de la moneda adjunta al campo **Unidad de contratación** de la oferta, el contrato y el proyecto. Los costes de un proyecto se pueden registrar en cualquier divisa. Sin embargo, existe una conversión de moneda de la moneda en que se registraron los costes a la moneda de coste del proyecto.
 
-> [!NOTE]
-> Las ofertas y las líneas de oferta no son necesarias en Project Operations. Puede iniciar el proceso de proyecto con un contrato de proyecto (proyecto vendido). Sin embargo, siempre necesitará una oportunidad, independientemente de si comienza con una oferta o con un contrato de proyecto.
+Debido a que las tasas de cambio en la plataforma Dataverse no pueden tener vigencia en una fecha determinada, los totales en pantalla del coste podría cambiar con el tiempo si actualiza las tasas de cambio de moneda. Sin embargo, los costes registrados en la base de datos permanecen sin cambios porque los importes se almacenan en la moneda en la que se incurrieron.
 
-## <a name="project-based-quote-lines"></a>Líneas de ofertas basadas en proyectos
+## <a name="sales-currency"></a>Divisa de ventas
 
-En Project Operations, una línea de oferta basada en proyecto dispone de los métodos de facturación siguientes:
+La moneda de ventas en Project Operations es la moneda en la que se registran y muestran los importes de ventas estimados y reales. También es la moneda en la que se factura al cliente la transacción. Para una oferta de proyecto, se establece una moneda de venta por defecto en el registro de cuenta o cliente y se puede cambiar cuando se crea la oferta. En cambio,  no se puede cambiar la moneda de ventas una vez guardada la oferta. Las listas de precios de productos y proyectos predeterminadas se basan en la moneda de venta de la oferta.
 
-- Tiempo y material
-- Precio fijo
+A diferencia de los costes, los valores de ventas **solo** se pueden registrar en la moneda de ventas.
 
-### <a name="time-and-material"></a>Tiempo y material
+## <a name="billing-method"></a>Método de facturación
 
-El método de facturación Tiempo y material se basa en el consumo. Cuando seleccione este método de facturación, se facturará al cliente a medida que el proyecto vaya incurriendo en costes. Las facturas se crean con una frecuencia periódica basada en la fecha. Durante el proceso de ventas, el valor ofertado de un componente de tiempo y material solo ofrece al cliente una estimación del coste final. El proveedor no se compromete a completar el proyecto según el valor ofertado exacto. Los componentes de tiempo y material aumentan el riesgo del cliente. Por ello, es posible que los clientes deseen negociar cláusulas no superables adicionales para minimizar el riesgo. Project Operations no permite establecer cláusulas no superables.
+Los proyectos suelen tener modelos de contratación de tarifa fija y basados en el consumo. En Project Operations, el modelo de contratación de un proyecto está representado por el método de facturación. El método de facturación tiene dos valores: tiempo y material y precio fijo.
 
-### <a name="fixed-price"></a>Precio fijo
+- **Tiempo y material:** un modelo de contrato basado en el consumo donde cada coste incurrido está respaldado por los ingresos correspondientes. A medida que estime o incurra en más costos, las ventas estimadas y reales correspondientes también aumentan. Puede especificar límites que no deben excederse en las líneas de oferta que tienen este método de facturación. De esta forma, puede limitar los ingresos reales. Los ingresos estimados no se ven afectados por los límites que no se deben exceder.
+- **Precio fijo**: un modelo de contrato de tarifa fija donde los valores de venta son independientes de los costes incurridos. El valor de venta es fijo y no cambia a medida que estima o incurre en más costes.
 
-En el método de facturación de precio fijo, el proveedor se compromete a entregar el proyecto al cliente a un coste fijo. De este modo, se factura al cliente el valor ofertado de la línea de oferta de precio fijo independientemente de los costes en los que incurra el proveedor para proporcionar dicha línea de oferta. El valor de la línea de oferta de precio fijo se factura de una de las maneras siguientes: 
+## <a name="project-price-lists"></a>Listas de precios de proyectos
 
-- Como importe de suma total al principio o al final del proyecto, o bien cuando se alcanza un hito de proyecto. 
-- Con una frecuencia basada en fechas de plazos iguales del valor fijo de la línea de oferta. Estos plazos se conocen como hitos periódicos.
-- En plazos que tienen un valor monetario que se alinea con el progreso del trabajo o con hitos específicos logrados en el proyecto. En este caso, el valor de cada plazo puede variar; sin embargo, todos deben sumar el valor fijo de la línea de oferta.
+Las listas de precios del proyecto son listas de precios que se utilizan para introducir los precios predeterminados, no las tarifas de coste, para el tiempo, los gastos y otros componentes relacionados con el proyecto. Puede haber varias listas de precios, y cada lista puede tener su propia fecha de vigencia para cada presupuesto de proyecto. En Project Operations no se admite la superposición de validez de fechas en las listas de precios de proyecto.
 
-Project Operations admite los tres tipos de programaciones de facturación para las líneas de oferta de precio fijo.
+## <a name="product-price-lists"></a>Listas de precios de productos
 
-## <a name="transaction-classification"></a>Clasificación de transacciones
+Las listas de precios de productos son listas de precios que se utilizan para introducir los precios predeterminados, no las tarifas de coste, para las líneas basadas en productos de una oferta. Solo hay una lista de precios de productos por oferta.
 
-Las organizaciones de servicios profesionales suelen ofertar y facturar a sus clientes según una clasificación de costes. Los costes se representan con las clasificaciones de transacciones siguientes:
+## <a name="transaction-classes"></a>Clases de transacciones
 
-- **Tiempo**: esta clasificación representa el coste de la mano de obra o el tiempo que los recursos humanos dedicaron a un proyecto.
-- **Gasto**: esta clasificación representa el resto de gastos de un proyecto. Puesto que los gastos se pueden clasificar de manera general, la mayoría de las organizaciones crean subcategorías, como, por ejemplo, viajes, alquiler de vehículos, habitaciones de hotel o material de oficina.
-- **Tarifa**: esta clasificación representa gastos generales variados, sanciones u otros elementos que se cobran al cliente. 
-- **Impuesto**: esta clasificación representa los importes de los impuestos que los usuarios agregan mientras especifican gastos.
-- **Transacción material**: esta clasificación representa datos reales de líneas de producto de una factura de proyecto confirmada.
-- **Hito**: esta clasificación se utiliza en la lógica de facturación de precio fijo.
+Project Operations admite cuatro tipos de clases de transacciones:
 
-Puede asociar una o varias de estas clasificaciones de transacciones a cada línea de oferta. Tras ganar una oferta, la asignación entre las clasificaciones de transacciones y la línea de oferta se transfiere a la línea de contrato.
-  
-Por ejemplo, una oferta puede contener las siguientes dos líneas de oferta: 
+- Tiempo
+- Gasto
+- Material
+- Tarifa
 
-- Trabajo de consultoría que usa un método de facturación de tiempo y material en el que se aplican clasificaciones de transacciones de cuota y tiempo. Por ejemplo, todas las transacciones de cuota y tiempo del proyecto de ejemplo **Implementación de Dynamics AX** se facturan al cliente en función del tiempo y los materiales utilizados. 
-- Gastos de desplazamiento relacionados que utilizan un método de facturación de precio fijo. Por ejemplo, todos los gastos de desplazamientos del proyecto **Implementación de Dynamics AX** se facturan a un valor monetario fijo.
+Los valores de costes y ventas se pueden estimar e incurrir en las clases de transacciones **Tiempo**, **Gastos** y **Material** . **Tarifa** es una clase de transacción solo para ingresos.
 
-> [!NOTE]
-> La combinación de las clasificaciones de transacciones y del proyecto de **Tiempo**, **Gasto** y **Tarifa** asociados a una línea de oferta o a la línea de contrato debe ser única. Si se asocia la misma combinación de clases de transacciones y proyecto a más de una línea de contrato o línea de oferta, Project Operations no funcionará correctamente.
+## <a name="work-entities-and-billing-entities"></a>Entidades de trabajo y entidades de facturación
 
-## <a name="billing-types"></a>Tipo de facturación
+Los proyectos y tareas son entidades que representan el trabajo. Las líneas de Oferta y las líneas de Contrato son entidades que representan la facturación. Puede vincular diferentes entidades de trabajo a opciones de facturación asociándolas con líneas de Oferta o Contrato.
 
-El campo **Tipo de facturación** define el concepto de imputabilidad. Se trata de un conjunto de opciones que puede tener los valores siguientes:
+## <a name="multi-customer-deals"></a>Ofertas para varios clientes
 
-- **Imputable**: el coste acumulado por este rol o esta categoría es un coste directo que determina la ejecución del proyecto y el cliente debe pagar por este trabajo. El pago se puede administrar como acuerdo de tiempo y materiales o de precio fijo. Sin embargo, al empleado que invierta este tiempo recibirá se le abonará el uso facturable de este tiempo.
-- **No imputable**: el coste acumulado por este rol o esta categoría se considera un coste directo que determina la ejecución del proyecto a pesar de que el cliente no reconozca este hecho y no vaya a pagar por este trabajo. Al empleado que invierta este tiempo no se le abonará ningún uso facturable por este tiempo.
-- **Gratis**: el coste acumulado por este rol o esta categoría se considera un coste directo que determina la ejecución del proyecto y el cliente así lo reconoce. Al empleado que invierta este tiempo se le abonará el uso facturable por este tiempo. Sin embargo, este coste no se cobrará al cliente.
-- **No disponible**: esta opción se utiliza para los costes en los que se incurre en proyectos internos que no requieren seguimiento.
+Los acuerdos con varios clientes se producen cuando hay más de un cliente por factura. A continuación se incluyen algunos ejemplos típicos:
 
-## <a name="invoice-schedule"></a>Programación de facturas
+- **Empresas de fabricantes de equipos originales (OEM) y sus socios:** los socios y revendedores venden un producto que incluyen servicios de valor agregado. Durante una oferta particular con un cliente, el OEM normalmente ofrece financiar una parte del proyecto.
+- **Proyectos del sector público:** varios departamentos de una administración pública local acuerdan financiar un proyecto y se facturan de acuerdo con una división previamente acordada. Por ejemplo, un distrito escolar y la ciudad o el departamento de administración pública local acuerdan financiar la construcción de una piscina.
 
-Una programación de facturas es una serie de fechas en las que se emiten facturas de un proyecto. Puede crear opcionalmente una programación de facturas en una línea de oferta. Cada línea de oferta puede tener su propia programación de facturas. Para crear una programación de facturas, debe proporcionar los valores de atributo siguientes:
+## <a name="invoice-schedules"></a>Programar facturas
 
-- Una fecha de inicio de la facturación 
-- Una fecha de entrega que representa la fecha de finalización de facturación del proyecto
-- Una frecuencia de factura
+Los programas de facturación son específicos para cada línea de oferta y son opcionales. Los programas de facturas se crean en función de determinadas fechas de inicio y finalización, así como la frecuencia de facturación. Se usan durante la etapa de contrato cuando se configura el proceso de creación automática de facturas. Durante la etapa de oferta, las programaciones de factura son opcionales. Si se crean en la fase oferta, se copian en el contrato del proyecto que se crea cuando se gana una oferta del proyecto.
 
-Estos tres valores de atributos se utilizan para generar un conjunto provisional de fechas que se puede utilizar como base para establecer la facturación.
+## <a name="differences-from-dynamics-365-sales-quotes"></a>Diferencias con las ofertas de Dynamics 365 Sales
 
-## <a name="invoice-frequency"></a>Frecuencia de factura
+Las ofertas de Project Operations se basan en las ofertas de Dynamics 365 Sales. Sin embargo, existen algunas diferencias importantes en la funcionalidad que debe conocer:
 
-La frecuencia de facturación es una entidad que almacena los valores de atributos que ayudan a expresar la frecuencia con la que se crean las facturas. Los siguientes atributos expresan o definen la entidad Frecuencia de factura:
+- Las ofertas de Project Operations tienen dos tipos diferentes de líneas, una para proyectos y otra para productos.
+- Las ofertas de Project Operations tienen su propia página y elementos de interfaz de usuario (IU), reglas de negocio, lógica de negocio en complementos y scripts del lado del cliente que las hacen diferentes de las ofertas de Ventas.
+- En Sales, ouede adjuntar varios pedidos a una oferta de ventas. En Project Operations, solo puede adjuntar un contrato de proyecto a una oferta de proyecto.
+- Cuando gana una oferta de venta, la oportunidad relacionada puede permanecer abierta. Tras ganar una oferta de proyecto, la oportunidad relacionada se cierra.
+- Las ofertas de ventas no incluyen algunos campos y conceptos que se incluyen en una oferta de proyecto. Entre los campos se incluyen **Unidad de contratación**, **Administrador de cuentas** y **Nombre de contacto de facturación**.
+- Las ofertas de ventas y de proyecto también se identifican mediante el campo **Tipo** basado en un conjunto de opciones. Para una oferta de ventas, el valor de este campo es **Basado en artículo**. Para una oferta de proyecto, el valor es **Basado en trabajo**.
 
-- **Período**: los períodos pueden ser mensuales, quincenales y semanales. 
-- **Ejecuciones por período**: para los períodos semanales y quincenales, puede definir solo una ejecución por período. Para los períodos mensuales, puede definir entre una y cuatro ejecuciones por período. 
-- **Días de ejecución**: días en que se debe ejecutar la facturación. Puede configurar este atributo de dos maneras:
-  - **Días de la semana**: por ejemplo, puede especificar que la facturación se ejecute todos los lunes o cada segundo lunes. Es posible que los clientes que necesitan establecer la ejecución de la facturación en un día laboral prefieran este tipo de configuración. 
-  - **Días naturales**: por ejemplo, puede especificar que la facturación se ejecute los días siete y veintiuno de cada mes. Algunas organizaciones pueden preferir esta tipo de configuración porque ayuda a garantizar que la facturación se ejecute según una programación fija todos los meses.
-  
-### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Programación de facturas para una línea de oferta de precio fijo
-
-Para una línea de oferta de precio fijo, puede utilizar la cuadrícula **Programación de facturas** para crear los hitos de facturación que igualan el valor de línea de oferta.
-
-- Para crear hitos de facturación divididos por igual, seleccione una frecuencia de facturación, escriba la fecha de inicio de facturación en la línea de oferta y seleccione **Fecha de finalización solicitada** para la oferta en la sección **Resumen** del encabezado de la oferta. A continuación seleccione **Generar hitos periódicos** para crear hitos divididos por igual según la frecuencia de factura seleccionada. 
-- Para crear un hito de facturación de suma total, cree un hito y después introduzca el valor de línea de oferta como importe de hito.
-- Para crear hitos de facturación basados en tareas específicas en el plan de proyecto, cree un hito y asígnelo al elemento de programación del proyecto en la interfaz de usuario del hito de facturación.
-
+Debido a estas diferencias, no recomendamos que use ofertas de Sales y Project Operations de manera intercambiable.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

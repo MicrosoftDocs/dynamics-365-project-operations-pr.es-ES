@@ -1,21 +1,21 @@
 ---
 title: Líneas de ofertas basadas en productos de gestión de costes
 description: Este artículo proporciona información sobre cómo aplicar un precio de costo a una línea de cotización basada en productos.
-author: ruhercul
+author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
-ms.author: ruhercul
-ms.openlocfilehash: 23eb3d29081769347d62098534a9863fd28fa90c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.author: rumant
+ms.openlocfilehash: a8b3569ff217f6fc62606dae4292be14f9d3358c
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932593"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825633"
 ---
 # <a name="costing-product-based-quote-lines"></a>Líneas de ofertas basadas en productos de gestión de costes
 
-_**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
+_**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
 
 
 Líneas de cotización basadas en productos en Dynamics 365 Project Operations también tengo un campo **Precio de coste** campo. Este campo se usa para seguir el precio de coste del producto en la línea de oferta y para los cálculos de rentabilidad posteriores.

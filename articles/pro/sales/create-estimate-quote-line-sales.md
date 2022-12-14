@@ -1,21 +1,21 @@
 ---
-title: Estimación de una línea de oferta basada en proyecto
-description: Este artículo proporciona información sobre cómo crear una estimación en una línea de oferta basada en proyecto.
+title: Calcular una línea de oferta de proyecto
+description: Este artículo proporciona información sobre cómo crear una estimación en una línea de oferta de proyecto.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914377"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826009"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>Estimación de una línea de oferta basada en proyecto
+# <a name="estimate-a-project-quote-line"></a>Calcular una línea de oferta de proyecto
 
-_**Se aplica a:** implementación simplificada: de oferta a facturación proforma_
+_**Se aplica a:** Implementación lite: acuerdo para factura proforma, Project Operations para escenarios basados en recursos/no mantenidos_
 
 Una línea de oferta basada en proyecto tiene detalles que ayudan a estimar el coste y los ingresos potenciales del trabajo involucrado para entregar la línea de oferta.
 
@@ -24,7 +24,7 @@ Para estimar una línea de oferta basada en proyecto, en la línea de oferta bas
 - Crear manualmente la estimación directamente en la línea de oferta utilizando los detalles de la línea de oferta. 
 - Cree un proyecto y un plan de proyecto, y luego asocie el proyecto y las tareas del proyecto a la línea de oferta. Se habilitará el proceso para importar las estimaciones del plan del proyecto a la línea de oferta en función de la información que haya proporcionado.
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Crear estimaciones directamente en una línea de oferta basada en proyecto
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>Crear estimaciones directamente en una línea de oferta de proyecto
 
 Para crear una estimación en una línea de oferta basada en proyecto, seleccione la pestaña **Detalle de la línea de oferta**. El artículo de línea que cree en esta pestaña resumirá el valor ofertado para esta línea de oferta. 
 
@@ -68,8 +68,7 @@ Moneda del detalle de la línea de oferta para los valores predeterminados de co
 
 Los cálculos de rentabilidad convierten el importe en los detalles de línea de oferta para costes y ventas en la divisa base del entorno, para informar del margen estimado general en la oferta.
 
-> [!NOTA
-> > Pueden producirse errores de redondeo de divisas y márgenes modificados debido a la falta de tipos de cambio vigentes en la fecha. Utilice estos cálculos solo en contratos de proyectos, ya que son aproximaciones y no para informes legales reales o de otro tipo que requieran una mayor precisión de redondeo y conocimiento de la fecha de vigencia para los tipos de cambio.
+> [!NOTA Pueden producirse errores de redondeo de divisas y márgenes modificados debido a la falta de tipos de cambio vigentes en la fecha. Utilice estos cálculos solo en contratos de proyectos, ya que son aproximaciones y no para informes legales reales o de otro tipo que requieran una mayor precisión de redondeo y conocimiento de la fecha de vigencia para los tipos de cambio.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

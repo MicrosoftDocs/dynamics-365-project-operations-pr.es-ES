@@ -1,23 +1,23 @@
 ---
-title: Administrar varios clientes en una oferta de proyecto
+title: Administrar varios clientes en una oferta basada en proyecto
 description: Este artículo proporciona información sobre cómo trabajar en presupuestos con varios clientes que financiarán el proyecto.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928223"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825170"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>Administrar varios clientes en una oferta de proyecto
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>Administrar varios clientes en una oferta basada en proyecto
 
-_**Se aplica a:** Project Operations para escenarios basados en recursos/no mantenidos, implementación lite: del acuerdo a la factura proforma_
+_**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
 
-Las ofertas del proyecto respaldan el escenario en el que la propuesta involucra a varios clientes que financiarán la oferta. La pestaña **Resumen** de la oferta tiene el campo **Cliente potencial**, que identifica al cliente principal de la oferta. Otros clientes de la oferta se pueden configurar en la pestaña **Clientes** de la oferta del proyecto.
+Las ofertas basadas en proyecto respaldan el escenario en el que la propuesta involucra a varios clientes que financiarán la oferta. La pestaña **Resumen** de la oferta tiene el campo **Cliente potencial**, que identifica al cliente principal de la oferta. Otros clientes de la oferta se pueden configurar en la pestaña **Clientes** de la oferta del proyecto.
 
 Todos los clientes de oferta de la pestaña **Clientes** de la oferta del proyecto sirven de forma predeterminada como clientes de línea de oferta en cualquier **nueva** línea de oferta basada en el proyecto creada para la oferta. Las líneas de oferta existentes basadas en proyectos no heredarán los nuevos registros de clientes de oferta creados después de ellas.
 

@@ -1,23 +1,23 @@
 ---
-title: Cerrar una oferta
+title: Cerrar ofertas basadas en proyectos
 description: Este artículo proporciona información sobre el cierre de cotizaciones en Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 45bdfe5fb9eddb8f96ed1bc017596c8fe436245e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b35417d4258a1e837fdf7a61bbcc303ec04a900
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931903"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824239"
 ---
-# <a name="close-a-quote"></a>Cerrar una oferta
+# <a name="close-project-based-quotes"></a>Cerrar ofertas basadas en proyectos
 
 _**Se aplica a:** Project Operations para escenarios basados en recursos/no en existencias_
 
-Las ofertas de proyectos se pueden cerrar como Ganadas o Perdidas. Como las funciones Activar y Revisar no se admiten en las ofertas de Microsoft Dynamics 365 Project Operations, puede cerrar un borrador de oferta.
+Las ofertas de proyectos se pueden cerrar como **ganadas** o **perdidas**. 
 
 ## <a name="close-a-quote-as-won"></a>Cierre de oferta como Ganada
 
