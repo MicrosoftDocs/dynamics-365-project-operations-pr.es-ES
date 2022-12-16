@@ -846,7 +846,7 @@
               items:
                 - name: Contratos basados en pagos a cuenta y anticipos
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Configurar una programación de anticiposConfigurar una programación de anticipos
+                - name: Configurar una programación de anticipos
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Crear un anticipo ad hoc en un contrato de proyecto
                   href: pro/sales/create-ad-hoc-advance-sales.md
@@ -1162,7 +1162,7 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Configurar la automatización de facturas de proyecto
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
-    - name: Actualizar
+    - name: Actualizado
       items:
         - name: Consideraciones de actualización para aprobaciones modernas
           href: upgrade/upgrade-considerations-modern-approvals.md
